@@ -1,0 +1,3988 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+            <titleStmt>
+                <title>IT-NB IB2 ff. 28-30 White Monastery Manuscript YA 525-530</title>
+                <author>Shenoute</author>
+            </titleStmt>
+            <publicationStmt>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/">Licensed under a Creative Commons-Attribution 3.0 licence.</licence>
+                    <licence target="http://coptic.pacific.edu">Coptic SCRIPTORIUM</licence>
+                </availability>
+            </publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<!--description of the entire manuscript codex-->
+					<msIdentifier>
+						<!--manuscript name corresponds to Tito Orlandi's and the CMCL's catalogue identifiers for White Monastery manuscripts-->
+						<msName>MONB.YA</msName>
+					    <!--need altidno or other tag for Trismegistos number with link-->
+					</msIdentifier>
+				    <!--need way to identify that this codex is a copy of Shenoute's Canons vol. 3-->
+				    <history>
+						<origin>
+							<objectType>Codex</objectType>
+							<country>Egypt</country>
+							<placeName>Atripe</placeName>
+							<origPlace>White Monastery</origPlace>
+							<origDate notBefore-custom="0900" notAfter-custom="1200" precision="medium">Between 900 and 1200 C.E.</origDate>
+						</origin>
+					</history>
+					<!--information about this fragment at its current repository-->
+                	<msPart>
+                    	<msIdentifier>
+                        	<repository>Biblioteca Nazionale di Napoli</repository>
+                        	<collection>Borgia Collection</collection>
+							<idno>IB2 ff. 28-30</idno>
+						</msIdentifier>
+                	    <msContents>
+                	        <msItem>
+                	            <locus scheme="YA" from="525" to="530">525-530</locus>
+                	            <textLang mainLang="cop">Sahidic Coptic</textLang>
+                	            <title>Abraham Our Father</title>
+                	            <incipit></incipit>
+                	        </msItem>
+                	    </msContents>
+					</msPart>
+				</msDesc>		
+                <listBibl>
+                    <bibl>
+                        <title level="m">Sinuthii Archimandritae: Vita et Opera Omnia</title>
+                        <author>
+                            <forename>Johannes</forename>
+                            <surname>Leipoldt</surname>
+                        </author>
+                        <series>
+                            <title level="s">Corpus Scriptorum Christianorum Orientalium</title>
+                            <biblScope type="vol">73</biblScope>
+                        </series>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>Imprimerie Nationale</publisher>
+                        <date>1906-1913</date>
+                        <biblScope type="vol">4</biblScope>
+                        <biblScope type="pages">28-31</biblScope>
+                    </bibl>
+                    <bibl>
+                        <title level="m">Oeuvres de Schenoudi: texte copte et traduction
+                            française</title>
+                        <author>
+                            <forename>Émile</forename>
+                            <surname>Amélineau</surname>
+                        </author>
+                        <pubPlace>Paris</pubPlace>
+                        <publisher>E. Leroux</publisher>
+                        <date>1907-1914</date>
+                        <biblScope type="vol">1</biblScope>
+                        <biblScope type="pages">20-25</biblScope>
+                    </bibl>
+                </listBibl>
+			</sourceDesc>
+		</fileDesc>
+        <encodingDesc>
+			<p>This file encoded to comply with EpiDoc Guidelines and Schema. <ref>http://www.stoa.org/epidoc/gl/5</ref></p>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+				<!--need an identifier for SAHIDIC dialect-->
+				<language ident="cop">Sahidic Coptic</language>
+            </langUsage>
+            <creation>
+                <title>Abraham our Father</title>
+                <date notBefore-custom="0380" notAfter-custom="0465" precision="medium">380-465
+                    C.E.</date>
+            </creation>
+        </profileDesc>
+        <revisionDesc>
+            <change n="1.0.1" who="AlexDickerson" when="2013-02-28">Created file</change>
+            <change n="1.0.2" who="LaurenMcDermott" when="2013-06-05">Licence, bibliography</change>
+            <change n="1.0.3" who="AmirZeldes" when="2013-10-18">Created body file, annotations, added w units with part-of-speech in type attributes, s units,
+                and normalization information in lemma attribute</change>
+            <change n="1.0.3" who="CarolineTSchroeder" when="2013-11-26">Edited annotations, metadata for standardization</change>
+        </revisionDesc>
+	</teiHeader>
+<text>
+<body>
+<ab>
+<phr>
+<w type="PREP">
+Ⲉⲧⲃⲉ</w>
+</phr>
+<phr>
+<w type="PDEM">
+ⲡⲁⲓ̈</w>
+</phr>
+<phr>
+<w type="ART">
+ⲟⲩ</w>
+<w type="N">
+ⲙ︤ⲛ︦ⲧ︥<lb/>ⲁⲑⲏⲧ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛⲁ</w>
+<w type="PPERO">
+ⲛ</w>
+</phr>
+<phr>
+<w type="COP">
+ⲧⲉ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ⲟⲩ</w>
+<w type="N">
+ⲙ︤ⲛ︦ⲧ︥ⲃⲗ<lb/>ⲗⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="ACOND">
+ⲉⲣϣⲁⲛ</w>
+</phr>
+<phr>
+<w type="N">
+ϩⲟⲓ̈<lb/>ⲛⲉ</w>
+</phr>
+<phr>
+<w type="ADV">
+ϩⲣⲁⲓ̈</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄ϩⲏⲧ︤</w>
+<w type="PPERO">
+ⲛ︥</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ϩⲁⲧⲏ</w>
+<w type="ART">
+ⲛ`</w>
+</phr>
+<phr>
+<w type="V">
+ⲁⲑⲉⲧⲓ`</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ϩ︤ⲛ︥</w>
+<w type="ART">
+ⲟⲩ</w>
+<w type="V">
+ϯ</w>
+<w type="ADV">
+ⲧⲱⲛ`</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ⲟⲩ</w>
+</phr>
+<phr>
+<w type="N">
+ⲙ︤ⲛ︦ⲧ︥ⲁⲧ<lb/>ⲥⲱⲧ︤ⲙ︥</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="N">
+ⲥⲁ</w>
+</phr>
+<phr>
+<w type="ART">
+ϩⲉ⳯</w>
+<lb/><w type="N">
+ϩⲃⲏⲩⲉ`</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="EXIST">
+ⲩⲛ</w>
+<w type="N">
+ϭⲟⲙ`</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ̄ⲙⲟ</w>
+<w type="ART">
+ⲟⲩ</w>
+</phr>
+<phr>
+<w type="N">
+ⲉϥⲓ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="PPOS">
+ⲡⲉⲩ</w>
+<w type="N">
+ⲣⲟⲟⲩϣ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+ⲉⲓⲧⲉ</w>
+</phr>
+<phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ⲣⲱ<lb/>ⲙⲉ</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="APST">
+ⲁ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ϭⲁⲗⲱ</w>
+<lb/><w type="PPERO">
+ⲟⲩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉⲣⲟ</w>
+<w type="PPERO">
+ⲟⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲉⲓ<lb/>ⲧⲉ</w>
+</phr>
+<phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ⲇⲓⲁⲕⲟ<lb/>ⲛⲓⲁ`</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲉⲓⲧⲉ</w>
+</phr>
+<phr>
+<w type="ART">
+ϭⲉ</w>
+</phr>
+<lb/><phr>
+<w type="N">
+ⲗⲁⲁⲩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="N">
+ϩⲱⲃ</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="VBD">
+ⲛⲁ<lb/>ⲛⲟⲩ</w>
+<w type="PPERS">
+ϥ`</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CCIRC">
+ⲉ</w>
+<w type="PPERS">
+ⲛ</w>
+<w type="FUT">
+ⲛⲁ</w>
+<lb/><w type="V">
+ϣⲁⲁ</w>
+<w type="PPERO">
+ϥ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="PPOS">
+ⲛⲉⲛ</w>
+<w type="N">
+ⲉ<lb/>ⲣⲏⲩ`</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲉⲃⲟⲗ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲓⲧ︤ⲙ︥</w>
+<lb/><w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛⲟⲩⲧⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<lb/><w type="ART">
+ⲡ</w>
+<w type="V">
+ⲥⲱⲧⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ</w>
+<w type="PPOS">
+ⲛⲉ⳯</w>
+<lb/><w type="N">
+ⲯⲩⲭⲏ`</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="ART">
+Ⲟⲩ</w>
+<w type="N">
+ⲙ︤ⲛ︦ⲧ︥ⲥⲟϭ</w>
+</phr>
+<phr>
+<w type="PTC">
+ⲇⲉ</w>
+</phr>
+<lb/><phr>
+<w type="ADV">
+ⲟⲛ</w>
+</phr>
+<phr>
+<w type="COP">
+ⲧⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="ART">
+ⲡⲉ</w>
+<w type="N">
+ϩⲟⲩⲟ`</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ⲟⲩ</w>
+<w type="V">
+ⲧⲱⲙ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<lb/><w type="N">
+ϩⲏⲧ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="PPERS">
+ϥ</w>
+<w type="N">
+ϩⲟⲟⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="ACOND">
+ⲉⲣϣⲁⲛ</w>
+<w type="N">
+ϩⲟⲓ̈ⲛⲉ`</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ϩⲁⲧ︤ⲛ︥</w>
+<w type="PPERO">
+ⲧⲏⲩⲧ︤ⲛ︥</w>
+</phr>
+<lb/><phr>
+<w type="V">
+ⲥⲟⲧⲡ︤</w>
+</phr>
+<phr>
+<w type="PPERS">
+ⲥ︥</w>
+</phr>
+<phr>
+<w type="FUT">
+ⲛⲁ</w>
+<w type="PPERS">
+ⲩ`</w>
+</phr>
+<phr>
+<w type="AOPT">
+ⲉ</w>
+<lb/><cb/><w type="ACAUS">
+ⲧⲣⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ϣⲱⲡⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<lb/><w type="N">
+ⲁϭⲣⲏⲛ</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲉⲃⲟⲗ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲓ<lb/>ⲧ︤ⲙ︥</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛⲟⲩⲧⲉ</w>
+</phr>
+<phr>
+<w type="ACONJ">
+ⲛ̄</w>
+<lb/><w type="PPERS">
+ⲥⲉ</w>
+<w type="V">
+ⲁⲡⲟⲧⲁⲥⲥⲉ</w>
+<lb/></phr>
+<phr>
+<w type="PREP">
+ϩ︤ⲛ︥</w>
+<w type="ART">
+ⲟⲩ</w>
+<w type="N">
+ϯ</w>
+<w type="N">
+ⲧⲱⲛ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ⲟⲩ</w>
+<w type="N">
+ⲙ︤ⲛ︦ⲧ︥ⲁⲧ<lb/>ⲥⲃⲱ̂</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ϩⲃⲏ<lb/>ⲟⲩⲉ`</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="EXIST">
+ⲩⲛ̄</w>
+<w type="N">
+ϭⲟⲙ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄<lb/>ⲙⲟ</w>
+<w type="PPERO">
+ⲟⲩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="V">
+ϥⲓ</w>
+<w type="PPOS">
+ⲡⲉⲩ</w>
+<lb/><w type="N">
+ⲣⲟⲟⲩϣ`</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲉⲓⲧⲉ</w>
+</phr>
+<lb/><phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ⲣⲱⲙⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲉⲓ<lb/>ⲧⲉ</w>
+</phr>
+<phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ⲇⲓⲁⲕⲟ<lb/>ⲛⲓⲁ`</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲉⲓⲧⲉ</w>
+</phr>
+<phr>
+<w type="ART">
+ϭⲉ</w>
+</phr>
+<lb/><phr>
+<w type="N">
+ⲗⲁⲁⲩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="N">
+ϩⲱⲃ`</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="VBD">
+ⲛⲁ<lb/>ⲛⲟⲩ</w>
+<w type="PPERS">
+ϥ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="ACAUS">
+ⲧⲣⲉ</w>
+<lb/><w type="PPERS">
+ⲧ︤ⲛ︥</w>
+<w type="V">
+ⲁⲁ</w>
+<w type="PPERO">
+ⲩ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="PPOS">
+ⲛⲉⲧ︤ⲛ︥</w>
+<lb/><w type="N">
+ⲉⲣⲏⲩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩ︤ⲛ︥</w>
+<w type="ART">
+ⲑ</w>
+<w type="N">
+ⲟⲧⲉ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ̄</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ϫⲟⲉⲓⲥ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+Ⲉϣϫⲉ</w>
+</phr>
+<phr>
+<w type="ART">
+ⲧⲉ</w>
+<w type="N">
+ⲥϩⲓⲙⲉ</w>
+</phr>
+<lb/><phr>
+<w type="PTC">
+ⲇⲉ`</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉⲧ</w>
+<w type="PPERS">
+ⲥ</w>
+<w type="V">
+ϩⲙⲟⲟⲥ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ⲟⲩ</w>
+<w type="N">
+ϩⲁⲓ̈</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲕⲁⲧⲁ</w>
+<lb/><w type="N">
+ⲥⲁⲣ︤ⲝ︥</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="AAOR">
+ϣⲁ</w>
+<w type="PPERS">
+ⲥ</w>
+<w type="V">
+ⲣ̂</w>
+<lb/><w type="N">
+ϩ︤ⲛ︥ⲁ</w>
+<w type="PPERO">
+ⲥ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="ACAUS">
+ⲧⲣⲉ</w>
+<w type="ART">
+ϩⲉ⳯</w>
+<lb/><w type="N">
+ϣⲏⲣⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<lb/><w type="N">
+ϣⲉⲉⲣⲉ`</w>
+</phr>
+<phr>
+<w type="V">
+ϣⲱⲡⲉ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲛⲁ</w>
+<w type="PPERO">
+ⲥ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+Ⲉϣϫⲉ</w>
+</phr>
+<phr>
+<w type="NPROP">
+ⲥⲁⲣⲣⲁ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<lb/><phr>
+<w type="NPROP">
+ϩⲣⲉⲃⲉⲕⲕⲁ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<lb/><phr>
+<w type="NPROP">
+ϩⲣⲁⲭⲏⲗ`</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="NPROP">
+ⲁⲛ<lb/>ⲛⲁ`</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ⲧ</w>
+<w type="N">
+ⲙⲁ<lb/>ⲁⲩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄</w>
+<w type="ART">
+ⲡⲉ</w>
+<w type="N">
+ⲡⲣⲟ<lb/><cb/><pb xml:id="YA525"/>ⲫⲏⲧⲏⲥ</w>
+</phr>
+<phr>
+<w type="NPROP">
+ⲥⲁⲙ<lb/>ⲯⲱⲛ`</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="NPROP">
+ⲉⲗⲓ<lb/>ⲥⲁⲃⲉⲧ`</w>
+</phr>
+<phr>
+<w type="ART">
+ⲧ</w>
+<w type="N">
+ⲙⲁⲁⲩ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="NPROP">
+ⲓ̈ⲱϩⲁⲛⲛⲏⲥ`</w>
+</phr>
+<phr>
+<w type="ART">
+ⲡ</w>
+<w type="CREL">
+ⲉ⳯<lb/>ⲧ</w>
+<w type="APST">
+ⲁ</w>
+<w type="PPERS">
+ϥ</w>
+<w type="V">
+ⲙⲟⲩϩ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄</w>
+<w type="N">
+ⲡ︤ⲛ︦ⲁ︥</w>
+</phr>
+<lb/><phr>
+<w type="CREL">
+ⲉ</w>
+<w type="PPERS">
+ϥ</w>
+<w type="VSTAT">
+ⲟⲩⲁⲁⲃ`</w>
+</phr>
+<phr>
+<w type="CONJ">
+ϫⲓⲛ</w>
+</phr>
+<phr>
+<w type="CCIRC">
+ⲉ</w>
+<w type="PPERS">
+ϥ</w>
+<lb/><w type="PREP">
+ⲛ̄ϩⲏⲧ︤</w>
+<w type="PPERO">
+ⲥ︥</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="PPOS">
+ⲧⲉϥ</w>
+<lb/><w type="N">
+ⲙⲁⲁⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲉϣϫⲉ</w>
+</phr>
+<lb/><phr>
+<w type="PDEM">
+Ⲛⲁⲓ̈</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ⲕⲟ<lb/>ⲟⲩⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩ︤ⲛ︥</w>
+<w type="ART">
+ⲛⲉ</w>
+<w type="N">
+ϩⲓⲟ<lb/>ⲙⲉ`</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉⲧ</w>
+<w type="VSTAT">
+ⲟⲩⲁⲁⲃ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<lb/><w type="N">
+ⲁⲣⲭⲁⲓⲟⲥ`</w>
+</phr>
+<phr>
+<w type="CPRET">
+ⲛⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<lb/><w type="V">
+ⲱϣ`</w>
+</phr>
+<phr>
+<w type="COP">
+ⲡⲉ`</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲉϩⲣⲁⲓ̈</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲉ</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ϫⲟⲉⲓⲥ`</w>
+</phr>
+<phr>
+<w type="CCIRC">
+ⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<lb/><w type="V">
+ⲧⲱⲃ︤ϩ︥</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<lb/><phr>
+<w type="CCIRC">
+ⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ⲡⲁⲣⲁⲕⲁⲗⲉⲓ`</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲉ</w>
+<w type="NEG">
+ⲧ︤ⲙ︥</w>
+<w type="ACAUS">
+ⲧⲣⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ϣⲱ<lb/>ⲡⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="N">
+ⲁϭⲣⲏⲛ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="PTC">
+ⲉⲓ̈ⲉ</w>
+</phr>
+<phr>
+<w type="ACOND">
+ⲉⲣϣⲁⲛ</w>
+<w type="N">
+ϩⲟⲓ̈<lb/>ⲛⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲁⲧ︤ⲛ︥</w>
+<w type="PPERO">
+ⲧⲏⲩ<lb/>ⲧ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="V">
+ⲁⲡⲟⲧⲁⲥⲥⲉ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ⲣⲱⲙⲉ`</w>
+</phr>
+<lb/><phr>
+<w type="CREL">
+ⲉ</w>
+<w type="APST">
+ⲁ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ϭⲁⲗⲱ</w>
+<w type="PPERO">
+ⲟⲩ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ<lb/>ⲣⲟ</w>
+<w type="PPERO">
+ⲟⲩ`</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲉⲃⲟⲗ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲓ<lb/>ⲧ︤ⲙ︥</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛⲟⲩⲧⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="CFOC">
+ⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="FUT">
+ⲛⲁ</w>
+<w type="V">
+ϣⲱⲡⲉ</w>
+</phr>
+<lb/><phr>
+<w type="CCIRC">
+ⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="VSTAT">
+ⲧϭⲁⲓ̈ⲏⲩ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="PINT">
+ⲟⲩ<lb/>ⲏⲣ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ϫⲉ</w>
+</phr>
+<phr>
+<w type="APST">
+ⲁ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ⲥⲟⲧ<lb/>ⲡ︤</w>
+<w type="PPERS">
+ⲥ︥</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛⲁ</w>
+<w type="PPERO">
+ⲩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="ACAUS">
+ⲧⲣⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<lb/><w type="V">
+ϣⲱⲡⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="N">
+ⲁϭⲣⲏⲛ</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<phr>
+<w type="ART">
+ⲛ̄</w>
+</phr>
+<phr>
+<w type="N">
+ⲭⲏⲣⲁ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><cb/><phr>
+<w type="VBD">
+Ⲛⲁϣⲱ</w>
+<w type="PPERS">
+ⲟⲩ</w>
+</phr>
+<phr>
+<w type="PTC">
+ⲅⲁⲣ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϫⲓⲛ</w>
+</phr>
+<lb/><phr>
+<w type="ART">
+ⲛ̄</w>
+<w type="N">
+ϣⲟⲣ︤ⲡ︥</w>
+</phr>
+<phr>
+<w type="PREP">
+ϣⲁ</w>
+<w type="N">
+ϩⲣⲁⲓ̈</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲉ</w>
+<w type="ADV">
+ⲧⲉⲛⲟⲩ`</w>
+</phr>
+<phr>
+<w type="PTC">
+ⲛ̄ϭⲓ</w>
+</phr>
+<lb/><phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ⲉⲓⲟⲧⲉ`</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="APST">
+ⲁ</w>
+<lb/><w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛⲟⲩⲧⲉ`</w>
+</phr>
+<phr>
+<w type="V">
+ⲥⲟ<lb/>ϣϥ</w>
+<w type="PPERO">
+ⲟⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲉⲓⲧⲉ</w>
+</phr>
+<lb/><phr>
+<w type="N">
+ϩⲟⲟⲩⲧ`</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲉⲓⲧⲉ</w>
+</phr>
+<lb/><phr>
+<w type="N">
+ⲥϩⲓⲙⲉ`</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ϫⲉ</w>
+</phr>
+<phr>
+<w type="ANEGPST">
+ⲙ̄<lb/>ⲡ</w>
+<w type="PPERS">
+ⲟⲩ</w>
+<w type="V">
+ⲱϣ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="V">
+ϣ︤ⲡ︥</w>
+<lb/><w type="N">
+ϩⲓⲥⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<lb/><w type="N">
+ⲕⲟⲟⲩⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="ACAUS">
+ⲧⲣⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<lb/><w type="V">
+ϣⲱⲡⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛⲁ</w>
+<w type="PPERO">
+ⲩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<lb/><w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ϣⲏⲣⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<lb/><phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ϣⲉⲉⲣⲉ`</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="ADV">
+ⲉⲃⲟⲗ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲓⲧ︤ⲙ︥</w>
+<lb/><w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛⲟⲩⲧⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+Ⲁⲗⲗⲁ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉⲧⲃⲉ</w>
+</phr>
+<phr>
+<w type="ART">
+ⲡⲉ</w>
+<w type="N">
+ⲙ<lb/>ⲧⲟⲛ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="N">
+ⲥⲱⲙⲁ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ⲧ</w>
+<w type="N">
+ⲙ︤ⲛ︦ⲧ︥ϫⲁ<lb/>ⲥⲓϩⲏⲧ`</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CCIRC">
+ⲉ</w>
+<w type="APST">
+ⲁ</w>
+<w type="N">
+ϩⲁϩ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="N">
+ⲣⲱⲙⲉ</w>
+</phr>
+<phr>
+<w type="V">
+ⲁⲡⲟ<lb/>ⲧⲁⲥⲥⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="NEG">
+ⲧ︤ⲙ︥</w>
+<lb/><w type="ACAUS">
+ⲧⲣⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ϣ︤ⲡ︥</w>
+<w type="N">
+ϩⲓⲥⲉ</w>
+<lb/></phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ⲕⲟⲟⲩⲉ`</w>
+</phr>
+<lb/><phr>
+<w type="ADV">
+ⲉⲃⲟⲗ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲓⲧ︤ⲙ︥</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛ<hi rend="superscript">ⲟ</hi><hi rend="subscript">ⲩ</hi><lb/>ⲧⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ⲑ</w>
+<w type="N">
+ⲉ</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲛ̄</w>
+<w type="APST">
+̄ⲧⲁ</w>
+<lb/><w type="N">
+ϩⲟⲓ̈ⲛⲉ</w>
+</phr>
+<phr>
+<w type="V">
+ϣ︤ⲡ︥</w>
+<w type="N">
+ϩⲓ<lb/>ⲥⲉ</w>
+</phr>
+<phr>
+<w type="IMOD">
+ϩⲱ</w>
+<w type="PPERO">
+ⲟⲩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ︤ⲙ︥<lb/>ⲙⲁ</w>
+<w type="PPERO">
+ⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<phr>
+<w type="CCIRC">
+ⲉ</w>
+<lb/><w type="APST">
+ⲁ</w>
+<w type="N">
+ϩⲁϩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="N">
+ⲥϩⲓⲙⲉ</w>
+</phr>
+<phr>
+<w type="V">
+ⲁ<lb/>ⲡⲟⲧⲁⲥⲥⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+</phr>
+<lb/><cb/><pb xml:id="YA526"/><phr>
+<w type="NEG">
+ⲧ︤ⲙ︥</w>
+<w type="ACAUS">
+ⲧⲣ̣ⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ϣ̣︤ⲡ̣︥</w>
+<w type="N">
+ϩⲓ<lb/>ⲥⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ⲕⲟ<lb/>ⲟⲩⲉ</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲉⲃⲟⲗ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲓⲧ︤ⲙ︥</w>
+<lb/><w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛⲟⲩⲧⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ⲑ</w>
+<w type="N">
+ⲉ</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲛ̄ⲧ</w>
+<w type="APST">
+ⲁ</w>
+<w type="N">
+ϩⲟⲓ̈ⲛⲉ</w>
+</phr>
+<lb/><phr>
+<w type="V">
+ϣ︤ⲡ︥</w>
+<w type="N">
+ϩⲓⲥⲉ</w>
+</phr>
+<phr>
+<w type="IMOD">
+ϩⲱ</w>
+<w type="PPERO">
+ⲟⲩ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲛ︤ⲙ︥ⲙⲁ</w>
+<w type="PPERO">
+ⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲉⲧⲃⲉ</w>
+</phr>
+<phr>
+<w type="PPOS">
+ⲧⲉⲩ</w>
+<w type="N">
+ⲙ︤ⲛ︦ⲧ︥<lb/>ϫⲁⲥⲓϩⲏⲧ`</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<lb/><phr>
+<w type="ART">
+ⲧⲉ</w>
+<w type="ART">
+ⲩ</w>
+<w type="N">
+ⲙ︤ⲛ︦ⲧ︥ⲙⲁⲓ̈</w>
+</phr>
+<lb/><phr>
+<w type="PPOS">
+ⲡⲉⲩ</w>
+<w type="N">
+ⲙ̄ⲧⲟⲛ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<lb/><w type="N">
+ⲥⲱⲙⲁ`</w>
+</phr>
+<phr>
+<w type="APST">
+ⲁ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ⲣ̂</w>
+<w type="N">
+ϩⲛⲁⲩ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲉ</w>
+<w type="ACAUS">
+ⲧⲣⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ϣⲱⲡⲉ</w>
+</phr>
+<lb/><phr>
+<w type="CCIRC">
+ⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="VSTAT">
+ⲟ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="N">
+ⲁϭⲣⲏⲛ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<phr>
+<w type="ACONJ">
+ⲛ̄ⲧⲉ</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ϫⲟ<lb/>ⲉⲓⲥ`</w>
+</phr>
+<phr>
+<w type="V">
+ϣⲧⲁⲙ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉⲣ︤ⲛ︥</w>
+<lb/><w type="N">
+ⲧⲟⲟⲧⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="PPOS">
+ⲧⲉⲩ</w>
+<lb/><w type="N">
+ⲯⲩⲭⲏ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ⲑ</w>
+<w type="N">
+ⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ⲟⲩ</w>
+<lb/><w type="N">
+ⲁϭⲣⲏⲛ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<lb/><phr>
+<w type="ACONJ">
+ⲛ︤</w>
+<w type="PPERS">
+ϥ︥</w>
+<w type="ACAUS">
+ⲧⲣⲉ</w>
+<w type="ART">
+ⲛ̄</w>
+<w type="N">
+ϣⲟ<lb/>ϫⲛⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ⲧⲉ</w>
+<w type="N">
+ⲥⲃⲱ̂</w>
+</phr>
+<lb/><phr>
+<w type="V">
+ϣⲟⲟⲩⲉ</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲉϩⲣⲁⲓ̈</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄<lb/>ϩⲏⲧ︤</w>
+<w type="PPERO">
+ⲛ︥</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ⲑ</w>
+<w type="N">
+ⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<lb/><w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ⲉⲕⲓⲃⲉ`</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<lb/><w type="V">
+ϣⲟⲩⲱ</w>
+<w type="PPERO">
+ⲟⲩ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="NEG">
+ⲧ︤ⲙ︥</w>
+<lb/><w type="ACAUS">
+ⲧⲣⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ⲥⲱⲧ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="V">
+ϯ</w>
+<lb/><w type="N">
+ⲥⲃⲱ̂</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ⲕⲟ<lb/>ⲟⲩⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ϫⲓⲛ</w>
+</phr>
+<phr>
+<w type="PDEM">
+ⲡⲉⲓ̈</w>
+<lb/><w type="N">
+ⲛⲁⲩ`</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲉⲃⲟⲗ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲓⲧ︤ⲙ︥</w>
+<lb/><w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛⲟⲩⲧⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="VBD">
+Ⲛⲁϣⲱ</w>
+<w type="PPERS">
+ⲟⲩ</w>
+</phr>
+<phr>
+<w type="PTC">
+ⲇⲉ</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲟⲛ</w>
+</phr>
+<lb/><cb/><phr>
+<w type="PTC">
+ⲛ̄ϭ[ⲓ</w>
+</phr>
+<phr>
+<w type="PPOS">
+ⲛⲉ]ⲛ</w>
+<w type="N">
+ⲉⲓⲟⲧⲉ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ϫⲓⲛ</w>
+</phr>
+<phr>
+<w type="ART">
+ⲛ̄</w>
+<w type="N">
+ϣⲟⲣ︤ⲡ︥</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ϣⲁ</w>
+<w type="N">
+ϩⲣⲁⲓ̈</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="ADV">
+ⲧⲉ<lb/>ⲛⲟⲩ</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="APST">
+ⲁ</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ϫⲟ<lb/>ⲉⲓⲥ</w>
+</phr>
+<phr>
+<w type="V">
+ⲥⲙⲟⲩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ<lb/>ⲣⲟ</w>
+<w type="PPERO">
+ⲟⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲉⲓⲧⲉ</w>
+</phr>
+<lb/><phr>
+<w type="N">
+ϩⲟⲟⲩⲧ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲉⲓⲧⲉ</w>
+</phr>
+<lb/><phr>
+<w type="N">
+ⲥϩⲓⲙⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ϫⲉ</w>
+</phr>
+<phr>
+<w type="APST">
+ⲁ</w>
+<w type="PPERS">
+ⲩ</w>
+<lb/><w type="V">
+ⲣ̂</w>
+<w type="N">
+ϩⲛⲁⲩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="N">
+ϩⲟⲩⲟ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲉ</w>
+<w type="V">
+ϣ︤ⲡ︥</w>
+<w type="N">
+ϩⲓⲥⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<lb/><phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ⲕⲟⲟⲩⲉ`</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲉ<lb/>ⲃⲟⲗ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲓⲧ︤ⲙ︥</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛⲟⲩ<lb/>ⲧⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ⲑ</w>
+<w type="N">
+ⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<lb/><w type="PPOS">
+ⲛⲉⲛ</w>
+<w type="N">
+ⲉⲓⲟⲧⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<lb/><w type="N">
+ⲁⲣⲭⲁⲓⲟⲥ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<lb/><phr>
+<w type="ART">
+ⲛⲉ</w>
+<w type="N">
+ⲡⲣⲟⲫⲏⲧⲏⲥ`</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ⲛ̄</w>
+<w type="N">
+ⲁⲡⲟⲥⲧⲟ<lb/>ⲗⲟⲥ</w>
+</phr>
+<phr>
+<w type="PDEM">
+ⲛⲁⲓ̈</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲛ̄ⲧ</w>
+<w type="APST">
+ⲁ</w>
+<w type="PPERS">
+ⲩ</w>
+<lb/><w type="V">
+ϣⲱⲡⲉ`</w>
+</phr>
+<phr>
+<w type="ART">
+ⲛ̄</w>
+<w type="N">
+ⲉⲓⲱⲧ`</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="N">
+ϩⲁϩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄</w>
+<w type="N">
+ⲙⲏⲏϣⲉ</w>
+</phr>
+<lb/><phr>
+<w type="ADV">
+ⲉⲃⲟⲗ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲓⲧ︤ⲙ︥</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛⲟⲩ<lb/>ⲧⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<lb/><w type="ART">
+Ⲑ</w>
+<w type="N">
+ⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="NPROP">
+ⲇⲉⲃⲃⲱⲣⲁ`</w>
+</phr>
+<lb/><phr>
+<w type="PDEM">
+ⲧⲁⲓ̈</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲛ̄ⲧ</w>
+<w type="APST">
+ⲁ</w>
+<w type="PPERS">
+ⲥ</w>
+<w type="V">
+ϣⲱ<lb/>ⲡⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="N">
+ⲕⲣⲓⲧⲏⲥ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<phr>
+<w type="N">
+ⲙ̄ⲙⲁⲁⲩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩ︤ⲙ︥</w>
+<lb/><w type="ART">
+ⲡ︤</w>
+<w type="NPROP">
+ⲓ︦ⲏ︦ⲗ︥</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<lb/><w type="ART">
+ⲑ</w>
+<w type="N">
+ⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ</w>
+<w type="NPROP">
+ⲟⲇⲟⲗⲗⲁ`</w>
+</phr>
+<lb/><phr>
+<w type="ART">
+ⲧⲉ</w>
+<w type="N">
+ⲡⲣⲟⲫⲏⲧⲏⲥ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="PDEM">
+ⲧⲁⲓ̈</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲛ̄ⲧ</w>
+<w type="APST">
+ⲁ</w>
+<w type="NPROP">
+ⲓ̈ⲱⲥⲓ<lb/>ⲁⲥ</w>
+</phr>
+<phr>
+<w type="ART">
+ⲡ︤</w>
+<w type="N">
+ⲣ︥ⲣⲟ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="N">
+ⲇⲓ<lb/><cb/><pb xml:id="YA527"/>ⲕⲁⲓⲟⲥ</w>
+</phr>
+<phr>
+<w type="UNKNOWN">
+[...]ⲩ̣</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ<lb/>ⲣⲁⲧ︤</w>
+<w type="PPERO">
+ⲥ︥</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="ACAUS">
+ⲧⲣ̣[ⲉ</w>
+<w type="UNKNOWN">
+.]</w>
+<lb/><w type="V">
+ϣⲓⲛⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄</w>
+<w type="ART">
+ⲡ̣</w>
+<w type="N">
+[ϫⲟ]<lb/>ⲉⲓⲥ`</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲉⲃⲟⲗ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲓ</w>
+<w type="N">
+ⲧⲟ<lb/>ⲟⲧ︤</w>
+<w type="PPERO">
+ⲥ︥</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<lb/><w type="ART">
+ⲑ</w>
+<w type="N">
+ⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="NPROP">
+ⲁⲛⲛⲁ`</w>
+</phr>
+<phr>
+<w type="ART">
+ⲧ</w>
+<w type="N">
+ϣⲉ<lb/>ⲉⲣⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄</w>
+<w type="NPROP">
+ⲫⲁⲛⲟⲩ<lb/>ⲏⲗ`</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="NEG">
+ⲙ̄</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛⲁⲩ</w>
+</phr>
+<lb/><phr>
+<w type="NEG">
+Ⲁⲛ</w>
+</phr>
+<phr>
+<w type="COP">
+ⲡⲉ</w>
+</phr>
+<phr>
+<w type="PDEM">
+ⲡⲁⲓ̈</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="ACAUS">
+ⲧⲣⲉ</w>
+<lb/><w type="ART">
+ⲛ̄</w>
+<w type="N">
+ⲉⲓⲟⲧⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ϩⲉⲛ</w>
+<lb/><w type="N">
+ϣⲏⲣⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<lb/><w type="N">
+ϣⲉⲉⲣⲉ`</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲉⲃⲟⲗ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ϩⲓⲧ︤ⲙ︥</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛⲟⲩⲧⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="V">
+ϫⲟⲟ</w>
+<w type="PPERO">
+ⲥ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩ︤ⲛ︥</w>
+<w type="PPOS">
+ⲧⲉⲩ</w>
+<lb/><w type="N">
+ⲙ︤ⲛ︦ⲧ︥ⲁⲧⲥⲟⲟⲩ⳯</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+ϫⲉ</w>
+</phr>
+<phr>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ϫⲟⲉⲓⲥ</w>
+</phr>
+<phr>
+<w type="FUT">
+ⲛⲁ</w>
+<lb/><w type="V">
+ϯ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ⲥⲓⲟⲩⲣ`</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ⲙ̄</w>
+<w type="N">
+ⲡⲁⲣⲑⲉ<lb/>ⲛⲟⲥ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ⲟⲩ</w>
+<w type="N">
+ⲙⲁ`</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="PPERS">
+ϥ</w>
+<lb/><w type="VSTAT">
+ⲥⲟⲧ︤ⲡ︥`</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<lb/><w type="N">
+ⲥⲟⲉⲓⲧ`</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="VBD">
+ⲛⲁ<lb/>ⲛⲟⲩ</w>
+<w type="PPERS">
+ϥ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="N">
+ϣⲏⲣⲉ`</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ϩⲓ</w>
+</phr>
+<phr>
+<w type="N">
+ϣⲉⲉⲣⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="ACONJ">
+Ⲛ̄</w>
+<w type="PPERS">
+ⲥⲉ</w>
+<w type="V">
+ⲥⲟⲧⲡ︤</w>
+<w type="PPERS">
+ⲥ︥</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛⲁ</w>
+<w type="PPERO">
+ⲩ`</w>
+</phr>
+<lb/><phr>
+<w type="PTC">
+ⲛ̄ϭⲓ</w>
+</phr>
+<phr>
+<w type="N">
+ϩⲟⲓ̈ⲛⲉ`</w>
+</phr>
+<phr>
+<w type="ADV">
+ϩⲣⲁⲓ̈</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲛ̄ϩⲏⲧ︤</w>
+<w type="PPERO">
+ⲛ︥</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲁⲧⲏ</w>
+<w type="PPERO">
+ⲛ`</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+ⲏ̂</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲁⲧ︤ⲛ︥</w>
+<w type="PPERO">
+ⲧⲏⲩⲧ︤ⲛ︥</w>
+</phr>
+<lb/><phr>
+<w type="PPERI">
+ⲛ̄ⲧⲱⲧ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<lb/><w type="ACAUS">
+ⲧⲣⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ⲁⲡⲟⲧⲁⲥ<lb/>ⲥⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ⲛⲉ</w>
+<w type="CREL">
+ⲛⲧ</w>
+<w type="APST">
+ⲁ</w>
+<w type="PPERS">
+ⲩ</w>
+<lb/><w type="V">
+ϭⲁⲗⲱ</w>
+<w type="PPERO">
+ⲟⲩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉⲣⲟ</w>
+<lb/><cb/><w type="PPERO">
+ⲟⲩ̣</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="NEG">
+ⲧ︤ⲙ̣︥</w>
+<w type="ACAUS">
+ⲧⲣⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<lb/><w type="V">
+ϥⲓ</w>
+</phr>
+<phr>
+<w type="PPOS">
+ⲡⲉⲩ</w>
+<w type="N">
+ⲣⲟⲟⲩϣ</w>
+</phr>
+<lb/><phr>
+<w type="CCIRC">
+ⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ϫⲱ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄ⲙⲟ</w>
+<w type="PPERO">
+ⲥ</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+ϫⲉ</w>
+</phr>
+<phr>
+<w type="PPERS">
+ⲧ︤ⲛ︥</w>
+<w type="FUT">
+ⲛⲁ</w>
+<w type="V">
+ⲣ̂</w>
+<w type="N">
+ⲁⲛⲁ</w>
+<w type="PPERO">
+[ϥ]</w>
+<lb/><w type="PREP">
+ⲙ̄</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛⲟⲩⲧⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<phr>
+<w type="NEG">
+ⲙ̄</w>
+<w type="PPOS">
+ⲡⲉⲛ</w>
+<w type="N">
+ⲣⲟ<lb/>ⲟⲩϣ`</w>
+</phr>
+<phr>
+<w type="NEG">
+ⲁⲛ</w>
+</phr>
+<phr>
+<w type="COP">
+ⲡⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲁ</w>
+<lb/><w type="PDEM">
+ⲛⲁⲓ̈</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="PDEM">
+ⲛⲉⲓ̈</w>
+<w type="N">
+ⲕⲟ<lb/>ⲟⲩⲉ`</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩ︤ⲙ︥</w>
+<lb/><w type="PPOS">
+ⲡⲉⲩ</w>
+<w type="N">
+ⲧⲱⲙ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<lb/><w type="N">
+ϩⲏⲧ`</w>
+</phr>
+<phr>
+<w type="CCIRC">
+ⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ⲉⲓⲛⲉ</w>
+</phr>
+<lb/><phr>
+<w type="ADV">
+ⲉϩⲟⲩⲛ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ϣⲁ<lb/>ϫⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄</w>
+<w type="ART">
+ⲡⲉ</w>
+<w type="N">
+ⲡⲣⲟ<lb/>ⲫⲏⲧⲏⲥ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CCIRC">
+ⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<lb/><w type="V">
+ⲃⲱⲗ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄ⲙⲟ</w>
+<w type="PPERO">
+ϥ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ<lb/>ϫ︤ⲙ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲟⲩⲱϣ`</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ̄</w>
+<w type="PPOS">
+ⲡⲉⲩ</w>
+<w type="N">
+ϩⲏⲧ`</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="PPOS">
+ⲡⲉⲩ</w>
+<w type="N">
+ⲙ̄ⲧⲟⲛ</w>
+</phr>
+<lb/><phr>
+<w type="IMOD">
+ⲙ̄ⲙⲓⲛ`ⲙ̄ⲙⲟ</w>
+</phr>
+<phr>
+<w type="PPERO">
+ⲟⲩ`</w>
+</phr>
+<lb/><phr>
+<w type="CCIRC">
+ⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ϫⲱ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄ⲙⲟ</w>
+<w type="PPERO">
+ⲥ</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+ϫⲉ</w>
+</phr>
+<phr>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ϫⲟⲉⲓⲥ</w>
+</phr>
+<phr>
+<w type="FUT">
+ⲛⲁ</w>
+<lb/><w type="V">
+ϯ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ⲛⲉ</w>
+<w type="N">
+ⲥⲓⲟⲩⲣ`</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ⲙ̄</w>
+<w type="N">
+ⲡⲁⲣⲑⲉ<lb/>ⲛⲟⲥ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ⲟⲩ</w>
+<w type="N">
+ⲙ︤ⲛ︦ⲧ︥<lb/>ⲉⲣⲟ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄ⲧⲉ</w>
+<w type="ART">
+ⲙ̄</w>
+<lb/><w type="N">
+ⲡⲏⲩⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+Ⲛ̄</w>
+<w type="PDEM">
+ⲧⲉⲓ̈</w>
+<w type="N">
+ϩⲉ</w>
+</phr>
+<phr>
+<w type="ACONJ">
+ⲛ̄</w>
+<w type="PPERS">
+ⲥⲉ</w>
+<w type="V">
+ⲁ<lb/>ⲡⲟⲧⲁⲥⲥⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<lb/><w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ⲕⲟⲟⲩⲉ`</w>
+<lb/></phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="NEG">
+ⲧ︤ⲙ︥</w>
+<w type="ACAUS">
+ⲧⲣⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ϥⲓ</w>
+</phr>
+<lb/><phr>
+<w type="PPOS">
+ⲡⲉⲩ</w>
+<w type="N">
+ⲣⲟⲟⲩϣ`</w>
+</phr>
+<lb/><cb/><pb xml:id="YA528"/><phr>
+<w type="UNKNOWN">
+[ ]</w>
+</phr>
+<lb/><phr>
+<w type="UNKNOWN">
+[ ]</w>
+</phr>
+<lb/><phr>
+<w type="UNKNOWN">
+[ ]</w>
+</phr>
+<lb/><phr>
+<w type="UNKNOWN">
+[.....]ⲡ̣ⲣ̣[..]<lb/>[....]ⲥ̣</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ϫⲉ</w>
+</phr>
+<phr>
+<w type="UNKNOWN">
+ⲙ̣<lb/>[.....]ⲟⲓ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄ⲙⲟ</w>
+<w type="PPERO">
+ϥ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="UNKNOWN">
+[....]ϫ̣ⲉ</w>
+</phr>
+<phr>
+<w type="N">
+ⲙ̄ⲡⲟⲩ</w>
+<lb/><w type="UNKNOWN">
+[..]ⲥ̣ⲃⲱ`</w>
+</phr>
+<phr>
+<w type="N">
+ⲉⲛⲉϩ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲛ̣̄ⲧⲟⲟⲧ︤</w>
+<w type="PPERO">
+ϥ︥</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲁ<lb/>[ⲡⲟⲥ]ⲧⲟⲗⲟⲥ</w>
+</phr>
+<phr>
+<w type="CCIRC">
+ⲉ</w>
+<w type="PPERS">
+ϥ</w>
+<lb/><w type="V">
+[..]ⲱ̣</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄ⲙⲟ</w>
+<w type="PPERO">
+ⲥ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+[..]ⲉ̣</w>
+</phr>
+<phr>
+<w type="VIMP">
+ⲙ̄ⲡ︤ⲣ︥</w>
+<w type="ACAUS">
+ⲧⲣⲉ</w>
+<lb/><w type="UNKNOWN">
+[..]ⲁⲩ</w>
+<w type="V">
+ϣⲓⲛⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄<lb/>[.]ⲁ</w>
+</phr>
+<phr>
+<w type="PPOS">
+ⲧⲉϥ</w>
+<w type="N">
+ⲛⲟϥ<lb/>ⲣⲉ`</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲗⲗⲁ</w>
+</phr>
+<phr>
+<w type="PPOS">
+ⲧⲁ</w>
+<w type="ART">
+ⲕⲉ</w>
+<lb/><w type="NUM">
+ⲟⲩⲁ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲕⲁⲧⲁ</w>
+<w type="ART">
+ⲑ</w>
+<w type="N">
+ⲉ</w>
+</phr>
+<lb/><phr>
+<w type="IMOD">
+ϩⲱⲱ</w>
+<w type="PPERO">
+ϥ</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲟⲛ</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ<lb/>ⲧⲉ</w>
+</phr>
+<phr>
+<w type="ANEGPST">
+ⲙ̄ⲡ︤</w>
+<w type="PPERS">
+ϥ︥</w>
+<w type="V">
+ϣⲓⲛⲉ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲛ̄ⲥⲁ</w>
+</phr>
+<phr>
+<w type="PPOS">
+ⲧⲉϥ</w>
+<w type="N">
+ⲛⲟϥ<lb/>ⲣⲉ`</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲗⲗⲁ</w>
+</phr>
+<phr>
+<w type="PPOS">
+ⲧⲁ</w>
+<lb/><w type="N">
+ϩⲁϩ</w>
+</phr>
+<phr>
+<w type="CONJ">
+ϫⲉ</w>
+</phr>
+<phr>
+<w type="AOPT">
+ⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="AOPT">
+ⲉ</w>
+<w type="V">
+ⲟⲩ<lb/>ϫⲁⲓ̈</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲙⲁⲗⲓ<lb/>Ⲥⲧⲁ</w>
+</phr>
+<phr>
+<w type="PTC">
+ⲇ̣ⲉ</w>
+</phr>
+<phr>
+<w type="ART">
+ⲡⲉ</w>
+<w type="N">
+ⲡⲣⲟ<lb/>ⲫⲏⲧⲏⲥ`</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉⲧⲉ<lb/>ⲣⲉ</w>
+<w type="PDEM">
+ⲛⲓ</w>
+<w type="N">
+ⲁⲧⲥⲃⲱ̂</w>
+<lb/></phr>
+<phr>
+<w type="V">
+ⲃⲱⲗ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄</w>
+<w type="PPOS">
+ⲡⲉϥ</w>
+<lb/><w type="N">
+ϣⲁϫⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉϫ︤ⲙ︥</w>
+<lb/><w type="PPOS">
+ⲡⲉⲩ</w>
+<w type="N">
+ⲟⲩⲱϣ`</w>
+<lb/></phr>
+<phr>
+<w type="IMOD">
+ⲙ̄ⲙⲓⲛⲙ̄ⲙⲟ</w>
+<w type="PPERO">
+ⲟⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+ϫⲉ</w>
+</phr>
+<phr>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ϫⲟⲉⲓⲥ</w>
+</phr>
+<lb/><phr>
+<w type="FUT">
+ⲛⲁ</w>
+<w type="V">
+ϯ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ⲛⲉ</w>
+<w type="UNKNOWN">
+ⲥⲓ<lb/><cb/>[....]ⲟⲩ</w>
+<w type="N">
+ⲙⲁ</w>
+<lb/></phr>
+<phr>
+<w type="UNKNOWN">
+[...]ⲟⲧ︤ⲡ︥</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="UNKNOWN">
+[...]ⲛ̄</w>
+<w type="N">
+ⲥⲟⲉⲓⲧ`</w>
+</phr>
+<lb/><phr>
+<w type="CREL">
+ⲉ̣</w>
+<w type="VBD">
+ⲛⲁⲛⲟⲩ</w>
+<w type="PPERS">
+ϥ̣</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<lb/><w type="N">
+ϣⲏⲣⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲓ</w>
+</phr>
+<phr>
+<w type="N">
+ϣⲉ<lb/>ⲉⲣⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="PPERI">
+ⲛ̄ⲧⲟϥ</w>
+</phr>
+<lb/><phr>
+<w type="IMOD">
+Ϩⲱⲱ</w>
+<w type="PPERO">
+ϥ`</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲟⲛ`</w>
+</phr>
+<phr>
+<w type="NPROP">
+ⲏ̂ⲥⲁⲓ̈<lb/>ⲁⲥ</w>
+</phr>
+<phr>
+<w type="PTC">
+ⲟⲩ</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲙⲟⲛⲟ⳯</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+ϫⲉ</w>
+</phr>
+<phr>
+<w type="APST">
+ⲁ</w>
+<w type="PPERS">
+ϥ</w>
+<w type="V">
+ϣ︤ⲡ︥</w>
+</phr>
+<phr>
+<w type="N">
+ϩⲁϩ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="N">
+ϩⲓⲥⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉⲧⲃⲉ</w>
+</phr>
+<lb/><phr>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲣⲁⲛ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛⲟⲩ<lb/>ⲧⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲗⲗⲁ</w>
+</phr>
+<phr>
+<w type="APST">
+ⲁ</w>
+<w type="PPERS">
+ϥ</w>
+<lb/><w type="V">
+ⲙⲟⲩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲁ</w>
+<w type="ART">
+ϩⲉⲛ</w>
+<lb/><w type="N">
+ⲙⲏⲏϣⲉ`</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="VBD">
+ⲛⲁ<lb/>ϣⲱ</w>
+<w type="PPERO">
+ⲟⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ϩⲁⲣⲟ</w>
+<w type="PPERO">
+ⲛ</w>
+</phr>
+<phr>
+<w type="IMOD">
+ⲧⲏⲣ︤</w>
+<w type="PPERO">
+ⲛ︥</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="ART">
+Ⲟⲩ</w>
+<w type="N">
+ⲉⲓⲱⲧ`</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲏ̂</w>
+</phr>
+<phr>
+<w type="ART">
+ⲟⲩ</w>
+<lb/><w type="N">
+ⲙⲁⲁⲩ`</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="EXIST">
+ⲩⲛ̄ⲧⲁ</w>
+<w type="PPERO">
+ⲩ</w>
+</phr>
+<lb/><phr>
+<w type="ADV">
+ⲙ̄ⲙⲁⲩ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ϩⲉⲛ</w>
+<lb/><w type="N">
+ϣⲏⲣⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<lb/><w type="N">
+ϣⲉⲉⲣⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ⲛ̄</w>
+<lb/><w type="N">
+ϣⲏⲣⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="PPOS">
+ⲛⲉⲩ</w>
+<lb/><w type="N">
+ϣⲏⲣⲉ`</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ϩⲉ⳯</w>
+<lb/><w type="N">
+ϩⲩⲡⲁⲣⲭⲟⲛⲧⲁ`</w>
+<lb/></phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="VBD">
+ⲛⲁϣⲱ</w>
+<w type="PPERS">
+ⲟⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ⲁⲛⲁⲅ<lb/>ⲕⲁⲍⲉ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄ⲙⲟ</w>
+<w type="PPERO">
+ⲟⲩ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ϩⲓⲧ︤ⲛ︥</w>
+<w type="ART">
+ⲛⲉ</w>
+<w type="N">
+ϩⲃⲏ<lb/>ⲟⲩⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲃⲓⲟⲥ`</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲉ</w>
+<w type="EXIST">
+ⲙ︤ⲛ︥</w>
+<w type="N">
+ϣϭⲟⲙ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄<lb/>ⲙⲟ</w>
+<w type="PPERO">
+ⲟⲩ`</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲉⲛⲉϩ`</w>
+</phr>
+<lb/><cb/><pb xml:id="YA529"/><phr>
+<w type="PREP">
+ⲉ</w>
+<w type="ACAUS">
+ⲧⲣⲉ</w>
+<w type="PPERS">
+ⲩ̣</w>
+<w type="UNKNOWN">
+[....]<lb/>ⲥⲧⲁ`</w>
+</phr>
+<phr>
+<w type="UNKNOWN">
+ⲉϫ[.....]</w>
+<lb/><w type="N">
+ϣⲏⲣⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ̣︥</w>
+</phr>
+<phr>
+<w type="UNKNOWN">
+[...]</w>
+<lb/><w type="N">
+ϣⲉⲉⲣⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ⲛ̣̄</w>
+<lb/><w type="ART">
+ⲕⲉ</w>
+<w type="N">
+ϩⲃⲏⲩⲉ`</w>
+</phr>
+<phr>
+<w type="IMOD">
+ⲧⲏ<lb/>ⲣ</w>
+<w type="PPERO">
+ⲟⲩ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄ⲧⲉ</w>
+<w type="PDEM">
+ⲡⲓ̈</w>
+<w type="N">
+ⲁⲓ<lb/>ⲱⲛ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<phr>
+<w type="ACONJ">
+ⲛ̄</w>
+<w type="PPERS">
+ⲥⲉ</w>
+<lb/><w type="V">
+ⲡⲣⲟϩⲓⲥⲧⲁ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉϫ︤ⲛ︥</w>
+</phr>
+<lb/><phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ϣⲏⲣⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<lb/><phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="N">
+ϣⲉⲉⲣⲉ`</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲉ<lb/>ⲃⲟⲗ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩⲓⲧ︤ⲙ︥</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛⲟⲩ<lb/>ⲧⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ϩⲉⲛ</w>
+<w type="ART">
+ⲕⲉ</w>
+<lb/><w type="N">
+ϩⲃⲏⲩⲉ</w>
+</phr>
+<phr>
+<w type="IMOD">
+ⲧⲏⲣ</w>
+<w type="PPERO">
+ⲟⲩ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="N">
+ⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ`</w>
+</phr>
+<lb/><phr>
+<w type="EXIST">
+Ⲙ̄ⲙ︤ⲛ︥</w>
+<w type="N">
+ϣϭⲟⲙ</w>
+</phr>
+<phr>
+<w type="PTC">
+ⲅⲁⲣ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲉ</w>
+<w type="ACAUS">
+ⲧⲣⲉ</w>
+<w type="PDEM">
+ⲛⲁⲓ̈</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="PDEM">
+ⲧⲉⲓ</w>
+<lb/><w type="N">
+ⲙⲓⲛⲉ</w>
+</phr>
+<phr>
+<w type="V">
+ⲣ̂</w>
+<w type="N">
+ϩ︤ⲙ︥ϩⲁⲗ`</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ⲛ</w>
+<w type="CREL">
+ⲉⲧ</w>
+<w type="VSTAT">
+ϣⲟⲟⲡ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲛⲁ</w>
+<w type="PPERO">
+ⲩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲕⲁⲧⲁ</w>
+<w type="N">
+ⲥⲁ<lb/>ⲣ︤ⲝ︥</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<phr>
+<w type="NEG">
+ⲛ̄</w>
+<w type="PPERS">
+ⲥⲉ</w>
+<lb/><w type="V">
+ⲣ̂</w>
+<w type="N">
+ϩ︤ⲙ︥ϩⲁⲗ</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ϩⲉⲛ</w>
+<lb/><w type="N">
+ⲕⲟⲟⲩⲉ`</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲉⲃⲟⲗ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ϩⲓⲧ︤ⲙ︥</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛⲟⲩⲧⲉ</w>
+</phr>
+<lb/><phr>
+<w type="ART">
+Ϩⲉⲛ</w>
+<w type="N">
+ⲣⲱⲙⲉ</w>
+</phr>
+<phr>
+<w type="PTC">
+ⲇⲉ</w>
+</phr>
+<phr>
+<w type="PPERI">
+ⲛ̄<lb/>ⲧⲟϥ</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="EXIST">
+ⲙ︤ⲛ︥ⲧⲁ</w>
+<w type="PPERO">
+ⲩ</w>
+</phr>
+<lb/><phr>
+<w type="ADV">
+ⲙ̄ⲙⲁⲩ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲛ̄</w>
+<w type="ART">
+ϩⲉⲛ</w>
+<lb/><w type="N">
+ϣⲏⲣⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="N">
+ϣⲉ<lb/>ⲉⲣⲉ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲕⲁⲧⲁ</w>
+<w type="N">
+ⲥⲁⲣ︤ⲝ︥</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="CONJ">
+ⲏ̂</w>
+</phr>
+<phr>
+<w type="PPERI">
+ⲛ̄ⲧⲟϥ</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉ</w>
+<w type="EXIST">
+ⲩⲛ̄<lb/>ⲧⲁ</w>
+<w type="PPERS">
+ⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<phr>
+<w type="ACONJ">
+ⲛ̄</w>
+<w type="PPERS">
+ⲥⲉ</w>
+<lb/><w type="V">
+ⲁⲡⲟⲧⲁⲥⲥⲉ`</w>
+</phr>
+<phr>
+<w type="UNKNOWN">
+ⲙ̄<lb/><cb/>[ ]<lb/></w>
+</phr>
+<phr>
+<w type="UNKNOWN">
+[ ]</w>
+</phr>
+<lb/><phr>
+<w type="UNKNOWN">
+[ ]</w>
+</phr>
+<lb/><phr>
+<w type="UNKNOWN">
+[ ]</w>
+</phr>
+<lb/><phr>
+<w type="V">
+ⲟϣⲉ̣</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲕⲁⲧⲁ</w>
+<w type="ART">
+ⲡⲉ</w>
+<w type="N">
+ⲙ<lb/>ⲡ̣ϣ̣ⲁ̣</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̄</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲧⲱϩ︤<lb/>ⲙ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ⲡ̣ⲉ̣</w>
+<w type="CREL">
+ⲛ̣ⲧ̣</w>
+<w type="APST">
+ⲁ</w>
+<w type="PPERS">
+ϥ</w>
+<w type="V">
+ⲧⲁ<lb/>ϩⲙ</w>
+<w type="PPERO">
+ⲟⲩ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲉ</w>
+<w type="PDEM">
+ⲡⲉⲓ</w>
+<w type="N">
+ⲃⲓ<lb/>ⲟⲥ</w>
+</phr>
+<phr>
+<w type="PDEM">
+ⲡⲁⲓ̈</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="PDEM">
+ⲛ̣ⲁⲓ̈</w>
+</phr>
+<lb/><phr>
+<w type="COP">
+ⲛⲉ</w>
+</phr>
+<phr>
+<w type="ART">
+ⲛ̄</w>
+<w type="N">
+ⲥⲓⲟⲩⲣ`</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ̣︤ⲛ︥</w>
+</phr>
+<lb/><phr>
+<w type="ART">
+ⲙ̄</w>
+<w type="N">
+ⲡⲁⲣⲑⲉⲛⲟⲥ</w>
+</phr>
+<lb/><phr>
+<w type="CREL">
+ⲉⲧⲉ</w>
+<w type="PPERI">
+ⲛ̄ⲧⲱⲧ︤ⲛ︥</w>
+</phr>
+<lb/><phr>
+<w type="COP">
+ⲡⲉ</w>
+</phr>
+<phr>
+<w type="ART">
+ⲛⲉ</w>
+<w type="N">
+ⲥⲛⲏⲩ̣</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="N">
+ⲟⲩⲟⲛ</w>
+</phr>
+<phr>
+<w type="PINT">
+ⲛⲓⲙ̣</w>
+</phr>
+<lb/><phr>
+<w type="CREL">
+ⲉⲧ</w>
+<w type="V">
+ⲉⲅⲕⲣⲁⲧⲉⲩⲉ̣</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ̄ⲙⲟ</w>
+<w type="PPERO">
+ⲟⲩ</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩ︤ⲛ︥</w>
+<w type="N">
+ⲙⲁ`</w>
+</phr>
+<lb/><phr>
+<w type="PINT">
+ⲛⲓⲙ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="PREP">
+ϩ︤ⲙ︥</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲕⲁϩ</w>
+</phr>
+<lb/><phr>
+<w type="IMOD">
+ⲧⲏⲣ︤</w>
+<w type="PPERO">
+ϥ︥</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲉⲓⲧⲉ</w>
+</phr>
+<lb/><phr>
+<w type="ART">
+ⲛ</w>
+<w type="CREL">
+ⲉⲧⲉ</w>
+<w type="NEG">
+ⲛ̄</w>
+<w type="PPERS">
+ⲥⲉ</w>
+<w type="V">
+ⲥⲟ<lb/>ⲟⲩⲛ`</w>
+</phr>
+<phr>
+<w type="NEG">
+ⲁⲛ`</w>
+</phr>
+<phr>
+<w type="CONJ">
+ϫⲉ</w>
+</phr>
+<phr>
+<w type="PINT">
+ⲟ᷍ⲩ</w>
+</phr>
+<lb/><phr>
+<w type="COP">
+ⲡⲉ</w>
+</phr>
+<phr>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲅⲁⲙⲟⲥ</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉⲧ</w>
+<lb/><w type="VSTAT">
+ⲧⲁⲓ̈ⲏⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲙⲁ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲛ︤</w>
+<w type="V">
+ⲛ︥ⲕⲟⲧ︤ⲕ︥</w>
+</phr>
+<phr>
+<w type="CREL">
+ⲉⲧ</w>
+<w type="VSTAT">
+ⲧⲃ<lb/>ⲃⲏⲩ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲉⲓ̈ⲧⲉ</w>
+</phr>
+<phr>
+<w type="ART">
+ⲛⲉ</w>
+<w type="CREL">
+ⲛⲧ</w>
+<lb/><w type="APST">
+ⲁ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ϫⲓ</w>
+<w type="N">
+ϩⲓⲙⲉ</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ︤ⲛ︥</w>
+</phr>
+<phr>
+<w type="ART">
+ⲛⲉ</w>
+<w type="CREL">
+ⲛⲧ</w>
+<w type="APST">
+ⲁ</w>
+<w type="PPERS">
+ⲩ</w>
+<w type="V">
+ϫⲓ</w>
+<lb/><w type="N">
+ϩⲁⲓ̈</w>
+</phr>
+<phr>
+<w type="PUNCT">
+·</w>
+</phr>
+<phr>
+<w type="CONJ">
+ⲁⲩⲱ</w>
+</phr>
+<phr>
+<w type="APREC">
+ⲛ̄ⲧⲉ<lb/>ⲣ</w>
+<w type="PPERS">
+ⲟⲩ</w>
+<w type="V">
+ⲣ̂</w>
+<w type="N">
+ϩⲛⲁⲩ`</w>
+</phr>
+<phr>
+<w type="ADV">
+ⲉⲃⲟⲗ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ϩⲓⲧ︤ⲙ︥</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ⲛⲟⲩⲧⲉ</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ϩ︤ⲙ︥</w>
+<w type="ART">
+ⲡ</w>
+<w type="N">
+ϣⲟϫⲛⲉ`</w>
+</phr>
+<lb/><phr>
+<w type="PREP">
+ⲙ̄</w>
+<w type="ART">
+ⲡⲉ</w>
+<w type="CREL">
+ⲛⲧ</w>
+<w type="APST">
+ⲁ</w>
+<w type="PPERS">
+ϥ</w>
+<w type="V">
+ϫⲟⲟ</w>
+<w type="PPERO">
+ⲥ</w>
+</phr>
+<lb/><cb/><pb xml:id="YA530"/></ab>
+</body>
+</text>
+</TEI>
