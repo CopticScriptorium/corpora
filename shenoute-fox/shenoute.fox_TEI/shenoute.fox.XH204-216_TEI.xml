@@ -1,0 +1,98 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Not Because a Fox Barks: EG-CF 1 ff, 15v-21 White Monastery Manuscript XH 204-16</title>
+                <author>Shenoute</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Coptic SCRIPTORIUM<ref>http://www.copticscriptorium.org</ref></authority>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/"><p>Licensed under a Creative Commons-Attribution 3.0 licence.</p></licence>
+                    <licence target="http://www.copticscriptorium.org"><p>Coptic SCRIPTORIUM</p></licence>
+                </availability>
+                <idno type="TM">108162</idno>
+                <idno type="uri">http://www.trismegistos.org/tm/detail.php?tm=108162</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <!--description of the entire manuscript codex-->
+                    <msIdentifier>
+                        <!--manuscript name corresponds to Tito Orlandi's and the CMCL's catalogue identifiers for White Monastery manuscripts-->
+                        <msName>MONB.XH</msName>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>Shenoute's <title type="Discourses" n="5">Discourses, volume
+                            5</title></summary>
+                    </msContents>
+                    <history>
+                        <origin>
+                            <objectType>Codex</objectType>
+                            <country>Egypt</country>
+                            <placeName>Atripe</placeName>
+                            <origPlace>White Monastery</origPlace>
+                            <origDate notBefore-custom="0700" notAfter-custom="799"
+                                precision="medium">Between 700 and 799 C.E.</origDate>
+                        </origin>
+                    </history>
+                    <!--information about this fragment at its current repository-->
+                    <msPart>
+                        <msIdentifier>
+                            <repository>Institut Français d'Archéologie Orientale, Cairo</repository>
+                            <collection>Copte</collection>
+                            <idno>1</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <locus scheme="XH" from="204" to="216">204-216</locus>
+                                <textLang mainLang="cop">Sahidic Coptic</textLang>
+                                <incipit/>
+                                <title>Not Because A Fox Barks</title>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                </msDesc>
+                <listBibl>
+                    <bibl>
+                        <title level="m">Le quatrième livre des entretiens et des épîtres de Shenouti</title>
+                        <author>
+                            <forename>Émile</forename>
+                            <surname>Chassinat</surname>
+                        </author>
+                        <series>
+                            <title level="s">Mémoires publiés par les membres de l'Institut français d'archéologie orientale du Caire</title>
+                            <biblScope type="vol">23</biblScope>
+                        </series>
+                        <pubPlace>Cairo</pubPlace>
+                        <publisher>Imprimerie de l'Institut français d'archéologie orientale</publisher>
+                        <biblScope type="pages" from="38" to="50">38-50</biblScope>
+                        <date>1911</date>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>This file encoded to comply with EpiDoc Guidelines and Schema.<ref>http://sourceforge.net/p/epidoc/</ref></p>
+            <!-- Only the <hi> elements within the <m> element do not validate to Epidoc. Coptic SCRIPTORIUM is requesting a feature change to TEI and EpiDoc. -->
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="cop">Coptic</language>
+            </langUsage>
+            <creation>
+                <title/>
+                <date notBefore-custom="0380" notAfter-custom="0465" precision="medium">380-465 C.E.</date>
+            </creation>
+        </profileDesc>
+        <revisionDesc>
+            <change n="1.00" who="AmirZeldes" when="2014-12-18">Transcription from Chassinat, annotations, translation</change>
+        </revisionDesc>
+    </teiHeader>
+<text>
+<body>
+<ab>insert body material</ab>
+</body>        
+</text>
+</TEI>
