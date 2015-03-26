@@ -57,7 +57,8 @@ div.copt_line[line="50"]:before{content:attr(line)" "}
 div.copt_line:nth-of-type(5){text-indent:10px;}
 div.copt_line{display: block; white-space:nowrap; counter-increment: line ; height: 22px}
 div.copt_line:not(:nth-of-type(5n)){text-indent:20px;}
-.pb{border-style:solid;}*/
+*/
+.pb{border-style:solid;min-height: 600px}
 /*.pb:before{content:attribute(caption)}*/
 /*.cb{vertical-align: top; counter-reset: line 0; width: 160px; min-width: 160px}*/
 td{vertical-align: top; counter-reset: line 0; min-width:160px}
@@ -76,3 +77,4 @@ hi_rend[rend*='1_space_right'] {padding-right: 5px}
 hi_rend[rend*='2_space_left'] {text-indent: -10px}
 hi_rend[rend*='2_space_right'] {padding-right: 10px}
 hi_rend[rend*=extralarge] {font-size: 160%}
+hi_rend[rend*=ekthetic] {text-indent: -7px !important; display: inline-block}
