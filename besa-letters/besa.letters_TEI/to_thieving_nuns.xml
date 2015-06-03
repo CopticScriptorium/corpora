@@ -4,34 +4,81 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>Title</title>
-<author>Author</author>
+<title>To Thieving Nuns</title>
+<author>Besa</author>
+<respStmt>
+<resp>annotation</resp>
+<name>Caroline T. Schroeder, Amir Zeldes, David Sriboonreuang</name>
+</respStmt>
 </titleStmt>
 <publicationStmt>
-<date>2000</date>
-<pubPlace>Neverland</pubPlace>
+	<authority>KOMeT, Coptic SCRIPTORIUM</authority>
+	<availability>
+		<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+	</availability>
 </publicationStmt>
 <sourceDesc>
-<bibl>Author (2000), Title. Neverland, pp. 1-100.
-</bibl>
+	<msDesc>
+		<msIdentifier>
+			<msName>MONB.BA</msName>
+		</msIdentifier>
+		<history>
+			<origin>
+				<objectType>codex</objectType>
+				<country>Egypt</country>
+				<placeName>Atripe</placeName>
+				<origPlace>White Monastery</origPlace>
+				<origDate precision="medium" notBefore="0500" notAfter="0799">between 500 and 799 C.E.</origDate>
+			</origin>
+		</history>
+		<msPart>
+			<msIdentifier>
+				<repository>British Library</repository>
+				<collection>Oriental Manuscripts</collection>
+				<idno>Or. 8810 ff. 37- 39r</idno>
+			</msIdentifier>
+			<msContents>
+				<msItem>
+					<locus scheme="MONB.BA" from="309" to="313">309-313</locus>
+					<textLang>Sahidic Coptic</textLang>
+					<incipit/>
+					<title>To Thieving Nuns</title>
+				</msItem>
+			</msContents>
+		</msPart>
+	</msDesc>
+	<listBibl>
+		<bibl>Kuhn (1956), [Fragment 25] (To Thieving Nuns), pp. 72-73</bibl>
+	</listBibl>
 </sourceDesc>
 </fileDesc>
+<encodingDesc>
+	<p>This file encoded to comply with EpiDoc Guidelines and
+	Schema.<ref>http://sourceforge.net/p/epidoc/</ref></p>
+</encodingDesc>
+<profileDesc>
+	<langUsage>
+		<language ident="cop">Sahidic Coptic</language>
+	</langUsage>
+</profileDesc>
+<revisionDesc>
+	<change n="1.3.0" when="2015-05-28"></change>
+</revisionDesc>
+
 </teiHeader>
 <text>
 <body>
 
+<pb xml:id="BA409"/>
+<p>
 <cb n="1"/>
 <lb n="28"/>
-<phr>
-<w lemma=" ">
- 
-</w>
-</phr>
 <cb n="2"/>
+<s style="Oh you guilty on your part who allow Satan to come in,">
 <lb n="7"/>
 <phr>
 <w lemma="ⲱ" type="PTC" xml:lang="Greek">
-<hi rend="large, decorated">ⲱ̂</hi>
+<hi rend="large decorated">ⲱ̂</hi>
 </w>
 </phr>
 <phr>
@@ -96,6 +143,8 @@
 ⲉϩⲟⲩⲛ
 </w>
 </phr>
+</s>
+<s style="defiling the holy places of God.">
 <phr>
 <w lemma="ⲛ" type="ACONJ">
 ⲛ︤
@@ -146,6 +195,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="And you defile his temple which is you yourselves.">
 <lb n="14"/>
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
@@ -185,6 +236,8 @@
 <lb n="17"/>
 ⲧ︤ⲛ︥
 </w>
+</phr>
+<phr>
 <w lemma="ⲡⲉ" type="COP">
 ⲡⲉ
 </w>
@@ -204,6 +257,8 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="Didn’t you remember the prohibition of the apostle,">
 <phr>
 <w lemma="ⲙⲡⲉ" type="ANEGPST">
 ⲙ̄ⲡⲉ
@@ -253,6 +308,8 @@
 ,
 </w>
 </phr>
+</s>
+<s style="“he who will defile the temple of God, that one God will destroy.”">
 <phr>
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
@@ -332,6 +389,9 @@
 :
 </w>
 </phr>
+</s>
+</p><p>
+<s style="Nor still did you remember all the curses which our father said as he gave all of us into the hand of God saying:">
 <lb n="27"/>
 <phr>
 <w lemma="ⲟⲩⲧⲉ" type="CONJ" xml:lang="Greek">
@@ -361,6 +421,7 @@
 ⲙⲉⲉⲩⲉ
 </w>
 </phr>
+<pb xml:id="BA410"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -462,7 +523,7 @@
 ⲉ
 </w>
 <w lemma="ϥ" type="PPERS">
-<hi rend="long and thin">ϥ</hi>
+<hi rend="long thin">ϥ</hi>
 </w>
 <lb n="7"/>
 <w lemma="ϫⲱ" type="V">
@@ -477,11 +538,13 @@
 ⲥ
 </w>
 </phr>
+</s>
 <phr>
 <w lemma="," type="PUNCT">
 ,
 </w>
 </phr>
+<s style="“he is cursed, he who will defile his body in any form,">
 <phr>
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
@@ -547,6 +610,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="or steal anything, from a string to a lace.”">
 <phr>
 <w lemma="ⲏ" type="CONJ" xml:lang="Greek">
 ⲏ̂
@@ -618,6 +683,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="Most of all clothes and robes and hoods. And down to the least of things of eating. ">
 <phr>
 <w lemma="ⲙⲁⲗⲓⲥⲧⲁ" type="ADV" xml:lang="Greek">
 ⲙⲁⲗⲓ
@@ -703,6 +770,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="Whether out of the service of God or out of the shares of those next to them">
 <lb n="23"/>
 <phr>
 <w lemma="ⲉⲓⲧⲉ" type="CONJ" xml:lang="Greek">
@@ -807,7 +876,11 @@
 ·
 </w>
 </phr>
+</s>
+</p>
 <cb n="2"/>
+<p>
+<s style="I actually thought to come to you in good faith,">
 <lb n="1"/>
 <phr>
 <w lemma="ⲛⲉ" type="CPRET">
@@ -824,7 +897,9 @@
 <w lemma="ⲙⲉⲛ" type="CONJ">
 ⲙⲉ⳯
 </w>
+</phr>
 <lb n="2"/>
+<phr>
 <w lemma="ⲡⲉ" type="COP">
 ⲡⲉ
 </w>
@@ -873,6 +948,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="but the sorrow of those who have enraged God and pained his holy ghost, is what has hindered our joy.">
 <phr>
 <w lemma="ⲁⲗⲗⲁ" type="CONJ" xml:lang="Greek">
 ⲁⲗⲗⲁ
@@ -1012,6 +1089,9 @@
 ·
 </w>
 </phr>
+</s>
+</p><p>
+<s style="I know that every suffering is my fate, but if God with our Lord Jesus is doing his will, I come to you in a rage. ">
 <lb n="13"/>
 <phr>
 <w lemma="ϯ" type="PPERS">
@@ -1026,8 +1106,8 @@
 ⲙⲉⲛ
 </w>
 </phr>
-<phr>
 <lb n="14"/>
+<phr>
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
@@ -1037,7 +1117,9 @@
 <w lemma="ⲙⲡϣⲁ" type="N">
 ⲙ̄ⲡϣⲁ
 </w>
+</phr>
 <lb n="15"/>
+<phr>
 <w lemma="ⲡⲉ" type="COP">
 ⲡⲉ
 </w>
@@ -1156,6 +1238,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="And I will do to these unwise ones and these foolish virgins, who have no oil in their vessels  all those things that are in my heart.">
 <lb n="22"/>
 <phr>
 <w lemma="ⲛ" type="ACONJ">
@@ -1267,16 +1351,18 @@
 ·
 </w>
 </phr>
+</s>
+</p><p>
+<s style="That still again you return back to these provocations of God you fall down by the sword of the wicked one who has destroyed all of civilization in his sins and acts of lawlessness.">
 <phr>
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
 <w lemma="ⲡⲁⲗⲓⲛ" type="ADV" xml:lang="Greek">
 ⲡⲁ
-</w>
+<pb xml:id="BA411"/>
 <cb n="1"/>
 <lb n="1"/>
-<w>
 ⲡⲁⲗⲓⲛ
 </w>
 </phr>
@@ -1317,17 +1403,9 @@
 ⲛⲓ
 </w>
 <w lemma="ⲙⲛⲧⲣⲉϥϯϭⲱⲛⲧ" type="N">
-<m>ⲙ︤ⲛ︦ⲧ︥</m>
-</w>
-<w>
-<m>ⲣⲉ<hi rend="tall">ϥ</hi></m>
-</w>
+<m>ⲙ︤ⲛ︦ⲧ︥</m><m>ⲣⲉ<hi rend="tall">ϥ</hi></m>
 <lb n="5"/>
-<w>
-<m>ϯ</m>
-</w>
-<w>
-<m>ϭⲱⲛ︤ⲧ︥</m>
+<m>ϯ</m><m>ϭⲱⲛ︤ⲧ︥</m>
 </w>
 </phr>
 <phr>
@@ -1338,7 +1416,7 @@
 ⲡ
 </w>
 <w lemma="ⲛⲟⲩⲧⲉ" type="N">
-<hi rend="between following two letters">ⲛ</hi><hi rend="superscript above ni">ⲟ</hi><hi rend="subscript below ni">ⲩ</hi>
+ⲛ<hi rend="superscript above ni">ⲟ</hi><hi rend="subscript below ni">ⲩ</hi>
 <lb n="6"/>
 ⲧⲉ
 </w>
@@ -1464,6 +1542,8 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="For you have loved defilement rather than purification, and you have chosen death for you rather than life.">
 <phr>
 <w lemma="ⲉⲃⲟⲗ" type="ADV">
 ⲉⲃⲟⲗ
@@ -1574,6 +1654,9 @@
 ·
 </w>
 </phr>
+</s>
+</p><p>
+<s style="For you have angered him who has created you, and who has nourished you, God who is forever.">
 <phr>
 <lb n="22"/>
 <w lemma="ⲁ" type="APST">
@@ -1675,6 +1758,8 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="And you have also given suffering to her who has nursed you, Jerusalem, which is the congregation. ">
 <phr>
 <w lemma="ⲁ" type="APST">
 ⲁ
@@ -1767,6 +1852,8 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="And you have fallen in daylight like those who are in midnight. ">
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
 ⲁⲩⲱ
@@ -1845,6 +1932,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="As it is written: “she has stumbled, she has fallen, that is the virgin of Israel and so she won’t get up again.">
 <lb n="10"/>
 <phr>
 <w lemma="ⲛ" type="PREP">
@@ -1964,6 +2053,9 @@
 ·
 </w>
 </phr>
+</s>
+</p><p>
+<s style="For “those who sleep,” he said, “it’s at night that they sleep. And those who are drunk, it’s at night that they’re drunk”.">
 <lb n="17"/>
 <phr>
 <w lemma="ⲛ" type="ART">
@@ -2075,6 +2167,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="But as for you, you’ve drunk in day like those of whom it is said:">
 <lb n="23"/>
 <phr>
 <w lemma="ⲛⲧⲱⲧⲛ" type="PPERI">
@@ -2160,6 +2254,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="“those who are drunk without wine ”.">
 <lb n="28"/>
 <phr>
 <w lemma="ϫⲉ" type="CONJ">
@@ -2189,7 +2285,10 @@
 ·
 </w>
 </phr>
+</s>
+<pb xml:id="BA412"/>
 <cb n="1"/>
+<s style="And you have slept in daylight like those who sleep in the night. ">
 <lb n="1"/>
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
@@ -2261,6 +2360,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="For you have left the fear of God behind you;">
 <phr>
 <w lemma="ⲉⲃⲟⲗ" type="ADV">
 ⲉⲃⲟⲗ
@@ -2319,6 +2420,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="as you have loved darkness instead of light;">
 <phr>
 <lb n="9"/>
 <w lemma="ⲉ" type="CCIRC">
@@ -2363,6 +2466,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="and as you have also thought what’s bitter to be sweet, and what’s sweet to be bitter.">
 <lb n="12"/>
 <phr>
 <w lemma="ⲉ" type="CCIRC">
@@ -2451,6 +2556,9 @@
 ·
 </w>
 </phr>
+</s>
+</p><p>
+<s style="Because of this, woe to you evil ones that you did not think of all the toil that our father has endured with all of you.">
 <lb n="17"/>
 <phr>
 <w lemma="ⲉⲧⲃⲉ" type="PREP">
@@ -2574,6 +2682,8 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="As you have left behind his teachings of life and those of the petitions of your fathers.">
 <phr>
 <w lemma="ⲉ" type="CCIRC">
 ⲉ
@@ -2653,10 +2763,13 @@
 :
 </w>
 </phr>
+</s>
+</p><p>
+<s style="Furthermore, behold the elders go with their brothers">
 <lb n="2"/>
 <phr>
 <w lemma="ⲡⲗⲏⲛ" type="CONJ" xml:lang="Greek">
-<hi rend="ekthetic hanging indent of one letter to the left">ⲡⲗⲏⲛ</hi>
+<hi rend="ekthetic">ⲡⲗⲏⲛ</hi>
 </w>
 </phr>
 <phr>
@@ -2687,6 +2800,8 @@
 ⲥⲛⲏⲩ
 </w>
 </phr>
+</s>
+<s style="they came to you another time.">
 <phr>
 <w lemma="ⲁ" type="APST">
 ⲁ
@@ -2724,6 +2839,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="As we live in a great grief and much heart ache.">
 <lb n="6"/>
 <phr>
 <w lemma="ⲉ" type="CCIRC">
@@ -2785,7 +2902,7 @@
 ⲛⲁϣⲱ
 </w>
 <w lemma="ϥ" type="PPERS">
-<hi rend="long and thin continuing below line">ϥ</hi>
+<hi rend="long thin">ϥ</hi>
 </w>
 </phr>
 <phr>
@@ -2793,6 +2910,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="To have them done one by one by you according to their worth.">
 <lb n="10"/>
 <phr>
 <w lemma="ⲉ" type="PREP">
@@ -2854,6 +2973,9 @@
 ·
 </w>
 </phr>
+</s>
+</p><p>
+<s style="Since you have left the flow of the water of life behind you.">
 <lb n="14"/>
 <phr>
 <w lemma="ⲉⲃⲟⲗ" type="ADV">
@@ -2918,6 +3040,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="While you dug yourselves pits that are broken in making your hearts of foolishness do wrong to you.">
 <phr>
 <w lemma="ⲉ" type="CCIRC">
 ⲉ
@@ -2962,7 +3086,7 @@
 ⲩ
 </w>
 <w lemma="ⲟⲩⲟϭⲡ" type="VSTAT">
-ⲟⲩⲟϭ︤<hi rend="small, very faded">ⲡ︥</hi>
+ⲟⲩⲟϭ︤<hi rend="small  very faded">ⲡ︥</hi>
 </w>
 </phr>
 <phr>
@@ -3012,6 +3136,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="While you say: &apos;we are clever&apos;.">
 <lb n="24"/>
 <phr>
 <w lemma="ⲉ" type="CCIRC">
@@ -3056,6 +3182,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="You have been foolish.">
 <phr>
 <w lemma="ⲁ" type="APST">
 ⲁ
@@ -3074,6 +3202,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="While you have changed the honor of God in your actions which are unworthy.">
 <phr>
 <w lemma="ⲉ" type="CCIRC">
 ⲉ
@@ -3114,6 +3244,7 @@
 ⲛⲟⲩ<hi rend="small">ⲧⲉ</hi>
 </w>
 </phr>
+<pb xml:id="BA413"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -3141,6 +3272,9 @@
 .
 </w>
 </phr>
+</s>
+</p><p>
+<s style="For this reason, God has laid you down to torments, which are written, that is stealing and defilement and every kind of evil.">
 <phr>
 <w lemma="ⲉⲧⲃⲉ" type="PREP">
 ⲉ
@@ -3203,18 +3337,20 @@
 ⲥⲏϣ
 </w>
 </phr>
-<phr>
 <lb n="7"/>
+<phr>
 <w lemma="ⲉⲧⲉ" type="CREL">
 ⲉⲧⲉ
 </w>
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ϫⲓⲟⲩⲉ" type="V">
+<w lemma="ϫⲓⲟⲩⲉ" type="N">
 ϫⲓⲟⲩⲉ
 </w>
+</phr>
 <lb n="8"/>
+<phr>
 <w lemma="ⲡⲉ" type="COP">
 ⲡⲉ
 </w>
@@ -3250,6 +3386,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="Those things which every vengence will happen to those that commit them.">
 <phr>
 <w lemma="ⲛⲁⲓ" type="PDEM">
 ⲛⲁⲓ̈
@@ -3281,11 +3419,11 @@
 ⲛ̄
 </w>
 <lb n="13"/>
-<w lemma="ⲛⲉ" type="ART">
-ⲛⲉ
+<w lemma="ⲛ" type="ART">
+ⲛ
 </w>
-<w lemma="ⲧ" type="ART">
-ⲧ
+<w lemma="ⲉⲧ" type="CREL">
+ⲉⲧ
 </w>
 <w lemma="ⲉⲓⲣⲉ" type="V">
 ⲉⲓⲣⲉ
@@ -3305,6 +3443,8 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="Not just in this world but in the other one.">
 <phr>
 <w lemma="ⲟⲩ" type="PPERO">
 ⲟⲩ
@@ -3358,12 +3498,9 @@
 :
 </w>
 </phr>
+</s>
 <cb n="2"/>
-<phr>
-<w lemma=" ">
- 
-</w>
-</phr>
-</body>
+<lb n="1"/>
+</p></body>
 </text>
 </TEI>

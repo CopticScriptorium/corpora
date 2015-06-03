@@ -4,28 +4,79 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>Title</title>
-<author>Author</author>
+<title>To Aphthonia</title>
+<author>Besa</author>
+<respStmt>
+<resp>annotation</resp>
+<name>Caroline T. Schroeder, Amir Zeldes, David Sriboonreuang</name>
+</respStmt>
 </titleStmt>
 <publicationStmt>
-<date>2000</date>
-<pubPlace>Neverland</pubPlace>
+	<authority>KOMeT, SCRIPTORIUM</authority>
+	<availability>
+		<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+	</availability>
 </publicationStmt>
 <sourceDesc>
-<bibl>Author (2000), Title. Neverland, pp. 1-100.
-</bibl>
+	<msDesc>
+		<msIdentifier>
+			<msName>MONB.BA</msName>
+		</msIdentifier>
+		<history>
+			<origin>
+				<objectType>codex</objectType>
+				<country>Egypt</country>
+				<placeName>Atripe</placeName>
+				<origPlace>White Monastery</origPlace>
+				<origDate precision="medium" notBefore="0500" notAfter="0799">between 500 and 799 C.E.</origDate>
+			</origin>
+		</history>
+		<msPart>
+			<msIdentifier>
+				<repository>Biblioteca Nazionale di Napoli</repository>
+				<collection>Borgia Collection</collection>
+				<idno>IB 6 ff. 28v.-31r</idno>
+			</msIdentifier>
+			<msContents>
+				<msItem>
+					<locus scheme="MONB.BA" from="244" to="249">244-249</locus>
+					<textLang>Sahidic Coptic</textLang>
+					<incipit/>
+					<title>To Aphthonia</title>
+				</msItem>
+			</msContents>
+		</msPart>
+	</msDesc>
+	<listBibl>
+		<bibl>Kuhn (1956), [Fragment 13] (To Aphthonia), pp. 37-39</bibl>
+	</listBibl>
 </sourceDesc>
 </fileDesc>
+<encodingDesc>
+	<p>This file encoded to comply with EpiDoc Guidelines and
+	Schema.<ref>http://sourceforge.net/p/epidoc/</ref></p>
+</encodingDesc>
+<profileDesc>
+	<langUsage>
+		<language ident="cop">Sahidic Coptic</language>
+	</langUsage>
+</profileDesc>
+<revisionDesc>
+	<change n="1.3.0" when="2015-05-28"></change>
+</revisionDesc>
+
 </teiHeader>
 <text>
 <body>
 
 <pb xml:id="BB44"/>
+<p>
 <cb n="1"/>
+<s style="You have given glory to God indeed.">
 <lb n="28"/>
 <phr>
 <w lemma="ⲁⲣ" type="APST_PPERS">
-<hi rend="large, decorated">ⲁ</hi>ⲣ
+<hi rend="large decorated">ⲁ</hi>ⲣ
 </w>
 <w lemma="ϯ" type="V">
 ϯ
@@ -58,6 +109,8 @@
 .
 </w>
 </phr>
+</s>
+<s style="It’s to you that I speak, you Aphthonia, daughter of the Comes Alexander.">
 <phr>
 <w lemma="ⲉ" type="CFOC">
 ⲉ
@@ -119,6 +172,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="Have you not honoured the place you were nourished in according to God and according to the world , in your words and your deeds? ">
 <lb n="5"/>
 <phr>
 <w lemma="ⲏ" type="CONJ" xml:lang="Greek">
@@ -160,11 +215,8 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ART">
-ⲛ̄
-</w>
-<w lemma="ϩⲏⲧ" type="N">
-ϩⲏⲧ
+<w lemma="ⲛϩⲏⲧ" type="PREP">
+ⲛ̄ϩⲏⲧ
 </w>
 <w lemma="ϥ" type="PPERO">
 ϥ̄
@@ -236,6 +288,9 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+</p><p>
+<s style="If your heart hadn’t corrupted, you would not despise the place you are in, or shame the sisters who are in the place with you.">
 <phr>
 <w lemma="ⲉⲛⲉ" type="CONJ">
 ⲉⲛⲉ
@@ -290,11 +345,8 @@
 <w lemma="ⲉⲧⲉ" type="CREL">
 ⲉⲧⲉ
 </w>
-<w lemma="ⲛ" type="PREP">
-ⲛ̄
-</w>
-<w lemma="ϩⲏⲧ" type="N">
-ϩⲏⲧ︤
+<w lemma="ⲛϩⲏⲧ" type="PREP">
+ⲛ̄ϩⲏⲧ︤
 </w>
 <w lemma="ϥ" type="PPERO">
 ϥ︥
@@ -357,6 +409,9 @@
 ·
 </w>
 </phr>
+</s>
+</p><p>
+<s style="They call you by your name “Aphthonia”, but you revile yourself alone.">
 <lb n="20"/>
 <phr>
 <w lemma="ⲥⲉ" type="PPERS">
@@ -436,6 +491,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="And you are a slanderer to you yourself, what you wish is to destroy your soul, which the whole world isn’t worthy of.">
 <lb n="27"/>
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
@@ -553,6 +610,8 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="and to lead astray in your sufferings for no reason. ">
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
 ⲁⲩⲱ
@@ -596,6 +655,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="For you have left room for Satan inside you to transform your heart, and daze you like those sheep that become (spoiled) by moths.">
 <phr>
 <w lemma="ⲉⲃⲟⲗ" type="ADV">
 ⲉ
@@ -747,6 +808,9 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+</p><p>
+<s style="You stupid and foolish one in which there isn’t wisdom.">
 <phr>
 <w lemma="ⲧ" type="ART">
 ⲧ
@@ -795,6 +859,8 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="For if there had been knowledge in you, even if they truly fought with you, then you ought to let a man know how they are inside your place.">
 <phr>
 <w lemma="ⲉⲛⲉ" type="CONJ">
 ⲉⲛⲉ
@@ -939,7 +1005,11 @@
 ·
 </w>
 </phr>
+</s>
+</p>
 <cb n="2"/>
+<p>
+<s style="Most of all when you sent to your father and your mother: “they fought with me,” or “they abused me”.">
 <lb n="1"/>
 <phr>
 <w lemma="ⲙⲁⲗⲓⲥⲧⲁ" type="ADV" xml:lang="Greek">
@@ -1050,6 +1120,8 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="It’s you lying, as they didn’t fight with you nor did they abuse you. ">
 <phr>
 <w lemma="ⲉⲣ" type="CFOC_PPERS">
 ⲉⲣ
@@ -1113,6 +1185,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="That they “fought with you” was that you were given knowledge in your transgressing the law by your receiving something  from your parents without asking.">
 <lb n="12"/>
 <phr>
 <w lemma="ⲛⲧ" type="CFOC">
@@ -1165,7 +1239,7 @@
 ⲟⲩ
 </w>
 <w lemma="ⲉⲡⲓⲥⲧⲏⲙⲏ" type="N" xml:lang="Greek">
-ⲉⲡⲓⲥ<hi rend="added in more cursive script towards the margin">ⲧⲏ</hi>
+ⲉⲡⲓⲥⲧⲏ
 <lb n="15"/>
 ⲙⲏ
 </w>
@@ -1255,6 +1329,9 @@
 ·
 </w>
 </phr>
+</s>
+</p><p>
+<s style="What is it that you asked for or needed and were rejected, or you weren’t given it?">
 <lb n="21"/>
 <phr>
 <w lemma="ⲛⲧ" type="CFOC">
@@ -1360,6 +1437,8 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="If you told your father and your mother, are we to be afraid?">
 <phr>
 <w lemma="ⲉⲣϣⲁⲛ" type="ACOND">
 ⲉⲣϣⲁ⳯
@@ -1421,6 +1500,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="All the more so as you lie. ">
 <phr>
 <w lemma="ⲙⲁⲗⲓⲥⲧⲁ" type="ADV" xml:lang="Greek">
 ⲙⲁⲗⲓ
@@ -1444,6 +1525,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="So you don’t want us to tell them about your foolish actions which you do and your stealing and your quarrels.">
 <lb n="3"/>
 <phr>
 <w lemma="ⲟⲩⲕ" type="NEG" xml:lang="Greek">
@@ -1560,6 +1643,9 @@
 ·
 </w>
 </phr>
+</s>
+</p><p>
+<s style="Oh you truly blind one who gropes in daylight like those who are in midnight">
 <lb n="11"/>
 <phr>
 <w lemma="ⲧ" type="ART">
@@ -1642,11 +1728,15 @@
 ·
 </w>
 </phr>
+</s>
+<s style="And like those blind ones, who have no eyes.">
 <lb n="16"/>
 <phr>
-<w lemma="ⲁⲩⲱ" type="NPROP">
+<w lemma="ⲁⲩⲱ" type="CONJ">
 ⲁⲩⲱ
 </w>
+</phr>
+<phr>
 <w lemma="ⲛ" type="PREP">
 ⲛ̄
 </w>
@@ -1699,6 +1789,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="Where is it that your parents from the world will hear of your action inside this place, without us knowing in the monastery?">
 <lb n="19"/>
 <phr>
 <w lemma="ⲉⲃⲟⲗ" type="ADV">
@@ -1831,11 +1923,16 @@
 ·
 </w>
 </phr>
+</s>
+</p><p>
+<s style="So if they truly did violence to you or grieved or pained you, you should have told us of your pain.">
 <lb n="29"/>
 <phr>
 <w lemma="ⲡⲉ" type="COP">
 ⲡⲉ
 </w>
+</phr>
+<phr>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
@@ -1914,7 +2011,9 @@
 <w lemma="ⲏⲡ" type="VSTAT">
 ⲏⲡ
 </w>
+</phr>
 <lb n="5"/>
+<phr>
 <w lemma="ⲡⲉ" type="COP">
 ⲡⲉ
 </w>
@@ -1947,6 +2046,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="I tell you we’ll know if it’s the truth you’re telling or not. ">
 <lb n="7"/>
 <phr>
 <w lemma="ⲧⲁⲣ" type="AFUTCONJ">
@@ -1995,6 +2096,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="Or you should have told your mother in this place  with you. ">
 <phr>
 <w lemma="ⲏ" type="CONJ" xml:lang="Greek">
 ⲏ̇
@@ -2045,6 +2148,8 @@
 <hi rend="1_space_right">.</hi>
 </w>
 </phr>
+</s>
+<s style="If you don’t call her only with your mouth “mother”. ">
 <phr>
 <w lemma="ⲉϣⲱⲡⲉ" type="CONJ">
 ⲉϣⲱ
@@ -2109,6 +2214,8 @@
 <hi rend="1_space_right">.</hi>
 </w>
 </phr>
+</s>
+<s style="But it’s that your heart is distant far away from her. ">
 <phr>
 <w lemma="ⲉⲣⲉ" type="CFOC">
 ⲉⲣⲉ
@@ -2153,7 +2260,9 @@
 .
 </w>
 </phr>
+</s>
 <lb n="20"/>
+<s style="As it is written: ">
 <phr>
 <w lemma="ⲛ" type="PREP">
 ⲛ̄
@@ -2173,6 +2282,8 @@
 ⲥⲏϩ
 </w>
 </phr>
+</s>
+<s style="“this people honours me with their lips, but their heart is distant far away from me.” ">
 <lb n="21"/>
 <phr>
 <w lemma="ϫⲉ" type="CONJ">
@@ -2262,6 +2373,9 @@
 ·
 </w>
 </phr>
+</s>
+</p><p>
+<s style="For if your stupid heart hadn’t darkened on you, would you have scorned your parents who are in the community with you,">
 <phr>
 <lb n="27"/>
 <w lemma="ⲉⲛⲉ" type="CONJ">
@@ -2323,6 +2437,8 @@
 <lb n="2"/>
 ⲧⲁⲫⲣⲟⲛⲉⲓ
 </w>
+</phr>
+<phr>
 <w lemma="ⲡⲉ" type="COP">
 ⲡⲉ
 </w>
@@ -2369,6 +2485,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="or despised the sisters that you dwell with in your pride and your boastfulness? ">
 <lb n="6"/>
 <phr>
 <w lemma="ⲏ" type="CONJ" xml:lang="Greek">
@@ -2458,6 +2576,9 @@
 ·
 </w>
 </phr>
+</s>
+</p><p>
+<s style="Or if you hadn’t left behind you the teaching and the wisdom. ">
 <lb n="13"/>
 <phr>
 <w lemma="ⲏ" type="CONJ" xml:lang="Greek">
@@ -2511,6 +2632,8 @@
 .
 </w>
 </phr>
+</s>
+<s style="And as you loved what is evil, instead of what is good.">
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
 ⲁⲩⲱ
@@ -2564,7 +2687,7 @@
 ⲛⲁⲛⲟ<hi rend="large">ⲩ</hi>
 </w>
 <w lemma="ϥ" type="PPERS">
-<hi rend="long and thin">ϥ</hi>
+<hi rend="long thin">ϥ</hi>
 </w>
 </phr>
 <phr>
@@ -2572,6 +2695,8 @@
 .
 </w>
 </phr>
+</s>
+<s style="Would you have practiced things which are evil, and said with your mouth that is full of curses upon bitterness: ">
 <lb n="20"/>
 <phr>
 <w lemma="ⲛⲉⲣ" type="CPRET_PPERS">
@@ -2677,6 +2802,8 @@
 ,
 </w>
 </phr>
+</s>
+<s style="“I’ll go to another monastery”. ">
 <phr>
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
@@ -2709,6 +2836,9 @@
 .
 </w>
 </phr>
+</s>
+</p><p>
+<s style="In what was it that this place did you violence? ">
 <lb n="29"/>
 <phr>
 <w lemma="ⲛⲧ" type="CFOC">
@@ -2757,6 +2887,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="Or what is the weight that they put on you, ">
 <phr>
 <w lemma="ⲏ" type="CONJ" xml:lang="Greek">
 ⲏ̇
@@ -2766,6 +2898,8 @@
 <w lemma="ⲟⲩ" type="PINT">
 ⲟⲩ̂
 </w>
+</phr>
+<phr>
 <w lemma="ⲡⲉ" type="COP">
 ⲡⲉ
 </w>
@@ -2807,6 +2941,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="except that they told you “don’t violate the command of God,” ">
 <lb n="5"/>
 <phr>
 <w lemma="ⲛⲥⲁⲃⲏⲗ" type="CONJ">
@@ -2883,6 +3019,8 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="because you gave perfume and mesouaphi to a maiden while she was in the house with you">
 <phr>
 <w lemma="ⲉⲃⲟⲗ" type="ADV">
 ⲉⲃⲟⲗ
@@ -2957,6 +3095,8 @@
 ⲉ
 </w>
 </phr>
+</s>
+<s style="so that you’ll become an obstacle and a scandal to each other. ">
 <lb n="14"/>
 <phr>
 <w lemma="ϫⲉⲕⲁⲥ" type="CONJ">
@@ -3019,10 +3159,13 @@
 ·
 </w>
 </phr>
+</s>
+</p><p>
+<s style="For this thing, I promise you that if you don’t give your admission and take away this disobedience of yours and those quarrels in vain, ">
 <lb n="19"/>
 <phr>
 <w lemma="ⲉⲧⲃⲉ" type="PREP">
-<hi rend="Very large and decorated">ⲉ</hi>ⲧⲃⲉ
+<hi rend="Very large decorated">ⲉ</hi>ⲧⲃⲉ
 </w>
 <w lemma="ⲡⲁⲓ" type="PDEM">
 ⲡⲁⲓ̈
@@ -3144,6 +3287,8 @@
 .
 </w>
 </phr>
+</s>
+<s style="I will make your heart suffer. ">
 <phr>
 <w lemma="ϯ" type="PPERS">
 ϯ
@@ -3175,6 +3320,8 @@
 .
 </w>
 </phr>
+</s>
+<s style="And I will make them treat you like what came out of you mouth.">
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
 ⲁⲩ<hi rend="small">ⲱ</hi>
@@ -3253,10 +3400,13 @@
 ·
 </w>
 </phr>
+</s>
+</p><p>
+<s style="Indeed I am concerned, for you (Aphthonia) and for you (the congregation).">
 <lb n="7"/>
 <phr>
 <w lemma="ⲛⲁⲙⲉ" type="ADV">
-<hi rend="ekthetic slightly to the left and decorated">ⲛⲁⲙⲉ</hi>
+<hi rend="ekthetic decorated">ⲛⲁⲙⲉ</hi>
 </w>
 </phr>
 <phr>
@@ -3323,6 +3473,8 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="What I&apos;m afraid of is that X in the way that the serpent deceived Eve in his treachery, as your hearts perish away from the simplicity and the purity which bring to Christ.">
 <phr>
 <w lemma="ⲉ" type="CFOC">
 ⲉ
@@ -3331,7 +3483,7 @@
 ⲓ̈
 </w>
 <w lemma="ⲣϩⲟⲧⲉ" type="V">
-ⲣ̄ϩⲟⲧ<hi rend="small">ⲉ</hi>
+<m>ⲣ̄</m><m>ϩⲟⲧ<hi rend="small">ⲉ</hi></m>
 </w>
 </phr>
 <lb n="11"/>
@@ -3484,11 +3636,14 @@
 <hi rend="2_space_right">:</hi>
 </w>
 </phr>
+</s>
+</p><p>
+<s style="If he didn&apos;t leave the one who is there in paradise, is it you (Aphthonia) that he will spare?">
 <phr>
 <w lemma="ⲉϣϫⲉ" type="CONJ">
 ⲉϣ
 <lb n="23"/>
-<hi rend="ekthetic slightly to the left and decorated">Ϫⲉ</hi>
+<hi rend="ekthetic decorated">Ϫⲉ</hi>
 </w>
 </phr>
 <phr>
@@ -3559,6 +3714,8 @@
 .
 </w>
 </phr>
+</s>
+<s style="Or you (the congregation), in your leaving room for him inside yourselves.">
 <phr>
 <w lemma="ⲏ" type="CONJ" xml:lang="Greek">
 ⲏ̇
@@ -3618,6 +3775,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="As you also indulge in his plans of guile and his wicked deeds.">
 <lb n="2"/>
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
@@ -3692,6 +3851,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="For he will not have power over those who fear God inside.">
 <phr>
 <lb n="8"/>
 <w lemma="ⲛ" type="NEG">
@@ -3731,7 +3892,7 @@
 ⲉⲧ
 </w>
 <w lemma="ⲣϩⲟⲧⲉ" type="V">
-ⲣ̄ϩⲟⲧⲉ
+<m>ⲣ̄</m><m>ϩⲟⲧⲉ</m>
 </w>
 </phr>
 <lb n="11"/>
@@ -3761,6 +3922,8 @@
 <hi rend="1_space_right">.</hi>
 </w>
 </phr>
+</s>
+<s style="Those for whom Christ is an aid and a protector.">
 <phr>
 <w lemma="ⲛⲁⲓ" type="PDEM">
 ⲛⲁⲓ̈
@@ -3823,6 +3986,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="As it is written: &apos;the one who fights on your behalf is your aid, and the sword of your pride and the glory of your foundation&apos;">
 <lb n="17"/>
 <phr>
 <w lemma="ⲛ" type="PREP">
@@ -3866,6 +4031,8 @@
 <w lemma="ⲕ" type="PPERO">
 ⲕ
 </w>
+</phr>
+<phr>
 <w lemma="ⲡⲉ" type="COP">
 ⲡⲉ
 </w>
@@ -3897,6 +4064,8 @@
 <w lemma="ⲥⲏϥⲉ" type="N">
 ⲥⲏϥⲉ
 </w>
+</phr>
+<phr>
 <w lemma="ⲡⲉ" type="COP">
 ⲡⲉ
 </w>
@@ -3946,6 +4115,9 @@
 <hi rend="2_space_right">·</hi>
 </w>
 </phr>
+</s>
+</p><p>
+<s style="Whoever will love that which is evil, he is the one who will perish.">
 <phr>
 <w lemma="ⲡ" type="ART">
 ⲡ
@@ -4005,6 +4177,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="And he is the one that the devil will have power over in his deeds of soul killing.">
 <lb n="29"/>
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
@@ -4085,6 +4259,8 @@
 <hi rend="2_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="But the wise one who loves the teaching, he will receive the commandment.">
 <phr>
 <w lemma="ⲡ" type="ART">
 ⲡ
@@ -4169,6 +4345,8 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="And the intelligent one who fears God inside will acquire guidance for himself.">
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
 ⲁⲩⲱ
@@ -4179,9 +4357,9 @@
 ⲡ
 </w>
 <w lemma="ⲣⲙⲛϩⲏⲧ" type="N">
-ⲣ︤ⲙ︥
+<m>ⲣ︤ⲙ︥</m><m>ⲛ̄</m>
 <lb n="12"/>
-ⲛ̄ϩⲏⲧ
+<m>ϩⲏⲧ</m>
 </w>
 </phr>
 <phr>
@@ -4189,9 +4367,9 @@
 ⲉⲧ
 </w>
 <w lemma="ⲣϩⲟⲧⲉ" type="V">
-ⲣ̄ϩⲟ
+<m>ⲣ̄</m><m>ϩⲟ
 <lb n="13"/>
-ⲧⲉ
+ⲧⲉ</m>
 </w>
 </phr>
 <phr>
@@ -4243,9 +4421,10 @@
 <w lemma="ⲟⲩ" type="ART">
 ⲟⲩ
 </w>
-<lb n="16"/>
 <w lemma="ⲣϩⲙⲙⲉ" type="N">
-ⲣϩ︤ⲙ︥ⲙⲉ
+<m>ⲣ</m>
+<lb n="16"/>
+<m>ϩ︤ⲙ︥ⲙⲉ</m>
 </w>
 </phr>
 <phr>
@@ -4253,6 +4432,9 @@
 ·
 </w>
 </phr>
+</s>
+</p><p>
+<s style="But let me hear that you have pleased your parents who are in the place with you.">
 <lb n="17"/>
 <phr>
 <w lemma="ⲡⲗⲏⲛ" type="CONJ" xml:lang="Greek">
@@ -4329,6 +4511,8 @@
 .
 </w>
 </phr>
+</s>
+<s style="And that you obey them in every action.">
 <lb n="22"/>
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
@@ -4375,6 +4559,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="And our heart shall be at ease.">
 <lb n="25"/>
 <phr>
 <w lemma="ⲧⲁⲣⲉ" type="AFUTCONJ">
@@ -4398,6 +4584,8 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="And as for you, you will be filled with satisfaction.">
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
 ⲁⲩⲱ
@@ -4454,11 +4642,14 @@
 ·
 </w>
 </phr>
+</s>
+</p><p>
 <cb n="2"/>
+<s style="But if you still have something to say, here are the elders, our parents and our brothers, they have come to you.">
 <lb n="1"/>
 <phr>
 <w lemma="ⲉϣⲱⲡⲉ" type="CONJ">
-<hi rend="ekthetic slightly to the left and decorated">ⲉϣⲱⲡⲉ</hi>
+<hi rend="ekthetic decorated">ⲉϣⲱⲡⲉ</hi>
 </w>
 </phr>
 <phr>
@@ -4575,6 +4766,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="Proclaim it to them, and all of you.">
 <lb n="8"/>
 <phr>
 <w lemma="ⲧⲁⲩⲟⲩⲟ" type="V">
@@ -4623,11 +4816,15 @@
 ·
 </w>
 </phr>
+</s>
+<s style="So you have words there, or any deed in your place.">
 <lb n="11"/>
 <phr>
 <w lemma="ⲡⲉ" type="COP">
 ⲡⲉ
 </w>
+</phr>
+<phr>
 <w lemma="ⲟⲩⲛⲧⲏ" type="EXIST">
 ⲟⲩⲛ̄ⲧⲏ
 </w>
@@ -4687,6 +4884,8 @@
 ·
 </w>
 </phr>
+</s>
+<s style="Don&apos;t continue to want to tell them">
 <lb n="15"/>
 <phr>
 <w lemma="ⲙⲡⲣ" type="VIMP">
@@ -4717,6 +4916,8 @@
 ⲟⲩ
 </w>
 </phr>
+</s>
+<s style="As you do not hide anything from them">
 <phr>
 <lb n="17"/>
 <w lemma="ⲛ" type="ACONJ">
@@ -4759,6 +4960,8 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="So that all our hearts may be at ease together, we and you.">
 <phr>
 <w lemma="ϫⲉⲕⲁⲥ" type="CONJ">
 ϫⲉⲕⲁⲥ
@@ -4829,6 +5032,8 @@
 <hi rend="1_space_right">·</hi>
 </w>
 </phr>
+</s>
+<s style="And God will be pleased with us too.">
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
 ⲁⲩⲱ
@@ -4880,6 +5085,7 @@
 :
 </w>
 </phr>
-</body>
+</s>
+</p></body>
 </text>
 </TEI>
