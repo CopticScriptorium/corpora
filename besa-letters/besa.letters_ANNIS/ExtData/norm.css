@@ -10,3 +10,6 @@ font-family: Antinoou, sans-serif; width: 500px; white-space: normal !important;
 .copt_word{ white-space: inherit; }
 .copt_word:after{content: " ";}
 .p:before{content:attr(n)". "; font-weight: bold}
+.page:before{color: blue; font-style: italic; content: " [" attr(page) "] ";}
+.norm a{text-decoration: none !important; color:inherit}
+.norm a:hover{text-decoration: underline !important; color: blue}
