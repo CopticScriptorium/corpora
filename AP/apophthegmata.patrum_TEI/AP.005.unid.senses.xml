@@ -4,11 +4,19 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>Apophthegmata Patrum Sahidic 5</title>
+<title ref="urn:cts:copticLit:ap.5.monbeg">Apophthegmata Patrum Sahidic 5</title>
 <author>anonymous</author>
+<respStmt>
+<resp>source</resp>
+<name>none</name>
+</respStmt>
 <respStmt>
 <resp>annotation</resp>
 <name>Tobias Paul, Amir Zeldes, Caroline T. Schroeder, David Sriboonreuang, Elizabeth Platte, Christine Luckritz Marquis</name>
+</respStmt>
+<respStmt>
+<resp>translation</resp>
+<name>Tobias Paul, Amir Zeldes</name>
 </respStmt>
 </titleStmt>
 <publicationStmt>
@@ -42,13 +50,13 @@
 					<locus scheme="MONB.EG" from="16" to="16">16-16</locus>
 					<textLang>Sahidic Coptic</textLang>
 					<incipit/>
-					<title>Apophthegmata Patrum</title>
+					<title>Apophthegmata Patrum Sahidic 5</title>
 				</msItem>
 			</msContents>
 		</msPart>
 	</msDesc>
 	<listBibl>
-		<bibl>Chaîne (1960), § 5 p. 2 </bibl>
+		<bibl>Chaîne (1960), § 5 p. 2</bibl>
 	</listBibl>
 </sourceDesc>
 </fileDesc>
@@ -68,21 +76,23 @@
 </teiHeader>
 <text>
 <body>
-
 <p>
+<pb xml:id="EG16"/>
 <cb n="2"/>
 <lb n="4"/>
 <s style="Someone asked an old man:">
 <phr>
 <w lemma="ⲁ" type="APST">
-<hi rend="large red ekthetic">Ⲁ</hi>
+<hi rend="large red ekthetic">
+Ⲁ
+</hi>
 </w>
 <w lemma="ⲟⲩⲁ" type="NUM">
 ⲟⲩⲁ
 </w>
 </phr>
 <phr>
-<w lemma="ϫⲛⲉ" type="V">
+<w lemma="ϫⲛⲟⲩ" type="V">
 ϫⲛⲉ
 </w>
 <w lemma="ⲟⲩ" type="ART">
@@ -107,10 +117,10 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲉ" type="CFOC">
+<w lemma="ⲉⲣⲉ" type="CFOC">
 ⲉ
 </w>
-<w lemma="ⲓ" type="PPERS">
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ⲓ̇
 </w>
 <w lemma="ϩⲙⲟⲟⲥ" type="VSTAT">
@@ -118,7 +128,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ϩⲙ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ϩⲙ
 </w>
 <lb n="6"/>
@@ -174,9 +184,11 @@
 <lb n="8"/>
 <phr>
 <w lemma="ⲁ" type="APST">
-<hi rend="large red ekthetic">Ⲁ</hi>
+<hi rend="large red ekthetic">
+Ⲁ
+</hi>
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <w lemma="ⲟⲩⲱϣⲃ" type="V">
@@ -187,7 +199,7 @@
 <w lemma="ⲛⲁ" type="PREP">
 ⲛⲁ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -217,7 +229,7 @@
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲥⲉ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
 <w lemma="ϣⲱⲛⲉ" type="V">
@@ -230,10 +242,10 @@
 <w lemma="ⲛϭⲓ" type="PTC">
 ⲛ̇ϭⲓ̇
 </w>
-<w lemma="ⲛⲉⲕ" type="PPOS">
+<w lemma="ⲡⲉⲕ" type="PPOS">
 ⲛⲉⲕ
 </w>
-<w lemma="ⲉⲥⲑⲏⲧⲏⲣⲓⲟⲛ" xml:lang="Greek" type="N">
+<w lemma="ⲉⲥⲑⲏⲧⲏⲣⲓⲟⲛ" type="N" xml:lang="Greek">
 ⲉⲥⲑⲏⲧⲏⲣⲓ
 <lb n="11"/>
 ⲟⲛ
@@ -242,7 +254,7 @@
 </s>
 <s style="which are exterior,">
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ϩⲓⲃⲟⲗ" type="ADV">
@@ -258,11 +270,16 @@
 <s style="your sight, your hearing, your scent, your speech.">
 <lb n="12"/>
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ϭⲓⲛⲛⲁⲩ" type="N">
-<m>ϭⲓⲛ</m><m>ⲛⲁⲩ</m>
+<m>
+ϭⲓⲛ
+</m>
+<m>
+ⲛⲁⲩ
+</m>
 </w>
 </phr>
 <phr>
@@ -272,11 +289,16 @@
 </phr>
 <lb n="13"/>
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ϭⲓⲛⲥⲱⲧⲙ" type="N">
-<m>ϭⲓⲛ</m><m>ⲥⲱⲧⲙ̇</m>
+<m>
+ϭⲓⲛ
+</m>
+<m>
+ⲥⲱⲧⲙ̇
+</m>
 </w>
 </phr>
 <phr>
@@ -286,11 +308,16 @@
 </phr>
 <lb n="14"/>
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ϭⲓⲛϣⲱⲗⲙ" type="N">
-<m>ϭⲓⲛ</m><m>ϣⲱⲗⲙ̄</m>
+<m>
+ϭⲓⲛ
+</m>
+<m>
+ϣⲱⲗⲙ̄
+</m>
 </w>
 </phr>
 <phr>
@@ -300,11 +327,16 @@
 </phr>
 <lb n="15"/>
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ϭⲓⲛϣⲁϫⲉ" type="N">
-<m>ϭⲓⲛ</m><m>ϣⲁϫⲉ</m>
+<m>
+ϭⲓⲛ
+</m>
+<m>
+ϣⲁϫⲉ
+</m>
 </w>
 </phr>
 <phr>
@@ -316,8 +348,11 @@
 <s style="If now you develop their ability in purity">
 <lb n="16"/>
 <phr>
-<w lemma="ⲛⲁⲓ" type="PDEM">
-<hi rend="ekthetic red large">Ⲛ</hi>ⲁⲓ
+<w lemma="ⲡⲁⲓ" type="PDEM">
+<hi rend="ekthetic red large">
+Ⲛ
+</hi>
+ⲁⲓ
 </w>
 </phr>
 <phr>
@@ -331,7 +366,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲕϣⲁⲛ" type="ACOND_PPERS">
+<w lemma="ⲉⲣϣⲁⲛ_ⲛⲧⲟⲕ" type="ACOND_PPERS">
 ⲉⲕϣ̇ⲁⲛ
 </w>
 <lb n="17"/>
@@ -343,10 +378,10 @@
 <w lemma="ⲛ" type="PREP">
 ⲛ̄
 </w>
-<w lemma="ⲧⲉⲩ" type="PPOS">
+<w lemma="ⲡⲉⲩ" type="PPOS">
 ⲧⲉⲩ
 </w>
-<w lemma="ⲉⲛⲉⲣⲅⲓⲁ" xml:lang="Greek" type="N">
+<w lemma="ⲉⲛⲉⲣⲅⲓⲁ" type="N" xml:lang="Greek">
 ⲉ̇ⲛⲉⲣⲅⲓⲁ
 </w>
 </phr>
@@ -359,7 +394,13 @@
 ⲟⲩ
 </w>
 <w lemma="ⲙⲛⲧⲕⲁⲑⲁⲣⲟⲥ" type="N">
-<m>ⲙⲛ̇ⲧ</m><m xml:lang="Greek">ⲕⲁⲑⲁⲣⲟ̣[ⲥ]</m>
+<m>
+ⲙⲛ̇ⲧ
+</m>
+<m xml:lang="Greek">
+ⲕⲁⲑⲁⲣⲟ̣
+[ⲥ]
+</m>
 </w>
 </phr>
 </s>
@@ -371,14 +412,15 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ̇
 </w>
 <w lemma="ⲕⲉ" type="ART">
 ⲕⲉ
 </w>
-<w lemma="ⲉⲥⲑⲏⲧⲏⲣⲓⲟⲛ" xml:lang="Greek" type="N">
-ⲉⲥ̇ⲑⲏⲧⲏ[ⲣⲓ]
+<w lemma="ⲉⲥⲑⲏⲧⲏⲣⲓⲟⲛ" type="N" xml:lang="Greek">
+ⲉⲥ̇ⲑⲏⲧⲏ
+[ⲣⲓ]
 <lb n="20"/>
 ⲟⲛ
 </w>
@@ -386,7 +428,7 @@
 </s>
 <s style="which are interior">
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ϩⲓϩⲟⲩⲛ" type="ADV">

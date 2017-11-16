@@ -4,11 +4,19 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>Apophthegmata Patrum Sahidic 42: Sarah</title>
+<title ref="urn:cts:copticLit:ap.42.monbeg">Apophthegmata Patrum Sahidic 42: Sarah</title>
 <author>anonymous</author>
+<respStmt>
+<resp>source</resp>
+<name>none</name>
+</respStmt>
 <respStmt>
 <resp>annotation</resp>
 <name>Caroline T. Schroeder, Janet Timbie, Amir Zeldes, David Sriboonreuang</name>
+</respStmt>
+<respStmt>
+<resp>translation</resp>
+<name>Amir Zeldes</name>
 </respStmt>
 </titleStmt>
 <publicationStmt>
@@ -42,7 +50,7 @@
 					<locus scheme="MONB.EG" from="80" to="80">80-80</locus>
 					<textLang>Sahidic Coptic</textLang>
 					<incipit/>
-					<title>Apophthegmata Patrum</title>
+					<title>Apophthegmata Patrum Sahidic 42: Sarah</title>
 				</msItem>
 			</msContents>
 		</msPart>
@@ -68,22 +76,24 @@
 </teiHeader>
 <text>
 <body>
-
 <p>
+<pb xml:id="EG80"/>
 <cb n="1"/>
 <s style="They said about the blessed Sarah the virgin">
 <lb n="28"/>
 <phr>
 <w lemma="ⲁ" type="APST">
-<hi rend="large ekthetic">ⲁ</hi>
+<hi rend="large ekthetic">
+ⲁ
+</hi>
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
-<w lemma="ϫⲟⲟ" type="V">
+<w lemma="ϫⲱ" type="V">
 ϫⲟⲟ̇
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
@@ -91,7 +101,7 @@
 <w lemma="ⲉⲧⲃⲉ" type="PREP">
 ⲉ̇ⲧⲃⲉ
 </w>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ̇
 </w>
 <w lemma="ⲙⲁⲕⲁⲣⲓⲁ" type="N" xml:lang="Greek">
@@ -106,7 +116,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ̇
 </w>
 <w lemma="ⲡⲁⲣⲑⲉⲛⲟⲥ" type="N" xml:lang="Greek">
@@ -123,10 +133,10 @@
 <w lemma="ⲁ" type="APST">
 ⲁ̇
 </w>
-<w lemma="ⲥ" type="PPERS">
+<w lemma="ⲛⲧⲟⲥ" type="PPERS">
 ⲥ
 </w>
-<w lemma="ⲉⲣ" type="V">
+<w lemma="ⲉⲓⲣⲉ" type="V">
 ⲉⲣ
 </w>
 </phr>
@@ -145,21 +155,21 @@
 </phr>
 <lb n="31"/>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ̇
 </w>
-<w lemma="ⲥ" type="PPERS">
+<w lemma="ⲛⲧⲟⲥ" type="PPERS">
 ⲥ
 </w>
-<w lemma="ⲟⲩⲏϩ" type="VSTAT">
+<w lemma="ⲟⲩⲱϩ" type="VSTAT">
 ⲟⲩⲏ̇ϩ
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̇
 </w>
-<w lemma="ⲡⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
 <w lemma="ⲧⲡⲉ" type="N">
@@ -168,7 +178,7 @@
 </phr>
 <lb n="32"/>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̇
 </w>
 <w lemma="ⲡ" type="ART">
@@ -189,7 +199,7 @@
 <w lemma="ⲙⲡⲉ" type="ANEGPST">
 ⲙ̇ⲡⲉ
 </w>
-<w lemma="ⲥ" type="PPERS">
+<w lemma="ⲛⲧⲟⲥ" type="PPERS">
 ⲥ
 </w>
 <lb n="33"/>
@@ -199,7 +209,7 @@
 <w lemma="ⲣⲁⲧ" type="N">
 ⲣⲁⲧ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ̇
 </w>
 </phr>
@@ -235,7 +245,8 @@
 </phr>
 <phr>
 <w lemma="." type="PUNCT">
-.ⲻ
+.
+ⲻ
 </w>
 </phr>
 </s>

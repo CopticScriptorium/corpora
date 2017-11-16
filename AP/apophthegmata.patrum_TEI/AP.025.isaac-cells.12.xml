@@ -4,11 +4,19 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>Apophthegmata Patrum Sahidic 25: Pambo</title>
+<title ref="urn:cts:copticLit:ap.25.monbeg">Apophthegmata Patrum Sahidic 25: Pambo</title>
 <author>anonymous</author>
+<respStmt>
+<resp>source</resp>
+<name>none</name>
+</respStmt>
 <respStmt>
 <resp>annotation</resp>
 <name>Lauren McDermott, Caroline T. Schroeder, Amir Zeldes</name>
+</respStmt>
+<respStmt>
+<resp>translation</resp>
+<name>Amir Zeldes</name>
 </respStmt>
 </titleStmt>
 <publicationStmt>
@@ -42,7 +50,7 @@
 					<locus scheme="MONB.EG" from="67" to="67">67-67</locus>
 					<textLang>Sahidic Coptic</textLang>
 					<incipit/>
-					<title>Apophthegmata Patrum</title>
+					<title>Apophthegmata Patrum Sahidic 25: Pambo</title>
 				</msItem>
 			</msContents>
 		</msPart>
@@ -62,20 +70,24 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="1.2.0" when="2015-05-21"></change>
+	<change n="2.4.0" when="2017-11-09"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-
 <p>
+<pb xml:id="EG67"/>
 <cb n="1"/>
 <s style="He also said that Abba Pambo said:">
 <lb n="22"/>
 <phr>
 <w lemma="ⲛⲧⲟϥ" type="PPERI">
-<hi rend="red, tall">Ⲛ</hi>ⲧⲟϥ
+<hi rend="red tall ekthetic">
+Ⲛ
+</hi>
+ⲧⲟ
+ϥ
 </w>
 </phr>
 <phr>
@@ -87,13 +99,13 @@
 <w lemma="ⲁ" type="APST">
 ⲁ̇
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
-<w lemma="ϫⲟⲟ" type="V">
+<w lemma="ϫⲱ" type="V">
 ϫⲟⲟ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
@@ -117,10 +129,10 @@
 </w>
 </phr>
 <phr>
-<w lemma="ϫⲟⲟ" type="V">
+<w lemma="ϫⲱ" type="V">
 ϫⲟⲟ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
@@ -131,17 +143,17 @@
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲧⲁⲓ" type="PDEM">
+<w lemma="ⲡⲁⲓ" type="PDEM">
 ⲧⲁⲓ̇
 </w>
 </phr>
 <phr>
-<w lemma="ⲧⲉ" type="COP">
+<w lemma="ⲡⲉ" type="COP">
 ⲧⲉ
 </w>
 </phr>
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲑ
 </w>
 <w lemma="ϩⲉ" type="N">
@@ -149,7 +161,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧⲉ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉ̇ⲧⲉ
 </w>
 <w lemma="ϣϣⲉ" type="V">
@@ -175,23 +187,28 @@
 </w>
 <lb n="26"/>
 <w lemma="ⲫⲟⲣⲉⲓ" type="V" xml:lang="Greek">
-Ⲫⲟⲣⲉⲓ̇
+<hi rend="large">
+Ⲫ
+</hi>
+ⲟⲣⲉⲓ̇
 </w>
 </phr>
 <phr>
 <w lemma="ⲛ" type="PREP">
 ⲛ̇
 </w>
-<w lemma="ⲛⲉϥ" type="PPOS">
+<w lemma="ⲡⲉϥ" type="PPOS">
 ⲛⲉϥ
 </w>
-<w lemma="ϩⲟⲓⲧⲉ" type="N">
+<w lemma="ϩⲟⲉⲓⲧⲉ" type="N">
 ϩⲟⲓ̇ⲧⲉ
 </w>
 </phr>
 <phr>
 <w lemma="·" type="PUNCT">
-<hi rend="red">·</hi>
+<hi rend="red">
+·
+</hi>
 </w>
 </phr>
 </s>
@@ -203,15 +220,15 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ̇
 </w>
-<w lemma="ⲛⲉϫ" type="V">
+<w lemma="ⲛⲟⲩϫⲉ" type="V">
 ⲛⲉϫ
 </w>
 </phr>
 <phr>
-<w lemma="ⲧⲉϥ" type="PPOS">
+<w lemma="ⲡⲉϥ" type="PPOS">
 ⲧⲉϥ
 </w>
 <lb n="28"/>
@@ -220,7 +237,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̇
 </w>
 <w lemma="ⲡ" type="ART">
@@ -235,7 +252,7 @@
 ⲛ̇
 </w>
 <lb n="29"/>
-<w lemma="ⲧⲉϥ" type="PPOS">
+<w lemma="ⲡⲉϥ" type="PPOS">
 ⲧⲉϥ
 </w>
 <w lemma="ⲣⲓ" type="N">
@@ -263,7 +280,9 @@
 </phr>
 <phr>
 <w lemma="." type="PUNCT">
-<hi rend="red">.</hi>
+<hi rend="red">
+.
+</hi>
 </w>
 </phr>
 <phr>
@@ -276,7 +295,8 @@
 </phr>
 <phr>
 <w lemma="ⲗⲁⲁⲩ" type="N">
-ⲗⲁⲁⲩ
+ⲗⲁ
+ⲁⲩ
 </w>
 </phr>
 <lb n="31"/>
@@ -284,7 +304,7 @@
 <w lemma="ⲧⲁⲓⲟ" type="V">
 ⲧⲁⲓ̇ⲟ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
@@ -292,39 +312,45 @@
 <w lemma="ⲉ" type="PREP">
 ⲉ̇
 </w>
-<w lemma="ϥⲓⲧ" type="V">
+<w lemma="ϥⲓ" type="V">
 ϥⲓ̇ⲧ̇
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
 <phr>
 <w lemma="·" type="PUNCT">
-<hi rend="red">·</hi>
+<hi rend="red">
+·
+</hi>
 </w>
 </phr>
 </s>
 <s style="then he may wear it.”">
 <phr>
 <w lemma="ⲧⲟⲧⲉ" type="ADV" xml:lang="Greek">
-ⲧⲟⲧⲉ
+ⲧⲟ
+ⲧⲉ
 </w>
 </phr>
 <lb n="32"/>
 <phr>
-<w lemma="ⲉϥⲉ" type="AOPT_PPERS">
+<w lemma="ⲉⲣⲉ_ⲛⲧⲟϥ" type="AOPT_PPERS">
 ⲉ̇ϥⲉ
 </w>
 <w lemma="ⲫⲟⲣⲉⲓ" type="V" xml:lang="Greek">
-Ⲫⲟⲣⲓ̇
+<hi rend="large">
+Ⲫ
+</hi>
+ⲟⲣⲓ̇
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̇ⲙⲟ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
