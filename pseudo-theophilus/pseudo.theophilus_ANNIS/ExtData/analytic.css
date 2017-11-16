@@ -1,0 +1,18 @@
+div.htmlvis {
+font-family: Antinoou, sans-serif; font-size: 12pt; width: 600px; white-space: normal !important;
+}
+/*.translation:before{display: block}*/
+div.translation:after{content:"\A"attr(trans)"\A\A"; display: block;  padding-bottom: 20px; font-style: italic; color: blue; white-space: normal}
+/*.copt_word{ white-space: inherit; display: block;}*/
+.copt_word:after{content: " ";}
+/*ruby.norm:after{margin-left:auto; margin-right:auto; content: "|";}*/
+span > ruby.norm:only-of-type:after{content: "" !important;}
+div > ruby.norm:after{content: "" !important;}
+span > ruby.norm:last-of-type:after{content: "" !important;}
+/*.norm:last-of-type:after{content: "";}*/
+.pos:after{color: grey; content:attr(pos);}
+/*.pos:after:hover{color:red;}*/
+.p:before{content:attr(n)". "; font-weight: bold}
+ruby {ruby-overhang: none; ruby-align: distribute-space; padding-left: 3px; padding-right:3px}
+ruby:hover rt:after{color:red;}
+ruby.norm:after{content: "|";}
