@@ -1,4 +1,4 @@
-This is the public repository for Coptic SCRIPTORIUM corpora.  The documents are available in multiple formats (relANNIS, PAULA XML, TEI XML).  
+This is the public repository for Coptic SCRIPTORIUM corpora.  The documents are available in multiple formats: relANNIS, PAULA XML, TEI XML, and TreeTagger SGML (*.tt).  
 
 Corpora can be searched, viewed, and queried with complex queries http://data.copticscriptorium.org.  Project homepage is http://copticscriptorium.org
 
