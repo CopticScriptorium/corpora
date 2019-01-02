@@ -1,14 +1,20 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>Acephalous 22: YA 517-518</title>
+<title ref="urn:cts:copticLit:shenoute.a22.monbya:1451-1453">Acephalous 22: YA 517-518</title>
 <author>Shenoute</author>
+<respStmt>
+<resp>source</resp>
+<name>none</name>
+</respStmt>
 <respStmt>
 <resp>annotation</resp>
 <name>Elizabeth Platte, Caroline T. Schroeder, Amir Zeldes</name>
+</respStmt>
+<respStmt>
+<resp>translation</resp>
+<name>Amir Zeldes</name>
 </respStmt>
 </titleStmt>
 <publicationStmt>
@@ -22,32 +28,27 @@
 		<msIdentifier>
 			<msName>MONB.YA</msName>
 		</msIdentifier>
-		<msContents>
-			<summary>
-				<title n="3" type="Canons">Canons 3</title>
-			</summary>
-		</msContents>
 		<history>
 			<origin>
 				<objectType>codex</objectType>
 				<country>Egypt</country>
 				<placeName>Atripe</placeName>
 				<origPlace>White Monastery</origPlace>
-				<origDate precision="medium" notBefore="0900" notAfter="1200">between 900 and 1200 C.E</origDate>
+				<origDate></origDate>
 			</origin>
 		</history>
 		<msPart>
 			<msIdentifier>
 				<repository>Biblioteca Nazionale di Napoli</repository>
 				<collection>Borgia Collection</collection>
-				<idno>IB17 f. 26</idno>
+				<idno>IB 2 f. 26</idno>
 			</msIdentifier>
 			<msContents>
 				<msItem>
 					<locus scheme="MONB.YA" from="517" to="518">517-518</locus>
 					<textLang>Sahidic Coptic</textLang>
 					<incipit/>
-					<title>Acephalous Work 22</title>
+					<title>Acephalous 22: YA 517-518</title>
 				</msItem>
 			</msContents>
 		</msPart>
@@ -67,15 +68,16 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="1.6" when="2015-12-17"></change>
+	<change n="2.6.0" when="2018-11-15"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-
+<pb xml:id="YA517"/>
 <cb n="1"/>
-<p>
+<div type="textpart">
+<ab>
 <s style="... pain ... very ...">
 <lb n="1"/>
 <phr>
@@ -106,6 +108,10 @@
 </w>
 </phr>
 </s>
+</ab>
+</div>
+<div type="textpart">
+<ab>
 <s style="to every pain which is down upon me.">
 <phr>
 <w lemma="ⲉ" type="PREP">
@@ -125,7 +131,7 @@
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 <w lemma="ϩⲣⲁⲓ" type="ADV">
@@ -133,31 +139,39 @@
 </w>
 </phr>
 <phr>
-<w lemma="ϩⲓϫⲱ" type="PREP">
+<w lemma="ϩⲓϫⲛ" type="PREP">
 ϩⲓ
 <lb n="5"/>
 ϫⲱ
 </w>
-<w lemma="ⲓ" type="PPERO">
-<hi rend="2_space_right">ⲓ̈</hi>
+<w lemma="ⲁⲛⲟⲕ" type="PPERO">
+<hi rend="2_space_right">
+ⲓ̈
+</hi>
 </w>
 </phr>
 <phr>
 <w lemma="·" type="PUNCT">
-<hi rend="1_space_right">·</hi>
+<hi rend="1_space_right">
+·
+</hi>
 </w>
 </phr>
 </s>
-</p>
-<p>
+</ab>
+</div>
+<div type="textpart">
+<ab>
 <s style="But for the little girls which we have heard about,">
 <phr>
-<w lemma="ⲉⲧⲃⲉ" type="PREP">
+<w lemma="ⲉⲧⲃⲉⲛ̣̄ϣⲉⲉⲣⲉ" type="PREP">
 ⲉⲧⲃⲉ
 </w>
 <lb n="6"/>
-<w lemma="ⲛ" type="ART">
-Ⲛ̣̄
+<w lemma="ⲡ" type="ART">
+<hi rend="ekthetic large">
+ⲛ̣̄
+</hi>
 </w>
 <w lemma="ϣⲉⲉⲣⲉ" type="N">
 ϣⲉⲉⲣⲉ
@@ -175,13 +189,13 @@
 </phr>
 <lb n="7"/>
 <phr>
-<w lemma="ⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲛ̄ⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲛ
 </w>
 <w lemma="ⲥⲱⲧⲙ" type="V">
@@ -189,26 +203,32 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧⲃⲏⲏⲧ" type="PREP">
+<w lemma="ⲉⲧⲃⲉ" type="PREP">
 ⲉ
 <lb n="8"/>
 ⲧⲃⲏⲏⲧ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 <w lemma="·" type="PUNCT">
-<hi rend="1_space_right">·</hi>
+<hi rend="1_space_right">
+·
+</hi>
 </w>
 </phr>
 </s>
+</ab>
+</div>
+<div type="textpart">
+<ab>
 <s style="that they ran to each other in a desire of flesh.">
 <phr>
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
 <lb n="9"/>
-<w lemma="ⲥⲉ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
@@ -228,7 +248,7 @@
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲛⲉⲩ" type="PPOS">
+<w lemma="ⲡⲉⲩ" type="PPOS">
 ⲛⲉⲩ
 </w>
 <w lemma="ⲉⲣⲏⲩ" type="N">
@@ -256,10 +276,16 @@
 </phr>
 <phr>
 <w lemma="·" type="PUNCT">
-<hi rend="1_space_right">·</hi>
+<hi rend="1_space_right">
+·
+</hi>
 </w>
 </phr>
 </s>
+</ab>
+</div>
+<div type="textpart">
+<ab>
 <s style="Tell me about them assuredly, that I may know">
 <phr>
 <w lemma="ⲙⲁ" type="VIMP">
@@ -270,15 +296,15 @@
 <lb n="13"/>
 ⲙⲟ
 </w>
-<w lemma="ⲓ" type="PPERO">
+<w lemma="ⲁⲛⲟⲕ" type="PPERO">
 ⲓ̈
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧⲃⲏⲏⲧ" type="PREP">
+<w lemma="ⲉⲧⲃⲉ" type="PREP">
 ⲉⲧⲃⲏⲏⲧ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -299,7 +325,7 @@
 ϫⲉ
 </w>
 <lb n="15"/>
-<w lemma="ⲉⲓⲉ" type="AOPT_PPERS">
+<w lemma="ⲉⲣⲉ_ⲁⲛⲟⲕ" type="AOPT_PPERS">
 ⲉⲓ̈ⲉ
 </w>
 <w lemma="ⲉⲓⲙⲉ" type="V">
@@ -307,6 +333,10 @@
 </w>
 </phr>
 </s>
+</ab>
+</div>
+<div type="textpart">
+<ab>
 <s style="And I will tell you what it is that you will do to them.">
 <lb n="16"/>
 <phr>
@@ -315,17 +345,17 @@
 </w>
 </phr>
 <phr>
-<w lemma="ϯ" type="PPERS">
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ϯ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
 </w>
-<w lemma="ⲧⲁⲙⲱ" type="V">
+<w lemma="ⲧⲁⲙⲟ" type="V">
 ⲧⲁⲙⲱ
 </w>
 <lb n="17"/>
-<w lemma="ⲧⲛ" type="PPERO">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERO">
 ⲧ︤ⲛ︥
 </w>
 </phr>
@@ -333,17 +363,17 @@
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲉ" type="CFOC">
+<w lemma="ⲉⲣⲉ" type="CFOC">
 ⲉ
 </w>
-<w lemma="ⲧⲉⲧⲛ" type="PPERS">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERS">
 ⲧⲉⲧ
 </w>
 <lb n="18"/>
 <w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
 </w>
-<w lemma="ⲣ" type="V">
+<w lemma="ⲉⲓⲣⲉ" type="V">
 ⲣ
 </w>
 <w lemma="ⲟⲩ" type="PINT">
@@ -354,7 +384,7 @@
 <w lemma="ⲛⲁ" type="PREP">
 ⲛⲁ
 </w>
-<w lemma="ⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲩ
 </w>
 </phr>
@@ -364,15 +394,20 @@
 </w>
 </phr>
 </s>
-</p>
-<p>
+</ab>
+</div>
+<div type="textpart">
+<ab>
 <s style="But also because of that which you said about her,">
 <lb n="19"/>
 <phr>
 <w lemma="ⲉⲧⲃⲉ" type="PREP">
-Ⲉⲧⲃⲉ
+<hi rend="ekthetic large">
+ⲉ
+</hi>
+ⲧⲃⲉ
 </w>
-<w lemma="ⲧⲁⲓ" type="PDEM">
+<w lemma="ⲡⲁⲓ" type="PDEM">
 ⲧⲁⲓ̈
 </w>
 </phr>
@@ -388,30 +423,34 @@
 </phr>
 <phr>
 <lb n="20"/>
-<w lemma="ⲛⲧⲁ" type="ACONJ_PPERS">
+<w lemma="ⲛⲧⲉ_ⲁⲛⲟⲕ" type="ACONJ_PPERS">
 ⲛ̄ⲧⲁ
 </w>
-<w lemma="ⲧⲉⲧⲛ" type="PPERS">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERS">
 ⲧⲉⲧ︤ⲛ︥
 </w>
-<w lemma="ϫⲟⲟ" type="V">
+<w lemma="ϫⲱ" type="V">
 ϫⲟ
 <lb n="21"/>
 ⲟ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ⳿
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧⲃⲏⲏⲧ" type="PREP">
+<w lemma="ⲉⲧⲃⲉ" type="PREP">
 ⲉⲧⲃⲏⲏⲧ︤
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ︥
 </w>
 </phr>
 </s>
+</ab>
+</div>
+<div type="textpart">
+<ab>
 <s style="to make her go to the place that you determined for her,">
 <lb n="22"/>
 <phr>
@@ -421,7 +460,7 @@
 <w lemma="ⲧⲣⲉ" type="ACAUS">
 ⲧⲣⲉ
 </w>
-<w lemma="ⲥ" type="PPERS">
+<w lemma="ⲛⲧⲟⲥ" type="PPERS">
 ⲥ
 </w>
 <w lemma="ⲃⲱⲕ" type="V">
@@ -441,21 +480,21 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲛ̄ⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲧⲉⲧⲛ" type="PPERS">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERS">
 ⲧⲉ
 <lb n="24"/>
 ⲧ︤ⲛ︥
 </w>
-<w lemma="ⲧⲟϣ" type="V">
+<w lemma="ⲧⲱϣ" type="V">
 ⲧⲟϣ︤
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ︥
 </w>
 </phr>
@@ -463,11 +502,15 @@
 <w lemma="ⲛⲁ" type="PREP">
 ⲛⲁ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
 </s>
+</ab>
+</div>
+<div type="textpart">
+<ab>
 <s style="to make her do her deed in it, while she had said to you:">
 <phr>
 <lb n="25"/>
@@ -477,10 +520,10 @@
 <w lemma="ⲧⲣⲉ" type="ACAUS">
 ⲧⲣⲉ
 </w>
-<w lemma="ⲥ" type="PPERS">
+<w lemma="ⲛⲧⲟⲥ" type="PPERS">
 ⲥ
 </w>
-<w lemma="ⲣ" type="V">
+<w lemma="ⲉⲓⲣⲉ" type="V">
 ⲣ̄
 </w>
 <w lemma="ⲡⲉⲥ" type="PPOS">
@@ -492,41 +535,45 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲛϩⲏⲧ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ⲛ̄ϩⲏⲧ︤
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ︥
 </w>
 </phr>
 <lb n="27"/>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲥ" type="PPERS">
+<w lemma="ⲛⲧⲟⲥ" type="PPERS">
 ⲥ
 </w>
-<w lemma="ϫⲟⲟ" type="V">
+<w lemma="ϫⲱ" type="V">
 ϫⲟⲟ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲏ" type="PREP">
+<w lemma="ⲛⲁ" type="PREP">
 ⲛⲏ
 </w>
 <lb n="28"/>
-<w lemma="ⲧⲛ" type="PPERO">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERO">
 ⲧ︤ⲛ︥
 </w>
 </phr>
 </s>
+</ab>
+</div>
+<div type="textpart">
+<ab>
 <s style="If you take me out of this place and into that one">
 <phr>
 <w lemma="ϫⲉ" type="CONJ">
@@ -536,7 +583,7 @@
 ⲉϣϫⲉ
 </w>
 <lb n="29"/>
-<w lemma="ⲧⲉⲧⲛ" type="PPERS">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERS">
 ⲧⲉⲧ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
@@ -554,7 +601,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ϩⲙ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲙ︥
 </w>
 <w lemma="ⲡⲉⲓ" type="PDEM">
@@ -575,21 +622,29 @@
 </w>
 </phr>
 </s>
-<s style="I will not do anything about the thing that I did to him.&apos;">
+</ab>
+</div>
+<div type="textpart">
+<ab>
+<s style="'I will not do anything about the thing that I did to him.'">
 <phr>
 <w lemma="ⲛ" type="NEG">
 ⲛ̣
 </w>
-<w lemma="ϯ" type="PPERS">
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ϯ̣
 </w>
 <w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
 </w>
 <w lemma="ⲣϩⲱⲃ" type="V">
-<m>ⲣ̄</m>
+<m>
+ⲣ̄
+</m>
 <lb n="2"/>
-<m>ϩⲱⲃ</m>
+<m>
+ϩⲱⲃ
+</m>
 </w>
 </phr>
 <phr>
@@ -605,26 +660,35 @@
 ⲡ
 </w>
 <w lemma="ϩⲱⲃ" type="N">
-ϩ<hi rend="omega under beta">ⲱ</hi><hi rend="superscript">ⲃ</hi>
+ϩ
+ⲱ
+<hi rend="superscript">
+ⲃ
+</hi>
 </w>
 </phr>
 <lb n="3"/>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
-<w lemma="ϯ" type="PPERS">
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ϯ
 </w>
 <w lemma="ⲣϩⲱⲃ" type="V">
-<m>ⲣ̄</m><m>ϩⲱⲃ</m>
+<m>
+ⲣ̄
+</m>
+<m>
+ϩⲱⲃ
+</m>
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲣⲟ" type="PREP">
+<w lemma="ⲉ" type="PREP">
 ⲉⲣⲟ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -634,6 +698,10 @@
 </w>
 </phr>
 </s>
+</ab>
+</div>
+<div type="textpart">
+<ab>
 <s style="And if she did not truly desire it">
 <lb n="4"/>
 <phr>
@@ -648,19 +716,19 @@
 </phr>
 <lb n="5"/>
 <phr>
-<w lemma="ⲙⲡ" type="ANEGPST">
+<w lemma="ⲙⲡⲉ" type="ANEGPST">
 ⲙ̄ⲡ︤
 </w>
-<w lemma="ⲥ" type="PPERS">
+<w lemma="ⲛⲧⲟⲥ" type="PPERS">
 ⲥ︥
 </w>
-<w lemma="ⲣ" type="V">
+<w lemma="ⲉⲓⲣⲉ" type="V">
 ⲣ̄
 </w>
-<w lemma="ϩⲛⲁ" type="N">
+<w lemma="ϩⲛⲉ" type="N">
 ϩⲛⲁ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ⳿
 </w>
 </phr>
@@ -677,6 +745,10 @@
 </w>
 </phr>
 </s>
+</ab>
+</div>
+<div type="textpart">
+<ab>
 <s style="then tell me, I will teach you what you will do to her.">
 <phr>
 <w lemma="ⲉⲓⲉ" type="CONJ">
@@ -696,25 +768,25 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲣⲟ" type="PREP">
+<w lemma="ⲉ" type="PREP">
 ⲉⲣⲟ
 </w>
-<w lemma="ⲓ" type="PPERO">
+<w lemma="ⲁⲛⲟⲕ" type="PPERO">
 ⲓ̈⳿
 </w>
 </phr>
 <phr>
-<w lemma="ϯ" type="PPERS">
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ϯ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
 </w>
 <lb n="8"/>
-<w lemma="ⲧⲥⲁⲃⲱ" type="V">
+<w lemma="ⲧⲥⲁⲃⲟ" type="V">
 ⲧⲥⲁⲃⲱ
 </w>
-<w lemma="ⲧⲛ" type="PPERO">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERO">
 ⲧ︤ⲛ︥
 </w>
 </phr>
@@ -726,21 +798,21 @@
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
-<w lemma="ⲧⲉⲧⲛ" type="PPERS">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERS">
 ⲉⲧ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
 </w>
-<w lemma="ⲁⲁ" type="V">
+<w lemma="ⲉⲓⲣⲉ" type="V">
 ⲁ
 <lb n="10"/>
 ⲁ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ⳿
 </w>
 </phr>
@@ -748,8 +820,10 @@
 <w lemma="ⲛⲁ" type="PREP">
 ⲛⲁ
 </w>
-<w lemma="ⲥ" type="PPERO">
-<hi rend="1_space_right">ⲥ</hi>
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
+<hi rend="1_space_right">
+ⲥ
+</hi>
 </w>
 </phr>
 <phr>
@@ -758,13 +832,18 @@
 </w>
 </phr>
 </s>
-</p>
-<p>
+</ab>
+</div>
+<div type="textpart">
+<ab>
 <s style="But all of you, if you hide a deception from us on your behalf so as not to tell us about it,">
 <lb n="11"/>
 <phr>
-<w lemma="ⲛⲧⲱⲧⲛ" type="PPERI">
-Ⲛ̄ⲧⲱⲧ︤ⲛ︥
+<w lemma="ⲛ̄ⲧⲱⲧ︤ⲛ︥" type="PPERI">
+<hi rend="ekthetic large">
+ⲛ̄
+</hi>
+ⲧⲱⲧ︤ⲛ︥
 </w>
 </phr>
 <phr>
@@ -777,14 +856,13 @@
 ⲧⲏⲣ
 </w>
 <lb n="12"/>
-<w lemma="ⲧⲛ" type="PPERO">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERO">
 ⲧ︤ⲛ︥
 </w>
 </phr>
 <phr>
 <w lemma="ⲉⲧⲉⲧⲛϣⲁⲛ" type="ACOND_PPERS">
 ⲉⲧⲉⲧ︤ⲛ︥
-<lb n="13"/>
 ϣⲁⲛ
 </w>
 <w lemma="ϩⲱⲡ" type="V">
@@ -792,12 +870,12 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲣⲟ" type="PREP">
+<w lemma="ⲉ" type="PREP">
 ⲉ
-<lb n="14"/>
+<lb n="13"/>
 ⲣⲟ
 </w>
-<w lemma="ⲛ" type="PPERO">
+<w lemma="ⲁⲛⲟⲛ" type="PPERO">
 ⲛ⳿
 </w>
 </phr>
@@ -812,7 +890,7 @@
 ϩⲱⲃ
 </w>
 </phr>
-<lb n="15"/>
+<lb n="14"/>
 <phr>
 <w lemma="ⲛ" type="PREP">
 ⲛ̄
@@ -825,13 +903,13 @@
 <w lemma="ϩⲁ" type="PREP">
 ϩⲁ
 </w>
-<w lemma="ⲧⲛ" type="PPERO">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERO">
 ⲧ︤ⲛ︥
 </w>
 </phr>
-<lb n="16"/>
+<lb n="15"/>
 <phr>
-<w lemma="ⲧⲏⲩⲧⲛ" type="PPERO">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERO">
 ⲧⲏⲩⲧ︤ⲛ︥
 </w>
 </phr>
@@ -842,28 +920,30 @@
 <w lemma="ⲧⲙ" type="NEG">
 ⲧ︤ⲙ︥
 </w>
-<lb n="17"/>
+<lb n="16"/>
 <w lemma="ⲧⲣⲉ" type="ACAUS">
 ⲧⲣⲉ
 </w>
-<w lemma="ⲧⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲧ︤ⲛ︥
 </w>
 <w lemma="ⲧⲁⲙⲟ" type="V">
 ⲧⲁ
-<lb n="18"/>
+<lb n="17"/>
 ⲙⲟ
 </w>
-<w lemma="ⲛ" type="PPERO">
+<w lemma="ⲁⲛⲟⲛ" type="PPERO">
 ⲛ⳿
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲣⲟ" type="PREP">
+<w lemma="ⲉ" type="PREP">
 ⲉⲣⲟ
 </w>
-<w lemma="ϥ" type="PPERO">
-<hi rend="1_space_right">ϥ</hi>
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
+<hi rend="1_space_right">
+ϥ
+</hi>
 </w>
 </phr>
 <phr>
@@ -872,23 +952,27 @@
 </w>
 </phr>
 </s>
+</ab>
+</div>
+<div type="textpart">
+<ab>
 <s style="what you awaken is Satan upon you yourselves">
 <phr>
-<lb n="19"/>
-<w lemma="ⲉ" type="CFOC">
+<lb n="18"/>
+<w lemma="ⲉⲣⲉ" type="CFOC">
 ⲉ
 </w>
-<w lemma="ⲧⲉⲧⲛ" type="PPERS">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERS">
 ⲧⲉⲧ︤ⲛ︥
 </w>
 <w lemma="ⲧⲟⲩⲛⲟⲥ" type="V">
 ⲧⲟⲩ
-<lb n="20"/>
+<lb n="19"/>
 ⲛⲟⲥ
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <w lemma="ⲡ" type="ART">
@@ -896,7 +980,7 @@
 </w>
 <w lemma="ⲥⲁⲧⲁⲛⲁⲥ" type="NPROP" xml:lang="Greek">
 ⲥⲁⲧⲁ
-<lb n="21"/>
+<lb n="20"/>
 ⲛⲁⲥ⳿
 </w>
 </phr>
@@ -906,22 +990,22 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲉϫⲱ" type="PREP">
+<w lemma="ⲉϫⲛ" type="PREP">
 ⲉ
-<lb n="22"/>
+<lb n="21"/>
 ϫⲱ
 </w>
-<w lemma="ⲧⲛ" type="PPERO">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERO">
 ⲧ︤ⲛ︥
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲓⲛⲙⲙⲱ" type="IMOD">
+<w lemma="ⲙⲙⲓⲛⲙⲙⲟ" type="IMOD">
 ⲙ̄ⲙⲓⲛ⳿
-<lb n="23"/>
+<lb n="22"/>
 ⲙ̄ⲙⲱ
 </w>
-<w lemma="ⲧⲛ" type="PPERO">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERO">
 ⲧ︤ⲛ︥
 </w>
 </phr>
@@ -931,44 +1015,48 @@
 </w>
 </phr>
 </s>
+</ab>
+</div>
+<div type="textpart">
+<ab>
 <s style="And it is by yourselves that you turn away from the help of God.">
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
 ⲁⲩⲱ
 </w>
 </phr>
-<lb n="24"/>
+<lb n="23"/>
 <phr>
-<w lemma="ⲉ" type="CFOC">
+<w lemma="ⲉⲣⲉ" type="CFOC">
 ⲉ
 </w>
-<w lemma="ⲧⲉⲧⲛ" type="PPERS">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERS">
 ⲧⲉⲧ︤ⲛ︥
 </w>
 <w lemma="ⲕⲧⲟ" type="V">
 ⲕⲧⲟ
 </w>
 </phr>
-<lb n="25"/>
+<lb n="24"/>
 <phr>
 <w lemma="ⲉⲃⲟⲗ" type="ADV">
 ⲉⲃⲟⲗ
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲱ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄ⲙⲱ
 </w>
-<w lemma="ⲧⲛ" type="PPERO">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERO">
 ⲧ︤ⲛ︥
 </w>
 </phr>
-<lb n="26"/>
+<lb n="25"/>
 <phr>
 <w lemma="ⲛ" type="PREP">
 ⲛ̄
 </w>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ⲃⲟⲏⲑⲓⲁ" type="N" xml:lang="Greek">
@@ -976,10 +1064,10 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
-<lb n="27"/>
+<lb n="26"/>
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
@@ -988,12 +1076,12 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲁⲩⲁⲧ" type="V">
+<w lemma="ⲙⲁⲩⲁⲁ" type="V">
 ⲙⲁⲩ
-<lb n="28"/>
+<lb n="27"/>
 ⲁⲧ
 </w>
-<w lemma="ⲧⲏⲩⲧⲛ" type="PPERO">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERO">
 ⲧⲏⲩⲧ︤ⲛ︥
 </w>
 </phr>
@@ -1003,8 +1091,12 @@
 </w>
 </phr>
 </s>
+</ab>
+</div>
+<div type="textpart">
+<ab>
 <s style="Here is the old man, I have sent him to you in this other time as long as we exist.">
-<lb n="29"/>
+<lb n="28"/>
 <phr>
 <w lemma="ⲉⲓⲥ" type="PTC">
 ⲉⲓⲥ
@@ -1022,29 +1114,29 @@
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲓ" type="PPERS">
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ⲓ̈
 </w>
 <w lemma="ⲧⲛⲛⲟⲟⲩ" type="V">
 ⲧ︤ⲛ︥
-<lb n="30"/>
+<lb n="29"/>
 ⲛⲟⲟⲩ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
 <phr>
-<w lemma="ϣⲁⲣⲱ" type="PREP">
+<w lemma="ϣⲁ" type="PREP">
 ϣⲁⲣⲱ
 </w>
-<lb n="31"/>
-<w lemma="ⲧⲛ" type="PPERO">
+<lb n="30"/>
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERO">
 ⲧ︤ⲛ︥
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <w lemma="ⲡⲉⲓ" type="PDEM">
@@ -1054,6 +1146,7 @@
 ⲕⲉ
 </w>
 </phr>
+<pb xml:id="YA518"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -1071,13 +1164,13 @@
 </phr>
 <lb n="2"/>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
-<w lemma="ⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲛ
 </w>
-<w lemma="ϣⲟⲟⲡ" type="VSTAT">
+<w lemma="ϣⲱⲡⲉ" type="VSTAT">
 ϣ[ⲟ]ⲟⲡ
 </w>
 </phr>
@@ -1092,7 +1185,8 @@
 </w>
 </phr>
 </s>
-</p>
+</ab>
+</div>
 </body>
 </text>
 </TEI>
