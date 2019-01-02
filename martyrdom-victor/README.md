@@ -1,0 +1,3 @@
+This is a subdirectory of the public repository for Coptic SCRIPTORIUM corpora.  Documents for the text the Martyrdom of Victor the General are hosted here.  The documents are available in multiple formats: relANNIS, PAULA XML, TEI XML and TreeTagger SGML (*.tt).  
+
+All the documents are licensed CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/).  See the individual files and subdirectories for more licensing information.
