@@ -1,10 +1,8 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title ref="urn:cts:copticLit:johannes.canons.monbfa:15.1-16.12">Apa Johannes Canons: MONB.FA [33]-[34]</title>
+<title ref="urn:cts:copticLit:johannes.canons.monbfa:15-16">Apa Johannes Canons: MONB.FA [33]-[34]</title>
 <author>Johannes the Archimandrite</author>
 <respStmt>
 <resp>source</resp>
@@ -42,7 +40,7 @@
 		<msPart>
 			<msIdentifier>
 				<repository>Bibliothèque nationale de France</repository>
-				<collection>Manuscrits copte</collection>
+				<collection>Manuscrits coptes</collection>
 				<idno>Copte 131(6)</idno>
 			</msIdentifier>
 			<msContents>
@@ -70,14 +68,14 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="2.5.0" when="2018-04-01"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
 <pb xml:id="FA33"/>
-<div1 n="15">
+<div type="textpart">
 <cb n="1"/>
 <p n="1">
 <s style="...">
@@ -635,14 +633,14 @@
 </phr>
 </s>
 </p>
-</div1>
-<div1 n="16">
+</div>
+<div type="textpart">
 <p n="1">
 <s style="...">
 <lb n="5"/>
 <phr>
 <w type="PPERS" lemma="ⲁⲛⲟⲛ">
-<hi rend="ekthetic">
+<hi rend="ekthetic large">
 Ⲧ̣
 </hi>
 ⲛ
@@ -2087,12 +2085,12 @@
 </w>
 <w type="V" lemma="ⲱϣⲙ">
 ⲱϣ
-ⲙ̣̄
+ⲙ̣̄
 </w>
 </phr>
 </s>
 </p>
-</div1>
+</div>
 </body>
 </text>
 </TEI>
