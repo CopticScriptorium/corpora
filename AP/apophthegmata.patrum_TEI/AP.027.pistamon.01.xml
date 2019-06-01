@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,16 +68,17 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="2.4.0" when="2017-11-09"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-<p>
+<div type="textpart">
 <pb xml:id="EG67"/>
 <cb n="2"/>
-<s style="One of the brothers asked Apa Pistamon, &apos;What should I do? For it worries me when I sell my handiwork.&apos;">
+<p n="1">
+<s style="One of the brothers asked Apa Pistamon, 'What should I do? For it worries me when I sell my handiwork.'">
 <lb n="14"/>
 <phr>
 <w lemma="ⲁ" type="APST">
@@ -120,7 +119,7 @@
 </phr>
 <lb n="16"/>
 <phr>
-<w lemma="ϫⲱ" type="V">
+<w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
 <w lemma="ⲟⲩ" type="PINT">
@@ -210,7 +209,9 @@
 </w>
 </phr>
 </s>
-<s style="The old man answered him, &apos;Even Apa Sisoes and the others used to sell their handiwork. This is not damaging.">
+</p>
+<p n="2">
+<s style="The old man answered him, 'Even Apa Sisoes and the others used to sell their handiwork. ">
 <lb n="19"/>
 <phr>
 <w lemma="ⲁ" type="APST">
@@ -228,6 +229,9 @@
 <phr>
 <w lemma="ⲛϭⲓ" type="PTC">
 ⲛ̇ϭⲓ̇
+</w>
+<w lemma="ⲡ" type="ART">
+ⲡ
 </w>
 <w lemma="ϩⲗⲗⲟ" type="N">
 ϩ̇ⲗ
@@ -328,6 +332,10 @@
 ·
 </w>
 </phr>
+</s>
+</p>
+<p n="3">
+<s style="This is not damaging.">
 <phr>
 <w lemma="ⲡⲁⲓ" type="PDEM">
 ⲡⲁⲓ̇
@@ -335,7 +343,7 @@
 </phr>
 <lb n="24"/>
 <phr>
-<w lemma="ⲛ" type="PREP">
+<w lemma="ⲛ" type="NEG">
 ⲛ
 </w>
 <w lemma="ⲟⲩ" type="ART">
@@ -363,7 +371,9 @@
 </w>
 </phr>
 </s>
-<s style="But if you sell, say the price of the item only once. If you want to lower the price a little, that is up to you. In this way you will find peace.&apos;">
+</p>
+<p n="4">
+<s style="But if you sell, say the price of the item only once.">
 <lb n="25"/>
 <phr>
 <w lemma="ⲉⲣϣⲁⲛ_ⲛⲧⲟⲕ" type="ACOND_PPERS">
@@ -402,7 +412,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲧⲉ" type="ACONJ">
+<w lemma="ⲛ" type="PREP">
 ⲛ
 </w>
 <w lemma="ⲟⲩ" type="ART">
@@ -432,6 +442,10 @@
 ⲓ̇ⲇⲟⲥ
 </w>
 </phr>
+</s>
+</p>
+<p n="5">
+<s style=" If you want to lower the price a little, that is up to you. In this way you will find peace.">
 <lb n="28"/>
 <phr>
 <w lemma="ⲉⲣϣⲁⲛ_ⲛⲧⲟⲕ" type="ACOND_PPERS">
@@ -450,7 +464,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲣⲉ" type="CCIRC">
+<w lemma="ⲉ" type="PREP">
 ⲉ̇
 </w>
 <lb n="29"/>
@@ -484,7 +498,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="," type="PUNCT">
+<w lemma="·" type="PUNCT">
 <hi rend="red 1_space_right">
 ·
 </hi>
@@ -530,21 +544,23 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲉ" type="PREP">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉ̇
 </w>
 <lb n="32"/>
-<w lemma="ⲡⲉⲕ" type="PPOS">
+<w lemma="ⲛⲧⲟⲕ" type="PPERS">
 ⲧⲉⲕ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
 </w>
-<w lemma="ϭⲓⲛⲉ" type="V">
+<w lemma="ϭⲛⲙⲧⲟⲛ" type="V">
+<m>
 ϭⲛ̇
-</w>
-<w lemma="ⲙⲧⲟⲛ" type="N">
+</m>
+<m>
 ⲙ̇ⲧⲟⲛ
+</m>
 </w>
 </phr>
 <phr>
@@ -555,7 +571,9 @@
 </w>
 </phr>
 </s>
-<s style="The brother said to him, &apos;If I have what I need, do you still want me to be concerned with my handiwork?&apos;">
+</p>
+<p n="6">
+<s style="The brother said to him, 'If I have what I need, do you still want me to be concerned with my handiwork?'">
 <lb n="33"/>
 <phr>
 <w lemma="ⲡⲉϫⲉ" type="VBD">
@@ -585,11 +603,9 @@
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲉⲣⲉ" type="CFOC">
+<w lemma="ⲉϣⲱⲡⲉ" type="CONJ">
 ⲉ
-</w>
 <lb n="34"/>
-<w lemma="ϣⲱⲡⲉ" type="V">
 ϣⲱⲡⲉ
 </w>
 </phr>
@@ -616,7 +632,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="," type="PUNCT">
+<w lemma="·" type="PUNCT">
 <hi rend="red">
 <m>
 ·
@@ -674,14 +690,16 @@
 </w>
 </phr>
 <phr>
-<w lemma="?" type="PUNCT">
+<w lemma="·" type="PUNCT">
 <hi rend="red">
 ·
 </hi>
 </w>
 </phr>
 </s>
-<s style="The old man answered, &apos;Even if you have everything, do not give up on your handiwork. Whatever you are able to do, do it—just don&apos;t worry about it.&apos;">
+</p>
+<p n="7">
+<s style="The old man answered, 'Even if you have everything, do not give up on your handiwork. ">
 <lb n="38"/>
 <phr>
 <w lemma="ⲁ" type="APST">
@@ -776,10 +794,14 @@
 </hi>
 ⲟ
 <hi rend="large red">
-ⲉ̇ⲂⲟⲖ
+Ⲗ
 </hi>
 </w>
 </phr>
+</s>
+</p>
+<p n="8">
+<s style="Whatever you are able to do, do it—just don't worry about it.'">
 <lb n="2"/>
 <phr>
 <w lemma="ⲡ" type="ART">
@@ -861,6 +883,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

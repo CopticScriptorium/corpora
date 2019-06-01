@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,15 +68,16 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="2.4.0" when="2017-11-09"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-<p>
+<div type="textpart">
 <pb xml:id="EG206"/>
 <cb n="2"/>
+<p n="1">
 <s style="A monk said, ">
 <lb n="1"/>
 <phr>
@@ -294,6 +293,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="2">
 <s style="But humble yourself in the spirit of poverty on account of Christ.">
 <phr>
 <w type="CONJ" lemma="ⲁⲗⲗⲁ" xml:lang="Greek">
@@ -465,6 +466,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="3">
 <s style="For it is written, 'Let he who stands be aware lest he fall.'">
 <lb n="18"/>
 <phr>
@@ -594,6 +597,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

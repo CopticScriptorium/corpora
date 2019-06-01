@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,13 +68,14 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="1.0.1" when="2015-10-04"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-<p>
+<div type="textpart">
+<p n="1">
 <pb xml:id="EG73"/>
 <cb n="1"/>
 <s style="Apa Benjamin and his disciples said, &apos;Walk on the road of the king,">
@@ -115,7 +114,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="," type="PUNCT">
+<w lemma="·" type="PUNCT">
 ·
 </w>
 </phr>
@@ -124,7 +123,7 @@
 ϫⲉ
 </w>
 <lb n="3"/>
-<w lemma="ⲙⲟⲟⲩϣⲉ" type="N">
+<w lemma="ⲙⲟⲟϣⲉ" type="V">
 ⲙⲟ̇ⲟⲩϣⲉ
 </w>
 </phr>
@@ -152,7 +151,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="," type="PUNCT">
+<w lemma="·" type="PUNCT">
 <hi rend="red 5_space_right">
 ·
 </hi>
@@ -191,19 +190,16 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="PREP">
+<w lemma="ⲛ" type="NEG">
 ⲛ̇
 </w>
-<w lemma="ⲡ" type="ART">
-ⲧ
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERS">
+ⲧⲉⲧ
 </w>
-<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
-ⲉⲧ
-</w>
-<w lemma="ⲛⲁ" type="PREP">
+<w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
 </w>
-<w lemma="ϣⲱⲥⲙ" type="N">
+<w lemma="ϣⲱⲥⲙ" type="V">
 ϣⲱ
 <lb n="7"/>
 ⲥ̇ⲙ
@@ -223,6 +219,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

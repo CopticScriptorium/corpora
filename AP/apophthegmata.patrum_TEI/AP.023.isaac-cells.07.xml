@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,15 +68,16 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="1.2.0" when="2015-05-21"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-<p>
+<div type="textpart">
 <pb xml:id="EG67"/>
 <cb n="1"/>
+<p n="1">
 <lb n="5"/>
 <s style="He said, that is Abba Isaac:">
 <phr>
@@ -276,6 +275,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="2">
 <s style="Go from this place, you have ruined it.">
 <phr>
 <w lemma="ⲃⲱⲕ" type="V">
@@ -330,6 +331,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

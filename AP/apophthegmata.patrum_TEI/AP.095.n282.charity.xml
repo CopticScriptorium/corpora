@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,13 +68,14 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="2.5.0" when="2018-04-01"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-<p>
+<div type="textpart">
+<p n="1">
 <pb xml:id="unknown1"/>
 <cb n="2"/>
 <lb n="40"/>
@@ -311,6 +310,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="2">
 <s style="For when I lived a while in Pemje (Oxyrhynchus)">
 <phr>
 <w type="CCIRC" lemma="ⲉⲣⲉ">
@@ -481,7 +482,9 @@
 </phr>
 </s>
 </p>
-<p>
+</div>
+<div type="textpart">
+<p n="1">
 <lb n="14"/>
 <s style="He said to her,">
 <phr>
@@ -550,6 +553,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="2">
 <lb n="16"/>
 <s style="So she brought it">
 <phr>
@@ -687,6 +692,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="3">
 <lb n="20"/>
 <s style="He made the widow ashamed.">
 <phr>
@@ -718,7 +725,9 @@
 </phr>
 </s>
 </p>
-<p>
+</div>
+<div type="textpart">
+<p n="1">
 <lb n="21"/>
 <s style="But after the widow left,">
 <phr>
@@ -828,6 +837,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="2">
 <s style="But he said, “No.”">
 <lb n="25"/>
 <phr>
@@ -866,6 +877,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="3">
 <s style="I said to him,">
 <phr>
 <w type="VBD" lemma="ⲡⲉϫⲉ">
@@ -1005,6 +1018,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

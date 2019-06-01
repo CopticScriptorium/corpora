@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,14 +68,15 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="2.3.1" when="2017-04-05"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
+<div type="textpart">
+<p n="1">
 <pb xml:id="EG204"/>
-<p>
 <cb n="1"/>
 <s style="The blessed Syncletica said,">
 <lb n="39"/>
@@ -116,7 +115,7 @@
 </w>
 </phr>
 </s>
-<s style="Just as a boat cannot be built without nails,">
+<s style="'Just as a boat cannot be built without nails,">
 <lb n="41"/>
 <phr>
 <w type="CONJ" lemma="ϫⲉ">
@@ -188,9 +187,7 @@
 </w>
 </phr>
 </s>
-</p>
-<p>
-<s style="in the same way it is not possible to be saved without humility of heart.&apos;">
+<s style="in the same way it is not possible to be saved without humility of heart.'">
 <phr>
 <w type="PDEM" lemma="ⲡⲁⲓ">
 ⲧⲁⲓ̇
@@ -265,6 +262,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

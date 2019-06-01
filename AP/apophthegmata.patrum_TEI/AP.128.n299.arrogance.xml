@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,15 +68,16 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="2.4.0" when="2017-11-09"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-<p>
+<div type="textpart">
 <pb xml:id="EG206"/>
 <cb n="1"/>
+<p n="1">
 <lb n="21"/>
 <s style="A monk said,">
 <phr>
@@ -446,6 +445,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="2">
 <s style="And, in these things, do not consider greatness, as if you were successful in everything.">
 <lb n="37"/>
 <phr>
@@ -537,9 +538,11 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="3">
 <s style="For you know that this thought destroys everything.">
 <phr>
-<w type="CCIRC" lemma="ⲉⲣⲉ">
+<w type="CFOC" lemma="ⲉⲣⲉ">
 ⲉ̇
 </w>
 <w type="PPERS" lemma="ⲛⲧⲟⲕ">
@@ -602,6 +605,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

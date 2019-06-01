@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,15 +68,16 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="2.0.0" when="2016-07-16"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-<p>
+<div type="textpart">
 <pb xml:id="EG203"/>
 <cb n="1"/>
+<p n="1">
 <s style="Apa Sisoes said these things.">
 <lb n="34"/>
 <phr>
@@ -120,7 +119,9 @@
 </w>
 </phr>
 </s>
-<s style="One of us entreated him, saying, &apos;Please, say one word to us yourself.&apos;">
+</p>
+<p n="2">
+<s style="One of us entreated him, saying, 'Please, say one word to us yourself.'">
 <lb n="36"/>
 <phr>
 <w type="NUM" lemma="ⲟⲩⲁ" xml:lang="Greek">
@@ -210,7 +211,9 @@
 </w>
 </phr>
 </s>
-<s style="He said, &apos;Mindful lack of consideration for yourself.">
+</p>
+<p n="3">
+<s style="He said, 'Mindful lack of consideration for yourself.">
 <phr>
 <w type="VBD" lemma="ⲡⲉϫⲉ">
 ⲡⲉϫⲁ
@@ -261,7 +264,7 @@
 </w>
 </phr>
 </s>
-<s style="It will fulfill all the Scriptures.&apos;">
+<s style="It will fulfill all the Scriptures.'">
 <phr>
 <w type="PPERS" lemma="ⲛⲧⲟϥ">
 ϥ
@@ -312,6 +315,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="4">
 <s style="And another of us said to him, ">
 <phr>
 <w type="V" lemma="ⲡⲉϫⲉ">
@@ -355,7 +360,7 @@
 </w>
 </phr>
 </s>
-<s style="What is it to be a stranger, my father?&apos;">
+<s style="'What is it to be a stranger, my father?'">
 <phr>
 <w type="CONJ" lemma="ϫⲉ">
 ϫⲉ
@@ -400,7 +405,9 @@
 </w>
 </phr>
 </s>
-<s style="He said, &apos;It is being silent and saying everywhere you go,">
+</p>
+<p n="5">
+<s style="He said, 'It is being silent and saying everywhere you go,">
 <phr>
 <w type="VBD" lemma="ⲡⲉϫⲉ">
 ⲡⲉϫⲁ
@@ -485,7 +492,7 @@
 </w>
 </phr>
 </s>
-<s style="This is nothing.&apos;">
+<s style="This is nothing.'">
 <phr>
 <w type="CONJ" lemma="ϫⲉ">
 ϫⲉ
@@ -507,7 +514,9 @@
 </w>
 </phr>
 </s>
-<s style="This is being a stranger.&apos;">
+</p>
+<p n="6">
+<s style="This is being a stranger.'">
 <phr>
 <w type="PDEM" lemma="ⲡⲁⲓ">
 ⲧⲁⲓ̇
@@ -544,6 +553,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

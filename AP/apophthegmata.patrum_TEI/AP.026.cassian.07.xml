@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,16 +68,17 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="2.3.1" when="2017-04-05"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-<p>
+<div type="textpart">
 <pb xml:id="EG67"/>
 <cb n="1"/>
-<s style="Apa Cassian said, &quot;A nobleman (senator?) said, ">
+<p n="1">
+<s style="Apa Cassian said, 'A nobleman (senator?) said, after he renounced all his possessions, he gave them to the poor.">
 <lb n="33"/>
 <phr>
 <w lemma="ⲁ" type="APST">
@@ -165,8 +164,6 @@
 </hi>
 </w>
 </phr>
-</s>
-<s style="after he renounced all his possessions, he gave them to the poor,">
 <phr>
 <w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉ̇
@@ -237,6 +234,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="2">
 <s style="He set a little for himself because of his own needs. ">
 <phr>
 <w lemma="ⲁ" type="APST">
@@ -303,6 +302,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="3">
 <s style="He did not wish to live in complete renunciation, of humility of heart.">
 <phr>
 <w lemma="ⲙⲡⲉ" type="ANEGPST">
@@ -407,6 +408,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="4">
 <s style="This one also spoke a word to him, that is, Basimos, the one who is among the saints,">
 <lb n="6"/>
 <phr>
@@ -499,7 +502,9 @@
 </w>
 </phr>
 </s>
-<s style="who said, &quot;The elite (senatorial?) rank, you lost it; and monasticism, you did not find it.">
+</p>
+<p n="5">
+<s style="who said, 'The elite (senatorial?) rank, you lost it; and monasticism, you did not find it.">
 <phr>
 <w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ̇
@@ -614,6 +619,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

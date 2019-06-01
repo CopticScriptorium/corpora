@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -43,7 +41,7 @@
 			<msIdentifier>
 				<repository>Biblioteca Nazionale di Napoli</repository>
 				<collection>Borgia Collection</collection>
-				<idno>IB 17 484 f. 27r</idno>
+				<idno>IB 17 484 f. 28r</idno>
 			</msIdentifier>
 			<msContents>
 				<msItem>
@@ -70,15 +68,16 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="2.4.0" when="2017-11-09"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-<p>
+<div type="textpart">
 <pb xml:id="EG213"/>
 <cb n="1"/>
+<p n="1">
 <lb n="6"/>
 <s style="An old man said,">
 <phr>
@@ -117,7 +116,9 @@
 </w>
 </phr>
 </s>
-<s style="'The one who bears contempt and reproach">
+</p>
+<p n="2">
+<s style="'The one who bears contempt and reproach is able to be saved.'">
 <lb n="7"/>
 <phr>
 <w type="CONJ" lemma="ϫⲉ">
@@ -164,8 +165,6 @@
 ·
 </w>
 </phr>
-</s>
-<s style="is able to be saved.'">
 <lb n="9"/>
 <phr>
 <w type="EXIST" lemma="ⲟⲩⲛ">
@@ -200,6 +199,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,15 +68,16 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="2.0.0" when="2016-07-16"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-<p>
+<div type="textpart">
 <pb xml:id="EG203"/>
 <cb n="2"/>
+<p n="1">
 <s style="The brother asked him again,">
 <lb n="30"/>
 <phr>
@@ -125,7 +124,7 @@
 </w>
 </phr>
 </s>
-<s style="Did Satan also trouble people long ago in this way?&apos;">
+<s style="'Did Satan also trouble people long ago in this way?'">
 <phr>
 <w type="CONJ" lemma="ϫⲉ">
 ϫⲉ
@@ -191,6 +190,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="2">
 <s style="Apa Sisoes said to him, ">
 <lb n="34"/>
 <phr>
@@ -235,7 +236,7 @@
 </w>
 </phr>
 </s>
-<s style="He causes more trouble now, since his time has drawn near, and because of this he is upset.&apos;">
+<s style="'He causes more trouble now, since his time has drawn near, and because of this he is upset.'">
 <phr>
 <w type="CONJ" lemma="ϫⲉ">
 ϫⲉ
@@ -319,6 +320,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

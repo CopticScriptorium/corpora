@@ -1,13 +1,15 @@
-<meta annotation="Elizabeth Platte, Caroline T. Schroeder" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960), p. 30" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.138.monbeg" Greek_source="not identified" idno="IB 17 484 f. 26r" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msItem_title="Apophthegmata Patrum" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="207" pages_to="207" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" title="Apophthegmata Patrum Sahidic 138: Unidentified" translation="Elizabeth Platte" version_date="2017-11-09" version_n="2.4.0">
+<meta annotation="Elizabeth Platte, Caroline T. Schroeder" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960), p. 30" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.138.monbeg" Greek_source="not identified" idno="IB 17 484 f. 26r" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msItem_title="Apophthegmata Patrum" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="207" pages_to="207" parsing="automatic" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" segmentation="checked" tagging="checked" title="Apophthegmata Patrum Sahidic 138: Unidentified" translation="Elizabeth Platte" version_date="2019-05-31" version_n="2.7.0">
 <pb_xml_id pb_xml_id="EG207">
 <cb_n cb_n="2">
-<p p="p">
+<chapter_n chapter_n="1">
+<verse_n verse_n="1">
+<vid_n vid_n="urn:cts:copticLit:ap.138.monbeg:1.1">
 <lb_n lb_n="28">
 <translation translation="A brother said to a monk,">
 <orig_group orig_group="ⲁⲩⲥⲟⲛ">
 <norm_group norm_group="ⲁⲩⲥⲟⲛ">
 <orig orig="ⲁ">
-<norm xml:id="u1" func="aux" head="#u4" pos="APST" lemma="ⲁ" norm="ⲁ">
+<norm xml:id="u1" func="aux" head="#u3" pos="APST" lemma="ⲁ" norm="ⲁ">
 ⲁ
 </norm>
 </orig>
@@ -54,7 +56,7 @@
 </norm>
 </orig>
 <orig orig="ⲁϫⲓ">
-<norm xml:id="u8" func="advcl" head="#u15" pos="VIMP" lemma="ϫⲱ" norm="ⲁϫⲓ">
+<norm xml:id="u8" func="root" pos="VIMP" lemma="ϫⲱ" norm="ⲁϫⲓ">
 ⲁϫⲓ
 </norm>
 </orig>
@@ -89,7 +91,7 @@
 <orig_group orig_group="ⲁⲡⲁ">
 <norm_group norm_group="ⲁⲡⲁ">
 <orig orig="ⲁⲡⲁ">
-<norm xml:id="u13" func="nsubj" head="#u15" pos="N" lemma="ⲁⲡⲁ" norm="ⲁⲡⲁ">
+<norm xml:id="u13" func="obj" head="#u8" pos="N" lemma="ⲁⲡⲁ" norm="ⲁⲡⲁ">
 <lang lang="Hebrew">
 ⲁⲡⲁ
 </lang>
@@ -105,7 +107,7 @@
 </norm>
 </orig>
 <orig orig="ⲟⲩϫⲁⲓ">
-<norm xml:id="u15" func="root" pos="V" lemma="ⲟⲩϫⲁⲓ" norm="ⲟⲩϫⲁⲓ">
+<norm xml:id="u15" func="nmod" head="#u13" pos="V" lemma="ⲟⲩϫⲁⲓ" norm="ⲟⲩϫⲁⲓ">
 ⲟⲩϫⲁⲓ
 </norm>
 </orig>
@@ -190,7 +192,7 @@
 </norm>
 </orig>
 <orig orig="ϥ">
-<norm xml:id="u26" func="obj" head="#u24" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
+<norm xml:id="u26" func="obl" head="#u24" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
 ϥ
 </norm>
 </orig>
@@ -201,6 +203,7 @@
 <orig_group orig_group="ⲉⲃⲟⲗ">
 <norm_group norm_group="ⲉⲃⲟⲗ">
 <orig orig="ⲉⲃⲟⲗ">
+<multiword multiword="ⲉⲃⲟⲗ ϫⲉ">
 <norm xml:id="u27" func="advmod" head="#u24" pos="ADV" lemma="ⲉⲃⲟⲗ" norm="ⲉⲃⲟⲗ">
 ⲉⲃⲟⲗ
 </norm>
@@ -215,6 +218,7 @@
 <norm xml:id="u28" func="mark" head="#u32" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
 ϫⲉ
 </norm>
+</multiword>
 </orig>
 <orig orig="ⲟⲩ">
 <norm xml:id="u29" func="det" head="#u30" pos="ART" lemma="ⲟⲩ" norm="ⲟⲩ">
@@ -272,7 +276,9 @@
 </orig_group>
 </lb_n>
 </translation>
-</p>
+</vid_n>
+</verse_n>
+</chapter_n>
 </cb_n>
 </pb_xml_id>
 </meta>

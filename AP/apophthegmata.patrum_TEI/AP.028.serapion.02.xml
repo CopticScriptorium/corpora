@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,16 +68,17 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="1.0.0" when="2015-07-30"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-<p>
+<div type="textpart">
 <pb xml:id="EG68"/>
 <cb n="1"/>
-<s style="A brother asked Apa Sarapion, &apos;Give me a word.&apos;">
+<p n="1">
+<s style="A brother asked Apa Sarapion, 'Give me a word.'">
 <lb n="5"/>
 <phr>
 <w lemma="ⲁ" type="APST">
@@ -142,7 +141,9 @@
 </w>
 </phr>
 </s>
-<s style="The old man said, &apos;What will I say to you?&quot;">
+</p>
+<p n="2">
+<s style="The old man said, 'What will I say to you?'">
 <phr>
 <w lemma="ⲡⲉϫⲉ" type="VBD">
 ⲡⲉϫⲉ̇̇
@@ -182,7 +183,7 @@
 </phr>
 <lb n="9"/>
 <phr>
-<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
+<w lemma="ⲟⲩ" type="PINT">
 ⲟⲩ
 </w>
 </phr>
@@ -195,6 +196,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="3">
 <s style="For you have taken the things of the poor and the widows and the orphans,">
 <phr>
 <w lemma="ϫⲉ" type="CONJ">
@@ -273,7 +276,7 @@
 </w>
 </phr>
 </s>
-<s style="and you have placed them in your window.&apos;">
+<s style="and you have placed them in your window.'">
 <lb n="12"/>
 <phr>
 <w lemma="ⲁ" type="APST">
@@ -308,6 +311,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="4">
 <s style="For he saw that the window was full of books.">
 <phr>
 <w lemma="ⲁ" type="APST">
@@ -364,6 +369,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

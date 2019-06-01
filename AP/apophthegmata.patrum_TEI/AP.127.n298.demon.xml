@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,15 +68,16 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="2.4.0" when="2017-11-09"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-<p>
+<div type="textpart">
 <pb xml:id="EG206"/>
 <cb n="1"/>
+<p n="1">
 <s style="A man became a demon,">
 <lb n="9"/>
 <phr>
@@ -176,6 +175,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="2">
 <s style="He struck a monk among the elders upon his cheek.">
 <phr>
 <w type="APST" lemma="ⲁ">
@@ -240,6 +241,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="3">
 <s style="But the monk quickly turned the other one to him.">
 <phr>
 <w type="ART" lemma="ⲡ">
@@ -306,6 +309,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="4">
 <s style="And the demon could not bear the fire of his humility.">
 <lb n="17"/>
 <phr>
@@ -404,6 +409,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

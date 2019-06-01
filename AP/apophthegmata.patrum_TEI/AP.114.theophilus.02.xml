@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,15 +68,16 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="1.2.0" when="2015-05-21"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-<p>
+<div type="textpart">
 <pb xml:id="EG202"/>
 <cb n="1"/>
+<p n="1">
 <s style="One time, the blessed Abba Theophilus the archbishop went to Scetis.">
 <lb n="8"/>
 <phr>
@@ -151,6 +150,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="2">
 <s style="But the brothers gathered and said to Abba Pambo:">
 <phr>
 <w lemma="ⲁ" type="APST">
@@ -209,7 +210,7 @@
 </w>
 </phr>
 </s>
-<s style="Tell the Father one word that he may benefit.&apos;">
+<s style="'Tell the Father one word that he may benefit.'">
 <phr>
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
@@ -273,6 +274,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="3">
 <s style="The old man told them:">
 <phr>
 <w lemma="ⲡⲉϫⲉ" type="VBD">
@@ -305,7 +308,7 @@
 </w>
 </phr>
 </s>
-<s style="If he does not always benefit from our silence,  then if we speak he will still not benefit.&apos;">
+<s style="'If he does not always benefit from our silence,  then if we speak he will still not benefit.'">
 <phr>
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
@@ -401,6 +404,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

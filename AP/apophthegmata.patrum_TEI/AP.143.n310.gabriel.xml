@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,15 +68,16 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="2.4.0" when="2017-11-09"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
+<div type="textpart">
 <pb xml:id="EG209"/>
 <cb n="1"/>
-<p>
+<p n="1">
 <s style="The devil changed into an image of an angel of the light.">
 <phr>
 <lb n="31"/>
@@ -141,7 +140,7 @@
 </phr>
 </s>
 </p>
-<p>
+<p n="2">
 <s style="He appeared to one of the brothers and said to him,">
 <phr>
 <w type="APST" lemma="ⲁ">
@@ -202,8 +201,6 @@
 </w>
 </phr>
 </s>
-</p>
-<p>
 <s style="“I am Gabriel, who was sent to you”">
 <phr>
 <w type="PPERI" lemma="ⲁⲛⲟⲕ">
@@ -251,8 +248,8 @@
 </phr>
 </s>
 </p>
+<p n="3">
 <lb n="39"/>
-<p>
 <s style="But he said to him,">
 <phr>
 <w type="VBD" lemma="ⲡⲉϫⲉ">
@@ -279,8 +276,6 @@
 </w>
 </phr>
 </s>
-</p>
-<p>
 <s style="“Look, you were sent to another of the brothers,">
 <phr>
 <w type="CONJ" lemma="ϫⲉ">
@@ -339,8 +334,6 @@
 </w>
 </phr>
 </s>
-</p>
-<p>
 <s style="for I am not worthy.”">
 <phr>
 <w type="PPERI" lemma="ⲁⲛⲟⲕ">
@@ -371,7 +364,7 @@
 </phr>
 </s>
 </p>
-<p>
+<p n="4">
 <s style="And he immediately disappeared.">
 <lb n="3"/>
 <phr>
@@ -425,6 +418,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

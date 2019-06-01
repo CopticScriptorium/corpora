@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,16 +68,17 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="2.3.1" when="2017-04-05"></change>
+	<change n="2.7.0" when="2019-05-15"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-<p>
+<div type="textpart">
 <pb xml:id="EG204"/>
 <cb n="2"/>
-<s style="Apa Orsisius said, ">
+<p n="1">
+<s style="Apa Orsisius said, 'A mud brick that is laid as a foundation by the river will not last a single day.">
 <lb n="20"/>
 <phr>
 <w type="APST" lemma="ⲁ">
@@ -117,8 +116,6 @@
 ·
 </w>
 </phr>
-</s>
-<s style="A mud brick that is laid as a foundation by the river">
 <phr>
 <w type="CONJ" lemma="ϫⲉ ">
 ϫⲉ
@@ -181,8 +178,6 @@
 ··
 </w>
 </phr>
-</s>
-<s style="will not last a single day.">
 <phr>
 <w type="ACONJ" lemma="ⲛⲧⲉ">
 ⲛ
@@ -230,6 +225,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="2">
 <s style="But the one that has been baked ensures like a rock.">
 <phr>
 <w type="ART" lemma="ⲡ">
@@ -299,7 +296,9 @@
 </w>
 </phr>
 </s>
-<s style="In the same way, the man who has this mind on worldliness">
+</p>
+<p n="3">
+<s style="In the same way, the man who has his mind on worldliness is not baked in the fear of God.">
 <lb n="29"/>
 <phr>
 <w type="PDEM" lemma="ⲡⲁⲓ">
@@ -334,17 +333,17 @@
 </w>
 </phr>
 <phr>
-<w type="CREL" lemma="ⲉⲣⲉ">
+<w type="CCIRC" lemma="ⲉⲣⲉ">
 ⲉ̇
 </w>
 <lb n="30"/>
-<w type="VBD" lemma="ⲟⲩⲛⲧⲉ">
+<w type="EXIST" lemma="ⲟⲩⲛⲧⲉ">
 ⲟⲩⲛ̇ⲧⲁ
 </w>
-</phr>
-<w type="PPERS" lemma="ⲛⲧⲟϥ">
+<w type="PPERO" lemma="ⲛⲧⲟϥ">
 ϥ
 </w>
+</phr>
 <phr>
 <w type="ADV" lemma="ⲙⲙⲁⲩ">
 ⲙ̇ⲙⲁⲩ
@@ -381,8 +380,6 @@
 ·
 </w>
 </phr>
-</s>
-<s style="is not baked in the fear of God.">
 <phr>
 <w type="NEG" lemma="ⲛⲧⲉ">
 ⲛ̇
@@ -430,6 +427,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="4">
 <s style="If he comes upon greatness, he dissolves.">
 <phr>
 <w type="ACOND_PPERS" lemma="ⲉⲣϣⲁⲛ_ⲛⲧⲟϥ">
@@ -484,6 +483,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="5">
 <s style="For there are many trials, mostly of this kind, that happen in the midst of men">
 <lb n="37"/>
 <phr>
@@ -576,7 +577,9 @@
 </w>
 </phr>
 </s>
-<s style="But it is good that a man know his mesaure, ">
+</p>
+<p n="6">
+<s style="But it is good that a man know his mesaure, and to avoid the burden of greatness.">
 <phr>
 <w type="VBD" lemma="ⲛⲁⲛⲟⲩ">
 ⲛⲁⲛⲟⲩ
@@ -635,8 +638,6 @@
 ·
 </w>
 </phr>
-</s>
-<s style="and to avoid the burden of greatness.">
 <phr>
 <w type="PREP" lemma="ⲉ">
 ⲉ
@@ -691,11 +692,13 @@
 </w>
 </phr>
 </s>
-<s style="The things which are strenghtened in faith are unshakeable.&apos;">
+</p>
+<p n="7">
+<s style="The things which are strenghtened in faith are unshakeable.'">
+<phr>
 <w type="ART" lemma="ⲡ">
 ⲛ
 </w>
-<phr>
 <w type="CREL" lemma="ⲉⲧⲉⲣⲉ">
 ⲉⲧ
 </w>
@@ -756,6 +759,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

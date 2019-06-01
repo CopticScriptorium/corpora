@@ -1,5 +1,7 @@
-<meta annotation="Dana Robinson, Caroline T. Schroeder" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960), p. 21" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.95.monbeg" endnote="This manuscript folio contains no page numbers on either the recto or verso" Greek_edition="Anonymous Collection Nau 282" idno="IB 17 484 f. 62r/v" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msName="MONB.EG" note="Apophthegmata Patrum Sahidic 94, 95, and 96 are part of a lacuna between MONB.EG 163 and 182. Page numbers are unknown." objectType="codex" origPlace="White Monastery" pages_from="unknown" pages_to="unknown" placeName="Atripe" project="Coptic SCRIPTORIUM" repository="Biblioteca Nazionale di Napoli" title="Apophthegmata Patrum Sahidic 95: Anonymous Nau 282" translation="Dana Robinson" Trismegistos="none" version_date="2018-04-01" version_n="2.5.0">
-<p p="p">
+<meta annotation="Dana Robinson, Caroline T. Schroeder" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960), p. 21" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.95.monbeg" endnote="This manuscript folio contains no page numbers on either the recto or verso" Greek_edition="Anonymous Collection Nau 282" idno="IB 17 484 f. 62r/v" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msName="MONB.EG" note="Apophthegmata Patrum Sahidic 94, 95, and 96 are part of a lacuna between MONB.EG 163 and 182. Page numbers are unknown." objectType="codex" origPlace="White Monastery" pages_from="unknown" pages_to="unknown" parsing="automatic" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" segmentation="checked" tagging="checked" title="Apophthegmata Patrum Sahidic 95: Anonymous Nau 282" translation="Dana Robinson" Trismegistos="none" version_date="2019-05-31" version_n="2.7.0">
+<chapter_n chapter_n="1">
+<verse_n verse_n="1">
+<vid_n vid_n="urn:cts:copticLit:ap.95.monbeg:1.1">
 <pb_xml_id pb_xml_id="unknown1">
 <cb_n cb_n="2">
 <lb_n lb_n="40">
@@ -61,14 +63,16 @@
 </norm>
 </orig>
 <orig orig="ⲟⲩⲛ̇">
+<multiword multiword="ⲟⲩⲛ ⲟⲩⲟⲛ">
 <norm xml:id="u9" func="root" pos="EXIST" lemma="ⲟⲩⲛ" norm="ⲟⲩⲛ">
 ⲟⲩⲛ̇
 </norm>
 </orig>
 <orig orig="ⲟⲩⲟ̇ⲛ">
-<norm xml:id="u10" func="iobj" head="#u9" pos="N" lemma="ⲟⲩⲟⲛ" norm="ⲟⲩⲟⲛ">
+<norm xml:id="u10" func="nsubj" head="#u9" pos="N" lemma="ⲟⲩⲟⲛ" norm="ⲟⲩⲟⲛ">
 ⲟⲩⲟ̇ⲛ
 </norm>
+</multiword>
 </orig>
 </norm_group>
 </orig_group>
@@ -85,7 +89,8 @@
 </norm>
 </orig>
 <orig orig="ⲉⲓⲣⲉ">
-<norm xml:id="u13" func="advcl" head="#u9" pos="V" lemma="ⲉⲓⲣⲉ" norm="ⲉⲓⲣⲉ">
+<multiword multiword="ⲉⲓⲣⲉ ⲛ">
+<norm xml:id="u13" func="acl" head="#u10" pos="V" lemma="ⲉⲓⲣⲉ" norm="ⲉⲓⲣⲉ">
 ⲉⲓⲣⲉ
 </norm>
 </orig>
@@ -97,11 +102,12 @@
 <norm xml:id="u14" func="case" head="#u15" pos="PREP" lemma="ⲛ" norm="ⲛ">
 ⲛ
 </norm>
+</multiword>
 </orig>
 </lb_n>
 <lb_n lb_n="42">
 <orig orig="ϩⲁϩ">
-<norm xml:id="u15" func="obj" head="#u13" pos="N" lemma="ϩⲁϩ" norm="ϩⲁϩ">
+<norm xml:id="u15" func="obl" head="#u13" pos="N" lemma="ϩⲁϩ" norm="ϩⲁϩ">
 <note note="⋗ in left margin">
 ϩⲁϩ
 </note>
@@ -233,7 +239,7 @@
 <orig_group orig_group="[............]">
 <norm_group norm_group="............">
 <orig orig="[............]">
-<norm xml:id="u29" func="dep" head="#u28" pos="UNKNOWN" lemma="UNKNOWN" norm="............">
+<norm xml:id="u29" func="dep" head="#u30" pos="UNKNOWN" lemma="UNKNOWN" norm="............">
 <gap_reason gap_reason="lost">
 [............]
 </gap_reason>
@@ -244,7 +250,7 @@
 <orig_group orig_group="ⲛⲗ̣ⲁ̣ⲁ">
 <norm_group norm_group="ⲛⲗⲁⲁ">
 <orig orig="ⲛⲗ̣ⲁ̣ⲁ">
-<norm xml:id="u30" func="dep" head="#u28" pos="UNKNOWN" lemma="UNKNOWN" norm="ⲛⲗⲁⲁ">
+<norm xml:id="u30" func="dep" head="#u26" pos="UNKNOWN" lemma="UNKNOWN" norm="ⲛⲗⲁⲁ">
 ⲛⲗ̣ⲁ̣ⲁ
 </norm>
 </orig>
@@ -422,6 +428,10 @@
 </norm_group>
 </orig_group>
 </translation>
+</vid_n>
+</verse_n>
+<verse_n verse_n="2">
+<vid_n vid_n="urn:cts:copticLit:ap.95.monbeg:1.2">
 <translation translation="For when I lived a while in Pemje (Oxyrhynchus)">
 <orig_group orig_group="ⲉⲓ̇ϩ̇ⲙⲟⲟⲥ">
 <norm_group norm_group="ⲉⲓϩⲙⲟⲟⲥ">
@@ -546,7 +556,8 @@
 </norm>
 </orig>
 <orig orig="ⲉⲓⲣⲉ">
-<norm xml:id="u67" func="advcl" head="#u64" pos="V" lemma="ⲉⲓⲣⲉ" norm="ⲉⲓⲣⲉ">
+<multiword multiword="ⲉⲓⲣⲉ ⲛ">
+<norm xml:id="u67" func="acl" head="#u64" pos="V" lemma="ⲉⲓⲣⲉ" norm="ⲉⲓⲣⲉ">
 ⲉⲓⲣⲉ
 </norm>
 </orig>
@@ -558,6 +569,7 @@
 <norm xml:id="u68" func="case" head="#u70" pos="PREP" lemma="ⲛ" norm="ⲛ">
 ⲛ̇
 </norm>
+</multiword>
 </orig>
 <orig orig="ϩⲛ̇">
 <norm xml:id="u69" func="det" head="#u70" pos="ART" lemma="ϩⲉⲛ" norm="ϩⲉⲛ">
@@ -567,7 +579,7 @@
 </lb_n>
 <lb_n lb_n="11">
 <orig orig="ⲙⲛⲧ̇ⲛⲁ">
-<norm xml:id="u70" func="obj" head="#u67" pos="N" lemma="ⲙⲛⲧⲛⲁ" norm="ⲙⲛⲧⲛⲁ">
+<norm xml:id="u70" func="obl" head="#u67" pos="N" lemma="ⲙⲛⲧⲛⲁ" norm="ⲙⲛⲧⲛⲁ">
 <morph morph="ⲙⲛⲧ">
 ⲙⲛⲧ̇
 </morph>
@@ -724,8 +736,12 @@
 </orig_group>
 </lb_n>
 </translation>
-</p>
-<p p="p">
+</vid_n>
+</verse_n>
+</chapter_n>
+<chapter_n chapter_n="2">
+<verse_n verse_n="1">
+<vid_n vid_n="urn:cts:copticLit:ap.95.monbeg:2.1">
 <lb_n lb_n="14">
 <translation translation="He said to her,">
 <orig_group orig_group="ⲡⲉϫⲁϥ">
@@ -769,7 +785,7 @@
 </norm>
 </orig>
 <orig orig="ⲃⲱⲕ">
-<norm xml:id="u95" func="root" pos="VIMP" lemma="ⲃⲱⲕ" norm="ⲃⲱⲕ">
+<norm xml:id="u95" func="advcl" head="#u96" pos="VIMP" lemma="ⲃⲱⲕ" norm="ⲃⲱⲕ">
 ⲃⲱⲕ
 </norm>
 </orig>
@@ -778,7 +794,7 @@
 <orig_group orig_group="ⲁ̇ⲛ̇ⲓ̇ⲟⲩⲟⲓⲡⲉ">
 <norm_group norm_group="ⲁⲛⲓⲟⲩⲟⲓⲡⲉ">
 <orig orig="ⲁ̇ⲛ̇ⲓ̇">
-<norm xml:id="u96" func="advmod" head="#u95" pos="VIMP" lemma="ⲉⲓⲛⲉ" norm="ⲁⲛⲓ">
+<norm xml:id="u96" func="root" pos="VIMP" lemma="ⲉⲓⲛⲉ" norm="ⲁⲛⲓ">
 ⲁ̇ⲛ̇ⲓ̇
 </norm>
 </orig>
@@ -840,6 +856,10 @@
 </orig_group>
 </lb_n>
 </translation>
+</vid_n>
+</verse_n>
+<verse_n verse_n="2">
+<vid_n vid_n="urn:cts:copticLit:ap.95.monbeg:2.2">
 <lb_n lb_n="16">
 <translation translation="So she brought it">
 <orig_group orig_group="ⲛ̇ⲧⲟⲥ">
@@ -978,7 +998,7 @@
 <orig_group orig_group="ϫⲉⲟⲩⲛⲟϭ">
 <norm_group norm_group="ϫⲉⲟⲩⲛⲟϭ">
 <orig orig="ϫⲉ">
-<norm xml:id="u121" func="mark" head="#u123" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
+<norm xml:id="u121" func="mark" head="#u126" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
 ϫⲉ
 </norm>
 </orig>
@@ -988,7 +1008,7 @@
 </norm>
 </orig>
 <orig orig="ⲛⲟϭ">
-<norm xml:id="u123" func="root" pos="N" lemma="ⲛⲟϭ" norm="ⲛⲟϭ">
+<norm xml:id="u123" func="nsubj" head="#u126" pos="N" lemma="ⲛⲟϭ" norm="ⲛⲟϭ">
 ⲛⲟϭ
 </norm>
 </orig>
@@ -1011,7 +1031,7 @@
 </norm>
 </orig>
 <orig orig="ⲟⲓ̇ⲡⲉ">
-<norm xml:id="u126" func="nsubj" head="#u123" pos="N" lemma="ⲟⲓⲡⲉ" norm="ⲟⲓⲡⲉ">
+<norm xml:id="u126" func="root" pos="N" lemma="ⲟⲓⲡⲉ" norm="ⲟⲓⲡⲉ">
 ⲟⲓ̇ⲡⲉ
 </norm>
 </orig>
@@ -1077,7 +1097,11 @@
 </orig_group>
 </translation>
 </lb_n>
+</vid_n>
+</verse_n>
 <lb_n lb_n="20">
+<verse_n verse_n="3">
+<vid_n vid_n="urn:cts:copticLit:ap.95.monbeg:2.3">
 <translation translation="He made the widow ashamed.">
 <orig_group orig_group="ⲁϥⲧ̇ⲣⲉⲧⲉⲭⲩⲣⲁ">
 <norm_group norm_group="ⲁϥⲧⲣⲉⲧⲉⲭⲏⲣⲁ">
@@ -1129,9 +1153,13 @@
 </norm_group>
 </orig_group>
 </translation>
+</vid_n>
+</verse_n>
 </lb_n>
-</p>
-<p p="p">
+</chapter_n>
+<chapter_n chapter_n="3">
+<verse_n verse_n="1">
+<vid_n vid_n="urn:cts:copticLit:ap.95.monbeg:3.1">
 <lb_n lb_n="21">
 <translation translation="But after the widow left,">
 <orig_group orig_group="ⲛⲧⲉⲣⲉⲧⲉⲭⲏⲣⲁ">
@@ -1319,6 +1347,10 @@
 </orig_group>
 </lb_n>
 </translation>
+</vid_n>
+</verse_n>
+<verse_n verse_n="2">
+<vid_n vid_n="urn:cts:copticLit:ap.95.monbeg:3.2">
 <translation translation="But he said, “No.”">
 <lb_n lb_n="25">
 <orig_group orig_group="ⲛ̇ⲧⲟϥ">
@@ -1384,6 +1416,10 @@
 </norm_group>
 </orig_group>
 </translation>
+</vid_n>
+</verse_n>
+<verse_n verse_n="3">
+<vid_n vid_n="urn:cts:copticLit:ap.95.monbeg:3.3">
 <translation translation="I said to him,">
 <orig_group orig_group="ⲡⲉϫⲁⲓ̇">
 <norm_group norm_group="ⲡⲉϫⲁⲓ">
@@ -1420,7 +1456,7 @@
 <orig_group orig_group="ϫⲉⲉϣϫⲉ">
 <norm_group norm_group="ϫⲉⲉϣϫⲉ">
 <orig orig="ϫⲉ">
-<norm xml:id="u176" func="root" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
+<norm xml:id="u176" func="mark" head="#u180" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
 ϫⲉ
 </norm>
 </orig>
@@ -1444,7 +1480,7 @@
 </norm>
 </orig>
 <orig orig="ϯ">
-<norm xml:id="u180" func="ccomp" head="#u176" pos="V" lemma="ϯ" norm="ϯ">
+<norm xml:id="u180" func="root" pos="V" lemma="ϯ" norm="ϯ">
 ϯ
 </norm>
 </orig>
@@ -1458,7 +1494,7 @@
 </norm>
 </orig>
 <orig orig="ϥ">
-<norm xml:id="u182" func="obj" head="#u180" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
+<norm xml:id="u182" func="obl" head="#u180" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
 ϥ
 </norm>
 </orig>
@@ -1510,6 +1546,7 @@
 <orig_group orig_group="ⲉⲧⲃⲉⲟⲩ">
 <norm_group norm_group="ⲉⲧⲃⲉⲟⲩ">
 <orig orig="ⲉⲧⲃⲉ">
+<multiword multiword="ⲉⲧⲃⲉ ⲟⲩ">
 <norm xml:id="u188" func="case" head="#u189" pos="PREP" lemma="ⲉⲧⲃⲉ" norm="ⲉⲧⲃⲉ">
 ⲉⲧⲃⲉ
 </norm>
@@ -1518,6 +1555,7 @@
 <norm xml:id="u189" func="obl" head="#u192" pos="PINT" lemma="ⲟⲩ" norm="ⲟⲩ">
 ⲟⲩ
 </norm>
+</multiword>
 </orig>
 </norm_group>
 </orig_group>
@@ -1595,7 +1633,7 @@
 </norm>
 </orig>
 <orig orig="ⲭⲏⲣⲁ">
-<norm xml:id="u200" func="nsubj" head="#u198" pos="N" lemma="ⲭⲏⲣⲁ" norm="ⲭⲏⲣⲁ">
+<norm xml:id="u200" func="nsubj" head="#u201" pos="N" lemma="ⲭⲏⲣⲁ" norm="ⲭⲏⲣⲁ">
 <lang lang="Greek">
 ⲭⲏⲣⲁ
 </lang>
@@ -1606,7 +1644,7 @@
 <orig_group orig_group="ϣⲓ̇ⲡⲉ">
 <norm_group norm_group="ϣⲓⲡⲉ">
 <orig orig="ϣⲓ̇ⲡⲉ">
-<norm xml:id="u201" func="conj" head="#u200" pos="N" lemma="ϣⲓⲡⲉ" norm="ϣⲓⲡⲉ">
+<norm xml:id="u201" func="xcomp" head="#u198" pos="N" lemma="ϣⲓⲡⲉ" norm="ϣⲓⲡⲉ">
 ϣⲓ̇ⲡⲉ
 </norm>
 </orig>
@@ -1623,7 +1661,9 @@
 </orig_group>
 </lb_n>
 </translation>
-</p>
+</vid_n>
+</verse_n>
+</chapter_n>
 </cb_n>
 </pb_xml_id>
 </meta>

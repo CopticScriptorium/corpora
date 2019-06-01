@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,15 +68,16 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="1.0.0" when="2015-10-04"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-<p>
+<div type="textpart">
 <pb xml:id="EG68"/>
-<s style="Apa Hyperechios said, &apos;The monk&apos;s treasure is not having any material things.">
+<p n="1">
+<s style="Apa Hyperechios said, 'The monk's treasure is not having any material things.">
 <cb n="1"/>
 <lb n="40"/>
 <phr>
@@ -118,8 +117,11 @@
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲡⲁϩⲟ" type="N">
-ⲡⲁϩⲟ
+<w lemma="ⲡ" type="ART">
+ⲡ
+</w>
+<w lemma="ⲁϩⲟ" type="N">
+ⲁϩⲟ
 </w>
 </phr>
 <lb n="42"/>
@@ -137,9 +139,11 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲡⲉⲧ" type="CREL">
+<w lemma="ⲡⲉ" type="COP">
 ⲡⲉ̇
 </w>
+</phr>
+<phr>
 <w lemma="ⲧⲙ" type="NEG">
 ⲧⲙ
 </w>
@@ -185,6 +189,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="2">
 <s style="Store and gather for yourself in heaven, ">
 <phr>
 <w lemma="ⲱⲧⲡ" type="V">
@@ -207,7 +213,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="," type="PUNCT">
+<w lemma="·" type="PUNCT">
 <hi rend="red">
 ·
 </hi>
@@ -255,14 +261,14 @@
 </w>
 </phr>
 <phr>
-<w lemma="," type="PUNCT">
+<w lemma="·" type="PUNCT">
 <hi rend="red">
 ·
 </hi>
 </w>
 </phr>
 </s>
-<s style="for there is unceasing rest for you forever.&apos;">
+<s style="for there is unceasing rest for you forever.'">
 <lb n="5"/>
 <phr>
 <w lemma="ⲟⲩ" type="ART">
@@ -308,8 +314,11 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲛϣⲁ" type="ADV">
-ⲛ̇ϣⲁ
+<w lemma="ⲛ" type="PREP">
+ⲛ̇
+</w>
+<w lemma="ϣⲁ" type="PREP">
+ϣⲁ
 </w>
 </phr>
 <phr>
@@ -326,6 +335,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

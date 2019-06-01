@@ -1,5 +1,3 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
@@ -70,13 +68,15 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="1.1" when="2015-08-31"></change>
+	<change n="2.7.0" when="2019-05-31"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-<p>
+<div type="textpart">
+<pb xml:id="EG32"/>
+<p n="1">
 <s style="He went once, that is the presbyter of Scetis, to the archbishop of Alexandria">
 <lb n="25"/>
 <phr>
@@ -149,7 +149,9 @@
 </w>
 </phr>
 </s>
-<s style="and after he returned to Scetis, they asked him, that is the brothers, about news from the city was doing.">
+</p>
+<p n="2">
+<s style="and after he returned to Scetis, they asked him, that is the brothers, about news from the city.">
 <lb n="28"/>
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
@@ -246,7 +248,9 @@
 </w>
 </phr>
 </s>
-<s style="But he told them: &apos;Naturally, my brothers, I have not seen the face of any man, except the archbishop alone.&apos;">
+</p>
+<p n="3">
+<s style="But he told them: 'Naturally, my brothers, I have not seen the face of any man, except the archbishop alone.'">
 <phr>
 <w lemma="ⲛⲧⲟϥ" type="PPERI">
 ⲛ̇ⲧⲟϥ
@@ -362,6 +366,8 @@
 </w>
 </phr>
 </s>
+</p>
+<p n="4">
 <s style="After hearing him they became strengthened thanks to his story, that they should guard themselves against raising their eyes.">
 <lb n="37"/>
 <phr>
@@ -483,6 +489,7 @@
 </phr>
 </s>
 </p>
+</div>
 </body>
 </text>
 </TEI>

@@ -1,7 +1,9 @@
-<meta annotation="Christine Luckritz Marquis, Elizabeth Platte" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960), §3 (Fragments de Naples)" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.3.monbeg" Greek_source="Anonymous Collection Nau 138" idno="IB 17 484 f. 19v" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msItem_title="Apophthegmata Patrum" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="16" pages_to="16" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" title="Apophthegmata Patrum 3: Anonymous Nau 138" translation="Christine Luckritz Marquis" version_date="2017-11-09" version_n="2.4.0">
+<meta annotation="Elizabeth Davidson, Christine Luckritz Marquis, Elizabeth Platte" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960), §3 (Fragments de Naples)" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.3.monbeg" Greek_source="Anonymous Collection Nau 138" idno="IB 17 484 f. 19v" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msItem_title="Apophthegmata Patrum" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="16" pages_to="16" parsing="gold" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" segmentation="gold" tagging="gold" title="Apophthegmata Patrum 3: Anonymous Nau 138" translation="Christine Luckritz Marquis" version_date="2019-05-31" version_n="2.7.0">
 <pb_xml_id pb_xml_id="EG16">
 <cb_n cb_n="1">
-<p p="p">
+<chapter chapter="1">
+<verse_n verse_n="1">
+<vid_n vid_n="urn:cts:copticLit:ap.3.monbeg:1.1">
 <lb_n lb_n="11">
 <translation translation="A brother asked an old man,">
 <orig_group orig_group="ⲁⲟⲩⲥⲟⲛ">
@@ -70,6 +72,7 @@
 <orig_group orig_group="ⲉ̇ⲧⲃⲉⲟⲩ">
 <norm_group norm_group="ⲉⲧⲃⲉⲟⲩ">
 <orig orig="ⲉ̇ⲧⲃⲉ">
+<multiword multiword="ⲉⲧⲃⲉ ⲟⲩ">
 <norm xml:id="u10" func="case" head="#u11" pos="PREP" lemma="ⲉⲧⲃⲉ" norm="ⲉⲧⲃⲉ">
 ⲉ̇ⲧⲃⲉ
 </norm>
@@ -78,6 +81,7 @@
 <norm xml:id="u11" func="obl" head="#u15" pos="PINT" lemma="ⲟⲩ" norm="ⲟⲩ">
 ⲟⲩ
 </norm>
+</multiword>
 </orig>
 </norm_group>
 </orig_group>
@@ -109,7 +113,7 @@
 <orig_group orig_group="ⲛⲁϣⲧ">
 <norm_group norm_group="ⲛⲁϣⲧ">
 <orig orig="ⲛⲁϣⲧ">
-<norm xml:id="u15" func="root" pos="VSTAT" lemma="ⲛϣⲟⲧ" norm="ⲛⲁϣⲧ">
+<norm xml:id="u15" func="ccomp" head="#u4" pos="VSTAT" lemma="ⲛϣⲟⲧ" norm="ⲛⲁϣⲧ">
 ⲛⲁϣⲧ
 </norm>
 </orig>
@@ -118,7 +122,7 @@
 <orig_group orig_group="ⲛϥⲣ̇ϩⲟ̇ⲧⲉ">
 <norm_group norm_group="ⲛϥⲣϩⲟⲧⲉ">
 <orig orig="ⲛ">
-<norm xml:id="u16" func="advmod" head="#u18" pos="NEG" lemma="ⲛ" norm="ⲛ">
+<norm xml:id="u16" func="aux" head="#u18" pos="NEG" lemma="ⲛ" norm="ⲛ">
 ⲛ
 </norm>
 </orig>
@@ -178,7 +182,7 @@
 </norm>
 </orig>
 <orig orig="ⲛⲟⲩⲧⲉ">
-<norm xml:id="u24" func="obl" head="#u18" pos="N" lemma="ⲛⲟⲩⲧⲉ" norm="ⲛⲟⲩⲧⲉ">
+<norm xml:id="u24" func="obj" head="#u18" pos="N" lemma="ⲛⲟⲩⲧⲉ" norm="ⲛⲟⲩⲧⲉ">
 ⲛⲟⲩ
 </lb_n>
 <lb_n lb_n="15">
@@ -190,7 +194,7 @@
 <orig_group orig_group="·">
 <norm_group norm_group=".">
 <orig orig="·">
-<norm xml:id="u25" func="punct" pos="PUNCT" lemma="." norm=".">
+<norm xml:id="u25" func="punct" head="#u4" pos="PUNCT" lemma="." norm=".">
 <hi_rend hi_rend="4_spaces_right red">
 ·
 </hi_rend>
@@ -199,6 +203,10 @@
 </norm_group>
 </orig_group>
 </translation>
+</vid_n>
+</verse_n>
+<verse_n verse_n="2">
+<vid_n vid_n="urn:cts:copticLit:ap.3.monbeg:1.2">
 <translation translation="The old man said to him, ">
 <orig_group orig_group="ⲡⲉϫⲉⲡ̇ϩⲗⲗⲟ̇">
 <norm_group norm_group="ⲡⲉϫⲉⲡϩⲗⲗⲟ">
@@ -253,7 +261,7 @@
 </norm>
 </orig>
 <orig orig="ⲙⲉⲉ̇ⲩⲉ">
-<norm xml:id="u33" func="root" pos="V" lemma="ⲙⲉⲉⲩⲉ" norm="ⲙⲉⲉⲩⲉ">
+<norm xml:id="u33" func="ccomp" head="#u26" pos="V" lemma="ⲙⲉⲉⲩⲉ" norm="ⲙⲉⲉⲩⲉ">
 ⲙⲉⲉ̇ⲩⲉ
 </norm>
 </orig>
@@ -262,7 +270,7 @@
 <orig_group orig_group="ϫⲉⲉ̇ⲣϣⲁⲛⲡⲣⲱⲙⲉ">
 <norm_group norm_group="ϫⲉⲉⲣϣⲁⲛⲡⲣⲱⲙⲉ">
 <orig orig="ϫⲉ">
-<norm xml:id="u34" func="mark" head="#u38" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
+<norm xml:id="u34" func="mark" head="#u47" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
 ϫⲉ
 </norm>
 </orig>
@@ -288,7 +296,7 @@
 <orig_group orig_group="ⲁ̇ⲙⲁϩⲧⲉ">
 <norm_group norm_group="ⲁⲙⲁϩⲧⲉ">
 <orig orig="ⲁ̇ⲙⲁϩⲧⲉ">
-<norm xml:id="u38" func="ccomp" head="#u33" pos="V" lemma="ⲁⲙⲁϩⲧⲉ" norm="ⲁⲙⲁϩⲧⲉ">
+<norm xml:id="u38" func="advcl" head="#u47" pos="V" lemma="ⲁⲙⲁϩⲧⲉ" norm="ⲁⲙⲁϩⲧⲉ">
 ⲁ̇ⲙⲁϩⲧⲉ
 </norm>
 </orig>
@@ -351,7 +359,7 @@
 </norm>
 </orig>
 <orig orig="ϫⲡⲟ">
-<norm xml:id="u47" func="root" pos="V" lemma="ϫⲡⲟ" norm="ϫⲡⲟ">
+<norm xml:id="u47" func="ccomp" head="#u33" pos="V" lemma="ϫⲡⲟ" norm="ϫⲡⲟ">
 ϫⲡⲟ
 </norm>
 </orig>
@@ -414,7 +422,7 @@
 <orig_group orig_group="ⲻ">
 <norm_group norm_group=".">
 <orig orig="ⲻ">
-<norm xml:id="u56" func="punct" pos="PUNCT" lemma="." norm=".">
+<norm xml:id="u56" func="punct" head="#u26" pos="PUNCT" lemma="." norm=".">
 <hi_rend hi_rend="red">
 ⲻ
 </hi_rend>
@@ -424,6 +432,10 @@
 </orig_group>
 </lb_n>
 </translation>
+</vid_n>
+</verse_n>
+<verse_n verse_n="3">
+<vid_n vid_n="urn:cts:copticLit:ap.3.monbeg:1.3">
 <lb_n lb_n="21">
 <translation translation="The brother said to him, ">
 <orig_group orig_group="ⲡⲉϫⲉⲡ̇ⲥⲟⲛ">
@@ -472,7 +484,7 @@
 </norm>
 </orig>
 <orig orig="ⲟ̇ⲩ">
-<norm xml:id="u63" func="root" pos="PINT" lemma="ⲟⲩ" norm="ⲟⲩ">
+<norm xml:id="u63" func="ccomp" head="#u57" pos="PINT" lemma="ⲟⲩ" norm="ⲟⲩ">
 ⲟ̇ⲩ
 </norm>
 </orig>
@@ -506,7 +518,7 @@
 <orig_group orig_group="·">
 <norm_group norm_group=".">
 <orig orig="·">
-<norm xml:id="u67" func="punct" pos="PUNCT" lemma="." norm=".">
+<norm xml:id="u67" func="punct" head="#u57" pos="PUNCT" lemma="." norm=".">
 <hi_rend hi_rend="red">
 ·
 </hi_rend>
@@ -515,6 +527,10 @@
 </norm_group>
 </orig_group>
 </translation>
+</vid_n>
+</verse_n>
+<verse_n verse_n="4">
+<vid_n vid_n="urn:cts:copticLit:ap.3.monbeg:1.4">
 <orig_group orig_group="ⲡⲉϫⲉⲡϩⲗⲗⲟ">
 <norm_group norm_group="ⲡⲉϫⲉⲡϩⲗⲗⲟ">
 <translation translation="The old man said,">
@@ -578,7 +594,7 @@
 </norm>
 </orig>
 <orig orig="ϫⲡⲓ̇ⲉ̇">
-<norm xml:id="u76" func="root" pos="V" lemma="ϫⲡⲓⲟ" norm="ϫⲡⲓⲉ">
+<norm xml:id="u76" func="ccomp" head="#u68" pos="V" lemma="ϫⲡⲓⲟ" norm="ϫⲡⲓⲉ">
 ϫⲡⲓ̇ⲉ̇
 </norm>
 </orig>
@@ -606,6 +622,7 @@
 </norm>
 </orig>
 <orig orig="ϩⲱⲃ">
+<multiword multiword="ϩⲱⲃ ⲛⲓⲙ">
 <norm xml:id="u80" func="obl" head="#u76" pos="N" lemma="ϩⲱⲃ" norm="ϩⲱⲃ">
 ϩⲱⲃ
 </norm>
@@ -618,6 +635,7 @@
 <norm xml:id="u81" func="det" head="#u80" pos="PINT" lemma="ⲛⲓⲙ" norm="ⲛⲓⲙ">
 ⲛⲓ̇ⲙ
 </norm>
+</multiword>
 </orig>
 </norm_group>
 </orig_group>
@@ -674,7 +692,7 @@
 <orig_group orig_group="·">
 <norm_group norm_group=".">
 <orig orig="·">
-<norm xml:id="u89" func="punct" pos="PUNCT" lemma="." norm=".">
+<norm xml:id="u89" func="punct" head="#u84" pos="PUNCT" lemma="." norm=".">
 <hi_rend hi_rend="2_spaces_right red">
 ·
 </hi_rend>
@@ -692,7 +710,7 @@
 </norm>
 </orig>
 <orig orig="ⲁ̇ⲣⲓ̇">
-<norm xml:id="u91" func="root" pos="VIMP" lemma="ⲉⲓⲣⲉ" norm="ⲁⲣⲓ">
+<norm xml:id="u91" func="ccomp" head="#u84" pos="VIMP" lemma="ⲉⲓⲣⲉ" norm="ⲁⲣⲓ">
 ⲁ̇ⲣⲓ̇
 </norm>
 </orig>
@@ -800,7 +818,7 @@
 <orig_group orig_group="·">
 <norm_group norm_group=".">
 <orig orig="·">
-<norm xml:id="u106" func="punct" pos="PUNCT" lemma="." norm=".">
+<norm xml:id="u106" func="punct" head="#u68" pos="PUNCT" lemma="." norm=".">
 <hi_rend hi_rend="4_spaces_right red">
 ·
 </hi_rend>
@@ -809,6 +827,10 @@
 </norm_group>
 </orig_group>
 </translation>
+</vid_n>
+</verse_n>
+<verse_n verse_n="5">
+<vid_n vid_n="urn:cts:copticLit:ap.3.monbeg:1.5">
 <translation translation="And he said again,">
 <orig_group orig_group="ⲛ̇ϥ̇ϫⲟⲟ̇ⲥ">
 <norm_group norm_group="ⲛϥϫⲟⲟⲥ">
@@ -855,7 +877,7 @@
 </lb_n>
 <lb_n lb_n="30">
 <orig orig="ⲁϩⲣⲟ">
-<norm xml:id="u113" func="root" pos="VBD" lemma="ⲁϩⲣⲟ" norm="ⲁϩⲣⲟ">
+<norm xml:id="u113" func="ccomp" head="#u109" pos="VBD" lemma="ⲁϩⲣⲟ" norm="ⲁϩⲣⲟ">
 ⲁϩⲣⲟ
 </norm>
 </orig>
@@ -892,7 +914,7 @@
 <orig_group orig_group="·">
 <norm_group norm_group=".">
 <orig orig="·">
-<norm xml:id="u118" func="punct" pos="PUNCT" lemma="." norm=".">
+<norm xml:id="u118" func="punct" head="#u109" pos="PUNCT" lemma="." norm=".">
 <hi_rend hi_rend="red">
 ·
 </hi_rend>
@@ -902,6 +924,10 @@
 </orig_group>
 </lb_n>
 </translation>
+</vid_n>
+</verse_n>
+<verse_n verse_n="6">
+<vid_n vid_n="urn:cts:copticLit:ap.3.monbeg:1.6">
 <translation translation="“If one perseveres in these things, the fear of God comes to him.” ">
 <lb_n lb_n="31">
 <orig_group orig_group="ⲉⲣϣⲁⲛⲟⲩⲁ̇">
@@ -932,6 +958,7 @@
 <orig_group orig_group="ⲙⲟⲩⲛ̇">
 <norm_group norm_group="ⲙⲟⲩⲛ">
 <orig orig="ⲙⲟⲩⲛ̇">
+<multiword multiword="ⲙⲟⲩⲛ ⲉⲃⲟⲗ">
 <norm xml:id="u122" func="advcl" head="#u127" pos="V" lemma="ⲙⲟⲩⲛ" norm="ⲙⲟⲩⲛ">
 ⲙⲟⲩⲛ̇
 </norm>
@@ -947,6 +974,7 @@
 <lb_n lb_n="32">
 ⲃⲟⲗ
 </norm>
+</multiword>
 </orig>
 </norm_group>
 </orig_group>
@@ -1036,7 +1064,7 @@
 <orig_group orig_group="ⲻ">
 <norm_group norm_group=".">
 <orig orig="ⲻ">
-<norm xml:id="u136" func="punct" pos="PUNCT" lemma="." norm=".">
+<norm xml:id="u136" func="punct" head="#u127" pos="PUNCT" lemma="." norm=".">
 <hi_rend hi_rend="red">
 ⲻ
 </hi_rend>
@@ -1046,7 +1074,9 @@
 </orig_group>
 </lb_n>
 </translation>
-</p>
+</vid_n>
+</verse_n>
+</chapter>
 </cb_n>
 </pb_xml_id>
 </meta>
