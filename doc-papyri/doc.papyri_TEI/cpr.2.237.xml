@@ -1,18 +1,20 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>Letter of Zaleh</title>
+<title ref="urn:cts:copticDoc:papyri_info.tm82127.cpr_2_237">Letter of Zaleh</title>
 <author>Zaleh</author>
+<respStmt>
+<resp>source</resp>
+<name>http://papyri.info/ddbdp/cpr;2;237</name>
+</respStmt>
 <respStmt>
 <resp>annotation</resp>
 <name>Caroline T. Schroeder, Amir Zeldes</name>
 </respStmt>
 <respStmt>
-<resp>source</resp>
-<name>http://papyri.info</name>
+<resp>translation</resp>
+<name>Alain Delattre, Caroline T. Schroeder, Amir Zeldes</name>
 </respStmt>
 </titleStmt>
 <publicationStmt>
@@ -24,7 +26,7 @@
 <sourceDesc>
 	<msDesc>
 		<msIdentifier>
-			<msName></msName>
+			<msName>none</msName>
 		</msIdentifier>
 		<history>
 			<origin>
@@ -32,17 +34,18 @@
 				<country>Egypt</country>
 				<placeName>unknown</placeName>
 				<origPlace>unknown</origPlace>
-				<origDate precision="medium" notBefore="0700" notAfter="0799">between 700 and 799 C.E.</origDate>
+				<origDate></origDate>
 			</origin>
 		</history>
 		<msPart>
 			<msIdentifier>
 				<repository>Österreichische Nationalbibliothek</repository>
-				<collection></collection>
-				<idno></idno>
+				<collection>Papyrussammlung</collection>
+				<idno>K 02572</idno>
 			</msIdentifier>
 			<msContents>
 				<msItem>
+					<locus scheme="none" from="1" to="2">1-2</locus>
 					<textLang>Sahidic Coptic</textLang>
 					<incipit/>
 					<title>Letter of Zaleh</title>
@@ -65,19 +68,18 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="1.2" when="2015-07-15"></change>
+	<change n="1.2.0" when="2015-07-15"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-
 <p>
 <pb/>
 <lb n="1"/>
 <s style="First, in the name of God. ">
 <phr>
-<w lemma="ϩⲙ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ϩⲙ
 </w>
 <w lemma="ⲡ" type="ART">
@@ -88,7 +90,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <w lemma="ⲡ" type="ART">
@@ -124,10 +126,10 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲉ" type="CFOC">
+<w lemma="ⲉⲣⲉ" type="CFOC">
 ⲉ
 </w>
-<w lemma="ⲓ" type="PPERS">
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ⲓ
 </w>
 <w lemma="ⲥϩⲁⲓ" type="V">
@@ -138,10 +140,10 @@
 <s style="What I inquire is of the wellbeing of my beloved brother Chael Iohannes, and all of his men,">
 <lb n="2"/>
 <phr>
-<w lemma="ⲉ" type="CFOC">
+<w lemma="ⲉⲣⲉ" type="CFOC">
 ⲉ
 </w>
-<w lemma="ⲓ" type="PPERS">
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ⲓ
 </w>
 <w lemma="ϣⲓⲛⲉ" type="V">
@@ -178,7 +180,7 @@
 <w lemma="ⲙⲛ" type="PREP">
 ⲙⲛ
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ⲟⲩϫⲁⲓ" type="N">
@@ -188,7 +190,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲉϥ" type="PPOS">
+<w lemma="ⲡⲉϥ" type="PPOS">
 ⲛⲉϥ
 </w>
 <w lemma="ⲣⲱⲙⲉ" type="N">
@@ -199,7 +201,7 @@
 <w lemma="ⲧⲏⲣ" type="IMOD">
 ⲧⲏⲣ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -225,7 +227,7 @@
 <w lemma="ⲕⲁⲧⲁ" type="PREP">
 ⲕⲁⲧⲁ
 </w>
-<w lemma="ⲛⲉⲩ" type="PPOS">
+<w lemma="ⲡⲉⲩ" type="PPOS">
 ⲛⲉⲩ
 </w>
 <w lemma="ⲣⲁⲛ" type="N">
@@ -241,12 +243,12 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲁⲓ" type="PDEM">
+<w lemma="ⲡⲁⲓ" type="PDEM">
 ⲛⲁⲓ
 </w>
 </phr>
 <phr>
-<w lemma="ⲁⲣⲓ" type="VIMP">
+<w lemma="ⲉⲓⲣⲉ" type="VIMP">
 ⲁⲣⲓ
 </w>
 </phr>
@@ -262,13 +264,13 @@
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ⲛⲁⲛⲟⲩ" type="VBD">
 ⲛⲁⲛⲟⲩ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 </phr>
@@ -278,14 +280,17 @@
 <w lemma="ϫⲓ" type="V">
 ϫⲓ
 </w>
-</phr>
-<phr>
 <w lemma="ⲛⲟⲙⲓⲥⲙⲁ" type="N">
-<hi rend="Greek nu subscript below omicron">ν</hi><hi rend="Greek omicron superscript above nu">ο</hi>
+<hi rend="Greek nu subscript below omicron">
+ν
+</hi>
+<hi rend="Greek omicron superscript above nu">
+ο
+</hi>
 </w>
 </phr>
 <phr>
-<w lemma="ⲅ⳿" type="NUM">
+<w lemma="ⲅ" type="NUM">
 ⲅ⳿
 </w>
 </phr>
@@ -326,10 +331,10 @@
 </s>
 <s style="Give it to Shenoute, ">
 <phr>
-<w lemma="ⲧⲁⲁ" type="V">
+<w lemma="ϯ" type="V">
 ⲧⲁⲁ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -360,10 +365,10 @@
 </s>
 <s style="who takes it for me. ">
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <w lemma="ϭⲱⲡⲉ" type="V">
@@ -371,18 +376,18 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙⲱ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲣⲟ" type="PREP">
+<w lemma="ⲉ" type="PREP">
 ⲉⲣⲱ
 </w>
-<w lemma="ⲓ" type="PPERO">
+<w lemma="ⲁⲛⲟⲕ" type="PPERO">
 ⲓ
 </w>
 </phr>
@@ -394,7 +399,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ϩⲙ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ϩⲙ
 </w>
 <w lemma="ⲡ" type="ART">
@@ -411,10 +416,10 @@
 <lb n="1"/>
 <s style="Give it to my beloved brother Chael Iohannes. ">
 <phr>
-<w lemma="ⲧⲁⲁ" type="V">
+<w lemma="ϯ" type="V">
 ⲧⲁⲁ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
@@ -436,7 +441,9 @@
 </phr>
 <phr>
 <w lemma="ⲭⲁⲏⲗ" type="NPROP">
-ⲭⲁⲏⲗ
+ⲭ
+
+ⲁⲏⲗ
 </w>
 </phr>
 <phr>

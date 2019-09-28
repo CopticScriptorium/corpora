@@ -1,18 +1,20 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>I See Your Eagerness: GL 29</title>
+<title ref="urn:cts:copticLit:shenoute.eagerness.monbgl_29">I See Your Eagerness: GL 29</title>
 <author>Shenoute</author>
+<respStmt>
+<resp>source</resp>
+<name>David Brakke, Stephen Emmel</name>
+</respStmt>
 <respStmt>
 <resp>annotation</resp>
 <name>Rebecca Krawiec, Caroline T. Schroeder, David Sriboonreuang, Amir Zeldes</name>
 </respStmt>
 <respStmt>
-<resp>source</resp>
-<name>David Brakke, Stephen Emmel</name>
+<resp>translation</resp>
+<name>none</name>
 </respStmt>
 </titleStmt>
 <publicationStmt>
@@ -26,24 +28,19 @@
 		<msIdentifier>
 			<msName>MONB.GL</msName>
 		</msIdentifier>
-		<msContents>
-			<summary>
-				<title n="5" type="Discourses">Discourses 5</title>
-			</summary>
-		</msContents>
 		<history>
 			<origin>
 				<objectType>codex</objectType>
 				<country>Egypt</country>
 				<placeName>Atripe</placeName>
 				<origPlace>White Monastery</origPlace>
-				<origDate precision="medium" notBefore="0900" notAfter="1200">between 900 and 1200 C.E.</origDate>
+				<origDate></origDate>
 			</origin>
 		</history>
 		<msPart>
 			<msIdentifier>
 				<repository>Österreichische Nationalbibliothek</repository>
-				<collection>Papyrussamlung</collection>
+				<collection>Papyrussammlung</collection>
 				<idno>K 9322</idno>
 			</msIdentifier>
 			<msContents>
@@ -51,17 +48,11 @@
 					<locus scheme="MONB.GL" from="29" to="29">29-29</locus>
 					<textLang>Sahidic Coptic</textLang>
 					<incipit/>
-					<title>I See Your Eagerness</title>
-					<note>Transcribed in Vienna by David Brakke, July 2006; collated in Vienna by Stephen Emmel, March 2007; transcription does not record spaces and paleographic rendition of letters other than ekthetics. David Brakke and Andrew Crislip published a translation of I See Your Eagerness in their book Selected Discourses of Shenoute the Great (Cambridge University Press, 2015), p. 93.</note>
+					<title>I See Your Eagerness: GL 29</title>
 				</msItem>
 			</msContents>
 		</msPart>
 	</msDesc>
-	<listWit>
-		<witness>
-The first part of MONB.GL 29-30 has no parallel witnesses; the remainder of MONB.GL 29-30, which is parallel to MONB.XJ 33-34, is in urn:cts:copticLit:shenoute.eagerness.monbgl_29_30
-		</witness>
-	</listWit>
 	<listBibl>
 		<bibl>none</bibl>
 	</listBibl>
@@ -77,20 +68,19 @@ The first part of MONB.GL 29-30 has no parallel witnesses; the remainder of MONB
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="2.3.1" when="2017-04-05"></change>
+	<change n="3.0.0" when="2019-09-30"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-
 <pb xml:id="GL29"/>
 <cb n="1"/>
 <p>
 <lb n="1"/>
 <s style="…">
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ⲟⲩⲟⲉⲓϣ" type="N">
@@ -109,11 +99,14 @@ The first part of MONB.GL 29-30 has no parallel witnesses; the remainder of MONB
 <s style="…">
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
-<hi rend="ekthetic large">ⲁ</hi>ⲩⲱ
+<hi rend="ekthetic large">
+ⲁ
+</hi>
+ⲩⲱ
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ⲱϭⲉ" type="V">
@@ -133,7 +126,7 @@ The first part of MONB.GL 29-30 has no parallel witnesses; the remainder of MONB
 </w>
 </phr>
 <phr>
-<w lemma="ⲉ" type="CFOC">
+<w lemma="ⲉⲣⲉ" type="CFOC">
 ⲉ
 </w>
 <lb n="3"/>
@@ -147,10 +140,10 @@ The first part of MONB.GL 29-30 has no parallel witnesses; the remainder of MONB
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲣⲟ" type="PREP">
+<w lemma="ⲉ" type="PREP">
 ⲉⲣⲟ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -159,7 +152,7 @@ The first part of MONB.GL 29-30 has no parallel witnesses; the remainder of MONB
 ⲛ̄
 </w>
 <lb n="4"/>
-<w lemma="ϩⲉⲛ" type="ART">
+<w lemma="ⲟⲩ" type="ART">
 ϩⲉⲛ
 </w>
 <w lemma="ⲣⲱⲙⲉ" type="N">
@@ -174,22 +167,22 @@ The first part of MONB.GL 29-30 has no parallel witnesses; the remainder of MONB
 </s>
 <s style="…">
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
 </w>
 <lb n="5"/>
-<w lemma="ⲥⲟⲩⲛ" type="V">
+<w lemma="ⲥⲟⲟⲩⲛ" type="V">
 ⲥⲟⲩⲛ
 </w>
 </phr>
 <phr>
-<w lemma="ⲧⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧⲉ
 </w>
 <w lemma="ⲭⲁⲣⲓⲥ" type="N" xml:lang="Greek">
@@ -197,24 +190,29 @@ The first part of MONB.GL 29-30 has no parallel witnesses; the remainder of MONB
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <lb n="6"/>
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲛⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <w lemma="ϯⲉⲟⲟⲩ" type="V">
-<m>ϯ</m><m>ⲉⲟⲟⲩ</m>
+<m>
+ϯ
+</m>
+<m>
+ⲉⲟⲟⲩ
+</m>
 </w>
 </phr>
 <lb n="7"/>
@@ -222,12 +220,12 @@ The first part of MONB.GL 29-30 has no parallel witnesses; the remainder of MONB
 <w lemma="ⲛⲁ" type="PREP">
 ⲛⲁ
 </w>
-<w lemma="ⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲩ
 </w>
 </phr>
 <phr>
-<w lemma="ⲡⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
 </phr>

@@ -1,18 +1,20 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>I See Your Eagerness: XJ 49-52</title>
+<title ref="urn:cts:copticLit:shenoute.eagerness.monbxj_49_52">I See Your Eagerness: XJ 49-52</title>
 <author>Shenoute</author>
+<respStmt>
+<resp>source</resp>
+<name>David Brakke</name>
+</respStmt>
 <respStmt>
 <resp>annotation</resp>
 <name>Rebecca Krawiec, Caroline T. Schroeder, Amir Zeldes</name>
 </respStmt>
 <respStmt>
-<resp>source</resp>
-<name>David Brakke</name>
+<resp>translation</resp>
+<name>none</name>
 </respStmt>
 </titleStmt>
 <publicationStmt>
@@ -26,18 +28,13 @@
 		<msIdentifier>
 			<msName>MONB.XJ</msName>
 		</msIdentifier>
-		<msContents>
-			<summary>
-				<title n="5" type="Discourses">Discourses 5</title>
-			</summary>
-		</msContents>
 		<history>
 			<origin>
 				<objectType>codex</objectType>
 				<country>Egypt</country>
 				<placeName>Atripe</placeName>
 				<origPlace>White Monastery</origPlace>
-				<origDate precision="medium" notBefore="0900" notAfter="1200">between 900 and 1200 C.E.</origDate>
+				<origDate></origDate>
 			</origin>
 		</history>
 		<msPart>
@@ -52,16 +49,10 @@
 					<textLang>Sahidic Coptic</textLang>
 					<incipit/>
 					<title>I See Your Eagerness: XJ 49-52</title>
-					<note>Collated in Naples by David Brakke, March 2009; transcription does not record spaces and paleographic rendition of letters other than ekthetics. David Brakke and Andrew Crislip published a translation of I See Your Eagerness in their book Selected Discourses of Shenoute the Great (Cambridge University Press, 2015), pp. 94-95.</note>
 				</msItem>
 			</msContents>
 		</msPart>
 	</msDesc>
-	<listWit>
-		<witness>
-No parallel witness
-		</witness>
-	</listWit>
 	<listBibl>
 		<bibl>Amélineau 1907–14, 2:46–49</bibl>
 	</listBibl>
@@ -77,30 +68,30 @@ No parallel witness
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="2.3.1" when="2017-04-05"></change>
+	<change n="2.3.0" when="2017-03-30"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-
 <pb xml:id="XJ49"/>
 <cb n="1"/>
 <p>
 <s style="…">
 <lb n="1"/>
 <phr>
-<w lemma="ⲧⲁⲓ" type="PDEM">
-ⲧⲁⲓ̈
+<w lemma="ⲡⲁⲓ" type="PDEM">
+ⲧ
+ⲁⲓ̈
 </w>
 </phr>
 <phr>
-<w lemma="ⲧⲉ" type="COP">
+<w lemma="ⲡⲉ" type="COP">
 ⲧⲉ
 </w>
 </phr>
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲑ
 </w>
 <w lemma="ϩⲉ" type="N">
@@ -108,13 +99,13 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲛ̄ⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <lb n="2"/>
@@ -123,7 +114,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ϩⲙ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲙ︥
 </w>
 <w lemma="ⲡ" type="ART">
@@ -132,7 +123,7 @@ No parallel witness
 <w lemma="ⲧⲣⲉ" type="ACAUS">
 ⲧⲣⲉ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <lb n="3"/>
@@ -141,10 +132,10 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲙⲙⲁ" type="PREP">
+<w lemma="ⲙⲛ" type="PREP">
 ⲛ̄ⲙ̄ⲙⲁ
 </w>
-<w lemma="ⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲩ
 </w>
 </phr>
@@ -156,8 +147,8 @@ No parallel witness
 <w lemma="ⲉⲧⲃⲉ" type="PREP">
 ⲉⲧⲃⲉ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
-<m>ⲟ᷍ⲩ</m>
+<w lemma="ⲛⲧⲟⲟⲩ" type="PINT">
+ⲟ᷍ⲩ
 </w>
 </phr>
 <lb n="5"/>
@@ -165,7 +156,7 @@ No parallel witness
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲧⲉⲧⲛ" type="PPERS">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERS">
 ⲧⲉⲧ︤ⲛ︥
 </w>
 <w lemma="ⲟⲩⲱⲙ" type="V">
@@ -179,7 +170,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ϩⲙ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲙ︥
 </w>
 <w lemma="ⲡ" type="ART">
@@ -196,29 +187,29 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲛ̄ⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲓ" type="PPERS">
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ⲓ̈
 </w>
-<w lemma="ϫⲟⲟ" type="V">
+<w lemma="ϫⲱ" type="V">
 ϫⲟ
 <lb n="8"/>
 ⲟ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧⲃⲏⲏⲧ" type="PREP">
+<w lemma="ⲉⲧⲃⲉ" type="PREP">
 ⲉⲧⲃⲏⲏⲧ︤
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ︥
 </w>
 </phr>
@@ -227,12 +218,12 @@ No parallel witness
 <w lemma="ⲙⲁⲩⲁⲁ" type="IMOD">
 ⲙⲁⲩⲁⲁ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ⳿
 </w>
 </phr>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
 <w lemma="ⲧⲙ" type="NEG">
@@ -250,10 +241,10 @@ No parallel witness
 </phr>
 <lb n="11"/>
 <phr>
-<w lemma="ⲛϩⲏⲧ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ⲛ̄ϩⲏⲧ︤
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ︥
 </w>
 </phr>
@@ -269,7 +260,9 @@ No parallel witness
 <lb n="12"/>
 <phr>
 <w lemma="ⲉⲩϩⲁ" type="NPROP" xml:lang="Hebrew">
-<hi rend="ekthetic">ⲉⲩϩⲁ⳿</hi>
+<hi rend="ekthetic">
+ⲉⲩϩⲁ⳿
+</hi>
 </w>
 </phr>
 <phr>
@@ -293,25 +286,30 @@ No parallel witness
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲛⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <lb n="14"/>
 <w lemma="ⲣϩⲁⲗ" type="V">
-<m>ⲣ</m><m>ϩⲁⲗ</m>
+<m>
+ⲣ
+</m>
+<m>
+ϩⲁⲗ
+</m>
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄ⲙⲟ
 </w>
-<w lemma="ⲓ" type="PPERO">
+<w lemma="ⲁⲛⲟⲕ" type="PPERO">
 ⲓ̈
 </w>
 </phr>
@@ -319,7 +317,7 @@ No parallel witness
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲓ" type="PPERS">
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ⲓ̈
 </w>
 <lb n="15"/>
@@ -343,36 +341,39 @@ No parallel witness
 ϫⲉ
 </w>
 <lb n="17"/>
-<w lemma="ⲧⲉ" type="ART">
-<hi rend="ekthetic">ⲧ̣</hi>ⲉ
+<w lemma="ⲡ" type="ART">
+<hi rend="ekthetic">
+ⲧ̣
+</hi>
+ⲉ
 </w>
 <w lemma="ⲥϩⲓⲙⲉ" type="N">
 ⲥϩⲓⲙⲉ
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲛ̄ⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲕ" type="PPERS">
+<w lemma="ⲛⲧⲟⲕ" type="PPERS">
 ⲕ
 </w>
 <lb n="18"/>
-<w lemma="ⲧⲁⲁ" type="V">
+<w lemma="ϯ" type="V">
 ⲧⲁⲁ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲙⲙⲁ" type="PREP">
+<w lemma="ⲙⲛ" type="PREP">
 ⲛ︤ⲙ︥ⲙⲁ
 </w>
-<w lemma="ⲓ" type="PPERO">
+<w lemma="ⲁⲛⲟⲕ" type="PPERO">
 ⲓ̈
 </w>
 </phr>
@@ -383,10 +384,10 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
-<w lemma="ⲉⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲛ
 <lb n="20"/>
 ⲧ
@@ -394,16 +395,18 @@ No parallel witness
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲥ" type="PPERS">
+<w lemma="ⲛⲧⲟⲥ" type="PPERS">
 ⲥ
 </w>
 <w lemma="ϯ" type="V">
 ϯ
 </w>
+</phr>
+<phr>
 <w lemma="ⲛⲁ" type="PREP">
 ⲛⲁ
 </w>
-<w lemma="ⲓ" type="PPERO">
+<w lemma="ⲁⲛⲟⲕ" type="PPERO">
 ⲓ̈
 </w>
 </phr>
@@ -414,7 +417,7 @@ No parallel witness
 </phr>
 <lb n="21"/>
 <phr>
-<w lemma="ϩⲙ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲙ︥
 </w>
 <w lemma="ⲡ" type="ART">
@@ -435,7 +438,7 @@ No parallel witness
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲓ" type="PPERS">
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ⲓ̈
 </w>
 <lb n="22"/>
@@ -458,7 +461,7 @@ No parallel witness
 <w lemma="ⲛ" type="PREP">
 ⲛ̄
 </w>
-<w lemma="ⲧⲉⲓ" type="PDEM">
+<w lemma="ⲡⲉⲓ" type="PDEM">
 ⲧⲉⲓ̈
 </w>
 <w lemma="ϩⲉ" type="N">
@@ -469,20 +472,24 @@ No parallel witness
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <w lemma="ϯⲥⲟ" type="V">
-<m>ϯ</m>
+<m>
+ϯ
+</m>
 <lb n="24"/>
-<m>ⲥⲟ</m>
+<m>
+ⲥⲟ
+</m>
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲣⲟ" type="PREP">
+<w lemma="ⲉ" type="PREP">
 ⲉⲣⲟ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -511,14 +518,14 @@ No parallel witness
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <lb n="26"/>
-<w lemma="ⲥϩⲟⲩⲱⲣ" type="V">
+<w lemma="ⲥⲁϩⲟⲩ" type="V">
 ⲥϩⲟⲩⲱⲣ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -534,7 +541,10 @@ No parallel witness
 <lb n="27"/>
 <phr>
 <w lemma="ⲁⲛⲟⲛ" type="PPERI">
-<hi rend="ekthetic">ⲁ</hi>ⲛⲟⲛ
+<hi rend="ekthetic">
+ⲁ
+</hi>
+ⲛⲟⲛ
 </w>
 </phr>
 <phr>
@@ -543,10 +553,10 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CFOC">
 ⲉ
 </w>
-<w lemma="ⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲛ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
@@ -561,13 +571,14 @@ No parallel witness
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲧⲱⲛ" type="N">
+<w lemma="ⲧⲱⲛ" type="PINT">
 ⲧⲱⲛ
 </w>
 </phr>
 <cb n="2"/>
 <lb n="1"/>
-<w lemma="ⲛⲛⲁϩⲣⲙ" type="PREP">
+<phr>
+<w lemma="ⲛⲁϩⲣⲛ" type="PREP">
 ⲛ̄ⲛⲁϩ︤ⲣ︦ⲙ︥
 </w>
 <w lemma="ⲡ" type="ART">
@@ -576,9 +587,10 @@ No parallel witness
 <w lemma="ϩⲟ" type="N">
 ϩⲟ̂
 </w>
+</phr>
 <lb n="2"/>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <w lemma="ⲡ" type="ART">
@@ -593,7 +605,7 @@ No parallel witness
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲧⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲧ︤ⲛ︥
 </w>
 <w lemma="ϫⲓ" type="V">
@@ -618,10 +630,10 @@ No parallel witness
 </s>
 <s style="…">
 <phr>
-<w lemma="ⲧⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲧ︤ⲛ︥
 </w>
-<w lemma="ⲟ" type="VSTAT">
+<w lemma="ⲉⲓⲣⲉ" type="VSTAT">
 ⲟ̂
 </w>
 </phr>
@@ -641,7 +653,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲧⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲧ︤ⲛ︥
 </w>
 <w lemma="ⲧⲱⲣⲡ" type="V">
@@ -654,10 +666,10 @@ No parallel witness
 <w lemma="ⲛ" type="PREP">
 ⲛ̄
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
-<w lemma="ⲉⲧⲉ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧⲉ
 </w>
 <lb n="7"/>
@@ -674,7 +686,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲉⲧⲛ" type="PPOS">
+<w lemma="ⲡⲉⲧⲛ" type="PPOS">
 ⲛⲉ
 <lb n="8"/>
 ⲧ︤ⲛ︥
@@ -690,11 +702,16 @@ No parallel witness
 </phr>
 <lb n="9"/>
 <phr>
-<w lemma="ⲧⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲧ︤ⲛ︥
 </w>
 <w lemma="ϫⲓϭⲟⲗ" type="V">
-<m>ϫⲓ</m><m>ϭⲟⲗ</m>
+<m>
+ϫⲓ
+</m>
+<m>
+ϭⲟⲗ
+</m>
 </w>
 </phr>
 <phr>
@@ -705,12 +722,17 @@ No parallel witness
 </s>
 <s style="…">
 <phr>
-<w lemma="ⲧⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲧ︤ⲛ︥
 </w>
 <lb n="10"/>
 <w lemma="ⲣⲁⲛⲁϣ" type="V">
-<m>ⲣ̂</m><m>ⲁⲛⲁϣ</m>
+<m>
+ⲣ̂
+</m>
+<m>
+ⲁⲛⲁϣ
+</m>
 </w>
 </phr>
 <phr>
@@ -726,7 +748,7 @@ No parallel witness
 <w lemma="ⲙⲛ" type="PREP">
 ⲙ︤ⲛ︥
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ̄
 </w>
 <w lemma="ⲕⲉ" type="ART">
@@ -744,20 +766,22 @@ No parallel witness
 <lb n="13"/>
 ⲣ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ⳿
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ︤
 </w>
-<w lemma="ⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲛ︥
 </w>
 <w lemma="ϯ" type="V">
 ϯ
 </w>
+</phr>
+<phr>
 <w lemma="ⲛ" type="PREP">
 ⲛ
 </w>
@@ -771,17 +795,17 @@ No parallel witness
 <w lemma="ⲛⲁ" type="PREP">
 ⲛⲁ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
 <phr>
-<w lemma="ⲛϩⲏⲧ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ⲛ̄ϩⲏ
 <lb n="15"/>
 ⲧ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -797,7 +821,10 @@ No parallel witness
 <lb n="16"/>
 <phr>
 <w lemma="ⲁⲇⲁⲙ" type="NPROP" xml:lang="Hebrew">
-<hi rend="ekthetic">ⲁ</hi>ⲇⲁⲙ
+<hi rend="ekthetic">
+ⲁ
+</hi>
+ⲇⲁⲙ
 </w>
 </phr>
 <phr>
@@ -816,15 +843,13 @@ No parallel witness
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
-<w lemma="ⲥⲟⲩⲛ" type="V">
+<w lemma="ⲥⲟⲟⲩⲛ" type="V">
 ⲥⲟⲩⲛ̄
 </w>
-</phr>
 <lb n="18"/>
-<phr>
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
@@ -839,7 +864,7 @@ No parallel witness
 </phr>
 <phr>
 <lb n="19"/>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <w lemma="ⲡⲉⲩ" type="PPOS">
@@ -852,19 +877,19 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲛ̄ⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
-<w lemma="ⲁⲁ" type="V">
+<w lemma="ⲉⲓⲣⲉ" type="V">
 ⲁⲁ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -875,10 +900,10 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲡ" type="ANEGPST">
+<w lemma="ⲙⲡⲉ" type="ANEGPST">
 ⲙ̄ⲡ
 </w>
-<w lemma="ⲟⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲟⲩ
 </w>
 <w lemma="ⲱⲥⲕ" type="V">
@@ -900,26 +925,31 @@ No parallel witness
 ϫⲉ
 </w>
 <lb n="23"/>
-<w lemma="ⲥⲉ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
-<w lemma="ⲕⲏⲕⲁϩⲏⲩ" type="VSTAT">
-<m>ⲕⲏⲕ</m><m>ⲁϩⲏⲩ</m>
+<w lemma="ⲕⲱⲕ" type="VSTAT">
+<m>
+ⲕⲏⲕ
+</m>
+<m>
+ⲁϩⲏⲩ
+</m>
 </w>
 </phr>
 <lb n="24"/>
 <phr>
-<w lemma="ⲧⲁⲓ" type="PDEM">
+<w lemma="ⲡⲁⲓ" type="PDEM">
 ⲧⲁⲓ̈
 </w>
 </phr>
 <phr>
-<w lemma="ⲧⲉ" type="COP">
+<w lemma="ⲡⲉ" type="COP">
 ⲧⲉ
 </w>
 </phr>
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲑ
 </w>
 <w lemma="ϩⲉ" type="N">
@@ -927,7 +957,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲛ
 <lb n="25"/>
 ⲧ
@@ -935,7 +965,7 @@ No parallel witness
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
 <w lemma="ⲕⲱⲧⲉ" type="V">
@@ -950,7 +980,7 @@ No parallel witness
 <w lemma="ϩⲟⲃⲥ" type="N">
 ϩⲟⲃⲥ︤
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ︥
 </w>
 </phr>
@@ -971,7 +1001,7 @@ No parallel witness
 <w lemma="ⲛ" type="PREP">
 ⲛ̄
 </w>
-<w lemma="ⲧⲉⲓ" type="PDEM">
+<w lemma="ⲡⲉⲓ" type="PDEM">
 ⲧⲉⲓ̈
 </w>
 <w lemma="ϩⲉ" type="N">
@@ -983,7 +1013,7 @@ No parallel witness
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
 <w lemma="ϫⲱⲗⲕ" type="V">
@@ -997,8 +1027,9 @@ No parallel witness
 <pb xml:id="XJ50"/>
 <cb n="1"/>
 <lb n="1"/>
-<w lemma="ϩⲉⲛ" type="ART">
-ϩⲉⲛ
+<w lemma="ⲟⲩ" type="ART">
+ϩ
+ⲉⲛ
 </w>
 <w lemma="ϭⲱⲃⲉ" type="N">
 ϭⲱⲃⲉ
@@ -1017,7 +1048,7 @@ No parallel witness
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
 <w lemma="ⲧⲁⲙⲓⲟ" type="V">
@@ -1027,10 +1058,10 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄ⲙⲟ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -1039,7 +1070,7 @@ No parallel witness
 <w lemma="ⲛⲁ" type="PREP">
 ⲛⲁ
 </w>
-<w lemma="ⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲩ
 </w>
 </phr>
@@ -1047,7 +1078,7 @@ No parallel witness
 <w lemma="ⲛ" type="PREP">
 ⲛ̄
 </w>
-<w lemma="ϩⲉⲛ" type="ART">
+<w lemma="ⲟⲩ" type="ART">
 ϩⲉⲛ
 </w>
 <w lemma="ⲡⲉⲣⲓⲍⲱⲙⲁ" type="N" xml:lang="Greek">
@@ -1067,7 +1098,7 @@ No parallel witness
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
 <lb n="6"/>
@@ -1090,11 +1121,16 @@ No parallel witness
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
 <w lemma="ⲣϩⲃⲁ" type="V">
-<m>ⲣ̂</m><m>ϩⲃⲁ</m>
+<m>
+ⲣ̂
+</m>
+<m>
+ϩⲃⲁ
+</m>
 </w>
 </phr>
 <phr>
@@ -1109,7 +1145,10 @@ No parallel witness
 <lb n="8"/>
 <phr>
 <w lemma="ⲁⲛⲟⲛ" type="PPERI">
-<hi rend="ekthetic">ⲁ</hi>ⲛⲟⲛ
+<hi rend="ekthetic">
+ⲁ
+</hi>
+ⲛⲟⲛ
 </w>
 </phr>
 <phr>
@@ -1118,14 +1157,14 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <lb n="9"/>
-<w lemma="ⲙⲏⲛ" type="VSTAT">
+<w lemma="ⲙⲟⲩⲛ" type="VSTAT">
 ⲙⲏⲛ⳿
 </w>
 </phr>
@@ -1139,7 +1178,7 @@ No parallel witness
 ϩ︤ⲛ︥
 </w>
 <lb n="10"/>
-<w lemma="ⲛⲉⲩ" type="PPOS">
+<w lemma="ⲡⲉⲩ" type="PPOS">
 ⲛⲉⲩ
 </w>
 <w lemma="ⲛⲟⲃⲉ" type="N">
@@ -1160,20 +1199,18 @@ No parallel witness
 ⲛⲓⲙ
 </w>
 </phr>
-<lb n="12"/>
 <phr>
-<w lemma="ⲙⲡ" type="ANEGPST">
+<lb n="12"/>
+<w lemma="ⲙⲡⲉ" type="ANEGPST">
 ⲙ̄ⲡ︤
 </w>
-<w lemma="ⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲛ︥
 </w>
-<w lemma="ⲥⲟⲩⲛ" type="V">
+<w lemma="ⲥⲟⲟⲩⲛ" type="V">
 ⲥⲟⲩⲛ̄
 </w>
-</phr>
 <lb n="13"/>
-<phr>
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
@@ -1185,7 +1222,7 @@ No parallel witness
 <w lemma="ⲛ" type="PREP">
 ⲛ̄
 </w>
-<w lemma="ⲛⲉⲛ" type="PPOS">
+<w lemma="ⲡⲉⲛ" type="PPOS">
 ⲛⲉⲛ
 </w>
 <lb n="14"/>
@@ -1207,10 +1244,10 @@ No parallel witness
 </phr>
 <lb n="15"/>
 <phr>
-<w lemma="ⲙⲡ" type="ANEGPST">
+<w lemma="ⲙⲡⲉ" type="ANEGPST">
 ⲙ̄ⲡ︤
 </w>
-<w lemma="ⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲛ︥
 </w>
 <w lemma="ⲉⲓⲙⲉ" type="V">
@@ -1222,16 +1259,21 @@ No parallel witness
 ϫⲉ
 </w>
 <lb n="16"/>
-<w lemma="ⲧⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲧ︤ⲛ︥
 </w>
-<w lemma="ⲕⲏⲕⲁϩⲏⲩ" type="VSTAT">
-<m>ⲕⲏⲕ</m><m>ⲁϩⲏⲩ</m>
+<w lemma="ⲕⲱⲕ" type="VSTAT">
+<m>
+ⲕⲏⲕ
+</m>
+<m>
+ⲁϩⲏⲩ
+</m>
 </w>
 </phr>
 <lb n="17"/>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <w lemma="ⲡ" type="ART">
@@ -1242,15 +1284,15 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧⲉ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉ
 <lb n="18"/>
 ⲧⲉ
 </w>
-<w lemma="ⲛⲉ" type="CPRET">
+<w lemma="ⲛⲉⲣⲉ" type="CPRET">
 ⲛⲉ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <w lemma="ⲧⲟ" type="VSTAT">
@@ -1259,10 +1301,10 @@ No parallel witness
 </phr>
 <lb n="19"/>
 <phr>
-<w lemma="ϩⲓⲱⲱ" type="PREP">
+<w lemma="ϩⲓ" type="PREP">
 ϩⲓⲱⲱ
 </w>
-<w lemma="ⲛ" type="PPERO">
+<w lemma="ⲁⲛⲟⲛ" type="PPERO">
 ⲛ
 </w>
 </phr>
@@ -1270,7 +1312,7 @@ No parallel witness
 <w lemma="ϩⲁ" type="PREP">
 ϩⲁ
 </w>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲑ
 </w>
 <w lemma="ϩⲏ" type="N">
@@ -1279,14 +1321,19 @@ No parallel witness
 </phr>
 <phr>
 <lb n="20"/>
-<w lemma="ⲙⲡⲁⲧ" type="ANY">
+<w lemma="ⲙⲡⲁⲧⲉ" type="ANY">
 ⲙ̄ⲡⲁⲧ︤
 </w>
-<w lemma="ⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲛ︥
 </w>
 <w lemma="ⲣⲛⲟⲃⲉ" type="V">
-<m>ⲣ̂</m><m>ⲛⲟ</m>
+<m>
+ⲣ̂
+</m>
+<m>
+ⲛⲟ
+</m>
 <lb n="21"/>
 ⲃⲉ
 </w>
@@ -1299,18 +1346,18 @@ No parallel witness
 </s>
 <s style="…">
 <phr>
-<w lemma="ⲧⲁⲓ" type="PDEM">
+<w lemma="ⲡⲁⲓ" type="PDEM">
 ⲧⲁⲓ̈
 </w>
 </phr>
 <phr>
-<w lemma="ⲧⲉ" type="COP">
+<w lemma="ⲡⲉ" type="COP">
 ⲧⲉ
 </w>
 </phr>
 <lb n="22"/>
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲑ
 </w>
 <w lemma="ϩⲉ" type="N">
@@ -1318,13 +1365,13 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ︤
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ︥
 </w>
-<w lemma="ⲟ" type="VSTAT">
+<w lemma="ⲉⲓⲣⲉ" type="VSTAT">
 ⲟ̂
 </w>
 </phr>
@@ -1346,13 +1393,13 @@ No parallel witness
 <w lemma="ⲛⲁ" type="PREP">
 ⲛⲁ
 </w>
-<w lemma="ⲛ" type="PPERO">
+<w lemma="ⲁⲛⲟⲛ" type="PPERO">
 ⲛ
 </w>
 </phr>
 <lb n="24"/>
 <phr>
-<w lemma="ⲉ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉ
 </w>
 <w lemma="ϫⲓ" type="V">
@@ -1363,7 +1410,7 @@ No parallel witness
 <w lemma="ⲛ" type="PREP">
 ⲛ̄
 </w>
-<w lemma="ϩⲉⲛ" type="ART">
+<w lemma="ⲟⲩ" type="ART">
 ϩⲉⲛ
 </w>
 <w lemma="ⲉⲛⲧⲟⲗⲏ" type="N" xml:lang="Greek">
@@ -1386,38 +1433,43 @@ No parallel witness
 </phr>
 <lb n="26"/>
 <phr>
-<w lemma="ⲉ" type="CFOC">
+<w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲣ" type="V">
+<w lemma="ⲉⲓⲣⲉ" type="V">
 ⲣ̂
 </w>
-<w lemma="ϩⲉⲛ" type="ART">
+<w lemma="ⲟⲩ" type="ART">
 ϩⲉⲛ
 </w>
-<w lemma="ϩⲃⲏⲩⲉ" type="N">
+<w lemma="ϩⲱⲃ" type="N">
 ϩⲃⲏⲩⲉ
 </w>
 </phr>
 <phr>
 <lb n="27"/>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
 <w lemma="ⲟⲩⲉϩⲥⲁϩⲛⲉ" type="V">
-<m>ⲟⲩⲉϩ</m><m>ⲥⲁ
+<m>
+ⲟⲩⲉϩ
+</m>
+<m>
+ⲥⲁ
 <lb n="28"/>
-ϩⲛⲉ</m>
+ϩⲛⲉ
+</m>
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄ⲙⲟ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -1427,7 +1479,7 @@ No parallel witness
 <w lemma="ⲛⲁ" type="PREP">
 ⲛⲁ
 </w>
-<w lemma="ⲛ" type="PPERO">
+<w lemma="ⲁⲛⲟⲛ" type="PPERO">
 ⲛ⳿
 </w>
 </phr>
@@ -1441,7 +1493,7 @@ No parallel witness
 ϩ︤ⲛ︥
 </w>
 <lb n="2"/>
-<w lemma="ⲛⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛⲉ
 </w>
 <w lemma="ⲅⲣⲁⲫⲏ" type="N" xml:lang="Greek">
@@ -1456,7 +1508,7 @@ No parallel witness
 <w lemma="ⲧⲣⲉ" type="ACAUS">
 ⲧⲣⲉ
 </w>
-<w lemma="ⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲛ
 </w>
 <w lemma="ϩⲱⲃⲥ" type="V">
@@ -1465,7 +1517,7 @@ No parallel witness
 </phr>
 <lb n="4"/>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <w lemma="ⲡⲉⲛ" type="PDEM">
@@ -1487,7 +1539,10 @@ No parallel witness
 <phr>
 <lb n="5"/>
 <w lemma="ⲉⲣϣⲁⲛ" type="ACOND">
-<hi rend="ekthetic">ⲉ</hi>ⲣϣⲁⲛ
+<hi rend="ekthetic">
+ⲉ
+</hi>
+ⲣϣⲁⲛ
 </w>
 <w lemma="ⲟⲩ" type="ART">
 ⲟⲩ
@@ -1529,7 +1584,7 @@ No parallel witness
 <w lemma="ⲟⲩ" type="ART">
 ⲟⲩ
 </w>
-<w lemma="ⲧⲟϣ" type="N">
+<w lemma="ⲧⲱϣ" type="N">
 ⲧⲟϣ
 </w>
 </phr>
@@ -1541,27 +1596,27 @@ No parallel witness
 </s>
 <s style="…">
 <phr>
-<w lemma="ⲉⲣⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CFOC">
 ⲉⲣⲉ
 </w>
 <lb n="9"/>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
-<w lemma="ⲟⲩⲏϩ" type="VSTAT">
+<w lemma="ⲟⲩⲱϩ" type="VSTAT">
 ⲟⲩⲏϩ
 </w>
 </phr>
 <phr>
-<w lemma="ⲛϩⲏⲧ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ⲛ̄
 <lb n="10"/>
 ϩⲏⲧ︤
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ︥
 </w>
 </phr>
@@ -1578,15 +1633,15 @@ No parallel witness
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲧⲱⲛ" type="N">
+<w lemma="ⲧⲱⲛ" type="PINT">
 ⲧⲱⲛ
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛ̄
 </w>
-<w lemma="ⲥⲉ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
 <lb n="12"/>
@@ -1612,7 +1667,7 @@ No parallel witness
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲙ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲙ
 </w>
 <w lemma="ⲡⲟⲗⲓⲥ" type="N" xml:lang="Greek">
@@ -1621,10 +1676,10 @@ No parallel witness
 </phr>
 <lb n="14"/>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
-<w lemma="ⲟⲣϫ" type="VSTAT">
+<w lemma="ⲱⲣϫ" type="VSTAT">
 ⲟⲣ︤ϫ︥
 </w>
 </phr>
@@ -1648,19 +1703,24 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲩϣⲁⲛ" type="ACOND_PPERS">
+<w lemma="ⲉⲣϣⲁⲛ_ⲛⲧⲟⲟⲩ" type="ACOND_PPERS">
 ⲉⲩϣⲁⲛ
 </w>
 <lb n="16"/>
 <w lemma="ⲣϫⲟⲉⲓⲥ" type="V">
-<m>ⲣ</m><m>ϫⲟⲉⲓⲥ</m>
+<m>
+ⲣ
+</m>
+<m>
+ϫⲟⲉⲓⲥ
+</m>
 </w>
 </phr>
 <phr>
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲙ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲙ
 </w>
 <w lemma="ⲙⲁ" type="N">
@@ -1684,10 +1744,10 @@ No parallel witness
 </s>
 <s style="…">
 <phr>
-<w lemma="ⲉ" type="CFOC">
+<w lemma="ⲉⲣⲉ" type="CFOC">
 ⲉ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
 <lb n="18"/>
@@ -1697,7 +1757,7 @@ No parallel witness
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲧⲱⲛ" type="N">
+<w lemma="ⲧⲱⲛ" type="PINT">
 ⲧⲱⲛ
 </w>
 </phr>
@@ -1715,14 +1775,14 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲧⲉ" type="PREP">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛ̄ⲧⲉ
 </w>
 <lb n="20"/>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
-<w lemma="ⲉⲧⲉ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧⲉ
 </w>
 <w lemma="ⲟⲩⲛ" type="EXIST">
@@ -1734,7 +1794,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄ⲙⲟ
 </w>
 <w lemma="ⲟⲩ" type="ART">
@@ -1757,7 +1817,7 @@ No parallel witness
 <w lemma="ⲉϫⲛ" type="PREP">
 ⲉϫ︤ⲛ︥
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ̄
 </w>
 <w lemma="ⲧⲟⲟⲩ" type="N">
@@ -1766,10 +1826,10 @@ No parallel witness
 </phr>
 <lb n="24"/>
 <phr>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛ̄
 </w>
-<w lemma="ⲥⲉ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
 <w lemma="ⲟⲩϫⲁⲓ" type="V">
@@ -1788,9 +1848,11 @@ No parallel witness
 <lb n="25"/>
 <phr>
 <w lemma="ⲛ" type="PREP">
-<hi rend="ekthetic">ⲛ</hi>
+<hi rend="ekthetic">
+ⲛ
+</hi>
 </w>
-<w lemma="ⲧⲉⲓ" type="PDEM">
+<w lemma="ⲡⲉⲓ" type="PDEM">
 ⲧⲉⲓ̈
 </w>
 <w lemma="ϩⲉ" type="N">
@@ -1833,14 +1895,15 @@ No parallel witness
 <w lemma="ⲉϫⲛ" type="PREP">
 ⲉϫ︤ⲛ︥
 </w>
-<w lemma="ϩⲉⲛ" type="ART">
+<w lemma="ⲟⲩ" type="ART">
 ϩⲉⲛ
 </w>
 <pb xml:id="XJ51"/>
 <cb n="1"/>
 <lb n="1"/>
 <w lemma="ⲯⲩⲭⲏ" type="N" xml:lang="Greek">
-ⲯⲩⲭⲏ
+ⲯ
+ⲩⲭⲏ
 </w>
 </phr>
 <phr>
@@ -1850,7 +1913,7 @@ No parallel witness
 <w lemma="ⲧⲣⲉ" type="ACAUS">
 ⲧⲣⲉ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <lb n="2"/>
@@ -1859,31 +1922,31 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄ⲙⲟ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
 <lb n="3"/>
 <phr>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛ︤
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ︥
 </w>
 <w lemma="ⲙⲟⲟⲧ" type="V">
 ⲙⲟⲟⲧ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
 <lb n="4"/>
 <phr>
-<w lemma="ϩⲙ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲙ︥
 </w>
 <w lemma="ⲡ" type="ART">
@@ -1902,10 +1965,10 @@ No parallel witness
 <s style="…">
 <lb n="5"/>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CFOC">
 ⲉ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
@@ -1921,7 +1984,7 @@ No parallel witness
 <lb n="6"/>
 ⲣⲁⲧ︤
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ︥
 </w>
 </phr>
@@ -1939,25 +2002,30 @@ No parallel witness
 <lb n="7"/>
 ⲥⲁ
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲛ︥
 </w>
-<w lemma="ⲙ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲙ̄
 </w>
 <lb n="8"/>
 <w lemma="ⲙⲛⲧⲛⲟϭ" type="N">
-<m>ⲙ︤ⲛ︦ⲧ︥</m><m>ⲛⲟϭ</m>
+<m>
+ⲙ︤ⲛ︦ⲧ︥
+</m>
+<m>
+ⲛⲟϭ
+</m>
 </w>
 </phr>
 <phr>
-<w lemma="ϩⲙ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲙ︥
 </w>
 <lb n="9"/>
@@ -1969,7 +2037,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <w lemma="ⲡ" type="ART">
@@ -1984,17 +2052,17 @@ No parallel witness
 </s>
 <s style="…">
 <phr>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛ̄
 </w>
-<w lemma="ⲥⲉ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
 <w lemma="ⲧⲥⲁⲃⲟ" type="V">
 ⲧⲥⲁⲃⲟ
 </w>
 <lb n="11"/>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -2002,19 +2070,19 @@ No parallel witness
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲛⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛⲉ
 </w>
-<w lemma="ϩⲃⲏⲩⲉ" type="N">
+<w lemma="ϩⲱⲃ" type="N">
 ϩⲃⲏⲩⲉ
 </w>
 </phr>
 <lb n="12"/>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
-<w lemma="ⲡⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
 <w lemma="ⲙⲗⲁϩ" type="N">
@@ -2026,7 +2094,7 @@ No parallel witness
 ⲙ︤ⲛ︥
 </w>
 <lb n="13"/>
-<w lemma="ⲛⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛⲉ
 </w>
 <w lemma="ϩⲛⲁⲁⲩ" type="N">
@@ -2034,7 +2102,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <w lemma="ⲙⲓϣⲉ" type="N">
@@ -2044,10 +2112,10 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛ̄
 </w>
-<w lemma="ⲥⲉ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
 <w lemma="ϫⲣⲟ" type="V">
@@ -2088,13 +2156,18 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲛϣⲁⲛ" type="ACOND_PPERS">
+<w lemma="ⲉⲣϣⲁⲛ_ⲁⲛⲟⲛ" type="ACOND_PPERS">
 ⲉⲛ
 <lb n="17"/>
 ϣⲁⲛ
 </w>
 <w lemma="ⲣϣⲟⲣⲡ" type="V">
-<m>ⲣ̂</m><m>ϣⲟⲣ︤ⲡ︥</m>
+<m>
+ⲣ̂
+</m>
+<m>
+ϣⲟⲣ︤ⲡ︥
+</m>
 </w>
 </phr>
 <lb n="18"/>
@@ -2102,8 +2175,13 @@ No parallel witness
 <w lemma="ⲛ" type="PREP">
 ⲛ̄
 </w>
-<w lemma="ⲣϭⲱⲃ" type="V">
-<m>ⲣ̂</m><m>ϭⲱⲃ</m>
+<w lemma="ⲣϭⲱⲃ" type="N">
+<m>
+ⲣ̂
+</m>
+<m>
+ϭⲱⲃ
+</m>
 </w>
 </phr>
 <phr>
@@ -2117,10 +2195,10 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛ̄
 </w>
-<w lemma="ⲧⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲧ︤ⲛ︥
 </w>
 <lb n="19"/>
@@ -2154,7 +2232,7 @@ No parallel witness
 </s>
 <s style="…">
 <phr>
-<w lemma="ϩⲙ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲙ︥
 </w>
 <w lemma="ⲡ" type="ART">
@@ -2172,16 +2250,16 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲕⲱ" type="V">
+<w lemma="ⲕⲱ" type="N">
 ⲕⲱ̂
-</w>
-<w lemma="ⲛ" type="PREP">
-ⲛ̄
 </w>
 </phr>
 <phr>
+<w lemma="ⲛ" type="PREP">
+ⲛ̄
+</w>
 <lb n="22"/>
-<w lemma="ϩⲉⲛ" type="ART">
+<w lemma="ⲟⲩ" type="ART">
 ϩⲉⲛ
 </w>
 <w lemma="ⲥⲕⲁⲛⲇⲁⲗⲟⲛ" type="N" xml:lang="Greek">
@@ -2194,7 +2272,7 @@ No parallel witness
 <w lemma="ϩⲁⲣⲁⲧ" type="PREP">
 ϩⲁⲣⲁⲧ︤
 </w>
-<w lemma="ⲛ" type="PPERO">
+<w lemma="ⲁⲛⲟⲛ" type="PPERO">
 ⲛ︥
 </w>
 </phr>
@@ -2203,7 +2281,7 @@ No parallel witness
 <w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉⲣⲉ
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ̄
 </w>
 <w lemma="ⲗⲁⲟⲥ" type="N" xml:lang="Greek">
@@ -2249,17 +2327,20 @@ No parallel witness
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
 </w>
 <lb n="27"/>
-<w lemma="ϯⲧⲟⲟⲧ" type="V">
-<m>ϯ</m><m>ⲧⲟⲟⲧ</m>
+<w lemma="ϯ" type="V">
+ϯ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲧⲱⲣⲉ" type="N">
+ⲧⲟⲟⲧ
+</w>
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -2275,7 +2356,10 @@ No parallel witness
 <lb n="28"/>
 <phr>
 <w lemma="ⲙⲉϣⲁⲕ" type="ADV">
-<hi rend="ekthetic">ⲙ</hi>ⲉϣⲁⲕ
+<hi rend="ekthetic">
+ⲙ
+</hi>
+ⲉϣⲁⲕ
 </w>
 </phr>
 <phr>
@@ -2284,10 +2368,10 @@ No parallel witness
 </w>
 <cb n="2"/>
 <lb n="1"/>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ⲛⲟⲉⲓ" type="V" xml:lang="Greek">
@@ -2301,7 +2385,7 @@ No parallel witness
 </phr>
 <lb n="2"/>
 <phr>
-<w lemma="ⲛⲉⲩ" type="PPOS">
+<w lemma="ⲡⲉⲩ" type="PPOS">
 ⲛⲉⲩ
 </w>
 <w lemma="ⲃⲁⲗ" type="N">
@@ -2318,7 +2402,7 @@ No parallel witness
 <w lemma="ⲉϫⲛ" type="PREP">
 ⲉϫ︤ⲛ︥
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ̄
 </w>
 <w lemma="ⲧⲟⲟⲩ" type="N">
@@ -2333,10 +2417,10 @@ No parallel witness
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
-<w lemma="ⲥⲏϩ" type="VSTAT">
+<w lemma="ⲥϩⲁⲓ" type="VSTAT">
 ⲥⲏϩ
 </w>
 </phr>
@@ -2349,7 +2433,7 @@ No parallel witness
 <s style="…">
 <lb n="5"/>
 <phr>
-<w lemma="ⲉⲧⲉ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧⲉ
 </w>
 <w lemma="ⲡⲁⲓ" type="PDEM">
@@ -2367,22 +2451,22 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛ̄
 </w>
 <lb n="6"/>
-<w lemma="ⲥⲉ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
-<w lemma="ⲕⲁⲁ" type="V">
+<w lemma="ⲕⲱ" type="V">
 ⲕⲁⲁ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
 <phr>
-<w lemma="ϩⲙ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲙ︥
 </w>
 <lb n="7"/>
@@ -2394,13 +2478,21 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲉϩⲁⲣⲉ" type="PREP">
-ⲉϩⲁ
-<lb n="8"/>
-ⲣⲉ
+<w lemma="ⲉ" type="PREP">
+ⲉ
 </w>
-<w lemma="ϩⲉⲛ" type="ART">
-ϩⲉⲛ
+<w lemma="ϩⲁⲣⲉϩ" type="V">
+ϩⲁ
+<lb n="8"/>
+ⲣⲉϩ
+</w>
+</phr>
+<phr>
+<w lemma="ⲉ" type="PREP">
+ⲉ
+</w>
+<w lemma="ⲡ" type="ART">
+ⲛ
 </w>
 <w lemma="ϣⲁϫⲉ" type="N">
 ϣⲁϫⲉ
@@ -2411,7 +2503,7 @@ No parallel witness
 <w lemma="ⲛ" type="PREP">
 ⲛ̄
 </w>
-<w lemma="ⲛⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛⲉ
 </w>
 <w lemma="ⲅⲣⲁⲫⲏ" type="N" xml:lang="Greek">
@@ -2419,11 +2511,11 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛ̄
 </w>
 <lb n="10"/>
-<w lemma="ⲥⲉ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
 <w lemma="ⲛⲁⲩ" type="V">
@@ -2434,12 +2526,12 @@ No parallel witness
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲉⲣⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CFOC">
 ⲉ
 <lb n="11"/>
 ⲣⲉ
 </w>
-<w lemma="ⲧⲉⲩ" type="PPOS">
+<w lemma="ⲡⲉⲩ" type="PPOS">
 ⲧⲉⲩ
 </w>
 <w lemma="ⲃⲟⲏⲑⲉⲓⲁ" type="N" xml:lang="Greek">
@@ -2449,7 +2541,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲏⲩ" type="VSTAT">
+<w lemma="ⲉⲓ" type="VSTAT">
 ⲛⲏⲩ
 </w>
 </phr>
@@ -2457,7 +2549,7 @@ No parallel witness
 <w lemma="ⲛⲁ" type="PREP">
 ⲛⲁ
 </w>
-<w lemma="ⲩ" type="ART">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲩ
 </w>
 </phr>
@@ -2484,10 +2576,10 @@ No parallel witness
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲥⲉ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
-<w lemma="ⲛⲏⲩ" type="VSTAT">
+<w lemma="ⲉⲓ" type="VSTAT">
 ⲛⲏⲩ
 </w>
 </phr>
@@ -2495,7 +2587,7 @@ No parallel witness
 <w lemma="ⲛⲁ" type="PREP">
 ⲛⲁ
 </w>
-<w lemma="ⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲩ
 </w>
 </phr>
@@ -2506,7 +2598,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ϩⲓⲧⲙ" type="PREP">
+<w lemma="ϩⲓⲧⲛ" type="PREP">
 ϩⲓⲧ︤ⲙ︥
 </w>
 <w lemma="ⲡ" type="ART">
@@ -2522,24 +2614,22 @@ No parallel witness
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲛⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <lb n="17"/>
-<w lemma="ⲧⲁⲙⲓⲉ" type="V">
+<w lemma="ⲧⲁⲙⲓⲟ" type="V">
 ⲧⲁⲙⲓⲉ
 </w>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
-</phr>
-<phr>
 <w lemma="ⲡⲉ" type="N">
 ⲡⲉ
 </w>
@@ -2570,9 +2660,12 @@ No parallel witness
 <phr>
 <lb n="19"/>
 <w lemma="ⲉⲣϣⲁⲛ" type="ACOND">
-<hi rend="ekthetic">ⲉ</hi>ⲣϣⲁⲛ
+<hi rend="ekthetic">
+ⲉ
+</hi>
+ⲣϣⲁⲛ
 </w>
-<w lemma="ϩⲉⲛ" type="ART">
+<w lemma="ⲟⲩ" type="ART">
 ϩⲉⲛ
 </w>
 <w lemma="ⲛⲉⲉϥ" type="N">
@@ -2624,7 +2717,7 @@ No parallel witness
 <w lemma="ⲛ" type="PREP">
 ⲛ̄
 </w>
-<w lemma="ⲙ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲙ̄
 </w>
 <w lemma="ⲙⲟⲟⲩ" type="N">
@@ -2634,7 +2727,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ϥⲱϭⲉ" type="V">
@@ -2659,7 +2752,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ̄
 </w>
 <lb n="25"/>
@@ -2680,7 +2773,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <lb n="26"/>
@@ -2695,10 +2788,10 @@ No parallel witness
 </phr>
 <lb n="27"/>
 <phr>
-<w lemma="ⲉⲣⲟ" type="PREP">
+<w lemma="ⲉ" type="PREP">
 ⲉⲣⲟ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -2726,13 +2819,14 @@ No parallel witness
 <cb n="1"/>
 <lb n="1"/>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
-ⲉⲧ
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
+ⲉ
+ⲧ
 </w>
-<w lemma="ϩⲓⲱⲱ" type="PREP">
+<w lemma="ϩⲓ" type="PREP">
 ϩⲓⲱⲱ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -2748,7 +2842,7 @@ No parallel witness
 <w lemma="ⲛ" type="PREP">
 ⲛ̄
 </w>
-<w lemma="ⲧⲉⲓ" type="PDEM">
+<w lemma="ⲡⲉⲓ" type="PDEM">
 ⲧⲉⲓ̈
 </w>
 <w lemma="ϩⲉ" type="N">
@@ -2765,22 +2859,27 @@ No parallel witness
 <w lemma="ⲉⲣϣⲁⲛ" type="ACOND">
 ⲉⲣϣⲁⲛ
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <lb n="4"/>
 <w lemma="ⲣϩⲙⲙⲉ" type="V">
-<m>ⲣ</m><m>ϩ︤ⲙ︥ⲙⲉ</m>
+<m>
+ⲣ
+</m>
+<m>
+ϩ︤ⲙ︥ⲙⲉ
+</m>
 </w>
 </phr>
 <phr>
 <w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲛ︥
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ̄
 </w>
 <lb n="5"/>
@@ -2789,7 +2888,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <w lemma="ⲡ" type="ART">
@@ -2806,29 +2905,27 @@ No parallel witness
 ⲡⲣⲟⲥⲉⲭⲉ
 </w>
 </phr>
-<lb n="7"/>
 <phr>
+<lb n="7"/>
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
 <w lemma="ⲧⲙ" type="NEG">
 ⲧ︤ⲙ︥
 </w>
-<w lemma="ⲕⲁ" type="V">
+<w lemma="ⲕⲱ" type="V">
 ⲕⲁ̂
 </w>
-</phr>
-<phr>
-<w lemma="ϩⲉⲛ" type="ART">
+<w lemma="ⲟⲩ" type="ART">
 ϩⲉⲛ
 </w>
 <lb n="8"/>
-<w lemma="ϩⲃⲏⲩⲉ" type="N">
+<w lemma="ϩⲱⲃ" type="N">
 ϩⲃⲏⲩⲉ
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <w lemma="ⲡⲟⲛⲏⲣⲟⲛ" type="N" xml:lang="Greek">
@@ -2838,12 +2935,12 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲛϩⲏⲧ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ⲛ̄ϩⲏ
 <lb n="10"/>
 ⲧ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -2858,12 +2955,23 @@ No parallel witness
 <w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲛ︥
 </w>
-<w lemma="ϩⲉⲛ" type="ART">
+<w lemma="ⲟⲩ" type="ART">
 ϩⲉⲛ
 </w>
 <lb n="11"/>
 <w lemma="ⲙⲛⲧⲣⲉϥϫⲓϩⲟ" type="N">
-<m>ⲙ︤ⲛ︥︤ⲧ︥</m><m>ⲣⲉϥ</m><m>ϫⲓ</m><m>ϩⲟ̂</m>
+<m>
+ⲙ︤ⲛ︥︤ⲧ︥
+</m>
+<m>
+ⲣⲉϥ
+</m>
+<m>
+ϫⲓ
+</m>
+<m>
+ϩⲟ̂
+</m>
 </w>
 </phr>
 <lb n="12"/>
@@ -2871,7 +2979,7 @@ No parallel witness
 <w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲛ︥
 </w>
-<w lemma="ϩⲉⲛ" type="ART">
+<w lemma="ⲟⲩ" type="ART">
 ϩⲉⲛ
 </w>
 <w lemma="ϩⲁⲡ" type="N">
@@ -2879,14 +2987,14 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
 <lb n="13"/>
-<w lemma="ϭⲟⲟⲩϭ" type="V">
+<w lemma="ϭⲟⲱⲩϭ" type="V">
 ϭⲟⲟⲩϭ
 </w>
 </phr>
@@ -2895,18 +3003,26 @@ No parallel witness
 ·
 </w>
 </phr>
+<phr>
 <w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲛ︥
 </w>
-<phr>
-<w lemma="ϩⲉⲛ" type="ART">
+<w lemma="ⲟⲩ" type="ART">
 ϩⲉⲛ
 </w>
 <w lemma="ⲙⲛⲧⲣⲉϥⲁⲣⲉⲥⲕⲉ" type="N">
 <lb n="14"/>
-<m>ⲙ︤ⲛ︤︥ⲧ</m><m>ⲣⲉϥ</m><m xml:lang="Greek">ⲁⲣⲉ
+<m>
+ⲙ︤ⲛ︤︥ⲧ
+</m>
+<m>
+ⲣⲉϥ
+</m>
+<m xml:lang="Greek">
+ⲁⲣⲉ
 <lb n="15"/>
-ⲥⲕⲉ</m>
+ⲥⲕⲉ
+</m>
 </w>
 </phr>
 <phr>
@@ -2940,13 +3056,13 @@ No parallel witness
 </phr>
 <phr>
 <lb n="17"/>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
 <w lemma="ϣⲁⲣⲉ" type="AAOR">
 ϣⲁⲣⲉ
 </w>
-<w lemma="ϩⲉⲛ" type="ART">
+<w lemma="ⲟⲩ" type="ART">
 ϩⲉⲛ
 </w>
 <lb n="18"/>
@@ -2967,10 +3083,10 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄ⲙⲟ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -2995,7 +3111,7 @@ No parallel witness
 <w lemma="ⲧⲏⲣ" type="IMOD">
 ⲧⲏⲣ︤
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ︥
 </w>
 </phr>
@@ -3017,9 +3133,12 @@ No parallel witness
 <lb n="22"/>
 <phr>
 <w lemma="ⲉⲧⲃⲉ" type="PREP">
-<hi rend="ekthetic">ⲉ</hi>ⲧⲃⲉ
+<hi rend="ekthetic">
+ⲉ
+</hi>
+ⲧⲃⲉ
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ̄
 </w>
 <w lemma="ⲕⲟⲟϩ" type="N">
@@ -3033,7 +3152,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <w lemma="ⲡⲉⲧⲣⲁ" type="N" xml:lang="Greek">
@@ -3069,14 +3188,14 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲛ︥
 </w>
 <lb n="26"/>
-<w lemma="ⲙ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲙ̄
 </w>
 <w lemma="ⲙⲟⲉⲓⲧ" type="N">
@@ -3084,13 +3203,17 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ̄
 </w>
 <w lemma="ⲣϩⲱⲧ" type="V">
-<m>ⲣ̂</m>
+<m>
+ⲣ̂
+</m>
 <lb n="27"/>
-<m>ϩⲱⲧ</m>
+<m>
+ϩⲱⲧ
+</m>
 </w>
 </phr>
 <phr>
@@ -3109,27 +3232,27 @@ No parallel witness
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <lb n="28"/>
 <w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
 </w>
-<w lemma="ⲛⲁϩⲙ" type="V">
+<w lemma="ⲛⲟⲩϩⲙ" type="V">
 ⲛⲁϩ︤ⲙ︦
 </w>
-<w lemma="ⲛ" type="PPERO">
+<w lemma="ⲁⲛⲟⲛ" type="PPERO">
 ⲛ︥
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲣⲟ" type="PREP">
+<w lemma="ⲉ" type="PREP">
 ⲉⲣⲟ
 </w>
 <cb n="2"/>
 <lb n="1"/>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -3142,7 +3265,7 @@ No parallel witness
 <w lemma="ⲛ" type="PREP">
 ⲛ̄
 </w>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲑ
 </w>
 <w lemma="ϩⲉ" type="N">
@@ -3156,21 +3279,24 @@ No parallel witness
 </phr>
 <phr>
 <lb n="2"/>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ︤
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ︥
 </w>
 <w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
 </w>
-<w lemma="ϯⲧⲟⲟⲧ" type="V">
-<m>ϯ</m><m>ⲧⲟⲟ
-<lb n="3"/>
-ⲧ︤</m>
+<w lemma="ϯ" type="V">
+ϯ
 </w>
-<w lemma="ⲛ" type="PPERO">
+<w lemma="ⲧⲱⲣⲉ" type="N">
+ⲧⲟⲟ
+<lb n="3"/>
+ⲧ︤
+</w>
+<w lemma="ⲁⲛⲟⲛ" type="PPERO">
 ⲛ︥
 </w>
 </phr>
@@ -3178,10 +3304,10 @@ No parallel witness
 <w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲛ︥
 </w>
-<w lemma="ⲛⲉⲓ" type="PDEM">
+<w lemma="ⲡⲉⲓ" type="PDEM">
 ⲛⲉⲓ̈
 </w>
-<w lemma="ⲕⲟⲟⲩⲉ" type="N">
+<w lemma="ⲕⲉ" type="N">
 ⲕⲟ
 <lb n="4"/>
 ⲟⲩⲉ
@@ -3198,8 +3324,10 @@ No parallel witness
 <s style="…">
 <lb n="5"/>
 <phr>
-<w lemma="ϯ" type="PPERS">
-<hi rend="ekthetic">ϯ</hi>
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
+<hi rend="ekthetic">
+ϯ
+</hi>
 </w>
 <w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
@@ -3214,7 +3342,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <w lemma="ⲡⲓ" type="PDEM">
@@ -3241,10 +3369,10 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
-<w lemma="ⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲛ
 </w>
 <w lemma="ⲉⲓⲛⲉ" type="V">
@@ -3252,7 +3380,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <lb n="8"/>
@@ -3264,7 +3392,7 @@ No parallel witness
 </w>
 </phr>
 <phr>
-<w lemma="ⲉϫⲙ" type="PREP">
+<w lemma="ⲉϫⲛ" type="PREP">
 ⲉϫ︤ⲙ︥
 </w>
 <w lemma="ⲡ" type="ART">
@@ -3280,16 +3408,16 @@ No parallel witness
 <w lemma="ⲙⲙⲓⲛⲙⲙⲟ" type="IMOD">
 ⲙ̄ⲙⲓⲛⲙ̄ⲙⲟ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
 <lb n="10"/>
 <phr>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
-<w lemma="ⲟⲩⲟⲛϩ" type="V">
+<w lemma="ⲟⲩⲱⲛϩ" type="V">
 ⲟⲩⲟⲛ︤ϩ︥
 </w>
 </phr>
@@ -3307,9 +3435,17 @@ No parallel witness
 ⲡ
 </w>
 <w lemma="ⲣⲉϥⲣϩⲙⲙⲉ" type="N">
-<m>ⲣⲉϥ</m><m>ⲣ̂</m><m>ϩ︤ⲙ︥
+<m>
+ⲣⲉϥ
+</m>
+<m>
+ⲣ̂
+</m>
+<m>
+ϩ︤ⲙ︥
 <lb n="12"/>
-ⲙⲉ</m>
+ⲙⲉ
+</m>
 </w>
 </phr>
 <phr>
