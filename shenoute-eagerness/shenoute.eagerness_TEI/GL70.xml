@@ -1,18 +1,20 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>I See Your Eagerness: GL 70</title>
+<title ref="urn:cts:copticLit:shenoute.eagerness.monbgl_70">I See Your Eagerness: GL 70</title>
 <author>Shenoute</author>
+<respStmt>
+<resp>source</resp>
+<name>David Brakke</name>
+</respStmt>
 <respStmt>
 <resp>annotation</resp>
 <name>Rebecca Krawiec, Amir Zeldes, Caroline T. Schroeder</name>
 </respStmt>
 <respStmt>
-<resp>source</resp>
-<name>David Brakke</name>
+<resp>translation</resp>
+<name>none</name>
 </respStmt>
 </titleStmt>
 <publicationStmt>
@@ -26,24 +28,19 @@
 		<msIdentifier>
 			<msName>MONB.GL</msName>
 		</msIdentifier>
-		<msContents>
-			<summary>
-				<title n="5" type="Discourses">Discourses 5</title>
-			</summary>
-		</msContents>
 		<history>
 			<origin>
 				<objectType>codex</objectType>
 				<country>Egypt</country>
 				<placeName>Atripe</placeName>
 				<origPlace>White Monastery</origPlace>
-				<origDate precision="medium" notBefore="0900" notAfter="1200">between 900 and 1200 C.E.</origDate>
+				<origDate></origDate>
 			</origin>
 		</history>
 		<msPart>
 			<msIdentifier>
 				<repository>Bibliothèque Nationale de France</repository>
-				<collection>Manuscrits Copte</collection>
+				<collection>Manuscrits coptes</collection>
 				<idno>130(3) f. 80v</idno>
 			</msIdentifier>
 			<msContents>
@@ -52,16 +49,10 @@
 					<textLang>Sahidic Coptic</textLang>
 					<incipit/>
 					<title>I See Your Eagerness: GL 70</title>
-					<note>Transcribed  in Paris by David Brakke, March 2010; transcription does not record spaces and paleographic rendition of letters other than ekthetics. David Brakke and Andrew Crislip published a translation of I See Your Eagerness in their book Selected Discourses of Shenoute the Great (Cambridge University Press, 2015).</note>
 				</msItem>
 			</msContents>
 		</msPart>
 	</msDesc>
-	<listWit>
-		<witness>
-No parallel exists for this section of MONB.GL 70.  This is the last extant section of the work, I See Your Eagerness.
-		</witness>
-	</listWit>
 	<listBibl>
 		<bibl>Amélineau 1907–14, 2:73–74</bibl>
 	</listBibl>
@@ -77,13 +68,12 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="2.3.1" when="2017-04-05"></change>
+	<change n="3.0.0" when="2019-09-30"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-
 <p>
 <pb xml:id="GL70"/>
 <s style="…">
@@ -94,10 +84,10 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 ϫⲉ
 </w>
 <lb n="28"/>
-<w lemma="ⲉ" type="CFOC">
+<w lemma="ⲉⲣⲉ" type="CFOC">
 ⲉ
 </w>
-<w lemma="ⲓ" type="PPERS">
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ⲓ
 </w>
 <w lemma="ϫⲱ" type="V">
@@ -105,10 +95,10 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙⲙⲟ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
@@ -116,7 +106,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲧⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧⲉ
 </w>
 <lb n="29"/>
@@ -125,13 +115,13 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ⲱϣ" type="V">
@@ -144,10 +134,10 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
-<w lemma="ϩⲓⲁⲃⲉ" type="N">
+<w lemma="ϩⲓⲉⲓⲃ" type="N">
 ϩⲓⲁⲃⲉ
 </w>
 </phr>
@@ -201,7 +191,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <lb n="4"/>
@@ -213,7 +203,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ϩⲏⲃⲥ" type="N">
@@ -225,7 +215,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 <w lemma="ⲙⲛ" type="PREP">
 ⲙⲛ̄
 </w>
-<w lemma="ⲙ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲙ̄
 </w>
 <w lemma="ⲙⲟⲟⲩ" type="N">
@@ -246,7 +236,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ⲗⲁⲟⲥ" type="N" xml:lang="Greek">
@@ -258,7 +248,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 ϫⲉ
 </w>
 <lb n="7"/>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ⲉⲥⲟⲟⲩ" type="N">
@@ -271,7 +261,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛⲉ
 </w>
 <lb n="8"/>
@@ -283,7 +273,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ϣⲱⲧⲉ" type="N">
@@ -298,7 +288,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛⲉ
 </w>
 <lb n="10"/>
@@ -307,14 +297,14 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ⲛⲁⲛⲟⲩ" type="VBD">
 ⲛⲁⲛⲟⲩ
 </w>
 <lb n="11"/>
-<w lemma="ⲟⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲟⲩ
 </w>
 </phr>
@@ -327,7 +317,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <w lemma="ⲙⲁ" type="N">
@@ -335,10 +325,10 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
-<w lemma="ϫⲟⲥⲉ" type="VSTAT">
+<w lemma="ϫⲓⲥⲉ" type="VSTAT">
 ϫⲟ
 <lb n="12"/>
 ⲥⲉ
@@ -357,7 +347,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛⲉ
 </w>
 <w lemma="ⲡⲣⲁⲝⲓⲥ" type="N" xml:lang="Greek">
@@ -367,7 +357,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ϩⲟⲟⲩ" type="VSTAT">
@@ -383,7 +373,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ̄
 </w>
 <lb n="14"/>
@@ -399,17 +389,17 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 </s>
 <s style="…">
 <phr>
-<w lemma="ⲧⲁⲓ" type="PDEM">
+<w lemma="ⲡⲁⲓ" type="PDEM">
 ⲧⲁⲓ
 </w>
 </phr>
 <phr>
-<w lemma="ⲧⲉ" type="COP">
+<w lemma="ⲡⲉ" type="COP">
 ⲧⲉ
 </w>
 </phr>
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲑ
 </w>
 <w lemma="ϩⲉ" type="N">
@@ -418,13 +408,13 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 </phr>
 <lb n="15"/>
 <phr>
-<w lemma="ⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲛⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲧⲉⲧⲛ" type="PPERS">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERS">
 ⲧⲉⲧⲛ
 </w>
 <w lemma="ⲧⲱⲃⲥ" type="V">
@@ -436,7 +426,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 <w lemma="ⲧⲏⲣ" type="IMOD">
 ⲧⲏⲣ
 </w>
-<w lemma="ⲧⲛ" type="PPERO">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERO">
 ⲧⲛ
 </w>
 </phr>
@@ -444,7 +434,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 <w lemma="ϩⲛ" type="PREP">
 ϩⲛ
 </w>
-<w lemma="ⲛⲉⲧⲛ" type="PPOS">
+<w lemma="ⲡⲉⲧⲛ" type="PPOS">
 ⲛⲉ
 <lb n="17"/>
 ⲧⲛ
@@ -454,10 +444,10 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 </w>
 </phr>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
-<w lemma="ⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲛ
 </w>
 <lb n="18"/>
@@ -469,7 +459,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ⲙⲉⲉⲩⲉ" type="N">
@@ -486,7 +476,7 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲛⲉⲛ" type="PPOS">
+<w lemma="ⲡⲉⲛ" type="PPOS">
 ⲛⲉⲛ
 </w>
 <w lemma="ⲛⲟⲃⲉ" type="N">
@@ -498,13 +488,20 @@ No parallel exists for this section of MONB.GL 70.  This is the last extant sect
 <w lemma="ⲙⲛ" type="PREP">
 ⲙⲛ
 </w>
-<w lemma="ⲛⲉⲛ" type="PPOS">
+<w lemma="ⲡⲉⲛ" type="PPOS">
 ⲛⲉⲛ
 </w>
 <w lemma="ⲙⲛⲧⲁⲧⲥⲟⲟⲩⲛ" type="N">
-<m>ⲙⲛⲧ</m><m>ⲁⲧ</m>
+<m>
+ⲙⲛⲧ
+</m>
+<m>
+ⲁⲧ
+</m>
 <lb n="21"/>
-<m>ⲥⲟⲟⲩⲛ</m>
+<m>
+ⲥⲟⲟⲩⲛ
+</m>
 </w>
 </phr>
 </s>

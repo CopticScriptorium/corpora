@@ -1,18 +1,20 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>I See Your Eagerness: GF 31-32</title>
+<title ref="urn:cts:copticLit:shenoute.eagerness.monbgf_31_32">I See Your Eagerness: GF 31-32</title>
 <author>Shenoute</author>
+<respStmt>
+<resp>source</resp>
+<name>Stephen Emmel, David Brakke</name>
+</respStmt>
 <respStmt>
 <resp>annotation</resp>
 <name>Rebecca Krawiec, Caroline T. Schroeder</name>
 </respStmt>
 <respStmt>
-<resp>source</resp>
-<name>Stephen Emmel, David Brakke</name>
+<resp>translation</resp>
+<name>none</name>
 </respStmt>
 </titleStmt>
 <publicationStmt>
@@ -26,24 +28,19 @@
 		<msIdentifier>
 			<msName>MONB.GF</msName>
 		</msIdentifier>
-		<msContents>
-			<summary>
-				<title n="5" type="Discourses">Discourses 5</title>
-			</summary>
-		</msContents>
 		<history>
 			<origin>
 				<objectType>codex</objectType>
 				<country>Egypt</country>
 				<placeName>Atripe</placeName>
 				<origPlace>White Monastery</origPlace>
-				<origDate precision="low" notBefore="0900" notAfter="1200">between 900 and 1200 C.E.</origDate>
+				<origDate></origDate>
 			</origin>
 		</history>
 		<msPart>
 			<msIdentifier>
-				<repository>Bibliothèque Nationale de France</repository>
-				<collection>Manuscrits Copte</collection>
+				<repository>Bibliothèque nationale de France</repository>
+				<collection>Manuscrits coptes</collection>
 				<idno>130(2) f. 66r-v</idno>
 			</msIdentifier>
 			<msContents>
@@ -52,17 +49,10 @@
 					<textLang>Sahidic Coptic</textLang>
 					<incipit/>
 					<title>I See Your Eagerness: GF 31-32</title>
-					<note>Transcribed from photograph by Stephen Emmel, ca. 1990 (?); collated in Paris by David
-Brakke, March 2010; transcription does not record spaces and paleographic rendition of letters other than ekthetics. No translation published in David Brakke's and Andrew Crislip's Selected Discourses of Shenoute the Great (Cambridge University Press, 2015).</note>
 				</msItem>
 			</msContents>
 		</msPart>
 	</msDesc>
-	<listWit>
-		<witness>
-The parallel witness in MONB.CZ 25-26 has not yet been digitized. 
-		</witness>
-	</listWit>
 	<listBibl>
 		<bibl>none</bibl>
 	</listBibl>
@@ -77,19 +67,22 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 		<language ident="cop">Sahidic Coptic</language>
 	</langUsage>
 </profileDesc>
+<revisionDesc>
+	<change n="3.0.0" when="2019-09-30"></change>
+</revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-
 <pb xml:id="GF31"/>
 <p>
 <cb n="1"/>
 <s style="…">
 <lb n="1"/>
 <phr>
-<w lemma="ⲓⲟⲩⲇⲁⲓ" type="NPROP" xml:lang="Greek">
-ⲓⲟⲩⲇⲁⲓ̈
+<w lemma="ⲓⲟⲩⲇⲁⲓ" type="NPROP" xml:lang="Hebrew">
+ⲓ
+ⲟⲩⲇⲁⲓ̈
 </w>
 </phr>
 <phr>
@@ -98,7 +91,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ϩⲉⲗⲗⲏⲛ" type="N" xml:lang="Greek">
@@ -118,10 +111,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲛⲉⲛ" type="PPOS">
+<w lemma="ⲡⲉⲛ" type="PPOS">
 ⲛⲉⲛ
 </w>
-<w lemma="ϩⲃⲏⲩⲉ" type="N">
+<w lemma="ϩⲱⲃ" type="N">
 ϩⲃⲏⲩⲉ
 </w>
 </phr>
@@ -130,7 +123,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲛ" type="PREP">
 ⲛ
 </w>
-<w lemma="ⲥⲙⲛⲟⲛ" type="N">
+<w lemma="ⲥⲙⲓⲛⲉ" type="N">
 ⲥⲙⲛⲟⲛ
 </w>
 </phr>
@@ -159,7 +152,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <lb n="5"/>
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
-<hi rend="ekthetic">ⲁ</hi>ⲩⲱ
+<hi rend="ekthetic">
+ⲁ
+</hi>
+ⲩⲱ
 </w>
 </phr>
 <phr>
@@ -196,7 +192,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </phr>
 <lb n="7"/>
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ⲙⲉ" type="N">
@@ -221,10 +217,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲣⲟ" type="PREP">
+<w lemma="ⲉ" type="PREP">
 ⲉⲣⲟ
 </w>
-<w lemma="ⲓ" type="PPERO">
+<w lemma="ⲁⲛⲟⲕ" type="PPERO">
 ⲓ
 </w>
 </phr>
@@ -268,16 +264,16 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲏ" type="PREP">
+<w lemma="ⲛⲁ" type="PREP">
 ⲛⲏ
 </w>
-<w lemma="ⲧⲛ" type="PPERO">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERO">
 ⲧⲛ
 </w>
 </phr>
 <lb n="11"/>
 <phr>
-<w lemma="ϩⲓϫⲙ" type="PREP">
+<w lemma="ϩⲓϫⲛ" type="PREP">
 ϩⲉⲓϫⲙ
 </w>
 <w lemma="ⲡ" type="ART">
@@ -299,7 +295,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 ⲛ
 </w>
 <lb n="12"/>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲑ
 </w>
 <w lemma="ϩⲉ" type="N">
@@ -307,29 +303,29 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
-<w lemma="ⲉⲓ" type="PPERS">
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ⲉⲓ̈
 </w>
 <w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
 </w>
-<w lemma="ⲁⲁ" type="V">
+<w lemma="ⲉⲓⲣⲉ" type="V">
 ⲁⲁ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲛⲧ" type="EXIST">
+<w lemma="ⲙⲛⲧⲁ" type="EXIST">
 ⲙⲛ
 <lb n="13"/>
 ⲧ
 </w>
-<w lemma="ⲕ" type="PPERS">
+<w lemma="ⲛⲧⲟⲕ" type="PPERS">
 ⲕ
 </w>
 </phr>
@@ -339,10 +335,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲙⲙⲁ" type="PREP">
+<w lemma="ⲙⲛ" type="PREP">
 ⲛⲙⲙⲁ
 </w>
-<w lemma="ⲓ" type="PPERO">
+<w lemma="ⲁⲛⲟⲕ" type="PPERO">
 ⲓ
 </w>
 </phr>
@@ -358,10 +354,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲛ" type="NEG">
 ⲛ
 </w>
-<w lemma="ⲧⲉⲧⲛ" type="PPERS">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERS">
 ⲧⲉⲧⲛ
 </w>
-<w lemma="ⲛ" type="PREP">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ϩⲙϩⲁⲗ" type="N">
@@ -390,20 +386,20 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲛⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
 <lb n="16"/>
-<w lemma="ϣⲉⲡ" type="V">
+<w lemma="ϣⲱⲡ" type="V">
 ϣⲉⲡ
 </w>
-<w lemma="ⲧⲏⲩⲧⲛ" type="PPERO">
+<w lemma="ⲛⲧⲱⲧⲛ" type="PPERO">
 ⲧⲏⲩⲧⲛ
 </w>
 </phr>
@@ -432,12 +428,12 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲡⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲛ
 <lb n="18"/>
 ⲧ
@@ -445,7 +441,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <w lemma="ϯ" type="V">
@@ -453,7 +449,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <w lemma="ⲡⲉϥ" type="PPOS">
@@ -468,7 +464,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ⲙⲙⲁⲩ" type="ADV">
@@ -499,7 +495,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <lb n="21"/>
 <phr>
 <w lemma="ⲁⲩⲱ" type="CONJ">
-<hi rend="ekthetic">ⲁ</hi>ⲩⲱ
+<hi rend="ekthetic">
+ⲁ
+</hi>
+ⲩⲱ
 </w>
 </phr>
 <phr>
@@ -511,11 +510,8 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲧ" type="ART">
-ⲧ
-</w>
-<w lemma="ⲁⲓⲭⲁ" type="N">
-ⲁⲓⲭⲁ
+<w lemma="ⲧⲁⲭⲁ" type="ADV">
+ⲧⲁⲓⲭⲁ
 </w>
 </phr>
 <lb n="22"/>
@@ -523,12 +519,12 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲟⲩⲛ" type="EXIST">
 ⲟⲩⲛ
 </w>
-<w lemma="ϩⲟⲉⲓⲛⲉ" type="N">
+<w lemma="ϩⲟⲓⲛⲉ" type="N">
 ϩⲟⲉⲓⲛⲉ
 </w>
 </phr>
 <phr>
-<w lemma="ϩⲙ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ϩⲙ
 </w>
 <lb n="23"/>
@@ -538,7 +534,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲧⲣⲉ" type="ACAUS">
 ⲧⲣⲉ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
 <w lemma="ⲥⲱⲧⲙ" type="V">
@@ -547,24 +543,24 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </phr>
 <lb n="24"/>
 <phr>
-<w lemma="ⲉⲣⲟ" type="PREP">
+<w lemma="ⲉ" type="PREP">
 ⲉⲣⲟ
 </w>
-<w lemma="ⲓ" type="PPERO">
+<w lemma="ⲁⲛⲟⲕ" type="PPERO">
 ⲓ
 </w>
 </phr>
 <phr>
-<w lemma="ⲥⲉ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
 </w>
-<w lemma="ϫⲟⲟ" type="V">
+<w lemma="ϫⲱ" type="V">
 ϫⲟⲟ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
@@ -573,7 +569,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ϯ" type="PPERS">
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ϯ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
@@ -590,7 +586,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲧⲁ" type="ACONJ_PPERS">
+<w lemma="ⲁⲛⲟⲕ_ⲛⲧⲉ" type="ACONJ_PPERS">
 ⲧⲁ
 </w>
 <w lemma="ⲧⲱⲣⲡ" type="V">
@@ -603,14 +599,16 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
-<w lemma="ⲧⲉⲓ" type="PDEM">
+<w lemma="ϯⲥⲃⲱ" type="V">
+<m>
 ⲧⲉⲓ
-</w>
-<w lemma="ⲥⲃⲱ" type="N">
+</m>
+<m>
 ⲥⲃⲱ
+</m>
 </w>
 </phr>
 <phr>
@@ -620,13 +618,13 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </phr>
 <lb n="2"/>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
-<w lemma="ⲟ" type="VSTAT">
+<w lemma="ⲉⲓⲣⲉ" type="VSTAT">
 ⲟ
 </w>
 </phr>
@@ -634,7 +632,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲛ" type="PREP">
 ⲛ
 </w>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲑ
 </w>
 <w lemma="ϩⲉ" type="N">
@@ -642,13 +640,13 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <lb n="3"/>
@@ -666,7 +664,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <lb n="4"/>
 <phr>
 <w lemma="ⲧⲁⲭⲁ" type="ADV" xml:lang="Greek">
-<hi rend="ekthetic">ⲧ</hi>ⲁⲭⲁ
+<hi rend="ekthetic">
+ⲧ
+</hi>
+ⲁⲭⲁ
 </w>
 </phr>
 <phr>
@@ -675,10 +676,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲕ" type="PPERS">
+<w lemma="ⲛⲧⲟⲕ" type="PPERS">
 ⲕ
 </w>
-<w lemma="ϩⲏⲡ" type="VSTAT">
+<w lemma="ϩⲱⲡ" type="VSTAT">
 ϩⲏⲡ
 </w>
 </phr>
@@ -696,7 +697,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ϫⲱ" type="V">
@@ -708,32 +709,42 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲛ" type="PREP">
 ⲛ
 </w>
-<w lemma="ⲛⲁⲓ" type="PDEM">
+<w lemma="ⲡⲁⲓ" type="PDEM">
 ⲛⲁⲓ̈
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲥϣⲁⲛ" type="ACOND_PPERS">
-ⲉⲥⲱⲁⲛ
+<w lemma="ⲉⲣϣⲁⲛ_ⲛⲧⲟⲥ" type="ACOND_PPERS">
+ⲉ
+ⲥ
+ⲱⲁⲛ
 </w>
 <w lemma="ⲧⲁϩⲟ" type="V">
 ⲧⲁ
 <lb n="7"/>
 ϩⲟ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <w lemma="ⲣⲙⲁⲓⲧⲟ" type="V">
-<m>ⲣ</m><m>ⲙⲁⲓ</m><m>ⲧⲟ</m>
+<m>
+ⲣ
+</m>
+<m>
+ⲙⲁⲓ
+</m>
+<m>
+ⲧⲟ
+</m>
 </w>
 </phr>
 <lb n="8"/>
@@ -753,10 +764,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
@@ -781,10 +792,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲉ" type="CPRET">
+<w lemma="ⲛⲉⲣⲉ" type="CPRET">
 ⲛⲉ
 </w>
-<w lemma="ⲕ" type="PPERS">
+<w lemma="ⲛⲧⲟⲕ" type="PPERS">
 ⲕ
 </w>
 <w lemma="ⲡⲗⲁⲛⲁ" type="V" xml:lang="Greek">
@@ -799,10 +810,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
-<w lemma="ⲕ" type="PPERS">
+<w lemma="ⲛⲧⲟⲕ" type="PPERS">
 ⲕ
 </w>
 <w lemma="ϫⲱ" type="V">
@@ -814,7 +825,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 ⲛ
 </w>
 <lb n="12"/>
-<w lemma="ⲛⲁⲓ" type="PDEM">
+<w lemma="ⲡⲁⲓ" type="PDEM">
 ⲛⲁⲓ̈
 </w>
 </phr>
@@ -828,7 +839,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <lb n="13"/>
 <phr>
 <w lemma="ⲉⲃⲟⲗ" type="ADV">
-<hi rend="ekthetic">ⲉ</hi>ⲃⲟⲗ
+<hi rend="ekthetic">
+ⲉ
+</hi>
+ⲃⲟⲗ
 </w>
 </phr>
 <phr>
@@ -852,7 +866,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ⲙⲟⲥⲧⲉ" type="V">
@@ -876,10 +890,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲟⲩⲛ" type="EXIST">
 ⲟⲩⲛ
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ⲕⲱⲙϣ" type="V">
@@ -891,10 +905,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲛⲥⲁ" type="PREP">
 ⲛⲥⲁ
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ϫⲱ" type="V">
@@ -906,7 +920,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 ⲛ
 </w>
 <lb n="17"/>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ⲙⲉ" type="N">
@@ -936,10 +950,13 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <s style="...">
 <lb n="19"/>
 <phr>
-<w lemma="ⲡⲉϫⲁ" type="VBD">
-<hi rend="ekthetic">ⲡ</hi>ⲉϫⲁ
+<w lemma="ⲡⲉϫⲉ" type="VBD">
+<hi rend="ekthetic">
+ⲡ
+</hi>
+ⲉϫⲁ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 </phr>
@@ -950,10 +967,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲛ
 </w>
-<w lemma="ϫⲉ" type="V">
+<w lemma="ϫⲱ" type="V">
 ϫⲉ
 </w>
 <lb n="20"/>
@@ -975,10 +992,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲛ
 </w>
-<w lemma="ϫⲉ" type="V">
+<w lemma="ϫⲱ" type="V">
 ϫⲉ
 </w>
 <lb n="21"/>
@@ -1012,7 +1029,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <lb n="23"/>
@@ -1024,7 +1041,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲙⲁⲣⲉ" type="AJUS">
 ⲙⲁⲣⲉ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <w lemma="ⲙⲟⲥⲧⲉ" type="V">
@@ -1044,24 +1061,27 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
-<w lemma="ⲙⲟⲕϩ" type="VSTAT">
+<w lemma="ⲙⲕⲁϩ" type="VSTAT">
 ⲙⲟⲕϩ
 </w>
 </phr>
 <lb n="25"/>
 <phr>
-<w lemma="ⲛϩⲏⲧ" type="PREP_PPERO">
-ⲛϩⲏⲧ
+<w lemma="ⲛ" type="PREP">
+ⲛ
+</w>
+<w lemma="ϩⲏⲧ" type="N">
+ϩⲏⲧ
 </w>
 </phr>
 <phr>
 <w lemma="ⲙⲁⲣⲉ" type="AJUS">
 ⲙⲁⲣⲉ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <lb n="26"/>
@@ -1079,20 +1099,23 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <p>
 <s style="...">
 <phr>
-<w lemma="ⲛ" type="PPERS">
-ⲛ
+<w lemma="ⲛⲛⲉ" type="ANEGOPT">
+ⲛⲛ
 </w>
-<w lemma="ⲛⲁ" type="FUT">
-ⲛⲁ
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
+ⲁ
 </w>
-<w lemma="ϯ" type="V">
+<w lemma="ϯⲗⲟⲅⲟⲥ" type="V">
+<m>
 ϯ
-</w>
+</m>
 <pb xml:id="GF32"/>
 <cb n="1"/>
 <lb n="1"/>
-<w lemma="ⲗⲟⲅⲟⲥ" type="N" xml:lang="Greek">
-ⲗⲟⲅⲟⲥ
+<m xml:lang="Greek">
+ⲗ
+ⲟⲅⲟⲥ
+</m>
 </w>
 </phr>
 <phr>
@@ -1101,7 +1124,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <w lemma="ⲡ" type="ART">
@@ -1129,22 +1152,22 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧⲉ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧⲉ
 </w>
 <lb n="3"/>
 <w lemma="ⲙⲛ" type="EXIST">
 ⲙⲛ
 </w>
-<w lemma="ⲛⲟⲩϥ" type="PPOS">
+<w lemma="ⲛⲟⲩϥⲉ" type="N">
 ⲛⲟⲩϥ
 </w>
 </phr>
 <phr>
-<w lemma="ⲛϩⲏⲧ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ⲛϩⲏⲧ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -1160,10 +1183,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <lb n="5"/>
@@ -1181,7 +1204,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 ⲛ
 </w>
 <lb n="6"/>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ⲙⲉ" type="N">
@@ -1208,39 +1231,42 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <lb n="7"/>
 <phr>
 <w lemma="ϫⲉ" type="CONJ">
-<hi rend="ekthetic">ϫ</hi>ⲉ̣
+<hi rend="ekthetic">
+ϫ
+</hi>
+ⲉ̣
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
-<w lemma="ϫⲉ" type="V">
+<w lemma="ϫⲱ" type="V">
 ϫⲉ
 </w>
-<w lemma="ⲛⲁⲓ" type="PDEM">
+<w lemma="ⲡⲁⲓ" type="PDEM">
 ⲛⲁⲓ
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧⲃⲏⲏⲧ" type="PREP">
+<w lemma="ⲉⲧⲃⲉ" type="PREP">
 ⲉⲧⲃⲏⲏ
 <lb n="8"/>
 ⲧ
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲁⲛⲟⲛ" type="PPERO">
 ⲛ
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
-<w lemma="ϩⲙ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ϩⲙ
 </w>
 <w lemma="ⲡ" type="ART">
@@ -1252,8 +1278,11 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </phr>
 <lb n="9"/>
 <phr>
-<w lemma="ϩⲙ" type="PREP">
-<hi rend="ekthetic">ϩ</hi>ⲙ
+<w lemma="ϩⲛ" type="PREP">
+<hi rend="ekthetic">
+ϩ
+</hi>
+ⲙ
 </w>
 <w lemma="ⲡ" type="ART">
 ⲡ
@@ -1280,7 +1309,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲛⲧⲉⲣⲉ" type="APREC">
 ⲛⲧⲉⲣⲉ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <w lemma="ⲛⲁⲩ" type="V">
@@ -1300,11 +1329,19 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲙ" type="ART">
+<w lemma="ⲛ" type="ART">
 ⲙ
 </w>
 <w lemma="ⲡⲉⲧϩⲟⲟⲩ" type="N">
-<m>ⲡ</m><m>ⲉⲑ</m><m>ⲟⲟⲩ</m>
+<m>
+ⲡ
+</m>
+<m>
+ⲉⲑ
+</m>
+<m>
+ⲟⲟⲩ
+</m>
 </w>
 </phr>
 <lb n="12"/>
@@ -1314,7 +1351,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ϩⲓϫⲙ" type="PREP">
+<w lemma="ϩⲓϫⲛ" type="PREP">
 ϩⲉⲓϫⲙ
 </w>
 <w lemma="ⲡ" type="ART">
@@ -1343,7 +1380,15 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 ⲡ
 </w>
 <w lemma="ϫⲓⲛϭⲟⲛⲥ" type="N">
-<m>ϫⲓ</m><m>ⲛ</m><m>ϭⲟⲛⲥ</m>
+<m>
+ϫⲓ
+</m>
+<m>
+ⲛ
+</m>
+<m>
+ϭⲟⲛⲥ
+</m>
 </w>
 </phr>
 <phr>
@@ -1358,13 +1403,21 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 ⲉⲧⲃⲉ
 </w>
 <lb n="15"/>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ⲙⲛⲧⲙⲁⲓϩⲟⲙⲛⲧ" type="N">
-<m>ⲙⲛⲧ</m><m>ⲙⲁⲓϩⲟ</m>
+<m>
+ⲙⲛⲧ
+</m>
+<m>
+ⲙⲁⲓ
+</m>
+<m>
+ϩⲟ
 <lb n="16"/>
-<m>ⲙⲛⲧ</m>
+ⲙⲛⲧ
+</m>
 </w>
 </phr>
 <phr>
@@ -1377,18 +1430,21 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <lb n="17"/>
 <phr>
 <w lemma="ⲁⲛⲧⲓ" type="PREP" xml:lang="Greek">
-<hi rend="ekthetic">ⲁ</hi>ⲛϯ
+<hi rend="ekthetic">
+ⲁ
+</hi>
+ⲛϯ
 </w>
 <w lemma="ⲧⲣⲉ" type="ACAUS">
 ⲧⲣⲉ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
-<w lemma="ϫⲟⲟ" type="V">
+<w lemma="ϫⲱ" type="V">
 ϫⲟⲟ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
@@ -1397,11 +1453,11 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲛ" type="PPERS">
-ⲛ
+<w lemma="ⲛⲛⲉ" type="ANEGOPT">
+ⲛⲛ
 </w>
-<w lemma="ⲛⲁ" type="FUT">
-ⲛⲁ
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
+ⲁ
 </w>
 <w lemma="ⲃⲱⲕ" type="V">
 ⲃⲱⲕ
@@ -1420,14 +1476,11 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛ" type="PREP">
 ⲛ
 </w>
-<w lemma="ⲥ" type="PPERS">
+<w lemma="ⲥⲟⲧⲡ" type="N">
 ⲥ
-</w>
-<w lemma="ⲟⲧⲡ" type="VSTAT">
-ⲟⲧⲡ
 </w>
 </phr>
 <lb n="20"/>
@@ -1437,14 +1490,11 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲁ" type="PREP">
-ⲛⲁ
+<w lemma="ⲛⲁⲛⲟⲩ" type="VBD">
+ⲛⲁⲛⲟⲩ
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲛ
-</w>
-<w lemma="ⲟⲩⲛ" type="EXIST">
-ⲟⲩⲛ
 </w>
 </phr>
 <phr>
@@ -1456,10 +1506,13 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <s style="...">
 <lb n="21"/>
 <phr>
-<w lemma="ⲡⲉϫⲁ" type="VBD">
-<hi rend="ekthetic">ⲡ</hi>ⲉϫⲁ
+<w lemma="ⲡⲉϫⲉ" type="VBD">
+<hi rend="ekthetic">
+ⲡ
+</hi>
+ⲉϫⲁ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 </phr>
@@ -1467,10 +1520,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲉ" type="CFOC">
+<w lemma="ⲉⲣⲉ" type="CFOC">
 ⲉ
 </w>
-<w lemma="ⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲛ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
@@ -1493,22 +1546,22 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲛ" type="PREP">
 ⲛ
 </w>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲑ
 </w>
-<w lemma="ⲉ" type="CREL">
+<w lemma="ϩⲉ" type="N">
 ⲉ
 </w>
 </phr>
 <lb n="23"/>
 <phr>
-<w lemma="ⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲛⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲛ" type="PPERS">
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
 ⲛ
 </w>
 <w lemma="ⲉⲓ" type="V">
@@ -1516,10 +1569,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙⲙⲟ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
@@ -1528,7 +1581,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲙⲡⲉ" type="ANEGPST">
 ⲙⲡⲉ
 </w>
-<w lemma="ⲛⲉⲛ" type="PPOS">
+<w lemma="ⲡⲉⲛ" type="PPOS">
 ⲛⲉⲛ
 </w>
 <w lemma="ⲭⲣⲏⲙⲁ" type="N" xml:lang="Greek">
@@ -1542,7 +1595,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲏⲩ" type="VSTAT">
+<w lemma="ⲉⲓ" type="VSTAT">
 ⲛⲛⲏⲩ
 </w>
 </phr>
@@ -1565,13 +1618,13 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲉ" type="CPRET">
+<w lemma="ⲛⲉⲣⲉ" type="CPRET">
 ⲛⲉ
 </w>
 <w lemma="ⲙⲛⲧⲁ" type="EXIST">
 ⲙⲛⲧⲁ
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <cb n="2"/>
@@ -1593,7 +1646,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛⲉ
 </w>
 <w lemma="ⲭⲣⲏⲙⲁ" type="N" xml:lang="Greek">
@@ -1610,7 +1663,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <lb n="3"/>
 <phr>
 <w lemma="ⲧⲉⲛⲟⲩ" type="ADV">
-<hi rend="ekthetic">ⲧ</hi>ⲉⲛⲟⲩ
+<hi rend="ekthetic">
+ⲧ
+</hi>
+ⲉⲛⲟⲩ
 </w>
 </phr>
 <phr>
@@ -1619,7 +1675,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛⲉ
 </w>
 <w lemma="ⲭⲣⲏⲙⲁ" type="N" xml:lang="Greek">
@@ -1637,12 +1693,11 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲡ" type="ART">
-ⲡ
+<w lemma="ⲡⲉⲓ" type="PDEM">
+ⲡⲉⲓ
 </w>
-<w lemma="ⲉⲓⲙⲁ" type="N">
-ⲉⲓ
 <lb n="5"/>
+<w lemma="ⲙⲁ" type="N">
 ⲙⲁ
 </w>
 </phr>
@@ -1659,7 +1714,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ⲕⲉ" type="ART">
@@ -1675,16 +1730,16 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ⲧⲏⲣ" type="IMOD">
 ⲧⲏⲣ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <lb n="7"/>
-<w lemma="ϣⲟⲩⲉⲓⲧ" type="VSTAT">
+<w lemma="ϣⲟⲩⲟ" type="VSTAT">
 ϣⲟⲩⲉⲓⲧ
 </w>
 </phr>
@@ -1696,7 +1751,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ⲛⲟⲃⲉ" type="N">
@@ -1710,22 +1765,27 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲥⲉ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
 </w>
 <w lemma="ⲣϣⲟⲣⲡ" type="V">
-<m>ⲉⲣ</m><m>ϣⲟⲣⲡ</m>
+<m>
+ⲉⲣ
+</m>
+<m>
+ϣⲟⲣⲡ
+</m>
 </w>
 </phr>
 <lb n="9"/>
 <phr>
-<w lemma="ⲉⲣⲟ" type="PREP">
+<w lemma="ⲉ" type="PREP">
 ⲉⲣⲟ
 </w>
-<w lemma="ⲛ" type="PPERO">
+<w lemma="ⲁⲛⲟⲛ" type="PPERO">
 ⲛ
 </w>
 </phr>
@@ -1742,19 +1802,19 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲥⲉ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
-<w lemma="ⲛⲏⲩ" type="VSTAT">
+<w lemma="ⲉⲓ" type="VSTAT">
 ⲛⲏⲩ
 </w>
 </phr>
 <lb n="10"/>
 <phr>
-<w lemma="ⲛⲙⲙⲁ" type="PREP">
+<w lemma="ⲙⲛ" type="PREP">
 ⲛⲙⲙⲁ
 </w>
-<w lemma="ⲛ" type="PPERO">
+<w lemma="ⲁⲛⲟⲛ" type="PPERO">
 ⲛ
 </w>
 </phr>
@@ -1771,26 +1831,26 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲥⲉ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
 <lb n="11"/>
 <w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
 </w>
-<w lemma="ⲟⲩⲁϩ" type="V">
+<w lemma="ⲟⲩⲱϩ" type="V">
 ⲟⲩⲁϩ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="PREP">
-ⲛ
+<w lemma="ⲛⲥⲁ" type="PREP">
+ⲛⲥⲱ
 </w>
-<w lemma="ⲥⲱⲛ" type="N">
-ⲥⲱⲛ
+<w lemma="ⲁⲛⲟⲛ" type="PPERO">
+ⲛ
 </w>
 </phr>
 <phr>
@@ -1803,7 +1863,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <lb n="12"/>
 <phr>
 <w lemma="ⲡⲗⲏⲛ" type="CONJ" xml:lang="Greek">
-<hi rend="ekthetic">ⲡ</hi>ⲗⲏⲛ
+<hi rend="ekthetic">
+ⲡ
+</hi>
+ⲗⲏⲛ
 </w>
 </phr>
 <phr>
@@ -1812,10 +1875,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲡ" type="ART">
+<w lemma="ⲡⲉ" type="COP">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
@@ -1825,25 +1888,29 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 <w lemma="ϣ" type="V">
 ϣ
 </w>
-<w lemma="ϣⲁϫⲉ" type="N">
+<w lemma="ϣⲁϫⲉ" type="V">
 ϣⲁϫⲉ
 </w>
 </phr>
 <phr>
-<w lemma="ⲉ" type="PREP">
+<w lemma="ⲉⲣⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ⲙⲛⲧⲧⲉⲗⲓⲟⲥ" type="N">
-<m>ⲙⲛⲧ</m>
+<m>
+ⲙⲛⲧ
+</m>
 <lb n="14"/>
-<m xml:lang="Greek">ⲧⲉⲗⲓⲟⲥ</m>
+<m xml:lang="Greek">
+ⲧⲉⲗⲓⲟⲥ
+</m>
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <w lemma="ⲡ" type="ART">
@@ -1856,7 +1923,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ⲙⲙⲁⲩ" type="ADV">
@@ -1864,7 +1931,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <lb n="16"/>
@@ -1888,7 +1955,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲉϥ" type="PPOS">
+<w lemma="ⲡⲉϥ" type="PPOS">
 ⲛⲉϥ
 </w>
 <lb n="17"/>
@@ -1905,7 +1972,7 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧⲉ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉ
 <lb n="18"/>
 ⲧⲉ
@@ -1920,10 +1987,10 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲛϩⲏⲧ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ⲛϩⲏⲧ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -1942,13 +2009,13 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲛ" type="PREP">
+<w lemma="ⲙⲛ" type="EXIST">
 ⲙⲛ
 </w>
 <w lemma="ⲧⲣⲉ" type="ACAUS">
 ⲧⲣⲉ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <w lemma="ⲁⲣⲉⲥ" type="V">
@@ -1969,9 +2036,19 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 ⲛ
 </w>
 <w lemma="ⲣⲉϥϫⲓⲛϭⲟⲛⲥ" type="N">
-<m>ⲣⲉϥ</m>
+<m>
+ⲣⲉϥ
+</m>
 <lb n="22"/>
-<m>ϫⲓⲛ</m><m>ϭⲟⲛⲥ</m>
+<m>
+ϫⲓ
+</m>
+<m>
+ⲛ
+</m>
+<m>
+ϭⲟⲛⲥ
+</m>
 </w>
 </phr>
 <phr>
@@ -2040,23 +2117,24 @@ The parallel witness in MONB.CZ 25-26 has not yet been digitized.
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧⲉ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧⲉ
 </w>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛ" type="NEG">
 ⲛ
 </w>
 <lb n="26"/>
-<w lemma="ⲥⲉ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
-<w lemma="ⲥⲟⲩⲧⲱⲛ" type="VSTAT">
+<w lemma="ⲥⲟⲟⲩⲧⲛ" type="VSTAT">
 ⲥⲟⲩⲧⲱⲛ
 </w>
 </phr>
 <phr>
 <w lemma="ⲁⲛ" type="NEG">
-ⲁⲛ
+ⲁ
+ⲛ
 </w>
 </phr>
 </s>

@@ -56,6 +56,7 @@ div.copt_line[line="50"]:before{content:attr(line)"\00a0\00a0"}
 
 /*div.copt_line[line="5"]:first-child{padding-top:110px;}*/
 div.copt_line[line="2"]:first-child{padding-top:22px;}
+div.copt_line[line="3"]:first-child{padding-top:44px;}
 div.copt_line[line="4"]:first-child{padding-bottom:5px;}
 div.copt_line[line="9"]:first-child{padding-top:176px;}
 div.copt_line[line="13"]:first-child{padding-top:264px;}
@@ -81,7 +82,7 @@ div.copt_line:nth-of-type(5){text-indent:15px;}*/
 div.copt_line{display: block; white-space:nowrap; counter-increment: line ; height: 22px}
 
 hi_rend[rend~=superscript] {vertical-align: super; font-size: 80%}
-hi_rend[rend~=subcript] {vertical-align: sub; font-size: 80%}
+hi_rend[rend~=subscript] {vertical-align: sub; font-size: 80%}
 hi_rend[rend*=red] {color: red}
 hi_rend[rend*=blue] {color: blue}
 hi_rend[rend*=brown] {color: brown}

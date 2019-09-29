@@ -1,18 +1,20 @@
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest" ?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>I See Your Eagerness: GL61-63</title>
+<title ref="urn:cts:copticLit:shenoute.eagerness.monbgl_61_63">I See Your Eagerness: GL61-63</title>
 <author>Shenoute</author>
+<respStmt>
+<resp>source</resp>
+<name>David Brakke</name>
+</respStmt>
 <respStmt>
 <resp>annotation</resp>
 <name>Rebecca Krawiec, Caroline T. Schroeder</name>
 </respStmt>
 <respStmt>
-<resp>source</resp>
-<name>David Brakke</name>
+<resp>translation</resp>
+<name>none</name>
 </respStmt>
 </titleStmt>
 <publicationStmt>
@@ -26,24 +28,19 @@
 		<msIdentifier>
 			<msName>MONB.GL</msName>
 		</msIdentifier>
-		<msContents>
-			<summary>
-				<title n="5" type="Discourses">Discourses 5</title>
-			</summary>
-		</msContents>
 		<history>
 			<origin>
 				<objectType>codex</objectType>
 				<country>Egypt</country>
 				<placeName>Atripe</placeName>
 				<origPlace>White Monastery</origPlace>
-				<origDate precision="medium" notBefore="0900" notAfter="1200">between 900 and 1200 C.E.</origDate>
+				<origDate></origDate>
 			</origin>
 		</history>
 		<msPart>
 			<msIdentifier>
 				<repository>Bibliothèque Nationale de France</repository>
-				<collection>Manuscrits Copte</collection>
+				<collection>Manuscrits coptes</collection>
 				<idno>FR-BN 130(3) ff. 76r-77r</idno>
 			</msIdentifier>
 			<msContents>
@@ -52,16 +49,10 @@
 					<textLang>Sahidic Coptic</textLang>
 					<incipit/>
 					<title>I See Your Eagerness: GL61-63</title>
-					<note>Transcribed in Paris by David Brakke, March 2010.  Transcription does not record spaces and paleographic rendition of letters other than ekthetics. David Brakke and Andrew Crislip published a translation of I See Your Eagerness in their book Selected Discourses of Shenoute the Great (Cambridge University Press, 2015), pp. 101-102.</note>
 				</msItem>
 			</msContents>
 		</msPart>
 	</msDesc>
-	<listWit>
-		<witness>
-urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
-		</witness>
-	</listWit>
 	<listBibl>
 		<bibl>Amélineau 1907–14, 2:63–67</bibl>
 	</listBibl>
@@ -76,11 +67,13 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 		<language ident="cop">Sahidic Coptic</language>
 	</langUsage>
 </profileDesc>
+<revisionDesc>
+	<change n="3.0.0" when="2019-09-30"></change>
+</revisionDesc>
 
 </teiHeader>
 <text>
 <body>
-
 <pb xml:id="GL61"/>
 <p>
 <cb n="1"/>
@@ -88,7 +81,8 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <lb n="1"/>
 <phr>
 <w lemma="ⲟⲩⲇⲉ" type="CONJ" xml:lang="Greek">
-ⲟⲩⲇ︤ⲉ
+ⲟ
+ⲩⲇ︤ⲉ
 </w>
 </phr>
 <phr>
@@ -100,7 +94,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ϩⲱⲱ" type="IMOD">
 ϩⲱⲱ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -118,10 +112,10 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲛⲉ" type="CPRET">
+<w lemma="ⲛⲉⲣⲉ" type="CPRET">
 ⲛⲉ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
@@ -158,7 +152,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲙⲛ" type="PREP">
 ⲙⲛ
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ϩⲓⲣ" type="N">
@@ -179,7 +173,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <w lemma="ⲡⲟⲩ" type="PPOS">
@@ -199,26 +193,29 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <lb n="6"/>
 <phr>
 <w lemma="ⲛⲧⲟ" type="PPERI">
-<hi rend="ekthetic">ⲛ</hi>ⲧⲟ
+<hi rend="ekthetic">
+ⲛ
+</hi>
+ⲧⲟ
 </w>
 </phr>
 <phr>
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲛⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲣ" type="V">
+<w lemma="ⲉⲓⲣⲉ" type="V">
 ⲣ
 </w>
 <w lemma="ⲧⲥⲁⲃⲟ" type="V">
 ⲧⲥⲁⲃⲟ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -227,7 +224,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲙ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲙ
 </w>
 <w lemma="ⲙⲟⲉⲓⲧ" type="N">
@@ -242,7 +239,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛ
 </w>
 <w lemma="ⲉⲓ" type="V">
@@ -276,7 +273,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛ
 </w>
 <w lemma="ⲃⲱⲕ" type="V">
@@ -303,32 +300,35 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <lb n="10"/>
 <phr>
 <w lemma="ⲛⲧⲟ" type="PPERI">
-<hi rend="ekthetic">ⲛ</hi>ⲧⲟ
+<hi rend="ekthetic">
+ⲛ
+</hi>
+ⲧⲟ
 </w>
 </phr>
 <phr>
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲛⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
-<w lemma="ϩⲟⲡ" type="V">
+<w lemma="ϩⲱⲡ" type="V">
 ϩⲟⲡ︤︥
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
 <lb n="11"/>
 <phr>
-<w lemma="ϩⲙ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ϩⲙ
 </w>
 <w lemma="ⲡⲟⲩ" type="PPOS">
@@ -343,7 +343,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 ⲙ︤ⲛ︥
 </w>
 <lb n="12"/>
-<w lemma="ⲧⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲧⲟⲩ
 </w>
 <w lemma="ⲯⲩⲭⲏ" type="N" xml:lang="Greek">
@@ -368,7 +368,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲛ" type="PREP">
 ⲛ
 </w>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲑ
 </w>
 <w lemma="ϩⲉ" type="N">
@@ -395,13 +395,13 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲥ" type="PPERS">
+<w lemma="ⲛⲧⲟⲥ" type="PPERS">
 ⲥ
 </w>
 <lb n="15"/>
@@ -410,16 +410,16 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
-<w lemma="ⲟ" type="VSTAT">
+<w lemma="ⲉⲓⲣⲉ" type="VSTAT">
 ⲟ
 </w>
 </phr>
@@ -435,7 +435,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 ⲛ̄
 </w>
 <lb n="16"/>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ⲟⲉⲓⲕ" type="N">
@@ -443,10 +443,10 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲣⲟ" type="PREP">
+<w lemma="ⲉ" type="PREP">
 ⲉⲣⲟ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
@@ -454,7 +454,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲛ︥
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ̄
 </w>
 <lb n="17"/>
@@ -479,7 +479,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 ϩⲛ
 </w>
 <lb n="18"/>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ⲕⲗϫⲉ" type="N">
@@ -487,7 +487,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <w lemma="ⲡⲉⲥ" type="PPOS">
@@ -500,26 +500,29 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <lb n="19"/>
 <phr>
 <w lemma="ⲛⲧⲟ" type="PPERI">
-<hi rend="ekthetic">ⲛ</hi>ⲧⲟ
+<hi rend="ekthetic">
+ⲛ
+</hi>
+ⲧⲟ
 </w>
 </phr>
 <phr>
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲛⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲣ" type="PPERS">
+<w lemma="ⲛⲧⲟ" type="PPERS">
 ⲣ
 </w>
-<w lemma="ⲛⲧ" type="V">
+<w lemma="ⲉⲓⲛⲉ" type="V">
 ⲛⲧ︤︥
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -530,7 +533,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲉϫⲙ" type="PREP">
+<w lemma="ⲉϫⲛ" type="PREP">
 ⲉϫⲙ
 </w>
 <w lemma="ⲡ" type="ART">
@@ -553,7 +556,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <lb n="21"/>
 ⲧⲉⲣⲉ
 </w>
-<w lemma="ⲡⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
 <w lemma="ⲭⲣⲏⲙⲁ" type="N" xml:lang="Greek">
@@ -562,7 +565,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </phr>
 <lb n="22"/>
 <phr>
-<w lemma="ϩⲏⲡ" type="VSTAT">
+<w lemma="ϩⲱⲡ" type="VSTAT">
 ϩⲏⲡ
 </w>
 </phr>
@@ -595,25 +598,30 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲛⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲣ" type="PPERS">
+<w lemma="ⲛⲧⲟ" type="PPERS">
 ⲣ
 </w>
 <w lemma="ϯⲙⲁⲉⲓⲛ" type="V">
-<m>ϯ</m><m>ⲙⲁⲉⲓⲛ</m>
+<m>
+ϯ
+</m>
+<m>
+ⲙⲁⲉⲓⲛ
+</m>
 </w>
 </phr>
 <lb n="24"/>
 <phr>
-<w lemma="ⲉⲣⲟ" type="PREP">
+<w lemma="ⲉ" type="PREP">
 ⲉⲣⲟ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -621,7 +629,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲛⲁ" type="PREP">
 ⲛⲁ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -635,9 +643,12 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <lb n="25"/>
 <phr>
 <w lemma="ⲙⲟϣⲧ" type="V">
-<hi rend="ekthetic">ⲙ</hi>ⲟϣⲧ
+<hi rend="ekthetic">
+ⲙ
+</hi>
+ⲟϣⲧ
 </w>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
 </phr>
@@ -647,7 +658,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ⲡⲁⲣⲑⲉⲛⲟⲥ" type="N" xml:lang="Greek">
@@ -677,7 +688,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <lb n="27"/>
 ⲧ
 </w>
-<w lemma="ⲉ" type="PPERO">
+<w lemma="ⲛⲧⲟ" type="PPERO">
 ⲉ
 </w>
 </phr>
@@ -697,7 +708,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲧⲏⲣ" type="IMOD">
 ⲧⲏⲣ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -712,7 +723,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲧⲁⲣ" type="AFUTCONJ">
 ⲧⲁⲣ
 </w>
-<w lemma="ⲉ" type="PPERS">
+<w lemma="ⲛⲧⲟ" type="PPERS">
 ⲉ
 </w>
 <w lemma="ⲉⲓⲙⲉ" type="V">
@@ -732,21 +743,21 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧⲉ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧⲉ
 </w>
-<w lemma="ⲙⲡ" type="ANEGPST">
+<w lemma="ⲙⲡⲉ" type="ANEGPST">
 ⲙ̄ⲡ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ⲉϥ
 </w>
 <cb n="2"/>
 <lb n="1"/>
-<w lemma="ϥⲓⲧ" type="V">
+<w lemma="ϥⲓ" type="V">
 ϥⲓⲧ︤︥
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -754,20 +765,20 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ϩⲛ" type="PREP">
 ϩⲛ︥
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
-<w lemma="ϣⲟⲟⲡ" type="VSTAT">
+<w lemma="ϣⲱⲡⲉ" type="VSTAT">
 ϣⲟ
 <lb n="2"/>
 ⲟⲡ
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲉ" type="COP">
+<w lemma="ⲡⲉ" type="COP">
 ⲛⲉ
 </w>
 </phr>
@@ -781,7 +792,10 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <s style="...">
 <phr>
 <w lemma="ⲡⲟⲩ" type="PPOS">
-<hi rend="ekthetic">ⲡ</hi>ⲟⲩ
+<hi rend="ekthetic">
+ⲡ
+</hi>
+ⲟⲩ
 </w>
 <w lemma="ⲧⲃⲃⲟ" type="N">
 ⲧⲃⲃⲟ
@@ -803,7 +817,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <lb n="4"/>
@@ -812,7 +826,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲡⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
 <w lemma="ϣⲗⲏⲗ" type="N">
@@ -826,7 +840,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <w lemma="ⲯⲉⲗⲓⲟⲛ" type="N" xml:lang="Greek">
@@ -845,7 +859,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 ⲙⲛ
 </w>
 <lb n="6"/>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ⲝⲟⲩⲣ" type="N" xml:lang="Greek">
@@ -853,7 +867,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <w lemma="ⲙⲓⲛⲉ" type="N">
@@ -868,13 +882,13 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ϩⲛ" type="PREP">
 ϩⲛ
 </w>
-<w lemma="ⲛⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲛⲟⲩ
 </w>
 <w lemma="ϭⲓϫ" type="N">
@@ -886,7 +900,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲙⲛ" type="PREP">
 ⲙⲛ
 </w>
-<w lemma="ⲛⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲛⲟⲩ
 </w>
 <w lemma="ⲧⲏⲏⲃⲉ" type="N">
@@ -895,15 +909,20 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </phr>
 <lb n="9"/>
 <phr>
-<w lemma="ⲧⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲧⲟⲩ
 </w>
 <w lemma="ϭⲓⲛⲙⲟⲟϣⲉ" type="N">
-<m>ϭⲓⲛ</m><m>ⲙⲟⲟϣⲉ</m>
+<m>
+ϭⲓⲛ
+</m>
+<m>
+ⲙⲟⲟϣⲉ
+</m>
 </w>
 </phr>
 <phr>
-<w lemma="ⲧⲉ" type="COP">
+<w lemma="ⲡⲉ" type="COP">
 ⲧⲉ
 </w>
 </phr>
@@ -916,12 +935,17 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 ⲟⲩ
 </w>
 <w lemma="ⲙⲛⲧⲣⲙϩⲉ" type="N">
-<m>ⲙⲛⲧ</m><m>ⲣⲙϩⲉ</m>
+<m>
+ⲙⲛⲧ
+</m>
+<m>
+ⲣⲙϩⲉ
+</m>
 </w>
 </phr>
 <lb n="11"/>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <w lemma="ⲡⲉⲗⲓⲥ" type="N" xml:lang="Greek">
@@ -936,13 +960,13 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ϩⲛ" type="PREP">
 ϩⲛ
 </w>
-<w lemma="ⲛⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲛⲟⲩ
 </w>
 <lb n="12"/>
@@ -958,17 +982,21 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲧⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲧⲟⲩ
 </w>
 <w lemma="ⲙⲛⲧⲥⲧⲙⲏⲧ" type="N">
-<m>ⲙⲛⲧ</m>
+<m>
+ⲙⲛⲧ
+</m>
 <lb n="13"/>
-<m>ⲥⲧⲙⲏⲧ</m>
+<m>
+ⲥⲧⲙⲏⲧ
+</m>
 </w>
 </phr>
 <phr>
-<w lemma="ⲧⲉ" type="COP">
+<w lemma="ⲡⲉ" type="COP">
 ⲧⲉ
 </w>
 </phr>
@@ -990,13 +1018,13 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ϩⲛ" type="PREP">
 ϩ︤ⲛ︥
 </w>
-<w lemma="ⲛⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲛⲟⲩ
 </w>
 <lb n="15"/>
@@ -1005,7 +1033,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲡⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
 <w lemma="ⲑⲃⲃⲓⲟ" type="N">
@@ -1019,7 +1047,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲡⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
 <w lemma="ⲕⲣⲓⲕⲟⲥ" type="N" xml:lang="Greek">
@@ -1048,7 +1076,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ⲕⲁⲕⲟ" type="N">
@@ -1065,10 +1093,10 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
-<w lemma="ϩⲙ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ϩⲙ
 </w>
 <w lemma="ⲡⲟⲩ" type="PPOS">
@@ -1088,7 +1116,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲧⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲧⲟⲩ
 </w>
 <w lemma="ⲉⲡⲓⲥⲧⲏⲙⲉⲓ" type="N" xml:lang="Greek">
@@ -1098,7 +1126,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲧⲉ" type="COP">
+<w lemma="ⲡⲉ" type="COP">
 ⲧⲉ
 </w>
 </phr>
@@ -1119,13 +1147,13 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </phr>
 <lb n="21"/>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ϩⲓϫⲛ" type="PREP">
 ϩⲓϫ︤ⲛ︥
 </w>
-<w lemma="ⲧⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲧⲟⲩ
 </w>
 <w lemma="ⲁⲡⲉ" type="N">
@@ -1139,7 +1167,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ⲕⲱⲧⲉ" type="V">
@@ -1150,7 +1178,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲧⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲧⲟⲩ
 </w>
 <lb n="23"/>
@@ -1159,7 +1187,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲛⲟⲩ
 </w>
 <w lemma="ⲛⲏⲥⲧⲉⲓⲁ" type="N" xml:lang="Greek">
@@ -1169,7 +1197,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲉ" type="COP">
+<w lemma="ⲡⲉ" type="COP">
 ⲛⲉ
 </w>
 </phr>
@@ -1181,7 +1209,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ⲭⲁⲗⲓⲛⲟⲥ" type="N" xml:lang="Greek">
@@ -1191,7 +1219,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <w lemma="ⲡⲟⲩ" type="PPOS">
@@ -1203,7 +1231,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </phr>
 <lb n="26"/>
 <phr>
-<w lemma="ⲛⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲛⲟⲩ
 </w>
 <w lemma="ⲙⲉⲗⲉⲧⲁ" type="V" xml:lang="Greek">
@@ -1211,13 +1239,13 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲉ" type="COP">
+<w lemma="ⲡⲉ" type="COP">
 ⲛⲉ
 </w>
 </phr>
 <lb n="27"/>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <w lemma="ⲡ" type="ART">
@@ -1228,7 +1256,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄
 </w>
 <w lemma="ⲡ" type="ART">
@@ -1260,7 +1288,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 ⲛ̄
 </w>
 <lb n="29"/>
-<w lemma="ⲛⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲛⲟⲩ
 </w>
 <w lemma="ⲟⲩⲉⲣⲏⲧⲉ" type="N">
@@ -1277,7 +1305,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <p>
 <s style="...">
 <phr>
-<w lemma="ⲛⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲛⲟⲩ
 </w>
 <lb n="30"/>
@@ -1286,13 +1314,13 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ⲛⲁⲛⲟⲩ" type="VBD">
 ⲛⲁⲛⲟⲩ
 </w>
-<w lemma="ⲟⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲟⲩ
 </w>
 </phr>
@@ -1300,8 +1328,9 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <cb n="1"/>
 <lb n="1"/>
 <phr>
-<w lemma="ⲛⲉ" type="COP">
-ⲛⲉ
+<w lemma="ⲡⲉ" type="COP">
+ⲛ
+ⲉ
 </w>
 </phr>
 <phr>
@@ -1312,7 +1341,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ϩⲟⲉⲓⲧⲉ" type="N">
@@ -1320,28 +1349,28 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <lb n="2"/>
-<w lemma="ⲥⲟⲧⲡ" type="VSTAT">
+<w lemma="ⲥⲱⲧⲡ" type="VSTAT">
 ⲥⲟⲧⲡ
 </w>
 </phr>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
-<w lemma="ϣⲁ" type="AAOR">
+<w lemma="ϣⲁⲣⲉ" type="AAOR">
 ϣⲁ
 </w>
-<w lemma="ⲣ" type="PPERS">
+<w lemma="ⲛⲧⲟ" type="PPERS">
 ⲣ
 </w>
-<w lemma="ⲧⲁⲁ" type="V">
+<w lemma="ϯ" type="V">
 ⲧⲁⲁ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
 </phr>
@@ -1355,7 +1384,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲡⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
 <w lemma="ϩⲙⲟⲧ" type="N">
@@ -1379,7 +1408,9 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <s style="...">
 <phr>
 <w lemma="ⲡ" type="ART">
-<hi rend="ekthetic">ⲡ</hi>
+<hi rend="ekthetic">
+ⲡ
+</hi>
 </w>
 <w lemma="ⲥⲟϭⲛ" type="N">
 ⲥⲟϭⲛ
@@ -1407,19 +1438,19 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </phr>
 <lb n="6"/>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
-<w lemma="ϣⲁ" type="AAOR">
+<w lemma="ϣⲁⲣⲉ" type="AAOR">
 ϣⲁ
 </w>
-<w lemma="ⲣ" type="PPERS">
+<w lemma="ⲛⲧⲟ" type="PPERS">
 ⲣ
 </w>
-<w lemma="ⲧⲁϩⲥ" type="V">
+<w lemma="ⲧⲱϩⲥ" type="V">
 ⲧⲁϩⲥ
 </w>
-<w lemma="ⲉ" type="PPERO">
+<w lemma="ⲛⲧⲟ" type="PPERO">
 ⲉ
 </w>
 </phr>
@@ -1431,11 +1462,11 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙⲙⲟ
 </w>
 <lb n="7"/>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -1445,16 +1476,16 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛ
 </w>
-<w lemma="s" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
-<w lemma="ⲧⲁⲁ" type="V">
+<w lemma="ϯ" type="V">
 ⲧⲁⲁ
 </w>
-<w lemma="ⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲩ
 </w>
 </phr>
@@ -1463,7 +1494,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲉϫⲛ" type="PREP">
 ⲉϫⲛ
 </w>
-<w lemma="ⲧⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲧⲟⲩ
 </w>
 <w lemma="ⲁⲡⲉ" type="N">
@@ -1478,7 +1509,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ⲙⲉ" type="N">
@@ -1487,7 +1518,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </phr>
 <lb n="9"/>
 <phr>
-<w lemma="ⲧⲉ" type="COP">
+<w lemma="ⲡⲉ" type="COP">
 ⲧⲉ
 </w>
 </phr>
@@ -1499,7 +1530,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲧⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧⲉ
 </w>
 <w lemma="ⲥⲫⲁⲅⲓⲁ" type="N" xml:lang="Greek">
@@ -1508,47 +1539,60 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </phr>
 <lb n="10"/>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
-<hi rend="ekthetic">ⲉ</hi>
+<w lemma="ⲉⲣⲉ" type="CCIRC">
+<hi rend="ekthetic">
+ⲉ
+</hi>
 </w>
-<w lemma="ϣⲁ" type="AAOR">
+<w lemma="ϣⲁⲣⲉ" type="AAOR">
 ϣⲁ
 </w>
-<w lemma="ⲣ" type="PPERS">
+<w lemma="ⲛⲧⲟ" type="PPERS">
 ⲣ
 </w>
-<w lemma="ⲙⲟⲣ" type="V">
+<w lemma="ⲙⲟⲩⲣ" type="V">
 ⲙⲟⲣ
 </w>
-<w lemma="ⲉ" type="PPERO">
+<w lemma="ⲛⲧⲟ" type="PPERO">
 ⲉ
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙⲙⲟ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
 <lb n="11"/>
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ⲙⲛⲧⲣⲙⲛϩⲏⲧ" type="N">
-<m>ⲙⲛⲧ</m><m>ⲣⲙ</m><m>ⲛ</m><m>ϩⲏⲧ</m>
+<m>
+ⲙⲛⲧ
+</m>
+<m>
+ⲣⲙ
+</m>
+<m>
+ⲛ
+</m>
+<m>
+ϩⲏⲧ
+</m>
 </w>
 </phr>
 <lb n="12"/>
 <phr>
-<w lemma="ⲧⲉ" type="COP">
+<w lemma="ⲡⲉ" type="COP">
 ⲧⲉ
 </w>
 </phr>
 <phr>
-<w lemma="ⲡⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
 <w lemma="ⲣϣⲱⲛ" type="N">
@@ -1563,60 +1607,63 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
 <lb n="13"/>
-<w lemma="ϣⲁⲣ" type="AAOR_PPERS">
+<w lemma="ϣⲁⲣⲉ_ⲛⲧⲟ" type="AAOR_PPERS">
 ϣⲁⲣ
 </w>
-<w lemma="ϭⲟⲟⲗⲉ" type="VSTAT">
+<w lemma="ϭⲱⲱⲗⲉ" type="VSTAT">
 ϭⲟⲟⲗⲉ
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ̄ⲙⲟ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
 <lb n="14"/>
 <phr>
-<w lemma="ⲛⲁⲓ" type="PDEM">
-<hi rend="ekthetic">ⲛ</hi>ⲁⲓ
+<w lemma="ⲡⲁⲓ" type="PDEM">
+<hi rend="ekthetic">
+ⲛ
+</hi>
+ⲁⲓ
 </w>
 </phr>
 <phr>
 <w lemma="ⲙⲛ" type="PREP">
 ⲙⲛ
 </w>
-<w lemma="ⲛⲉⲓ" type="PDEM">
+<w lemma="ⲡⲉⲓ" type="PDEM">
 ⲛⲉⲓ
 </w>
-<w lemma="ⲕⲟⲟⲩⲉ" type="N">
+<w lemma="ⲕⲉ" type="N">
 ⲕⲟⲟⲩⲉ
 </w>
 </phr>
 <lb n="15"/>
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
-<w lemma="ⲉⲧⲉ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧⲉ
 </w>
 <w lemma="ⲙⲡⲉ" type="ANEGPST">
 ⲙⲡⲉ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
-<w lemma="ϥⲓⲧ" type="V">
+<w lemma="ϥⲓ" type="V">
 ϥⲓⲧ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -1625,7 +1672,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲧⲏⲣ" type="IMOD">
 ⲧⲏⲣ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -1637,13 +1684,13 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
-<w lemma="ⲧⲟⲟⲧ" type="N">
+<w lemma="ⲧⲱⲣⲉ" type="N">
 ⲧⲟⲟⲧ
 </w>
-<w lemma="ⲉ" type="PPERO">
+<w lemma="ⲛⲧⲟ" type="PPERO">
 ⲉ
 </w>
 </phr>
@@ -1657,7 +1704,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲡⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
 <w lemma="ⲥⲧⲏⲙ" type="N">
@@ -1669,13 +1716,13 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
-<w lemma="ϣⲟⲩⲱ" type="V">
+<w lemma="ϣⲟⲩⲟ" type="V">
 ϣⲟⲩⲱ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -1689,7 +1736,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ϩⲛ" type="PREP">
 ϩⲛ
 </w>
-<w lemma="ⲛⲉϥ" type="PPOS">
+<w lemma="ⲡⲉϥ" type="PPOS">
 ⲛⲉϥ
 </w>
 <w lemma="ϩⲛⲁⲁⲩ" type="N">
@@ -1707,14 +1754,14 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 <lb n="20"/>
-<w lemma="ϥⲓⲧ" type="V">
+<w lemma="ϥⲓ" type="V">
 ϥⲓⲧ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -1726,13 +1773,17 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ⲙⲛⲧϣⲁⲩ" type="N">
-<m>ⲙⲛⲧ</m>
+<m>
+ⲙⲛⲧ
+</m>
 <lb n="21"/>
-<m>ϣⲁⲩ</m>
+<m>
+ϣⲁⲩ
+</m>
 </w>
 </phr>
 <phr>
@@ -1757,25 +1808,25 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </phr>
 <lb n="22"/>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ⲛⲁⲛⲟⲩ" type="VBD">
 ⲛⲁⲛⲟⲩ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ϩⲛ" type="PREP">
 ϩⲛ
 </w>
 <lb n="23"/>
-<w lemma="ⲛⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲛⲟⲩ
 </w>
 <w lemma="ⲃⲁⲗ" type="N">
@@ -1791,13 +1842,16 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <lb n="24"/>
 <s style="...">
 <phr>
-<w lemma="ⲛⲧ" type="CREL">
-<hi rend="ekthetic">ⲛ</hi>ⲧ
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
+<hi rend="ekthetic">
+ⲛ
+</hi>
+ⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲧⲁⲓ" type="PDEM">
+<w lemma="ⲡⲁⲓ" type="PDEM">
 ⲧⲁⲓ
 </w>
 </phr>
@@ -1809,7 +1863,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ︤
 </w>
 <w lemma="ⲙⲙⲁⲩ" type="ADV">
@@ -1818,15 +1872,15 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </phr>
 <lb n="25"/>
 <phr>
-<w lemma="ϫⲟⲟ" type="V">
+<w lemma="ϫⲱ" type="V">
 ϫⲟⲟ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲛⲁϩⲣⲙ" type="PREP">
+<w lemma="ⲛⲛⲁϩⲣⲛ" type="PREP">
 ⲛⲛⲁϩⲣⲙ
 </w>
 </phr>
@@ -1843,11 +1897,12 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ϯ" type="PPERS">
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ϯ
 </w>
 <w lemma="ⲛⲁ" type="FUT">
-ⲛⲁ·
+ⲛⲁ
+·
 </w>
 <w lemma="ⲁⲙⲁϩⲧⲉ" type="V">
 ⲁⲙⲁϩ
@@ -1856,10 +1911,10 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙⲙⲟ
 </w>
-<w lemma="ⲕ" type="PPERO">
+<w lemma="ⲛⲧⲟⲕ" type="PPERO">
 ⲕ
 </w>
 </phr>
@@ -1871,18 +1926,18 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛ
 </w>
 <w lemma="ⲧⲁ" type="PPERS">
 ⲧⲁ
 </w>
-<w lemma="ϫⲓⲧ" type="V">
+<w lemma="ϫⲓ" type="V">
 ϫⲓ
 <lb n="28"/>
 ⲧ
 </w>
-<w lemma="ⲕ" type="PPERO">
+<w lemma="ⲛⲧⲟⲕ" type="PPERO">
 ⲕ
 </w>
 </phr>
@@ -1907,7 +1962,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲛ" type="PREP">
 ⲛ
 </w>
-<w lemma="ⲧⲁ" type="PPOS">
+<w lemma="ⲡⲁ" type="PPOS">
 ⲧⲁ
 </w>
 <w lemma="ⲙⲁⲁⲩ" type="N">
@@ -1942,16 +1997,16 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲛ" type="PREP">
 ⲛ
 </w>
-<w lemma="ⲧⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧⲉ
 </w>
-<w lemma="ⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲛⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲥ" type="PPERS">
+<w lemma="ⲛⲧⲟⲥ" type="PPERS">
 ⲥ
 </w>
 <w lemma="ⲱⲱ" type="V">
@@ -1960,19 +2015,21 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </phr>
 <lb n="2"/>
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙⲙⲟ
 </w>
-<w lemma="ⲓ" type="PPERO">
+<w lemma="ⲁⲛⲟⲕ" type="PPERO">
 ⲓ
 </w>
 </phr>
 <lb n="3"/>
 <phr>
 <w lemma="ⲛ" type="PREP">
-<hi rend="ekthetic">ⲛ</hi>
+<hi rend="ekthetic">
+ⲛ
+</hi>
 </w>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲑ
 </w>
 <w lemma="ϩⲉ" type="N">
@@ -1989,7 +2046,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 ⲉⲧⲉⲣⲉ
 </w>
 <lb n="4"/>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ⲡⲁⲣⲑⲉⲛⲟⲥ" type="N" xml:lang="Greek">
@@ -2016,7 +2073,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ϩⲁⲣⲉϩ" type="V">
@@ -2027,7 +2084,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲛⲁ" type="PREP">
 ⲛⲁ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
@@ -2036,11 +2093,22 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲧⲉⲥ" type="PPOS">
+<w lemma="ⲡⲉⲥ" type="PPOS">
 ⲧⲉⲥ
 </w>
 <w lemma="ⲙⲛⲧⲣⲙⲙⲁⲟ" type="N">
-<m>ⲙⲛⲧ</m><m>ⲣⲙⲙⲁⲟ</m>
+<m>
+ⲙⲛⲧ
+</m>
+<m>
+ⲣⲙ
+</m>
+<m>
+ⲙ
+</m>
+<m>
+ⲁⲟ
+</m>
 </w>
 </phr>
 <lb n="7"/>
@@ -2048,7 +2116,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲧⲏⲣ" type="IMOD">
 ⲧⲏⲣ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
@@ -2056,10 +2124,10 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ϩⲛ" type="PREP">
 ϩⲛ
 </w>
-<w lemma="ⲛⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛⲉ
 </w>
-<w lemma="ϩⲃⲏⲩⲉ" type="N">
+<w lemma="ϩⲱⲃ" type="N">
 ϩⲃⲏⲩⲉ
 </w>
 </phr>
@@ -2073,19 +2141,19 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲛⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲥ" type="PPERS">
+<w lemma="ⲛⲧⲟⲥ" type="PPERS">
 ⲥ
 </w>
-<w lemma="ⲁⲁ" type="V">
+<w lemma="ⲉⲓⲣⲉ" type="V">
 ⲁⲁ
 </w>
-<w lemma="ⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲩ
 </w>
 </phr>
@@ -2094,13 +2162,18 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ϩⲛ" type="PREP">
 ϩⲛ
 </w>
-<w lemma="ⲧⲉⲥ" type="PPOS">
+<w lemma="ⲡⲉⲥ" type="PPOS">
 ⲧⲉⲥ
 </w>
 <w lemma="ⲙⲛⲧϫⲱⲱⲣⲉ" type="N">
-<m>ⲙⲛⲧ</m><m>ϫⲱ
+<m>
+ⲙⲛⲧ
+</m>
+<m>
+ϫⲱ
 <lb n="10"/>
-ⲱⲣⲉ</m>
+ⲱⲣⲉ
+</m>
 </w>
 </phr>
 <phr>
@@ -2116,7 +2189,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
 <w lemma="ⲧⲣⲉ" type="ACAUS">
@@ -2133,10 +2206,10 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲛϩⲏⲧ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ⲛϩⲏⲧ
 </w>
-<w lemma="ⲥ" type="PPERO">
+<w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ
 </w>
 </phr>
@@ -2157,9 +2230,11 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <lb n="13"/>
 <phr>
 <w lemma="ⲁ" type="APST">
-<hi rend="ekthetic">ⲁ</hi>
+<hi rend="ekthetic">
+ⲁ
+</hi>
 </w>
-<w lemma="ⲣ" type="PPERS">
+<w lemma="ⲛⲧⲟ" type="PPERS">
 ⲣ
 </w>
 <w lemma="ⲁⲙⲁϩⲧⲉ" type="V">
@@ -2196,13 +2271,13 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲣ" type="PPERS">
+<w lemma="ⲛⲧⲟ" type="PPERS">
 ⲣ
 </w>
-<w lemma="ϫⲓⲧ" type="V">
+<w lemma="ϫⲓ" type="V">
 ϫⲓⲧ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -2251,10 +2326,10 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
-<w lemma="ⲃⲏⲧ" type="VSTAT">
+<w lemma="ⲃⲱⲧⲉ" type="VSTAT">
 ⲃⲏⲧ
 </w>
 </phr>
@@ -2274,7 +2349,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </phr>
 <lb n="19"/>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <w lemma="ⲡⲛⲉⲩⲙⲁ" type="N" xml:lang="Greek">
@@ -2285,19 +2360,19 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲣ" type="PPERS">
+<w lemma="ⲛⲧⲟ" type="PPERS">
 ⲣ
 </w>
-<w lemma="ϣⲟⲡ" type="V">
+<w lemma="ϣⲱⲡ" type="V">
 ϣⲟⲡ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
 <lb n="20"/>
 <phr>
-<w lemma="ⲉⲣⲟ" type="PREP_PPERO">
+<w lemma="ⲉ_ⲛⲧⲟ" type="PREP_PPERO">
 ⲉⲣⲟ
 </w>
 </phr>
@@ -2305,10 +2380,10 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
-<w lemma="ⲟⲩⲁⲁⲃ" type="VSTAT">
+<w lemma="ⲟⲩⲟⲡ" type="VSTAT">
 ⲟⲩⲁⲁⲃ
 </w>
 </phr>
@@ -2333,7 +2408,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </phr>
 <lb n="22"/>
 <phr>
-<w lemma="ⲡⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
 <w lemma="ⲡⲛⲉⲩⲙⲁ" type="N" xml:lang="Greek">
@@ -2350,10 +2425,10 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </phr>
 <lb n="23"/>
 <phr>
-<w lemma="ⲁⲣ" type="APST_PPERS">
+<w lemma="ⲁ_ⲛⲧⲟ" type="APST_PPERS">
 ⲁⲣ
 </w>
-<w lemma="ⲥⲁϩⲱ" type="V">
+<w lemma="ⲥⲟⲟϩⲉ" type="V">
 ⲥⲁϩⲱ
 </w>
 </phr>
@@ -2370,12 +2445,12 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 <lb n="24"/>
 ⲙⲟ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -2423,16 +2498,16 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙⲙⲟ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
 <lb n="26"/>
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
 <w lemma="ⲧⲟⲩϫⲟ" type="V">
@@ -2466,7 +2541,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲛ
 <lb n="28"/>
 ⲧ
@@ -2474,13 +2549,13 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ϥ" type="PPERS">
+<w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ
 </w>
-<w lemma="ⲧⲁⲁ" type="V">
+<w lemma="ϯ" type="V">
 ⲧⲁⲁ
 </w>
-<w lemma="ⲧⲉ" type="PPERO">
+<w lemma="ⲛⲧⲟ" type="PPERO">
 ⲧⲉ
 </w>
 </phr>
@@ -2494,10 +2569,10 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 ⲉ
 </w>
 <lb n="29"/>
-<w lemma="ⲧⲟⲟⲧ" type="N">
+<w lemma="ⲧⲱⲣⲉ" type="N">
 ⲧⲟⲟⲧ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -2509,13 +2584,13 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ⲙⲟⲥⲧⲉ" type="V">
@@ -2525,7 +2600,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP_PPERO">
+<w lemma="ⲛ_ⲛⲧⲟ" type="PREP_PPERO">
 ⲙⲙⲟ
 </w>
 </phr>
@@ -2548,13 +2623,13 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <pb xml:id="GL63"/>
 <cb n="1"/>
 <lb n="1"/>
-<w lemma="ⲁⲣ" type="APST_PPERS">
+<w lemma="ⲁ_ⲛⲧⲟ" type="APST_PPERS">
 ⲁⲣ
 </w>
-<w lemma="ⲙⲉⲣⲉ" type="V">
+<w lemma="ⲙⲉ" type="V">
 ⲙⲉⲣⲉ
 </w>
-<w lemma="ϩⲉⲛ" type="ART">
+<w lemma="ⲟⲩ" type="ART">
 ϩⲉⲛ
 </w>
 <w lemma="ϣⲙⲙⲟ" type="N">
@@ -2576,22 +2651,22 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲁⲣ" type="APST_PPERS">
+<w lemma="ⲁ_ⲛⲧⲟ" type="APST_PPERS">
 ⲁⲣ
 </w>
-<w lemma="ⲟⲩⲁϩ" type="V">
+<w lemma="ⲟⲩⲱϩ" type="V">
 ⲟⲩⲁϩ
 </w>
-<w lemma="ⲉ" type="PPERO">
+<w lemma="ⲛⲧⲟ" type="PPERO">
 ⲉ
 </w>
 </phr>
 <lb n="3"/>
 <phr>
-<w lemma="ⲛⲥⲱ" type="PREP">
+<w lemma="ⲛⲥⲁ" type="PREP">
 ⲛⲥⲱ
 </w>
-<w lemma="ⲟⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -2603,19 +2678,19 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲁⲣ" type="APST_PPERS">
+<w lemma="ⲁ_ⲛⲧⲟ" type="APST_PPERS">
 ⲁⲣ
 </w>
-<w lemma="ⲙⲉⲣⲉ" type="V">
+<w lemma="ⲙⲉ" type="V">
 ⲙⲉⲣⲉ
 </w>
 </phr>
 <lb n="4"/>
 <phr>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
 <w lemma="ⲛⲕⲟⲧⲕ" type="V">
@@ -2623,12 +2698,12 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲙⲙ" type="PREP">
+<w lemma="ⲙⲛ" type="PREP">
 ⲛⲙ
 <lb n="5"/>
 ⲙ
 </w>
-<w lemma="ⲉ" type="PPERO">
+<w lemma="ⲛⲧⲟ" type="PPERO">
 ⲉ
 </w>
 </phr>
@@ -2645,7 +2720,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲁⲣ" type="APST_PPERS">
+<w lemma="ⲁ_ⲛⲧⲟ" type="APST_PPERS">
 ⲁⲣ
 </w>
 <w lemma="ⲧⲁϣⲟ" type="V">
@@ -2657,7 +2732,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲛ" type="PREP">
 ⲛ
 </w>
-<w lemma="ⲧⲟⲩ" type="PPOS">
+<w lemma="ⲡⲟⲩ" type="PPOS">
 ⲧⲟⲩ
 </w>
 <w lemma="ⲡⲟⲣⲛⲉⲓⲁ" type="N" xml:lang="Greek">
@@ -2665,17 +2740,17 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲙⲙⲁ" type="PREP">
+<w lemma="ⲙⲛ" type="PREP">
 ⲛⲙ
 <lb n="7"/>
 ⲙⲁ
 </w>
-<w lemma="ⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲩ
 </w>
 </phr>
 <phr>
-<w lemma="ⲁⲣ" type="APST_PPERS">
+<w lemma="ⲁ_ⲛⲧⲟ" type="APST_PPERS">
 ⲁⲣ
 </w>
 <w lemma="ⲧⲁϣⲟ" type="V">
@@ -2687,18 +2762,18 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲛ" type="PREP">
 ⲛ
 </w>
-<w lemma="ⲛ" type="ACONJ">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛ
 </w>
-<w lemma="ⲉⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
-<w lemma="ⲟⲩⲏⲩ" type="V">
+<w lemma="ⲟⲩⲉ" type="V">
 ⲟⲩⲏⲏⲩ
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲟ" type="PREP_PPERO">
+<w lemma="ⲛ_ⲛⲧⲟ" type="PREP_PPERO">
 ⲙⲙⲟ
 </w>
 </phr>
@@ -2715,7 +2790,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲧⲣⲉ" type="ACAUS">
 ⲧⲣⲉ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
 <w lemma="ⲟⲩⲱϩ" type="V">
@@ -2725,7 +2800,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ϩⲙ" type="PREP">
+<w lemma="ϩⲛ" type="PREP">
 ϩⲙ
 </w>
 <w lemma="ⲡⲟⲩ" type="PPOS">
@@ -2736,12 +2811,12 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲙⲙ" type="PREP">
+<w lemma="ⲙⲛ" type="PREP">
 ⲛⲙ
 <lb n="11"/>
 ⲙ
 </w>
-<w lemma="ⲉ" type="PPERO">
+<w lemma="ⲛⲧⲟ" type="PPERO">
 ⲉ
 </w>
 </phr>
@@ -2753,10 +2828,10 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="CCIRC">
 ⲉ
 </w>
-<w lemma="ⲓ" type="PPERS">
+<w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ⲓ
 </w>
 <w lemma="ϣⲁϫⲉ" type="V">
@@ -2768,7 +2843,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 ⲉ
 </w>
 <lb n="12"/>
-<w lemma="ⲡⲉ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
 <w lemma="ⲡⲛⲉⲩⲙⲁ" type="N" xml:lang="Greek">
@@ -2779,7 +2854,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲛ" type="PREP">
 ⲛ
 </w>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ⲡⲟⲛⲏⲣⲓⲁ" type="N" xml:lang="Greek">
@@ -2799,7 +2874,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲙⲛ" type="PREP">
 ⲙⲛ
 </w>
-<w lemma="ⲛ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲛ
 </w>
 <w lemma="ⲕⲟⲥⲙⲟⲕⲣⲁⲧⲱⲣ" type="N" xml:lang="Greek">
@@ -2809,7 +2884,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <w lemma="ⲡ" type="ART">
@@ -2848,16 +2923,16 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲧ" type="CREL">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲛⲧ
 </w>
 <w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲩ" type="PPERS">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲩ
 </w>
-<w lemma="ⲣ" type="V">
+<w lemma="ⲉⲓⲣⲉ" type="V">
 ⲣ
 </w>
 <lb n="17"/>
@@ -2879,10 +2954,10 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲙⲙ" type="PREP">
+<w lemma="ⲙⲛ" type="PREP">
 ⲛⲙⲙ
 </w>
-<w lemma="ⲉ" type="PPERO">
+<w lemma="ⲛⲧⲟ" type="PPERO">
 ⲉ
 </w>
 </phr>
@@ -2912,10 +2987,10 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲛⲙⲙⲁ" type="PREP">
+<w lemma="ⲙⲛ" type="PREP">
 ⲛⲙⲙⲁ
 </w>
-<w lemma="ⲩ" type="PPERO">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲩ
 </w>
 </phr>
@@ -2927,7 +3002,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </s>
 <s style="...">
 <phr>
-<w lemma="ⲧ" type="ART">
+<w lemma="ⲡ" type="ART">
 ⲧ
 </w>
 <w lemma="ⲉⲃⲓⲏⲛ" type="N">
@@ -2937,7 +3012,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 </w>
 </phr>
 <phr>
-<w lemma="ⲙ" type="PREP">
+<w lemma="ⲛ" type="PREP">
 ⲙ
 </w>
 <w lemma="ⲯⲩⲭⲏ" type="N" xml:lang="Greek">
@@ -2954,7 +3029,10 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <lb n="21"/>
 <phr>
 <w lemma="ⲡⲟⲩ" type="PPOS">
-<hi rend="ekthetic">ⲡ</hi>ⲟⲩ
+<hi rend="ekthetic">
+ⲡ
+</hi>
+ⲟⲩ
 </w>
 <w lemma="ⲛⲟⲩⲧⲉ" type="N">
 ⲛⲟⲩⲧⲉ
@@ -2971,7 +3049,7 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <lb n="22"/>
 ⲱ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -3006,13 +3084,13 @@ urn:cts:copticLit:shenoute.eagerness.monbxj_65_76
 <w lemma="ⲙⲡ" type="ANEGPST">
 ⲙⲡ
 </w>
-<w lemma="ⲣ" type="PPERS">
+<w lemma="ⲛⲧⲟ" type="PPERS">
 ⲣ
 </w>
-<w lemma="ⲕⲁⲁ" type="V">
+<w lemma="ⲕⲱ" type="V">
 ⲕⲁⲁ
 </w>
-<w lemma="ϥ" type="PPERO">
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
