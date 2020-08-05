@@ -1,17 +1,17 @@
-<meta annotation="Lauren McDermott, Caroline T. Schroeder, Amir Zeldes" author="anonymous" collection="Papyrussammlung" Coptic_edition="Chaîne (1960), § 23 (Fragments de Vienne),pp. 4-5" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.23.monbeg" Greek_source="Περὶ τοῦ ἀββᾶ Ἰσαὰκ τοῦ πρεσβυτέρου τῶν Κελλίων (ζ)" idno="K 0321" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msItem_title="Apophthegmata Patrum" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="67" pages_to="67" parsing="gold" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Österreichische Nationalbibliothek" segmentation="gold" tagging="gold" title="Apophthegmata Patrum Sahidic 023: Isaac" translation="Amir Zeldes" Trismegistos="none" version_date="2019-09-30" version_n="3.0.0">
+<meta annotation="Lauren McDermott, Caroline T. Schroeder, Amir Zeldes, Elizabeth Davidson" author="anonymous" collection="Papyrussammlung" Coptic_edition="Chaîne (1960), § 23 (Fragments de Vienne),pp. 4-5" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.23.monbeg" entities="gold" Greek_source="Περὶ τοῦ ἀββᾶ Ἰσαὰκ τοῦ πρεσβυτέρου τῶν Κελλίων (ζ)" identities="gold" idno="K 0321" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msItem_title="Apophthegmata Patrum" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="67" pages_to="67" parsing="gold" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Österreichische Nationalbibliothek" segmentation="gold" tagging="gold" title="Apophthegmata Patrum Sahidic 023: Isaac" translation="Amir Zeldes" Trismegistos="none" version_date="2019-09-30" version_n="3.0.0" people="Pambo" places="none">
 <pb_xml_id pb_xml_id="EG67">
 <cb_n cb_n="1">
 <chapter_n chapter_n="1">
-<verse_n verse_n="1">
 <vid_n vid_n="urn:cts:copticLit:ap.23.monbeg:1.1">
+<verse_n verse_n="1">
 <lb_n lb_n="5">
 <translation translation="He said, that is Abba Isaac:">
 <orig_group orig_group="ⲁ︤ϥϫⲟⲟⲥ">
 <norm_group norm_group="ⲁϥϫⲟⲟⲥ">
 <orig orig="ⲁ︤">
-<norm xml:id="u1" func="aux" head="#u3" pos="APST" lemma="ⲁ" norm="ⲁ">
-<note note="ekthetic">
+<norm xml:id="u1" func="aux" head="#u3" new_sent="true" pos="APST" lemma="ⲁ" norm="ⲁ">
 <hi_rend hi_rend="red, tall">
+<note note="ekthetic">
 ⲁ︤
 </hi_rend>
 </note>
@@ -41,7 +41,7 @@
 ⲛ̇ϭⲓ̇
 </norm>
 </orig>
-<coref:entity entity="person" id="7">
+<entity head_tok="#u7" text="ⲁⲡⲁ ⲓⲥⲁⲕ" entity="person">
 <orig orig="ⲁ̇ⲡⲁ">
 <norm xml:id="u6" func="dislocated" head="#u3" pos="N" lemma="ⲁⲡⲁ" norm="ⲁⲡⲁ">
 ⲁ̇ⲡⲁ
@@ -58,7 +58,7 @@
 </orig>
 </norm_group>
 </orig_group>
-</coref:entity>
+</entity>
 </translation>
 </lb_n>
 <translation translation="“Our fathers and Abba Pambo would wear tunics of rags in pieces and tunics of palm fiber,">
@@ -70,7 +70,7 @@
 ϫⲉ
 </norm>
 </orig>
-<coref:entity entity="person_group" id="10">
+<entity head_tok="#u10" text="ⲛⲉⲛ ⲉⲓⲟⲧⲉ" entity="person">
 <orig orig="ⲛⲉⲛ">
 <norm xml:id="u9" func="det" head="#u10" pos="PPOS" lemma="ⲡⲉⲛ" norm="ⲛⲉⲛ">
 ⲛⲉⲛ
@@ -81,7 +81,7 @@
 ⲉⲓ̇ⲟ̇ⲧⲉ
 </norm>
 </orig>
-</coref:entity>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="ⲙⲉⲛⲁ̇ⲡⲁ">
@@ -93,7 +93,7 @@
 </orig>
 </lb_n>
 <lb_n lb_n="7">
-<coref:entity entity="person" id="13">
+<entity identity="Pambo" head_tok="#u13" text="ⲁⲡⲁ ⲡⲁⲙⲃⲱ" entity="person">
 <orig orig="ⲁ̇ⲡⲁ">
 <norm xml:id="u12" func="conj" head="#u10" pos="N" lemma="ⲁⲡⲁ" norm="ⲁⲡⲁ">
 ⲁ̇ⲡⲁ
@@ -110,7 +110,7 @@
 </orig>
 </norm_group>
 </orig_group>
-</coref:entity>
+</entity>
 <orig_group orig_group="ⲛⲉⲩⲫⲟⲣⲉⲓ̇">
 <norm_group norm_group="ⲛⲉⲩⲫⲟⲣⲉⲓ">
 <orig orig="ⲛⲉ">
@@ -142,7 +142,7 @@
 ⲛ̇
 </norm>
 </orig>
-<coref:entity entity="object" id="20">
+<entity head_tok="#u19" text="ϩⲉⲛ ϣⲧⲏⲛ ⲙ ⲡⲉⲗϭⲉ ⲉ ⲩ ϩⲛ ⲛ ⲧⲟⲉⲓⲥ" entity="object">
 <orig orig="ϩⲉⲛ">
 <norm xml:id="u18" func="det" head="#u19" pos="ART" lemma="ⲟⲩ" norm="ϩⲉⲛ">
 ϩⲉⲛ
@@ -164,14 +164,15 @@
 </orig>
 </lb_n>
 <lb_n lb_n="9">
+<entity head_tok="#u21" text="ⲡⲉⲗϭⲉ" entity="substance">
 <orig orig="ⲡⲉⲗϭⲉ">
 <norm xml:id="u21" func="nmod" head="#u19" pos="N" lemma="ⲡⲉⲗϭⲉ" norm="ⲡⲉⲗϭⲉ">
 ⲡⲉⲗϭⲉ
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
-</coref:entity>
 <orig_group orig_group="ⲉ̇ⲩϩⲛ̇ⲛ̇ⲧⲟⲉⲓ̇ⲥ">
 <norm_group norm_group="ⲉⲩϩⲛⲛⲧⲟⲉⲓⲥ">
 <orig orig="ⲉ̇">
@@ -189,6 +190,7 @@
 ϩⲛ̇
 </norm>
 </orig>
+<entity head_tok="#u26" text="ⲛ ⲧⲟⲉⲓⲥ" entity="object">
 <orig orig="ⲛ̇">
 <norm xml:id="u25" func="det" head="#u26" pos="ART" lemma="ⲡ" norm="ⲛ">
 ⲛ̇
@@ -199,9 +201,11 @@
 ⲧⲟⲉⲓ̇ⲥ
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 </lb_n>
+</entity>
 <lb_n lb_n="10">
 <orig_group orig_group="ⲙⲛ̇ϩⲛ̇ϣ̇ⲧⲏⲛ">
 <norm_group norm_group="ⲙⲛϩⲉⲛϣⲧⲏⲛ">
@@ -210,9 +214,9 @@
 ⲙⲛ̇
 </norm>
 </orig>
-<coref:entity entity="object" id="30">
+<entity head_tok="#u29" text="ϩⲉⲛ ϣⲧⲏⲛ ⲛ ϣⲃⲛⲛⲉ" entity="object">
 <orig orig="ϩⲛ̇">
-<norm xml:id="u28" func="det" head="#u29" pos="PREP" lemma="ϩⲉⲛ" norm="ϩⲉⲛ">
+<norm xml:id="u28" func="det" head="#u29" pos="ART" lemma="ⲟⲩ" norm="ϩⲉⲛ">
 ϩⲛ̇
 </norm>
 </orig>
@@ -230,6 +234,7 @@
 ⲛ̇
 </norm>
 </orig>
+<entity head_tok="#u31" text="ϣⲃⲛⲛⲉ" entity="substance">
 <orig orig="ϣ̇ⲃⲛ̇ⲛⲉ">
 <norm xml:id="u31" func="nmod" head="#u29" pos="N" lemma="ϣⲃⲛⲛⲉ" norm="ϣⲃⲛⲛⲉ">
 ϣ̇
@@ -238,9 +243,10 @@
 ⲃⲛ̇ⲛⲉ
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
-</coref:entity>
+</entity>
 <orig_group orig_group=".">
 <norm_group norm_group=".">
 <orig orig=".">
@@ -257,10 +263,8 @@
 <orig_group orig_group="ⲛ̇ⲧⲱⲧⲛ̇">
 <norm_group norm_group="ⲛⲧⲱⲧⲛ">
 <orig orig="ⲛ̇ⲧⲱⲧⲛ̇">
-<norm xml:id="u33" func="dislocated" head="#u37" pos="PPERI" lemma="ⲛⲧⲱⲧⲛ" norm="ⲛⲧⲱⲧⲛ">
-<coref:entity entity="person" id="36">
+<norm xml:id="u33" func="dislocated" head="#u37" new_sent="true" pos="PPERI" lemma="ⲛⲧⲱⲧⲛ" norm="ⲛⲧⲱⲧⲛ">
 ⲛ̇ⲧⲱⲧⲛ̇
-</coref:entity>
 </norm>
 </orig>
 </norm_group>
@@ -311,7 +315,7 @@
 ⲛ̇
 </norm>
 </orig>
-<coref:entity entity="object" id="43">
+<entity head_tok="#u40" text="ϩⲉⲛ ϣⲧⲏⲛ ⲉ ⲩ ⲧⲁⲉⲓⲏⲩ" entity="object">
 <orig orig="ϩⲛ̇">
 <norm xml:id="u39" func="det" head="#u40" pos="ART" lemma="ⲟⲩ" norm="ϩⲉⲛ">
 ϩⲛ̇
@@ -322,7 +326,6 @@
 ϣ̇ⲧⲏⲛ
 </norm>
 </orig>
-</coref:entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="ⲉ̇ⲩⲧⲁⲉⲓ̇ⲏⲩ">
@@ -346,6 +349,7 @@
 </orig>
 </norm_group>
 </orig_group>
+</entity>
 <orig_group orig_group="·">
 <norm_group norm_group=".">
 <orig orig="·">
@@ -360,13 +364,13 @@
 </translation>
 </vid_n>
 </verse_n>
-<verse_n verse_n="2">
-<vid_n vid_n="urn:cts:copticLit:ap.23.monbeg:1.2">
 <translation translation="Go from this place, you have ruined it.">
+<vid_n vid_n="urn:cts:copticLit:ap.23.monbeg:1.2">
+<verse_n verse_n="2">
 <orig_group orig_group="ⲃⲱⲕ">
 <norm_group norm_group="ⲃⲱⲕ">
 <orig orig="ⲃⲱⲕ">
-<norm xml:id="u45" func="root" pos="V" lemma="ⲃⲱⲕ" norm="ⲃⲱⲕ">
+<norm xml:id="u45" func="root" new_sent="true" pos="V" lemma="ⲃⲱⲕ" norm="ⲃⲱⲕ">
 ⲃⲱⲕ
 </norm>
 </orig>
@@ -376,12 +380,10 @@
 <norm_group norm_group="ⲛⲧⲱⲧⲛ">
 <orig orig="ⲛ̇ⲧⲱⲧⲛ̇">
 <norm xml:id="u46" func="vocative" head="#u45" pos="PPERI" lemma="ⲛⲧⲱⲧⲛ" norm="ⲛⲧⲱⲧⲛ">
-<coref:entity entity="person" id="50" link="36" type="ident">
 ⲛ̇ⲧⲱ
 </lb_n>
 <lb_n lb_n="15">
 ⲧⲛ̇
-</coref:entity>
 </norm>
 </orig>
 </norm_group>
@@ -393,7 +395,7 @@
 ⲙ̇
 </norm>
 </orig>
-<coref:entity entity="place" id="53">
+<entity head_tok="#u49" text="ⲡⲉⲓ ⲙⲁ" entity="place">
 <orig orig="ⲡⲉⲓ̇">
 <norm xml:id="u48" func="det" head="#u49" pos="PDEM" lemma="ⲡⲉⲓ" norm="ⲡⲉⲓ">
 ⲡⲉⲓ̇
@@ -404,7 +406,7 @@
 ⲙⲁ
 </norm>
 </orig>
-</coref:entity>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="·">
@@ -419,7 +421,7 @@
 <orig_group orig_group="ⲁ̇ⲧⲉⲧⲛ̇ⲧⲁⲕⲟϥ">
 <norm_group norm_group="ⲁⲧⲉⲧⲛⲧⲁⲕⲟϥ">
 <orig orig="ⲁ̇">
-<norm xml:id="u51" func="aux" head="#u53" pos="APST" lemma="ⲁ" norm="ⲁ">
+<norm xml:id="u51" func="aux" head="#u53" new_sent="true" pos="APST" lemma="ⲁ" norm="ⲁ">
 ⲁ̇
 </norm>
 </orig>

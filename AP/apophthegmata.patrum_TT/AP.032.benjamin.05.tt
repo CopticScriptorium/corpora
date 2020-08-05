@@ -1,15 +1,15 @@
-<meta annotation="Elizabeth Davidson, Caroline T. Schroeder" author="anonymous" collection="Papyrussammlung" Coptic_edition="Chaîne (1960)" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.32.monbeg" Greek_source="Alphabetical Collection Benjamin 5" idno="K 0321" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="73" pages_to="73" parsing="gold" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Österreichische Nationalbibliothek" segmentation="gold" tagging="gold" title="Apophthegmata Patrum Sahidic 032" translation="Elizabeth Davidson" Trismegistos="none" version_date="2019-09-30" version_n="3.0.0">
+<meta annotation="Elizabeth Davidson, Caroline T. Schroeder" author="anonymous" collection="Papyrussammlung" Coptic_edition="Chaîne (1960)" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.32.monbeg" entities="gold" Greek_source="Alphabetical Collection Benjamin 5" identities="gold" idno="K 0321" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="73" pages_to="73" parsing="gold" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Österreichische Nationalbibliothek" segmentation="gold" tagging="gold" title="Apophthegmata Patrum Sahidic 032" translation="Elizabeth Davidson" Trismegistos="none" version_date="2019-09-30" version_n="3.0.0" people="none" places="none">
 <pb_xml_id pb_xml_id="EG73">
 <cb_n cb_n="1">
-<chapter_n chapter_n="1">
-<verse_n verse_n="1">
 <vid_n vid_n="urn:cts:copticLit:ap.32.monbeg:1.1">
+<verse_n verse_n="1">
+<chapter_n chapter_n="1">
 <translation translation="Apa Benjamin and his disciples said, &apos;Walk on the road of the king,">
 <lb_n lb_n="1">
 <orig_group orig_group="Ⲛϭⲓ̇ⲁ̇ⲡⲁ">
 <norm_group norm_group="ⲛϭⲓⲁⲡⲁ">
 <orig orig="Ⲛϭⲓ̇">
-<norm xml:id="u1" func="case" head="#u2" pos="PTC" lemma="ⲛϭⲓ" norm="ⲛϭⲓ">
+<norm xml:id="u1" func="case" head="#u2" new_sent="true" pos="PTC" lemma="ⲛϭⲓ" norm="ⲛϭⲓ">
 <hi_rend hi_rend="large red ekthetic">
 Ⲛ
 </hi_rend>
@@ -19,6 +19,7 @@
 ⲓ̇
 </norm>
 </orig>
+<entity head_tok="#u3" text="ⲁⲡⲁ ⲃⲉⲛⲓⲁⲙⲓⲛ" entity="person">
 <orig orig="ⲁ̇ⲡⲁ">
 <norm xml:id="u2" func="root" pos="N" lemma="ⲁⲡⲁ" norm="ⲁⲡⲁ">
 <lang lang="Hebrew">
@@ -39,6 +40,7 @@
 </orig>
 </norm_group>
 </orig_group>
+</entity>
 <orig_group orig_group="ⲙⲛ̇ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ">
 <norm_group norm_group="ⲙⲛⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ">
 <orig orig="ⲙⲛ̇">
@@ -48,6 +50,7 @@
 </orig>
 </lb_n>
 <lb_n lb_n="2">
+<entity head_tok="#u6" text="ⲛⲉϥ ⲙⲁⲑⲏⲧⲏⲥ" entity="person">
 <orig orig="ⲛⲉϥ">
 <norm xml:id="u5" func="det" head="#u6" pos="PPOS" lemma="ⲡⲉϥ" norm="ⲛⲉϥ">
 ⲛⲉϥ
@@ -60,6 +63,7 @@
 </lang>
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="·">
@@ -80,8 +84,8 @@
 </orig>
 </lb_n>
 <lb_n lb_n="3">
-<orig orig="ⲙⲟ̇ⲟⲩϣⲉ">
 <multiword multiword="ⲙⲟⲟϣⲉ ϩⲛ">
+<orig orig="ⲙⲟ̇ⲟⲩϣⲉ">
 <norm xml:id="u9" func="ccomp" head="#u2" pos="V" lemma="ⲙⲟⲟϣⲉ" norm="ⲙⲟⲟϣⲉ">
 ⲙⲟ̇ⲟⲩϣⲉ
 </norm>
@@ -94,8 +98,9 @@
 <norm xml:id="u10" func="case" head="#u12" pos="PREP" lemma="ϩⲛ" norm="ϩⲛ">
 ϩⲛ̇
 </norm>
-</multiword>
 </orig>
+</multiword>
+<entity head_tok="#u12" text="ⲧⲉ ϩⲓⲏ ⲙ ⲡ ⲣⲣⲟ" entity="place">
 <orig orig="ⲧⲉ">
 <norm xml:id="u11" func="det" head="#u12" pos="ART" lemma="ⲡ" norm="ⲧⲉ">
 ⲧⲉ
@@ -117,6 +122,7 @@
 </orig>
 </lb_n>
 <lb_n lb_n="4">
+<entity head_tok="#u15" text="ⲡ ⲣⲣⲟ" entity="person">
 <orig orig="ⲡ">
 <norm xml:id="u14" func="det" head="#u15" pos="ART" lemma="ⲡ" norm="ⲡ">
 ⲡ
@@ -127,8 +133,10 @@
 ⲣ̇ⲣ̇ⲟ
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
+</entity>
 <orig_group orig_group="·">
 <norm_group norm_group="·">
 <orig orig="·">
@@ -145,7 +153,7 @@
 <orig_group orig_group="ⲁⲩⲱ̇">
 <norm_group norm_group="ⲁⲩⲱ">
 <orig orig="ⲁⲩⲱ̇">
-<norm xml:id="u17" func="cc" head="#u18" pos="CONJ" lemma="ⲁⲩⲱ" norm="ⲁⲩⲱ">
+<norm xml:id="u17" func="cc" head="#u18" new_sent="true" pos="CONJ" lemma="ⲁⲩⲱ" norm="ⲁⲩⲱ">
 ⲁⲩⲱ̇
 </norm>
 </orig>
@@ -169,6 +177,7 @@
 ⲛ̇ⲥⲁ
 </norm>
 </orig>
+<entity head_tok="#u21" text="ⲙ ⲙⲓⲗⲓⲟⲛ" entity="abstract">
 <orig orig="ⲙ̇">
 <norm xml:id="u20" func="det" head="#u21" pos="ART" lemma="ⲡ" norm="ⲙ">
 ⲙ̇
@@ -181,6 +190,7 @@
 </lang>
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 </lb_n>

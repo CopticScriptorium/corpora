@@ -1,31 +1,32 @@
-<meta annotation="Laura Slaughter, Elizabeth Platte" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960), § 143 (Fragments de Naples), p. 32" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.143.monbeg" idno="IB 17 484 f. 27r" language="Sahidic Coptic" license="CC-BY 4.0" msItem_title="Apophthegmata Patrum" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="209" pages_to="209" parsing="automatic" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" segmentation="checked" tagging="checked" title="Apophthegmata Patrum Sahidic 143: N 131" translation="Laura Slaughter" version_date="2019-05-31" version_n="2.7.0">
+<meta annotation="Laura Slaughter, Elizabeth Platte, Amir Zeldes" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960), § 143 (Fragments de Naples), p. 32" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.143.monbeg" entities="gold" identities="gold" idno="IB 17 484 f. 27r" language="Sahidic Coptic" license="CC-BY 4.0" msItem_title="Apophthegmata Patrum" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="209" pages_to="209" parsing="automatic" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" segmentation="checked" tagging="checked" title="Apophthegmata Patrum Sahidic 143: N 131" translation="Laura Slaughter" version_date="2019-05-31" version_n="2.7.0" people="Devil; Gabriel" places="none">
 <pb_xml_id pb_xml_id="EG209">
 <chapter_n chapter_n="1">
 <cb_n cb_n="1">
-<translation translation="The devil changed into an image of an angel of the light.">
-<verse_n verse_n="1">
 <vid_n vid_n="urn:cts:copticLit:ap.143.monbeg:1.1">
+<verse_n verse_n="1">
+<translation translation="The devil changed into an image of an angel of the light.">
 <orig_group orig_group="ⲁⲡⲇⲓⲁⲃⲟⲗⲟⲥ">
 <norm_group norm_group="ⲁⲡⲇⲓⲁⲃⲟⲗⲟⲥ">
 <lb_n lb_n="31">
 <orig orig="ⲁ">
-<norm xml:id="u1" func="aux" head="#u4" pos="APST" lemma="ⲁ" norm="ⲁ">
+<norm xml:id="u1" func="aux" head="#u4" new_sent="true" pos="APST" lemma="ⲁ" norm="ⲁ">
 ⲁ
 </norm>
 </orig>
+<entity identity="Devil" head_tok="#u3" text="ⲡ ⲇⲓⲁⲃⲟⲗⲟⲥ" entity="person">
 <orig orig="ⲡ">
 <norm xml:id="u2" func="det" head="#u3" pos="ART" lemma="ⲡ" norm="ⲡ">
 ⲡ
 </norm>
 </orig>
 <orig orig="ⲇⲓⲁⲃⲟⲗⲟⲥ">
-<norm xml:id="u3" func="nsubj" head="#u4" pos="N" lemma="ⲇⲓⲁⲃⲟⲗⲟⲥ" norm="ⲇⲓⲁⲃⲟⲗⲟⲥ">
+<norm xml:id="u3" func="nsubj" head="#u4" pos="NPROP" lemma="ⲇⲓⲁⲃⲟⲗⲟⲥ" norm="ⲇⲓⲁⲃⲟⲗⲟⲥ">
 <lang lang="Greek">
 ⲇⲓⲁⲃⲟ
 </lb_n>
 <lb_n lb_n="32">
-<note note="Diple inside of the lambda.">
 <hi_rend hi_rend="ekthetic large">
+<note note="Diple inside of the lambda.">
 ⲗ
 </hi_rend>
 </note>
@@ -33,6 +34,7 @@
 </lang>
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="ϣⲃⲧϥ">
@@ -56,6 +58,7 @@
 ϩⲛ
 </norm>
 </orig>
+<entity head_tok="#u8" text="ⲟⲩ ⲥⲭⲏⲙⲁ ⲛ ⲁⲅⲅⲉⲗⲟⲥ ⲙ ⲡ ⲟⲩⲟⲉⲓⲛ" entity="abstract">
 <orig orig="ⲟⲩ">
 <norm xml:id="u7" func="det" head="#u8" pos="ART" lemma="ⲟⲩ" norm="ⲟⲩ">
 ⲟⲩ
@@ -80,6 +83,7 @@
 ⲛ
 </norm>
 </orig>
+<entity head_tok="#u10" text="ⲁⲅⲅⲉⲗⲟⲥ ⲙ ⲡ ⲟⲩⲟⲉⲓⲛ" entity="person">
 <orig orig="ⲁⲅⲅⲉⲗⲟⲥ">
 <norm xml:id="u10" func="nmod" head="#u8" pos="N" lemma="ⲁⲅⲅⲉⲗⲟⲥ" norm="ⲁⲅⲅⲉⲗⲟⲥ">
 <lang lang="Greek">
@@ -96,6 +100,7 @@
 ⲙ
 </norm>
 </orig>
+<entity head_tok="#u13" text="ⲡ ⲟⲩⲟⲉⲓⲛ" entity="abstract">
 <orig orig="ⲡ">
 <norm xml:id="u12" func="det" head="#u13" pos="ART" lemma="ⲡ" norm="ⲡ">
 ⲡ
@@ -109,18 +114,21 @@
 ⲟⲉⲓⲛ
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
+</entity>
+</entity>
 </vid_n>
 </verse_n>
 </translation>
-<verse_n verse_n="2">
 <vid_n vid_n="urn:cts:copticLit:ap.143.monbeg:1.2">
+<verse_n verse_n="2">
 <translation translation="He appeared to one of the brothers and said to him,">
 <orig_group orig_group="ⲁϥⲟⲩⲱⲛⲁϩ">
 <norm_group norm_group="ⲁϥⲟⲩⲱⲛⲁϩ">
 <orig orig="ⲁ">
-<norm xml:id="u14" func="aux" head="#u16" pos="APST" lemma="ⲁ" norm="ⲁ">
+<norm xml:id="u14" func="aux" head="#u16" new_sent="true" pos="APST" lemma="ⲁ" norm="ⲁ">
 ⲁ
 </norm>
 </orig>
@@ -145,6 +153,7 @@
 </orig>
 </lb_n>
 <lb_n lb_n="35">
+<entity head_tok="#u18" text="ⲟⲩⲁ ⲛ ⲛⲉ ⲥⲛⲏⲩ" entity="person">
 <orig orig="ⲟⲩⲁ">
 <norm xml:id="u18" func="obl" head="#u16" pos="NUM" lemma="ⲟⲩⲁ" norm="ⲟⲩⲁ">
 ⲟⲩⲁ
@@ -159,6 +168,7 @@
 ⲛ
 </norm>
 </orig>
+<entity head_tok="#u21" text="ⲛⲉ ⲥⲛⲏⲩ" entity="person">
 <orig orig="ⲛⲉ">
 <norm xml:id="u20" func="det" head="#u21" pos="ART" lemma="ⲡ" norm="ⲛⲉ">
 ⲛⲉ
@@ -169,8 +179,10 @@
 ⲥⲛⲏⲩ
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
+</entity>
 <orig_group orig_group="ⲁⲩⲱ">
 <norm_group norm_group="ⲁⲩⲱ">
 <orig orig="ⲁⲩⲱ">
@@ -224,7 +236,7 @@
 <orig_group orig_group="ⲁⲛⲅ">
 <norm_group norm_group="ⲁⲛⲅ">
 <orig orig="ⲁⲛⲅ">
-<norm xml:id="u28" func="root" pos="PPERI" lemma="ⲁⲛⲟⲕ" norm="ⲁⲛⲅ">
+<norm xml:id="u28" func="root" new_sent="true" pos="PPERI" lemma="ⲁⲛⲟⲕ" norm="ⲁⲛⲅ">
 ⲁⲛⲅ
 </norm>
 </orig>
@@ -241,6 +253,7 @@
 </orig>
 </norm_group>
 </orig_group>
+<entity identity="Gabriel" head_tok="#u30" text="ⲅⲁⲃⲣⲓⲏⲗ ⲛⲧ ⲁ ⲩ ⲧⲛⲛⲟⲟⲩ ⲧ ϣⲁⲣⲟ ⲕ" entity="person">
 <orig_group orig_group="ⲅⲁⲃⲣⲓⲏⲗ">
 <norm_group norm_group="ⲅⲁⲃⲣⲓⲏⲗ">
 <orig orig="ⲅⲁⲃⲣⲓⲏⲗ">
@@ -266,8 +279,8 @@
 </orig>
 <orig orig="ⲩ">
 <norm xml:id="u33" func="nsubj" head="#u34" pos="PPERS" lemma="ⲛⲧⲟⲟⲩ" norm="ⲩ">
-<note note="÷ in margin">
 <hi_rend hi_rend="long">
+<note note="÷ in margin">
 ⲩ
 </hi_rend>
 </note>
@@ -302,17 +315,18 @@
 </norm_group>
 </orig_group>
 </lb_n>
+</entity>
 </translation>
 </vid_n>
 </verse_n>
-<verse_n verse_n="3">
 <vid_n vid_n="urn:cts:copticLit:ap.143.monbeg:1.3">
+<verse_n verse_n="3">
 <lb_n lb_n="39">
 <translation translation="But he said to him,">
 <orig_group orig_group="ⲡⲉϫⲁϥ">
 <norm_group norm_group="ⲡⲉϫⲁϥ">
 <orig orig="ⲡⲉϫⲁ">
-<norm xml:id="u38" func="root" pos="VBD" lemma="ⲡⲉϫⲉ" norm="ⲡⲉϫⲁ">
+<norm xml:id="u38" func="root" new_sent="true" pos="VBD" lemma="ⲡⲉϫⲉ" norm="ⲡⲉϫⲁ">
 <hi_rend hi_rend="ekthetic large">
 ⲡ
 </hi_rend>
@@ -356,7 +370,7 @@
 <orig_group orig_group="ϫⲉⲁⲛⲁⲩ">
 <norm_group norm_group="ϫⲉⲁⲛⲁⲩ">
 <orig orig="ϫⲉ">
-<norm xml:id="u43" func="mark" head="#u44" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
+<norm xml:id="u43" func="mark" head="#u44" new_sent="true" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
 ϫⲉ
 </norm>
 </orig>
@@ -414,6 +428,7 @@
 ϣⲁ
 </norm>
 </orig>
+<entity head_tok="#u53" text="ⲕⲉ ⲟⲩⲁ ⲛ ⲛⲉ ⲥⲛⲏⲩ" entity="person">
 <orig orig="ⲕⲉ">
 <norm xml:id="u52" func="det" head="#u53" pos="ART" lemma="ⲕⲉ" norm="ⲕⲉ">
 ⲕⲉ
@@ -437,6 +452,7 @@
 </cb_n>
 <cb_n cb_n="2">
 <lb_n lb_n="1">
+<entity head_tok="#u56" text="ⲛⲉ ⲥⲛⲏⲩ" entity="person">
 <note note="÷ in margin">
 <orig orig="ⲛⲉ">
 <norm xml:id="u55" func="det" head="#u56" pos="ART" lemma="ⲡ" norm="ⲛⲉ">
@@ -449,14 +465,16 @@
 </norm>
 </orig>
 </note>
+</entity>
 </norm_group>
 </orig_group>
+</entity>
 </translation>
 <translation translation="for I am not worthy.”">
 <orig_group orig_group="ⲁⲛⲟⲕ">
 <norm_group norm_group="ⲁⲛⲟⲕ">
 <orig orig="ⲁⲛⲟⲕ">
-<norm xml:id="u57" func="dislocated" head="#u61" pos="PPERI" lemma="ⲁⲛⲟⲕ" norm="ⲁⲛⲟⲕ">
+<norm xml:id="u57" func="dislocated" head="#u61" new_sent="true" pos="PPERI" lemma="ⲁⲛⲟⲕ" norm="ⲁⲛⲟⲕ">
 ⲁⲛⲟⲕ
 </norm>
 </orig>
@@ -507,14 +525,14 @@
 </translation>
 </vid_n>
 </verse_n>
-<translation translation="And he immediately disappeared.">
-<verse_n verse_n="4">
 <vid_n vid_n="urn:cts:copticLit:ap.143.monbeg:1.4">
+<verse_n verse_n="4">
+<translation translation="And he immediately disappeared.">
 <lb_n lb_n="3">
 <orig_group orig_group="ⲛⲧⲟϥ">
 <norm_group norm_group="ⲛⲧⲟϥ">
 <orig orig="ⲛⲧⲟϥ">
-<norm xml:id="u63" func="dislocated" head="#u70" pos="PPERI" lemma="ⲛⲧⲟϥ" norm="ⲛⲧⲟϥ">
+<norm xml:id="u63" func="dislocated" head="#u70" new_sent="true" pos="PPERI" lemma="ⲛⲧⲟϥ" norm="ⲛⲧⲟϥ">
 <hi_rend hi_rend="ekthetic large">
 ⲛ
 </hi_rend>
@@ -567,8 +585,8 @@
 ϥ
 </norm>
 </orig>
-<orig orig="ⲣⲁⲧⲟⲩⲱⲛϩ">
 <multiword multiword="ⲣⲁⲧⲟⲩⲱⲛϩ ⲉⲃⲟⲗ">
+<orig orig="ⲣⲁⲧⲟⲩⲱⲛϩ">
 <norm xml:id="u70" func="root" pos="V" lemma="ⲣⲁⲧⲟⲩⲱⲛϩ" norm="ⲣⲁⲧⲟⲩⲱⲛϩ">
 <morph morph="ⲣ">
 ⲣ
@@ -589,10 +607,10 @@
 <norm xml:id="u71" func="advmod" head="#u70" pos="ADV" lemma="ⲉⲃⲟⲗ" norm="ⲉⲃⲟⲗ">
 ⲉⲃⲟⲗ
 </norm>
-</multiword>
 </orig>
 </norm_group>
 </orig_group>
+</multiword>
 </lb_n>
 </vid_n>
 </verse_n>

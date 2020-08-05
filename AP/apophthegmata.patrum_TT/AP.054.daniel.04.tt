@@ -1,7 +1,7 @@
-<meta annotation="Marina Ghaly, Christine Luckritz Marquis, Caroline T. Schroeder" author="anonymous" collection="Oriental Manuscripts" Coptic_edition="Chaîne (1960), §54 (Fragment de Londres), p. 12" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.54.monbeg" Greek_source="Alphabetical Collection Daniel 4" idno="Or.3581A(44) f.1r-f.2v" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msItem_title="Apophthegmata Patrum" msName="MONB.EG" objectType="codex" origDate="" origPlace="White Monastery" pages_from="109" pages_to="110" parsing="automatic" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="British Library" segmentation="checked" tagging="checked" title="Apophthegmata Patrum Sahidic 054: Daniel 4" translation="Marina Ghaly" Trismegistos="none" version_date="2019-05-31" version_n="2.7.0">
+<meta annotation="Marina Ghaly, Christine Luckritz Marquis, Caroline T. Schroeder, Amir Zeldes" author="anonymous" collection="Oriental Manuscripts" Coptic_edition="Chaîne (1960), §54 (Fragment de Londres), p. 12" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.54.monbeg" entities="gold" Greek_source="Alphabetical Collection Daniel 4" identities="gold" idno="Or.3581A(44) f.1r-f.2v" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msItem_title="Apophthegmata Patrum" msName="MONB.EG" objectType="codex" origDate="" origPlace="White Monastery" pages_from="109" pages_to="110" parsing="automatic" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="British Library" segmentation="gold" tagging="checked" title="Apophthegmata Patrum Sahidic 054: Daniel 4" translation="Marina Ghaly" Trismegistos="none" version_date="2019-05-31" version_n="2.7.0" people="none" places="none">
 <chapter_n chapter_n="1">
-<verse_n verse_n="1">
 <vid_n vid_n="urn:cts:copticLit:ap.54.monbeg:1.1">
+<verse_n verse_n="1">
 <pb_xml_id pb_xml_id="EG109">
 <cb_n cb_n="2">
 <translation translation="Abba Daniel said,">
@@ -9,7 +9,7 @@
 <orig_group orig_group="ⲁϥϫⲟ̇ⲟⲥ">
 <norm_group norm_group="ⲁϥϫⲟⲟⲥ">
 <orig orig="ⲁ">
-<norm xml:id="u1" func="aux" head="#u3" pos="APST" lemma="ⲁ" norm="ⲁ">
+<norm xml:id="u1" func="aux" head="#u3" new_sent="true" pos="APST" lemma="ⲁ" norm="ⲁ">
 <hi_rend hi_rend="brown tall ekthetic">
 ⲁ
 </hi_rend>
@@ -39,6 +39,7 @@
 ⲛ̇ϭⲓ
 </norm>
 </orig>
+<entity head_tok="#u7" text="ⲁⲡⲁ ⲇⲁⲛⲓⲏⲗ" entity="person">
 <orig orig="ⲁ̇ⲡⲁ">
 <norm xml:id="u6" func="dislocated" head="#u3" pos="N" lemma="ⲁⲡⲁ" norm="ⲁⲡⲁ">
 <lang lang="Hebrew">
@@ -62,6 +63,7 @@
 </orig>
 </norm_group>
 </orig_group>
+</entity>
 <orig_group orig_group=".">
 <norm_group norm_group=".">
 <orig orig=".">
@@ -76,7 +78,7 @@
 <orig_group orig_group="ϫⲉⲛ̇ϩⲱⲥⲟⲛ">
 <norm_group norm_group="ϫⲉⲛϩⲱⲥⲟⲛ">
 <orig orig="ϫⲉ">
-<norm xml:id="u9" func="mark" head="#u14" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
+<norm xml:id="u9" func="mark" head="#u14" new_sent="true" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
 ϫⲉ
 </norm>
 </orig>
@@ -98,6 +100,7 @@
 <lb_n lb_n="41">
 <orig_group orig_group="ⲡⲥⲱⲙⲁ">
 <norm_group norm_group="ⲡⲥⲱⲙⲁ">
+<entity head_tok="#u13" text="ⲡ ⲥⲱⲙⲁ" entity="object">
 <orig orig="ⲡ">
 <norm xml:id="u12" func="det" head="#u13" pos="ART" lemma="ⲡ" norm="ⲡ">
 ⲡ
@@ -110,6 +113,7 @@
 </lang>
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="ϯⲟⲩⲱ̇">
@@ -139,8 +143,9 @@
 <translation translation="the soul weakens.">
 <orig_group orig_group="ⲧⲉⲯⲩⲭⲏ̇">
 <norm_group norm_group="ⲧⲉⲯⲩⲭⲏ">
+<entity head_tok="#u17" text="ⲧⲉ ⲯⲩⲭⲏ" entity="abstract">
 <orig orig="ⲧⲉ">
-<norm xml:id="u16" func="det" head="#u17" pos="ART" lemma="ⲡ" norm="ⲧⲉ">
+<norm xml:id="u16" func="det" head="#u17" new_sent="true" pos="ART" lemma="ⲡ" norm="ⲧⲉ">
 ⲧⲉ
 </norm>
 </orig>
@@ -153,6 +158,7 @@
 </lang>
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="ϩⲱ̇ⲱⲥ">
@@ -209,13 +215,13 @@
 </translation>
 </vid_n>
 </verse_n>
-<verse_n verse_n="2">
 <vid_n vid_n="urn:cts:copticLit:ap.54.monbeg:1.2">
+<verse_n verse_n="2">
 <translation translation="And however much the body weakens,">
 <orig_group orig_group="ⲁⲩⲱ̇">
 <norm_group norm_group="ⲁⲩⲱ">
 <orig orig="ⲁⲩⲱ̇">
-<norm xml:id="u24" func="cc" head="#u29" pos="CONJ" lemma="ⲁⲩⲱ" norm="ⲁⲩⲱ">
+<norm xml:id="u24" func="cc" head="#u29" new_sent="true" pos="CONJ" lemma="ⲁⲩⲱ" norm="ⲁⲩⲱ">
 ⲁⲩⲱ̇
 </norm>
 </orig>
@@ -241,6 +247,7 @@
 <lb_n lb_n="2">
 <orig_group orig_group="ⲡⲥⲱⲙⲁ">
 <norm_group norm_group="ⲡⲥⲱⲙⲁ">
+<entity head_tok="#u28" text="ⲡ ⲥⲱⲙⲁ" entity="object">
 <orig orig="ⲡ">
 <norm xml:id="u27" func="det" head="#u28" pos="ART" lemma="ⲡ" norm="ⲡ">
 ⲡ
@@ -253,6 +260,7 @@
 </lang>
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="ϭⲃ̇ⲃⲉ">
@@ -277,8 +285,9 @@
 <translation translation="the soul grows.'">
 <orig_group orig_group="ⲧⲉⲯⲩⲭⲏ">
 <norm_group norm_group="ⲧⲉⲯⲩⲭⲏ">
+<entity head_tok="#u32" text="ⲧⲉ ⲯⲩⲭⲏ" entity="abstract">
 <orig orig="ⲧⲉ">
-<norm xml:id="u31" func="det" head="#u32" pos="ART" lemma="ⲡ" norm="ⲧⲉ">
+<norm xml:id="u31" func="det" head="#u32" new_sent="true" pos="ART" lemma="ⲡ" norm="ⲧⲉ">
 ⲧⲉ
 </norm>
 </orig>
@@ -292,6 +301,7 @@
 </lang>
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="ϩⲱ̇ⲱⲥ">

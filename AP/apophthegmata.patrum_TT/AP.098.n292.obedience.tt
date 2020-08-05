@@ -1,15 +1,15 @@
-<meta annotation="Dana Robinson, Caroline T. Schroeder" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960), p. 22" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.98.monbeg" Greek_edition="Anonymous Collection Nau 292" idno="IB 17 484 f. 21r" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="183" pages_to="183" parsing="automatic" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" segmentation="checked" tagging="checked" title="Apophthegmata Patrum Sahidic 098: Anonymous N 292" translation="Dana Robinson" Trismegistos="none" version_date="2019-05-31" version_n="2.7.0">
+<meta annotation="Dana Robinson, Caroline T. Schroeder, Amir Zeldes" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960), p. 22" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.98.monbeg" entities="gold" Greek_edition="Anonymous Collection Nau 292" identities="gold" idno="IB 17 484 f. 21r" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="183" pages_to="183" parsing="automatic" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" segmentation="checked" tagging="checked" title="Apophthegmata Patrum Sahidic 098: Anonymous N 292" translation="Dana Robinson" Trismegistos="none" version_date="2019-05-31" version_n="2.7.0" people="none" places="none">
 <pb_xml_id pb_xml_id="EG183">
 <cb_n cb_n="1">
-<chapter_n chapter_n="1">
-<verse_n verse_n="1">
+<translation translation="The elders said, “God does not seek anything from novices like obedience.”">
 <vid_n vid_n="urn:cts:copticLit:ap.98.monbeg:1.1">
+<verse_n verse_n="1">
+<chapter_n chapter_n="1">
 <lb_n lb_n="33">
-<translation translation="The elders said,">
 <orig_group orig_group="ⲁⲩϫⲟⲟⲥ">
 <norm_group norm_group="ⲁⲩϫⲟⲟⲥ">
 <orig orig="ⲁ">
-<norm xml:id="u1" func="aux" head="#u3" pos="APST" lemma="ⲁ" norm="ⲁ">
+<norm xml:id="u1" func="aux" head="#u3" new_sent="true" pos="APST" lemma="ⲁ" norm="ⲁ">
 <hi_rend hi_rend="ekthetic large">
 ⲁ
 </hi_rend>
@@ -39,6 +39,7 @@
 ⲛ̇ϭⲓ̇
 </norm>
 </orig>
+<entity head_tok="#u7" text="ⲛ ϩⲗⲗⲟ" entity="person">
 <orig orig="ⲛ̇">
 <norm xml:id="u6" func="det" head="#u7" pos="ART" lemma="ⲡ" norm="ⲛ">
 ⲛ̇
@@ -49,11 +50,10 @@
 ϩ̇ⲗⲗⲟ
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
-</translation>
 </lb_n>
-<translation translation="“God does not seek anything from novices like obedience.”">
 <lb_n lb_n="34">
 <orig_group orig_group="ϫⲉⲡ̇ⲛⲟⲩⲧⲉ">
 <norm_group norm_group="ϫⲉⲡⲛⲟⲩⲧⲉ">
@@ -62,6 +62,7 @@
 ϫⲉ
 </norm>
 </orig>
+<entity head_tok="#u10" text="ⲡ ⲛⲟⲩⲧⲉ" entity="person">
 <orig orig="ⲡ̇">
 <norm xml:id="u9" func="det" head="#u10" pos="ART" lemma="ⲡ" norm="ⲡ">
 ⲡ̇
@@ -72,13 +73,14 @@
 ⲛⲟⲩⲧⲉ
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
+<multiword multiword="ϣⲓⲛⲉ ⲛⲥⲁ">
 <orig_group orig_group="ϣⲓ̇ⲛⲉ">
 <norm_group norm_group="ϣⲓⲛⲉ">
 <orig orig="ϣⲓ̇ⲛⲉ">
-<multiword multiword="ϣⲓⲛⲉ ⲛⲥⲁ">
-<norm xml:id="u11" func="root" pos="V" lemma="ϣⲓⲛⲉ" norm="ϣⲓⲛⲉ">
+<norm xml:id="u11" func="ccomp" head="#u3" pos="V" lemma="ϣⲓⲛⲉ" norm="ϣⲓⲛⲉ">
 ϣⲓ̇ⲛⲉ
 </norm>
 </orig>
@@ -94,13 +96,15 @@
 ⲛⲥⲁ
 </note>
 </norm>
-</multiword>
 </orig>
+</multiword>
+<entity head_tok="#u13" text="ⲗⲁⲁⲩ" entity="abstract">
 <orig orig="ⲗⲁⲁ̇ⲩ">
 <norm xml:id="u13" func="obl" head="#u11" pos="N" lemma="ⲗⲁⲁⲩ" norm="ⲗⲁⲁⲩ">
 ⲗⲁⲁ̇ⲩ
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="ⲁⲛ">
@@ -136,6 +140,7 @@
 ⲛ̇
 </norm>
 </orig>
+<entity head_tok="#u19" text="ⲛ ⲣⲙⲛⲃⲣⲣⲉ" entity="person">
 <orig orig="ⲛ̇">
 <norm xml:id="u18" func="det" head="#u19" pos="ART" lemma="ⲡ" norm="ⲛ">
 ⲛ̇
@@ -154,6 +159,7 @@
 </morph>
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="ⲛⲑⲉ">
@@ -184,6 +190,7 @@
 ⲛ̇
 </norm>
 </orig>
+<entity head_tok="#u25" text="ⲧ ⲙⲛⲧⲥⲧⲙⲏⲧ" entity="abstract">
 <orig orig="ⲧ̇">
 <norm xml:id="u24" func="det" head="#u25" pos="ART" lemma="ⲡ" norm="ⲧ">
 ⲧ̇
@@ -202,6 +209,7 @@
 </morph>
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 </lb_n>

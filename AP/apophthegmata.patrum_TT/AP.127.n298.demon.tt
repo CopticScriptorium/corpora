@@ -1,17 +1,18 @@
-<meta annotation="Elizabeth Platte, Caroline T. Schroeder" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960), p. 29" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.127.monbeg" idno="IB 17 484 f. 25v" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msItem_title="Apophthegmata Patrum" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="206" pages_to="206" parsing="gold" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" segmentation="gold" tagging="gold" title="Apophthegmata Patrum Sahidic 127: N 298" translation="Elizabeth Platte" version_date="2019-09-30" version_n="3.0.0">
+<meta annotation="Elizabeth Platte, Caroline T. Schroeder, Elizabeth Davidson" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960), p. 29" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.127.monbeg" entities="gold" identities="gold" idno="IB 17 484 f. 25v" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msItem_title="Apophthegmata Patrum" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="206" pages_to="206" parsing="gold" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" segmentation="gold" tagging="gold" title="Apophthegmata Patrum Sahidic 127: N 298" translation="Elizabeth Platte" version_date="2019-09-30" version_n="3.0.0" people="none" places="none">
 <pb_xml_id pb_xml_id="EG206">
 <cb_n cb_n="1">
 <chapter_n chapter_n="1">
-<verse_n verse_n="1">
+<translation translation="A man became a demon, and was greatly afflicted, and was spitting out foam.">
 <vid_n vid_n="urn:cts:copticLit:ap.127.monbeg:1.1">
-<translation translation="A man became a demon,">
+<verse_n verse_n="1">
+<entity head_tok="#u2" text="ⲟⲩ ⲣⲱⲙⲉ ⲉ ϥ ⲟ ⲛ ⲇⲁⲓⲙⲱⲛⲓⲟⲛ · ⲁⲩⲱ ⲉ ϥ ⲙⲟⲕϩ ⲙⲙⲁⲧⲉ · ⲉ ϥ ⲧⲁⲩⲉ ⲥϩⲃⲏⲏⲧⲉ ⲉⲃⲟⲗ" entity="person">
 <lb_n lb_n="9">
 <orig_group orig_group="ⲟⲩⲣⲱⲙⲉ">
 <norm_group norm_group="ⲟⲩⲣⲱⲙⲉ">
 <orig orig="ⲟⲩ">
-<norm xml:id="u1" func="det" head="#u2" pos="ART" lemma="ⲟⲩ" norm="ⲟⲩ">
-<hi_rend hi_rend="red ekthetic">
+<norm xml:id="u1" func="det" head="#u2" new_sent="true" pos="ART" lemma="ⲟⲩ" norm="ⲟⲩ">
 <note note="dot in center of character">
+<hi_rend hi_rend="red ekthetic">
 ⲟ
 </note>
 </hi_rend>
@@ -51,6 +52,7 @@
 ⲛ
 </norm>
 </orig>
+<entity head_tok="#u7" text="ⲇⲁⲓⲙⲱⲛⲓⲟⲛ" entity="person">
 <orig orig="ⲇⲁⲓ̇ⲙⲱⲛⲓ̇ⲟ̇ⲛ">
 <norm xml:id="u7" func="obl" head="#u5" pos="N" lemma="ⲇⲁⲓⲙⲱⲛⲓⲟⲛ" norm="ⲇⲁⲓⲙⲱⲛⲓⲟⲛ">
 <lang lang="Greek">
@@ -61,6 +63,7 @@
 </lang>
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="·">
@@ -72,8 +75,6 @@
 </orig>
 </norm_group>
 </orig_group>
-</translation>
-<translation translation="and was greatly afflicted,">
 <orig_group orig_group="ⲁⲩⲱ̇">
 <norm_group norm_group="ⲁⲩⲱ">
 <orig orig="ⲁⲩⲱ̇">
@@ -123,8 +124,6 @@
 </orig>
 </norm_group>
 </orig_group>
-</translation>
-<translation translation="and was spitting out foam.">
 <orig_group orig_group="ⲉϥⲧⲁⲩⲉ̇ⲥ̇ⲃⲏⲧⲉ">
 <norm_group norm_group="ⲉϥⲧⲁⲩⲉⲥϩⲃⲏⲏⲧⲉ">
 <orig orig="ⲉ">
@@ -142,11 +141,13 @@
 ⲧⲁⲩⲉ̇
 </norm>
 </orig>
+<entity head_tok="#u18" text="ⲥϩⲃⲏⲏⲧⲉ" entity="substance">
 <orig orig="ⲥ̇ⲃⲏⲧⲉ">
 <norm xml:id="u18" func="obj" head="#u17" pos="N" lemma="ⲥϩⲃⲏⲏⲧⲉ" norm="ⲥϩⲃⲏⲏⲧⲉ">
 ⲥ̇ⲃⲏⲧⲉ
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 </lb_n>
@@ -160,6 +161,7 @@
 </orig>
 </norm_group>
 </orig_group>
+</entity>
 <orig_group orig_group="·">
 <norm_group norm_group="·">
 <orig orig="·">
@@ -173,8 +175,8 @@
 </vid_n>
 </verse_n>
 <translation translation="He struck a monk among the elders upon his cheek.">
-<verse_n verse_n="2">
 <vid_n vid_n="urn:cts:copticLit:ap.127.monbeg:1.2">
+<verse_n verse_n="2">
 <orig_group orig_group="ⲁ̇ϥⲣⲱϩⲧ̇">
 <norm_group norm_group="ⲁϥⲣⲱϩⲧ">
 <orig orig="ⲁ̇">
@@ -201,6 +203,7 @@
 ⲛ
 </norm>
 </orig>
+<entity head_tok="#u26" text="ⲟⲩ ⲙⲟⲛⲁⲭⲟⲥ ⲉⲃⲟⲗ ϩⲛ ⲛ ϩⲗⲗⲟ" entity="person">
 <orig orig="ⲟⲩ">
 <norm xml:id="u25" func="det" head="#u26" pos="ART" lemma="ⲟⲩ" norm="ⲟⲩ">
 ⲟⲩ
@@ -218,10 +221,10 @@
 </orig>
 </norm_group>
 </orig_group>
+<multiword multiword="ⲉⲃⲟⲗ ϩⲛ">
 <orig_group orig_group="ⲉ̇ⲃⲟⲗ">
 <norm_group norm_group="ⲉⲃⲟⲗ">
 <orig orig="ⲉ̇ⲃⲟⲗ">
-<multiword multiword="ⲉⲃⲟⲗ ϩⲛ">
 <norm xml:id="u27" func="case" head="#u30" pos="ADV" lemma="ⲉⲃⲟⲗ" norm="ⲉⲃⲟⲗ">
 ⲉ̇ⲃⲟⲗ
 </norm>
@@ -234,8 +237,9 @@
 <norm xml:id="u28" func="fixed" head="#u27" pos="PREP" lemma="ϩⲛ" norm="ϩⲛ">
 ϩⲛ̇
 </norm>
-</multiword>
 </orig>
+</multiword>
+<entity head_tok="#u30" text="ⲛ ϩⲗⲗⲟ" entity="person">
 <orig orig="ⲛ̇">
 <norm xml:id="u29" func="det" head="#u30" pos="ART" lemma="ⲡ" norm="ⲛ">
 ⲛ̇
@@ -246,9 +250,11 @@
 ϩⲗⲗⲟ
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 </lb_n>
+</entity>
 <lb_n lb_n="14">
 <orig_group orig_group="ⲉ̇ϩⲟⲩⲛ">
 <norm_group norm_group="ⲉϩⲟⲩⲛ">
@@ -266,6 +272,7 @@
 ⲉ̇
 </norm>
 </orig>
+<entity head_tok="#u34" text="ⲧⲉϥ ⲟⲩⲟϭⲉ" entity="object">
 <orig orig="ⲧⲉϥ">
 <norm xml:id="u33" func="det" head="#u34" pos="PPOS" lemma="ⲡⲉϥ" norm="ⲧⲉϥ">
 ⲧⲉϥ
@@ -276,6 +283,7 @@
 ⲟⲩⲟϭⲉ
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="·">
@@ -287,16 +295,17 @@
 </orig>
 </norm_group>
 </orig_group>
+</translation>
 </vid_n>
 </verse_n>
-</translation>
 <translation translation="But the monk quickly turned the other one to him.">
-<verse_n verse_n="3">
 <vid_n vid_n="urn:cts:copticLit:ap.127.monbeg:1.3">
+<verse_n verse_n="3">
 <orig_group orig_group="ⲡϩⲗⲗⲟ">
 <norm_group norm_group="ⲡϩⲗⲗⲟ">
+<entity head_tok="#u37" text="ⲡ ϩⲗⲗⲟ" entity="person">
 <orig orig="ⲡ">
-<norm xml:id="u36" func="det" head="#u37" pos="ART" lemma="ⲡ" norm="ⲡ">
+<norm xml:id="u36" func="det" head="#u37" new_sent="true" pos="ART" lemma="ⲡ" norm="ⲡ">
 ⲡ
 </norm>
 </orig>
@@ -307,6 +316,7 @@
 ϩⲗⲗⲟ
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="ⲇⲉ">
@@ -381,6 +391,7 @@
 ⲛ̇
 </norm>
 </orig>
+<entity head_tok="#u50" text="ⲧ ⲕⲉ ⲟⲩⲉⲓ" entity="object">
 <orig orig="ⲧ̇">
 <norm xml:id="u48" func="det" head="#u50" pos="ART" lemma="ⲡ" norm="ⲧ">
 ⲧ̇
@@ -396,6 +407,7 @@
 ⲟⲩⲉⲓ
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="·">
@@ -408,17 +420,18 @@
 </norm_group>
 </orig_group>
 </lb_n>
+</translation>
 </vid_n>
 </verse_n>
-</translation>
-<verse_n verse_n="4">
 <vid_n vid_n="urn:cts:copticLit:ap.127.monbeg:1.4">
+<verse_n verse_n="4">
 <translation translation="And the demon could not bear the fire of his humility.">
 <lb_n lb_n="17">
 <orig_group orig_group="ⲡⲇⲁⲓ̇ⲙⲱⲛ">
 <norm_group norm_group="ⲡⲇⲁⲓⲙⲱⲛ">
+<entity head_tok="#u53" text="ⲡ ⲇⲁⲓⲙⲱⲛ" entity="person">
 <orig orig="ⲡ">
-<norm xml:id="u52" func="det" head="#u53" pos="ART" lemma="ⲡ" norm="ⲡ">
+<norm xml:id="u52" func="det" head="#u53" new_sent="true" pos="ART" lemma="ⲡ" norm="ⲡ">
 <hi_rend hi_rend="red ekthetic">
 ⲡ
 </hi_rend>
@@ -431,6 +444,7 @@
 </lang>
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="ⲇⲉ">
@@ -458,8 +472,8 @@
 </orig>
 </lb_n>
 <lb_n lb_n="18">
-<orig orig="ⲧⲱⲟⲩⲛ̇">
 <multiword multiword="ⲧⲱⲟⲩⲛ ϩⲁ">
+<orig orig="ⲧⲱⲟⲩⲛ̇">
 <norm xml:id="u57" func="root" pos="V" lemma="ⲧⲱⲟⲩⲛ" norm="ⲧⲱⲟⲩⲛ">
 ⲧⲱⲟⲩⲛ̇
 </norm>
@@ -472,8 +486,9 @@
 <norm xml:id="u58" func="case" head="#u60" pos="PREP" lemma="ϩⲁ" norm="ϩⲁ">
 ϩⲁ
 </norm>
-</multiword>
 </orig>
+</multiword>
+<entity head_tok="#u60" text="ⲡ ϫⲟϥϫϥ ⲙ ⲡⲉ ⲑⲃⲃⲓⲟ" entity="abstract">
 <orig orig="ⲡ">
 <norm xml:id="u59" func="det" head="#u60" pos="ART" lemma="ⲡ" norm="ⲡ">
 ⲡ
@@ -495,6 +510,7 @@
 ⲙ̇
 </norm>
 </orig>
+<entity head_tok="#u63" text="ⲡⲉ ⲑⲃⲃⲓⲟ" entity="abstract">
 <orig orig="ⲡⲉ">
 <norm xml:id="u62" func="det" head="#u63" pos="ART" lemma="ⲡ" norm="ⲡⲉ">
 ⲡⲉ
@@ -505,14 +521,16 @@
 ⲑⲃⲃⲓ̇ⲟ̇
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
+</entity>
 </translation>
 <translation translation="He went out of him.">
 <orig_group orig_group="ⲁ̇ϥⲉⲓ̇">
 <norm_group norm_group="ⲁϥⲉⲓ">
 <orig orig="ⲁ̇">
-<norm xml:id="u64" func="aux" head="#u66" pos="APST" lemma="ⲁ" norm="ⲁ">
+<norm xml:id="u64" func="aux" head="#u66" new_sent="true" pos="APST" lemma="ⲁ" norm="ⲁ">
 ⲁ̇
 </norm>
 </orig>
@@ -521,8 +539,8 @@
 ϥ
 </norm>
 </orig>
-<orig orig="ⲉⲓ̇">
 <multiword multiword="ⲉⲓ ⲉⲃⲟⲗ">
+<orig orig="ⲉⲓ̇">
 <norm xml:id="u66" func="root" pos="V" lemma="ⲉⲓ" norm="ⲉⲓ">
 ⲉⲓ̇
 </norm>
@@ -535,10 +553,10 @@
 <norm xml:id="u67" func="advmod" head="#u66" pos="ADV" lemma="ⲉⲃⲟⲗ" norm="ⲉⲃⲟⲗ">
 ⲉ̇ⲃⲟⲗ
 </norm>
-</multiword>
 </orig>
 </norm_group>
 </orig_group>
+</multiword>
 </lb_n>
 <lb_n lb_n="20">
 <orig_group orig_group="ϩⲓ̇ⲱ̇ⲱϥ">

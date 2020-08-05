@@ -1,15 +1,15 @@
-<meta annotation="Elizabeth Platte, Caroline T. Schroeder" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960), p. 27" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.118.monbeg" idno="IB 17 484 f. 24r" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="203" pages_to="203" parsing="gold" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" segmentation="gold" tagging="gold" title="Apophthegmata Patrum Sahidic 118: Sisoes 11" translation="Elizabeth Platte" Trismegistos="none" version_date="2019-09-30" version_n="3.0.0">
+<meta annotation="Elizabeth Platte, Caroline T. Schroeder, Elizabeth Davidson" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960), p. 27" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.118.monbeg" entities="gold" identities="gold" idno="IB 17 484 f. 24r" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="203" pages_to="203" parsing="gold" placeName="Atripe" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" segmentation="gold" tagging="gold" title="Apophthegmata Patrum Sahidic 118: Sisoes 11" translation="Elizabeth Platte" Trismegistos="none" version_date="2019-09-30" version_n="3.0.0" people="Satan; Sisoes the Great" places="none">
 <pb_xml_id pb_xml_id="EG203">
 <cb_n cb_n="2">
 <chapter_n chapter_n="1">
-<verse_n verse_n="1">
 <vid_n vid_n="urn:cts:copticLit:ap.118.monbeg:1.1">
+<verse_n verse_n="1">
 <translation translation="The brother asked him again,">
 <lb_n lb_n="30">
 <orig_group orig_group="ⲁϥϫ̇ⲛⲟⲩϥ">
 <norm_group norm_group="ⲁϥϫⲛⲟⲩϥ">
 <orig orig="ⲁ">
-<norm xml:id="u1" func="aux" head="#u3" pos="APST" lemma="ⲁ" norm="ⲁ">
+<norm xml:id="u1" func="aux" head="#u3" new_sent="true" pos="APST" lemma="ⲁ" norm="ⲁ">
 <hi_rend hi_rend="red ekthetic">
 ⲁ
 </hi_rend>
@@ -32,10 +32,10 @@
 </orig>
 </norm_group>
 </orig_group>
+<multiword multiword="ⲇⲉ ⲟⲛ">
 <orig_group orig_group="ⲇⲉ">
 <norm_group norm_group="ⲇⲉ">
 <orig orig="ⲇⲉ">
-<multiword multiword="ⲇⲉ ⲟⲛ">
 <norm xml:id="u5" func="advmod" head="#u3" pos="PTC" lemma="ⲇⲉ" norm="ⲇⲉ">
 <lang lang="Greek">
 ⲇⲉ
@@ -50,10 +50,10 @@
 <norm xml:id="u6" func="advmod" head="#u3" pos="ADV" lemma="ⲟⲛ" norm="ⲟⲛ">
 ⲟ̇ⲛ
 </norm>
-</multiword>
 </orig>
 </norm_group>
 </orig_group>
+</multiword>
 <orig_group orig_group="ⲛ̇ϭⲓ̇ⲡⲥⲟⲛ">
 <norm_group norm_group="ⲛϭⲓⲡⲥⲟⲛ">
 <orig orig="ⲛ̇ϭⲓ̇">
@@ -61,6 +61,7 @@
 ⲛ̇ϭⲓ̇
 </norm>
 </orig>
+<entity head_tok="#u9" text="ⲡ ⲥⲟⲛ" entity="person">
 <orig orig="ⲡ">
 <norm xml:id="u8" func="det" head="#u9" pos="ART" lemma="ⲡ" norm="ⲡ">
 ⲡ
@@ -73,6 +74,7 @@
 ⲥⲟⲛ
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="·">
@@ -104,6 +106,7 @@
 </orig_group>
 <orig_group orig_group="ⲡ̇ⲥⲁⲧⲁⲛⲁⲥ">
 <norm_group norm_group="ⲡⲥⲁⲧⲁⲛⲁⲥ">
+<entity identity="Satan" head_tok="#u14" text="ⲡ ⲥⲁⲧⲁⲛⲁⲥ" entity="person">
 <orig orig="ⲡ̇">
 <norm xml:id="u13" func="det" head="#u14" pos="ART" lemma="ⲡ" norm="ⲡ">
 ⲡ̇
@@ -121,6 +124,7 @@
 </lang>
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="ϯϩⲓ̇ⲥⲉ">
@@ -144,6 +148,7 @@
 ⲛ̇
 </norm>
 </orig>
+<entity head_tok="#u18" text="ⲛ ⲁⲣⲭⲉⲟⲥ" entity="person">
 <orig orig="ⲛ">
 <norm xml:id="u17" func="det" head="#u18" pos="ART" lemma="ⲡ" norm="ⲛ">
 ⲛ
@@ -159,6 +164,7 @@
 </lang>
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 <orig_group orig_group="ⲟ̇ⲛ">
@@ -204,14 +210,14 @@
 </translation>
 </vid_n>
 </verse_n>
-<verse_n verse_n="2">
 <vid_n vid_n="urn:cts:copticLit:ap.118.monbeg:1.2">
+<verse_n verse_n="2">
 <translation translation="Apa Sisoes said to him, ">
 <lb_n lb_n="34">
 <orig_group orig_group="ⲡⲉϫⲁϥ">
 <norm_group norm_group="ⲡⲉϫⲁϥ">
 <orig orig="ⲡⲉϫⲁ">
-<norm xml:id="u24" func="root" pos="VBD" lemma="ⲡⲉϫⲉ" norm="ⲡⲉϫⲁ">
+<norm xml:id="u24" func="root" new_sent="true" pos="VBD" lemma="ⲡⲉϫⲉ" norm="ⲡⲉϫⲁ">
 ⲡⲉϫⲁ
 </norm>
 </orig>
@@ -254,6 +260,7 @@
 ⲛ̇ϭⲓ̇
 </norm>
 </orig>
+<entity identity="Sisoes the Great" head_tok="#u31" text="ⲁⲡⲁ ϫⲓϫⲱⲓ" entity="person">
 <orig orig="ⲁⲡⲁ">
 <norm xml:id="u30" func="dislocated" head="#u24" pos="N" lemma="ⲁⲡⲁ" norm="ⲁⲡⲁ">
 <lang lang="Hebrew">
@@ -275,6 +282,7 @@
 </orig>
 </norm_group>
 </orig_group>
+</entity>
 <orig_group orig_group="·">
 <norm_group norm_group="·">
 <orig orig="·">
@@ -335,10 +343,10 @@
 </orig>
 </norm_group>
 </orig_group>
+<multiword multiword="ⲉⲃⲟⲗ ϫⲉ">
 <orig_group orig_group="ⲉ̇ⲃⲟⲗ">
 <norm_group norm_group="ⲉⲃⲟⲗ">
 <orig orig="ⲉ̇ⲃⲟⲗ">
-<multiword multiword="ⲉⲃⲟⲗ ϫⲉ">
 <norm xml:id="u39" func="mark" head="#u44" pos="ADV" lemma="ⲉⲃⲟⲗ" norm="ⲉⲃⲟⲗ">
 ⲉ̇
 </lb_n>
@@ -356,13 +364,14 @@
 <norm xml:id="u40" func="fixed" head="#u39" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
 ϫⲉ
 </norm>
-</multiword>
 </orig>
+</multiword>
 <orig orig="ⲁ̇">
 <norm xml:id="u41" func="aux" head="#u44" pos="APST" lemma="ⲁ" norm="ⲁ">
 ⲁ̇
 </norm>
 </orig>
+<entity head_tok="#u43" text="ⲡⲉϥ ⲟⲩⲟⲉⲓϣ" entity="time">
 <orig orig="ⲡⲉϥ">
 <norm xml:id="u42" func="det" head="#u43" pos="PPOS" lemma="ⲡⲉϥ" norm="ⲡⲉϥ">
 ⲡⲉϥ
@@ -373,6 +382,7 @@
 ⲟⲩⲟ̇ⲉⲓ̇ϣ
 </norm>
 </orig>
+</entity>
 </norm_group>
 </orig_group>
 </lb_n>
@@ -397,18 +407,20 @@
 </orig_group>
 <orig_group orig_group="ⲉ̇ⲧⲃⲉⲡⲁⲓ">
 <norm_group norm_group="ⲉⲧⲃⲉⲡⲁⲓ">
-<orig orig="ⲉ̇ⲧⲃⲉ">
 <multiword multiword="ⲉⲧⲃⲉ ⲡⲁⲓ">
+<orig orig="ⲉ̇ⲧⲃⲉ">
 <norm xml:id="u46" func="case" head="#u47" pos="PREP" lemma="ⲉⲧⲃⲉ" norm="ⲉⲧⲃⲉ">
 ⲉ̇ⲧⲃⲉ
 </norm>
 </orig>
+<entity head_tok="#u47" text="ⲡⲁⲓ" entity="abstract">
 <orig orig="ⲡⲁⲓ">
 <norm xml:id="u47" func="obl" head="#u49" pos="PDEM" lemma="ⲡⲁⲓ" norm="ⲡⲁⲓ">
 ⲡⲁⲓ
 </norm>
-</multiword>
 </orig>
+</entity>
+</multiword>
 </norm_group>
 </orig_group>
 </lb_n>
