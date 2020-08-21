@@ -68,7 +68,7 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="3.1.0" when="2020-03-13"></change>
+	<change n="4.0.0" when="2020-08-31"></change>
 </revisionDesc>
 
 </teiHeader>
@@ -176,14 +176,11 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲣⲉ" type="CCIRC">
+<w lemma="ⲉⲣⲉ" type="AOPT">
 ⲉⲣⲉ
 </w>
-<w lemma="ⲡ" type="ART">
-ⲡ
-</w>
-<w lemma="ⲉϥ" type="PPERO">
-ⲉϥ
+<w lemma="ⲡⲉϥ" type="PPOS">
+ⲡⲉϥ
 </w>
 <w lemma="ⲥⲙⲟⲩ" type="N">
 ⲥⲙⲟⲩ
@@ -253,7 +250,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲛ" type="PREP">
+<w lemma="ⲡ" type="ART">
 ⲙ
 </w>
 <w lemma="ⲙⲁⲓⲥⲱⲧⲙ" type="N">
@@ -480,7 +477,7 @@
 <w lemma="ⲛ" type="PREP">
 ⲛ
 </w>
-<w lemma="ⲉⲡⲏⲡ" type="N">
+<w lemma="ⲉⲡⲏⲡ" type="NPROP">
 ⲉⲡⲏⲡ
 </w>
 </phr>
@@ -581,7 +578,7 @@
 </s>
 <s style="...">
 <phr>
-<w lemma="..." type="N">
+<w lemma="UNKNOWN" type="UNKNOWN">
 [...]
 </w>
 </phr>
@@ -592,11 +589,13 @@
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲣⲱⲙⲉ" type="N">
+<w lemma="ⲣⲙⲧⲁⲙⲙⲁ" type="N">
+<m>
 ⲣⲙ
-</w>
-<w lemma="ⲧⲁⲙⲙⲁ" type="V">
+</m>
+<m>
 ⲧⲁⲙⲙⲁ
+</m>
 </w>
 </phr>
 <phr>
@@ -619,13 +618,13 @@
 <w lemma="ⲛⲁ" type="FUT">
 ⲛⲁ
 </w>
-<w lemma="ⲉⲓⲣⲉ" type="V">
+<w lemma="ⲣⲁⲣⲭⲏⲅⲟⲥ" type="V">
+<m>
 ⲣ
-</w>
-</phr>
-<phr>
-<w lemma="ⲁⲣⲭⲏⲅⲟⲥ" type="N" xml:lang="Greek">
+</m>
+<m xml:lang="Greek">
 ⲁⲣⲭⲏⲅⲟⲥ
+</m>
 </w>
 </phr>
 <phr>
@@ -970,8 +969,11 @@
 <w lemma="ⲙⲛ" type="PREP">
 ⲙⲛ
 </w>
-<w lemma="ⲛⲉⲛⲉⲣⲏⲟⲩ" type="N">
-ⲛⲉⲛⲉⲣⲏⲟⲩ
+<w lemma="ⲡⲉⲛ" type="PPOS">
+ⲛⲉⲛ
+</w>
+<w lemma="ⲉⲣⲏⲩ" type="N">
+ⲉⲣⲏⲟⲩ
 </w>
 </phr>
 </s>
@@ -1137,17 +1139,8 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲉ" type="PREP">
-ⲉ
-</w>
-<w lemma="ⲡⲓ" type="PDEM">
-ⲡⲓ
-</w>
-<w lemma="ⲕⲁⲗⲉ" type="N">
-ⲕⲁⲗⲉ
-</w>
-<w lemma="ⲁⲛⲟⲕ" type="PPERO">
-ⲓ
+<w lemma="ⲉⲡⲓⲕⲁⲗⲉⲓ" type="V" xml:lang="Greek">
+ⲉⲡⲓⲕⲁⲗⲉⲓ
 </w>
 </phr>
 <phr>
@@ -1311,7 +1304,7 @@
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲧⲉⲃⲉⲧ" type="N">
+<w lemma="ⲧⲃⲧ" type="N">
 ⲧⲉⲃⲉⲧ
 </w>
 </phr>
@@ -1359,10 +1352,13 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲏⲧⲛ" type="PREP">
-ⲙⲏⲧⲛ
+<w lemma="ⲙⲏⲧ" type="NUM">
+ⲙⲏⲧ
 </w>
-<w lemma="ϣⲏ" type="N">
+<w lemma="ⲛ" type="PREP">
+ⲛ
+</w>
+<w lemma="ϣⲏ" type="NUM">
 ϣⲏ
 </w>
 </phr>
@@ -1884,11 +1880,8 @@
 </w>
 </phr>
 <phr>
-<w lemma="ϩⲓ" type="PREP">
-ϩⲓ
-</w>
-<w lemma="ϫⲉⲛ" type="N">
-ϫⲉⲛ
+<w lemma="ϩⲓϫⲛ" type="PREP">
+ϩⲓϫⲉⲛ
 </w>
 <w lemma="ⲡ" type="ART">
 ⲧⲉ
@@ -2220,7 +2213,7 @@
 <w lemma="ⲕⲁⲧⲁ" type="PREP" xml:lang="Greek">
 ⲕⲁⲧⲁ
 </w>
-<w lemma="ϩⲙⲏ" type="N">
+<w lemma="ϩⲙⲉ" type="NUM">
 ϩⲙⲏ
 </w>
 </phr>
@@ -2340,7 +2333,7 @@
 <w lemma="ⲡⲁ" type="PPOS">
 ⲡⲁ
 </w>
-<w lemma="ϩⲙⲏ" type="N">
+<w lemma="ϩⲙⲉ" type="NUM">
 ϩⲙⲏ
 </w>
 </phr>
@@ -2385,7 +2378,7 @@
 <w lemma="ⲡⲁ" type="PPOS">
 ⲡⲁ
 </w>
-<w lemma="ϩⲙⲏ" type="N">
+<w lemma="ϩⲙⲉ" type="NUM">
 ϩⲙⲏ
 </w>
 </phr>
@@ -2510,7 +2503,7 @@
 <w lemma="ⲙⲛ" type="PREP">
 ⲙⲛ
 </w>
-<w lemma="ϩⲙⲏ" type="N">
+<w lemma="ϩⲙⲉ" type="NUM">
 ϩⲙⲏ
 </w>
 </phr>
@@ -2555,7 +2548,7 @@
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲕⲁⲗⲟⲥ" type="N" xml:lang="Greek">
+<w lemma="ⲕⲁⲗⲱⲥ" type="ADV" xml:lang="Greek">
 ⲕⲁⲗⲟⲥ
 </w>
 </phr>
@@ -2610,7 +2603,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲕⲁⲗⲟⲥ" type="N" xml:lang="Greek">
+<w lemma="ⲕⲁⲗⲱⲥ" type="ADV" xml:lang="Greek">
 ⲕⲁⲗⲟⲥ
 </w>
 </phr>
@@ -2898,7 +2891,7 @@
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ϩⲛ" type="ART">
+<w lemma="ⲟⲩ" type="ART">
 ϩⲛ
 </w>
 <w lemma="ⲙⲁⲡⲡⲁ" type="N" xml:lang="Greek">
@@ -2959,14 +2952,16 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲧⲛⲉ" type="V">
-ⲧⲛⲉ
+<w lemma="ⲁⲛⲟⲛ" type="PPERS">
+ⲧⲛ
 </w>
-<w lemma="ⲉⲓⲣⲉ" type="V">
-ⲣ
-</w>
-<w lemma="ⲭⲣⲉⲓⲁ" type="N" xml:lang="Greek">
+<w lemma="ⲣⲭⲣⲉⲓⲁ" type="V">
+<m>
+ⲉⲣ
+</m>
+<m xml:lang="Greek">
 ⲭⲣⲓⲁ
+</m>
 </w>
 </phr>
 <phr>
@@ -3423,7 +3418,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲡ" type="ART">
+<w lemma="ⲡⲉ" type="COP">
 ⲡ
 </w>
 <w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
@@ -3809,7 +3804,7 @@
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ϩⲉⲗⲗⲟ" type="N">
+<w lemma="ϩⲗⲗⲟ" type="N">
 ϩⲉⲗⲗⲟ
 </w>
 </phr>
@@ -4709,8 +4704,11 @@
 <w lemma="ⲱⲛ" type="N">
 ⲱⲛ
 </w>
-<w lemma="ⲉⲛⲉ" type="CONJ">
-ⲉⲛⲉ
+<w lemma="ⲉ" type="PREP">
+ⲉ
+</w>
+<w lemma="ⲡ" type="ART">
+ⲛⲉ
 </w>
 <w lemma="ⲥⲟⲛ" type="N">
 ⲥⲛⲏⲟⲩ
@@ -4762,14 +4760,11 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲣⲉ" type="CCIRC">
+<w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲛⲧⲟⲥ" type="PPERS">
-ⲥ
-</w>
-<w lemma="ⲙⲟⲩ" type="V">
-ⲙⲟⲩ
+<w lemma="ⲥⲙⲟⲩ" type="V">
+ⲥⲙⲟⲩ
 </w>
 </phr>
 <phr>
@@ -4800,7 +4795,12 @@
 ⲡ
 </w>
 <w lemma="ⲣⲙⲧⲁⲙⲙⲁ" type="N">
-ⲣⲙⲧⲁⲙⲙⲁ
+<m>
+ⲣⲙ
+</m>
+<m>
+ⲧⲁⲙⲙⲁ
+</m>
 </w>
 </phr>
 <phr>
@@ -4873,16 +4873,21 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲁ" type="PPERS">
+<w lemma="ⲁ" type="APST">
 ⲁ
 </w>
-<w lemma="ⲕⲓ" type="V">
-ⲕⲓ
+<w lemma="ⲛⲧⲟⲕ" type="PPERS">
+ⲕ
 </w>
+<w lemma="ⲉⲓ" type="V">
+ⲓ
+</w>
+</phr>
+<phr>
 <w lemma="ϣⲁ" type="PREP">
 ϣⲁⲣⲟ
 </w>
-<w lemma="ⲡ" type="ART">
+<w lemma="ⲁⲛⲟⲛ" type="PPERO">
 ⲛ
 </w>
 </phr>
@@ -5030,20 +5035,25 @@
 </w>
 </phr>
 <phr>
+<w lemma="ⲡⲁ" type="PPOS">
+ⲡⲁ
+</w>
 <w lemma="ⲡ" type="ART">
-ⲡ
+ⲧ
 </w>
-<w lemma="ⲁ" type="APST">
-ⲁ
-</w>
-<w lemma="ⲧϩⲉⲃⲥⲱ" type="PPERS">
-ⲧϩⲉⲃⲥⲱ
+<w lemma="ϩⲃⲥⲱ" type="N">
+ϩⲉⲃⲥⲱ
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲓⲛⲉ" type="V">
+<w lemma="ⲛ" type="PREP">
 ⲙⲙⲓⲛⲉ
 </w>
+<w lemma="ⲙⲓⲛⲉ" type="N">
+PREP
+</w>
+</phr>
+<phr>
 <w lemma="ⲙⲓⲛⲉ" type="N">
 ⲙⲓⲛⲉ
 </w>
@@ -5052,13 +5062,18 @@
 <w lemma="ⲛ" type="PREP">
 ⲛ
 </w>
-<w lemma="ⲑⲉⲛ" type="NPROP">
-ⲑⲉⲛ
-</w>
 <w lemma="ⲡ" type="ART">
-ⲧ
+ⲑ
 </w>
-<w lemma="ⲁ" type="N">
+<w lemma="ϩⲉ" type="N">
+ⲉ
+</w>
+</phr>
+<phr>
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
+ⲛⲧ
+</w>
+<w lemma="ⲁ" type="APST">
 ⲁ
 </w>
 <w lemma="ⲓⲱⲥⲏⲫ" type="NPROP" xml:lang="Hebrew">
@@ -5111,7 +5126,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲡ" type="ART">
+<w lemma="ⲡⲉ" type="COP">
 ⲡ
 </w>
 <w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
@@ -5604,7 +5619,7 @@
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ⲕⲁⲗⲟⲥ" type="NPROP" xml:lang="Greek">
+<w lemma="ⲕⲁⲗⲱⲥ" type="ADV" xml:lang="Greek">
 ⲕⲁⲗⲟⲥ
 </w>
 </phr>
@@ -6175,7 +6190,7 @@
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<w lemma="ϣⲟⲙⲉⲛⲧ" type="NUM">
+<w lemma="ϣⲟⲙⲛⲧ" type="NUM">
 ϣⲟⲙⲉⲛⲧ
 </w>
 </phr>
@@ -6225,7 +6240,7 @@
 <w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
-<w lemma="ϩⲙⲏ" type="N">
+<w lemma="ϩⲙⲉ" type="NUM">
 ϩⲙⲏ
 </w>
 </phr>
@@ -6473,7 +6488,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲡ" type="ART">
+<w lemma="ⲡⲉ" type="COP">
 ⲡ
 </w>
 <w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
@@ -6639,8 +6654,11 @@
 <w lemma="ⲙⲛ" type="PREP">
 ⲙⲛ
 </w>
-<w lemma="ⲛⲉⲛⲉⲣⲏⲟⲩ" type="N">
-ⲛⲉⲛⲉⲣⲏⲟⲩ
+<w lemma="ⲡⲉⲛ" type="PPOS">
+ⲛⲉⲛ
+</w>
+<w lemma="ⲉⲣⲏⲩ" type="N">
+ⲉⲣⲏⲟⲩ
 </w>
 </phr>
 <phr>
@@ -6857,7 +6875,7 @@
 <w lemma="ⲡⲉⲩ" type="PPOS">
 ⲛⲉⲩ
 </w>
-<w lemma="ⲉⲣⲏⲟⲩ" type="N">
+<w lemma="ⲉⲣⲏⲩ" type="N">
 ⲉⲣⲏⲟⲩ
 </w>
 </phr>
@@ -7568,7 +7586,7 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲧⲉ" type="PREP">
+<w lemma="ⲛⲧⲉ" type="ACONJ">
 ⲛⲧⲉ
 </w>
 <w lemma="ⲡ" type="ART">
@@ -8174,7 +8192,7 @@
 <w lemma="ⲡⲉⲩ" type="PPOS">
 ⲛⲉⲩ
 </w>
-<w lemma="ⲉⲣⲏⲟⲩ" type="N">
+<w lemma="ⲉⲣⲏⲩ" type="N">
 ⲉⲣⲏⲟⲩ
 </w>
 </phr>
@@ -8202,8 +8220,13 @@
 <w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲥⲉ
 </w>
-<w lemma="ⲉⲣϩⲁⲓⲃⲉⲥ" type="V">
-ⲉⲣϩⲁⲓⲃⲉⲥ
+<w lemma="ⲣϩⲁⲓⲃⲉⲥ" type="V">
+<m>
+ⲉⲣ
+</m>
+<m>
+ϩⲁⲓⲃⲉⲥ
+</m>
 </w>
 </phr>
 <phr>
