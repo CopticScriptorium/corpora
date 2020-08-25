@@ -12,7 +12,7 @@
         },
         {
           "type"  : "htmldoc", 
-          "displayName" :  "versified text (document)", 
+          "displayName" :  "normalized text (document)", 
           "mappings" : "config:verses"
         }
     ],
@@ -21,7 +21,12 @@
             "name" : "title"
         },
         {
-            "name" : "idno"
+            "name" : "msName"
         }
+    ],
+    "orderBy" : [
+        {
+            "name" :"title",
+            "ascending" : "true"}
     ]
 }
