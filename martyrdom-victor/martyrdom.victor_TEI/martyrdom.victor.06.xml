@@ -10,7 +10,7 @@
 </respStmt>
 <respStmt>
 <resp>annotation</resp>
-<name>Lance Martin, Caroline T. Schroeder</name>
+<name>Lance Martin, Caroline T. Schroeder, Amir Zeldes</name>
 </respStmt>
 <respStmt>
 <resp>translation</resp>
@@ -68,7 +68,7 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="3.1.0" when="2020-03-13"></change>
+	<change n="4.0.0" when="2020-08-31"></change>
 </revisionDesc>
 
 </teiHeader>
@@ -432,7 +432,7 @@
 <w type="ART" lemma="ⲡ">
 ⲡⲉ
 </w>
-<w type="NPROP" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
+<w type="N" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
 ⲭⲣ̅ⲥ̅
 </w>
 </phr>
@@ -498,7 +498,7 @@
 <w type="ART" lemma="ⲡ">
 ⲡ
 </w>
-<w type="N" lemma="ⲇⲓⲁⲃⲟⲗⲟⲥ" xml:lang="Greek">
+<w type="NPROP" lemma="ⲇⲓⲁⲃⲟⲗⲟⲥ" xml:lang="Greek">
 ⲇⲓⲁⲃⲟⲗⲟⲥ
 </w>
 </phr>
@@ -1578,12 +1578,17 @@
 </w>
 </phr>
 <phr>
-<w type="PREP" lemma="ⲉ">
+<w type="CCIRC" lemma="ⲉⲣⲉ">
 ⲉ
 </w>
-<w type="PPOS" lemma="ⲡⲉϥ">
-ⲛⲉϥ
+<w type="CPRET" lemma="ⲛⲉⲣⲉ">
+ⲛⲉ
 </w>
+<w type="PPERS" lemma="ⲛⲧⲟϥ">
+ϥ
+</w>
+</phr>
+<phr>
 <w type="CPRET" lemma="ⲛⲉⲣⲉ">
 ⲛⲉ
 </w>
@@ -2019,7 +2024,7 @@
 </s>
 </p>
 <p n="9">
-<s style="Forgive me, O my  brother! I will stand up (and pray).'">
+<s style="Forgive me, O my brother! I will stand up (and pray).'">
 <phr>
 <w type="CONJ" lemma="ϫⲉ">
 ϫⲉ
@@ -2422,7 +2427,7 @@
 </s>
 </p>
 <p n="2">
-<s style="Sit Thou down so that I may be able to enjoy thy face fully, for behold, it is a very long time since I have seen a man. And I adjure  Thee to inform me truthfully of what place Thou art a native, so that I may know whether Thou art a native of my own city (or not)">
+<s style="Sit Thou down so that I may be able to enjoy thy face fully, for behold, it is a very long time since I have seen a man. And I adjure Thee to inform me truthfully of what place Thou art a native, so that I may know whether Thou art a native of my own city (or not)">
 <phr>
 <w type="CONJ" lemma="ϫⲉ">
 ϫⲉ
@@ -2487,13 +2492,13 @@
 </w>
 </phr>
 <phr>
-<w type="PREP" lemma="ⲛ">
-ⲙ̅
+<w type="ANEGPST" lemma="ⲙⲡⲉ">
+ⲙ̅ⲡ
 </w>
-<w type="PDEM" lemma="ⲡⲓ">
-ⲡⲉⲓ
+<w type="PPERS" lemma="ⲁⲛⲟⲕ">
+ⲉⲓ
 </w>
-<w type="N" lemma="ⲛⲁⲩ">
+<w type="V" lemma="ⲛⲁⲩ">
 ⲛⲁⲩ
 </w>
 </phr>
@@ -2688,7 +2693,7 @@
 <w type="ART" lemma="ⲡ">
 ⲧ
 </w>
-<w type="N" lemma="ⲕⲩⲗⲓⲕⲓⲁ">
+<w type="NPROP" lemma="ⲕⲓⲗⲓⲕⲓⲁ">
 ⲕⲩⲗⲓⲕⲓⲁ
 </w>
 </phr>
@@ -2801,7 +2806,7 @@
 </w>
 </phr>
 <phr>
-<w type="N" lemma="ⲑⲉⲟⲛⲱⲏ">
+<w type="NPROP" lemma="ⲑⲉⲟⲛⲱⲏ">
 ⲑⲉⲟⲛⲱⲏ̅
 </w>
 </phr>
@@ -3264,13 +3269,16 @@
 </w>
 </phr>
 <phr>
-<w type="ART" lemma="ⲡ">
+<w type="COP" lemma="ⲡⲉ">
 ⲡⲉ
 </w>
 </phr>
 <phr>
-<w type="N" lemma="ⲡⲟⲟⲩ">
-ⲡⲟⲟⲩ
+<w type="ART" lemma="ⲡ">
+ⲡ
+</w>
+<w type="N" lemma="ϩⲟⲟⲩ">
+ⲟⲟⲩ
 </w>
 </phr>
 <phr>
@@ -3573,7 +3581,7 @@
 </s>
 </p>
 <p n="15">
-<s style="But now, O my  brother, rise up, take this lamp-stand and these seats (or, stools), and also my shoe latchet, and go Thou into the city which is near and sell them at their (proper) price, and buy  us some bread that we may eat, lest our souls decay through weakness. ">
+<s style="But now, O my brother, rise up, take this lamp-stand and these seats (or, stools), and also my shoe latchet, and go Thou into the city which is near and sell them at their (proper) price, and buy us some bread that we may eat, lest our souls decay through weakness. ">
 <phr>
 <w type="ADV" lemma="ⲧⲉⲛⲟⲩ">
 ⲧⲉⲛⲟⲩ
@@ -3838,7 +3846,7 @@
 </div>
 <div type="textpart">
 <p n="1">
-<s style="And Jesus answered and said unto him, 'Where in this  wilderness dost thou find a man with whom to hold converse? And who is it that taketh care to provide thee with food?">
+<s style="And Jesus answered and said unto him, 'Where in this wilderness dost thou find a man with whom to hold converse? And who is it that taketh care to provide thee with food?">
 <phr>
 <w type="APST" lemma="ⲁ">
 Ⲁ
@@ -3998,7 +4006,7 @@
 </s>
 </p>
 <p n="3">
-<s style="Woe be unto  me, O my brother! (Long- will it be) before I shall arrive in  that other world wherein no respect of persons is shewn. Mayest Thou find it. My Lord the Christ dwelleth there, the Apostles and the Patriarchs dwell there, and thousands of thousands, and tens of thousands of tens of thousands stand round about it.">
+<s style="Woe be unto me, O my brother! (Long will it be) before I shall arrive in that other world wherein no respect of persons is shewn. Mayest Thou find it. My Lord the Christ dwelleth there, the Apostles and the Patriarchs dwell there, and thousands of thousands, and tens of thousands of tens of thousands stand round about it.">
 <phr>
 <w type="CONJ" lemma="ϫⲉ">
 ϫⲉ
@@ -4121,7 +4129,7 @@
 <w type="ART" lemma="ⲡ">
 ⲡⲉ
 </w>
-<w type="NPROP" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
+<w type="N" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
 ⲭⲣⲥ̅
 </w>
 </phr>
@@ -4247,7 +4255,7 @@
 </s>
 </p>
 <p n="4">
-<s style="And if any man who is a sinner shall arrive therein lie shall not find boldness (or, freedom of speech) therein, because of the sins which he hath committed, both those committed during the day and those committed during  the night">
+<s style="And if any man who is a sinner shall arrive therein lie shall not find boldness (or, freedom of speech) therein, because of the sins which he hath committed, both those committed during the day and those committed during the night">
 <phr>
 <w type="CONJ" lemma="ⲉϣⲱⲡⲉ">
 ⲉϣⲱⲡⲉ
@@ -4393,7 +4401,7 @@
 </s>
 </p>
 <p n="5">
-<s style="As for me, how wretched shall I be in that hour! Woe is me, because of the ignorance which hath been set in  tlie hearts of men, whereby each one faileth to remember death until the moment when it overtaketh him before he knoweth it!">
+<s style="As for me, how wretched shall I be in that hour! Woe is me, because of the ignorance which hath been set in the hearts of men, whereby each one faileth to remember death until the moment when it overtaketh him before he knoweth it!">
 <phr>
 <w type="PPERI" lemma="ⲁⲛⲟⲕ">
 ⲁⲛⲟⲕ
@@ -4723,7 +4731,7 @@
 </s>
 </p>
 <p n="8">
-<s style="Thou  knowest, O my Lord, that I have made entreaty for my death more than for my life, for I am without father and without mother in this world.">
+<s style="Thou knowest, O my Lord, that I have made entreaty for my death more than for my life, for I am without father and without mother in this world.">
 <phr>
 <w type="PPERS" lemma="ⲛⲧⲟⲕ">
 ⲕ
@@ -4822,7 +4830,7 @@
 </s>
 </p>
 <p n="9">
-<s style="I bear witness by my Lord  Jesus the Christ, that if Thou departest from me this day, Thou shalt come back again and shalt visit me.">
+<s style="I bear witness by my Lord Jesus the Christ, that if Thou departest from me this day, Thou shalt come back again and shalt visit me.">
 <phr>
 <w type="PPERS" lemma="ⲁⲛⲟⲕ">
 ϯ
@@ -4856,7 +4864,7 @@
 <w type="ART" lemma="ⲡ">
 ⲡⲉ
 </w>
-<w type="NPROP" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
+<w type="N" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
 ⲭⲣⲥ̅
 </w>
 </phr>
@@ -4882,11 +4890,8 @@
 </w>
 </phr>
 <phr>
-<w type="PREP" lemma="ϩⲓ">
-ϩⲓ
-</w>
-<w type="N" lemma="ⲧⲱⲣⲉ">
-ⲧⲟⲟⲧ
+<w type="PREP_PPERO" lemma="ϩⲓⲧⲛ_ⲁⲛⲟⲕ">
+ϩⲓⲧⲟⲟⲧ
 </w>
 </phr>
 <phr>
@@ -5422,7 +5427,7 @@
 </s>
 </p>
 <p n="6">
-<s style="I am Jesus the Christ, Who delivered  thee from all thy tribulations.">
+<s style="I am Jesus the Christ, Who delivered thee from all thy tribulations.">
 <phr>
 <w type="PPERI" lemma="ⲁⲛⲟⲕ">
 ⲁⲛⲟⲕ
@@ -5442,7 +5447,7 @@
 <w type="ART" lemma="ⲡ">
 ⲡⲉ
 </w>
-<w type="NPROP" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
+<w type="N" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
 ⲭⲣⲥ̅
 </w>
 </phr>
@@ -5557,7 +5562,7 @@
 </s>
 </p>
 <p n="8">
-<s style="Grieve thou not because thou  art living in this wilderness.">
+<s style="Grieve thou not because thou art living in this wilderness.">
 <phr>
 <w type="NEG" lemma="ⲙⲡⲣ">
 ⲙ̅ⲡⲣ̅
@@ -5655,7 +5660,7 @@
 <w type="ART" lemma="ⲡ">
 ⲑ
 </w>
-<w type="N" lemma="ϩⲓⲉⲗⲏⲙ">
+<w type="NPROP" lemma="ϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ" xml:lang="Hebrew">
 ⲓⲉⲗⲏ̅ⲙ̅
 </w>
 </phr>
@@ -6993,7 +6998,7 @@
 </s>
 </p>
 <p n="4">
-<s style="And the blessed man Apa Victor doubled the number of the prayers which he used to make, and he ke2)t fasts for very long periods, and  he diligently observed the Sabbaths, and the Lord Jesus was with him. In the peace of God, May His holy blessing be with us! Amen">
+<s style="And the blessed man Apa Victor doubled the number of the prayers which he used to make, and he ke2)t fasts for very long periods, and he diligently observed the Sabbaths, and the Lord Jesus was with him. In the peace of God, May His holy blessing be with us! Amen">
 <phr>
 <w type="ART" lemma="ⲡ">
 ⲡ
@@ -7262,7 +7267,7 @@
 </w>
 </phr>
 <phr>
-<w type="V" lemma="ⲇ">
+<w type="NUM" lemma="ⲇ">
 Ⲇ̅
 </w>
 </phr>
@@ -7285,7 +7290,7 @@
 </w>
 </phr>
 <phr>
-<w type="ART" lemma="ⲡ">
+<w type="PREP" lemma="ⲛ">
 Ⲛ̅
 </w>
 <w type="N" lemma="ⲁⲡⲁ" xml:lang="Hebrew">
@@ -7293,7 +7298,7 @@
 </w>
 </phr>
 <phr>
-<w type="NPROP" lemma="ⲃⲓⲕ">
+<w type="NPROP" lemma="ⲃⲓⲕⲧⲱⲣ" xml:lang="Latin">
 ⲂⲒ̅Ⲕ̅
 </w>
 </phr>
@@ -7367,7 +7372,7 @@
 </div>
 <div type="textpart">
 <p n="1">
-<s style="And it came to pass that after Saint Apa Victor was  banished he lived in the Camp.">
+<s style="And it came to pass that after Saint Apa Victor was banished he lived in the Camp.">
 <phr>
 <w type="APST" lemma="ⲁ">
 Ⲁ
@@ -7706,7 +7711,7 @@
 </div>
 <div type="textpart">
 <p n="1">
-<s style="Then the Duke ordered his servants to set  his judgement throne inside the gate of the Camp, in order that he might hear (the case of) the holy man Apa Victor. ">
+<s style="Then the Duke ordered his servants to set his judgement throne inside the gate of the Camp, in order that he might hear (the case of) the holy man Apa Victor. ">
 <phr>
 <w type="ADV" lemma="ⲧⲟⲧⲉ" xml:lang="Greek">
 Ⲧⲟⲧⲉ
@@ -8172,26 +8177,21 @@
 <w type="ART" lemma="ⲡ">
 ⲡⲉ
 </w>
-<w type="NPROP" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
+<w type="N" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
 ⲭⲣ̅ⲥ̅
 </w>
 </phr>
 <phr>
-<w type="PREP" lemma="ⲉ">
-ⲉ
-</w>
-<w type="ART" lemma="ⲕⲉ">
-ⲕⲉ
+<w type="AOPT_PPERS" lemma="ⲉⲣⲉ_ⲛⲧⲟⲕ">
+ⲉⲕⲉ
 </w>
 <w type="ACAUS" lemma="ⲧⲣⲉ">
 ⲧⲣⲉ
 </w>
-</phr>
-<phr>
 <w type="PDEM" lemma="ⲡⲉⲓ">
 ⲛⲉⲓ
 </w>
-<w type="N" lemma="ⲑⲁⲣⲙⲟⲩⲥ">
+<w type="N" lemma="ⲑⲁⲣⲙⲟⲥ" xml:lang="Greek">
 ⲑⲁⲣⲙⲟⲩⲥ
 </w>
 </phr>
@@ -8271,7 +8271,7 @@
 <w type="IMOD" lemma="ⲧⲏⲣ">
 ⲧⲏⲣ
 </w>
-<w type="ART" lemma="ⲟⲩ">
+<w type="PPERO" lemma="ⲛⲧⲟⲟⲩ">
 ⲟⲩ
 </w>
 </phr>
@@ -8404,7 +8404,7 @@
 <w type="ART" lemma="ⲡ">
 ⲡⲉ
 </w>
-<w type="NPROP" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
+<w type="N" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
 ⲭⲣ̅ⲥ̅
 </w>
 </phr>
@@ -8578,7 +8578,7 @@
 </s>
 </p>
 <p n="2">
-<s style="These are the letters which  the Emperor hath sent to be read unto thee ; hearken unto  them, and offer up sacrifice.'">
+<s style="These are the letters which the Emperor hath sent to be read unto thee; hearken unto them, and offer up sacrifice.'">
 <phr>
 <w type="CONJ" lemma="ϫⲉ">
 ϫⲉ
@@ -8606,11 +8606,11 @@
 </w>
 </phr>
 <phr>
-<w type="PREP" lemma="ⲛ">
-ⲛ̅
+<w type="CREL" lemma="ⲉⲧⲉⲣⲉ">
+ⲛ̅ⲧ
 </w>
-<w type="PPOS" lemma="ⲡⲁ">
-ⲧⲁ
+<w type="APST" lemma="ⲁ">
+ⲁ
 </w>
 <w type="ART" lemma="ⲡ">
 ⲡ
@@ -9187,7 +9187,7 @@
 <w type="ART" lemma="ⲟⲩ">
 ⲟⲩ
 </w>
-<w type="V" lemma="ϫⲓ">
+<w type="N" lemma="ϫⲓ">
 ϫⲓ
 </w>
 </phr>
@@ -9612,13 +9612,13 @@
 </w>
 </phr>
 <phr>
-<w type="NUM" lemma="ⲥⲉ">
+<w type="PPERS" lemma="ⲛⲧⲟⲟⲩ">
 ⲥⲉ
 </w>
-<w type="PREP" lemma="ⲛ">
+<w type="FUT" lemma="ⲛⲁ">
 ⲛ
 </w>
-<w type="N" lemma="ϫⲁⲥⲧ">
+<w type="V" lemma="ϫⲓⲥⲉ">
 ϫⲁⲥⲧ
 </w>
 <w type="PPERO" lemma="ⲛⲧⲟϥ">
@@ -10016,7 +10016,7 @@
 </s>
 </p>
 <p n="6">
-<s style="(and I would not  do so). And, moreover, I do not wish to remain in this world which shall dissolve away and perish.">
+<s style="(and I would not do so). And, moreover, I do not wish to remain in this world which shall dissolve away and perish.">
 <phr>
 <w type="PPERS" lemma="ⲁⲛⲟⲕ">
 ϯ
@@ -10271,19 +10271,13 @@
 <w type="PPERS" lemma="ⲁⲛⲟⲕ">
 ⲓ
 </w>
-<w type="V" lemma="ⲉⲓⲣⲉ">
+<w type="V" lemma="ⲣⲙⲡϣⲁ">
+<m>
 ⲣ̅
-</w>
-</phr>
-<phr>
-<w type="PREP" lemma="ⲛ">
-ⲙ̅
-</w>
-<w type="ART" lemma="ⲡ">
-ⲡ
-</w>
-<w type="N" lemma="ϣⲁ">
-ϣⲁ
+</m>
+<m>
+ⲙ̅ⲡϣⲁ
+</m>
 </w>
 </phr>
 <phr>
@@ -10323,7 +10317,7 @@
 <w type="ART" lemma="ⲡ">
 ⲡⲉ
 </w>
-<w type="NPROP" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
+<w type="N" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
 ⲭⲣⲥ̅
 </w>
 </phr>
@@ -10412,7 +10406,7 @@
 </s>
 </p>
 <p n="11">
-<s style="Art thou a deacon, or a reader, that thou possessest such perfect knowledge of this (kind) of  wisdom?">
+<s style="Art thou a deacon, or a reader, that thou possessest such perfect knowledge of this (kind) of wisdom?">
 <phr>
 <w type="CONJ" lemma="ⲙⲏ" xml:lang="Greek">
 ⲙⲏ
@@ -10520,7 +10514,7 @@
 </s>
 </p>
 <p n="13">
-<s style="I would give thanks unto the Christ (if I were), only I am not worthy of so great a gift as this — to be made a deacon or a reader. The grace of God is received through Jesus the Christ, Who giveth  wisdom unto every man whose heart is right with Him, because He is the giver of riches and His treasury is filled with wisdom (which) He giveth unto every one who shall  profit through Him in respect of good things.">
+<s style="I would give thanks unto the Christ (if I were), only I am not worthy of so great a gift as this — to be made a deacon or a reader. The grace of God is received through Jesus the Christ, Who giveth  wisdom unto every man whose heart is right with Him, because He is the giver of riches and His treasury is filled with wisdom (which) He giveth unto every one who shall profit through Him in respect of good things.">
 <phr>
 <w type="CONJ" lemma="ϫⲉ">
 ϫⲉ
@@ -10547,7 +10541,7 @@
 <w type="ART" lemma="ⲡ">
 ⲡⲉ
 </w>
-<w type="NPROP" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
+<w type="N" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
 ⲭⲣⲥ̅
 </w>
 </phr>
@@ -10562,7 +10556,7 @@
 </w>
 </phr>
 <phr>
-<w type="ACONJ" lemma="ⲛⲧⲉ">
+<w type="NEG" lemma="ⲛ">
 ⲛ̅
 </w>
 <w type="PPERS" lemma="ⲁⲛⲟⲕ">
@@ -10689,7 +10683,7 @@
 <w type="ART" lemma="ⲡ">
 ⲡⲉ
 </w>
-<w type="NPROP" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
+<w type="N" lemma="ⲭⲣⲓⲥⲧⲟⲥ" xml:lang="Greek">
 ⲭⲣ̅ⲥ̅
 </w>
 </phr>
@@ -10961,13 +10955,13 @@
 </w>
 </phr>
 <phr>
-<w type="PREP" lemma="ⲉ">
+<w type="CCIRC" lemma="ⲉⲣⲉ">
 ⲉ
 </w>
-<w type="N" lemma="ⲛⲁⲛⲟⲩ">
+<w type="VBD" lemma="ⲛⲁⲛⲟⲩ">
 ⲛⲁⲛⲟⲩ
 </w>
-<w type="PPERO" lemma="ⲛⲟⲩϥ">
+<w type="PPOS" lemma="ⲡⲱϥ">
 ⲛⲟⲩϥ
 </w>
 </phr>
@@ -11215,7 +11209,7 @@
 <w type="ART" lemma="ⲡ">
 ⲡ
 </w>
-<w type="N" lemma="ⲇⲓⲁⲃⲟⲗⲟⲥ" xml:lang="Greek">
+<w type="NPROP" lemma="ⲇⲓⲁⲃⲟⲗⲟⲥ" xml:lang="Greek">
 ⲇⲓⲁⲃⲟⲗⲟⲥ
 </w>
 </phr>
@@ -11223,7 +11217,7 @@
 <w type="PREP" lemma="ⲉ">
 ⲉ
 </w>
-<w type="V" lemma="ⲣϫⲥ">
+<w type="V" lemma="ⲣϫⲟⲉⲓⲥ">
 <m>
 ⲣ̅
 </m>
@@ -11450,7 +11444,7 @@
 </w>
 </phr>
 <phr>
-<w type="PREP" lemma="ⲛ">
+<w type="NEG" lemma="ⲛ">
 ⲛ̅
 </w>
 <w type="ART" lemma="ⲟⲩ">
