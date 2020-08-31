@@ -1,0 +1,4 @@
+pos=/V.*/ ->dep[func="dislocated"]  norm & #2 .* #1	Search for dislocated arguments preceding their verb
+pos="V" ->dep[func="nsubj"] lemma="ⲁⲛⲟⲕ" 	Find first person subjects and their verbs
+pos="V" ->dep[func="ccomp"] norm	Search for complement clauses
+norm ->dep[func="appos"] norm	Search for appositions
