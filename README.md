@@ -24,7 +24,7 @@ Values for these metadata are:
 
 Some of the data in this repository contains **duplicate information**. In particular, the `coptic-treebank` corpus is a convenient collection of all gold-standard treebanked data (manual syntactic analyses), all of which is included in other source corpora (which are often not 100% gold parsed). The documents in the treebank are **identical** to the same documents in the source corpora (e.g. XH204-216 is included in both its source corpus folder `shenoute-fox` and the treebank).
 
-Additionally, individual book corpora from the Old and New Testaments with some or all manual annotations (`sahidica.mark`, `sahidica.1corinthians`, `sahidic.ruth`) are also represent in the large and completely automatically annotated `sahidica.nt` and `sahidic.ot`. Versions of documents from these sources may differ slightly in the analyses in these corpora, and the individual book corpora are generally more accurate.
+Additionally, individual book corpora from the Old and New Testaments with some or all manual annotations (`sahidica.mark`, `sahidica.1corinthians`, `sahidic.ruth`) are also represented in the large and completely automatically annotated `sahidica.nt` and `sahidic.ot`. Versions of documents from these sources may differ slightly in the analyses in these corpora, and the individual book corpora are generally more accurate.
 
 Finally, some documents represent parallel witnesses of other documents (different manuscript versions of the same conceptual text). These are not necessarily text-identical to each other, but quantitative work in which double-counting the same or very similar text is undesirable may wish to filter these out. They can be identified in `*.tt` files by the metadatum `redundant="yes"`.
 
