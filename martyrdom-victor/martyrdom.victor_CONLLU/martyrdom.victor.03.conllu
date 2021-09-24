@@ -1,11 +1,11 @@
 # newdoc id = martyrdom.victor:martyrdom.victor.03
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0001
-# text = ⲡⲇⲓⲁⲃⲟⲗⲟⲥ ⲇⲉ ⲁϥⲙⲉϩⲡϩⲏⲧ ⲙⲡⲉⲓⲱⲧ ⲛⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ · ⲁϥⲧⲣⲉⲩⲧⲁⲁϥ ⲛⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ ⲡⲣⲣⲟ :—
 # text_en = And the Devil filled the heart of the father of Apa Victor, and he made him to deliver Apa Victor over into the hands of Diocletian the Emperor
+# text = ⲡⲇⲓⲁⲃⲟⲗⲟⲥ ⲇⲉ ⲁϥⲙⲉϩⲡϩⲏⲧ ⲙⲡⲉⲓⲱⲧ ⲛⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ · ⲁϥⲧⲣⲉⲩⲧⲁⲁϥ ⲛⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ ⲡⲣⲣⲟ :—
 1-2	ⲡⲇⲓⲁⲃⲟⲗⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(person-Devil|Orig=Ⲡ
-2	ⲇⲓⲁⲃⲟⲗⲟⲥ	ⲇⲓⲁⲃⲟⲗⲟⲥ	PROPN	NPROP	_	6	dislocated	_	Entity=person-Devil)
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	6	advmod	_	_
+2	ⲇⲓⲁⲃⲟⲗⲟⲥ	ⲇⲓⲁⲃⲟⲗⲟⲥ	PROPN	NPROP	Foreign=Yes	6	dislocated	_	Entity=person-Devil)|OrigLang=grc
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	6	advmod	_	OrigLang=grc
 4-8	ⲁϥⲙⲉϩⲡϩⲏⲧ	_	_	_	_	_	_	_	_
 4	ⲁ	ⲁ	AUX	APST	_	6	aux	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -15,11 +15,11 @@
 9-11	ⲙⲡⲉⲓⲱⲧ	_	_	_	_	_	_	_	_
 9	ⲙ	ⲛ	ADP	PREP	_	11	case	_	Orig=ⲙ̅
 10	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(person
-11	ⲉⲓⲱⲧ	ⲉⲓⲱⲧ	NOUN	N	_	6	obl	_	_
+11	ⲉⲓⲱⲧ	ⲉⲓⲱⲧ	NOUN	N	_	8	nmod	_	_
 12-13	ⲛⲁⲡⲁ	_	_	_	_	_	_	_	_
 12	ⲛ	ⲛ	ADP	PREP	_	13	case	_	Orig=ⲛ̅
-13	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	11	nmod	_	Entity=(person
-14	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	13	flat	_	Entity=person)person)
+13	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	11	nmod	_	Entity=(person|OrigLang=he
+14	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	13	flat	_	Entity=person)person)|OrigLang=la
 15	·	·	PUNCT	PUNCT	_	0	punct	_	_
 16-21	ⲁϥⲧⲣⲉⲩⲧⲁⲁϥ	_	_	_	_	_	_	_	_
 16	ⲁ	ⲁ	AUX	APST	_	18	aux	_	_
@@ -30,19 +30,19 @@
 21	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
 22-23	ⲛⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	_	_	_	_	_	_	_	_
 22	ⲛ	ⲛ	ADP	PREP	_	23	case	_	Orig=ⲛ̅
-23	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	PROPN	NPROP	_	20	obl	_	Entity=(person-Diocletian
+23	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	PROPN	NPROP	Foreign=Yes	20	obl	_	Entity=(person-Diocletian|OrigLang=la
 24-25	ⲡⲣⲣⲟ	_	_	_	_	_	_	_	_
 24	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	23	appos	_	Entity=person-Diocletian)|Orig=ⲣ̅ⲣⲟ
 26	:—	:—	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0002
-# text = ⲡⲣⲣⲟ ⲇⲉ ⲛⲧⲉⲣⲉϥϭⲱϣⲧ ⲉϩⲟⲩⲛ ϩⲙⲡϩⲟ ⲛⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲡⲉϫⲁϥ ⲛⲁϥ ·
 # text_en = And when the Emperor had looked into the face of Apa Victor, he said unto him
+# text = ⲡⲣⲣⲟ ⲇⲉ ⲛⲧⲉⲣⲉϥϭⲱϣⲧ ⲉϩⲟⲩⲛ ϩⲙⲡϩⲟ ⲛⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲡⲉϫⲁϥ ⲛⲁϥ ·
 1-2	ⲡⲣⲣⲟ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(person
-2	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	6	dislocated	_	Entity=person)|Orig=ⲣ̅ⲣⲟ
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	14	advmod	_	_
+2	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	14	dislocated	_	Entity=person)|Orig=ⲣ̅ⲣⲟ
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	14	advmod	_	OrigLang=grc
 4-6	ⲛⲧⲉⲣⲉϥϭⲱϣⲧ	_	_	_	_	_	_	_	_
 4	ⲛⲧⲉⲣⲉ	ⲛⲧⲉⲣⲉ	AUX	APREC	_	6	aux	_	Orig=ⲛ̅ⲧⲉⲣⲉ
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -54,8 +54,8 @@
 10	ϩⲟ	ϩⲟ	NOUN	N	_	6	obl	_	_
 11-12	ⲛⲁⲡⲁ	_	_	_	_	_	_	_	_
 11	ⲛ	ⲛ	ADP	PREP	_	12	case	_	Orig=ⲛ̅
-12	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	10	nmod	_	Entity=(person
-13	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	12	flat	_	Entity=person)object)
+12	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	10	nmod	_	Entity=(person|OrigLang=he
+13	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	12	flat	_	Entity=person)object)|OrigLang=la
 14-15	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 14	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 15	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
@@ -65,20 +65,20 @@
 18	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0003
-# text = ϫⲉⲛⲧⲟⲕ ⲡⲉ ⲃⲓⲕⲧⲱⲣ ⲉⲧⲃⲉⲟⲩ ⲙⲡⲉⲕⲥⲱⲧⲙ ⲛⲥⲁⲡⲉⲕⲉⲓⲱⲧ · ⲛⲅⲟⲩⲱϣⲧ ⲛⲛⲁⲛⲟⲩⲧⲉ ·
 # text_en = O thou Victor, why hast thou not hearkened to thy father, and worshiped my gods?
+# text = ϫⲉⲛⲧⲟⲕ ⲡⲉ ⲃⲓⲕⲧⲱⲣ ⲉⲧⲃⲉⲟⲩ ⲙⲡⲉⲕⲥⲱⲧⲙ ⲛⲥⲁⲡⲉⲕⲉⲓⲱⲧ · ⲛⲅⲟⲩⲱϣⲧ ⲛⲛⲁⲛⲟⲩⲧⲉ ·
 1-2	ϫⲉⲛⲧⲟⲕ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	2	mark	_	_
-2	ⲛⲧⲟⲕ	ⲛⲧⲟⲕ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	0	root	_	Orig=ⲛ̅ⲧⲟⲕ
+2	ⲛⲧⲟⲕ	ⲛⲧⲟⲕ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	advcl	_	Orig=ⲛ̅ⲧⲟⲕ
 3	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	2	cop	_	_
-4	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	2	nsubj	_	Entity=(person)
+4	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	2	nsubj	_	Entity=(person)|OrigLang=la
 5-6	ⲉⲧⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
 5	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	6	case	_	_
-6	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	2	obl	_	_
+6	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	9	obl	_	_
 7-9	ⲙⲡⲉⲕⲥⲱⲧⲙ	_	_	_	_	_	_	_	_
 7	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	9	aux	_	Orig=ⲙ̅ⲡⲉ
 8	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
-9	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	2	parataxis	_	Orig=ⲥⲱⲧⲙ̅
+9	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲥⲱⲧⲙ̅
 10-12	ⲛⲥⲁⲡⲉⲕⲉⲓⲱⲧ	_	_	_	_	_	_	_	_
 10	ⲛⲥⲁ	ⲛⲥⲁ	ADP	PREP	_	12	case	_	Orig=ⲛ̅ⲥⲁ
 11	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	12	det	_	Entity=(person
@@ -91,13 +91,13 @@
 17-19	ⲛⲛⲁⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 17	ⲛ	ⲛ	ADP	PREP	_	19	case	_	Orig=ⲛ̅
 18	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	19	det	_	Entity=(person
-19	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	16	obl	_	Entity=person)
+19	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	16	obj	_	Entity=person)
 20	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0004
-# text = ⲉⲓⲉ ⲛⲅⲥⲟⲟⲩⲛ ⲁⲛ ϫⲉⲟⲩⲛⲧⲁⲓ ⲧⲉⲝⲟⲩⲥⲓⲁ ⲉϩⲟⲩⲛ ⲉⲣⲟⲕ ·
 # text_en = Is it possible that thou dost not know that I have absolute power over thee?
-1	ⲉⲓⲉ	ⲉⲓⲉ	CCONJ	CONJ	_	4	advmod	_	_
+# text = ⲉⲓⲉ ⲛⲅⲥⲟⲟⲩⲛ ⲁⲛ ϫⲉⲟⲩⲛⲧⲁⲓ ⲧⲉⲝⲟⲩⲥⲓⲁ ⲉϩⲟⲩⲛ ⲉⲣⲟⲕ ·
+1	ⲉⲓⲉ	ⲉⲓⲉ	SCONJ	CONJ	_	4	mark	_	_
 2-4	ⲛⲅⲥⲟⲟⲩⲛ	_	_	_	_	_	_	_	_
 2	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	4	advmod	_	_
 3	ⲅ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	Orig=ⲅ̅
@@ -109,7 +109,7 @@
 8	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
 9-10	ⲧⲉⲝⲟⲩⲥⲓⲁ	_	_	_	_	_	_	_	_
 9	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Entity=(abstract
-10	ⲉⲝⲟⲩⲥⲓⲁ	ⲉⲝⲟⲩⲥⲓⲁ	NOUN	N	_	7	nsubj	_	Entity=abstract)
+10	ⲉⲝⲟⲩⲥⲓⲁ	ⲉⲝⲟⲩⲥⲓⲁ	NOUN	N	Foreign=Yes	7	nsubj	_	Entity=abstract)|OrigLang=grc
 11	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	7	advmod	_	_
 12-13	ⲉⲣⲟⲕ	_	_	_	_	_	_	_	_
 12	ⲉⲣⲟ	ⲉ	ADP	PREP	_	13	case	_	_
@@ -117,11 +117,11 @@
 14	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0005
-# text = ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲇⲉ ⲁϥⲃⲟⲗϥ ⲙⲡϥⲙⲟⲩⲥ ⲛⲛⲟⲩⲃ · ⲁⲩⲱ ⲁϥⲃⲟϣϥ ⲙⲡⲉϥϩⲱⲕ · ⲉⲧⲧⲟ ϩⲓⲱⲱϥ · ⲁϥⲛⲟϫⲟⲩ ⲉϩⲟⲩⲛ ϩⲙⲡϩⲟ ⲛⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ ⲉϥϫⲱ ⲙⲙⲟⲥ ·
 # text_en = And Apa Victor tore off his golden chain, and removed the insignia of his rank which he had on him, and he threw them in the face of Diocletian, saying,
-1	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	6	dislocated	_	Entity=(person
-2	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	6	dislocated	_	Entity=person)
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	6	advmod	_	_
+# text = ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲇⲉ ⲁϥⲃⲟⲗϥ ⲙⲡϥⲙⲟⲩⲥ ⲛⲛⲟⲩⲃ · ⲁⲩⲱ ⲁϥⲃⲟϣϥ ⲙⲡⲉϥϩⲱⲕ · ⲉⲧⲧⲟ ϩⲓⲱⲱϥ · ⲁϥⲛⲟϫⲟⲩ ⲉϩⲟⲩⲛ ϩⲙⲡϩⲟ ⲛⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ ⲉϥϫⲱ ⲙⲙⲟⲥ ·
+1	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	6	dislocated	_	Entity=(person|OrigLang=he
+2	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	6	dislocated	_	Entity=person)|OrigLang=la
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	6	advmod	_	OrigLang=grc
 4-7	ⲁϥⲃⲟⲗϥ	_	_	_	_	_	_	_	_
 4	ⲁ	ⲁ	AUX	APST	_	6	aux	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -145,7 +145,7 @@
 20-22	ⲙⲡⲉϥϩⲱⲕ	_	_	_	_	_	_	_	_
 20	ⲙ	ⲛ	ADP	PREP	_	22	case	_	Orig=ⲙ̅
 21	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det	_	Entity=(object
-22	ϩⲱⲕ	ϩⲱⲕ	NOUN	N	_	18	obl	_	_
+22	ϩⲱⲕ	ϩⲱⲱⲕ	NOUN	N	_	18	obl	_	_
 23	·	·	PUNCT	PUNCT	_	0	punct	_	_
 24-25	ⲉⲧⲧⲟ	_	_	_	_	_	_	_	_
 24	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	25	mark	_	_
@@ -157,7 +157,7 @@
 29-32	ⲁϥⲛⲟϫⲟⲩ	_	_	_	_	_	_	_	_
 29	ⲁ	ⲁ	AUX	APST	_	31	aux	_	_
 30	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
-31	ⲛⲟϫ	ⲛⲟⲩϫⲉ	VERB	V	VerbForm=Fin	18	parataxis	_	_
+31	ⲛⲟϫ	ⲛⲟⲩϫⲉ	VERB	V	VerbForm=Fin	6	parataxis	_	_
 32	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	31	obj	_	_
 33	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	31	advmod	_	Orig=ⲉ̅ϩⲟⲩⲛ
 34-36	ϩⲙⲡϩⲟ	_	_	_	_	_	_	_	_
@@ -166,7 +166,7 @@
 36	ϩⲟ	ϩⲟ	NOUN	N	_	31	obl	_	_
 37-38	ⲛⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	_	_	_	_	_	_	_	_
 37	ⲛ	ⲛ	ADP	PREP	_	38	case	_	Orig=ⲛ̅ⲛ̅
-38	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	PROPN	NPROP	_	36	nmod	_	Entity=(person-Diocletian)object)|Orig=ⲇⲓⲟ̅ⲕⲗⲏϯⲁⲛⲟⲥ
+38	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	PROPN	NPROP	Foreign=Yes	36	nmod	_	Entity=(person-Diocletian)object)|Orig=ⲇⲓⲟ̅ⲕⲗⲏϯⲁⲛⲟⲥ|OrigLang=la
 39-41	ⲉϥϫⲱ	_	_	_	_	_	_	_	_
 39	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	41	mark	_	_
 40	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
@@ -177,11 +177,11 @@
 44	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0006
-# text = ϫⲉϩⲟⲗⲱⲥ ⲣⲱ ⲁⲛⲅⲟⲩⲙⲁⲧⲟⲓ ⲁⲛ · ⲟⲩⲇⲉ ⲛϯϩⲏⲕ ⲁⲛ ϩⲁⲣⲁⲧϥ ⲛⲟⲩⲣⲣⲟ ⲉϣⲁϥⲙⲟⲩ · ⲁⲗⲗⲁ ⲉⲓϩⲏⲕ ϩⲁⲣⲁⲧϥ ⲙⲡⲣⲣⲟ ⲉⲧϩⲛⲙⲡⲏⲩⲉ ·
 # text_en = Indeed I am in no way a soldier, and I will not wear the badge of an emperor who is mortal, for I wear the badge of the Emperor who is in the heavens.
+# text = ϫⲉϩⲟⲗⲱⲥ ⲣⲱ ⲁⲛⲅⲟⲩⲙⲁⲧⲟⲓ ⲁⲛ · ⲟⲩⲇⲉ ⲛϯϩⲏⲕ ⲁⲛ ϩⲁⲣⲁⲧϥ ⲛⲟⲩⲣⲣⲟ ⲉϣⲁϥⲙⲟⲩ · ⲁⲗⲗⲁ ⲉⲓϩⲏⲕ ϩⲁⲣⲁⲧϥ ⲙⲡⲣⲣⲟ ⲉⲧϩⲛⲙⲡⲏⲩⲉ ·
 1-2	ϫⲉϩⲟⲗⲱⲥ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	6	mark	_	_
-2	ϩⲟⲗⲱⲥ	ϩⲟⲗⲱⲥ	ADV	ADV	_	6	advmod	_	Entity=(person
+2	ϩⲟⲗⲱⲥ	ϩⲟⲗⲱⲥ	ADV	ADV	Foreign=Yes	6	advmod	_	Entity=(person|OrigLang=grc
 3	ⲣⲱ	ⲣⲱ	ADV	ADV	_	6	advmod	_	_
 4-6	ⲁⲛⲅⲟⲩⲙⲁⲧⲟⲓ	_	_	_	_	_	_	_	_
 4	ⲁⲛⲅ	ⲁⲛⲟⲕ	PRON	PPERI	Definite=Def|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Orig=ⲁⲛⲅ̅
@@ -189,7 +189,7 @@
 6	ⲙⲁⲧⲟⲓ	ⲙⲁⲧⲟⲓ	NOUN	N	_	0	root	_	_
 7	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	6	advmod	_	_
 8	·	·	PUNCT	PUNCT	_	0	punct	_	_
-9	ⲟⲩⲇⲉ	ⲟⲩⲇⲉ	CCONJ	CONJ	Polarity=Neg	12	cc	_	_
+9	ⲟⲩⲇⲉ	ⲟⲩⲇⲉ	CCONJ	CONJ	Foreign=Yes|Polarity=Neg	12	cc	_	OrigLang=grc
 10-12	ⲛϯϩⲏⲕ	_	_	_	_	_	_	_	_
 10	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	12	advmod	_	Orig=ⲛ̅
 11	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
@@ -201,14 +201,14 @@
 16-18	ⲛⲟⲩⲣⲣⲟ	_	_	_	_	_	_	_	_
 16	ⲛ	ⲛ	ADP	PREP	_	18	case	_	Orig=ⲛ̅
 17	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	18	det	_	Entity=(person
-18	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	12	obl	_	Entity=person)person)|Orig=ⲣ̅ⲣⲟ
+18	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	12	obj	_	Entity=person)person)|Orig=ⲣ̅ⲣⲟ
 19-22	ⲉϣⲁϥⲙⲟⲩ	_	_	_	_	_	_	_	_
 19	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	22	mark	_	_
 20	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	22	aux	_	_
 21	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 22	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	18	acl	_	_
 23	·	·	PUNCT	PUNCT	_	0	punct	_	_
-24	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	27	cc	_	_
+24	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	27	cc	_	OrigLang=grc
 25-27	ⲉⲓϩⲏⲕ	_	_	_	_	_	_	_	_
 25	ⲉ	ⲉⲣⲉ	PART	CFOC	_	27	mark	_	_
 26	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
@@ -219,21 +219,21 @@
 30-32	ⲙⲡⲣⲣⲟ	_	_	_	_	_	_	_	_
 30	ⲙ	ⲛ	ADP	PREP	_	32	case	_	Orig=ⲙ̅
 31	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	Entity=(person
-32	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	27	obl	_	Orig=ⲣ̅ⲣⲟ
+32	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	27	obj	_	Orig=ⲣ̅ⲣⲟ
 33-36	ⲉⲧϩⲛⲙⲡⲏⲩⲉ	_	_	_	_	_	_	_	_
 33	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	36	mark	_	_
 34	ϩⲛ	ϩⲛ	ADP	PREP	_	36	case	_	Orig=ϩⲛ̅
-35	ⲙ	ⲡ	DET	ART	_	36	det	_	Entity=(place|Orig=ⲙ̅
+35	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	36	det	_	Entity=(place|Orig=ⲙ̅
 36	ⲡⲏⲩⲉ	ⲡⲉ	NOUN	N	_	32	acl	_	Entity=place)person)
 37	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0007
-# text = ϥⲥⲏϩ ⲅⲁⲣ ϩⲙⲡϫⲱⲱⲙⲉ ⲛⲛⲉⲭⲣⲓⲥⲧⲓⲁⲛⲟⲥ ·
 # text_en = For it is written in the book of the Christians,
+# text = ϥⲥⲏϩ ⲅⲁⲣ ϩⲙⲡϫⲱⲱⲙⲉ ⲛⲛⲉⲭⲣⲓⲥⲧⲓⲁⲛⲟⲥ ·
 1-2	ϥⲥⲏϩ	_	_	_	_	_	_	_	_
 1	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	ⲥⲏϩ	ⲥϩⲁⲓ	VERB	VSTAT	VerbForm=Fin	0	root	_	_
-3	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	_	2	advmod	_	_
+3	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	2	advmod	_	OrigLang=grc
 4-6	ϩⲙⲡϫⲱⲱⲙⲉ	_	_	_	_	_	_	_	_
 4	ϩⲙ	ϩⲛ	ADP	PREP	_	6	case	_	Orig=ϩⲙ̅
 5	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(object
@@ -241,12 +241,12 @@
 7-9	ⲛⲛⲉⲭⲣⲓⲥⲧⲓⲁⲛⲟⲥ	_	_	_	_	_	_	_	_
 7	ⲛ	ⲛ	ADP	PREP	_	9	case	_	Orig=ⲛ̅
 8	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	9	det	_	Entity=(person
-9	ⲭⲣⲓⲥⲧⲓⲁⲛⲟⲥ	ⲭⲣⲓⲥⲧⲓⲁⲛⲟⲥ	NOUN	N	_	6	nmod	_	Entity=person)object)|Orig=ⲭⲣⲓⲥϯⲁⲛⲟⲥ
+9	ⲭⲣⲓⲥⲧⲓⲁⲛⲟⲥ	ⲭⲣⲓⲥⲧⲓⲁⲛⲟⲥ	NOUN	N	Foreign=Yes	6	nmod	_	Entity=person)object)|Orig=ⲭⲣⲓⲥϯⲁⲛⲟⲥ|OrigLang=grc
 10	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0008
-# text = ϫⲉⲙⲛϣϭⲟⲙ ⲙⲙⲱⲧⲛ ⲉⲣϩⲙϩⲁⲗ ⲛϫⲟⲉⲓⲥ ⲥⲛⲁⲩ · ⲏ ⲡⲛⲟⲩⲧⲉ ⲡⲛⲟⲩⲧⲉ · ⲏ ⲡⲙⲁⲙⲟⲛⲁⲥ ·
 # text_en = It is not possible for you to perform the service of two master; (ye must) either (serve God or mammon,
+# text = ϫⲉⲙⲛϣϭⲟⲙ ⲙⲙⲱⲧⲛ ⲉⲣϩⲙϩⲁⲗ ⲛϫⲟⲉⲓⲥ ⲥⲛⲁⲩ · ⲏ ⲡⲛⲟⲩⲧⲉ ⲡⲛⲟⲩⲧⲉ · ⲏ ⲡⲙⲁⲙⲟⲛⲁⲥ ·
 1-3	ϫⲉⲙⲛϣϭⲟⲙ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	2	mark	_	_
 2	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	0	root	_	Orig=ⲙⲛ̅
@@ -260,25 +260,25 @@
 8-9	ⲛϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 8	ⲛ	ⲛ	ADP	PREP	_	9	case	_	Orig=ⲛ̅
 9	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	7	obl	_	Entity=(person|Orig=ϫⲥ̅
-10	ⲥⲛⲁⲩ	ⲥⲛⲁⲩ	NUM	NUM	NumType=Card	9	conj	_	Entity=person)
+10	ⲥⲛⲁⲩ	ⲥⲛⲁⲩ	NUM	NUM	NumType=Card	9	nummod	_	Entity=person)
 11	·	·	PUNCT	PUNCT	_	0	punct	_	_
-12	ⲏ	ⲏ	CCONJ	CONJ	_	14	cc	_	Orig=ⲏ̅
+12	ⲏ	ⲏ	CCONJ	CONJ	Foreign=Yes	14	cc	_	Orig=ⲏ̅|OrigLang=grc
 13-14	ⲡⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 13	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Entity=(person
 14	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	9	conj	_	_
 15-16	ⲡⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 15	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	14	appos	_	Entity=person)
+16	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	9	appos	_	Entity=person)
 17	·	·	PUNCT	PUNCT	_	0	punct	_	_
-18	ⲏ	ⲏ	CCONJ	CONJ	_	20	cc	_	Orig=ⲏ̅
+18	ⲏ	ⲏ	CCONJ	CONJ	Foreign=Yes	20	cc	_	Orig=ⲏ̅|OrigLang=grc
 19-20	ⲡⲙⲁⲙⲟⲛⲁⲥ	_	_	_	_	_	_	_	_
 19	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	Entity=(abstract
-20	ⲙⲁⲙⲟⲛⲁⲥ	ⲙⲁⲙⲟⲛⲁⲥ	NOUN	N	_	9	conj	_	Entity=abstract)|Orig=[ⲙ]ⲁⲙⲟⲛⲁⲥ
+20	ⲙⲁⲙⲟⲛⲁⲥ	ⲙⲁⲙⲟⲛⲁⲥ	NOUN	N	Foreign=Yes	9	conj	_	Entity=abstract)|Orig=[ⲙ]ⲁⲙⲟⲛⲁⲥ|OrigLang=he
 21	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0009
-# text = ⲁⲩⲱ ⲟⲛ ϫⲉⲙⲛϣϭⲟⲙ ⲙⲙⲱⲧⲛ ⲉⲟⲩⲱⲙ ⲉⲃⲟⲗ ϩⲛⲧⲉⲧⲣⲁⲡⲉⲍⲁ ⲙⲡϫⲟⲉⲓⲥ · ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲛⲧⲉⲧⲣⲁⲡⲉⲍⲁ ⲛⲛⲇⲁⲓⲙⲟⲛⲓⲟⲛ ·
 # text_en = And again, It is not possible for you to eat at the table of the lord, and at the table of the demons.
+# text = ⲁⲩⲱ ⲟⲛ ϫⲉⲙⲛϣϭⲟⲙ ⲙⲙⲱⲧⲛ ⲉⲟⲩⲱⲙ ⲉⲃⲟⲗ ϩⲛⲧⲉⲧⲣⲁⲡⲉⲍⲁ ⲙⲡϫⲟⲉⲓⲥ · ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲛⲧⲉⲧⲣⲁⲡⲉⲍⲁ ⲛⲛⲇⲁⲓⲙⲟⲛⲓⲟⲛ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2	ⲟⲛ	ⲟⲛ	ADV	ADV	_	4	advmod	_	_
 3-5	ϫⲉⲙⲛϣϭⲟⲙ	_	_	_	_	_	_	_	_
@@ -291,11 +291,11 @@
 8-9	ⲉⲟⲩⲱⲙ	_	_	_	_	_	_	_	_
 8	ⲉ	ⲉ	PART	PREP	_	9	mark	_	_
 9	ⲟⲩⲱⲙ	ⲟⲩⲱⲙ	VERB	V	VerbForm=Inf	4	xcomp	_	_
-10	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	9	advmod	_	_
+10	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	13	case	_	_
 11-13	ϩⲛⲧⲉⲧⲣⲁⲡⲉⲍⲁ	_	_	_	_	_	_	_	_
-11	ϩⲛ	ϩⲛ	ADP	PREP	_	13	case	_	Orig=ϩⲛ̅
+11	ϩⲛ	ϩⲛ	ADP	PREP	_	10	fixed	_	Orig=ϩⲛ̅
 12	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	Entity=(object
-13	ⲧⲣⲁⲡⲉⲍⲁ	ⲧⲣⲁⲡⲉⲍⲁ	NOUN	N	_	9	obl	_	_
+13	ⲧⲣⲁⲡⲉⲍⲁ	ⲧⲣⲁⲡⲉⲍⲁ	NOUN	N	Foreign=Yes	9	obl	_	OrigLang=grc
 14-16	ⲙⲡϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 14	ⲙ	ⲛ	ADP	PREP	_	16	case	_	Orig=ⲙ̅
 15	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	Entity=(person
@@ -306,16 +306,16 @@
 20-22	ϩⲛⲧⲉⲧⲣⲁⲡⲉⲍⲁ	_	_	_	_	_	_	_	_
 20	ϩⲛ	ϩⲛ	ADP	PREP	_	19	fixed	_	Orig=ϩⲛ̅
 21	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	Entity=(object
-22	ⲧⲣⲁⲡⲉⲍⲁ	ⲧⲣⲁⲡⲉⲍⲁ	NOUN	N	_	13	conj	_	_
+22	ⲧⲣⲁⲡⲉⲍⲁ	ⲧⲣⲁⲡⲉⲍⲁ	NOUN	N	Foreign=Yes	13	conj	_	OrigLang=grc
 23-25	ⲛⲛⲇⲁⲓⲙⲟⲛⲓⲟⲛ	_	_	_	_	_	_	_	_
 23	ⲛ	ⲛ	ADP	PREP	_	25	case	_	Orig=ⲛ̅
 24	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	25	det	_	Entity=(person|Orig=ⲛ̅
-25	ⲇⲁⲓⲙⲟⲛⲓⲟⲛ	ⲇⲁⲓⲙⲟⲛⲓⲟⲛ	NOUN	N	_	22	nmod	_	Entity=person)object)
+25	ⲇⲁⲓⲙⲟⲛⲓⲟⲛ	ⲇⲁⲓⲙⲟⲛⲓⲟⲛ	NOUN	N	Foreign=Yes	22	nmod	_	Entity=person)object)|OrigLang=grc
 26	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0010
-# text = ⲧⲉⲛⲟⲩ ϭⲉ ϯⲛⲁϣⲙϣⲉ ⲙⲡⲛⲟⲩⲧⲉ ⲛⲧⲡⲉ · ⲛⲧⲁⲧⲙϣⲙϣⲉ ϩⲱⲱϥ ⲙⲡⲙⲁⲙⲟⲛⲁⲥ · ⲉⲧⲉⲛⲧⲟⲕ ⲡⲉ ⲱ ⲡⲣⲣⲟ ·
 # text_en = Now therefore, I will serve the God of heaven, and I will not serve mammon, that is to say, thee, Emperor therefore, I will serve the God of heaven
+# text = ⲧⲉⲛⲟⲩ ϭⲉ ϯⲛⲁϣⲙϣⲉ ⲙⲡⲛⲟⲩⲧⲉ ⲛⲧⲡⲉ · ⲛⲧⲁⲧⲙϣⲙϣⲉ ϩⲱⲱϥ ⲙⲡⲙⲁⲙⲟⲛⲁⲥ · ⲉⲧⲉⲛⲧⲟⲕ ⲡⲉ ⲱ ⲡⲣⲣⲟ ·
 1	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	5	advmod	_	_
 2	ϭⲉ	ϭⲉ	PART	PTC	_	5	advmod	_	_
 3-5	ϯⲛⲁϣⲙϣⲉ	_	_	_	_	_	_	_	_
@@ -325,7 +325,7 @@
 6-8	ⲙⲡⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 6	ⲙ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲙ̅
 7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(person
-8	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	5	obj	_	_
+8	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	5	obl	_	_
 9-11	ⲛⲧⲡⲉ	_	_	_	_	_	_	_	_
 9	ⲛ	ⲛ	ADP	PREP	_	11	case	_	Orig=ⲛ̅
 10	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	Entity=(place
@@ -342,37 +342,37 @@
 19-21	ⲙⲡⲙⲁⲙⲟⲛⲁⲥ	_	_	_	_	_	_	_	_
 19	ⲙ	ⲛ	ADP	PREP	_	21	case	_	Orig=ⲙ̅
 20	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	Entity=(abstract
-21	ⲙⲁⲙⲟⲛⲁⲥ	ⲙⲁⲙⲟⲛⲁⲥ	NOUN	N	_	16	obj	_	Orig=[ⲙ]ⲁⲙⲟⲛⲁⲥ
+21	ⲙⲁⲙⲟⲛⲁⲥ	ⲙⲁⲙⲟⲛⲁⲥ	NOUN	N	Foreign=Yes	16	obl	_	Orig=[ⲙ]ⲁⲙⲟⲛⲁⲥ|OrigLang=he
 22	·	·	PUNCT	PUNCT	_	0	punct	_	_
 23-24	ⲉⲧⲉⲛⲧⲟⲕ	_	_	_	_	_	_	_	_
 23	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	24	mark	_	_
 24	ⲛⲧⲟⲕ	ⲛⲧⲟⲕ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	21	acl	_	Orig=ⲛ̅ⲧⲟⲕ
 25	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	24	cop	_	Entity=abstract)
-26	ⲱ	ⲱ	PART	PTC	_	28	discourse	_	Orig=ⲱ̅
+26	ⲱ	ⲱ	PART	PTC	Foreign=Yes	28	discourse	_	Orig=ⲱ̅|OrigLang=grc
 27-28	ⲡⲣⲣⲟ	_	_	_	_	_	_	_	_
 27	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	Entity=(person
 28	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	24	vocative	_	Entity=person)|Orig=ⲣ̅ⲣⲟ
 29	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0011
-# text = ⲡⲣⲣⲟ ⲇⲉ ⲡⲉϫⲁϥ ⲛⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ·
 # text_en = And the Emperor said unto Apa Victor
+# text = ⲡⲣⲣⲟ ⲇⲉ ⲡⲉϫⲁϥ ⲛⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ·
 1-2	ⲡⲣⲣⲟ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(person
 2	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	4	dislocated	_	Entity=person)|Orig=ⲣ̅ⲣⲟ
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	4	advmod	_	_
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	4	advmod	_	OrigLang=grc
 4-5	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 4	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 6-7	ⲛⲁⲡⲁ	_	_	_	_	_	_	_	_
 6	ⲛ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲛ̅
-7	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	4	obl	_	Entity=(person
-8	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	7	flat	_	Entity=person)
+7	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	4	obl	_	Entity=(person|OrigLang=he
+8	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	7	flat	_	Entity=person)|OrigLang=la
 9	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0012
-# text = ϫⲉⲉⲧⲃⲉⲟⲩ ⲁⲕⲧⲟⲗⲙⲁ ⲁⲕϩⲩⲃⲣⲓⲍⲉ ⲙⲙⲟⲓ ⲛⲧⲉⲓϩⲉ ⲧⲏⲣⲥ ·
 # text_en = How dost thou dare to insult me in this fashion?
+# text = ϫⲉⲉⲧⲃⲉⲟⲩ ⲁⲕⲧⲟⲗⲙⲁ ⲁⲕϩⲩⲃⲣⲓⲍⲉ ⲙⲙⲟⲓ ⲛⲧⲉⲓϩⲉ ⲧⲏⲣⲥ ·
 1-3	ϫⲉⲉⲧⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	6	mark	_	_
 2	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	3	case	_	_
@@ -380,11 +380,11 @@
 4-6	ⲁⲕⲧⲟⲗⲙⲁ	_	_	_	_	_	_	_	_
 4	ⲁ	ⲁ	AUX	APST	_	6	aux	_	_
 5	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
-6	ⲧⲟⲗⲙⲁ	ⲧⲟⲗⲙⲁ	VERB	V	VerbForm=Fin	0	root	_	_
+6	ⲧⲟⲗⲙⲁ	ⲧⲟⲗⲙⲁ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	OrigLang=grc
 7-9	ⲁⲕϩⲩⲃⲣⲓⲍⲉ	_	_	_	_	_	_	_	_
 7	ⲁ	ⲁ	AUX	APST	_	9	aux	_	_
 8	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
-9	ϩⲩⲃⲣⲓⲍⲉ	ϩⲩⲃⲣⲓⲍⲉ	VERB	V	VerbForm=Fin	6	parataxis	_	_
+9	ϩⲩⲃⲣⲓⲍⲉ	ϩⲩⲃⲣⲓⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	6	parataxis	_	OrigLang=grc
 10-11	ⲙⲙⲟⲓ	_	_	_	_	_	_	_	_
 10	ⲙⲙⲟ	ⲛ	ADP	PREP	_	11	case	_	Orig=ⲙ̅ⲙⲙⲟ
 11	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
@@ -398,8 +398,8 @@
 17	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0013
-# text = ⲉⲕⲙⲉⲉⲩⲉ ϫⲉⲙⲛⲕⲟⲗⲁⲥⲓⲥ ϩⲓⲃⲁⲥⲁⲛⲟⲥ ϩⲙⲡⲇⲓⲕⲁⲥⲧⲏⲣⲓⲟⲛ · ⲉⲧⲣⲁⲕⲟⲗⲁⲍⲉ ⲙⲙⲟⲕ ⲛⲧϩⲉ ⲉⲧⲉϩⲛⲁⲓ ·
 # text_en = Dost thou think that there are no instruments of punishment and torture in the prison-house wherewith I can have thee punished?
+# text = ⲉⲕⲙⲉⲉⲩⲉ ϫⲉⲙⲛⲕⲟⲗⲁⲥⲓⲥ ϩⲓⲃⲁⲥⲁⲛⲟⲥ ϩⲙⲡⲇⲓⲕⲁⲥⲧⲏⲣⲓⲟⲛ · ⲉⲧⲣⲁⲕⲟⲗⲁⲍⲉ ⲙⲙⲟⲕ ⲛⲧϩⲉ ⲉⲧⲉϩⲛⲁⲓ ·
 1-3	ⲉⲕⲙⲉⲉⲩⲉ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	PART	CFOC	_	3	mark	_	_
 2	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -407,20 +407,20 @@
 4-6	ϫⲉⲙⲛⲕⲟⲗⲁⲥⲓⲥ	_	_	_	_	_	_	_	_
 4	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	5	mark	_	_
 5	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	3	ccomp	_	Orig=ⲙⲛ̅
-6	ⲕⲟⲗⲁⲥⲓⲥ	ⲕⲟⲗⲁⲥⲓⲥ	NOUN	N	_	5	nsubj	_	Entity=(abstract)
+6	ⲕⲟⲗⲁⲥⲓⲥ	ⲕⲟⲗⲁⲥⲓⲥ	NOUN	N	Foreign=Yes	5	nsubj	_	Entity=(abstract)|OrigLang=grc
 7-8	ϩⲓⲃⲁⲥⲁⲛⲟⲥ	_	_	_	_	_	_	_	_
 7	ϩⲓ	ϩⲓ	ADP	PREP	_	8	case	_	_
-8	ⲃⲁⲥⲁⲛⲟⲥ	ⲃⲁⲥⲁⲛⲟⲥ	NOUN	N	_	6	nmod	_	Entity=(abstract
+8	ⲃⲁⲥⲁⲛⲟⲥ	ⲃⲁⲥⲁⲛⲟⲥ	NOUN	N	Foreign=Yes	6	nmod	_	Entity=(abstract|OrigLang=grc
 9-11	ϩⲙⲡⲇⲓⲕⲁⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 9	ϩⲙ	ϩⲛ	ADP	PREP	_	11	case	_	Orig=ϩⲙ̅
 10	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(place
-11	ⲇⲓⲕⲁⲥⲧⲏⲣⲓⲟⲛ	ⲇⲓⲕⲁⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	_	5	obl	_	Entity=place)abstract)
+11	ⲇⲓⲕⲁⲥⲧⲏⲣⲓⲟⲛ	ⲇⲓⲕⲁⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	5	obl	_	Entity=place)abstract)|OrigLang=grc
 12	·	·	PUNCT	PUNCT	_	0	punct	_	_
 13-16	ⲉⲧⲣⲁⲕⲟⲗⲁⲍⲉ	_	_	_	_	_	_	_	_
 13	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	14	mark	_	_
 14	ⲧⲣ	ⲧⲣⲉ	VERB	ACAUS	_	3	xcomp	_	_
 15	ⲁ	ⲁ	PRON	PPERS	_	16	nsubj	_	_
-16	ⲕⲟⲗⲁⲍⲉ	ⲕⲟⲗⲁⲍⲉ	VERB	V	VerbForm=Fin	14	xcomp	_	_
+16	ⲕⲟⲗⲁⲍⲉ	ⲕⲟⲗⲁⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	14	xcomp	_	OrigLang=grc
 17-18	ⲙⲙⲟⲕ	_	_	_	_	_	_	_	_
 17	ⲙⲙⲟ	ⲛ	ADP	PREP	_	18	case	_	Orig=ⲙ̅ⲙⲟ
 18	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	16	obj	_	_
@@ -431,12 +431,12 @@
 22-24	ⲉⲧⲉϩⲛⲁⲓ	_	_	_	_	_	_	_	_
 22	ⲉ	ⲉ	ADP	PREP	_	24	case	_	_
 23	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	Entity=(abstract
-24	ϩⲛⲁⲓ	ϩⲛⲁⲓ	NOUN	N	_	16	obl	_	Entity=abstract)
+24	ϩⲛⲁⲓ	ϩⲛⲁⲓ	NOUN	N	_	21	nmod	_	Entity=abstract)
 25	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0014
-# text = ⲙⲡⲉⲓⲟⲩⲱ ⲉⲓⲡⲁⲣⲁⲅⲅⲉⲓⲗⲉ ⲛⲏⲧⲛ ·
 # text_en = Have I not already commanded (or, announced to) thee, saying I not already commanded (or, announced to) thee, saying,
+# text = ⲙⲡⲉⲓⲟⲩⲱ ⲉⲓⲡⲁⲣⲁⲅⲅⲉⲓⲗⲉ ⲛⲏⲧⲛ ·
 1-3	ⲙⲡⲉⲓⲟⲩⲱ	_	_	_	_	_	_	_	_
 1	ⲙ	ⲛ	ADP	PREP	_	3	case	_	Orig=ⲙ̅
 2	ⲡⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	Entity=(abstract
@@ -444,18 +444,18 @@
 4-6	ⲉⲓⲡⲁⲣⲁⲅⲅⲉⲓⲗⲉ	_	_	_	_	_	_	_	_
 4	ⲉ	ⲉⲣⲉ	PART	CFOC	_	6	mark	_	_
 5	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
-6	ⲡⲁⲣⲁⲅⲅⲉⲓⲗⲉ	ⲡⲁⲣⲁⲅⲅⲉⲓⲗⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲡⲁⲣⲁⲛⲕⲉⲓⲗⲉ
+6	ⲡⲁⲣⲁⲅⲅⲉⲓⲗⲉ	ⲡⲁⲣⲁⲅⲅⲉⲓⲗⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	Orig=ⲡⲁⲣⲁⲛⲕⲉⲓⲗⲉ|OrigLang=grc
 7-8	ⲛⲏⲧⲛ	_	_	_	_	_	_	_	_
 7	ⲛⲏ	ⲛⲁ	ADP	PREP	_	8	case	_	_
 8	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	6	obl	_	Orig=ⲧⲛ̅
 9	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0015
-# text = ϫⲉⲙⲡⲣⲧⲣⲁⲥⲱⲧⲙ ⲉⲡⲉⲓⲣⲁⲛ ϫⲉⲓⲏⲥⲟⲩⲥ ⲉⲃⲟⲗ ϩⲛⲣⲱⲧⲛ ·
 # text_en = Never let me hear this name of Jesus (issue) from thy mouth?
+# text = ϫⲉⲙⲡⲣⲧⲣⲁⲥⲱⲧⲙ ⲉⲡⲉⲓⲣⲁⲛ ϫⲉⲓⲏⲥⲟⲩⲥ ⲉⲃⲟⲗ ϩⲛⲣⲱⲧⲛ ·
 1-4	ϫⲉⲙⲡⲣⲧⲣⲁⲥⲱⲧⲙ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	4	mark	_	_
-2	ⲙⲡⲣⲧⲣ	ⲙⲡⲣⲧⲣⲉ	AUX	ANEGJUS	Polarity=Neg	4	mark	_	Orig=ⲙ̅ⲡⲣ̅ⲧⲣ
+2	ⲙⲡⲣⲧⲣ	ⲙⲡⲣⲧⲣⲉ	AUX	ANEGJUS	Polarity=Neg	4	aux	_	Orig=ⲙ̅ⲡⲣ̅ⲧⲣ
 3	ⲁ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲥⲱⲧⲙ̅
 5-7	ⲉⲡⲉⲓⲣⲁⲛ	_	_	_	_	_	_	_	_
@@ -464,19 +464,19 @@
 7	ⲣⲁⲛ	ⲣⲁⲛ	NOUN	N	_	4	obl	_	Entity=abstract)
 8-9	ϫⲉⲓⲏⲥⲟⲩⲥ	_	_	_	_	_	_	_	_
 8	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	9	mark	_	_
-9	ⲓⲏⲥⲟⲩⲥ	ⲓⲏⲥⲟⲩⲥ	PROPN	NPROP	_	4	vocative	_	Entity=(person-Jesus)|Orig=ⲓⲥ̅
-10	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	13	case	_	_
+9	ⲓⲏⲥⲟⲩⲥ	ⲓⲏⲥⲟⲩⲥ	PROPN	NPROP	Foreign=Yes	4	ccomp	_	Entity=(person-Jesus)|Orig=ⲓⲥ̅|OrigLang=he
+10	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	12	case	_	_
 11-13	ϩⲛⲣⲱⲧⲛ	_	_	_	_	_	_	_	_
 11	ϩⲛ	ϩⲛ	ADP	PREP	_	10	fixed	_	Orig=ϩⲛ̅
-12	ⲣⲱⲧ	ⲣⲱⲧ	NOUN	N	_	13	case	_	Entity=(plant
-13	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=1|PronType=Prs	9	nmod	_	Entity=plant)|Orig=ⲛ̅
+12	ⲣⲱⲧ	ⲣⲱⲧ	NOUN	N	_	4	obl	_	Entity=(plant
+13	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	12	det	_	Entity=plant)|Orig=ⲛ̅
 14	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0016
-# text = ⲛⲥⲁⲃⲏⲗ ⲅⲁⲣ ⲉⲧⲃⲉⲡϣⲓⲡⲉ ⲙⲡⲉⲕⲉⲓⲱⲧ · ⲙⲙⲟⲛ ⲛⲉⲓⲛⲁⲁⲛⲉⲭⲉ ⲛⲁⲕ ⲁⲛ ⲡⲉ ⲉⲧⲣⲉⲕϣⲁϫⲉ ⲙⲡⲁⲙⲧⲟ ⲉⲃⲟⲗ ·
 # text_en = If it were not that I should inflict shame on thy father I would not permit thee to utter one word in my presence.
+# text = ⲛⲥⲁⲃⲏⲗ ⲅⲁⲣ ⲉⲧⲃⲉⲡϣⲓⲡⲉ ⲙⲡⲉⲕⲉⲓⲱⲧ · ⲙⲙⲟⲛ ⲛⲉⲓⲛⲁⲁⲛⲉⲭⲉ ⲛⲁⲕ ⲁⲛ ⲡⲉ ⲉⲧⲣⲉⲕϣⲁϫⲉ ⲙⲡⲁⲙⲧⲟ ⲉⲃⲟⲗ ·
 1	ⲛⲥⲁⲃⲏⲗ	ⲛⲥⲁⲃⲏⲗ	CCONJ	CONJ	_	15	advmod	_	Orig=ⲛ̅ⲥⲁⲃⲉⲗ
-2	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	_	15	advmod	_	_
+2	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	15	advmod	_	OrigLang=grc
 3-5	ⲉⲧⲃⲉⲡϣⲓⲡⲉ	_	_	_	_	_	_	_	_
 3	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	5	case	_	_
 4	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(abstract
@@ -493,7 +493,7 @@
 12	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	15	advmod	_	_
 13	ⲉⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
 14	ⲛⲁ	ⲛⲁ	AUX	FUT	_	15	aux	_	_
-15	ⲁⲛⲉⲭⲉ	ⲁⲛⲉⲭⲉ	VERB	V	VerbForm=Fin	0	root	_	_
+15	ⲁⲛⲉⲭⲉ	ⲁⲛⲉⲭⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	OrigLang=grc
 16-17	ⲛⲁⲕ	_	_	_	_	_	_	_	_
 16	ⲛⲁ	ⲛⲁ	ADP	PREP	_	17	case	_	_
 17	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	15	obl	_	_
@@ -507,13 +507,13 @@
 24-26	ⲙⲡⲁⲙⲧⲟ	_	_	_	_	_	_	_	_
 24	ⲙ	ⲛ	ADP	PREP	_	26	case	_	Orig=ⲙ̅
 25	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	26	det	_	Entity=(abstract
-26	ⲙⲧⲟ	ⲙⲧⲟ	NOUN	N	_	23	obl	_	Orig=ⲙ̅ⲧⲟ
+26	ⲙⲧⲟ	ⲙⲧⲟ	NOUN	N	_	23	obj	_	Orig=ⲙ̅ⲧⲟ
 27	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	26	advmod	_	Entity=abstract)
 28	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0017
-# text = ⲉⲓⲉ ⲙⲡⲉⲕⲥⲱⲧⲙ ⲣⲱ · ϫⲉⲁⲩⲣⲣⲟ ⲛⲧⲁϩⲉ ϫⲟⲟⲩ ⲛⲟⲩϩⲏⲅⲉⲙⲱⲛ ·
 # text_en = Is it possible that thou hast never heard that an Emperor like unto myself gave orders to a governor
+# text = ⲉⲓⲉ ⲙⲡⲉⲕⲥⲱⲧⲙ ⲣⲱ · ϫⲉⲁⲩⲣⲣⲟ ⲛⲧⲁϩⲉ ϫⲟⲟⲩ ⲛⲟⲩϩⲏⲅⲉⲙⲱⲛ ·
 1	ⲉⲓⲉ	ⲉⲓⲉ	PART	PTC	_	4	advmod	_	_
 2-4	ⲙⲡⲉⲕⲥⲱⲧⲙ	_	_	_	_	_	_	_	_
 2	ⲙ	ⲛ	ADP	PREP	_	4	case	_	Orig=ⲙ̅
@@ -534,19 +534,19 @@
 15-17	ⲛⲟⲩϩⲏⲅⲉⲙⲱⲛ	_	_	_	_	_	_	_	_
 15	ⲛ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲛ̅
 16	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	17	det	_	Entity=(person
-17	ϩⲏⲅⲉⲙⲱⲛ	ϩⲏⲅⲉⲙⲱⲛ	NOUN	N	_	14	obj	_	Entity=person)abstract)
+17	ϩⲏⲅⲉⲙⲱⲛ	ϩⲏⲅⲉⲙⲱⲛ	NOUN	N	Foreign=Yes	14	obj	_	Entity=person)abstract)|OrigLang=grc
 18	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0018
-# text = ⲁϥⲙⲟⲟⲩⲧ ⲛⲓⲏⲥⲟⲩⲥ ⲡⲉⲕⲛⲟⲩⲧⲉ · ⲡⲁⲓ ⲛⲧⲟⲕ ⲉⲧⲕⲑⲁⲣⲉⲓ ⲉⲣⲟϥ · ⲉⲧⲉϩⲏⲣⲱⲇⲏⲥ ⲡⲉ · ⲉⲁϥϫⲟⲟⲩ ⲙⲡⲓⲗⲁⲧⲟⲥ · ⲁϥⲙⲟⲟⲩⲧ ⲙⲙⲟϥ ·
 # text_en = who put to death thy Lord Jesus, in whom thou puttest thy confidence? his king was Herod, who gave orders to Pilate and Pilate put Him to death.
+# text = ⲁϥⲙⲟⲟⲩⲧ ⲛⲓⲏⲥⲟⲩⲥ ⲡⲉⲕⲛⲟⲩⲧⲉ · ⲡⲁⲓ ⲛⲧⲟⲕ ⲉⲧⲕⲑⲁⲣⲉⲓ ⲉⲣⲟϥ · ⲉⲧⲉϩⲏⲣⲱⲇⲏⲥ ⲡⲉ · ⲉⲁϥϫⲟⲟⲩ ⲙⲡⲓⲗⲁⲧⲟⲥ · ⲁϥⲙⲟⲟⲩⲧ ⲙⲙⲟϥ ·
 1-3	ⲁϥⲙⲟⲟⲩⲧ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	ⲙⲟⲟⲩⲧ	ⲙⲟⲩⲟⲩⲧ	VERB	V	VerbForm=Fin	0	root	_	_
 4-5	ⲛⲓⲏⲥⲟⲩⲥ	_	_	_	_	_	_	_	_
 4	ⲛ	ⲛ	ADP	PREP	_	5	case	_	Orig=ⲛ̅
-5	ⲓⲏⲥⲟⲩⲥ	ⲓⲏⲥⲟⲩⲥ	PROPN	NPROP	_	3	obl	_	Entity=(person-Jesus|Orig=ⲓ̅ⲥ̅
+5	ⲓⲏⲥⲟⲩⲥ	ⲓⲏⲥⲟⲩⲥ	PROPN	NPROP	Foreign=Yes	3	obl	_	Entity=(person-Jesus|Orig=ⲓ̅ⲥ̅|OrigLang=he
 6-7	ⲡⲉⲕⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 6	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	7	det	_	_
 7	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	5	appos	_	Entity=person-Jesus)
@@ -556,41 +556,41 @@
 11-13	ⲉⲧⲕⲑⲁⲣⲉⲓ	_	_	_	_	_	_	_	_
 11	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	13	mark	_	_
 12	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	Orig=ⲕ̅
-13	ⲑⲁⲣⲉⲓ	ⲑⲁⲣⲉⲓ	VERB	V	VerbForm=Fin	10	acl	_	_
+13	ⲑⲁⲣⲉⲓ	ⲑⲁⲣⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	9	acl	_	OrigLang=grc
 14-15	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 14	ⲉⲣⲟ	ⲉ	ADP	PREP	_	15	case	_	_
 15	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
 16	·	·	PUNCT	PUNCT	_	0	punct	_	_
 17-18	ⲉⲧⲉϩⲏⲣⲱⲇⲏⲥ	_	_	_	_	_	_	_	_
 17	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	18	mark	_	_
-18	ϩⲏⲣⲱⲇⲏⲥ	ϩⲏⲣⲱⲇⲏⲥ	PROPN	NPROP	_	10	acl	_	Entity=(person-Herod_II)
+18	ϩⲏⲣⲱⲇⲏⲥ	ϩⲏⲣⲱⲇⲏⲥ	PROPN	NPROP	Foreign=Yes	9	acl	_	Entity=(person-Herod_II)|OrigLang=grc
 19	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	18	cop	_	Entity=person)
 20	·	·	PUNCT	PUNCT	_	0	punct	_	_
 21-24	ⲉⲁϥϫⲟⲟⲩ	_	_	_	_	_	_	_	_
 21	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	24	mark	_	_
 22	ⲁ	ⲁ	AUX	APST	_	24	aux	_	_
 23	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
-24	ϫⲟⲟⲩ	ϫⲟⲟⲩ	VERB	V	VerbForm=Fin	18	csubj	_	_
+24	ϫⲟⲟⲩ	ϫⲟⲟⲩ	VERB	V	VerbForm=Fin	13	advcl	_	_
 25-26	ⲙⲡⲓⲗⲁⲧⲟⲥ	_	_	_	_	_	_	_	_
 25	ⲙ	ⲛ	ADP	PREP	_	26	case	_	Orig=ⲙ̅
-26	ⲡⲓⲗⲁⲧⲟⲥ	ⲡⲓⲗⲁⲧⲟⲥ	PROPN	NPROP	_	24	obj	_	Entity=(person-Pontius_Pilate)
+26	ⲡⲓⲗⲁⲧⲟⲥ	ⲡⲓⲗⲁⲧⲟⲥ	PROPN	NPROP	Foreign=Yes	24	obj	_	Entity=(person-Pontius_Pilate)|OrigLang=grc
 27	·	·	PUNCT	PUNCT	_	0	punct	_	_
 28-30	ⲁϥⲙⲟⲟⲩⲧ	_	_	_	_	_	_	_	_
 28	ⲁ	ⲁ	AUX	APST	_	30	aux	_	_
 29	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
-30	ⲙⲟⲟⲩⲧ	ⲙⲟⲩⲟⲩⲧ	VERB	V	VerbForm=Fin	3	conj	_	_
+30	ⲙⲟⲟⲩⲧ	ⲙⲟⲩⲟⲩⲧ	VERB	V	VerbForm=Fin	24	parataxis	_	_
 31-32	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 31	ⲙⲙⲟ	ⲛ	ADP	PREP	_	32	case	_	Orig=ⲙ̅ⲙⲟ
 32	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
 33	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0019
-# text = ⲉϣϫⲉ ⲟⲩϩⲏⲅⲉⲙⲱⲛ ⲡⲉⲛⲧⲁϥϩⲱⲧⲃ ⲛⲓⲏⲥⲟⲩⲥ ⲡⲉⲕⲛⲟⲩⲧⲉ · ⲉⲓⲉ ⲡⲟⲥⲱ ⲙⲁⲗⲗⲟⲛ ⲁⲛⲅⲟⲩⲣⲣⲟ · ϯⲛⲁⲁⲛϩⲁⲗⲓⲥⲕⲉ ⲙⲡⲉⲓⲣⲁⲛ ϩⲁⲣⲟⲥ ⲛⲧⲡⲉ ϫⲉⲓⲏⲥⲟⲩⲥ · ⲙⲛⲟⲩⲟⲛ ⲛⲓⲙ ⲉⲧⲟⲩⲱϣⲧ ⲛⲁϥ ·
 # text_en = Now, if it was a mere governor who slew Jesus thy God, how much more is it possible for me, an Emperor, to destroy this name of Jesus from under heaven, and every one who worshippeth Him?
+# text = ⲉϣϫⲉ ⲟⲩϩⲏⲅⲉⲙⲱⲛ ⲡⲉⲛⲧⲁϥϩⲱⲧⲃ ⲛⲓⲏⲥⲟⲩⲥ ⲡⲉⲕⲛⲟⲩⲧⲉ · ⲉⲓⲉ ⲡⲟⲥⲱ ⲙⲁⲗⲗⲟⲛ ⲁⲛⲅⲟⲩⲣⲣⲟ · ϯⲛⲁⲁⲛϩⲁⲗⲓⲥⲕⲉ ⲙⲡⲉⲓⲣⲁⲛ ϩⲁⲣⲟⲥ ⲛⲧⲡⲉ ϫⲉⲓⲏⲥⲟⲩⲥ · ⲙⲛⲟⲩⲟⲛ ⲛⲓⲙ ⲉⲧⲟⲩⲱϣⲧ ⲛⲁϥ ·
 1	ⲉϣϫⲉ	ⲉϣϫⲉ	SCONJ	CONJ	_	3	mark	_	_
 2-3	ⲟⲩϩⲏⲅⲉⲙⲱⲛ	_	_	_	_	_	_	_	_
 2	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	3	det	_	Entity=(person
-3	ϩⲏⲅⲉⲙⲱⲛ	ϩⲏⲅⲉⲙⲱⲛ	NOUN	N	_	0	root	_	Entity=person)
+3	ϩⲏⲅⲉⲙⲱⲛ	ϩⲏⲅⲉⲙⲱⲛ	NOUN	N	Foreign=Yes	23	advcl	_	Entity=person)|OrigLang=grc
 4-8	ⲡⲉⲛⲧⲁϥϩⲱⲧⲃ	_	_	_	_	_	_	_	_
 4	ⲡ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	3	cop	_	Entity=(person
 5	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	8	mark	_	_
@@ -599,23 +599,23 @@
 8	ϩⲱⲧⲃ	ϩⲱⲧⲃ	VERB	V	VerbForm=Fin	3	csubj	_	Orig=ϩⲱⲧⲃ̅
 9-10	ⲛⲓⲏⲥⲟⲩⲥ	_	_	_	_	_	_	_	_
 9	ⲛ	ⲛ	ADP	PREP	_	10	case	_	Orig=ⲛ̅
-10	ⲓⲏⲥⲟⲩⲥ	ⲓⲏⲥⲟⲩⲥ	PROPN	NPROP	_	8	obj	_	Entity=(person-Jesus)|Orig=ⲓ̅ⲥ̅
+10	ⲓⲏⲥⲟⲩⲥ	ⲓⲏⲥⲟⲩⲥ	PROPN	NPROP	Foreign=Yes	8	obl	_	Entity=(person-Jesus)|Orig=ⲓ̅ⲥ̅|OrigLang=he
 11-12	ⲡⲉⲕⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 11	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	12	det	_	Entity=(person
 12	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	10	appos	_	Entity=person)
 13	·	·	PUNCT	PUNCT	_	0	punct	_	_
 14	ⲉⲓⲉ	ⲉⲓⲉ	PART	PTC	_	23	advmod	_	_
-15	ⲡⲟⲥⲱ	ⲡⲟⲥⲱ	NOUN	N	_	23	dislocated	_	Entity=(abstract)
-16	ⲙⲁⲗⲗⲟⲛ	ⲙⲁⲗⲗⲟⲛ	ADV	ADV	_	19	advmod	_	_
+15	ⲡⲟⲥⲱ	ⲡⲟⲥⲱ	NOUN	N	Foreign=Yes	23	dislocated	_	Entity=(abstract)|OrigLang=grc
+16	ⲙⲁⲗⲗⲟⲛ	ⲙⲁⲗⲗⲟⲛ	ADV	ADV	Foreign=Yes	19	advmod	_	OrigLang=grc
 17-19	ⲁⲛⲅⲟⲩⲣⲣⲟ	_	_	_	_	_	_	_	_
 17	ⲁⲛⲅ	ⲁⲛⲟⲕ	PRON	PPERI	Definite=Def|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	Orig=ⲁⲛⲅ̅
 18	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	19	det	_	_
-19	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	8	ccomp	_	Entity=person)|Orig=ⲣ̅ⲣⲟ
+19	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	15	parataxis	_	Entity=person)|Orig=ⲣ̅ⲣⲟ
 20	·	·	PUNCT	PUNCT	_	0	punct	_	_
 21-23	ϯⲛⲁⲁⲛϩⲁⲗⲓⲥⲕⲉ	_	_	_	_	_	_	_	_
 21	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
 22	ⲛⲁ	ⲛⲁ	AUX	FUT	_	23	aux	_	_
-23	ⲁⲛϩⲁⲗⲓⲥⲕⲉ	ⲁⲛϩⲁⲗⲓⲥⲕⲉ	VERB	V	VerbForm=Fin	8	ccomp	_	_
+23	ⲁⲛϩⲁⲗⲓⲥⲕⲉ	ⲁⲛϩⲁⲗⲓⲥⲕⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	OrigLang=grc
 24-26	ⲙⲡⲉⲓⲣⲁⲛ	_	_	_	_	_	_	_	_
 24	ⲙ	ⲛ	ADP	PREP	_	26	case	_	Orig=ⲙ̅
 25	ⲡⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	26	det	_	Entity=(abstract
@@ -626,10 +626,10 @@
 29-31	ⲛⲧⲡⲉ	_	_	_	_	_	_	_	_
 29	ⲛ	ⲛ	ADP	PREP	_	31	case	_	Orig=ⲛ̅
 30	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	Entity=(place
-31	ⲡⲉ	ⲡⲉ	NOUN	N	_	23	obl	_	Entity=place)
+31	ⲡⲉ	ⲡⲉ	NOUN	N	_	28	nmod	_	Entity=place)
 32-33	ϫⲉⲓⲏⲥⲟⲩⲥ	_	_	_	_	_	_	_	_
-32	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	23	mark	_	_
-33	ⲓⲏⲥⲟⲩⲥ	ⲓⲏⲥⲟⲩⲥ	PROPN	NPROP	_	23	dislocated	_	Entity=(person-Jesus)|Orig=ⲓ̅ⲥ̅
+32	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	33	mark	_	_
+33	ⲓⲏⲥⲟⲩⲥ	ⲓⲏⲥⲟⲩⲥ	PROPN	NPROP	Foreign=Yes	23	ccomp	_	Entity=(person-Jesus)|Orig=ⲓ̅ⲥ̅|OrigLang=he
 34	·	·	PUNCT	PUNCT	_	0	punct	_	_
 35-36	ⲙⲛⲟⲩⲟⲛ	_	_	_	_	_	_	_	_
 35	ⲙⲛ	ⲙⲛ	ADP	PREP	_	36	cc	_	Orig=ⲙⲛ̅
@@ -644,10 +644,10 @@
 42	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0020
-# text = ⲱ ⲃⲓⲕⲧⲱⲣ ⲃⲱⲕ ϭⲉ ⲧⲉⲛⲟⲩ ⲛⲅⲥⲱⲧⲙ ⲛⲥⲁⲡⲉⲕⲉⲓⲱⲧ · ⲛⲅⲑⲩⲥⲓⲁⲍⲉ ⲛⲛⲛⲟⲩⲧⲉ ·
 # text_en = Now, therefore, O 'Victor, come, hearken to thy father, and do thou offer up sacrifice to the gods.
-1	ⲱ	ⲱ	PART	PTC	_	2	discourse	_	Orig=ⲱ̅
-2	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	3	vocative	_	Entity=(person)
+# text = ⲱ ⲃⲓⲕⲧⲱⲣ ⲃⲱⲕ ϭⲉ ⲧⲉⲛⲟⲩ ⲛⲅⲥⲱⲧⲙ ⲛⲥⲁⲡⲉⲕⲉⲓⲱⲧ · ⲛⲅⲑⲩⲥⲓⲁⲍⲉ ⲛⲛⲛⲟⲩⲧⲉ ·
+1	ⲱ	ⲱ	PART	PTC	Foreign=Yes	2	discourse	_	Orig=ⲱ̅|OrigLang=grc
+2	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	3	vocative	_	Entity=(person)|OrigLang=la
 3	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	0	root	_	_
 4	ϭⲉ	ϭⲉ	PART	PTC	_	3	advmod	_	_
 5	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	3	advmod	_	_
@@ -663,7 +663,7 @@
 13-15	ⲛⲅⲑⲩⲥⲓⲁⲍⲉ	_	_	_	_	_	_	_	_
 13	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	15	aux	_	_
 14	ⲅ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	Orig=ⲅ̅
-15	ⲑⲩⲥⲓⲁⲍⲉ	ⲑⲩⲥⲓⲁⲍⲉ	VERB	V	VerbForm=Fin	8	advcl	_	_
+15	ⲑⲩⲥⲓⲁⲍⲉ	ⲑⲩⲥⲓⲁⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	8	advcl	_	OrigLang=grc
 16-18	ⲛⲛⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 16	ⲛ	ⲛ	ADP	PREP	_	18	case	_	Orig=ⲛ̅
 17	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	18	det	_	Entity=(person|Orig=ⲛ̅
@@ -671,15 +671,15 @@
 19	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0021
+# text_en = If, however, thou wilt not do so, I will banish thee, and they shall put thee to death.
 # text = ⲉϣⲱⲡⲉ ⲙⲙⲟⲛ · ϯⲛⲁⲉⲝⲱⲣⲓⲍⲉ ⲙⲙⲟⲕ ⲛⲥⲉⲙⲟⲟⲩⲧⲕ ·
-# text_en =  If, however, thou wilt not do so, I will banish thee, and they shall put thee to death.
-1	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	2	mark	_	_
+1	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	6	mark	_	_
 2	ⲙⲙⲟⲛ	ⲙⲙⲟⲛ	PART	PTC	Polarity=Neg	6	advmod	_	Orig=ⲙ̅ⲙⲟⲛ
 3	·	·	PUNCT	PUNCT	_	0	punct	_	_
 4-6	ϯⲛⲁⲉⲝⲱⲣⲓⲍⲉ	_	_	_	_	_	_	_	_
 4	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 5	ⲛⲁ	ⲛⲁ	AUX	FUT	_	6	aux	_	_
-6	ⲉⲝⲱⲣⲓⲍⲉ	ⲉⲝⲱⲣⲓⲍⲉ	VERB	V	VerbForm=Fin	0	root	_	_
+6	ⲉⲝⲱⲣⲓⲍⲉ	ⲉⲝⲱⲣⲓⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	OrigLang=grc
 7-8	ⲙⲙⲟⲕ	_	_	_	_	_	_	_	_
 7	ⲙⲙⲟ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲙ̅ⲙⲟ
 8	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
@@ -691,10 +691,10 @@
 13	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0022
-# text = ϩⲣⲱⲙⲁⲛⲟⲥ ⲇⲉ ⲁϥⲕⲟⲧϥ ⲉⲡⲉϥϣⲏⲣⲉ ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲡⲉϫⲁϥ ⲛⲁϥ ·
 # text_en = And Romanus turned towards his son Apa Victor and said unto him
-1	ϩⲣⲱⲙⲁⲛⲟⲥ	ϩⲣⲱⲙⲁⲛⲟⲥ	PROPN	NPROP	_	5	dislocated	_	Entity=(person)
-2	ⲇⲉ	ⲇⲉ	PART	PTC	_	5	advmod	_	_
+# text = ϩⲣⲱⲙⲁⲛⲟⲥ ⲇⲉ ⲁϥⲕⲟⲧϥ ⲉⲡⲉϥϣⲏⲣⲉ ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲡⲉϫⲁϥ ⲛⲁϥ ·
+1	ϩⲣⲱⲙⲁⲛⲟⲥ	ϩⲣⲱⲙⲁⲛⲟⲥ	PROPN	NPROP	Foreign=Yes	5	dislocated	_	Entity=(person)|OrigLang=grc
+2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	5	advmod	_	OrigLang=grc
 3-6	ⲁϥⲕⲟⲧϥ	_	_	_	_	_	_	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
@@ -704,8 +704,8 @@
 7	ⲉ	ⲉ	ADP	PREP	_	9	case	_	_
 8	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	Entity=(person
 9	ϣⲏⲣⲉ	ϣⲏⲣⲉ	NOUN	N	_	5	obl	_	_
-10	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	9	appos	_	_
-11	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	10	flat	_	Entity=person)
+10	ⲁⲡⲁ	ⲁⲡⲁ	ADJ	N	Foreign=Yes	9	amod	_	OrigLang=he
+11	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	10	flat	_	Entity=person)|OrigLang=la
 12-13	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 12	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	5	parataxis	_	_
 13	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
@@ -715,15 +715,15 @@
 16	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0023
+# text_en = Art thou still not persuaded to pay worship unto the gods of the Emperor?
 # text = ϫⲉⲙⲏ ⲙⲡⲉⲕⲡⲉⲓⲑⲉ ⲟⲛ ⲉⲧⲣⲉⲕⲟⲩⲱϣⲧ ⲛⲛⲛⲟⲩⲧⲉ ⲙⲡⲣⲣⲟ ·
-# text_en =  Art thou still not persuaded to pay worship unto the gods of the Emperor?
 1-2	ϫⲉⲙⲏ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	8	mark	_	_
-2	ⲙⲏ	ⲙⲏ	CCONJ	CONJ	_	5	advmod	_	_
+2	ⲙⲏ	ⲙⲏ	CCONJ	CONJ	Foreign=Yes	8	advcl	_	OrigLang=grc
 3-5	ⲙⲡⲉⲕⲡⲉⲓⲑⲉ	_	_	_	_	_	_	_	_
 3	ⲙ	ⲛ	ADP	PREP	_	5	case	_	Orig=ⲙ̅
 4	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	5	det	_	Entity=(abstract
-5	ⲡⲉⲓⲑⲉ	ⲡⲉⲓⲑⲉ	NOUN	N	_	8	obl	_	Orig=ⲡⲓⲑⲉ
+5	ⲡⲉⲓⲑⲉ	ⲡⲉⲓⲑⲉ	NOUN	N	Foreign=Yes	10	obl	_	Orig=ⲡⲓⲑⲉ|OrigLang=grc
 6	ⲟⲛ	ⲟⲛ	ADV	ADV	_	8	advmod	_	_
 7-10	ⲉⲧⲣⲉⲕⲟⲩⲱϣⲧ	_	_	_	_	_	_	_	_
 7	ⲉ	ⲉ	PART	PREP	_	8	mark	_	_
@@ -737,15 +737,15 @@
 14-16	ⲙⲡⲣⲣⲟ	_	_	_	_	_	_	_	_
 14	ⲙ	ⲛ	ADP	PREP	_	16	case	_	Orig=ⲙ̅
 15	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	Entity=(person
-16	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	13	nmod	_	Entity=person)abstract)|Orig=ⲣ̅ⲣⲟ
+16	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	10	obl	_	Entity=person)abstract)|Orig=ⲣ̅ⲣⲟ
 17	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0024
-# text = ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲇⲉ ⲡⲉϫⲁϥ ⲙⲡⲉϥⲉⲓⲱⲧ ·
 # text_en = And Apa Victor said unto his father
-1	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	4	dislocated	_	Entity=(person
-2	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	4	dislocated	_	Entity=person)
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	4	advmod	_	_
+# text = ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲇⲉ ⲡⲉϫⲁϥ ⲙⲡⲉϥⲉⲓⲱⲧ ·
+1	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	4	dislocated	_	Entity=(person|OrigLang=he
+2	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	1	flat	_	Entity=person)|OrigLang=la
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	4	advmod	_	OrigLang=grc
 4-5	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 4	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
@@ -756,43 +756,43 @@
 9	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0025
-# text = ϫⲉⲉϣⲱⲡⲉ ⲡⲉⲕϫⲟⲉⲓⲥ ⲡⲉ ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ · ⲙⲡⲁϫⲟⲉⲓⲥ ⲁⲛ ⲁⲛⲟⲕ ⲡⲉ · ⲁⲗⲗⲁ ⲡⲁϫⲟⲉⲓⲥ ⲡⲉ ⲓⲏⲥⲟⲩⲥ ⲡⲉⲭⲣⲓⲥⲧⲟⲥ ·
 # text_en = If Diocletian be thy god, (good and well); but he is no god of mine, for my Lord is Jesus the Christ.
+# text = ϫⲉⲉϣⲱⲡⲉ ⲡⲉⲕϫⲟⲉⲓⲥ ⲡⲉ ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ · ⲙⲡⲁϫⲟⲉⲓⲥ ⲁⲛ ⲁⲛⲟⲕ ⲡⲉ · ⲁⲗⲗⲁ ⲡⲁϫⲟⲉⲓⲥ ⲡⲉ ⲓⲏⲥⲟⲩⲥ ⲡⲉⲭⲣⲓⲥⲧⲟⲥ ·
 1-2	ϫⲉⲉϣⲱⲡⲉ	_	_	_	_	_	_	_	_
-1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	4	mark	_	_
+1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	12	mark	_	_
 2	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	4	mark	_	_
 3-4	ⲡⲉⲕϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 3	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	4	det	_	Entity=(person
 4	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	12	advcl	_	Entity=person)
 5	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	4	cop	_	_
-6	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	PROPN	NPROP	_	4	nsubj	_	Entity=(person-Diocletian)
+6	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	PROPN	NPROP	Foreign=Yes	4	nsubj	_	Entity=(person-Diocletian)|OrigLang=la
 7	·	·	PUNCT	PUNCT	_	0	punct	_	_
 8-10	ⲙⲡⲁϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 8	ⲙ	ⲛ	ADP	PREP	_	10	case	_	Orig=ⲙ̅
 9	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det	_	Entity=(person
 10	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	4	nmod	_	_
-11	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	10	advmod	_	Entity=person)
+11	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	12	advmod	_	Entity=person)
 12	ⲁⲛⲟⲕ	ⲁⲛⲟⲕ	PRON	PPERI	Definite=Def|Number=Sing|Person=1|PronType=Prs	0	root	_	_
 13	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	12	cop	_	_
 14	·	·	PUNCT	PUNCT	_	0	punct	_	_
-15	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	17	cc	_	_
+15	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	17	cc	_	OrigLang=grc
 16-17	ⲡⲁϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 16	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	17	det	_	Entity=(person
-17	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	10	conj	_	Entity=person)
+17	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	4	conj	_	Entity=person)
 18	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	17	cop	_	_
-19	ⲓⲏⲥⲟⲩⲥ	ⲓⲏⲥⲟⲩⲥ	PROPN	NPROP	_	17	nsubj	_	Entity=(person-Jesus|Orig=ⲓ̅ⲥ̅
+19	ⲓⲏⲥⲟⲩⲥ	ⲓⲏⲥⲟⲩⲥ	PROPN	NPROP	Foreign=Yes	17	nsubj	_	Entity=(person-Jesus|Orig=ⲓ̅ⲥ̅|OrigLang=he
 20-21	ⲡⲉⲭⲣⲓⲥⲧⲟⲥ	_	_	_	_	_	_	_	_
 20	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	ⲭⲣⲓⲥⲧⲟⲥ	ⲭⲣⲓⲥⲧⲟⲥ	NOUN	N	_	19	appos	_	Entity=person-Jesus)|Orig=ⲭⲣ̅ⲥ̅
+21	ⲭⲣⲓⲥⲧⲟⲥ	ⲭⲣⲓⲥⲧⲟⲥ	NOUN	N	Foreign=Yes	19	appos	_	Entity=person-Jesus)|Orig=ⲭⲣ̅ⲥ̅|OrigLang=grc
 22	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0026
-# text = ⲡⲉϥⲉⲓⲱⲧ ⲇⲉ ⲁϥⲛⲟⲩϭⲥ ⲉⲙⲁⲧⲉ · ⲁϥⲕⲉⲗⲉⲩⲉ ⲉⲧⲣⲉⲩⲉⲓⲛⲉ ⲛⲛⲉϥϭⲓϫ ϩⲓⲡⲁϩⲟⲩ ⲙⲙⲟϥ · ⲛⲥⲉϫⲓⲧϥ ⲙⲡⲃⲟⲗ ⲛⲧⲡⲟⲗⲓⲥ ⲛⲥⲉⲗⲟⲅⲭⲓⲍⲉ ⲙⲙⲟϥ ⲛϥⲙⲟⲩ ·
 # text_en = And his father was exceedingly wroth, and he commanded them to bind his son's arms behind him, and to carry him outside the city, and to spear him there (until) he died.
+# text = ⲡⲉϥⲉⲓⲱⲧ ⲇⲉ ⲁϥⲛⲟⲩϭⲥ ⲉⲙⲁⲧⲉ · ⲁϥⲕⲉⲗⲉⲩⲉ ⲉⲧⲣⲉⲩⲉⲓⲛⲉ ⲛⲛⲉϥϭⲓϫ ϩⲓⲡⲁϩⲟⲩ ⲙⲙⲟϥ · ⲛⲥⲉϫⲓⲧϥ ⲙⲡⲃⲟⲗ ⲛⲧⲡⲟⲗⲓⲥ ⲛⲥⲉⲗⲟⲅⲭⲓⲍⲉ ⲙⲙⲟϥ ⲛϥⲙⲟⲩ ·
 1-2	ⲡⲉϥⲉⲓⲱⲧ	_	_	_	_	_	_	_	_
 1	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	Entity=(person
 2	ⲉⲓⲱⲧ	ⲉⲓⲱⲧ	NOUN	N	_	6	dislocated	_	Entity=person)
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	6	advmod	_	_
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	6	advmod	_	OrigLang=grc
 4-6	ⲁϥⲛⲟⲩϭⲥ	_	_	_	_	_	_	_	_
 4	ⲁ	ⲁ	AUX	APST	_	6	aux	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -802,7 +802,7 @@
 9-11	ⲁϥⲕⲉⲗⲉⲩⲉ	_	_	_	_	_	_	_	_
 9	ⲁ	ⲁ	AUX	APST	_	11	aux	_	_
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-11	ⲕⲉⲗⲉⲩⲉ	ⲕⲉⲗⲉⲩⲉ	VERB	V	VerbForm=Fin	6	parataxis	_	Orig=ⲕⲉⲗⲉⲩⲉ̅
+11	ⲕⲉⲗⲉⲩⲉ	ⲕⲉⲗⲉⲩⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	6	parataxis	_	Orig=ⲕⲉⲗⲉⲩⲉ̅|OrigLang=grc
 12-15	ⲉⲧⲣⲉⲩⲉⲓⲛⲉ	_	_	_	_	_	_	_	_
 12	ⲉ	ⲉ	PART	PREP	_	13	mark	_	_
 13	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	11	xcomp	_	_
@@ -814,7 +814,7 @@
 18	ϭⲓϫ	ϭⲓϫ	NOUN	N	_	15	obj	_	Entity=object)
 19-20	ϩⲓⲡⲁϩⲟⲩ	_	_	_	_	_	_	_	_
 19	ϩⲓ	ϩⲓ	ADP	PREP	_	20	case	_	_
-20	ⲡⲁϩⲟⲩ	ⲡⲁϩⲟⲩ	NOUN	N	_	18	conj	_	_
+20	ⲡⲁϩⲟⲩ	ⲡⲁϩⲟⲩ	NOUN	N	_	15	obl	_	_
 21-22	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 21	ⲙⲙⲟ	ⲛ	ADP	PREP	_	22	case	_	Orig=ⲙ̅ⲙⲟ
 22	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nmod	_	_
@@ -822,7 +822,7 @@
 24-27	ⲛⲥⲉϫⲓⲧϥ	_	_	_	_	_	_	_	_
 24	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	26	aux	_	Orig=ⲛ̅
 25	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
-26	ϫⲓⲧ	ϫⲓ	VERB	V	VerbForm=Fin	15	advcl	_	_
+26	ϫⲓⲧ	ϫⲓ	VERB	V	VerbForm=Fin	11	advcl	_	_
 27	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	Orig=ϥ̅
 28-30	ⲙⲡⲃⲟⲗ	_	_	_	_	_	_	_	_
 28	ⲙ	ⲛ	ADP	PREP	_	30	case	_	Orig=ⲙ̅
@@ -831,11 +831,11 @@
 31-33	ⲛⲧⲡⲟⲗⲓⲥ	_	_	_	_	_	_	_	_
 31	ⲛ	ⲛ	ADP	PREP	_	33	case	_	Orig=ⲛ̅
 32	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	Entity=(place
-33	ⲡⲟⲗⲓⲥ	ⲡⲟⲗⲓⲥ	NOUN	N	_	30	nmod	_	Entity=place)place)
+33	ⲡⲟⲗⲓⲥ	ⲡⲟⲗⲓⲥ	NOUN	N	Foreign=Yes	30	nmod	_	Entity=place)place)|OrigLang=grc
 34-36	ⲛⲥⲉⲗⲟⲅⲭⲓⲍⲉ	_	_	_	_	_	_	_	_
 34	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	36	aux	_	Orig=ⲛ̅
 35	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	36	nsubj	_	_
-36	ⲗⲟⲅⲭⲓⲍⲉ	ⲗⲟⲅⲭⲓⲍⲉ	VERB	V	VerbForm=Fin	26	advcl	_	_
+36	ⲗⲟⲅⲭⲓⲍⲉ	ⲗⲟⲅⲭⲓⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	26	advcl	_	OrigLang=grc
 37-38	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 37	ⲙⲙⲟ	ⲛ	ADP	PREP	_	38	case	_	Orig=ⲙ̅ⲙⲟ
 38	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	obj	_	_
@@ -846,14 +846,14 @@
 42	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0027
-# text = ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲇⲉ ⲡⲉⲓⲅⲉⲛⲛⲁⲓⲟⲥ ⲁⲩⲙⲟⲩⲣ ⲛⲛⲉϥϭⲓϫ ϩⲓⲡⲁϩⲟⲩ ⲙⲙⲟϥ · ⲁⲩⲱ ⲁⲩϯ ⲙⲡⲉⲭⲁⲙⲱⲥ ⲉⲣⲱϥ · ⲉⲧⲣⲉⲩϫⲓⲧϥ ⲉⲃⲟⲗ ⲛⲥⲉⲧⲁⲕⲟϥ · ⲉϥⲛⲏⲩ ⲇⲉ ⲉⲃⲟⲗ ⲉϥⲟⲩⲏϩ ⲛⲥⲁⲙⲙⲁⲧⲟⲓ ·
 # text_en = And they tied the arms of this noble Apa Victor behind him, and they fastened a gag in his mouth so that they might carry him outside (the city) to destroy him; and when he was coming out soldiers accompanied him.
-1	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	8	dislocated	_	Entity=(person|Orig=Ⲁⲡⲁ
-2	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	1	appos	_	Entity=person)
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	8	advmod	_	_
+# text = ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲇⲉ ⲡⲉⲓⲅⲉⲛⲛⲁⲓⲟⲥ ⲁⲩⲙⲟⲩⲣ ⲛⲛⲉϥϭⲓϫ ϩⲓⲡⲁϩⲟⲩ ⲙⲙⲟϥ · ⲁⲩⲱ ⲁⲩϯ ⲙⲡⲉⲭⲁⲙⲱⲥ ⲉⲣⲱϥ · ⲉⲧⲣⲉⲩϫⲓⲧϥ ⲉⲃⲟⲗ ⲛⲥⲉⲧⲁⲕⲟϥ · ⲉϥⲛⲏⲩ ⲇⲉ ⲉⲃⲟⲗ ⲉϥⲟⲩⲏϩ ⲛⲥⲁⲙⲙⲁⲧⲟⲓ ·
+1	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	8	dislocated	_	Entity=(person|Orig=Ⲁⲡⲁ|OrigLang=he
+2	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	1	flat	_	Entity=person)|OrigLang=la
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	8	advmod	_	OrigLang=grc
 4-5	ⲡⲉⲓⲅⲉⲛⲛⲁⲓⲟⲥ	_	_	_	_	_	_	_	_
 4	ⲡⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	Entity=(person
-5	ⲅⲉⲛⲛⲁⲓⲟⲥ	ⲅⲉⲛⲛⲁⲓⲟⲥ	NOUN	N	_	1	appos	_	Entity=person)
+5	ⲅⲉⲛⲛⲁⲓⲟⲥ	ⲅⲉⲛⲛⲁⲓⲟⲥ	NOUN	N	Foreign=Yes	1	appos	_	Entity=person)|OrigLang=grc
 6-8	ⲁⲩⲙⲟⲩⲣ	_	_	_	_	_	_	_	_
 6	ⲁ	ⲁ	AUX	APST	_	8	aux	_	_
 7	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
@@ -864,7 +864,7 @@
 11	ϭⲓϫ	ϭⲓϫ	NOUN	N	_	8	obj	_	Entity=object)
 12-13	ϩⲓⲡⲁϩⲟⲩ	_	_	_	_	_	_	_	_
 12	ϩⲓ	ϩⲓ	ADP	PREP	_	13	case	_	_
-13	ⲡⲁϩⲟⲩ	ⲡⲁϩⲟⲩ	NOUN	N	_	8	obl	_	_
+13	ⲡⲁϩⲟⲩ	ⲡⲁϩⲟⲩ	NOUN	N	_	11	conj	_	_
 14-15	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 14	ⲙⲙⲟ	ⲛ	ADP	PREP	_	15	case	_	Orig=ⲙ̅ⲙⲟ
 15	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nmod	_	_
@@ -877,7 +877,7 @@
 21-23	ⲙⲡⲉⲭⲁⲙⲱⲥ	_	_	_	_	_	_	_	_
 21	ⲙ	ⲛ	ADP	PREP	_	23	case	_	Orig=ⲙ̅
 22	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	Entity=(object
-23	ⲭⲁⲙⲱⲥ	ⲭⲁⲙⲱⲥ	NOUN	N	_	20	obj	_	Entity=object)
+23	ⲭⲁⲙⲱⲥ	ⲭⲁⲙⲱⲥ	NOUN	N	Foreign=Yes	20	obj	_	Entity=object)|OrigLang=grc
 24-25	ⲉⲣⲱϥ	_	_	_	_	_	_	_	_
 24	ⲉⲣⲱ	ⲉ	ADP	PREP	_	25	case	_	_
 25	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl	_	_
@@ -899,7 +899,7 @@
 38	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	40	mark	_	_
 39	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
 40	ⲛⲏⲩ	ⲉⲓ	VERB	VSTAT	VerbForm=Fin	35	advcl	_	_
-41	ⲇⲉ	ⲇⲉ	PART	PTC	_	40	advmod	_	_
+41	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	40	advmod	_	OrigLang=grc
 42	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	40	advmod	_	_
 43-45	ⲉϥⲟⲩⲏϩ	_	_	_	_	_	_	_	_
 43	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	45	mark	_	_
@@ -907,17 +907,17 @@
 45	ⲟⲩⲏϩ	ⲟⲩⲱϩ	VERB	VSTAT	VerbForm=Fin	40	advcl	_	Orig=ⲟⲩⲏ̅ⲏϩ
 46-48	ⲛⲥⲁⲙⲙⲁⲧⲟⲓ	_	_	_	_	_	_	_	_
 46	ⲛⲥⲁ	ⲛⲥⲁ	ADP	PREP	_	48	case	_	Orig=ⲛ̅ⲥⲁ
-47	ⲙ	ⲡ	DET	ART	_	48	det	_	Entity=(person|Orig=ⲙ̅
+47	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	48	det	_	Entity=(person|Orig=ⲙ̅
 48	ⲙⲁⲧⲟⲓ	ⲙⲁⲧⲟⲓ	NOUN	N	_	45	obl	_	Entity=person)
 49	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0028
-# text = ⲁⲡⲇⲓⲁⲃⲟⲗⲟⲥ ⲣⲡⲉⲥⲙⲟⲧ ⲛⲟⲩⲙⲁⲧⲟⲓ · ⲁϥⲟⲩⲟⲛϩϥ ⲛⲁϥ ⲉⲃⲟⲗ ⲡⲉϫⲁϥ ⲛⲁϥ ·
 # text_en = And the Devil took the form of a soldier, and he made himself visible to Victor, and he said unto him
+# text = ⲁⲡⲇⲓⲁⲃⲟⲗⲟⲥ ⲣⲡⲉⲥⲙⲟⲧ ⲛⲟⲩⲙⲁⲧⲟⲓ · ⲁϥⲟⲩⲟⲛϩϥ ⲛⲁϥ ⲉⲃⲟⲗ ⲡⲉϫⲁϥ ⲛⲁϥ ·
 1-3	ⲁⲡⲇⲓⲁⲃⲟⲗⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
 2	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(person-Devil
-3	ⲇⲓⲁⲃⲟⲗⲟⲥ	ⲇⲓⲁⲃⲟⲗⲟⲥ	PROPN	NPROP	_	4	nsubj	_	Entity=person-Devil)
+3	ⲇⲓⲁⲃⲟⲗⲟⲥ	ⲇⲓⲁⲃⲟⲗⲟⲥ	PROPN	NPROP	Foreign=Yes	4	nsubj	_	Entity=person-Devil)|OrigLang=grc
 4-6	ⲣⲡⲉⲥⲙⲟⲧ	_	_	_	_	_	_	_	_
 4	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲣ̅
 5	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(abstract
@@ -935,7 +935,7 @@
 15-16	ⲛⲁϥ	_	_	_	_	_	_	_	_
 15	ⲛⲁ	ⲛⲁ	ADP	PREP	_	16	case	_	_
 16	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
-17	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	13	advmod	_	_
+17	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	18	advmod	_	_
 18-19	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 18	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	13	parataxis	_	_
 19	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
@@ -945,12 +945,12 @@
 22	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0029
-# text = ϫⲉⲱ ⲃⲓⲕⲧⲱⲣ ⲉⲕⲛⲁϣⲙⲉϩ ⲡⲉⲓⲡⲉⲧϩⲟⲟⲩ ⲧⲱⲛ ·
 # text_en = Victor, where wilt thou fulfill this evil course of action?
+# text = ϫⲉⲱ ⲃⲓⲕⲧⲱⲣ ⲉⲕⲛⲁϣⲙⲉϩ ⲡⲉⲓⲡⲉⲧϩⲟⲟⲩ ⲧⲱⲛ ·
 1-2	ϫⲉⲱ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	8	mark	_	_
-2	ⲱ	ⲱ	PART	PTC	_	3	discourse	_	Orig=ⲱ̅
-3	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	8	vocative	_	Entity=(person)
+2	ⲱ	ⲱ	PART	PTC	Foreign=Yes	3	discourse	_	Orig=ⲱ̅|OrigLang=grc
+3	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	8	vocative	_	Entity=(person)|OrigLang=la
 4-8	ⲉⲕⲛⲁϣⲙⲉϩ	_	_	_	_	_	_	_	_
 4	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	8	mark	_	_
 5	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
@@ -964,8 +964,8 @@
 12	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0030
-# text = ⲉⲕⲕⲱ ⲙⲡⲉⲕⲉⲓⲱⲧ ⲉϥⲗⲩⲡⲉⲓ ⲙⲙⲟⲕ ⲛⲧⲉⲓϩⲉ ·
 # text_en = By these acts of thine thou art abandoning thy father to grief.
+# text = ⲉⲕⲕⲱ ⲙⲡⲉⲕⲉⲓⲱⲧ ⲉϥⲗⲩⲡⲉⲓ ⲙⲙⲟⲕ ⲛⲧⲉⲓϩⲉ ·
 1-3	ⲉⲕⲕⲱ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	3	mark	_	_
 2	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -977,7 +977,7 @@
 7-9	ⲉϥⲗⲩⲡⲉⲓ	_	_	_	_	_	_	_	_
 7	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	9	mark	_	_
 8	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
-9	ⲗⲩⲡⲉⲓ	ⲗⲩⲡⲉⲓ	VERB	V	VerbForm=Fin	6	acl	_	_
+9	ⲗⲩⲡⲉⲓ	ⲗⲩⲡⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	3	advcl	_	OrigLang=grc
 10-11	ⲙⲙⲟⲕ	_	_	_	_	_	_	_	_
 10	ⲙⲙⲟ	ⲛ	ADP	PREP	_	11	case	_	Orig=ⲙ̅ⲙⲟ
 11	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	obj	_	_
@@ -988,8 +988,8 @@
 15	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0031
-# text = ⲉⲕⲙⲉⲉⲩⲉ ϫⲉⲉⲣⲉⲡⲉⲕⲉⲓⲱⲧ ⲙⲟⲥⲧⲉ ⲙⲙⲟⲕ · ⲙⲙⲟⲛ · ⲁⲗⲗⲁ ⲉⲣⲉⲡⲉⲕⲉⲓⲱⲧ ⲙⲉ ⲙⲙⲟⲕ ⲛϩⲟⲩⲟ ·
 # text_en = Thou thinkest that thy father hateth thee. This is certainly not so, for thy father loveth thee exceedingly.
+# text = ⲉⲕⲙⲉⲉⲩⲉ ϫⲉⲉⲣⲉⲡⲉⲕⲉⲓⲱⲧ ⲙⲟⲥⲧⲉ ⲙⲙⲟⲕ · ⲙⲙⲟⲛ · ⲁⲗⲗⲁ ⲉⲣⲉⲡⲉⲕⲉⲓⲱⲧ ⲙⲉ ⲙⲙⲟⲕ ⲛϩⲟⲩⲟ ·
 1-3	ⲉⲕⲙⲉⲉⲩⲉ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	3	mark	_	_
 2	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -1008,7 +1008,7 @@
 12	ⲙⲙⲟ	ⲛ	ADP	PREP	_	13	case	_	Orig=ⲙ̅ⲙⲟ
 13	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=1|PronType=Prs	8	obl	_	_
 14	·	·	PUNCT	PUNCT	_	0	punct	_	_
-15	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	19	cc	_	_
+15	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	19	cc	_	OrigLang=grc
 16-18	ⲉⲣⲉⲡⲉⲕⲉⲓⲱⲧ	_	_	_	_	_	_	_	_
 16	ⲉⲣⲉ	ⲉⲣⲉ	PART	CFOC	_	19	mark	_	_
 17	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	18	det	_	Entity=(person
@@ -1023,10 +1023,10 @@
 24	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0032
-# text = ⲧⲉⲛⲟⲩ ϭⲉ ⲥⲱⲧⲙ ⲛⲥⲱⲓ · ⲁⲩⲱ ⲁⲛⲟⲕ ϯⲛⲁϫⲟⲟⲥ ⲙⲡⲉⲕⲉⲓⲱⲧ ϫⲉⲁⲕⲙⲉⲧⲁⲛⲟⲉⲓ · ⲁⲩⲱ ϥⲛⲁⲗⲟ ⲉϥϭⲟⲛⲧ ⲉⲣⲟⲕ ·
 # text_en = Now, therefore, hearken thou unto me, and let me tell thy father that thou hast repented, and he will cease to be angry with thee.
+# text = ⲧⲉⲛⲟⲩ ϭⲉ ⲥⲱⲧⲙ ⲛⲥⲱⲓ · ⲁⲩⲱ ⲁⲛⲟⲕ ϯⲛⲁϫⲟⲟⲥ ⲙⲡⲉⲕⲉⲓⲱⲧ ϫⲉⲁⲕⲙⲉⲧⲁⲛⲟⲉⲓ · ⲁⲩⲱ ϥⲛⲁⲗⲟ ⲉϥϭⲟⲛⲧ ⲉⲣⲟⲕ ·
 1	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	3	advmod	_	_
-2	ϭⲉ	ϭⲉ	DET	ART	PronType=Art	3	det	_	_
+2	ϭⲉ	ϭⲉ	DET	ART	PronType=Art	3	advmod	_	_
 3	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲥⲱⲧⲙ̅
 4-5	ⲛⲥⲱⲓ	_	_	_	_	_	_	_	_
 4	ⲛⲥⲱ	ⲛⲥⲁ	ADP	PREP	_	5	case	_	Orig=ⲛ̅ⲥⲱ
@@ -1047,7 +1047,7 @@
 16	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	19	mark	_	_
 17	ⲁ	ⲁ	AUX	APST	_	19	aux	_	_
 18	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	19	nsubj	_	_
-19	ⲙⲉⲧⲁⲛⲟⲉⲓ	ⲙⲉⲧⲁⲛⲟⲉⲓ	VERB	V	VerbForm=Fin	11	ccomp	_	Orig=ⲙⲉⲧⲁⲛⲟⲓ
+19	ⲙⲉⲧⲁⲛⲟⲉⲓ	ⲙⲉⲧⲁⲛⲟⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	11	ccomp	_	Orig=ⲙⲉⲧⲁⲛⲟⲓ|OrigLang=grc
 20	·	·	PUNCT	PUNCT	_	0	punct	_	_
 21	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	24	cc	_	_
 22-24	ϥⲛⲁⲗⲟ	_	_	_	_	_	_	_	_
@@ -1064,9 +1064,9 @@
 30	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0033
-# text = ⲙⲡⲱⲣ ϭⲉ ⲙⲡⲣⲣⲁⲧⲥⲱⲧⲙ ⲛⲥⲱϥ ·
 # text_en = Do not, then, do not, I say, be disobedient unto him.
-1	ⲙⲡⲱⲣ	ⲙⲡⲱⲣ	VERB	VIMP	VerbForm=Fin	4	dislocated	_	Orig=ⲙ̅ⲡⲱⲣ
+# text = ⲙⲡⲱⲣ ϭⲉ ⲙⲡⲣⲣⲁⲧⲥⲱⲧⲙ ⲛⲥⲱϥ ·
+1	ⲙⲡⲱⲣ	ⲙⲡⲱⲣ	VERB	VIMP	VerbForm=Fin	4	advcl	_	Orig=ⲙ̅ⲡⲱⲣ
 2	ϭⲉ	ϭⲉ	PART	PTC	_	4	advmod	_	_
 3-4	ⲙⲡⲣⲣⲁⲧⲥⲱⲧⲙ	_	_	_	_	_	_	_	_
 3	ⲙⲡⲣ	ⲙⲡⲣ	ADV	NEG	Polarity=Neg	4	advmod	_	Orig=ⲙ̅ⲡⲣ̅
@@ -1077,23 +1077,23 @@
 7	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0034
-# text = ϭⲱϣⲧ ⲉⲓⲥⲁⲁⲕ ⲡϣⲏⲣⲉ ⲛⲁⲃⲣⲁϩⲁⲙ ϫⲉⲙⲡⲉϥⲣⲁⲧⲥⲱⲧⲙ ⲛⲥⲁⲡⲉϥⲉⲓⲱⲧ · ⲉϥⲛⲁⲩ ⲉⲧϭⲟⲣⲧⲉ ⲛⲧⲡⲉ ⲙⲙⲟϥ ⲉⲥⲛⲏⲩ ⲉⲡⲉⲥⲏⲧ ⲉϫⲱϥ ·
 # text_en = Consider Isaac, the son of Abraham, who shewed no disobedience to his father when he saw the knife of slaughter which was to kill him coming down upon him.
+# text = ϭⲱϣⲧ ⲉⲓⲥⲁⲁⲕ ⲡϣⲏⲣⲉ ⲛⲁⲃⲣⲁϩⲁⲙ ϫⲉⲙⲡⲉϥⲣⲁⲧⲥⲱⲧⲙ ⲛⲥⲁⲡⲉϥⲉⲓⲱⲧ · ⲉϥⲛⲁⲩ ⲉⲧϭⲟⲣⲧⲉ ⲛⲧⲡⲉ ⲙⲙⲟϥ ⲉⲥⲛⲏⲩ ⲉⲡⲉⲥⲏⲧ ⲉϫⲱϥ ·
 1	ϭⲱϣⲧ	ϭⲱϣⲧ	VERB	V	VerbForm=Fin	0	root	_	_
 2-3	ⲉⲓⲥⲁⲁⲕ	_	_	_	_	_	_	_	_
 2	ⲉ	ⲉ	ADP	PREP	_	3	case	_	_
-3	ⲓⲥⲁⲁⲕ	ⲓⲥⲁⲁⲕ	PROPN	NPROP	_	1	obl	_	Entity=(person-Isaac|Orig=ⲓ̈ⲥⲁⲁⲕ
+3	ⲓⲥⲁⲁⲕ	ⲓⲥⲁⲁⲕ	PROPN	NPROP	Foreign=Yes	1	obl	_	Entity=(person-Isaac|Orig=ⲓ̈ⲥⲁⲁⲕ|OrigLang=he
 4-5	ⲡϣⲏⲣⲉ	_	_	_	_	_	_	_	_
 4	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	ϣⲏⲣⲉ	ϣⲏⲣⲉ	NOUN	N	_	3	appos	_	_
 6-7	ⲛⲁⲃⲣⲁϩⲁⲙ	_	_	_	_	_	_	_	_
 6	ⲛ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲛ̅
-7	ⲁⲃⲣⲁϩⲁⲙ	ⲁⲃⲣⲁϩⲁⲙ	PROPN	NPROP	_	5	nmod	_	Entity=(person-Abraham)person-Isaac)
+7	ⲁⲃⲣⲁϩⲁⲙ	ⲁⲃⲣⲁϩⲁⲙ	PROPN	NPROP	Foreign=Yes	5	nmod	_	Entity=(person-Abraham)person-Isaac)|OrigLang=he
 8-11	ϫⲉⲙⲡⲉϥⲣⲁⲧⲥⲱⲧⲙ	_	_	_	_	_	_	_	_
 8	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	11	mark	_	_
 9	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	11	aux	_	Orig=ⲙ̅ⲡⲉ
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-11	ⲣⲁⲧⲥⲱⲧⲙ	ⲣⲁⲧⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	1	advcl	_	Morphs=ⲣ-ⲁⲧ-ⲥⲱⲧⲙ|Orig=ⲣ̅ⲁⲧⲥⲱⲧⲙ̅
+11	ⲣⲁⲧⲥⲱⲧⲙ	ⲣⲁⲧⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	1	ccomp	_	Morphs=ⲣ-ⲁⲧ-ⲥⲱⲧⲙ|Orig=ⲣ̅ⲁⲧⲥⲱⲧⲙ̅
 12-14	ⲛⲥⲁⲡⲉϥⲉⲓⲱⲧ	_	_	_	_	_	_	_	_
 12	ⲛⲥⲁ	ⲛⲥⲁ	ADP	PREP	_	14	case	_	Orig=ⲛ̅ⲥⲁ
 13	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	Entity=(person
@@ -1128,13 +1128,13 @@
 35	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0035
-# text = ⲧⲉⲛⲟⲩ ϭⲉ ⲙⲡⲣⲗⲩⲡⲉⲓ ⲙⲡⲉⲕⲉⲓⲱⲧ · ⲛⲅϣⲱⲡⲉ ϩⲁⲡⲥⲁϩⲟⲩ ⲛⲭⲁⲙ · ⲛⲧⲁϥϣⲱⲡⲉ ϩⲁⲡⲥⲁϩⲟⲩ ⲙⲡⲉϥⲉⲓⲱⲧ · ϫⲉⲁϥϭⲱϣⲧ ⲉϫⲙⲡⲉϥⲕⲱ ⲕⲁϩⲏⲩ ·
 # text_en = Now, therefore, do not make thy father to grieve, otherwise thou wilt fall under the curse of Ham, who was under the curse of his father, because he looked upon his father's nakedness.
+# text = ⲧⲉⲛⲟⲩ ϭⲉ ⲙⲡⲣⲗⲩⲡⲉⲓ ⲙⲡⲉⲕⲉⲓⲱⲧ · ⲛⲅϣⲱⲡⲉ ϩⲁⲡⲥⲁϩⲟⲩ ⲛⲭⲁⲙ · ⲛⲧⲁϥϣⲱⲡⲉ ϩⲁⲡⲥⲁϩⲟⲩ ⲙⲡⲉϥⲉⲓⲱⲧ · ϫⲉⲁϥϭⲱϣⲧ ⲉϫⲙⲡⲉϥⲕⲱ ⲕⲁϩⲏⲩ ·
 1	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	4	advmod	_	_
 2	ϭⲉ	ϭⲉ	PART	PTC	_	4	advmod	_	_
 3-4	ⲙⲡⲣⲗⲩⲡⲉⲓ	_	_	_	_	_	_	_	_
 3	ⲙⲡⲣ	ⲙⲡⲣ	ADV	NEG	Polarity=Neg	4	advmod	_	Orig=ⲙ̅ⲡⲣ̅
-4	ⲗⲩⲡⲉⲓ	ⲗⲩⲡⲉⲓ	VERB	V	VerbForm=Fin	0	root	_	_
+4	ⲗⲩⲡⲉⲓ	ⲗⲩⲡⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	OrigLang=grc
 5-7	ⲙⲡⲉⲕⲉⲓⲱⲧ	_	_	_	_	_	_	_	_
 5	ⲙ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲙ̅
 6	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	7	det	_	Entity=(person
@@ -1170,17 +1170,17 @@
 29	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	32	mark	_	_
 30	ⲁ	ⲁ	AUX	APST	_	32	aux	_	_
 31	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
-32	ϭⲱϣⲧ	ϭⲱϣⲧ	VERB	V	VerbForm=Fin	21	advcl	_	Orig=ϭⲱϣⲧ̅
+32	ϭⲱϣⲧ	ϭⲱϣⲧ	VERB	V	VerbForm=Fin	21	ccomp	_	Orig=ϭⲱϣⲧ̅
 33-35	ⲉϫⲙⲡⲉϥⲕⲱ	_	_	_	_	_	_	_	_
 33	ⲉϫⲙ	ⲉϫⲛ	ADP	PREP	_	35	case	_	Orig=ⲉϫⲙ̅
 34	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	35	det	_	Entity=(abstract
 35	ⲕⲱ	ⲕⲱ	NOUN	N	_	32	obl	_	Entity=abstract)
-36	ⲕⲁϩⲏⲩ	ⲕⲁϩⲏⲩ	VERB	VSTAT	VerbForm=Fin	32	advmod	_	Morphs=ⲕⲁ-ϩⲏⲩ
+36	ⲕⲁϩⲏⲩ	ⲕⲁϩⲏⲩ	VERB	VSTAT	VerbForm=Fin	32	parataxis	_	Morphs=ⲕⲁ-ϩⲏⲩ
 37	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0036
-# text = ⲧⲉⲛⲟⲩ ϭⲉ ⲙⲡⲣⲣⲁⲧⲥⲱⲧⲙ ⲛⲥⲁⲡⲉⲕⲉⲓⲱⲧ · ⲁⲛⲟⲕ ϩⲱ ϯⲛⲁⲡⲁⲣⲁⲕⲁⲗⲉⲓ ⲙⲡⲣⲣⲟ · ⲛϥⲁⲁⲕ ⲛⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ ·
 # text_en = Now, therefore, do not shew disobedience to thy father, and then I will petition the Emperor, and he will make thee a general.
+# text = ⲧⲉⲛⲟⲩ ϭⲉ ⲙⲡⲣⲣⲁⲧⲥⲱⲧⲙ ⲛⲥⲁⲡⲉⲕⲉⲓⲱⲧ · ⲁⲛⲟⲕ ϩⲱ ϯⲛⲁⲡⲁⲣⲁⲕⲁⲗⲉⲓ ⲙⲡⲣⲣⲟ · ⲛϥⲁⲁⲕ ⲛⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ ·
 1	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	4	advmod	_	_
 2	ϭⲉ	ϭⲉ	PART	PTC	_	4	advmod	_	_
 3-4	ⲙⲡⲣⲣⲁⲧⲥⲱⲧⲙ	_	_	_	_	_	_	_	_
@@ -1196,7 +1196,7 @@
 11-13	ϯⲛⲁⲡⲁⲣⲁⲕⲁⲗⲉⲓ	_	_	_	_	_	_	_	_
 11	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
 12	ⲛⲁ	ⲛⲁ	AUX	FUT	_	13	aux	_	_
-13	ⲡⲁⲣⲁⲕⲁⲗⲉⲓ	ⲡⲁⲣⲁⲕⲁⲗⲉⲓ	VERB	V	VerbForm=Fin	4	parataxis	_	_
+13	ⲡⲁⲣⲁⲕⲁⲗⲉⲓ	ⲡⲁⲣⲁⲕⲁⲗⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	4	parataxis	_	OrigLang=grc
 14-16	ⲙⲡⲣⲣⲟ	_	_	_	_	_	_	_	_
 14	ⲙ	ⲛ	ADP	PREP	_	16	case	_	Orig=ⲙ̅
 15	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	Entity=(person
@@ -1209,36 +1209,36 @@
 21	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	20	obj	_	_
 22-23	ⲛⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ	_	_	_	_	_	_	_	_
 22	ⲛ	ⲛ	ADP	PREP	_	23	case	_	Orig=ⲛ̅
-23	ⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ	ⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ	NOUN	N	_	20	obl	_	Entity=(person)
+23	ⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ	ⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ	NOUN	N	Foreign=Yes	20	obl	_	Entity=(person)|OrigLang=grc
 24	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0037
-# text = ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲇⲉ ⲡⲉϫⲁϥ ⲙⲡⲇⲓⲁⲃⲟⲗⲟⲥ ·
 # text_en = And Apa Victor said unto the Devil
-1	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	4	dislocated	_	Entity=(person
-2	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	4	dislocated	_	Entity=person)
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	4	advmod	_	_
+# text = ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲇⲉ ⲡⲉϫⲁϥ ⲙⲡⲇⲓⲁⲃⲟⲗⲟⲥ ·
+1	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	4	dislocated	_	Entity=(person|OrigLang=he
+2	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	1	flat	_	Entity=person)|OrigLang=la
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	4	advmod	_	OrigLang=grc
 4-5	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 4	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 6-8	ⲙⲡⲇⲓⲁⲃⲟⲗⲟⲥ	_	_	_	_	_	_	_	_
 6	ⲙ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲙ̅
 7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(person-Devil
-8	ⲇⲓⲁⲃⲟⲗⲟⲥ	ⲇⲓⲁⲃⲟⲗⲟⲥ	PROPN	NPROP	_	4	obl	_	Entity=person-Devil)
+8	ⲇⲓⲁⲃⲟⲗⲟⲥ	ⲇⲓⲁⲃⲟⲗⲟⲥ	PROPN	NPROP	Foreign=Yes	4	obl	_	Entity=person-Devil)|OrigLang=grc
 9	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0038
-# text = ϫⲉⲧⲙⲛⲧⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ ⲣⲱ ⲙⲡⲉⲓⲕⲟⲥⲙⲟⲥ · ⲙⲡⲓⲕⲁⲁⲥ ϩⲙⲡⲁϩⲏⲧ · ⲉⲓⲙⲏⲧⲓ ⲉⲧⲙⲛⲧⲣⲣⲟ ⲙⲡⲁϫⲟⲉⲓⲥ ⲓⲏⲥⲟⲩⲥ ⲡⲉⲭⲣⲓⲥⲧⲟⲥ ·
 # text_en = I have not set my mind upon the possession of the rank of general in this world, but upon the kingdom of my Lord Jesus the Christ.
+# text = ϫⲉⲧⲙⲛⲧⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ ⲣⲱ ⲙⲡⲉⲓⲕⲟⲥⲙⲟⲥ · ⲙⲡⲓⲕⲁⲁⲥ ϩⲙⲡⲁϩⲏⲧ · ⲉⲓⲙⲏⲧⲓ ⲉⲧⲙⲛⲧⲣⲣⲟ ⲙⲡⲁϫⲟⲉⲓⲥ ⲓⲏⲥⲟⲩⲥ ⲡⲉⲭⲣⲓⲥⲧⲟⲥ ·
 1-3	ϫⲉⲧⲙⲛⲧⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	11	mark	_	_
 2	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Entity=(abstract
-3	ⲙⲛⲧⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ	ⲙⲛⲧⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ	NOUN	N	_	11	dislocated	_	Morphs=ⲙⲛⲧ-ⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ|Orig=ⲙⲛ̅ⲧ̅ⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ
-4	ⲣⲱ	ⲣⲱ	ADV	ADV	_	11	advmod	_	_
+3	ⲙⲛⲧⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ	ⲙⲛⲧⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ	NOUN	N	Foreign=Yes	11	dislocated	_	Morphs=ⲙⲛⲧ-ⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ|Orig=ⲙⲛ̅ⲧ̅ⲥⲧⲣⲁⲧⲏⲗⲁⲧⲏⲥ|OrigLang=grc
+4	ⲣⲱ	ⲣⲱ	ADV	ADV	_	3	advmod	_	_
 5-7	ⲙⲡⲉⲓⲕⲟⲥⲙⲟⲥ	_	_	_	_	_	_	_	_
 5	ⲙ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲙ̅
 6	ⲡⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	Entity=(place
-7	ⲕⲟⲥⲙⲟⲥ	ⲕⲟⲥⲙⲟⲥ	NOUN	N	_	3	nmod	_	Entity=place)abstract)
+7	ⲕⲟⲥⲙⲟⲥ	ⲕⲟⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	3	nmod	_	Entity=place)abstract)|OrigLang=grc
 8	·	·	PUNCT	PUNCT	_	0	punct	_	_
 9-12	ⲙⲡⲓⲕⲁⲁⲥ	_	_	_	_	_	_	_	_
 9	ⲙⲡ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	11	aux	_	Orig=ⲙ̅ⲡ
@@ -1250,7 +1250,7 @@
 14	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	15	det	_	Entity=(abstract
 15	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	11	obl	_	Entity=abstract)
 16	·	·	PUNCT	PUNCT	_	0	punct	_	_
-17	ⲉⲓⲙⲏⲧⲓ	ⲉⲓⲙⲏⲧⲓ	SCONJ	CONJ	_	20	mark	_	Orig=ⲉⲓⲙⲏⲧⲉⲓ
+17	ⲉⲓⲙⲏⲧⲓ	ⲉⲓⲙⲏⲧⲓ	SCONJ	CONJ	Foreign=Yes	20	mark	_	Orig=ⲉⲓⲙⲏⲧⲉⲓ|OrigLang=grc
 18-20	ⲉⲧⲙⲛⲧⲣⲣⲟ	_	_	_	_	_	_	_	_
 18	ⲉ	ⲉ	ADP	PREP	_	20	case	_	_
 19	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Entity=(abstract
@@ -1259,20 +1259,20 @@
 21	ⲙ	ⲛ	ADP	PREP	_	23	case	_	Orig=ⲙ̅
 22	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	23	det	_	Entity=(person-Jesus
 23	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	20	nmod	_	Orig=ϫⲥ̅
-24	ⲓⲏⲥⲟⲩⲥ	ⲓⲏⲥⲟⲩⲥ	PROPN	NPROP	_	23	appos	_	Orig=ⲓⲥ̅
+24	ⲓⲏⲥⲟⲩⲥ	ⲓⲏⲥⲟⲩⲥ	PROPN	NPROP	Foreign=Yes	23	appos	_	Orig=ⲓⲥ̅|OrigLang=he
 25-26	ⲡⲉⲭⲣⲓⲥⲧⲟⲥ	_	_	_	_	_	_	_	_
 25	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	ⲭⲣⲓⲥⲧⲟⲥ	ⲭⲣⲓⲥⲧⲟⲥ	NOUN	N	_	24	appos	_	Entity=person-Jesus)abstract)|Orig=ⲭⲥ̅
+26	ⲭⲣⲓⲥⲧⲟⲥ	ⲭⲣⲓⲥⲧⲟⲥ	NOUN	N	Foreign=Yes	23	appos	_	Entity=person-Jesus)abstract)|Orig=ⲭⲥ̅|OrigLang=grc
 27	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0039
-# text = ⲉⲩϫⲱ ⲇⲉ ⲛⲛⲁⲓ · ⲁⲩⲃⲱⲕ ⲁⲩⲧⲁⲙⲉ ⲡⲣⲣⲟ · ϫⲉⲁϩⲣⲱⲙⲁⲛⲟⲥ ϯⲁⲡⲟⲫⲁⲥⲓⲥ ⲉⲡⲉϥϣⲏⲣⲉ ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ · ⲉⲧⲣⲉⲩϥⲓ ⲛⲧⲉϥⲁⲡⲉ · ⲁⲩⲱ ⲁϥⲁⲣⲓⲕⲉ ⲙⲡⲣⲣⲟ ⲙⲛⲛⲉϥⲛⲟⲩⲧⲉ ·
 # text_en = And when these words had been said (by him) they went in and told the Emperor that Romanus had passed sentence of death upon his son, Apa Victor, and that his head was to be cut off, (because) he had sinned against the Emperor and his gods.
+# text = ⲉⲩϫⲱ ⲇⲉ ⲛⲛⲁⲓ · ⲁⲩⲃⲱⲕ ⲁⲩⲧⲁⲙⲉ ⲡⲣⲣⲟ · ϫⲉⲁϩⲣⲱⲙⲁⲛⲟⲥ ϯⲁⲡⲟⲫⲁⲥⲓⲥ ⲉⲡⲉϥϣⲏⲣⲉ ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ · ⲉⲧⲣⲉⲩϥⲓ ⲛⲧⲉϥⲁⲡⲉ · ⲁⲩⲱ ⲁϥⲁⲣⲓⲕⲉ ⲙⲡⲣⲣⲟ ⲙⲛⲛⲉϥⲛⲟⲩⲧⲉ ·
 1-3	ⲉⲩϫⲱ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	3	mark	_	_
 2	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
-3	ϫⲱ	ϫⲱ	VERB	V	VerbForm=Fin	0	root	_	_
-4	ⲇⲉ	ⲇⲉ	PART	PTC	_	3	advmod	_	_
+3	ϫⲱ	ϫⲱ	VERB	V	VerbForm=Fin	10	advcl	_	_
+4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	10	advmod	_	OrigLang=grc
 5-6	ⲛⲛⲁⲓ	_	_	_	_	_	_	_	_
 5	ⲛ	ⲛ	ADP	PREP	_	6	case	_	Orig=ⲛ̅
 6	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	3	obj	_	Entity=(abstract)|Orig=ⲛⲁⲓ̈
@@ -1280,7 +1280,7 @@
 8-10	ⲁⲩⲃⲱⲕ	_	_	_	_	_	_	_	_
 8	ⲁ	ⲁ	AUX	APST	_	10	aux	_	_
 9	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
-10	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	3	parataxis	_	_
+10	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	0	root	_	_
 11-13	ⲁⲩⲧⲁⲙⲉ	_	_	_	_	_	_	_	_
 11	ⲁ	ⲁ	AUX	APST	_	13	aux	_	_
 12	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
@@ -1292,16 +1292,16 @@
 17-19	ϫⲉⲁϩⲣⲱⲙⲁⲛⲟⲥ	_	_	_	_	_	_	_	_
 17	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	20	mark	_	_
 18	ⲁ	ⲁ	AUX	APST	_	20	aux	_	_
-19	ϩⲣⲱⲙⲁⲛⲟⲥ	ϩⲣⲱⲙⲁⲛⲟⲥ	PROPN	NPROP	_	20	nsubj	_	Entity=(person)
+19	ϩⲣⲱⲙⲁⲛⲟⲥ	ϩⲣⲱⲙⲁⲛⲟⲥ	PROPN	NPROP	Foreign=Yes	20	nsubj	_	Entity=(person)|OrigLang=grc
 20-21	ϯⲁⲡⲟⲫⲁⲥⲓⲥ	_	_	_	_	_	_	_	_
-20	ϯ	ϯ	VERB	V	VerbForm=Fin	13	advcl	_	_
-21	ⲁⲡⲟⲫⲁⲥⲓⲥ	ⲁⲡⲟⲫⲁⲥⲓⲥ	NOUN	N	_	20	obj	_	Entity=(abstract)
+20	ϯ	ϯ	VERB	V	VerbForm=Fin	13	ccomp	_	_
+21	ⲁⲡⲟⲫⲁⲥⲓⲥ	ⲁⲡⲟⲫⲁⲥⲓⲥ	NOUN	N	Foreign=Yes	20	obj	_	Entity=(abstract)|OrigLang=grc
 22-24	ⲉⲡⲉϥϣⲏⲣⲉ	_	_	_	_	_	_	_	_
 22	ⲉ	ⲉ	ADP	PREP	_	24	case	_	_
 23	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	Entity=(person
 24	ϣⲏⲣⲉ	ϣⲏⲣⲉ	NOUN	N	_	20	obl	_	_
-25	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	24	appos	_	_
-26	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	25	flat	_	Entity=person)
+25	ⲁⲡⲁ	ⲁⲡⲁ	ADJ	N	Foreign=Yes	24	amod	_	OrigLang=he
+26	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	25	flat	_	Entity=person)|OrigLang=la
 27	·	·	PUNCT	PUNCT	_	0	punct	_	_
 28-31	ⲉⲧⲣⲉⲩϥⲓ	_	_	_	_	_	_	_	_
 28	ⲉ	ⲉ	PART	PREP	_	29	mark	_	_
@@ -1321,7 +1321,7 @@
 40-42	ⲙⲡⲣⲣⲟ	_	_	_	_	_	_	_	_
 40	ⲙ	ⲛ	ADP	PREP	_	42	case	_	Orig=ⲙ̅
 41	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	Entity=(person
-42	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	39	obj	_	Entity=person)|Orig=ⲣ̅ⲣⲟ
+42	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	39	obl	_	Entity=person)|Orig=ⲣ̅ⲣⲟ
 43-45	ⲙⲛⲛⲉϥⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 43	ⲙⲛ	ⲙⲛ	ADP	PREP	_	45	cc	_	Orig=ⲙⲛ̅
 44	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	45	det	_	Entity=(person
@@ -1329,22 +1329,22 @@
 46	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0040
-# text = ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ ⲇⲉ ⲁϥϫⲟⲟⲩ ⲙⲡⲣⲟⲧⲉⲕⲧⲱⲣ ⲥⲛⲁⲩ ϫⲉⲕⲁⲥ ⲉⲩⲉϩⲁⲣⲡⲁⲍⲉ ⲙⲙⲟϥ ⲛⲥⲉⲉⲛⲧϥ ⲛⲁϥ ·
 # text_en = And Diocletian sent two (of his) bodyguards so that they might seize him, and bring him to him.
-1	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	PROPN	NPROP	_	5	dislocated	_	Entity=(person-Diocletian)|Orig=Ⲇⲓⲟ̅ⲕⲗⲏϯⲁⲛⲟⲥ
-2	ⲇⲉ	ⲇⲉ	PART	PTC	_	5	advmod	_	_
+# text = ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ ⲇⲉ ⲁϥϫⲟⲟⲩ ⲙⲡⲣⲟⲧⲉⲕⲧⲱⲣ ⲥⲛⲁⲩ ϫⲉⲕⲁⲥ ⲉⲩⲉϩⲁⲣⲡⲁⲍⲉ ⲙⲙⲟϥ ⲛⲥⲉⲉⲛⲧϥ ⲛⲁϥ ·
+1	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	PROPN	NPROP	Foreign=Yes	5	dislocated	_	Entity=(person-Diocletian)|Orig=Ⲇⲓⲟ̅ⲕⲗⲏϯⲁⲛⲟⲥ|OrigLang=la
+2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	5	advmod	_	OrigLang=grc
 3-5	ⲁϥϫⲟⲟⲩ	_	_	_	_	_	_	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	ϫⲟⲟⲩ	ϫⲟⲟⲩ	VERB	V	VerbForm=Fin	0	root	_	_
 6-7	ⲙⲡⲣⲟⲧⲉⲕⲧⲱⲣ	_	_	_	_	_	_	_	_
 6	ⲙ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲙ̅
-7	ⲡⲣⲟⲧⲉⲕⲧⲱⲣ	ⲡⲣⲟⲧⲉⲕⲧⲱⲣ	NOUN	N	_	5	obj	_	Entity=(person
+7	ⲡⲣⲟⲧⲉⲕⲧⲱⲣ	ⲡⲣⲟⲧⲉⲕⲧⲱⲣ	NOUN	N	Foreign=Yes	5	obl	_	Entity=(person|OrigLang=grc
 8	ⲥⲛⲁⲩ	ⲥⲛⲁⲩ	NUM	NUM	NumType=Card	7	nummod	_	Entity=person)
 9	ϫⲉⲕⲁⲥ	ϫⲉⲕⲁⲁⲥ	SCONJ	CONJ	_	11	mark	_	_
 10-11	ⲉⲩⲉϩⲁⲣⲡⲁⲍⲉ	_	_	_	_	_	_	_	_
 10	ⲉⲩⲉ	ⲉⲣⲉ_ⲛⲧⲟⲟⲩ	PRON	AOPT_PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
-11	ϩⲁⲣⲡⲁⲍⲉ	ϩⲁⲣⲡⲁⲍⲉ	VERB	V	VerbForm=Fin	5	advcl	_	_
+11	ϩⲁⲣⲡⲁⲍⲉ	ϩⲁⲣⲡⲁⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	5	advcl	_	OrigLang=grc
 12-13	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 12	ⲙⲙⲟ	ⲛ	ADP	PREP	_	13	case	_	Orig=ⲙ̅ⲙⲟ
 13	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
@@ -1359,8 +1359,8 @@
 20	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0041
-# text = ⲡⲉϫⲉⲡⲣⲣⲟ ⲙⲡⲉϥⲉⲓⲱⲧ ·
 # text_en = And the Emperor said unto his father
+# text = ⲡⲉϫⲉⲡⲣⲣⲟ ⲙⲡⲉϥⲉⲓⲱⲧ ·
 1-3	ⲡⲉϫⲉⲡⲣⲣⲟ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲉ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 2	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(person
@@ -1372,8 +1372,8 @@
 7	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0042
-# text = ϫⲉⲁⲓⲉⲓⲙⲉ ⲙⲡϩⲟⲟⲩ ϫⲉⲛⲅⲟⲩⲉϣⲥϩⲓⲙⲉ ⲁⲛ · ⲟⲩⲇⲉ ϣⲏⲣⲉ · ⲛⲧϩⲉ ⲛⲁⲛⲟⲕ ⲙⲛⲛⲁⲛⲟⲩⲧⲉ · ⲙⲉⲭⲣⲓⲡⲉⲕϣⲏⲣⲉ ⲛⲟⲩⲱⲧ ⲁⲕⲡⲁⲣⲁⲇⲓⲇⲟⲩ ⲙⲙⲟϥ ⲉⲡⲙⲟⲩ · ⲉⲧⲃⲏⲏⲧ · ⲁⲗⲗⲁ ⲥⲱⲧⲙ ⲛⲥⲱⲓ ϩⲛⲛⲉⲧϯⲛⲁϫⲟⲟⲩ ⲛⲁⲕ ⲱ ϩⲣⲱⲙⲁⲛⲟⲥ
 # text_en = I know this day that thou carest neither for (thy) wife nor (thy) son as much as thou carest for me and my gods, and that thou hast gone so far as to deliver over to death thine only son for my sake. But  hearken unto me and unto the things which I will declare
+# text = ϫⲉⲁⲓⲉⲓⲙⲉ ⲙⲡϩⲟⲟⲩ ϫⲉⲛⲅⲟⲩⲉϣⲥϩⲓⲙⲉ ⲁⲛ · ⲟⲩⲇⲉ ϣⲏⲣⲉ · ⲛⲧϩⲉ ⲛⲁⲛⲟⲕ ⲙⲛⲛⲁⲛⲟⲩⲧⲉ · ⲙⲉⲭⲣⲓⲡⲉⲕϣⲏⲣⲉ ⲛⲟⲩⲱⲧ ⲁⲕⲡⲁⲣⲁⲇⲓⲇⲟⲩ ⲙⲙⲟϥ ⲉⲡⲙⲟⲩ · ⲉⲧⲃⲏⲏⲧ · ⲁⲗⲗⲁ ⲥⲱⲧⲙ ⲛⲥⲱⲓ ϩⲛⲛⲉⲧϯⲛⲁϫⲟⲟⲩ ⲛⲁⲕ ⲱ ϩⲣⲱⲙⲁⲛⲟⲥ
 1-4	ϫⲉⲁⲓⲉⲓⲙⲉ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	4	mark	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
@@ -1390,7 +1390,7 @@
 11	ⲟⲩⲉϣⲥϩⲓⲙⲉ	ⲟⲩⲉϣⲥϩⲓⲙⲉ	VERB	V	VerbForm=Fin	4	ccomp	_	Morphs=ⲟⲩⲉϣ-ⲥϩⲓⲙⲉ
 12	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	11	advmod	_	_
 13	·	·	PUNCT	PUNCT	_	0	punct	_	_
-14	ⲟⲩⲇⲉ	ⲟⲩⲇⲉ	CCONJ	CONJ	Polarity=Neg	15	cc	_	_
+14	ⲟⲩⲇⲉ	ⲟⲩⲇⲉ	CCONJ	CONJ	Foreign=Yes|Polarity=Neg	15	cc	_	OrigLang=grc
 15	ϣⲏⲣⲉ	ϣⲏⲣⲉ	NOUN	N	_	11	conj	_	Entity=(person)
 16	·	·	PUNCT	PUNCT	_	0	punct	_	_
 17-19	ⲛⲧϩⲉ	_	_	_	_	_	_	_	_
@@ -1401,12 +1401,12 @@
 20	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	21	advmod	_	Orig=ⲛ̅
 21	ⲁⲛⲟⲕ	ⲁⲛⲟⲕ	PRON	PPERI	Definite=Def|Number=Sing|Person=1|PronType=Prs	19	appos	_	_
 22-24	ⲙⲛⲛⲁⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
-22	ⲙⲛ	ⲙⲛ	ADP	PREP	_	24	case	_	Orig=ⲙⲛ̅
+22	ⲙⲛ	ⲙⲛ	ADP	PREP	_	24	cc	_	Orig=ⲙⲛ̅
 23	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	24	det	_	Entity=(person
-24	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	21	conj	_	Entity=person)
+24	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	19	conj	_	Entity=person)
 25	·	·	PUNCT	PUNCT	_	0	punct	_	_
 26-28	ⲙⲉⲭⲣⲓⲡⲉⲕϣⲏⲣⲉ	_	_	_	_	_	_	_	_
-26	ⲙⲉⲭⲣⲓ	ⲙⲉⲭⲣⲓ	CCONJ	CONJ	_	33	advmod	_	_
+26	ⲙⲉⲭⲣⲓ	ⲙⲉⲭⲣⲓ	SCONJ	CONJ	Foreign=Yes	33	mark	_	OrigLang=grc
 27	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	28	det	_	Entity=(person
 28	ϣⲏⲣⲉ	ϣⲏⲣⲉ	NOUN	N	_	33	dislocated	_	_
 29-30	ⲛⲟⲩⲱⲧ	_	_	_	_	_	_	_	_
@@ -1415,7 +1415,7 @@
 31-33	ⲁⲕⲡⲁⲣⲁⲇⲓⲇⲟⲩ	_	_	_	_	_	_	_	_
 31	ⲁ	ⲁ	AUX	APST	_	33	aux	_	_
 32	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	33	nsubj	_	_
-33	ⲡⲁⲣⲁⲇⲓⲇⲟⲩ	ⲡⲁⲣⲁⲇⲓⲇⲟⲩ	VERB	V	VerbForm=Fin	4	conj	_	_
+33	ⲡⲁⲣⲁⲇⲓⲇⲟⲩ	ⲡⲁⲣⲁⲇⲓⲇⲟⲩ	VERB	V	Foreign=Yes|VerbForm=Fin	11	parataxis	_	OrigLang=grc
 34-35	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 34	ⲙⲙⲟ	ⲛ	ADP	PREP	_	35	case	_	Orig=ⲙ̅ⲙⲟ
 35	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
@@ -1426,8 +1426,8 @@
 39	·	·	PUNCT	PUNCT	_	0	punct	_	_
 40	ⲉⲧⲃⲏⲏⲧ	ⲉⲧⲃⲉ_ⲁⲛⲟⲕ	PRON	PREP_PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	33	obl	_	_
 41	·	·	PUNCT	PUNCT	_	0	punct	_	_
-42	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	43	cc	_	_
-43	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	33	conj	_	Orig=ⲥⲱⲧⲙ̅
+42	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	43	cc	_	OrigLang=grc
+43	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	40	conj	_	Orig=ⲥⲱⲧⲙ̅
 44-45	ⲛⲥⲱⲓ	_	_	_	_	_	_	_	_
 44	ⲛⲥⲱ	ⲛⲥⲁ	ADP	PREP	_	45	case	_	Orig=ⲛ̅ⲥⲱ
 45	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	43	obl	_	_
@@ -1442,26 +1442,26 @@
 53-54	ⲛⲁⲕ	_	_	_	_	_	_	_	_
 53	ⲛⲁ	ⲛⲁ	ADP	PREP	_	54	case	_	_
 54	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	51	obl	_	Entity=abstract)
-55	ⲱ	ⲱ	PART	PTC	_	56	case	_	Orig=ⲱ̅
-56	ϩⲣⲱⲙⲁⲛⲟⲥ	ϩⲣⲱⲙⲁⲛⲟⲥ	PROPN	NPROP	_	51	obl	_	Entity=(person)
+55	ⲱ	ⲱ	PART	PTC	Foreign=Yes	56	discourse	_	Orig=ⲱ̅|OrigLang=grc
+56	ϩⲣⲱⲙⲁⲛⲟⲥ	ϩⲣⲱⲙⲁⲛⲟⲥ	PROPN	NPROP	Foreign=Yes	40	vocative	_	Entity=(person)|OrigLang=grc
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0043
-# text = ⲥⲱⲧⲙ ⲛⲥⲱⲓ
 # text_en = Hearken unto me
+# text = ⲥⲱⲧⲙ ⲛⲥⲱⲓ
 1	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲥⲱⲧⲙ̅
 2-3	ⲛⲥⲱⲓ	_	_	_	_	_	_	_	_
 2	ⲛⲥⲱ	ⲛⲥⲁ	ADP	PREP	_	3	case	_	Orig=ⲛ̅ⲥⲱ
 3	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	1	obl	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0044
-# text = ⲁⲣⲏⲩ ⲛⲧⲁⲡⲉⲓⲡⲗⲁⲛⲟⲥ ⲥⲱⲣⲙ ⲙⲡⲉϥϩⲏⲧ · ⲉⲝⲱⲣⲓⲍⲉ ⲙⲙⲟϥ ⲉⲣⲁⲕⲟⲧⲉ · ⲛϥϩⲩⲡⲟⲕⲓⲥⲑⲉ ⲙⲡⲇⲓⲕⲁⲥⲧⲏⲣⲓⲟⲛ ϣⲁⲛⲧⲉϥⲙⲟⲩ ·
 # text_en = Peradventure this impostor hath led his heart astray. I will banish him to Rakote, and let him he there in prison until he dieth
+# text = ⲁⲣⲏⲩ ⲛⲧⲁⲡⲉⲓⲡⲗⲁⲛⲟⲥ ⲥⲱⲣⲙ ⲙⲡⲉϥϩⲏⲧ · ⲉⲝⲱⲣⲓⲍⲉ ⲙⲙⲟϥ ⲉⲣⲁⲕⲟⲧⲉ · ⲛϥϩⲩⲡⲟⲕⲓⲥⲑⲉ ⲙⲡⲇⲓⲕⲁⲥⲧⲏⲣⲓⲟⲛ ϣⲁⲛⲧⲉϥⲙⲟⲩ ·
 1	ⲁⲣⲏⲩ	ⲁⲣⲏⲩ	ADV	ADV	_	7	advmod	_	_
 2-5	ⲛⲧⲁⲡⲉⲓⲡⲗⲁⲛⲟⲥ	_	_	_	_	_	_	_	_
 2	ⲛⲧ	ⲉⲣⲉ	PART	CFOC	_	7	mark	_	Orig=ⲛ̅ⲧ
 3	ⲁ	ⲁ	AUX	APST	_	7	aux	_	_
 4	ⲡⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	Entity=(person
-5	ⲡⲗⲁⲛⲟⲥ	ⲡⲗⲁⲛⲟⲥ	NOUN	N	_	7	nsubj	_	Entity=person)
+5	ⲡⲗⲁⲛⲟⲥ	ⲡⲗⲁⲛⲟⲥ	NOUN	N	Foreign=Yes	7	dislocated	_	Entity=person)|OrigLang=grc
 6-7	ⲥⲱⲣⲙ	_	_	_	_	_	_	_	_
 6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	ⲱⲣⲙ	ⲱⲣⲙ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲱⲣⲙ̅
@@ -1472,7 +1472,7 @@
 11	·	·	PUNCT	PUNCT	_	0	punct	_	_
 12-13	ⲉⲝⲱⲣⲓⲍⲉ	_	_	_	_	_	_	_	_
 12	ⲉ	ⲉ	PART	PREP	_	13	mark	_	_
-13	ⲝⲱⲣⲓⲍⲉ	ⲝⲱⲣⲓⲍⲉ	VERB	V	VerbForm=Inf	7	xcomp	_	_
+13	ⲝⲱⲣⲓⲍⲉ	ⲝⲱⲣⲓⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Inf	7	xcomp	_	OrigLang=grc
 14-15	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 14	ⲙⲙⲟ	ⲛ	ADP	PREP	_	15	case	_	Orig=ⲙ̅ⲙⲟ
 15	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
@@ -1483,11 +1483,11 @@
 19-21	ⲛϥϩⲩⲡⲟⲕⲓⲥⲑⲉ	_	_	_	_	_	_	_	_
 19	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	21	aux	_	_
 20	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	Orig=ϥ̅
-21	ϩⲩⲡⲟⲕⲓⲥⲑⲉ	ϩⲩⲡⲟⲕⲓⲥⲑⲉ	VERB	V	VerbForm=Fin	13	advcl	_	Orig=ϩⲩⲡⲟⲕⲉⲓⲥⲑⲉ
+21	ϩⲩⲡⲟⲕⲓⲥⲑⲉ	ϩⲩⲡⲟⲕⲓⲥⲑⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	7	advcl	_	Orig=ϩⲩⲡⲟⲕⲉⲓⲥⲑⲉ|OrigLang=grc
 22-24	ⲙⲡⲇⲓⲕⲁⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 22	ⲙ	ⲛ	ADP	PREP	_	24	case	_	Orig=ⲙ̅
 23	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Entity=(place
-24	ⲇⲓⲕⲁⲥⲧⲏⲣⲓⲟⲛ	ⲇⲓⲕⲁⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	_	21	obl	_	Entity=place)
+24	ⲇⲓⲕⲁⲥⲧⲏⲣⲓⲟⲛ	ⲇⲓⲕⲁⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	21	obl	_	Entity=place)|OrigLang=grc
 25-27	ϣⲁⲛⲧⲉϥⲙⲟⲩ	_	_	_	_	_	_	_	_
 25	ϣⲁⲛⲧⲉ	ϣⲁⲛⲧⲉ	AUX	ALIM	_	27	aux	_	_
 26	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
@@ -1495,11 +1495,11 @@
 28	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0045
-# text = ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲇⲉ ⲁϥⲛⲟⲩϭⲥ · ⲁⲩⲱ ⲡⲉϫⲁϥ ⲙⲡⲣⲣⲟ ·
 # text_en = And Apa Victor was exceedingly wroth, and he said unto the emperor
-1	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	6	dislocated	_	Entity=(person
-2	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	6	dislocated	_	Entity=person)
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	6	advmod	_	_
+# text = ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲇⲉ ⲁϥⲛⲟⲩϭⲥ · ⲁⲩⲱ ⲡⲉϫⲁϥ ⲙⲡⲣⲣⲟ ·
+1	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	6	dislocated	_	Entity=(person|OrigLang=he
+2	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	6	dislocated	_	Entity=person)|OrigLang=la
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	6	advmod	_	OrigLang=grc
 4-6	ⲁϥⲛⲟⲩϭⲥ	_	_	_	_	_	_	_	_
 4	ⲁ	ⲁ	AUX	APST	_	6	aux	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -1516,12 +1516,12 @@
 14	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0046
-# text = ϫⲉⲡⲣⲣⲟ ⲛⲁⲧϩⲏⲧ ⲁⲩⲱ ⲛⲥⲟϭ · ⲟⲩϩⲱⲃ ⲉⲛⲁⲛⲟⲩϥ ⲡⲉ ⲡⲁⲓ ⲉⲧⲕϣⲓⲛⲉ ⲛⲥⲱϥ · ⲕⲛⲁⲣϣⲙⲙⲟ ⲉⲣⲟⲛ · ⲁⲩⲱ ⲁⲛⲟⲛ ⲛⲧⲛⲉⲓⲣⲉ ⲉⲣⲟⲕ :—
 # text_en = thou stupid and senseless Emperor this matter which thou seekest to effect is good, (for) thou wilt make thyself a strangers unto us, and we shall become strangers unto thee.
+# text = ϫⲉⲡⲣⲣⲟ ⲛⲁⲧϩⲏⲧ ⲁⲩⲱ ⲛⲥⲟϭ · ⲟⲩϩⲱⲃ ⲉⲛⲁⲛⲟⲩϥ ⲡⲉ ⲡⲁⲓ ⲉⲧⲕϣⲓⲛⲉ ⲛⲥⲱϥ · ⲕⲛⲁⲣϣⲙⲙⲟ ⲉⲣⲟⲛ · ⲁⲩⲱ ⲁⲛⲟⲛ ⲛⲧⲛⲉⲓⲣⲉ ⲉⲣⲟⲕ :—
 1-3	ϫⲉⲡⲣⲣⲟ	_	_	_	_	_	_	_	_
-1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	25	mark	_	_
+1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	3	mark	_	_
 2	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(person
-3	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	25	dislocated	_	Orig=ⲣ̅ⲣⲟ
+3	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	25	vocative	_	Orig=ⲣ̅ⲣⲟ
 4-5	ⲛⲁⲧϩⲏⲧ	_	_	_	_	_	_	_	_
 4	ⲛ	ⲛ	ADP	PREP	_	5	case	_	Orig=ⲛ̅
 5	ⲁⲧϩⲏⲧ	ⲁⲧϩⲏⲧ	NOUN	N	_	3	nmod	_	Entity=person)|Morphs=ⲁⲧ-ϩⲏⲧ
@@ -1538,7 +1538,7 @@
 13	ⲛⲁⲛⲟⲩ	ⲛⲁⲛⲟⲩ	VERB	VBD	VerbForm=Fin	11	acl	_	_
 14	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	Entity=abstract)
 15	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	11	cop	_	_
-16	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	11	appos	_	Entity=(person
+16	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	Entity=(person
 17-19	ⲉⲧⲕϣⲓⲛⲉ	_	_	_	_	_	_	_	_
 17	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	19	mark	_	_
 18	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	19	nsubj	_	Orig=ⲕ̅
@@ -1567,8 +1567,8 @@
 36	:—	:—	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0047
-# text = ⲁⲩⲱ ⲡⲉϩⲟⲩⲟ ⲙⲡⲉⲥⲧⲣⲁⲧⲉⲩⲙⲁ ⲛⲁⲙⲉⲥⲧⲱⲕ · ⲁⲩⲱ ⲡⲛⲟⲩⲧⲉ ⲛⲁϭⲱⲛⲧ ⲉⲣⲟⲕ · ⲛϥⲧⲛⲛⲟⲟⲩ ⲛⲧⲉϥⲟⲣⲅⲏ ⲉϩⲣⲁⲓ ⲉϫⲱⲕ · ⲛϥⲧⲁⲕⲟ ⲛⲧⲉⲕⲙⲛⲧⲣⲣⲟ ·
 # text_en = And the greater part of thine army shall hale thee, and God shall he angry with thee, and He shall send His wrath upon thee, and shall destroy thy kingdom
+# text = ⲁⲩⲱ ⲡⲉϩⲟⲩⲟ ⲙⲡⲉⲥⲧⲣⲁⲧⲉⲩⲙⲁ ⲛⲁⲙⲉⲥⲧⲱⲕ · ⲁⲩⲱ ⲡⲛⲟⲩⲧⲉ ⲛⲁϭⲱⲛⲧ ⲉⲣⲟⲕ · ⲛϥⲧⲛⲛⲟⲟⲩ ⲛⲧⲉϥⲟⲣⲅⲏ ⲉϩⲣⲁⲓ ⲉϫⲱⲕ · ⲛϥⲧⲁⲕⲟ ⲛⲧⲉⲕⲙⲛⲧⲣⲣⲟ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	8	cc	_	_
 2-3	ⲡⲉϩⲟⲩⲟ	_	_	_	_	_	_	_	_
 2	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -1576,7 +1576,7 @@
 4-6	ⲙⲡⲉⲥⲧⲣⲁⲧⲉⲩⲙⲁ	_	_	_	_	_	_	_	_
 4	ⲙ	ⲛ	ADP	PREP	_	6	case	_	Orig=ⲙ̅
 5	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(organization
-6	ⲥⲧⲣⲁⲧⲉⲩⲙⲁ	ⲥⲧⲣⲁⲧⲉⲩⲙⲁ	NOUN	N	_	3	nmod	_	Entity=organization)|Orig=ⲥ⳨ⲁⲧⲉⲩⲙⲁ
+6	ⲥⲧⲣⲁⲧⲉⲩⲙⲁ	ⲥⲧⲣⲁⲧⲉⲩⲙⲁ	NOUN	N	Foreign=Yes	3	nmod	_	Entity=organization)|Orig=ⲥ⳨ⲁⲧⲉⲩⲙⲁ|OrigLang=grc
 7-9	ⲛⲁⲙⲉⲥⲧⲱⲕ	_	_	_	_	_	_	_	_
 7	ⲛⲁ	ⲛⲁ	AUX	FUT	_	8	aux	_	_
 8	ⲙⲉⲥⲧⲱ	ⲙⲟⲥⲧⲉ	VERB	V	VerbForm=Fin	0	root	_	_
@@ -1600,7 +1600,7 @@
 22-24	ⲛⲧⲉϥⲟⲣⲅⲏ	_	_	_	_	_	_	_	_
 22	ⲛ	ⲛ	ADP	PREP	_	24	case	_	Orig=ⲛ̅
 23	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	Entity=(abstract
-24	ⲟⲣⲅⲏ	ⲟⲣⲅⲏ	NOUN	N	_	21	obj	_	Entity=abstract)
+24	ⲟⲣⲅⲏ	ⲟⲣⲅⲏ	NOUN	N	Foreign=Yes	21	obj	_	Entity=abstract)|OrigLang=grc
 25	ⲉϩⲣⲁⲓ	ⲉϩⲣⲁⲓ	ADV	ADV	_	21	advmod	_	_
 26-27	ⲉϫⲱⲕ	_	_	_	_	_	_	_	_
 26	ⲉϫⲱ	ⲉϫⲛ	ADP	PREP	_	27	case	_	_
@@ -1617,13 +1617,13 @@
 35	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0048
-# text = ⲁϥϭⲱⲛⲧ ⲇⲉ ⲛϭⲓⲡⲣⲣⲟ · ⲁϥⲕⲉⲗⲉⲩⲉ ⲛⲧⲉⲩⲛⲟⲩ ⲉⲧⲣⲉⲩⲕⲟⲩⲛⲫⲓⲍⲉ ⲙⲙⲟϥ ϩⲛⲛⲉϥⲁⲛⲛⲱⲛⲛⲁ · ⲉⲛⲉϥϫⲓ ⲅⲁⲣ ⲛⲥⲉⲛⲁⲛⲛⲱⲛⲛⲁ · ⲁϥⲧⲣⲉⲩϯⲟⲩⲉⲓ ⲛⲁϥ ⲙⲙⲁⲧⲉ · ϫⲉⲕⲁⲥ ⲛⲛⲉϥⲙⲟⲩ ϩⲁⲡⲉϩⲕⲟ ·
 # text_en = And the Emperor was wroth, and he commanded immediately that (his servants) should reduce his supply of food, hut he did not cut off his rations altogether, and the Emperor allowed him sufficient food to keep him alive lest he should die of hunger.
+# text = ⲁϥϭⲱⲛⲧ ⲇⲉ ⲛϭⲓⲡⲣⲣⲟ · ⲁϥⲕⲉⲗⲉⲩⲉ ⲛⲧⲉⲩⲛⲟⲩ ⲉⲧⲣⲉⲩⲕⲟⲩⲛⲫⲓⲍⲉ ⲙⲙⲟϥ ϩⲛⲛⲉϥⲁⲛⲛⲱⲛⲛⲁ · ⲉⲛⲉϥϫⲓ ⲅⲁⲣ ⲛⲥⲉⲛⲁⲛⲛⲱⲛⲛⲁ · ⲁϥⲧⲣⲉⲩϯⲟⲩⲉⲓ ⲛⲁϥ ⲙⲙⲁⲧⲉ · ϫⲉⲕⲁⲥ ⲛⲛⲉϥⲙⲟⲩ ϩⲁⲡⲉϩⲕⲟ ·
 1-3	ⲁϥϭⲱⲛⲧ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=Ⲁ
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	ϭⲱⲛⲧ	ϭⲱⲛⲧ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϭⲱⲛⲧ̅
-4	ⲇⲉ	ⲇⲉ	PART	PTC	_	3	advmod	_	_
+4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
 5-7	ⲛϭⲓⲡⲣⲣⲟ	_	_	_	_	_	_	_	_
 5	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	7	case	_	Orig=ⲛ̅ϭⲓ
 6	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(person
@@ -1632,7 +1632,7 @@
 9-11	ⲁϥⲕⲉⲗⲉⲩⲉ	_	_	_	_	_	_	_	_
 9	ⲁ	ⲁ	AUX	APST	_	11	aux	_	_
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-11	ⲕⲉⲗⲉⲩⲉ	ⲕⲉⲗⲉⲩⲉ	VERB	V	VerbForm=Fin	3	parataxis	_	_
+11	ⲕⲉⲗⲉⲩⲉ	ⲕⲉⲗⲉⲩⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	3	parataxis	_	OrigLang=grc
 12-14	ⲛⲧⲉⲩⲛⲟⲩ	_	_	_	_	_	_	_	_
 12	ⲛ	ⲛ	ADP	PREP	_	14	case	_	Orig=ⲛ̅
 13	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -1641,30 +1641,30 @@
 15	ⲉ	ⲉ	PART	PREP	_	16	mark	_	_
 16	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	11	xcomp	_	_
 17	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
-18	ⲕⲟⲩⲛⲫⲓⲍⲉ	ⲕⲟⲩⲛⲫⲓⲍⲉ	VERB	V	VerbForm=Fin	16	xcomp	_	_
+18	ⲕⲟⲩⲛⲫⲓⲍⲉ	ⲕⲟⲩⲛⲫⲓⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	16	xcomp	_	OrigLang=grc
 19-20	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 19	ⲙⲙⲟ	ⲛ	ADP	PREP	_	20	case	_	Orig=ⲙ̅ⲙⲟ
 20	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
 21-23	ϩⲛⲛⲉϥⲁⲛⲛⲱⲛⲛⲁ	_	_	_	_	_	_	_	_
 21	ϩⲛ	ϩⲛ	ADP	PREP	_	23	case	_	Orig=ϩⲛ̅
 22	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	Entity=(object
-23	ⲁⲛⲛⲱⲛⲛⲁ	ⲁⲛⲛⲱⲛⲛⲁ	NOUN	N	_	18	obl	_	_
+23	ⲁⲛⲛⲱⲛⲛⲁ	ⲁⲛⲛⲱⲛⲛⲁ	NOUN	N	Foreign=Yes	18	obl	_	OrigLang=grc
 24	·	·	PUNCT	PUNCT	_	0	punct	_	_
 25-27	ⲉⲛⲉϥϫⲓ	_	_	_	_	_	_	_	_
-25	ⲉ	ⲉ	ADP	PREP	_	27	case	_	_
-26	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
-27	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Inf	18	obl	_	_
-28	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	_	27	advmod	_	_
+25	ⲉ	ⲉ	PART	PREP	_	27	mark	_	_
+26	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	_	27	nsubj	_	_
+27	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	11	obl	_	_
+28	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	27	advmod	_	OrigLang=grc
 29-32	ⲛⲥⲉⲛⲁⲛⲛⲱⲛⲛⲁ	_	_	_	_	_	_	_	_
-29	ⲛ	ⲛ	ADP	PREP	_	30	case	_	Orig=ⲛ̅
+29	ⲛ	ⲛ	ADP	PREP	_	32	case	_	Orig=ⲛ̅
 30	ⲥⲉ	ⲥⲉ	NUM	NUM	NumType=Card	32	nummod	_	Entity=(object
 31	ⲛ	ⲛ	ADP	PREP	_	32	case	_	Orig=ⲛ̅
-32	ⲁⲛⲛⲱⲛⲛⲁ	ⲁⲛⲛⲱⲛⲛⲁ	NOUN	N	_	27	nmod	_	Entity=object)object)
+32	ⲁⲛⲛⲱⲛⲛⲁ	ⲁⲛⲛⲱⲛⲛⲁ	NOUN	N	Foreign=Yes	27	obj	_	Entity=object)object)|OrigLang=grc
 33	·	·	PUNCT	PUNCT	_	0	punct	_	_
 34-39	ⲁϥⲧⲣⲉⲩϯⲟⲩⲉⲓ	_	_	_	_	_	_	_	_
 34	ⲁ	ⲁ	AUX	APST	_	36	aux	_	_
 35	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
-36	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	11	conj	_	_
+36	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	11	parataxis	_	_
 37	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	38	nsubj	_	_
 38	ϯ	ϯ	VERB	V	VerbForm=Fin	36	xcomp	_	_
 39	ⲟⲩⲉⲓ	ⲟⲩⲁ	NUM	NUM	NumType=Card	38	obj	_	Entity=(abstract
@@ -1677,16 +1677,16 @@
 45-47	ⲛⲛⲉϥⲙⲟⲩ	_	_	_	_	_	_	_	_
 45	ⲛ	ⲛ	ADP	PREP	_	47	case	_	Orig=ⲛ̅
 46	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	47	det	_	Entity=(event
-47	ⲙⲟⲩ	ⲙⲟⲩ	NOUN	N	_	38	advcl	_	_
+47	ⲙⲟⲩ	ⲙⲟⲩ	NOUN	N	_	27	obl	_	_
 48-50	ϩⲁⲡⲉϩⲕⲟ	_	_	_	_	_	_	_	_
 48	ϩⲁ	ϩⲁ	ADP	PREP	_	50	case	_	_
 49	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	Entity=(abstract
-50	ϩⲕⲟ	ϩⲕⲟ	NOUN	N	_	47	obl	_	Entity=abstract)event)
+50	ϩⲕⲟ	ϩⲕⲟ	NOUN	N	_	47	nmod	_	Entity=abstract)event)
 51	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0049
-# text = ⲁⲩϣⲁϥⲃⲟϣϥ ⲛⲧⲉϥⲙⲛⲧⲕⲟⲙⲉⲥ ·
 # text_en = And he caused him to be deprived of his rank of count.
+# text = ⲁⲩϣⲁϥⲃⲟϣϥ ⲛⲧⲉϥⲙⲛⲧⲕⲟⲙⲉⲥ ·
 1-6	ⲁⲩϣⲁϥⲃⲟϣϥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 2	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
@@ -1697,12 +1697,12 @@
 7-9	ⲛⲧⲉϥⲙⲛⲧⲕⲟⲙⲉⲥ	_	_	_	_	_	_	_	_
 7	ⲛ	ⲛ	ADP	PREP	_	9	case	_	Orig=ⲛ̅
 8	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	Entity=(abstract
-9	ⲙⲛⲧⲕⲟⲙⲉⲥ	ⲙⲛⲧⲕⲟⲙⲉⲥ	NOUN	N	_	5	obl	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲕⲟⲙⲉⲥ|Orig=ⲙⲛ̅ⲧ̅ⲕⲟⲙⲉⲥ
+9	ⲙⲛⲧⲕⲟⲙⲉⲥ	ⲙⲛⲧⲕⲟⲙⲉⲥ	NOUN	N	Foreign=Yes	5	obl	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲕⲟⲙⲉⲥ|Orig=ⲙⲛ̅ⲧ̅ⲕⲟⲙⲉⲥ|OrigLang=la
 10	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0050
-# text = ⲁϥⲧⲣⲉⲩⲙⲟⲩⲣ ⲛⲛⲉϥϭⲓϫ ϩⲓⲡⲁϩⲟⲩ ⲙⲙⲟϥ ·
 # text_en = And he made them to fasten Apa Victor's hands behind him
+# text = ⲁϥⲧⲣⲉⲩⲙⲟⲩⲣ ⲛⲛⲉϥϭⲓϫ ϩⲓⲡⲁϩⲟⲩ ⲙⲙⲟϥ ·
 1-5	ⲁϥⲧⲣⲉⲩⲙⲟⲩⲣ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -1712,18 +1712,18 @@
 6-8	ⲛⲛⲉϥϭⲓϫ	_	_	_	_	_	_	_	_
 6	ⲛ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲛ̅
 7	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	Entity=(object
-8	ϭⲓϫ	ϭⲓϫ	NOUN	N	_	5	obl	_	Entity=object)
+8	ϭⲓϫ	ϭⲓϫ	NOUN	N	_	5	obj	_	Entity=object)
 9-10	ϩⲓⲡⲁϩⲟⲩ	_	_	_	_	_	_	_	_
-9	ϩⲓ	ϩⲓ	ADP	PREP	_	10	cc	_	_
-10	ⲡⲁϩⲟⲩ	ⲡⲁϩⲟⲩ	NOUN	N	_	8	conj	_	_
+9	ϩⲓ	ϩⲓ	ADP	PREP	_	10	case	_	_
+10	ⲡⲁϩⲟⲩ	ⲡⲁϩⲟⲩ	NOUN	N	_	5	obl	_	_
 11-12	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 11	ⲙⲙⲟ	ⲛ	ADP	PREP	_	12	case	_	Orig=ⲙ̅ⲙⲟ
 12	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nmod	_	_
 13	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0051
-# text = ⲁϥⲙⲟⲣϥ ⲉⲡⲥⲉⲓⲁⲧ ⲛⲟⲩϩⲧⲱ ·
 # text_en = and he tied him to the tail of a horse
+# text = ⲁϥⲙⲟⲣϥ ⲉⲡⲥⲉⲓⲁⲧ ⲛⲟⲩϩⲧⲱ ·
 1-4	ⲁϥⲙⲟⲣϥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -1740,15 +1740,15 @@
 11	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0052
-# text = ⲁϥϩⲉⲕⲧⲙⲏⲏⲧⲉ ⲛⲧⲉϥⲁⲡⲉ ·
 # text_en = and shaved the crown of his head
+# text = ⲁϥϩⲉⲕⲧⲙⲏⲏⲧⲉ ⲛⲧⲉϥⲁⲡⲉ ·
 1-6	ⲁϥϩⲉⲕⲧⲙⲏⲏⲧⲉ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	ϩⲉ	ϩⲉ	VERB	V	VerbForm=Fin	0	root	_	_
 4	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
 5	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(place
-6	ⲙⲏⲏⲧⲉ	ⲙⲏⲏⲧⲉ	NOUN	N	_	3	vocative	_	_
+6	ⲙⲏⲏⲧⲉ	ⲙⲏⲏⲧⲉ	NOUN	N	_	3	obj	_	_
 7-9	ⲛⲧⲉϥⲁⲡⲉ	_	_	_	_	_	_	_	_
 7	ⲛ	ⲛ	ADP	PREP	_	9	case	_	Orig=ⲛ̅
 8	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	Entity=(object
@@ -1756,8 +1756,8 @@
 10	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0053
-# text = ⲁⲩⲱ ⲁϥⲉϣⲧ ⲟⲩϣϭⲓⲗϭⲓⲗ ⲉⲡⲉϥⲙⲁⲕϩ ·
 # text_en = and he suspended a bell from his neck
+# text = ⲁⲩⲱ ⲁϥⲉϣⲧ ⲟⲩϣϭⲓⲗϭⲓⲗ ⲉⲡⲉϥⲙⲁⲕϩ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2-4	ⲁϥⲉϣⲧ	_	_	_	_	_	_	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
@@ -1773,8 +1773,8 @@
 10	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0054
-# text = ⲁⲩⲱ ⲁϥⲧⲟⲟⲩ ⲙⲙⲁⲧⲟⲓ ⲙⲉϩ ⲛⲉⲩϭⲓϫ ⲛⲃⲁ · ⲁⲩⲱ ⲛⲉⲩϩⲓⲟⲩⲉ ⲉⲣⲟϥ · ⲉⲩⲡⲉⲣⲓⲁⲕⲉ ⲙⲙⲟϥ ϩⲛⲧⲡⲟⲗⲓⲥ ⲧⲏⲣⲥ · ⲉϥⲕⲏⲕⲁϩⲏⲩ · ⲉⲣⲉⲡⲕⲩⲣⲓⲝ ⲱϣ ⲉⲃⲟⲗ ϩⲁⲧⲉϥϩⲏ ·
 # text_en = and four soldiers filled their hands with palm branches and beat him therewith, and they dragged him naked round about through all the city, and a herald went before him crying out
+# text = ⲁⲩⲱ ⲁϥⲧⲟⲟⲩ ⲙⲙⲁⲧⲟⲓ ⲙⲉϩ ⲛⲉⲩϭⲓϫ ⲛⲃⲁ · ⲁⲩⲱ ⲛⲉⲩϩⲓⲟⲩⲉ ⲉⲣⲟϥ · ⲉⲩⲡⲉⲣⲓⲁⲕⲉ ⲙⲙⲟϥ ϩⲛⲧⲡⲟⲗⲓⲥ ⲧⲏⲣⲥ · ⲉϥⲕⲏⲕⲁϩⲏⲩ · ⲉⲣⲉⲡⲕⲩⲣⲓⲝ ⲱϣ ⲉⲃⲟⲗ ϩⲁⲧⲉϥϩⲏ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2-4	ⲁϥⲧⲟⲟⲩ	_	_	_	_	_	_	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
@@ -1782,8 +1782,8 @@
 4	ⲧⲟⲟⲩ	ⲧⲟⲟⲩ	VERB	V	VerbForm=Fin	0	root	_	_
 5-6	ⲙⲙⲁⲧⲟⲓ	_	_	_	_	_	_	_	_
 5	ⲙ	ⲛ	ADP	PREP	_	6	case	_	Orig=ⲙ̅
-6	ⲙⲁⲧⲟⲓ	ⲙⲁⲧⲟⲓ	NOUN	N	_	4	obl	_	Entity=(person)
-7	ⲙⲉϩ	ⲙⲟⲩϩ	VERB	V	VerbForm=Fin	4	xcomp	_	_
+6	ⲙⲁⲧⲟⲓ	ⲙⲁⲧⲟⲓ	NOUN	N	_	7	obl	_	Entity=(person)
+7	ⲙⲉϩ	ⲙⲟⲩϩ	VERB	V	VerbForm=Fin	4	parataxis	_	_
 8-9	ⲛⲉⲩϭⲓϫ	_	_	_	_	_	_	_	_
 8	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	9	det	_	Entity=(object
 9	ϭⲓϫ	ϭⲓϫ	NOUN	N	_	7	obj	_	_
@@ -1795,7 +1795,7 @@
 14-16	ⲛⲉⲩϩⲓⲟⲩⲉ	_	_	_	_	_	_	_	_
 14	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	16	aux	_	_
 15	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
-16	ϩⲓⲟⲩⲉ	ϩⲓⲟⲩⲉ	VERB	V	VerbForm=Fin	4	conj	_	Orig=ϩⲓⲟⲩⲉ̅
+16	ϩⲓⲟⲩⲉ	ϩⲓⲟⲩⲉ	VERB	V	VerbForm=Fin	7	conj	_	Orig=ϩⲓⲟⲩⲉ̅
 17-18	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 17	ⲉⲣⲟ	ⲉ	ADP	PREP	_	18	case	_	_
 18	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
@@ -1803,14 +1803,14 @@
 20-22	ⲉⲩⲡⲉⲣⲓⲁⲕⲉ	_	_	_	_	_	_	_	_
 20	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	22	mark	_	_
 21	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
-22	ⲡⲉⲣⲓⲁⲕⲉ	ⲡⲉⲣⲓⲁⲕⲉ	VERB	V	VerbForm=Fin	16	advcl	_	_
+22	ⲡⲉⲣⲓⲁⲕⲉ	ⲡⲉⲣⲓⲁⲕⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	16	advcl	_	OrigLang=grc
 23-24	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 23	ⲙⲙⲟ	ⲛ	ADP	PREP	_	24	case	_	Orig=ⲙ̅ⲙⲟ
 24	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
 25-27	ϩⲛⲧⲡⲟⲗⲓⲥ	_	_	_	_	_	_	_	_
 25	ϩⲛ	ϩⲛ	ADP	PREP	_	27	case	_	Orig=ϩⲛ̅
 26	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	Entity=(place
-27	ⲡⲟⲗⲓⲥ	ⲡⲟⲗⲓⲥ	NOUN	N	_	22	obl	_	_
+27	ⲡⲟⲗⲓⲥ	ⲡⲟⲗⲓⲥ	NOUN	N	Foreign=Yes	22	obl	_	OrigLang=grc
 28-29	ⲧⲏⲣⲥ	_	_	_	_	_	_	_	_
 28	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	27	advmod	_	_
 29	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	28	det	_	Entity=place)|Orig=ⲥ̅
@@ -1818,13 +1818,13 @@
 31-33	ⲉϥⲕⲏⲕⲁϩⲏⲩ	_	_	_	_	_	_	_	_
 31	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	33	mark	_	_
 32	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
-33	ⲕⲏⲕⲁϩⲏⲩ	ⲕⲏⲕⲁϩⲏⲩ	VERB	VSTAT	VerbForm=Fin	22	advcl	_	Morphs=ⲕⲏⲕ-ⲁϩⲏⲩ
+33	ⲕⲏⲕⲁϩⲏⲩ	ⲕⲏⲕⲁϩⲏⲩ	VERB	VSTAT	VerbForm=Fin	27	acl	_	Morphs=ⲕⲏⲕ-ⲁϩⲏⲩ
 34	·	·	PUNCT	PUNCT	_	0	punct	_	_
 35-37	ⲉⲣⲉⲡⲕⲩⲣⲓⲝ	_	_	_	_	_	_	_	_
 35	ⲉⲣⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	38	mark	_	_
 36	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	Entity=(person
-37	ⲕⲩⲣⲓⲝ	ⲕⲩⲣⲓⲝ	NOUN	N	_	38	nsubj	_	Entity=person)
-38	ⲱϣ	ⲱϣ	VERB	V	VerbForm=Fin	22	advcl	_	_
+37	ⲕⲩⲣⲓⲝ	ⲕⲩⲣⲓⲝ	NOUN	N	Foreign=Yes	38	nsubj	_	Entity=person)|OrigLang=grc
+38	ⲱϣ	ⲱϣ	VERB	V	VerbForm=Fin	27	acl	_	_
 39	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	38	advmod	_	_
 40-42	ϩⲁⲧⲉϥϩⲏ	_	_	_	_	_	_	_	_
 40	ϩⲁ	ϩⲁ	ADP	PREP	_	42	case	_	_
@@ -1833,8 +1833,8 @@
 43	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0055
-# text = ϫⲉⲛⲧⲁⲩⲣⲛⲁⲓ ⲙⲡⲁⲓ ϫⲉⲙⲡⲉϥⲑⲩⲥⲓⲁⲍⲉ ⲛⲛⲛⲟⲩⲧⲉ ⲙⲡⲣⲣⲟ ·
 # text_en = These things are done unto this man because he will not offer up sacrifice to the gods of the Emperor
+# text = ϫⲉⲛⲧⲁⲩⲣⲛⲁⲓ ⲙⲡⲁⲓ ϫⲉⲙⲡⲉϥⲑⲩⲥⲓⲁⲍⲉ ⲛⲛⲛⲟⲩⲧⲉ ⲙⲡⲣⲣⲟ ·
 1-6	ϫⲉⲛⲧⲁⲩⲣⲛⲁⲓ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	5	mark	_	_
 2	ⲛⲧ	ⲉⲣⲉ	PART	CFOC	_	5	mark	_	Orig=ⲛ̅ⲧ
@@ -1844,12 +1844,12 @@
 6	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	5	obj	_	Entity=(abstract)
 7-8	ⲙⲡⲁⲓ	_	_	_	_	_	_	_	_
 7	ⲙ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲙ̅
-8	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	nmod	_	Entity=(abstract)|Orig=ⲡⲁⲓ̈
+8	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	Entity=(abstract)|Orig=ⲡⲁⲓ̈
 9-12	ϫⲉⲙⲡⲉϥⲑⲩⲥⲓⲁⲍⲉ	_	_	_	_	_	_	_	_
 9	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	12	mark	_	_
 10	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	12	aux	_	Orig=ⲙ̅ⲡⲉ
 11	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
-12	ⲑⲩⲥⲓⲁⲍⲉ	ⲑⲩⲥⲓⲁⲍⲉ	VERB	V	VerbForm=Fin	5	ccomp	_	_
+12	ⲑⲩⲥⲓⲁⲍⲉ	ⲑⲩⲥⲓⲁⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	5	ccomp	_	OrigLang=grc
 13-15	ⲛⲛⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 13	ⲛ	ⲛ	ADP	PREP	_	15	case	_	Orig=ⲛ̅
 14	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	15	det	_	Entity=(person|Orig=ⲛ̅
@@ -1857,12 +1857,12 @@
 16-18	ⲙⲡⲣⲣⲟ	_	_	_	_	_	_	_	_
 16	ⲙ	ⲛ	ADP	PREP	_	18	case	_	Orig=ⲙ̅
 17	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	Entity=(person
-18	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	15	nmod	_	Entity=person)person)|Orig=ⲣ̅ⲣⲟ
+18	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	12	obl	_	Entity=person)person)|Orig=ⲣ̅ⲣⲟ
 19	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0056
-# text = ⲁⲩⲱ ⲁⲩⲙⲉϣⲧ ⲧⲡⲟⲗⲓⲥ ⲧⲏⲣⲥ ⲛⲙⲙⲁϥ ·
 # text_en = and they went through every part of the city with him.
+# text = ⲁⲩⲱ ⲁⲩⲙⲉϣⲧ ⲧⲡⲟⲗⲓⲥ ⲧⲏⲣⲥ ⲛⲙⲙⲁϥ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2-4	ⲁⲩⲙⲉϣⲧ	_	_	_	_	_	_	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
@@ -1870,7 +1870,7 @@
 4	ⲙⲉϣⲧ	ⲙⲟⲩϣⲧ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲙⲉϣⲧ̅
 5-6	ⲧⲡⲟⲗⲓⲥ	_	_	_	_	_	_	_	_
 5	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(place
-6	ⲡⲟⲗⲓⲥ	ⲡⲟⲗⲓⲥ	NOUN	N	_	4	obj	_	_
+6	ⲡⲟⲗⲓⲥ	ⲡⲟⲗⲓⲥ	NOUN	N	Foreign=Yes	4	obj	_	OrigLang=grc
 7-8	ⲧⲏⲣⲥ	_	_	_	_	_	_	_	_
 7	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	6	advmod	_	_
 8	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	7	det	_	Entity=place)|Orig=ⲥ̅
@@ -1880,54 +1880,54 @@
 11	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0057
-# text = ϩⲣⲁⲓ ⲇⲉ ϩⲛⲥⲟⲩⲁ ⲙⲡⲁⲣⲙⲟⲩⲧⲉ · ϩⲙⲡϣⲟⲣⲡ ⲛⲉⲃⲟⲧ ⲛⲧⲁⲣⲭⲏ ⲛⲧⲉⲣⲟⲙⲡⲉ ⲕⲁⲧⲁⲧϭⲓⲛⲱⲡ ⲛⲛⲉϩⲣⲱⲙⲁⲓⲟⲥ ·
 # text_en = And on the new moon of Parmoute, the first day of the month of the beginning of the year, according to the computation of the Romans
-1	ϩⲣⲁⲓ	ϩⲣⲁⲓ	ADV	ADV	_	7	advmod	_	Orig=Ϩⲣⲁⲓ
-2	ⲇⲉ	ⲇⲉ	PART	PTC	_	7	advmod	_	_
+# text = ϩⲣⲁⲓ ⲇⲉ ϩⲛⲥⲟⲩⲁ ⲙⲡⲁⲣⲙⲟⲩⲧⲉ · ϩⲙⲡϣⲟⲣⲡ ⲛⲉⲃⲟⲧ ⲛⲧⲁⲣⲭⲏ ⲛⲧⲉⲣⲟⲙⲡⲉ ⲕⲁⲧⲁⲧϭⲓⲛⲱⲡ ⲛⲛⲉϩⲣⲱⲙⲁⲓⲟⲥ ·
+1	ϩⲣⲁⲓ	ϩⲣⲁⲓ	ADV	ADV	_	5	advmod	_	Orig=Ϩⲣⲁⲓ
+2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	5	advmod	_	OrigLang=grc
 3-5	ϩⲛⲥⲟⲩⲁ	_	_	_	_	_	_	_	_
 3	ϩⲛ	ϩⲛ	ADP	PREP	_	4	case	_	Orig=ϩⲛ̅
-4	ⲥⲟⲩ	ⲥⲟⲩ	NOUN	N	_	7	nummod	_	Entity=(time
-5	ⲁ	ⲁ	AUX	NUM	NumType=Card	7	aux	_	_
+4	ⲥⲟⲩ	ⲥⲟⲩ	NOUN	N	_	5	obl	_	Entity=(time
+5	ⲁ	ⲁ	NUM	NUM	NumType=Card	0	root	_	_
 6-7	ⲙⲡⲁⲣⲙⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 6	ⲙ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲙ̅
-7	ⲡⲁⲣⲙⲟⲩⲧⲉ	ⲡⲁⲣⲙⲟⲩⲧⲉ	PROPN	NPROP	_	0	root	_	Entity=(time-Parmouti)time)
+7	ⲡⲁⲣⲙⲟⲩⲧⲉ	ⲡⲁⲣⲙⲟⲩⲧⲉ	PROPN	NPROP	_	4	nmod	_	Entity=(time-Parmouti)time)
 8	·	·	PUNCT	PUNCT	_	0	punct	_	_
 9-11	ϩⲙⲡϣⲟⲣⲡ	_	_	_	_	_	_	_	_
 9	ϩⲙ	ϩⲛ	ADP	PREP	_	11	case	_	Orig=ϩⲙ̅
 10	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(time
-11	ϣⲟⲣⲡ	ϣⲟⲣⲡ	NOUN	N	_	7	obl	_	Orig=ϣⲟⲣⲡ̅
+11	ϣⲟⲣⲡ	ϣⲟⲣⲡ	NOUN	N	_	4	obl	_	Orig=ϣⲟⲣⲡ̅
 12-13	ⲛⲉⲃⲟⲧ	_	_	_	_	_	_	_	_
 12	ⲛ	ⲛ	ADP	PREP	_	13	case	_	Orig=ⲛ̅
 13	ⲉⲃⲟⲧ	ⲉⲃⲟⲧ	NOUN	N	_	11	nmod	_	_
 14-16	ⲛⲧⲁⲣⲭⲏ	_	_	_	_	_	_	_	_
 14	ⲛ	ⲛ	ADP	PREP	_	16	case	_	Orig=ⲛ̅
 15	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	Entity=(time
-16	ⲁⲣⲭⲏ	ⲁⲣⲭⲏ	NOUN	N	_	7	nmod	_	_
+16	ⲁⲣⲭⲏ	ⲁⲣⲭⲏ	NOUN	N	Foreign=Yes	11	nmod	_	OrigLang=grc
 17-19	ⲛⲧⲉⲣⲟⲙⲡⲉ	_	_	_	_	_	_	_	_
 17	ⲛ	ⲛ	ADP	PREP	_	19	case	_	Orig=ⲛ̅
 18	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	Entity=(time
 19	ⲣⲟⲙⲡⲉ	ⲣⲟⲙⲡⲉ	NOUN	N	_	16	nmod	_	Entity=time)time)time)
 20-22	ⲕⲁⲧⲁⲧϭⲓⲛⲱⲡ	_	_	_	_	_	_	_	_
-20	ⲕⲁⲧⲁ	ⲕⲁⲧⲁ	ADP	PREP	_	22	case	_	_
+20	ⲕⲁⲧⲁ	ⲕⲁⲧⲁ	ADP	PREP	Foreign=Yes	22	case	_	OrigLang=grc
 21	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	Entity=(object
 22	ϭⲓⲛⲱⲡ	ϭⲓⲛⲱⲡ	NOUN	N	_	16	nmod	_	Morphs=ϭⲓⲛ-ⲱⲡ
 23-25	ⲛⲛⲉϩⲣⲱⲙⲁⲓⲟⲥ	_	_	_	_	_	_	_	_
 23	ⲛ	ⲛ	ADP	PREP	_	25	case	_	Orig=ⲛ̅
 24	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	25	det	_	Entity=(person
-25	ϩⲣⲱⲙⲁⲓⲟⲥ	ϩⲣⲱⲙⲁⲓⲟⲥ	NOUN	N	_	22	nmod	_	Entity=person)object)
+25	ϩⲣⲱⲙⲁⲓⲟⲥ	ϩⲣⲱⲙⲁⲓⲟⲥ	NOUN	N	Foreign=Yes	22	nmod	_	Entity=person)object)|OrigLang=grc
 26	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0058
-# text = ⲁⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ ϫⲓ ⲛⲟⲩⲭⲁⲣⲧⲏⲥ ⲁϥⲥϩⲁⲓ ⲉⲣⲟϥ ⲛⲧⲉⲓϩⲉ ·
 # text_en = Diocletian took a sheet of parchment, and wrote on it these words
+# text = ⲁⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ ϫⲓ ⲛⲟⲩⲭⲁⲣⲧⲏⲥ ⲁϥⲥϩⲁⲓ ⲉⲣⲟϥ ⲛⲧⲉⲓϩⲉ ·
 1-2	ⲁⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
-2	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	PROPN	NPROP	_	3	nsubj	_	Entity=(person-Diocletian)
+2	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	PROPN	NPROP	Foreign=Yes	3	nsubj	_	Entity=(person-Diocletian)|OrigLang=la
 3	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	0	root	_	_
 4-6	ⲛⲟⲩⲭⲁⲣⲧⲏⲥ	_	_	_	_	_	_	_	_
 4	ⲛ	ⲛ	ADP	PREP	_	6	case	_	Orig=ⲛ̅
 5	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	6	det	_	Entity=(object
-6	ⲭⲁⲣⲧⲏⲥ	ⲭⲁⲣⲧⲏⲥ	NOUN	N	_	3	obj	_	Entity=object)
+6	ⲭⲁⲣⲧⲏⲥ	ⲭⲁⲣⲧⲏⲥ	NOUN	N	Foreign=Yes	3	obj	_	Entity=object)|OrigLang=grc
 7-9	ⲁϥⲥϩⲁⲓ	_	_	_	_	_	_	_	_
 7	ⲁ	ⲁ	AUX	APST	_	9	aux	_	_
 8	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
@@ -1942,12 +1942,12 @@
 15	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0059
-# text = ϫⲉⲁⲛⲟⲕ ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ ⲡⲉⲧⲟ ⲛϫⲟⲉⲓⲥ ⲉⲡⲕⲟⲥⲙⲟⲥ ⲧⲏⲣϥ ⲉϥⲥϩⲁⲓ ⲛϩⲁⲣⲙⲉⲛⲓⲟⲥ ⲡⲕⲱⲙⲉⲥ ⲛⲣⲁⲕⲟⲧⲉ · ϫⲉϩⲛⲧⲉⲩⲛⲟⲩ ⲉⲧⲟⲩⲛⲁⲉⲓⲛⲉ ⲛⲁⲕ ⲙⲡⲉⲓⲉⲝⲱⲙⲉⲛⲟⲥ ϫⲉⲃⲓⲕⲧⲱⲣ ·
 # text_en = I, Diocletian, who am the Lord of all the World, write unto Armenius, the Count of Rakote, that so soon as this man Victor, who is banished, is brought unto thee
+# text = ϫⲉⲁⲛⲟⲕ ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ ⲡⲉⲧⲟ ⲛϫⲟⲉⲓⲥ ⲉⲡⲕⲟⲥⲙⲟⲥ ⲧⲏⲣϥ ⲉϥⲥϩⲁⲓ ⲛϩⲁⲣⲙⲉⲛⲓⲟⲥ ⲡⲕⲱⲙⲉⲥ ⲛⲣⲁⲕⲟⲧⲉ · ϫⲉϩⲛⲧⲉⲩⲛⲟⲩ ⲉⲧⲟⲩⲛⲁⲉⲓⲛⲉ ⲛⲁⲕ ⲙⲡⲉⲓⲉⲝⲱⲙⲉⲛⲟⲥ ϫⲉⲃⲓⲕⲧⲱⲣ ·
 1-2	ϫⲉⲁⲛⲟⲕ	_	_	_	_	_	_	_	_
-1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	16	mark	_	_
+1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	2	mark	_	_
 2	ⲁⲛⲟⲕ	ⲁⲛⲟⲕ	PRON	PPERI	Definite=Def|Number=Sing|Person=1|PronType=Prs	16	dislocated	_	_
-3	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	PROPN	NPROP	_	2	appos	_	Entity=(person-Diocletian
+3	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	ⲇⲓⲟⲕⲗⲏϯⲁⲛⲟⲥ	PROPN	NPROP	Foreign=Yes	2	appos	_	Entity=(person-Diocletian|OrigLang=la
 4-6	ⲡⲉⲧⲟ	_	_	_	_	_	_	_	_
 4	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	appos	_	_
 5	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	6	mark	_	_
@@ -1958,7 +1958,7 @@
 9-11	ⲉⲡⲕⲟⲥⲙⲟⲥ	_	_	_	_	_	_	_	_
 9	ⲉ	ⲉ	ADP	PREP	_	11	case	_	_
 10	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(place
-11	ⲕⲟⲥⲙⲟⲥ	ⲕⲟⲥⲙⲟⲥ	NOUN	N	_	6	obl	_	_
+11	ⲕⲟⲥⲙⲟⲥ	ⲕⲟⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	6	obl	_	OrigLang=grc
 12-13	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
 12	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	11	advmod	_	_
 13	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	12	det	_	Entity=place)person-Diocletian)|Orig=ϥ̅
@@ -1968,16 +1968,16 @@
 16	ⲥϩⲁⲓ	ⲥϩⲁⲓ	VERB	V	VerbForm=Fin	0	root	_	_
 17-18	ⲛϩⲁⲣⲙⲉⲛⲓⲟⲥ	_	_	_	_	_	_	_	_
 17	ⲛ	ⲛ	ADP	PREP	_	18	case	_	Orig=ⲛ̅
-18	ϩⲁⲣⲙⲉⲛⲓⲟⲥ	ϩⲁⲣⲙⲉⲛⲓⲟⲥ	PROPN	NPROP	_	16	obl	_	Entity=(person
+18	ϩⲁⲣⲙⲉⲛⲓⲟⲥ	ϩⲁⲣⲙⲉⲛⲓⲟⲥ	PROPN	NPROP	Foreign=Yes	16	obl	_	Entity=(person|OrigLang=grc
 19-20	ⲡⲕⲱⲙⲉⲥ	_	_	_	_	_	_	_	_
 19	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	ⲕⲱⲙⲉⲥ	ⲕⲱⲙⲉⲥ	NOUN	N	_	18	appos	_	_
+20	ⲕⲱⲙⲉⲥ	ⲕⲱⲙⲉⲥ	NOUN	N	Foreign=Yes	18	appos	_	OrigLang=la
 21-22	ⲛⲣⲁⲕⲟⲧⲉ	_	_	_	_	_	_	_	_
 21	ⲛ	ⲛ	ADP	PREP	_	22	case	_	Orig=ⲛ̅
 22	ⲣⲁⲕⲟⲧⲉ	ⲣⲁⲕⲟⲧⲉ	PROPN	NPROP	_	20	nmod	_	Entity=(place-Alexandria)person)
 23	·	·	PUNCT	PUNCT	_	0	punct	_	_
 24-27	ϫⲉϩⲛⲧⲉⲩⲛⲟⲩ	_	_	_	_	_	_	_	_
-24	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	31	mark	_	_
+24	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	27	mark	_	_
 25	ϩⲛ	ϩⲛ	ADP	PREP	_	27	case	_	Orig=ϩⲛ̅
 26	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	ⲩⲛⲟⲩ	ⲟⲩⲛⲟⲩ	NOUN	N	_	16	obl	_	_
@@ -1992,16 +1992,16 @@
 34-36	ⲙⲡⲉⲓⲉⲝⲱⲙⲉⲛⲟⲥ	_	_	_	_	_	_	_	_
 34	ⲙ	ⲛ	ADP	PREP	_	36	case	_	Orig=ⲙ̅
 35	ⲡⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	36	det	_	Entity=(person
-36	ⲉⲝⲱⲙⲉⲛⲟⲥ	ⲉⲝⲱⲙⲉⲛⲟⲥ	NOUN	N	_	31	obj	_	Entity=person)
+36	ⲉⲝⲱⲙⲉⲛⲟⲥ	ⲉⲝⲱⲙⲉⲛⲟⲥ	NOUN	N	Foreign=Yes	31	obj	_	Entity=person)|OrigLang=grc
 37-38	ϫⲉⲃⲓⲕⲧⲱⲣ	_	_	_	_	_	_	_	_
 37	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	38	mark	_	_
-38	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	31	xcomp	_	Entity=(person)
+38	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	31	xcomp	_	Entity=(person)|OrigLang=la
 39	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0060
-# text = ⲉⲝⲉⲧⲁⲍⲉ ⲙⲙⲟϥ ⲛϣⲟⲙⲛⲧ ⲛⲥⲟⲡ ·
 # text_en = thou shalt examine him carefully three times
-1	ⲉⲝⲉⲧⲁⲍⲉ	ⲉⲝⲉⲧⲁⲍⲉ	VERB	V	VerbForm=Fin	0	root	_	_
+# text = ⲉⲝⲉⲧⲁⲍⲉ ⲙⲙⲟϥ ⲛϣⲟⲙⲛⲧ ⲛⲥⲟⲡ ·
+1	ⲉⲝⲉⲧⲁⲍⲉ	ⲉⲝⲉⲧⲁⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	OrigLang=grc
 2-3	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 2	ⲙⲙⲟ	ⲛ	ADP	PREP	_	3	case	_	Orig=ⲙ̅ⲙⲟ
 3	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
@@ -2014,8 +2014,8 @@
 8	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0061
-# text = ⲙⲛⲛⲥⲱⲥ ⲛⲅⲛⲟϫϥ ⲉⲡⲙⲧⲱⲕ ⲛⲧⲥⲓⲟⲟⲩⲛ · ⲛⲅⲣⲟⲕϩϥ :—
 # text_en = and slialt afterwards drive him to the baths, and burn him.
+# text = ⲙⲛⲛⲥⲱⲥ ⲛⲅⲛⲟϫϥ ⲉⲡⲙⲧⲱⲕ ⲛⲧⲥⲓⲟⲟⲩⲛ · ⲛⲅⲣⲟⲕϩϥ :—
 1-2	ⲙⲛⲛⲥⲱⲥ	_	_	_	_	_	_	_	_
 1	ⲙⲛⲛⲥⲱ	ⲙⲛⲛⲥⲁ	ADP	PREP	_	2	case	_	Orig=ⲙⲛ̅ⲛ̅ⲥⲱ
 2	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
@@ -2041,8 +2041,8 @@
 18	:—	:—	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0062
-# text = ⲁⲩⲱ ⲛⲧⲉⲩⲛⲟⲩ ⲁⲩⲡⲁⲣⲁⲇⲓⲇⲟⲩ ⲙⲙⲟϥ ⲉⲧⲟⲟⲧⲟⲩ ⲛϥⲧⲟⲟⲩ ⲙⲙⲁⲧⲟⲓ · ⲉⲧⲣⲉⲩϫⲓⲧϥ ⲉⲣⲁⲕⲟⲧⲉ ·
 # text_en = And straightway they delivered him over into the hands of four soldiers in order that they might take him to Rakote.
+# text = ⲁⲩⲱ ⲛⲧⲉⲩⲛⲟⲩ ⲁⲩⲡⲁⲣⲁⲇⲓⲇⲟⲩ ⲙⲙⲟϥ ⲉⲧⲟⲟⲧⲟⲩ ⲛϥⲧⲟⲟⲩ ⲙⲙⲁⲧⲟⲓ · ⲉⲧⲣⲉⲩϫⲓⲧϥ ⲉⲣⲁⲕⲟⲧⲉ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	7	cc	_	Orig=Ⲁⲩⲱ
 2-4	ⲛⲧⲉⲩⲛⲟⲩ	_	_	_	_	_	_	_	_
 2	ⲛ	ⲛ	ADP	PREP	_	4	case	_	Orig=ⲛ̅
@@ -2051,7 +2051,7 @@
 5-7	ⲁⲩⲡⲁⲣⲁⲇⲓⲇⲟⲩ	_	_	_	_	_	_	_	_
 5	ⲁ	ⲁ	AUX	APST	_	7	aux	_	_
 6	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
-7	ⲡⲁⲣⲁⲇⲓⲇⲟⲩ	ⲡⲁⲣⲁⲇⲓⲇⲟⲩ	VERB	V	VerbForm=Fin	0	root	_	_
+7	ⲡⲁⲣⲁⲇⲓⲇⲟⲩ	ⲡⲁⲣⲁⲇⲓⲇⲟⲩ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	OrigLang=grc
 8-9	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 8	ⲙⲙⲟ	ⲛ	ADP	PREP	_	9	case	_	Orig=ⲙ̅ⲙⲟ
 9	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
@@ -2063,7 +2063,7 @@
 13	ϥⲧⲟⲟⲩ	ϥⲧⲟⲟⲩ	NUM	NUM	NumType=Card	15	nummod	_	Entity=(person|Orig=ϥ̅ⲧⲟⲟⲩ
 14-15	ⲙⲙⲁⲧⲟⲓ	_	_	_	_	_	_	_	_
 14	ⲙ	ⲛ	ADP	PREP	_	15	case	_	Orig=ⲙ̅
-15	ⲙⲁⲧⲟⲓ	ⲙⲁⲧⲟⲓ	NOUN	N	_	7	obl	_	_
+15	ⲙⲁⲧⲟⲓ	ⲙⲁⲧⲟⲓ	NOUN	N	_	11	nmod	_	_
 16	·	·	PUNCT	PUNCT	_	0	punct	_	_
 17-21	ⲉⲧⲣⲉⲩϫⲓⲧϥ	_	_	_	_	_	_	_	_
 17	ⲉ	ⲉ	PART	PREP	_	18	mark	_	_
@@ -2077,12 +2077,12 @@
 24	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0063
-# text = ⲉⲣⲉⲟⲩⲕⲟⲗⲗⲁⲣⲓⲟⲛ ϩⲙⲡⲉϥⲙⲁⲕϩ · ⲉⲣⲉⲟⲩⲭⲁⲙⲱⲥ ϩⲛⲣⲱϥ · ⲁⲩⲱ ⲉⲣⲉⲟⲩⲡⲁⲓⲇⲁⲓⲥ ϩⲛⲛⲉϥⲟⲩⲉⲣⲏⲧⲉ · ⲉϥⲕⲏⲕⲁϩⲏⲩ ⲉⲣⲉⲟⲩⲫⲓⲙⲓⲛⲁⲣⲓⲟⲛ ϩⲛⲣⲁⲧϥ · ⲁⲩⲱ ⲉⲣⲉⲙⲙⲁⲧⲟⲓ ϩⲃⲟⲣⲃⲣ ⲙⲙⲟϥ ·
 # text_en = There was (an iron) collar round his neck, there was a gag in his mouth, there was fettering iron about his feet, and he was naked, and there were iron casings about his legs, and the soldiers drove him along with blows.
+# text = ⲉⲣⲉⲟⲩⲕⲟⲗⲗⲁⲣⲓⲟⲛ ϩⲙⲡⲉϥⲙⲁⲕϩ · ⲉⲣⲉⲟⲩⲭⲁⲙⲱⲥ ϩⲛⲣⲱϥ · ⲁⲩⲱ ⲉⲣⲉⲟⲩⲡⲁⲓⲇⲁⲓⲥ ϩⲛⲛⲉϥⲟⲩⲉⲣⲏⲧⲉ · ⲉϥⲕⲏⲕⲁϩⲏⲩ ⲉⲣⲉⲟⲩⲫⲓⲙⲓⲛⲁⲣⲓⲟⲛ ϩⲛⲣⲁⲧϥ · ⲁⲩⲱ ⲉⲣⲉⲙⲙⲁⲧⲟⲓ ϩⲃⲟⲣⲃⲣ ⲙⲙⲟϥ ·
 1-3	ⲉⲣⲉⲟⲩⲕⲟⲗⲗⲁⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
-1	ⲉⲣⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	3	mark	_	_
+1	ⲉⲣⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	6	mark	_	_
 2	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	3	det	_	Entity=(place
-3	ⲕⲟⲗⲗⲁⲣⲓⲟⲛ	ⲕⲟⲗⲗⲁⲣⲓⲟⲛ	NOUN	N	_	0	root	_	_
+3	ⲕⲟⲗⲗⲁⲣⲓⲟⲛ	ⲕⲟⲗⲗⲁⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	0	root	_	OrigLang=grc
 4-6	ϩⲙⲡⲉϥⲙⲁⲕϩ	_	_	_	_	_	_	_	_
 4	ϩⲙ	ϩⲛ	ADP	PREP	_	6	case	_	Orig=ϩⲙ̅
 5	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	Entity=(object
@@ -2091,7 +2091,7 @@
 8-10	ⲉⲣⲉⲟⲩⲭⲁⲙⲱⲥ	_	_	_	_	_	_	_	_
 8	ⲉⲣⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	12	mark	_	_
 9	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	10	det	_	Entity=(object
-10	ⲭⲁⲙⲱⲥ	ⲭⲁⲙⲱⲥ	NOUN	N	_	12	nsubj	_	_
+10	ⲭⲁⲙⲱⲥ	ⲭⲁⲙⲱⲥ	NOUN	N	Foreign=Yes	12	nsubj	_	OrigLang=grc
 11-13	ϩⲛⲣⲱϥ	_	_	_	_	_	_	_	_
 11	ϩⲛ	ϩⲛ	ADP	PREP	_	12	case	_	Orig=ϩⲛ̅
 12	ⲣⲱ	ⲣⲟ	NOUN	N	_	3	nmod	_	Entity=(object
@@ -2099,13 +2099,13 @@
 14	·	·	PUNCT	PUNCT	_	0	punct	_	_
 15	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	37	cc	_	_
 16-18	ⲉⲣⲉⲟⲩⲡⲁⲓⲇⲁⲓⲥ	_	_	_	_	_	_	_	_
-16	ⲉⲣⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	18	mark	_	_
+16	ⲉⲣⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	21	mark	_	_
 17	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
-18	ⲡⲁⲓⲇⲁⲓⲥ	ⲡⲁⲓⲇⲁⲓⲥ	NOUN	N	_	12	nsubj	_	_
+18	ⲡⲁⲓⲇⲁⲓⲥ	ⲡⲁⲓⲇⲁⲓⲥ	NOUN	N	Foreign=Yes	12	conj	_	OrigLang=grc
 19-21	ϩⲛⲛⲉϥⲟⲩⲉⲣⲏⲧⲉ	_	_	_	_	_	_	_	_
 19	ϩⲛ	ϩⲛ	ADP	PREP	_	21	case	_	Orig=ϩⲛ̅
 20	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	Entity=(object
-21	ⲟⲩⲉⲣⲏⲧⲉ	ⲟⲩⲉⲣⲏⲧⲉ	NOUN	N	_	18	nmod	_	Entity=object)|Orig=ⲟⲩⲉⲣⲏⲏⲧⲉ
+21	ⲟⲩⲉⲣⲏⲧⲉ	ⲟⲩⲉⲣⲏⲧⲉ	NOUN	N	_	12	conj	_	Entity=object)|Orig=ⲟⲩⲉⲣⲏⲏⲧⲉ
 22	·	·	PUNCT	PUNCT	_	0	punct	_	_
 23-25	ⲉϥⲕⲏⲕⲁϩⲏⲩ	_	_	_	_	_	_	_	_
 23	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	25	mark	_	_
@@ -2114,38 +2114,38 @@
 26-28	ⲉⲣⲉⲟⲩⲫⲓⲙⲓⲛⲁⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 26	ⲉⲣⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	30	mark	_	_
 27	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	28	det	_	Entity=(place
-28	ⲫⲓⲙⲓⲛⲁⲣⲓⲟⲛ	ⲫⲓⲙⲓⲛⲁⲣⲓⲟⲛ	NOUN	N	_	25	nsubj	_	_
+28	ⲫⲓⲙⲓⲛⲁⲣⲓⲟⲛ	ⲫⲓⲙⲓⲛⲁⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	30	nsubj	_	OrigLang=grc
 29-31	ϩⲛⲣⲁⲧϥ	_	_	_	_	_	_	_	_
 29	ϩⲛ	ϩⲛ	ADP	PREP	_	30	case	_	Orig=ϩⲛ̅
-30	ⲣⲁⲧ	ⲣⲁⲧ	NOUN	N	_	25	obl	_	Entity=(object
+30	ⲣⲁⲧ	ⲣⲁⲧ	NOUN	N	_	25	advcl	_	Entity=(object
 31	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	30	det	_	Entity=object)|Orig=ϥ̅
 32	·	·	PUNCT	PUNCT	_	0	punct	_	_
 33	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	37	cc	_	_
 34-36	ⲉⲣⲉⲙⲙⲁⲧⲟⲓ	_	_	_	_	_	_	_	_
 34	ⲉⲣⲉ	ⲉⲣⲉ	PART	CFOC	_	37	mark	_	_
-35	ⲙ	ⲡ	DET	ART	_	36	det	_	Entity=(person|Orig=ⲙ̅
+35	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	36	det	_	Entity=(person|Orig=ⲙ̅
 36	ⲙⲁⲧⲟⲓ	ⲙⲁⲧⲟⲓ	NOUN	N	_	37	nsubj	_	Entity=person)
-37	ϩⲃⲟⲣⲃⲣ	ϩⲃⲟⲣⲃⲣ	VERB	V	VerbForm=Fin	25	conj	_	Orig=ϩⲃⲟⲣⲃⲣ̅
+37	ϩⲃⲟⲣⲃⲣ	ϩⲃⲟⲣⲃⲣ	VERB	V	VerbForm=Fin	3	conj	_	Orig=ϩⲃⲟⲣⲃⲣ̅
 38-39	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 38	ⲙⲙⲟ	ⲛ	ADP	PREP	_	39	case	_	Orig=ⲙ̅ⲙⲟ
-39	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	obj	_	Entity=place)
+39	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	obl	_	Entity=place)
 40	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0064
-# text = ⲡϩⲁⲅⲓⲟⲥ ⲇⲉ ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲡⲉϫⲁϥ ⲛⲙⲙⲁⲧⲟⲓ ⲉⲧⲧⲟ ⲉⲣⲟϥ ϫⲉⲛⲁⲥⲛⲏⲩ · ⲁⲗⲱⲧⲛ ⲉⲧⲉⲧⲛⲟ ⲛⲟⲩⲁϩⲓⲏⲧ ⲉⲣⲟⲓ ⲛⲧⲉⲓϩⲉ ⲧⲏⲣⲥ · ⲁⲩⲱ ⲉⲧⲉⲧⲛϣⲧⲟⲣⲧⲣ ⲙⲙⲟⲓ ·
 # text_en = And Apa Victor said unto the soldiers who were in charge of him, ' My brethren, I pray you to cease to treat me with such harshness and  cruelty, and to vex me so seriously
+# text = ⲡϩⲁⲅⲓⲟⲥ ⲇⲉ ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲡⲉϫⲁϥ ⲛⲙⲙⲁⲧⲟⲓ ⲉⲧⲧⲟ ⲉⲣⲟϥ ϫⲉⲛⲁⲥⲛⲏⲩ · ⲁⲗⲱⲧⲛ ⲉⲧⲉⲧⲛⲟ ⲛⲟⲩⲁϩⲓⲏⲧ ⲉⲣⲟⲓ ⲛⲧⲉⲓϩⲉ ⲧⲏⲣⲥ · ⲁⲩⲱ ⲉⲧⲉⲧⲛϣⲧⲟⲣⲧⲣ ⲙⲙⲟⲓ ·
 1-2	ⲡϩⲁⲅⲓⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(person|Orig=Ⲡ
-2	ϩⲁⲅⲓⲟⲥ	ϩⲁⲅⲓⲟⲥ	NOUN	N	_	6	dislocated	_	Orig=ϩⲁⲅⲓ̈ⲟⲥ
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	6	advmod	_	_
-4	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	2	appos	_	_
-5	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	4	flat	_	Entity=person)
+2	ϩⲁⲅⲓⲟⲥ	ϩⲁⲅⲓⲟⲥ	NOUN	N	Foreign=Yes	6	dislocated	_	Orig=ϩⲁⲅⲓ̈ⲟⲥ|OrigLang=grc
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	6	advmod	_	OrigLang=grc
+4	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	2	appos	_	OrigLang=he
+5	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	4	flat	_	Entity=person)|OrigLang=la
 6-7	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 6	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 7	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 8-10	ⲛⲙⲙⲁⲧⲟⲓ	_	_	_	_	_	_	_	_
 8	ⲛ	ⲛ	ADP	PREP	_	10	case	_	Orig=ⲛ̅
-9	ⲙ	ⲡ	DET	ART	_	10	det	_	Entity=(person|Orig=ⲙ̅
+9	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	10	det	_	Entity=(person|Orig=ⲙ̅
 10	ⲙⲁⲧⲟⲓ	ⲙⲁⲧⲟⲓ	NOUN	N	_	6	obl	_	_
 11-12	ⲉⲧⲧⲟ	_	_	_	_	_	_	_	_
 11	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	12	mark	_	_
@@ -2158,7 +2158,7 @@
 16	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	17	det	_	Entity=(person
 17	ⲥⲛⲏⲩ	ⲥⲟⲛ	NOUN	N	_	19	vocative	_	Entity=person)
 18	·	·	PUNCT	PUNCT	_	0	punct	_	_
-19	ⲁⲗⲱⲧⲛ	ⲗⲟ	VERB	VIMP	VerbForm=Fin	10	acl	_	Orig=ⲁⲗⲱⲧⲛ̅
+19	ⲁⲗⲱⲧⲛ	ⲗⲟ	VERB	VIMP	VerbForm=Fin	6	ccomp	_	Orig=ⲁⲗⲱⲧⲛ̅
 20-22	ⲉⲧⲉⲧⲛⲟ	_	_	_	_	_	_	_	_
 20	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	22	mark	_	_
 21	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	22	nsubj	_	Orig=ⲧⲉⲧⲛ̅
@@ -2188,8 +2188,8 @@
 39	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0065
-# text = ⲟⲩ ⲡⲉ ⲡⲓⲉⲧϩⲟⲟⲩ ⲛⲧⲁⲓⲁⲁϥ ⲛⲏⲧⲛ · ⲉⲧⲉⲧⲛⲣⲁϣⲉ ⲉϩⲣⲁⲓ ⲉϫⲱⲓ ⲛⲧⲉⲓϩⲉ ⲧⲏⲣⲥ ·
 # text_en = What is the evil thing which I have done unto you, that ye should rejoice over me with such keen pleasure?
+# text = ⲟⲩ ⲡⲉ ⲡⲓⲉⲧϩⲟⲟⲩ ⲛⲧⲁⲓⲁⲁϥ ⲛⲏⲧⲛ · ⲉⲧⲉⲧⲛⲣⲁϣⲉ ⲉϩⲣⲁⲓ ⲉϫⲱⲓ ⲛⲧⲉⲓϩⲉ ⲧⲏⲣⲥ ·
 1	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	_
 2	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	1	cop	_	_
 3-5	ⲡⲓⲉⲧϩⲟⲟⲩ	_	_	_	_	_	_	_	_
@@ -2209,7 +2209,7 @@
 14-16	ⲉⲧⲉⲧⲛⲣⲁϣⲉ	_	_	_	_	_	_	_	_
 14	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	16	mark	_	_
 15	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	16	nsubj	_	Orig=ⲧⲉⲧⲛ̅
-16	ⲣⲁϣⲉ	ⲣⲁϣⲉ	VERB	V	VerbForm=Fin	9	advcl	_	_
+16	ⲣⲁϣⲉ	ⲣⲁϣⲉ	VERB	V	VerbForm=Fin	1	advcl	_	_
 17	ⲉϩⲣⲁⲓ	ⲉϩⲣⲁⲓ	ADV	ADV	_	16	advmod	_	_
 18-19	ⲉϫⲱⲓ	_	_	_	_	_	_	_	_
 18	ⲉϫⲱ	ⲉϫⲛ	ADP	PREP	_	19	case	_	_
@@ -2224,21 +2224,21 @@
 25	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0066
-# text = ⲛⲙⲙⲟⲛ ⲁⲓⲃⲗⲁⲡⲧⲉⲓ ⲙⲙⲱⲧⲛ ⲉⲛⲉϩ · ⲏ ⲁⲓϫⲓ ⲟⲩⲁ ⲛϭⲟⲛⲥ ⲉⲛⲉϩ ·
 # text_en = I have never done any injury to you, and I have never committed an act of injustice against you.
+# text = ⲛⲙⲙⲟⲛ ⲁⲓⲃⲗⲁⲡⲧⲉⲓ ⲙⲙⲱⲧⲛ ⲉⲛⲉϩ · ⲏ ⲁⲓϫⲓ ⲟⲩⲁ ⲛϭⲟⲛⲥ ⲉⲛⲉϩ ·
 1-2	ⲛⲙⲙⲟⲛ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	5	advmod	_	Orig=ⲛ̅
 2	ⲙⲙⲟⲛ	ⲙⲙⲟⲛ	PART	PTC	Polarity=Neg	5	advmod	_	Orig=ⲙ̅ⲙⲟⲛ
 3-5	ⲁⲓⲃⲗⲁⲡⲧⲉⲓ	_	_	_	_	_	_	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-5	ⲃⲗⲁⲡⲧⲉⲓ	ⲃⲗⲁⲡⲧⲉⲓ	VERB	V	VerbForm=Fin	0	root	_	_
+5	ⲃⲗⲁⲡⲧⲉⲓ	ⲃⲗⲁⲡⲧⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	OrigLang=grc
 6-7	ⲙⲙⲱⲧⲛ	_	_	_	_	_	_	_	_
 6	ⲙⲙⲱ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲙ̅ⲙⲱ
 7	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	5	obj	_	Orig=ⲧⲛ̅
 8	ⲉⲛⲉϩ	ⲉⲛⲉϩ	ADV	ADV	_	5	advmod	_	_
 9	·	·	PUNCT	PUNCT	_	0	punct	_	_
-10	ⲏ	ⲏ	CCONJ	CONJ	_	13	cc	_	Orig=ⲏ̅
+10	ⲏ	ⲏ	CCONJ	CONJ	Foreign=Yes	13	cc	_	Orig=ⲏ̅|OrigLang=grc
 11-13	ⲁⲓϫⲓ	_	_	_	_	_	_	_	_
 11	ⲁ	ⲁ	AUX	APST	_	13	aux	_	_
 12	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
@@ -2246,20 +2246,20 @@
 14	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	13	obj	_	Entity=(abstract|Orig=ⲟⲩⲁ̅
 15-16	ⲛϭⲟⲛⲥ	_	_	_	_	_	_	_	_
 15	ⲛ	ⲛ	ADP	PREP	_	16	case	_	Orig=ⲛ̅
-16	ϭⲟⲛⲥ	ϭⲟⲛⲥ	NOUN	N	_	14	nmod	_	Entity=abstract)|Orig=ϭⲟⲛ̅ⲥ̅
+16	ϭⲟⲛⲥ	ϭⲟⲛⲥ	NOUN	N	_	13	obj	_	Entity=abstract)|Orig=ϭⲟⲛ̅ⲥ̅
 17	ⲉⲛⲉϩ	ⲉⲛⲉϩ	ADV	ADV	_	13	advmod	_	_
 18	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0067
-# text = ⲉϣⲱⲡⲉ ⲁϩⲉⲛⲛⲉⲡⲁϫⲟⲉⲓⲥ ⲥⲟⲟⲩⲧⲛ ⲛⲧⲁϩⲓⲏ · ⲟⲩⲙⲟⲛⲟⲛ ϫⲉⲛⲧⲱⲧⲛ ⲁⲗⲗⲁ ⲟⲩⲟⲛ ⲛⲓⲙ ·
 # text_en = If the Lord will He can prepare my way of escape, not only from you, but from everybody.
+# text = ⲉϣⲱⲡⲉ ⲁϩⲉⲛⲛⲉⲡⲁϫⲟⲉⲓⲥ ⲥⲟⲟⲩⲧⲛ ⲛⲧⲁϩⲓⲏ · ⲟⲩⲙⲟⲛⲟⲛ ϫⲉⲛⲧⲱⲧⲛ ⲁⲗⲗⲁ ⲟⲩⲟⲛ ⲛⲓⲙ ·
 1	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	7	mark	_	_
 2-6	ⲁϩⲉⲛⲛⲉⲡⲁϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 2	ⲁ	ⲁ	AUX	APST	_	7	aux	_	_
 3	ϩⲉⲛ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	6	det	_	Orig=ϩⲉⲛ̅
 4	ⲛⲉ	ⲡⲉ	PRON	COP	Number=Plur	7	cop	_	_
 5	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	Entity=(person
-6	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	7	vocative	_	Entity=person)|Orig=ϫⲥ̅
+6	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	7	nsubj	_	Entity=person)|Orig=ϫⲥ̅
 7	ⲥⲟⲟⲩⲧⲛ	ⲥⲟⲟⲩⲧⲛ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲥⲟⲟⲩⲧⲛ̅
 8-10	ⲛⲧⲁϩⲓⲏ	_	_	_	_	_	_	_	_
 8	ⲛ	ⲛ	ADP	PREP	_	10	case	_	Orig=ⲛ̅
@@ -2267,27 +2267,27 @@
 10	ϩⲓⲏ	ϩⲓⲏ	NOUN	N	_	7	obj	_	Entity=place)|Orig=ϩⲓⲏ̅
 11	·	·	PUNCT	PUNCT	_	0	punct	_	_
 12-13	ⲟⲩⲙⲟⲛⲟⲛ	_	_	_	_	_	_	_	_
-12	ⲟⲩ	ⲟⲩ	X	FM	Polarity=Neg	13	det	_	_
-13	ⲙⲟⲛⲟⲛ	ⲙⲟⲛⲟⲛ	X	FM	_	7	parataxis	_	_
+12	ⲟⲩ	ⲟⲩ	X	FM	Polarity=Neg	7	advmod	_	_
+13	ⲙⲟⲛⲟⲛ	ⲙⲟⲛⲟⲛ	X	FM	Foreign=Yes	12	fixed	_	OrigLang=grc
 14-15	ϫⲉⲛⲧⲱⲧⲛ	_	_	_	_	_	_	_	_
 14	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	15	mark	_	_
-15	ⲛⲧⲱⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=2|PronType=Prs	13	nsubj	_	Orig=ⲛ̅ⲧⲱⲧⲛ̅
-16	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	17	cc	_	_
+15	ⲛⲧⲱⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=2|PronType=Prs	7	vocative	_	Orig=ⲛ̅ⲧⲱⲧⲛ̅
+16	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	17	cc	_	OrigLang=grc
 17	ⲟⲩⲟⲛ	ⲟⲩⲟⲛ	NOUN	N	_	15	conj	_	Entity=(person
 18	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	17	det	_	Entity=person)|Orig=ⲛⲓ̈ⲙ
 19	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0068
-# text = ⲙⲡⲱⲣ ϭⲉ ⲛⲁⲥⲛⲏⲩ ⲙⲡⲣⲣⲁϣⲉ ⲙⲙⲟⲓ · ϫⲉⲁϩⲉⲛⲡⲉⲧϩⲟⲟⲩ ⲧⲱⲟⲩⲛ ⲉϫⲱⲓ ·
 # text_en = Do not therefore, O my brethren, rejoice over me because evils have risen up against me
-1	ⲙⲡⲱⲣ	ⲙⲡⲱⲣ	VERB	VIMP	VerbForm=Fin	6	dislocated	_	Orig=ⲙ̅ⲡⲱⲣ
-2	ϭⲉ	ϭⲉ	PART	PTC	_	6	advmod	_	_
+# text = ⲙⲡⲱⲣ ϭⲉ ⲛⲁⲥⲛⲏⲩ ⲙⲡⲣⲣⲁϣⲉ ⲙⲙⲟⲓ · ϫⲉⲁϩⲉⲛⲡⲉⲧϩⲟⲟⲩ ⲧⲱⲟⲩⲛ ⲉϫⲱⲓ ·
+1	ⲙⲡⲱⲣ	ⲙⲡⲱⲣ	VERB	VIMP	VerbForm=Fin	0	root	_	Orig=ⲙ̅ⲡⲱⲣ
+2	ϭⲉ	ϭⲉ	PART	PTC	_	1	advmod	_	_
 3-4	ⲛⲁⲥⲛⲏⲩ	_	_	_	_	_	_	_	_
 3	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	Entity=(person
 4	ⲥⲛⲏⲩ	ⲥⲟⲛ	NOUN	N	_	1	vocative	_	Entity=person)
 5-6	ⲙⲡⲣⲣⲁϣⲉ	_	_	_	_	_	_	_	_
 5	ⲙⲡⲣ	ⲙⲡⲣ	ADV	NEG	Polarity=Neg	6	advmod	_	Orig=ⲙ̅ⲡⲣ̅
-6	ⲣⲁϣⲉ	ⲣⲁϣⲉ	VERB	V	VerbForm=Fin	0	root	_	_
+6	ⲣⲁϣⲉ	ⲣⲁϣⲉ	VERB	V	VerbForm=Fin	1	parataxis	_	_
 7-8	ⲙⲙⲟⲓ	_	_	_	_	_	_	_	_
 7	ⲙⲙⲟ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲙ̅ⲙⲟ
 8	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
@@ -2304,12 +2304,12 @@
 17	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0069
+# text_en = for it is written, rejoice not over any man who is about to die; remember that we must all die.
 # text = ϥⲥⲏϩ ⲅⲁⲣ ϫⲉⲙⲡⲣⲣⲁϣⲉ ⲛⲟⲩⲁ ⲉⲁϥⲙⲟⲩ · ⲁⲗⲗⲁ ⲁⲣⲓⲡⲙⲉⲉⲩⲉ ϫⲉⲧⲛⲛⲁⲙⲟⲩ ⲧⲏⲣⲛ ·
-# text_en =  for it is written, rejoice not over any man who is about to die; remember that we must all die.
 1-2	ϥⲥⲏϩ	_	_	_	_	_	_	_	_
 1	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	ⲥⲏϩ	ⲥϩⲁⲓ	VERB	VSTAT	VerbForm=Fin	0	root	_	_
-3	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	_	2	advmod	_	_
+3	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	2	advmod	_	OrigLang=grc
 4-6	ϫⲉⲙⲡⲣⲣⲁϣⲉ	_	_	_	_	_	_	_	_
 4	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	6	mark	_	_
 5	ⲙⲡⲣ	ⲙⲡⲣ	ADV	NEG	Polarity=Neg	6	advmod	_	Orig=ⲙ̅ⲡⲣ̅
@@ -2323,7 +2323,7 @@
 11	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	8	acl	_	Entity=person)
 13	·	·	PUNCT	PUNCT	_	0	punct	_	_
-14	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	15	cc	_	_
+14	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	15	cc	_	OrigLang=grc
 15-17	ⲁⲣⲓⲡⲙⲉⲉⲩⲉ	_	_	_	_	_	_	_	_
 15	ⲁⲣⲓ	ⲉⲓⲣⲉ	VERB	VIMP	VerbForm=Fin	6	conj	_	_
 16	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -2332,16 +2332,16 @@
 18	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	21	mark	_	_
 19	ⲧⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	Orig=ⲧⲛ̅
 20	ⲛⲁ	ⲛⲁ	AUX	FUT	_	21	aux	_	_
-21	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	15	advcl	_	_
+21	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	15	ccomp	_	_
 22-23	ⲧⲏⲣⲛ	_	_	_	_	_	_	_	_
 22	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	21	advmod	_	_
 23	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	22	det	_	Orig=ⲛ̅
 24	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0070
-# text = ⲁⲗⲗⲁ ϫⲉⲁⲓⲣⲙⲁⲧⲟⲓ ⲛⲙⲙⲏⲧⲛ ⲛⲟⲩϩⲟⲟⲩ ⲛⲟⲩⲱⲧ ⲙⲡⲣⲁⲁⲥ ⲉⲧⲃⲏⲏⲧ · ⲁⲗⲗⲁ ⲁⲣⲓⲥ ⲉⲧⲃⲉⲡⲛⲟⲩⲧⲉ ⲛⲧⲉⲧⲛⲃⲱϣ ⲛⲁⲓ ⲙⲡⲉⲭⲁⲙⲱⲥ · ⲛⲧⲁϫⲉⲡⲉⲓϣⲁϫⲉ ⲉⲧⲁⲙⲁⲁⲩ ·
 # text_en = served as a soldier with you at one time, therefore do not treat me with contumely, and for God's sake remove this gag from me, so that I may be able to say the word I would say unto my mother.
-1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	5	cc	_	_
+# text = ⲁⲗⲗⲁ ϫⲉⲁⲓⲣⲙⲁⲧⲟⲓ ⲛⲙⲙⲏⲧⲛ ⲛⲟⲩϩⲟⲟⲩ ⲛⲟⲩⲱⲧ ⲙⲡⲣⲁⲁⲥ ⲉⲧⲃⲏⲏⲧ · ⲁⲗⲗⲁ ⲁⲣⲓⲥ ⲉⲧⲃⲉⲡⲛⲟⲩⲧⲉ ⲛⲧⲉⲧⲛⲃⲱϣ ⲛⲁⲓ ⲙⲡⲉⲭⲁⲙⲱⲥ · ⲛⲧⲁϫⲉⲡⲉⲓϣⲁϫⲉ ⲉⲧⲁⲙⲁⲁⲩ ·
+1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	5	cc	_	OrigLang=grc
 2-5	ϫⲉⲁⲓⲣⲙⲁⲧⲟⲓ	_	_	_	_	_	_	_	_
 2	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
@@ -2365,7 +2365,7 @@
 16	ⲉⲧⲃⲏⲏ	ⲉⲧⲃⲉ	ADP	PREP	_	17	case	_	_
 17	ⲧ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	14	obl	_	_
 18	·	·	PUNCT	PUNCT	_	0	punct	_	_
-19	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	20	cc	_	_
+19	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	20	cc	_	OrigLang=grc
 20-21	ⲁⲣⲓⲥ	_	_	_	_	_	_	_	_
 20	ⲁⲣⲓ	ⲉⲓⲣⲉ	VERB	VIMP	VerbForm=Fin	14	conj	_	_
 21	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
@@ -2383,7 +2383,7 @@
 30-32	ⲙⲡⲉⲭⲁⲙⲱⲥ	_	_	_	_	_	_	_	_
 30	ⲙ	ⲛ	ADP	PREP	_	32	case	_	Orig=ⲙ̅
 31	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	Entity=(object
-32	ⲭⲁⲙⲱⲥ	ⲭⲁⲙⲱⲥ	NOUN	N	_	27	obj	_	Entity=object)
+32	ⲭⲁⲙⲱⲥ	ⲭⲁⲙⲱⲥ	NOUN	N	Foreign=Yes	27	obj	_	Entity=object)|OrigLang=grc
 33	·	·	PUNCT	PUNCT	_	0	punct	_	_
 34-38	ⲛⲧⲁϫⲉⲡⲉⲓϣⲁϫⲉ	_	_	_	_	_	_	_	_
 34	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	36	aux	_	Orig=ⲛ̅
@@ -2398,12 +2398,12 @@
 42	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0071
-# text = ⲙⲙⲁⲧⲟⲓ ⲇⲉ ⲁⲩⲙⲕⲁϩ ⲛϩⲏⲧ · ⲁⲩⲃⲱϣ ⲙⲡⲉⲭⲁⲙⲱⲥ ϩⲛⲣⲱϥ · ⲛⲧⲟϥ ⲇⲉ ⲁϥϯⲡⲉϥⲟⲩⲟⲉⲓ ⲉϩⲟⲩⲛ ⲉⲡⲉϥⲏⲓ :—
 # text_en = And the soldiers shewed compassion and removed the gag from his mouth, and Victor went into his house.
+# text = ⲙⲙⲁⲧⲟⲓ ⲇⲉ ⲁⲩⲙⲕⲁϩ ⲛϩⲏⲧ · ⲁⲩⲃⲱϣ ⲙⲡⲉⲭⲁⲙⲱⲥ ϩⲛⲣⲱϥ · ⲛⲧⲟϥ ⲇⲉ ⲁϥϯⲡⲉϥⲟⲩⲟⲉⲓ ⲉϩⲟⲩⲛ ⲉⲡⲉϥⲏⲓ :—
 1-2	ⲙⲙⲁⲧⲟⲓ	_	_	_	_	_	_	_	_
-1	ⲙ	ⲡ	DET	ART	_	2	det	_	Entity=(person|Orig=ⲙ̅
+1	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(person|Orig=ⲙ̅
 2	ⲙⲁⲧⲟⲓ	ⲙⲁⲧⲟⲓ	NOUN	N	_	6	dislocated	_	Entity=person)
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	6	advmod	_	_
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	6	advmod	_	OrigLang=grc
 4-6	ⲁⲩⲙⲕⲁϩ	_	_	_	_	_	_	_	_
 4	ⲁ	ⲁ	AUX	APST	_	6	aux	_	_
 5	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
@@ -2419,18 +2419,18 @@
 13-15	ⲙⲡⲉⲭⲁⲙⲱⲥ	_	_	_	_	_	_	_	_
 13	ⲙ	ⲛ	ADP	PREP	_	15	case	_	Orig=ⲙ̅
 14	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(object
-15	ⲭⲁⲙⲱⲥ	ⲭⲁⲙⲱⲥ	NOUN	N	_	12	obj	_	Entity=object)
+15	ⲭⲁⲙⲱⲥ	ⲭⲁⲙⲱⲥ	NOUN	N	Foreign=Yes	12	obj	_	Entity=object)|OrigLang=grc
 16-18	ϩⲛⲣⲱϥ	_	_	_	_	_	_	_	_
 16	ϩⲛ	ϩⲛ	ADP	PREP	_	17	case	_	Orig=ϩⲛ̅
 17	ⲣⲱ	ⲣⲟ	NOUN	N	_	12	obl	_	Entity=(object
 18	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	17	det	_	Entity=object)
 19	·	·	PUNCT	PUNCT	_	0	punct	_	_
 20	ⲛⲧⲟϥ	ⲛⲧⲟϥ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	dislocated	_	Orig=ⲛ̅ⲧⲟϥ
-21	ⲇⲉ	ⲇⲉ	PART	PTC	_	24	advmod	_	_
+21	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	24	advmod	_	OrigLang=grc
 22-26	ⲁϥϯⲡⲉϥⲟⲩⲟⲉⲓ	_	_	_	_	_	_	_	_
 22	ⲁ	ⲁ	AUX	APST	_	24	aux	_	_
 23	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
-24	ϯ	ϯ	VERB	V	VerbForm=Fin	12	parataxis	_	_
+24	ϯ	ϯ	VERB	V	VerbForm=Fin	6	parataxis	_	_
 25	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	26	det	_	Entity=(abstract
 26	ⲟⲩⲟⲉⲓ	ⲟⲩⲟⲉⲓ	NOUN	N	_	24	obj	_	Entity=abstract)|Orig=ⲟⲩⲟⲓ
 27	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	24	advmod	_	Orig=ⲉ̅ϩⲟⲩⲛ
@@ -2441,12 +2441,12 @@
 31	:—	:—	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0072
-# text = ⲧⲉϥⲙⲁⲁⲩ ⲇⲉ ⲛⲧⲉⲣⲉⲥⲛⲁⲩ ⲉⲣⲟϥ ⲁⲥϣⲧⲟⲣⲧⲣ ϩⲣⲁⲓ ⲛϩⲏⲧⲥ · ⲁⲥⲧⲱⲟⲩⲛ ϩⲓϫⲙⲡⲉⲥⲑⲣⲟⲛⲟⲥ · ⲡⲉϫⲁⲥ
 # text_en = And when his mother had seen him, she was greatly disturbed within herself, and she rose up on her throne, and she said
+# text = ⲧⲉϥⲙⲁⲁⲩ ⲇⲉ ⲛⲧⲉⲣⲉⲥⲛⲁⲩ ⲉⲣⲟϥ ⲁⲥϣⲧⲟⲣⲧⲣ ϩⲣⲁⲓ ⲛϩⲏⲧⲥ · ⲁⲥⲧⲱⲟⲩⲛ ϩⲓϫⲙⲡⲉⲥⲑⲣⲟⲛⲟⲥ · ⲡⲉϫⲁⲥ
 1-2	ⲧⲉϥⲙⲁⲁⲩ	_	_	_	_	_	_	_	_
 1	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	Entity=(person|Orig=Ⲧⲉϥ
-2	ⲙⲁⲁⲩ	ⲙⲁⲁⲩ	NOUN	N	_	6	dislocated	_	Entity=person)
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	11	advmod	_	_
+2	ⲙⲁⲁⲩ	ⲙⲁⲁⲩ	NOUN	N	_	11	dislocated	_	Entity=person)
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	11	advmod	_	OrigLang=grc
 4-6	ⲛⲧⲉⲣⲉⲥⲛⲁⲩ	_	_	_	_	_	_	_	_
 4	ⲛⲧⲉⲣⲉ	ⲛⲧⲉⲣⲉ	AUX	APREC	_	6	aux	_	Orig=ⲛ̅ⲧⲉⲣⲉ
 5	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -2470,15 +2470,15 @@
 19-21	ϩⲓϫⲙⲡⲉⲥⲑⲣⲟⲛⲟⲥ	_	_	_	_	_	_	_	_
 19	ϩⲓϫⲙ	ϩⲓϫⲛ	ADP	PREP	_	21	case	_	Orig=ϩⲓϫⲙ̅
 20	ⲡⲉⲥ	ⲡⲉⲥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	Entity=(object
-21	ⲑⲣⲟⲛⲟⲥ	ⲑⲣⲟⲛⲟⲥ	NOUN	N	_	18	obl	_	Entity=object)
+21	ⲑⲣⲟⲛⲟⲥ	ⲑⲣⲟⲛⲟⲥ	NOUN	N	Foreign=Yes	18	obl	_	Entity=object)|OrigLang=grc
 22	·	·	PUNCT	PUNCT	_	0	punct	_	_
 23-24	ⲡⲉϫⲁⲥ	_	_	_	_	_	_	_	_
 23	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	11	parataxis	_	_
 24	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0073
-# text = ϫⲉⲛⲧⲟⲕ ⲡⲉ ⲡⲁϣⲏⲣⲉ ⲃⲓⲕⲧⲱⲣ ⲡⲟⲩⲟⲉⲓⲛ ⲛⲛⲁⲃⲁⲗ ·
 # text_en = Is it thou, O my son Victor, thou light of mine eyes?
+# text = ϫⲉⲛⲧⲟⲕ ⲡⲉ ⲡⲁϣⲏⲣⲉ ⲃⲓⲕⲧⲱⲣ ⲡⲟⲩⲟⲉⲓⲛ ⲛⲛⲁⲃⲁⲗ ·
 1-2	ϫⲉⲛⲧⲟⲕ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	2	mark	_	_
 2	ⲛⲧⲟⲕ	ⲛⲧⲟⲕ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	0	root	_	Orig=ⲛ̅ⲧⲟⲕ
@@ -2486,7 +2486,7 @@
 4-5	ⲡⲁϣⲏⲣⲉ	_	_	_	_	_	_	_	_
 4	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	Entity=(person
 5	ϣⲏⲣⲉ	ϣⲏⲣⲉ	NOUN	N	_	2	nsubj	_	_
-6	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	5	appos	_	Entity=person)
+6	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	5	appos	_	Entity=person)|OrigLang=la
 7-8	ⲡⲟⲩⲟⲉⲓⲛ	_	_	_	_	_	_	_	_
 7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	ⲟⲩⲟⲉⲓⲛ	ⲟⲩⲟⲉⲓⲛ	NOUN	N	_	5	appos	_	Orig=ⲟⲩⲟ̅ⲉⲓⲛ
@@ -2497,8 +2497,8 @@
 12	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0074
-# text = ⲛⲉⲥⲛⲁⲩ ⲉⲣⲟϥ ⲉϥⲕⲏⲕⲁϩⲏⲩ · ⲉϥϫⲓⲡⲉⲛⲓⲡⲉ ⲉⲛⲉϥϭⲓϫ ⲙⲛⲛⲉϥⲟⲩⲣⲏⲏⲧⲉ · ⲡⲉϫⲁⲥ ⲛⲁϥ ·
 # text_en = And when she saw that he was naked, and that he was wearing iron fetters on his hands and on his feet, she said unto him
+# text = ⲛⲉⲥⲛⲁⲩ ⲉⲣⲟϥ ⲉϥⲕⲏⲕⲁϩⲏⲩ · ⲉϥϫⲓⲡⲉⲛⲓⲡⲉ ⲉⲛⲉϥϭⲓϫ ⲙⲛⲛⲉϥⲟⲩⲣⲏⲏⲧⲉ · ⲡⲉϫⲁⲥ ⲛⲁϥ ·
 1-3	ⲛⲉⲥⲛⲁⲩ	_	_	_	_	_	_	_	_
 1	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	3	aux	_	_
 2	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -2514,7 +2514,7 @@
 10-12	ⲉϥϫⲓⲡⲉⲛⲓⲡⲉ	_	_	_	_	_	_	_	_
 10	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	12	mark	_	_
 11	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
-12	ϫⲓⲡⲉⲛⲓⲡⲉ	ϫⲓⲡⲉⲛⲓⲡⲉ	VERB	V	VerbForm=Fin	8	advcl	_	Morphs=ϫⲓ-ⲡⲉⲛⲓⲡⲉ
+12	ϫⲓⲡⲉⲛⲓⲡⲉ	ϫⲓⲡⲉⲛⲓⲡⲉ	VERB	V	VerbForm=Fin	3	advcl	_	Morphs=ϫⲓ-ⲡⲉⲛⲓⲡⲉ
 13-15	ⲉⲛⲉϥϭⲓϫ	_	_	_	_	_	_	_	_
 13	ⲉ	ⲉ	ADP	PREP	_	15	case	_	_
 14	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	Entity=(object
@@ -2533,8 +2533,8 @@
 24	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0075
+# text_en = Why art thou in this state, O my son Victor?
 # text = ϫⲉⲉⲧⲃⲉⲟⲩ ⲕϣⲟⲟⲡ ⲛⲧⲉⲓϩⲉ · ⲱ ⲡⲁϣⲏⲣⲉ ⲃⲓⲕⲧⲱⲣ ·
-# text_en =  Why art thou in this state, O my son Victor?
 1-3	ϫⲉⲉⲧⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	5	mark	_	_
 2	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	3	case	_	_
@@ -2547,21 +2547,21 @@
 7	ⲧⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
 8	ϩⲉ	ϩⲉ	NOUN	N	_	5	obl	_	_
 9	·	·	PUNCT	PUNCT	_	0	punct	_	_
-10	ⲱ	ⲱ	PART	PTC	_	12	discourse	_	Orig=ⲱ̅
+10	ⲱ	ⲱ	PART	PTC	Foreign=Yes	12	discourse	_	Orig=ⲱ̅|OrigLang=grc
 11-12	ⲡⲁϣⲏⲣⲉ	_	_	_	_	_	_	_	_
 11	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det	_	Entity=(person
 12	ϣⲏⲣⲉ	ϣⲏⲣⲉ	NOUN	N	_	5	vocative	_	_
-13	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	12	appos	_	Entity=person)
+13	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	12	appos	_	Entity=person)|OrigLang=la
 14	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0076
-# text = ⲡⲗⲏⲛ ⲁⲧⲁⲯⲩⲭⲏ ϣⲧⲟⲣⲧⲣ ⲉⲓⲛⲁⲩ ⲉⲣⲟⲕ ⲛⲧⲉⲓϩⲉ ·
 # text_en = Truly my soul is greatly disturbed when I see thee in this state.
-1	ⲡⲗⲏⲛ	ⲡⲗⲏⲛ	CCONJ	CONJ	_	5	advmod	_	_
+# text = ⲡⲗⲏⲛ ⲁⲧⲁⲯⲩⲭⲏ ϣⲧⲟⲣⲧⲣ ⲉⲓⲛⲁⲩ ⲉⲣⲟⲕ ⲛⲧⲉⲓϩⲉ ·
+1	ⲡⲗⲏⲛ	ⲡⲗⲏⲛ	CCONJ	CONJ	Foreign=Yes	5	advmod	_	OrigLang=grc
 2-4	ⲁⲧⲁⲯⲩⲭⲏ	_	_	_	_	_	_	_	_
 2	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 3	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	Entity=(abstract
-4	ⲯⲩⲭⲏ	ⲯⲩⲭⲏ	NOUN	N	_	5	nsubj	_	Entity=abstract)
+4	ⲯⲩⲭⲏ	ⲯⲩⲭⲏ	NOUN	N	Foreign=Yes	5	nsubj	_	Entity=abstract)|OrigLang=grc
 5	ϣⲧⲟⲣⲧⲣ	ϣⲧⲟⲣⲧⲣ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϣⲧⲟⲣⲧⲣ̅
 6-8	ⲉⲓⲛⲁⲩ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	8	mark	_	_
@@ -2577,55 +2577,53 @@
 14	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0077
-# text = ⲙⲏ ⲛⲧⲁⲕⲗⲓⲃⲉ · ⲏ ⲛⲧⲁⲡⲣⲣⲟ ⲕⲁⲧⲁⲕⲣⲓⲛⲉ ⲙⲙⲟⲕ ⲉⲩⲛⲟⲩⲃ · ϫⲉⲉϥⲛⲁⲣ ⲛⲁⲓ ⲛⲁⲕ ·
 # text_en = Art thou mad? Could not the Emperor have adjudged thee (to pay) money, rather than treat thee in this way?
-1	ⲙⲏ	ⲙⲏ	SCONJ	CONJ	_	5	mark	_	_
+# text = ⲙⲏ ⲛⲧⲁⲕⲗⲓⲃⲉ · ⲏ ⲛⲧⲁⲡⲣⲣⲟ ⲕⲁⲧⲁⲕⲣⲓⲛⲉ ⲙⲙⲟⲕ ⲉⲩⲛⲟⲩⲃ · ϫⲉⲉϥⲛⲁⲣ ⲛⲁⲓ ⲛⲁⲕ ·
+1	ⲙⲏ	ⲙⲏ	CCONJ	CONJ	Foreign=Yes	5	advmod	_	OrigLang=grc
 2-5	ⲛⲧⲁⲕⲗⲓⲃⲉ	_	_	_	_	_	_	_	_
 2	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	Orig=ⲛ̅ⲧ
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 5	ⲗⲓⲃⲉ	ⲗⲓⲃⲉ	VERB	V	VerbForm=Fin	0	root	_	_
 6	·	·	PUNCT	PUNCT	_	0	punct	_	_
-7	ⲏ	ⲏ	CCONJ	CONJ	_	9	cc	_	Orig=ⲏ̅
+7	ⲏ	ⲏ	CCONJ	CONJ	Foreign=Yes	12	cc	_	Orig=ⲏ̅|OrigLang=grc
 8-11	ⲛⲧⲁⲡⲣⲣⲟ	_	_	_	_	_	_	_	_
-8	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	9	advmod	_	Orig=ⲛ̅
-9	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	conj	_	_
+8	ⲛⲧ	ⲉⲣⲉ	PART	CFOC	_	12	mark	_	Orig=ⲛ̅ⲧ
+9	ⲁ	ⲁ	AUX	APST	_	12	aux	_	_
 10	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(person
-11	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	9	nmod	_	Orig=ⲣ̅ⲣⲟ
-12-13	ⲕⲁⲧⲁⲕⲣⲓⲛⲉ	_	_	_	_	_	_	_	_
-12	ⲕⲁⲧⲁ	ⲕⲁⲧⲁ	ADP	PREP	_	13	case	_	_
-13	ⲕⲣⲓⲛⲉ	ⲕⲣⲓⲛⲉ	NOUN	N	_	5	obl	_	Entity=(abstract)person)
-14-15	ⲙⲙⲟⲕ	_	_	_	_	_	_	_	_
-14	ⲙⲙⲟ	ⲛ	ADP	PREP	_	15	case	_	Orig=ⲙ̅ⲙⲟ
-15	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	13	nmod	_	_
-16-18	ⲉⲩⲛⲟⲩⲃ	_	_	_	_	_	_	_	_
-16	ⲉ	ⲉ	ADP	PREP	_	18	case	_	_
-17	ⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	18	det	_	Entity=(substance
-18	ⲛⲟⲩⲃ	ⲛⲟⲩⲃ	NOUN	N	_	13	obl	_	Entity=substance)
-19	·	·	PUNCT	PUNCT	_	0	punct	_	_
-20-24	ϫⲉⲉϥⲛⲁⲣ	_	_	_	_	_	_	_	_
-20	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	24	mark	_	_
-21	ⲉ	ⲉⲣⲉ	PART	CFOC	_	24	mark	_	_
-22	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
-23	ⲛⲁ	ⲛⲁ	AUX	FUT	_	24	aux	_	_
-24	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	5	ccomp	_	Orig=ⲣ̅
-25-26	ⲛⲁⲓ	_	_	_	_	_	_	_	_
-25	ⲛⲁ	ⲛⲁ	ADP	PREP	_	26	case	_	_
-26	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	24	obl	_	_
-27-28	ⲛⲁⲕ	_	_	_	_	_	_	_	_
-27	ⲛⲁ	ⲛⲁ	ADP	PREP	_	28	case	_	_
-28	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	24	obl	_	_
-29	·	·	PUNCT	PUNCT	_	0	punct	_	_
+11	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	12	nsubj	_	Orig=ⲣ̅ⲣⲟ
+12	ⲕⲁⲧⲁⲕⲣⲓⲛⲉ	ⲕⲁⲧⲁⲕⲣⲓⲛⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	5	conj	_	Entity=person)|OrigLang=grc
+13-14	ⲙⲙⲟⲕ	_	_	_	_	_	_	_	_
+13	ⲙⲙⲟ	ⲛ	ADP	PREP	_	14	case	_	Orig=ⲙ̅ⲙⲟ
+14	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	12	obj	_	_
+15-17	ⲉⲩⲛⲟⲩⲃ	_	_	_	_	_	_	_	_
+15	ⲉ	ⲉ	ADP	PREP	_	17	case	_	_
+16	ⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	17	det	_	Entity=(substance
+17	ⲛⲟⲩⲃ	ⲛⲟⲩⲃ	NOUN	N	_	12	obl	_	Entity=substance)
+18	·	·	PUNCT	PUNCT	_	0	punct	_	_
+19-23	ϫⲉⲉϥⲛⲁⲣ	_	_	_	_	_	_	_	_
+19	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	23	mark	_	_
+20	ⲉ	ⲉⲣⲉ	PART	CFOC	_	23	mark	_	_
+21	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	ⲛⲁ	ⲛⲁ	AUX	FUT	_	23	aux	_	_
+23	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	12	ccomp	_	Orig=ⲣ̅
+24-25	ⲛⲁⲓ	_	_	_	_	_	_	_	_
+24	ⲛⲁ	ⲛⲁ	ADP	PREP	_	25	case	_	_
+25	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	23	obl	_	_
+26-27	ⲛⲁⲕ	_	_	_	_	_	_	_	_
+26	ⲛⲁ	ⲛⲁ	ADP	PREP	_	27	case	_	_
+27	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	23	obl	_	_
+28	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0078
-# text = ⲡϩⲁⲅⲓⲟⲥ ⲇⲉ ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲡⲉϫⲁϥ ⲛⲧⲉϥⲙⲁⲁⲩ ·
 # text_en = And Apa Victor said unto his mother
+# text = ⲡϩⲁⲅⲓⲟⲥ ⲇⲉ ⲁⲡⲁ ⲃⲓⲕⲧⲱⲣ ⲡⲉϫⲁϥ ⲛⲧⲉϥⲙⲁⲁⲩ ·
 1-2	ⲡϩⲁⲅⲓⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(person
-2	ϩⲁⲅⲓⲟⲥ	ϩⲁⲅⲓⲟⲥ	NOUN	N	_	6	dislocated	_	_
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	6	advmod	_	_
-4	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	2	appos	_	_
-5	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	4	flat	_	Entity=person)
+2	ϩⲁⲅⲓⲟⲥ	ϩⲁⲅⲓⲟⲥ	NOUN	N	Foreign=Yes	6	dislocated	_	OrigLang=grc
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	6	advmod	_	OrigLang=grc
+4	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	2	appos	_	OrigLang=he
+5	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	4	flat	_	Entity=person)|OrigLang=la
 6-7	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 6	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 7	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -2636,13 +2634,13 @@
 11	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0079
-# text = ϫⲓⲣⲓⲙⲉ ⲛⲉ ⲱ ⲧⲁⲙⲁⲁⲩ · ϫⲉⲉⲩⲛⲁϥⲓ ⲙⲡⲣⲁⲛ ⲛⲃⲓⲕⲧⲱⲣ ⲉⲃⲟⲗ ϩⲙⲡⲟⲩⲏⲓ ⲙⲡϩⲟⲟⲩ :—
 # text_en = Weep thou, my mother, for they are going to remove the name of Victor from thy house this day.
+# text = ϫⲓⲣⲓⲙⲉ ⲛⲉ ⲱ ⲧⲁⲙⲁⲁⲩ · ϫⲉⲉⲩⲛⲁϥⲓ ⲙⲡⲣⲁⲛ ⲛⲃⲓⲕⲧⲱⲣ ⲉⲃⲟⲗ ϩⲙⲡⲟⲩⲏⲓ ⲙⲡϩⲟⲟⲩ :—
 1-2	ϫⲓⲣⲓⲙⲉ	_	_	_	_	_	_	_	_
 1	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	0	root	_	_
 2	ⲣⲓⲙⲉ	ⲣⲓⲙⲉ	NOUN	N	_	1	obj	_	Entity=(abstract)
 3	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	6	aux	_	_
-4	ⲱ	ⲱ	PART	PTC	_	6	discourse	_	Orig=ⲱ̅
+4	ⲱ	ⲱ	PART	PTC	Foreign=Yes	6	discourse	_	Orig=ⲱ̅|OrigLang=grc
 5-6	ⲧⲁⲙⲁⲁⲩ	_	_	_	_	_	_	_	_
 5	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	Entity=(person
 6	ⲙⲁⲁⲩ	ⲙⲁⲁⲩ	NOUN	N	_	1	vocative	_	_
@@ -2652,14 +2650,14 @@
 9	ⲉ	ⲉⲣⲉ	PART	CFOC	_	12	mark	_	_
 10	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
 11	ⲛⲁ	ⲛⲁ	AUX	FUT	_	12	aux	_	_
-12	ϥⲓ	ϥⲓ	VERB	V	VerbForm=Fin	1	advcl	_	_
+12	ϥⲓ	ϥⲓ	VERB	V	VerbForm=Fin	1	ccomp	_	_
 13-15	ⲙⲡⲣⲁⲛ	_	_	_	_	_	_	_	_
 13	ⲙ	ⲛ	ADP	PREP	_	15	case	_	Orig=ⲙ̅
 14	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(abstract
 15	ⲣⲁⲛ	ⲣⲁⲛ	NOUN	N	_	12	obj	_	_
 16-17	ⲛⲃⲓⲕⲧⲱⲣ	_	_	_	_	_	_	_	_
 16	ⲛ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲛ̅
-17	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	_	15	nmod	_	Entity=(person)abstract)
+17	ⲃⲓⲕⲧⲱⲣ	ⲃⲓⲕⲧⲱⲣ	PROPN	NPROP	Foreign=Yes	15	nmod	_	Entity=(person)abstract)|OrigLang=la
 18	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	21	case	_	_
 19-21	ϩⲙⲡⲟⲩⲏⲓ	_	_	_	_	_	_	_	_
 19	ϩⲙ	ϩⲛ	ADP	PREP	_	18	fixed	_	Orig=ϩⲙ̅
@@ -2672,10 +2670,10 @@
 25	:—	:—	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0080
-# text = ⲧⲉⲛⲟⲩ ϭⲉ ⲥⲱⲧⲙ ⲉⲣⲟⲓ ⲧⲁⲙⲁⲁⲩ · ⲛⲧⲁϫⲱ ⲛⲛⲁϣⲁϫⲉ ⲉⲧϩⲟⲗϭ ⲉϩⲟⲩⲛ ⲉⲛⲟⲩⲙⲁⲁϫⲉ ·
 # text_en = Now, therefore, hearken thou unto me, my mother, and I will declare in thine ears my words which are sweet.
+# text = ⲧⲉⲛⲟⲩ ϭⲉ ⲥⲱⲧⲙ ⲉⲣⲟⲓ ⲧⲁⲙⲁⲁⲩ · ⲛⲧⲁϫⲱ ⲛⲛⲁϣⲁϫⲉ ⲉⲧϩⲟⲗϭ ⲉϩⲟⲩⲛ ⲉⲛⲟⲩⲙⲁⲁϫⲉ ·
 1	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	3	advmod	_	Orig=Ⲧⲉⲛⲟⲩ
-2	ϭⲉ	ϭⲉ	DET	ART	PronType=Art	3	det	_	_
+2	ϭⲉ	ϭⲉ	DET	ART	PronType=Art	3	advmod	_	_
 3	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲥⲱⲧⲙ̅
 4-5	ⲉⲣⲟⲓ	_	_	_	_	_	_	_	_
 4	ⲉⲣⲟ	ⲉ	ADP	PREP	_	5	case	_	_
@@ -2696,7 +2694,7 @@
 15	ⲉ	ⲉ	ADP	PREP	_	17	case	_	_
 16	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Entity=(abstract
 17	ϩⲟⲗϭ	ϩⲟⲗϭ	NOUN	N	_	11	obl	_	Orig=ϩⲟⲗϭ̅
-18	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	11	advmod	_	Entity=abstract)
+18	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	17	advmod	_	Entity=abstract)
 19-21	ⲉⲛⲟⲩⲙⲁⲁϫⲉ	_	_	_	_	_	_	_	_
 19	ⲉ	ⲉ	ADP	PREP	_	21	case	_	_
 20	ⲛⲟⲩ	ⲡⲟⲩ	DET	PPOS	Definite=Def|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	21	det	_	Entity=(object
@@ -2704,27 +2702,27 @@
 22	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0081
-# text = ϩⲁⲧϩⲉ ⲙⲉⲛ ⲛϩⲱⲃ ⲛⲓⲙ ⲁⲣⲓϩⲟⲧⲉ ϩⲏⲧϥ ⲙⲡⲛⲟⲩⲧⲉ · ⲛⲧⲉϯⲉⲟⲟⲩ ⲛⲛⲉϥⲡⲉⲧⲟⲩⲁⲁⲃ ·
 # text_en = Before every tiling do thou fear God, and do thou glorify His saints.
+# text = ϩⲁⲧϩⲉ ⲙⲉⲛ ⲛϩⲱⲃ ⲛⲓⲙ ⲁⲣⲓϩⲟⲧⲉ ϩⲏⲧϥ ⲙⲡⲛⲟⲩⲧⲉ · ⲛⲧⲉϯⲉⲟⲟⲩ ⲛⲛⲉϥⲡⲉⲧⲟⲩⲁⲁⲃ ·
 1-3	ϩⲁⲧϩⲉ	_	_	_	_	_	_	_	_
 1	ϩⲁ	ϩⲁ	ADP	PREP	_	3	case	_	_
 2	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Orig=ⲑ
 3	ϩⲉ	ϩⲉ	NOUN	N	_	8	obl	_	Orig=ⲉ
-4	ⲙⲉⲛ	ⲙⲉⲛ	PART	PTC	_	8	advmod	_	_
+4	ⲙⲉⲛ	ⲙⲉⲛ	PART	PTC	Foreign=Yes	8	advmod	_	OrigLang=grc
 5-6	ⲛϩⲱⲃ	_	_	_	_	_	_	_	_
 5	ⲛ	ⲛ	ADP	PREP	_	6	case	_	Orig=ⲛ̅
-6	ϩⲱⲃ	ϩⲱⲃ	NOUN	N	_	8	obl	_	Entity=(abstract
+6	ϩⲱⲃ	ϩⲱⲃ	NOUN	N	_	3	nmod	_	Entity=(abstract
 7	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	6	det	_	Entity=abstract)
 8-9	ⲁⲣⲓϩⲟⲧⲉ	_	_	_	_	_	_	_	_
 8	ⲁⲣⲓ	ⲉⲓⲣⲉ	VERB	VIMP	VerbForm=Fin	0	root	_	_
 9	ϩⲟⲧⲉ	ϩⲟⲧⲉ	NOUN	N	_	8	obj	_	Entity=(abstract
 10-11	ϩⲏⲧϥ	_	_	_	_	_	_	_	_
-10	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	9	nmod	_	_
+10	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	8	obl:npmod	_	_
 11	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	10	det	_	Orig=ϥ̅
 12-14	ⲙⲡⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 12	ⲙ	ⲛ	ADP	PREP	_	14	case	_	Orig=ⲙ̅
 13	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Entity=(person
-14	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	8	obl	_	Entity=person)abstract)
+14	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	9	nmod	_	Entity=person)abstract)
 15	·	·	PUNCT	PUNCT	_	0	punct	_	_
 16-18	ⲛⲧⲉϯⲉⲟⲟⲩ	_	_	_	_	_	_	_	_
 16	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	18	aux	_	Orig=ⲛ̅
@@ -2733,26 +2731,26 @@
 19-21	ⲛⲛⲉϥⲡⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 19	ⲛ	ⲛ	ADP	PREP	_	21	case	_	Orig=ⲛ̅
 20	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	Entity=(person
-21	ⲡⲉⲧⲟⲩⲁⲁⲃ	ⲡⲉⲧⲟⲩⲁⲁⲃ	NOUN	N	_	18	obj	_	Entity=person)|Morphs=ⲡ-ⲉⲧ-ⲟⲩⲁⲁⲃ
+21	ⲡⲉⲧⲟⲩⲁⲁⲃ	ⲡⲉⲧⲟⲩⲁⲁⲃ	NOUN	N	_	18	obl	_	Entity=person)|Morphs=ⲡ-ⲉⲧ-ⲟⲩⲁⲁⲃ
 22	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0082
-# text = ⲛⲉϥⲥⲁⲃⲃⲁⲧⲟⲛ ⲧⲃⲃⲟⲟⲩ ·
 # text_en = Keep holy His sabbaths.
+# text = ⲛⲉϥⲥⲁⲃⲃⲁⲧⲟⲛ ⲧⲃⲃⲟⲟⲩ ·
 1-2	ⲛⲉϥⲥⲁⲃⲃⲁⲧⲟⲛ	_	_	_	_	_	_	_	_
 1	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	Entity=(time
-2	ⲥⲁⲃⲃⲁⲧⲟⲛ	ⲥⲁⲃⲃⲁⲧⲟⲛ	NOUN	N	_	3	nsubj	_	Entity=time)
+2	ⲥⲁⲃⲃⲁⲧⲟⲛ	ⲥⲁⲃⲃⲁⲧⲟⲛ	NOUN	N	Foreign=Yes	3	nsubj	_	Entity=time)|OrigLang=he
 3-4	ⲧⲃⲃⲟⲟⲩ	_	_	_	_	_	_	_	_
 3	ⲧⲃⲃⲟ	ⲧⲃⲃⲟ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲧⲃ̅ⲃⲟ
 4	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
 5	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0083
-# text = ⲛⲛⲏⲥⲧⲉⲓⲁ ϩⲁⲣⲉϩ ⲉⲣⲟⲟⲩ ·
 # text_en = Observe the times of fastings.
+# text = ⲛⲛⲏⲥⲧⲉⲓⲁ ϩⲁⲣⲉϩ ⲉⲣⲟⲟⲩ ·
 1-2	ⲛⲛⲏⲥⲧⲉⲓⲁ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(abstract|Orig=ⲛ̅
-2	ⲛⲏⲥⲧⲉⲓⲁ	ⲛⲏⲥⲧⲉⲓⲁ	NOUN	N	_	3	nsubj	_	Entity=abstract)|Orig=ⲛⲏⲥⲧⲓⲁ
+2	ⲛⲏⲥⲧⲉⲓⲁ	ⲛⲏⲥⲧⲉⲓⲁ	NOUN	N	Foreign=Yes	3	nsubj	_	Entity=abstract)|Orig=ⲛⲏⲥⲧⲓⲁ|OrigLang=grc
 3	ϩⲁⲣⲉϩ	ϩⲁⲣⲉϩ	VERB	V	VerbForm=Fin	0	root	_	_
 4-5	ⲉⲣⲟⲟⲩ	_	_	_	_	_	_	_	_
 4	ⲉⲣⲟ	ⲉ	ADP	PREP	_	5	case	_	_
@@ -2760,26 +2758,26 @@
 6	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0084
-# text = ⲙⲡⲣⲟⲃϣⲉ ⲉⲛⲉⲭⲏⲣⲁ ⲙⲛⲛⲟⲣⲫⲁⲛⲟⲥ · ϫⲉϫⲓⲛⲙⲡϩⲟⲟⲩ ⲉⲧϩⲏ · ⲉⲓⲛⲁϣⲱⲡⲉ ⲛⲟⲣⲫⲁⲛⲟⲥ · ⲛⲁⲧⲉⲓⲱⲧ ⲛⲁⲧⲙⲁⲁⲩ · ϫⲉⲕⲁⲥ ⲧⲙⲛⲧⲛⲁ ⲉⲧⲣⲉⲛⲁⲁⲥ ⲙⲡⲉⲓⲙⲁ · ⲉⲣⲉⲡⲛⲟⲩⲧⲉ ⲛⲁⲧⲁⲁⲥ ⲉⲡϩⲏⲧ ⲛⲟⲩⲁ ·
 # text_en = Neglect neither the widows nor the orphans, for from this day forward I myself shall be an orphan, without father and without mother, so that the lovingkindness which thou shewest in this world will God also shew to some one else.
+# text = ⲙⲡⲣⲟⲃϣⲉ ⲉⲛⲉⲭⲏⲣⲁ ⲙⲛⲛⲟⲣⲫⲁⲛⲟⲥ · ϫⲉϫⲓⲛⲙⲡϩⲟⲟⲩ ⲉⲧϩⲏ · ⲉⲓⲛⲁϣⲱⲡⲉ ⲛⲟⲣⲫⲁⲛⲟⲥ · ⲛⲁⲧⲉⲓⲱⲧ ⲛⲁⲧⲙⲁⲁⲩ · ϫⲉⲕⲁⲥ ⲧⲙⲛⲧⲛⲁ ⲉⲧⲣⲉⲛⲁⲁⲥ ⲙⲡⲉⲓⲙⲁ · ⲉⲣⲉⲡⲛⲟⲩⲧⲉ ⲛⲁⲧⲁⲁⲥ ⲉⲡϩⲏⲧ ⲛⲟⲩⲁ ·
 1-2	ⲙⲡⲣⲟⲃϣⲉ	_	_	_	_	_	_	_	_
 1	ⲙⲡⲣ	ⲙⲡⲣ	ADV	NEG	Polarity=Neg	2	advmod	_	Orig=ⲙ̅ⲡⲣ̅
 2	ⲟⲃϣⲉ	ⲟⲃϣⲉ	VERB	V	VerbForm=Fin	0	root	_	_
 3-5	ⲉⲛⲉⲭⲏⲣⲁ	_	_	_	_	_	_	_	_
 3	ⲉ	ⲉ	ADP	PREP	_	5	case	_	Orig=ⲉ̅
 4	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	5	det	_	Entity=(person
-5	ⲭⲏⲣⲁ	ⲭⲏⲣⲁ	NOUN	N	_	2	obl	_	Entity=person)
+5	ⲭⲏⲣⲁ	ⲭⲏⲣⲁ	NOUN	N	Foreign=Yes	2	obl	_	Entity=person)|OrigLang=grc
 6-8	ⲙⲛⲛⲟⲣⲫⲁⲛⲟⲥ	_	_	_	_	_	_	_	_
 6	ⲙⲛ	ⲙⲛ	ADP	PREP	_	8	cc	_	Orig=ⲙⲛ̅
 7	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	8	det	_	Entity=(person
-8	ⲟⲣⲫⲁⲛⲟⲥ	ⲟⲣⲫⲁⲛⲟⲥ	NOUN	N	_	5	conj	_	Entity=person)
+8	ⲟⲣⲫⲁⲛⲟⲥ	ⲟⲣⲫⲁⲛⲟⲥ	NOUN	N	Foreign=Yes	5	conj	_	Entity=person)|OrigLang=grc
 9	·	·	PUNCT	PUNCT	_	0	punct	_	_
 10-14	ϫⲉϫⲓⲛⲙⲡϩⲟⲟⲩ	_	_	_	_	_	_	_	_
-10	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	14	mark	_	_
+10	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	22	mark	_	_
 11	ϫⲓⲛ	ϫⲓⲛ	ADP	PREP	_	14	case	_	_
-12	ⲙ	ⲛ	ADP	PREP	_	14	case	_	Orig=ⲙ̅
+12	ⲙ	ⲛ	ADP	PREP	_	11	fixed	_	Orig=ⲙ̅
 13	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Entity=(time
-14	ϩⲟⲟⲩ	ϩⲟⲟⲩ	NOUN	N	_	2	ccomp	_	Orig=ⲟⲟⲩ
+14	ϩⲟⲟⲩ	ϩⲟⲟⲩ	NOUN	N	_	22	obl	_	Orig=ⲟⲟⲩ
 15-17	ⲉⲧϩⲏ	_	_	_	_	_	_	_	_
 15	ⲉ	ⲉ	ADP	PREP	_	17	case	_	Orig=ⲉ̅
 16	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Entity=(abstract|Orig=ⲑ
@@ -2789,14 +2787,14 @@
 19	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	22	mark	_	_
 20	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
 21	ⲛⲁ	ⲛⲁ	AUX	FUT	_	22	aux	_	_
-22	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	5	acl	_	_
+22	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	2	advcl	_	_
 23-24	ⲛⲟⲣⲫⲁⲛⲟⲥ	_	_	_	_	_	_	_	_
 23	ⲛ	ⲛ	ADP	PREP	_	24	case	_	Orig=ⲛ̅
-24	ⲟⲣⲫⲁⲛⲟⲥ	ⲟⲣⲫⲁⲛⲟⲥ	NOUN	N	_	22	obl	_	Entity=(person
+24	ⲟⲣⲫⲁⲛⲟⲥ	ⲟⲣⲫⲁⲛⲟⲥ	NOUN	N	Foreign=Yes	22	obl	_	Entity=(person|OrigLang=grc
 25	·	·	PUNCT	PUNCT	_	0	punct	_	_
 26-27	ⲛⲁⲧⲉⲓⲱⲧ	_	_	_	_	_	_	_	_
 26	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	27	det	_	Orig=ⲛ̅
-27	ⲁⲧⲉⲓⲱⲧ	ⲁⲧⲉⲓⲱⲧ	NOUN	N	_	22	obl	_	Morphs=ⲁⲧ-ⲉⲓⲱⲧ
+27	ⲁⲧⲉⲓⲱⲧ	ⲁⲧⲉⲓⲱⲧ	NOUN	N	_	22	parataxis	_	Morphs=ⲁⲧ-ⲉⲓⲱⲧ
 28-29	ⲛⲁⲧⲙⲁⲁⲩ	_	_	_	_	_	_	_	_
 28	ⲛ	ⲛ	ADP	PREP	_	29	case	_	_
 29	ⲁⲧⲙⲁⲁⲩ	ⲁⲧⲙⲁⲁⲩ	NOUN	N	_	27	nmod	_	Entity=person)|Morphs=ⲁⲧ-ⲙⲁⲁⲩ
@@ -2804,10 +2802,10 @@
 31	ϫⲉⲕⲁⲥ	ϫⲉⲕⲁⲁⲥ	SCONJ	CONJ	_	33	mark	_	_
 32-33	ⲧⲙⲛⲧⲛⲁ	_	_	_	_	_	_	_	_
 32	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	Entity=(abstract
-33	ⲙⲛⲧⲛⲁ	ⲙⲛⲧⲛⲁ	NOUN	N	_	2	advcl	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲛⲁ|Orig=ⲙⲛ̅ⲧⲛⲁ
+33	ⲙⲛⲧⲛⲁ	ⲙⲛⲧⲛⲁ	NOUN	N	_	22	dislocated	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲛⲁ|Orig=ⲙⲛ̅ⲧⲛⲁ
 34-38	ⲉⲧⲣⲉⲛⲁⲁⲥ	_	_	_	_	_	_	_	_
 34	ⲉ	ⲉ	PART	PREP	_	35	mark	_	_
-35	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	33	xcomp	_	Orig=ⲧⲣ̅
+35	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	22	xcomp	_	Orig=ⲧⲣ̅
 36	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	37	nsubj	_	_
 37	ⲁⲁ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	35	xcomp	_	_
 38	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	obj	_	_
@@ -2822,7 +2820,7 @@
 45	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	47	nsubj	_	Entity=person)
 46-48	ⲛⲁⲧⲁⲁⲥ	_	_	_	_	_	_	_	_
 46	ⲛⲁ	ⲛⲁ	AUX	FUT	_	47	aux	_	_
-47	ⲧⲁⲁ	ϯ	VERB	V	VerbForm=Fin	37	advcl	_	_
+47	ⲧⲁⲁ	ϯ	VERB	V	VerbForm=Fin	2	advcl	_	_
 48	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	47	obj	_	_
 49-51	ⲉⲡϩⲏⲧ	_	_	_	_	_	_	_	_
 49	ⲉ	ⲉ	ADP	PREP	_	51	case	_	_
@@ -2834,8 +2832,8 @@
 54	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0085
-# text = ⲛϥⲁⲁⲥ ⲛⲙⲙⲁⲓ ϩⲱ ϩⲙⲡⲙⲁ ⲉϯⲛⲁⲃⲱⲕ ⲉⲣⲟϥ · ⲉⲃⲟⲗ ϫⲉⲙⲛⲡⲉⲧⲟ ⲛⲛⲟϭ ⲉⲧⲁⲅⲁⲡⲏ ·
 # text_en = May lie transfer it to me myself in that other world which I am about to enter, for there is nothing greater than love (i, e. charity).
+# text = ⲛϥⲁⲁⲥ ⲛⲙⲙⲁⲓ ϩⲱ ϩⲙⲡⲙⲁ ⲉϯⲛⲁⲃⲱⲕ ⲉⲣⲟϥ · ⲉⲃⲟⲗ ϫⲉⲙⲛⲡⲉⲧⲟ ⲛⲛⲟϭ ⲉⲧⲁⲅⲁⲡⲏ ·
 1-4	ⲛϥⲁⲁⲥ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲛ	AUX	ACONJ	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Orig=ϥ̅
@@ -2853,7 +2851,7 @@
 11	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	14	mark	_	_
 12	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 13	ⲛⲁ	ⲛⲁ	AUX	FUT	_	14	aux	_	_
-14	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	10	advcl	_	_
+14	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	10	acl	_	_
 15-16	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 15	ⲉⲣⲟ	ⲉ	ADP	PREP	_	16	case	_	_
 16	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
@@ -2871,12 +2869,12 @@
 26-28	ⲉⲧⲁⲅⲁⲡⲏ	_	_	_	_	_	_	_	_
 26	ⲉ	ⲉ	ADP	PREP	_	28	case	_	_
 27	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	Entity=(abstract
-28	ⲁⲅⲁⲡⲏ	ⲁⲅⲁⲡⲏ	NOUN	N	_	20	obl	_	Entity=abstract)person)
+28	ⲁⲅⲁⲡⲏ	ⲁⲅⲁⲡⲏ	NOUN	N	Foreign=Yes	25	nmod	_	Entity=abstract)person)|OrigLang=grc
 29	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0086
-# text = ⲛⲉⲧϣⲱⲛⲉ ϭⲙⲡⲉⲩϣⲓⲛⲉ ·
 # text_en = Visit those who are sick.
+# text = ⲛⲉⲧϣⲱⲛⲉ ϭⲙⲡⲉⲩϣⲓⲛⲉ ·
 1-3	ⲛⲉⲧϣⲱⲛⲉ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	4	dislocated	_	Entity=(person
 2	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	3	mark	_	_
@@ -2888,8 +2886,8 @@
 7	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0087
-# text = ϯ ϩⲓⲱⲱϥ ⲛⲟⲩⲁ ⲉϥⲕⲏⲕⲁϩⲏⲩ ·
 # text_en = Clothe him that is naked.
+# text = ϯ ϩⲓⲱⲱϥ ⲛⲟⲩⲁ ⲉϥⲕⲏⲕⲁϩⲏⲩ ·
 1	ϯ	ϯ	VERB	V	VerbForm=Fin	0	root	_	_
 2-3	ϩⲓⲱⲱϥ	_	_	_	_	_	_	_	_
 2	ϩⲓⲱⲱ	ϩⲓ	ADP	PREP	_	3	case	_	_
@@ -2904,11 +2902,11 @@
 9	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0088
-# text = ⲧⲥⲉⲟⲩⲁ ⲉϥⲟⲃⲉ ·
 # text_en = Give drink to him that is thirsty.
+# text = ⲧⲥⲉⲟⲩⲁ ⲉϥⲟⲃⲉ ·
 1-3	ⲧⲥⲉⲟⲩⲁ	_	_	_	_	_	_	_	_
 1	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Entity=(person
-2	ⲥⲉ	ⲥⲉ	NUM	NUM	NumType=Card	3	det	_	_
+2	ⲥⲉ	ⲥⲉ	NUM	NUM	NumType=Card	3	nsubj	_	_
 3	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	0	root	_	_
 4-6	ⲉϥⲟⲃⲉ	_	_	_	_	_	_	_	_
 4	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	6	mark	_	_
@@ -2917,8 +2915,8 @@
 7	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0089
-# text = ϣⲡⲟⲩϣⲙⲙⲟ ⲉⲣⲟ · ⲉⲃⲟⲗ ϫⲉⲉⲓⲛⲁϣⲱⲡⲉ ϩⲱ ⲛϣⲙⲙⲟ · ϫⲓⲛⲡϩⲟⲟⲩ ⲉⲃⲟⲗ · ϫⲉⲕⲁⲥ ⲉⲣⲉⲡⲉⲥⲙⲟⲩ ⲛⲥⲁⲣⲣⲁ ϣⲱⲡⲉ ϩⲓϫⲱ ·
 # text_en = Receive a stranger into thy house, because from this day onward I shall be myself a stranger. Thus shall the blessing of Sarra be upon thee.
+# text = ϣⲡⲟⲩϣⲙⲙⲟ ⲉⲣⲟ · ⲉⲃⲟⲗ ϫⲉⲉⲓⲛⲁϣⲱⲡⲉ ϩⲱ ⲛϣⲙⲙⲟ · ϫⲓⲛⲡϩⲟⲟⲩ ⲉⲃⲟⲗ · ϫⲉⲕⲁⲥ ⲉⲣⲉⲡⲉⲥⲙⲟⲩ ⲛⲥⲁⲣⲣⲁ ϣⲱⲡⲉ ϩⲓϫⲱ ·
 1-3	ϣⲡⲟⲩϣⲙⲙⲟ	_	_	_	_	_	_	_	_
 1	ϣⲡ	ϣⲱⲡ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϣⲡ̅
 2	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	3	det	_	Entity=(person
@@ -2932,7 +2930,7 @@
 9	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 10	ⲛⲁ	ⲛⲁ	AUX	FUT	_	11	aux	_	_
 11	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	1	advcl	_	_
-12	ϩⲱ	ϩⲱⲱ_ⲁⲛⲟⲕ	PRON	IMOD_PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+12	ϩⲱ	ϩⲱⲱ_ⲁⲛⲟⲕ	PRON	IMOD_PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	11	obl:npmod	_	_
 13-14	ⲛϣⲙⲙⲟ	_	_	_	_	_	_	_	_
 13	ⲛ	ⲛ	ADP	PREP	_	14	case	_	_
 14	ϣⲙⲙⲟ	ϣⲙⲙⲟ	NOUN	N	_	11	obl	_	Entity=(person)|Orig=ϣⲙ̅ⲙⲟ
@@ -2941,7 +2939,7 @@
 16	ϫⲓⲛ	ϫⲓⲛ	ADP	PREP	_	18	case	_	_
 17	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	ϩⲟⲟⲩ	ϩⲟⲟⲩ	NOUN	N	_	11	obl	_	Orig=ⲟⲟⲩ
-19	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	18	advmod	_	_
+19	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	11	advmod	_	_
 20	·	·	PUNCT	PUNCT	_	0	punct	_	_
 21	ϫⲉⲕⲁⲥ	ϫⲉⲕⲁⲁⲥ	SCONJ	CONJ	_	27	mark	_	_
 22-24	ⲉⲣⲉⲡⲉⲥⲙⲟⲩ	_	_	_	_	_	_	_	_
@@ -2950,41 +2948,41 @@
 24	ⲥⲙⲟⲩ	ⲥⲙⲟⲩ	NOUN	N	_	27	nsubj	_	_
 25-26	ⲛⲥⲁⲣⲣⲁ	_	_	_	_	_	_	_	_
 25	ⲛ	ⲛ	ADP	PREP	_	26	case	_	_
-26	ⲥⲁⲣⲣⲁ	ⲥⲁⲣⲣⲁ	PROPN	NPROP	_	24	nmod	_	Entity=(person-Sarah)abstract)
+26	ⲥⲁⲣⲣⲁ	ⲥⲁⲣⲣⲁ	PROPN	NPROP	Foreign=Yes	24	nmod	_	Entity=(person-Sarah)abstract)|OrigLang=he
 27	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	11	advcl	_	_
-28	ϩⲓϫⲱ	ϩⲓϫⲛ	PART	PREP	_	27	mark	_	_
+28	ϩⲓϫⲱ	ϩⲓϫⲛ	ADP	PREP	_	18	case	_	_
 29	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0090
-# text = ⲛⲉⲛⲧⲁⲓϫⲟⲟⲩ ⲉⲣⲟ ⲱ ⲧⲁⲙⲁⲁⲩ ⲡⲛⲟⲩⲧⲉ ⲣⲱϣⲉ ⲉⲧⲟⲩⲯⲩⲭⲏ ·
 # text_en = The things which I have spoken unto thee, O my mother, may God make sufficient for thy soul.
+# text = ⲛⲉⲛⲧⲁⲓϫⲟⲟⲩ ⲉⲣⲟ ⲱ ⲧⲁⲙⲁⲁⲩ ⲡⲛⲟⲩⲧⲉ ⲣⲱϣⲉ ⲉⲧⲟⲩⲯⲩⲭⲏ ·
 1-5	ⲛⲉⲛⲧⲁⲓϫⲟⲟⲩ	_	_	_	_	_	_	_	_
-1	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	0	root	_	Entity=(person
+1	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	12	dislocated	_	Entity=(person
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	ϫⲟⲟⲩ	ϫⲟⲟⲩ	VERB	V	VerbForm=Fin	1	acl	_	_
 6	ⲉⲣⲟ	ⲉ_ⲛⲧⲟ	PRON	PREP_PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=2|PronType=Prs	5	obl	_	Entity=person)
-7	ⲱ	ⲱ	PART	PTC	_	9	discourse	_	Orig=ⲱ̅
+7	ⲱ	ⲱ	PART	PTC	Foreign=Yes	9	discourse	_	Orig=ⲱ̅|OrigLang=grc
 8-9	ⲧⲁⲙⲁⲁⲩ	_	_	_	_	_	_	_	_
 8	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det	_	Entity=(person
 9	ⲙⲁⲁⲩ	ⲙⲁⲁⲩ	NOUN	N	_	12	vocative	_	Entity=person)
 10-11	ⲡⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 10	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(person
 11	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	9	appos	_	Entity=person)
-12	ⲣⲱϣⲉ	ⲣⲱϣⲉ	VERB	V	VerbForm=Fin	5	ccomp	_	_
+12	ⲣⲱϣⲉ	ⲣⲱϣⲉ	VERB	V	VerbForm=Fin	0	root	_	_
 13-15	ⲉⲧⲟⲩⲯⲩⲭⲏ	_	_	_	_	_	_	_	_
 13	ⲉ	ⲉ	ADP	PREP	_	15	case	_	_
 14	ⲧⲟⲩ	ⲡⲟⲩ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	15	det	_	Entity=(abstract
-15	ⲯⲩⲭⲏ	ⲯⲩⲭⲏ	NOUN	N	_	12	obl	_	Entity=abstract)
+15	ⲯⲩⲭⲏ	ⲯⲩⲭⲏ	NOUN	N	Foreign=Yes	12	obl	_	Entity=abstract)|OrigLang=grc
 16	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0091
-# text = ⲧⲉⲛⲟⲩ ϭⲉ ⲱ ⲧⲁⲙⲁⲁⲩ · ⲁⲓⲟⲩⲱ ⲉⲓⲉⲓⲙⲉ · ϫⲉϯⲛⲁⲕⲧⲟⲓ ⲁⲛ ⲉⲛⲁⲩ ⲉⲣⲟ ϫⲓⲛⲡⲉⲓⲛⲁⲩ · ⲁⲩⲱ ⲉϣⲱⲡⲉ ϯⲟⲛϩ · ⲛϯⲥⲱⲧⲙ ϫⲉⲁⲓⲙⲟⲩ · ϣⲓⲛⲉ ⲛⲥⲁⲡⲁⲡⲁⲥⲱⲙⲁ · ⲛϯⲉⲛⲧϥ ⲉⲡⲉⲓⲙⲁ ·
 # text_en = Now, therefore, O my mother, I know of a certainty that I shall never have a sight of thee again after this present sight, even if I live. If thou hearest that I have died, seek after my body and bring it to this place.
+# text = ⲧⲉⲛⲟⲩ ϭⲉ ⲱ ⲧⲁⲙⲁⲁⲩ · ⲁⲓⲟⲩⲱ ⲉⲓⲉⲓⲙⲉ · ϫⲉϯⲛⲁⲕⲧⲟⲓ ⲁⲛ ⲉⲛⲁⲩ ⲉⲣⲟ ϫⲓⲛⲡⲉⲓⲛⲁⲩ · ⲁⲩⲱ ⲉϣⲱⲡⲉ ϯⲟⲛϩ · ⲛϯⲥⲱⲧⲙ ϫⲉⲁⲓⲙⲟⲩ · ϣⲓⲛⲉ ⲛⲥⲁⲡⲁⲡⲁⲥⲱⲙⲁ · ⲛϯⲉⲛⲧϥ ⲉⲡⲉⲓⲙⲁ ·
 1	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	9	advmod	_	Orig=Ⲧⲉⲛⲟⲩ
 2	ϭⲉ	ϭⲉ	PART	PTC	_	9	advmod	_	_
-3	ⲱ	ⲱ	PART	PTC	_	5	discourse	_	Orig=ⲱ̅
+3	ⲱ	ⲱ	PART	PTC	Foreign=Yes	5	discourse	_	Orig=ⲱ̅|OrigLang=grc
 4-5	ⲧⲁⲙⲁⲁⲩ	_	_	_	_	_	_	_	_
 4	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	Entity=(person
 5	ⲙⲁⲁⲩ	ⲙⲁⲁⲩ	NOUN	N	_	9	vocative	_	Entity=person)
@@ -3018,24 +3016,24 @@
 28	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	30	mark	_	_
 29-30	ϯⲟⲛϩ	_	_	_	_	_	_	_	_
 29	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	_
-30	ⲟⲛϩ	ⲱⲛϩ	VERB	VSTAT	VerbForm=Fin	17	conj	_	Orig=ⲟⲛϩ̅
+30	ⲟⲛϩ	ⲱⲛϩ	VERB	VSTAT	VerbForm=Fin	21	conj	_	Orig=ⲟⲛϩ̅
 31	·	·	PUNCT	PUNCT	_	0	punct	_	_
 32-34	ⲛϯⲥⲱⲧⲙ	_	_	_	_	_	_	_	_
 32	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	34	aux	_	Orig=ⲛ̅
 33	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
-34	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	30	advcl	_	Orig=ⲥⲱⲧⲙ̅
+34	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	9	advcl	_	Orig=ⲥⲱⲧⲙ̅
 35-38	ϫⲉⲁⲓⲙⲟⲩ	_	_	_	_	_	_	_	_
 35	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	38	mark	_	_
 36	ⲁ	ⲁ	AUX	APST	_	38	aux	_	_
 37	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	38	nsubj	_	_
 38	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	34	ccomp	_	_
 39	·	·	PUNCT	PUNCT	_	0	punct	_	_
-40	ϣⲓⲛⲉ	ϣⲓⲛⲉ	VERB	V	VerbForm=Fin	38	parataxis	_	_
+40	ϣⲓⲛⲉ	ϣⲓⲛⲉ	VERB	V	VerbForm=Fin	17	parataxis	_	_
 41-44	ⲛⲥⲁⲡⲁⲡⲁⲥⲱⲙⲁ	_	_	_	_	_	_	_	_
 41	ⲛⲥⲁ	ⲛⲥⲁ	ADP	PREP	_	42	case	_	Orig=ⲛ̅ⲥⲁ
 42	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	40	obl	_	_
 43	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	44	det	_	Entity=(object
-44	ⲥⲱⲙⲁ	ⲥⲱⲙⲁ	NOUN	N	_	42	nmod	_	Entity=object)
+44	ⲥⲱⲙⲁ	ⲥⲱⲙⲁ	NOUN	N	Foreign=Yes	42	nmod	_	Entity=object)|OrigLang=grc
 45	·	·	PUNCT	PUNCT	_	0	punct	_	_
 46-49	ⲛϯⲉⲛⲧϥ	_	_	_	_	_	_	_	_
 46	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	48	aux	_	Orig=ⲛ̅
@@ -3049,15 +3047,15 @@
 53	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = martyrdom_victor-martyrdom_victor_03_s0092
-# text = ⲙⲡⲣⲉⲓⲛⲉ ⲛⲧϩⲉ ⲙⲡⲁⲉⲓⲱⲧ ⲙⲙⲁⲥⲧϣⲏⲣⲉ · ⲁⲗⲗⲁ ϣⲱⲡⲉ ⲛⲧⲟ ⲛⲛⲁϩⲏⲧ · ⲛⲧⲉϯⲉⲟⲟⲩ ⲙⲡⲛⲟⲩⲧⲉ ⲙⲡⲉϩⲟⲟⲩ ⲙⲛⲧⲉⲩϣⲏ · ϫⲉⲕⲁⲥ ⲉϥⲛⲁⲣⲟⲩⲛⲁ ⲛⲙⲙⲉ ⲙⲡⲉϩⲟⲟⲩ · ⲛⲧⲟⲩⲁⲛⲁⲅⲕⲏ ·
 # text_en = Make not thyself like I unto my father who hateth (his) son, but be thou compassionate. And do thou ascribe glory unto God by day and by night, so that He may shew compassion unto thee in the days of necessity.
+# text = ⲙⲡⲣⲉⲓⲛⲉ ⲛⲧϩⲉ ⲙⲡⲁⲉⲓⲱⲧ ⲙⲙⲁⲥⲧϣⲏⲣⲉ · ⲁⲗⲗⲁ ϣⲱⲡⲉ ⲛⲧⲟ ⲛⲛⲁϩⲏⲧ · ⲛⲧⲉϯⲉⲟⲟⲩ ⲙⲡⲛⲟⲩⲧⲉ ⲙⲡⲉϩⲟⲟⲩ ⲙⲛⲧⲉⲩϣⲏ · ϫⲉⲕⲁⲥ ⲉϥⲛⲁⲣⲟⲩⲛⲁ ⲛⲙⲙⲉ ⲙⲡⲉϩⲟⲟⲩ · ⲛⲧⲟⲩⲁⲛⲁⲅⲕⲏ ·
 1-2	ⲙⲡⲣⲉⲓⲛⲉ	_	_	_	_	_	_	_	_
 1	ⲙⲡⲣ	ⲙⲡⲣ	ADV	NEG	Polarity=Neg	2	advmod	_	Orig=ⲙ̅ⲡⲣ̅
 2	ⲉⲓⲛⲉ	ⲉⲓⲛⲉ	VERB	V	VerbForm=Fin	0	root	_	_
 3-5	ⲛⲧϩⲉ	_	_	_	_	_	_	_	_
 3	ⲛ	ⲛ	ADP	PREP	_	5	case	_	Orig=ⲛ̅
 4	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Orig=ⲑ
-5	ϩⲉ	ϩⲉ	NOUN	N	_	2	obj	_	Orig=ⲉ
+5	ϩⲉ	ϩⲉ	NOUN	N	_	2	obl	_	Orig=ⲉ
 6-8	ⲙⲡⲁⲉⲓⲱⲧ	_	_	_	_	_	_	_	_
 6	ⲙ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲙ̅
 7	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	Entity=(person
@@ -3066,25 +3064,25 @@
 9	ⲙ	ⲛ	ADP	PREP	_	10	case	_	Orig=ⲙ̅
 10	ⲙⲁⲥⲧϣⲏⲣⲉ	ⲙⲁⲥⲧϣⲏⲣⲉ	NOUN	N	_	8	nmod	_	Entity=person)|Morphs=ⲙⲁⲥⲧ-ϣⲏⲣⲉ|Orig=ⲙⲁⲥ̅ⲧ̅ϣⲏⲣⲉ
 11	·	·	PUNCT	PUNCT	_	0	punct	_	_
-12	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	13	cc	_	_
+12	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	13	cc	_	OrigLang=grc
 13	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	2	conj	_	_
-14	ⲛⲧⲟ	ⲛⲧⲟ	PRON	PPERI	Definite=Def|Gender=Fem|Number=Sing|Person=2|PronType=Prs	13	dislocated	_	Orig=ⲛ̅ⲧⲟ
+14	ⲛⲧⲟ	ⲛⲧⲟ	PRON	PPERI	Definite=Def|Gender=Fem|Number=Sing|Person=2|PronType=Prs	13	obl:npmod	_	Orig=ⲛ̅ⲧⲟ
 15-16	ⲛⲛⲁϩⲏⲧ	_	_	_	_	_	_	_	_
 15	ⲛ	ⲛ	ADP	PREP	_	16	case	_	Orig=ⲛ̅
 16	ⲛⲁϩⲏⲧ	ⲛⲁϩⲏⲧ	NOUN	N	_	13	obl	_	Entity=(abstract)|Morphs=ⲛⲁ-ⲏⲧ|Orig=ⲛⲁⲏⲧ
 17	·	·	PUNCT	PUNCT	_	0	punct	_	_
 18-20	ⲛⲧⲉϯⲉⲟⲟⲩ	_	_	_	_	_	_	_	_
 18	ⲛⲧⲉ	ⲛⲧⲉ	AUX	ACONJ	_	20	aux	_	Orig=ⲛ̅ⲧⲉ
-19	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
-20	ⲉⲟⲟⲩ	ⲉⲟⲟⲩ	NOUN	N	_	2	advcl	_	Entity=(abstract)
+19	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	_	20	det	_	_
+20	ⲉⲟⲟⲩ	ⲉⲟⲟⲩ	NOUN	N	_	13	nsubj	_	Entity=(abstract)
 21-23	ⲙⲡⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 21	ⲙ	ⲛ	ADP	PREP	_	23	case	_	Orig=ⲙ̅
 22	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	Entity=(person
-23	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	20	obl	_	Entity=person)
+23	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	20	nmod	_	Entity=person)
 24-26	ⲙⲡⲉϩⲟⲟⲩ	_	_	_	_	_	_	_	_
 24	ⲙ	ⲛ	ADP	PREP	_	26	case	_	Orig=ⲙ̅
 25	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	Entity=(time
-26	ϩⲟⲟⲩ	ϩⲟⲟⲩ	NOUN	N	_	20	obl	_	Entity=time)
+26	ϩⲟⲟⲩ	ϩⲟⲟⲩ	NOUN	N	_	20	nmod	_	Entity=time)
 27-29	ⲙⲛⲧⲉⲩϣⲏ	_	_	_	_	_	_	_	_
 27	ⲙⲛ	ⲙⲛ	ADP	PREP	_	29	cc	_	Orig=ⲙⲛ̅
 28	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	Entity=(time
@@ -3095,7 +3093,7 @@
 32	ⲉ	ⲉⲣⲉ	PART	CFOC	_	35	mark	_	_
 33	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
 34	ⲛⲁ	ⲛⲁ	AUX	FUT	_	35	aux	_	_
-35	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	20	advcl	_	Orig=ⲣ̅
+35	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	2	advcl	_	Orig=ⲣ̅
 36	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	37	det	_	Entity=(abstract
 37	ⲛⲁ	ⲛⲁ	NOUN	N	_	35	obj	_	Entity=abstract)
 38-39	ⲛⲙⲙⲉ	_	_	_	_	_	_	_	_
@@ -3109,6 +3107,6 @@
 44-46	ⲛⲧⲟⲩⲁⲛⲁⲅⲕⲏ	_	_	_	_	_	_	_	_
 44	ⲛ	ⲛ	ADP	PREP	_	46	case	_	Orig=ⲛ̅
 45	ⲧⲟⲩ	ⲡⲟⲩ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	46	det	_	Entity=(abstract
-46	ⲁⲛⲁⲅⲕⲏ	ⲁⲛⲁⲅⲕⲏ	NOUN	N	_	42	nmod	_	Entity=abstract)time)
+46	ⲁⲛⲁⲅⲕⲏ	ⲁⲛⲁⲅⲕⲏ	NOUN	N	Foreign=Yes	35	obl	_	Entity=abstract)time)|OrigLang=grc
 47	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
