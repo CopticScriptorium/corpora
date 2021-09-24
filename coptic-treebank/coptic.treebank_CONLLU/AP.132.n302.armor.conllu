@@ -1,7 +1,7 @@
 # newdoc id = coptic.treebank:AP.132.n302.armor
 # sent_id = coptic_treebank-AP_132_n302_armor_s0001
-# text = ⲁⲩϫⲛⲉⲟⲩϩⲗⲗⲟ ϫⲉⲉⲧⲃⲉⲟⲩ ⲛⲇⲁⲓⲙⲱⲛ ⲙⲓϣⲉ ⲛⲙⲙⲁⲛ ⲛⲧⲉⲓϩⲉ ⲧⲏⲣⲥ ·
 # text_en = ...
+# text = ⲁⲩϫⲛⲉⲟⲩϩⲗⲗⲟ ϫⲉⲉⲧⲃⲉⲟⲩ ⲛⲇⲁⲓⲙⲱⲛ ⲙⲓϣⲉ ⲛⲙⲙⲁⲛ ⲛⲧⲉⲓϩⲉ ⲧⲏⲣⲥ ·
 1-5	ⲁⲩϫⲛⲉⲟⲩϩⲗⲗⲟ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
@@ -14,7 +14,7 @@
 8	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	11	obl	_	_
 9-10	ⲛⲇⲁⲓⲙⲱⲛ	_	_	_	_	_	_	_	_
 9	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	10	det	_	Entity=(person|Orig=ⲛ̇
-10	ⲇⲁⲓⲙⲱⲛ	ⲇⲁⲓⲙⲱⲛ	NOUN	N	_	11	nsubj	_	Entity=person)|Orig=ⲇⲉⲙⲱⲛ
+10	ⲇⲁⲓⲙⲱⲛ	ⲇⲁⲓⲙⲱⲛ	NOUN	N	Foreign=Yes	11	nsubj	_	Entity=person)|Orig=ⲇⲉⲙⲱⲛ|OrigLang=grc
 11	ⲙⲓϣⲉ	ⲙⲓϣⲉ	VERB	V	VerbForm=Fin	3	ccomp	_	_
 12-13	ⲛⲙⲙⲁⲛ	_	_	_	_	_	_	_	_
 12	ⲛⲙⲙⲁ	ⲙⲛ	ADP	PREP	_	13	case	_	_
@@ -29,8 +29,8 @@
 19	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-AP_132_n302_armor_s0002
-# text = ⲡⲉϫⲉⲡϩⲗⲗⲟ ϫⲉⲉⲃⲟⲗ ϫⲉⲁⲛⲛⲟⲩϫⲉ ⲉⲃⲟⲗ ⲛⲛⲉⲛϩⲟⲡⲗⲟⲛ · ⲉⲧⲉⲛⲁⲓ ⲛⲉ ⲡⲥⲱϣ ⲙⲛⲡⲉⲑⲃⲃⲓⲟ ⲙⲛⲡⲧⲙⲕⲁⲗⲁⲁⲩ ⲛⲁⲛ ⲙⲛⲧϩⲩⲡⲟⲙⲟⲛⲏ ⲻ
 # text_en = ...
+# text = ⲡⲉϫⲉⲡϩⲗⲗⲟ ϫⲉⲉⲃⲟⲗ ϫⲉⲁⲛⲛⲟⲩϫⲉ ⲉⲃⲟⲗ ⲛⲛⲉⲛϩⲟⲡⲗⲟⲛ · ⲉⲧⲉⲛⲁⲓ ⲛⲉ ⲡⲥⲱϣ ⲙⲛⲡⲉⲑⲃⲃⲓⲟ ⲙⲛⲡⲧⲙⲕⲁⲗⲁⲁⲩ ⲛⲁⲛ ⲙⲛⲧϩⲩⲡⲟⲙⲟⲛⲏ ⲻ
 1-3	ⲡⲉϫⲉⲡϩⲗⲗⲟ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲉ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 2	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(person
@@ -47,7 +47,7 @@
 11-13	ⲛⲛⲉⲛϩⲟⲡⲗⲟⲛ	_	_	_	_	_	_	_	_
 11	ⲛ	ⲛ	ADP	PREP	_	13	case	_	_
 12	ⲛⲉⲛ	ⲡⲉⲛ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det	_	Entity=(abstract
-13	ϩⲟⲡⲗⲟⲛ	ϩⲟⲡⲗⲟⲛ	NOUN	N	_	9	obj	_	Entity=abstract)
+13	ϩⲟⲡⲗⲟⲛ	ϩⲟⲡⲗⲟⲛ	NOUN	N	Foreign=Yes	9	obj	_	Entity=abstract)|OrigLang=grc
 14	·	·	PUNCT	PUNCT	_	16	punct	_	_
 15-16	ⲉⲧⲉⲛⲁⲓ	_	_	_	_	_	_	_	_
 15	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	16	mark	_	_
@@ -72,6 +72,6 @@
 30-32	ⲙⲛⲧϩⲩⲡⲟⲙⲟⲛⲏ	_	_	_	_	_	_	_	_
 30	ⲙⲛ	ⲙⲛ	ADP	PREP	_	32	case	_	_
 31	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	Entity=(abstract|Orig=ⲑ
-32	ϩⲩⲡⲟⲙⲟⲛⲏ	ϩⲩⲡⲟⲙⲟⲛⲏ	NOUN	N	_	19	conj	_	Entity=abstract)|Orig=ⲩⲡⲟⲙⲟⲛⲏ
+32	ϩⲩⲡⲟⲙⲟⲛⲏ	ϩⲩⲡⲟⲙⲟⲛⲏ	NOUN	N	Foreign=Yes	19	conj	_	Entity=abstract)|Orig=ⲩⲡⲟⲙⲟⲛⲏ|OrigLang=grc
 33	ⲻ	ⲻ	PUNCT	PUNCT	_	1	punct	_	_
 

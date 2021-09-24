@@ -1,12 +1,12 @@
 # newdoc id = coptic.treebank:AP.031.philagrios.01
 # sent_id = coptic_treebank-AP_031_philagrios_01_s0001
-# text = ⲛⲉⲟⲩⲛⲟⲩⲁ ⲇⲉ ⲛⲧⲉⲛⲉⲧⲟⲩⲁⲁⲃ ⲉϣⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉⲫⲓⲗⲁⲅⲣⲓⲟⲥ · ⲉϥⲟⲩⲏϩ ϩⲛⲧϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ · ⲉϥⲣϩⲱⲃ ϩⲛⲟⲩϩⲓⲥⲉ · ϣⲁⲛⲧⲉϥϫⲡⲟ ⲛⲁϥ ⲙⲡⲉϥⲟⲉⲓⲕ ⲙⲙⲓⲛⲙⲙⲟϥ .
 # text_en = One of the saints, called Philagrios, lived in Jerusalem, working hard until he earned his own bread.
+# text = ⲛⲉⲟⲩⲛⲟⲩⲁ ⲇⲉ ⲛⲧⲉⲛⲉⲧⲟⲩⲁⲁⲃ ⲉϣⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉⲫⲓⲗⲁⲅⲣⲓⲟⲥ · ⲉϥⲟⲩⲏϩ ϩⲛⲧϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ · ⲉϥⲣϩⲱⲃ ϩⲛⲟⲩϩⲓⲥⲉ · ϣⲁⲛⲧⲉϥϫⲡⲟ ⲛⲁϥ ⲙⲡⲉϥⲟⲉⲓⲕ ⲙⲙⲓⲛⲙⲙⲟϥ .
 1-3	ⲛⲉⲟⲩⲛⲟⲩⲁ	_	_	_	_	_	_	_	_
 1	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	2	aux	_	Orig=Ⲛⲉ̇
 2	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	0	root	_	Orig=ⲟⲩⲛ̇
 3	ⲟⲩⲁ	ⲟⲩⲁ	NOUN	N	_	2	nsubj	_	Entity=(person
-4	ⲇⲉ	ⲇⲉ	PART	PTC	_	2	advmod	_	_
+4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	2	advmod	_	OrigLang=grc
 5-8	ⲛⲧⲉⲛⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 5	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	6	case	_	Orig=ⲛ̇ⲧⲉ
 6	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	3	nmod	_	Entity=(person
@@ -22,7 +22,7 @@
 14	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
 15-16	ϫⲉⲫⲓⲗⲁⲅⲣⲓⲟⲥ	_	_	_	_	_	_	_	_
 15	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	16	mark	_	_
-16	ⲫⲓⲗⲁⲅⲣⲓⲟⲥ	ⲫⲓⲗⲁⲅⲣⲓⲟⲥ	PROPN	NPROP	_	12	xcomp	_	Orig=ⲫⲓ̇ⲗⲁⲅⲣⲓ̇ⲟⲥ
+16	ⲫⲓⲗⲁⲅⲣⲓⲟⲥ	ⲫⲓⲗⲁⲅⲣⲓⲟⲥ	PROPN	NPROP	Foreign=Yes	12	xcomp	_	Orig=ⲫⲓ̇ⲗⲁⲅⲣⲓ̇ⲟⲥ|OrigLang=grc
 17	·	·	PUNCT	PUNCT	_	12	punct	_	_
 18-20	ⲉϥⲟⲩⲏϩ	_	_	_	_	_	_	_	_
 18	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	20	mark	_	Orig=ⲉ̇
@@ -31,7 +31,7 @@
 21-23	ϩⲛⲧϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ	_	_	_	_	_	_	_	_
 21	ϩⲛ	ϩⲛ	ADP	PREP	_	23	case	_	Orig=ϩⲛ̇
 22	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	Entity=(place-Jerusalem|Orig=ⲑ︦
-23	ϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ	ϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ	PROPN	NPROP	_	20	obl	_	Entity=place-Jerusalem)|Orig=ⲓ̇︦︦︦︦ⲗ︦ⲏ︦ⲙ︦
+23	ϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ	ϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ	PROPN	NPROP	Foreign=Yes	20	obl	_	Entity=place-Jerusalem)|Orig=ⲓ̇︦︦︦︦ⲗ︦ⲏ︦ⲙ︦|OrigLang=he
 24	·	·	PUNCT	PUNCT	_	20	punct	_	_
 25-27	ⲉϥⲣϩⲱⲃ	_	_	_	_	_	_	_	_
 25	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	27	mark	_	Orig=ⲉ̇
@@ -59,12 +59,12 @@
 42	.	.	PUNCT	PUNCT	_	2	punct	_	Orig=·
 
 # sent_id = coptic_treebank-AP_031_philagrios_01_s0002
-# text = ⲛϩⲱⲥⲟⲛ ⲇⲉ ϥⲁϩⲉⲣⲁⲧϥ ϩⲛⲧⲁⲅⲱⲣⲁ ⲉϯ ⲙⲡⲉϥϩⲱⲃ ⲛϭⲓϫ ⲉⲃⲟⲗ · ⲉⲓⲥϩⲏⲏⲧⲉ ϩⲛⲟⲩϣⲥⲛⲉ ⲁϥϭⲓⲛⲉ ⲛⲟⲩⲃⲁⲗⲗⲁⲧⲓⲟⲛ ⲉⲩⲛⲙⲏⲧ ⲛϣⲉ ⲛϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ ϩⲓⲱⲱⲥ .
 # text_en = While he stood in the marketplace selling his handiwork, Behold! Suddenly he found a bag filled with a thousand gold coins!
+# text = ⲛϩⲱⲥⲟⲛ ⲇⲉ ϥⲁϩⲉⲣⲁⲧϥ ϩⲛⲧⲁⲅⲱⲣⲁ ⲉϯ ⲙⲡⲉϥϩⲱⲃ ⲛϭⲓϫ ⲉⲃⲟⲗ · ⲉⲓⲥϩⲏⲏⲧⲉ ϩⲛⲟⲩϣⲥⲛⲉ ⲁϥϭⲓⲛⲉ ⲛⲟⲩⲃⲁⲗⲗⲁⲧⲓⲟⲛ ⲉⲩⲛⲙⲏⲧ ⲛϣⲉ ⲛϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ ϩⲓⲱⲱⲥ .
 1-2	ⲛϩⲱⲥⲟⲛ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲛ	PART	PREP	_	5	mark	_	Orig=Ⲛ
-2	ϩⲱⲥⲟⲛ	ϩⲱⲥⲟⲛ	CCONJ	CONJ	_	1	fixed	_	_
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	5	advmod	_	Orig=ⲇⲉ̇
+2	ϩⲱⲥⲟⲛ	ϩⲱⲥⲟⲛ	CCONJ	CONJ	Foreign=Yes	1	fixed	_	OrigLang=grc
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	5	advmod	_	Orig=ⲇⲉ̇|OrigLang=grc
 4-7	ϥⲁϩⲉⲣⲁⲧϥ	_	_	_	_	_	_	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	ⲁϩⲉ	ⲱϩⲉ	VERB	V	VerbForm=Fin	27	advcl	_	Orig=ⲁ̇ϩⲉ
@@ -73,7 +73,7 @@
 8-10	ϩⲛⲧⲁⲅⲱⲣⲁ	_	_	_	_	_	_	_	_
 8	ϩⲛ	ϩⲛ	ADP	PREP	_	10	case	_	Orig=ϩⲛ̇
 9	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Entity=(place
-10	ⲁⲅⲱⲣⲁ	ⲁⲅⲱⲣⲁ	NOUN	N	_	5	obl	_	Entity=place)
+10	ⲁⲅⲱⲣⲁ	ⲁⲅⲱⲣⲁ	NOUN	N	Foreign=Yes	5	obl	_	Entity=place)|OrigLang=grc
 11-12	ⲉϯ	_	_	_	_	_	_	_	_
 11	ⲉ	ⲉ	PART	PREP	_	12	mark	_	Orig=ⲉ̇
 12	ϯ	ϯ	VERB	V	VerbForm=Inf	5	xcomp	_	Orig=ϯ̇
@@ -100,7 +100,7 @@
 28-30	ⲛⲟⲩⲃⲁⲗⲗⲁⲧⲓⲟⲛ	_	_	_	_	_	_	_	_
 28	ⲛ	ⲛ	ADP	PREP	_	30	case	_	_
 29	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	30	det	_	Entity=(object
-30	ⲃⲁⲗⲗⲁⲧⲓⲟⲛ	ⲃⲁⲗⲗⲁⲧⲓⲟⲛ	NOUN	N	_	27	obj	_	Orig=ⲃⲁⲗⲗⲁⲧⲓ̇ⲟⲛ
+30	ⲃⲁⲗⲗⲁⲧⲓⲟⲛ	ⲃⲁⲗⲗⲁⲧⲓⲟⲛ	NOUN	N	Foreign=Yes	27	obj	_	Orig=ⲃⲁⲗⲗⲁⲧⲓ̇ⲟⲛ|OrigLang=grc
 31-33	ⲉⲩⲛⲙⲏⲧ	_	_	_	_	_	_	_	_
 31	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	32	mark	_	Orig=ⲉ̇
 32	ⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	30	acl	_	Orig=ⲩⲛ̇
@@ -110,15 +110,15 @@
 35	ϣⲉ	ϣⲉ	NUM	NUM	NumType=Card	37	nummod	_	_
 36-37	ⲛϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ	_	_	_	_	_	_	_	_
 36	ⲛ	ⲛ	ADP	PREP	_	37	case	_	Orig=ⲛ̇
-37	ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ	ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ	NOUN	N	_	32	nsubj	_	Entity=object)|Orig=ϩⲟⲗⲟⲕⲟⲧⲧⲓ̇ⲛⲟⲥ
+37	ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ	ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ	NOUN	N	Foreign=Yes	32	nsubj	_	Entity=object)|Orig=ϩⲟⲗⲟⲕⲟⲧⲧⲓ̇ⲛⲟⲥ|OrigLang=grc
 38-39	ϩⲓⲱⲱⲥ	_	_	_	_	_	_	_	_
 38	ϩⲓⲱⲱ	ϩⲓ	ADP	PREP	_	39	case	_	Orig=ϩⲓ̇ⲱⲱ
 39	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	obl	_	Entity=object)
 40	.	.	PUNCT	PUNCT	_	27	punct	_	Orig=·
 
 # sent_id = coptic_treebank-AP_031_philagrios_01_s0003
-# text = ⲁϥⲁϩⲉⲣⲁⲧϥ ϩⲙⲡⲉϥⲙⲁ ⲉϥϫⲱ ⲙⲙⲟⲥ · ϫⲉϩⲁⲡⲥ ⲡⲉ ⲉⲧⲣⲉⲡⲉⲛⲧⲁϥⲥⲟⲣⲙⲉⲥ ⲉⲓ .
 # text_en = He stood in place, saying, 'Certainly the one who has lost it is coming.'
+# text = ⲁϥⲁϩⲉⲣⲁⲧϥ ϩⲙⲡⲉϥⲙⲁ ⲉϥϫⲱ ⲙⲙⲟⲥ · ϫⲉϩⲁⲡⲥ ⲡⲉ ⲉⲧⲣⲉⲡⲉⲛⲧⲁϥⲥⲟⲣⲙⲉⲥ ⲉⲓ .
 1-5	ⲁϥⲁϩⲉⲣⲁⲧϥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=ⲁ̇
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -154,8 +154,8 @@
 27	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=·ⲻ
 
 # sent_id = coptic_treebank-AP_031_philagrios_01_s0004
-# text = ⲁⲩⲱ ⲉⲓⲥ ⲡⲉⲧⲙⲙⲁⲩ ⲁϥⲉⲓ ⲉϥⲣⲓⲙⲉ .
 # text_en = And behold! That one came, crying.
+# text = ⲁⲩⲱ ⲉⲓⲥ ⲡⲉⲧⲙⲙⲁⲩ ⲁϥⲉⲓ ⲉϥⲣⲓⲙⲉ .
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	8	cc	_	Orig=Ⲁⲩⲱ̇
 2	ⲉⲓⲥ	ⲉⲓⲥ	PART	PTC	_	8	advmod	_	Orig=ⲉⲓ̇ⲥ
 3-5	ⲡⲉⲧⲙⲙⲁⲩ	_	_	_	_	_	_	_	_
@@ -173,14 +173,14 @@
 12	.	.	PUNCT	PUNCT	_	8	punct	_	Orig=·
 
 # sent_id = coptic_treebank-AP_031_philagrios_01_s0005
-# text = ⲁϥϭⲟⲡϥ ⲇⲉ ⲛϭⲓ ⲡϩⲗⲗⲟ ⲁϥϫⲓⲧϥ ⲛⲥⲁⲟⲩⲥⲁ ⲁϥⲧⲁⲁⲥ ⲛⲁϥ ·
 # text_en = The old man grabbed him and took him aside and he gave it to him.
+# text = ⲁϥϭⲟⲡϥ ⲇⲉ ⲛϭⲓ ⲡϩⲗⲗⲟ ⲁϥϫⲓⲧϥ ⲛⲥⲁⲟⲩⲥⲁ ⲁϥⲧⲁⲁⲥ ⲛⲁϥ ·
 1-4	ⲁϥϭⲟⲡϥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=ⲁ̇
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	ϭⲟⲡ	ϭⲱⲡⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϭⲟⲡ̇
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
-5	ⲇⲉ	ⲇⲉ	PART	PTC	_	3	advmod	_	_
+5	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
 6	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	8	case	_	Orig=ⲛ̇ϭⲓ̇
 7-8	ⲡϩⲗⲗⲟ	_	_	_	_	_	_	_	_
 7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(person|Orig=ⲡ̇
@@ -205,8 +205,8 @@
 22	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-AP_031_philagrios_01_s0006
-# text = ⲡⲉⲧⲙⲙⲁⲩ ⲇⲉ ⲁϥⲁⲙⲁϩⲧⲉ ⲙⲙⲟϥ ⲉϥⲟⲩⲱϣ ⲉϯ ⲛⲟⲩⲱⲛ ⲛⲁϥ · ⲡϩⲗⲗⲟ ⲇⲉ ⲙⲡⲉϥⲟⲩⲱϣ ⲉϫⲓ .
 # text_en = and that one held him, wanting to give him a portion, but the old man did not want to take it.
+# text = ⲡⲉⲧⲙⲙⲁⲩ ⲇⲉ ⲁϥⲁⲙⲁϩⲧⲉ ⲙⲙⲟϥ ⲉϥⲟⲩⲱϣ ⲉϯ ⲛⲟⲩⲱⲛ ⲛⲁϥ · ⲡϩⲗⲗⲟ ⲇⲉ ⲙⲡⲉϥⲟⲩⲱϣ ⲉϫⲓ .
 1-3	ⲡⲉⲧⲙⲙⲁⲩ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	dislocated	_	Entity=(person
 2	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	3	mark	_	_
@@ -236,7 +236,7 @@
 20-21	ⲡϩⲗⲗⲟ	_	_	_	_	_	_	_	_
 20	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	Entity=(person|Orig=ⲡ̇
 21	ϩⲗⲗⲟ	ϩⲗⲗⲟ	NOUN	N	_	25	dislocated	_	Entity=person)|Orig=ϩ̇ⲗⲗⲟ
-22	ⲇⲉ	ⲇⲉ	PART	PTC	_	25	advmod	_	_
+22	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	25	advmod	_	OrigLang=grc
 23-25	ⲙⲡⲉϥⲟⲩⲱϣ	_	_	_	_	_	_	_	_
 23	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	25	aux	_	Orig=ⲙ̇ⲡⲉ
 24	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
@@ -247,8 +247,8 @@
 28	.	.	PUNCT	PUNCT	_	7	punct	_	Orig=·ⲻ
 
 # sent_id = coptic_treebank-AP_031_philagrios_01_s0007
-# text = ⲧⲟⲧⲉ ⲁϥϩⲓⲧⲟⲟⲧϥ ⲉϫⲓϣⲕⲁⲕ ⲉⲃⲟⲗ ⲉϥϫⲱ ⲙⲙⲟⲥ · ϫⲉⲁⲙⲏⲓⲧⲛ ⲛⲧⲉⲧⲛⲛⲁⲩ ⲉⲩⲣⲱⲙⲉ ⲛⲧⲉⲡⲛⲟⲩⲧⲉ ϫⲉⲛⲧⲁϥⲣⲟⲩ .
 # text_en = Then he started to shout out, 'Come and see a man of God, what he has done!'
+# text = ⲧⲟⲧⲉ ⲁϥϩⲓⲧⲟⲟⲧϥ ⲉϫⲓϣⲕⲁⲕ ⲉⲃⲟⲗ ⲉϥϫⲱ ⲙⲙⲟⲥ · ϫⲉⲁⲙⲏⲓⲧⲛ ⲛⲧⲉⲧⲛⲛⲁⲩ ⲉⲩⲣⲱⲙⲉ ⲛⲧⲉⲡⲛⲟⲩⲧⲉ ϫⲉⲛⲧⲁϥⲣⲟⲩ .
 1	ⲧⲟⲧⲉ	ⲧⲟⲧⲉ	ADV	ADV	_	4	advmod	_	Orig=Ⲧⲟⲧⲉ
 2-6	ⲁϥϩⲓⲧⲟⲟⲧϥ	_	_	_	_	_	_	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	Orig=ⲁ̇
@@ -294,12 +294,12 @@
 34	.	.	PUNCT	PUNCT	_	4	punct	_	Orig=·ⲻ
 
 # sent_id = coptic_treebank-AP_031_philagrios_01_s0008
-# text = ⲡϩⲗⲗⲟ ⲇⲉ ⲁϥⲡⲱⲧ ⲛϫⲓⲟⲩⲉ ⲁϥⲉⲓ ⲉⲃⲟⲗ ϩⲛⲧⲡⲟⲗⲓⲥ · ϫⲉⲛⲛⲉⲩⲥⲟⲩⲱⲛϥ
 # text_en = But the old man secretly fled and left the city, so that they would not know him.
+# text = ⲡϩⲗⲗⲟ ⲇⲉ ⲁϥⲡⲱⲧ ⲛϫⲓⲟⲩⲉ ⲁϥⲉⲓ ⲉⲃⲟⲗ ϩⲛⲧⲡⲟⲗⲓⲥ · ϫⲉⲛⲛⲉⲩⲥⲟⲩⲱⲛϥ
 1-2	ⲡϩⲗⲗⲟ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(person|Orig=Ⲡ
 2	ϩⲗⲗⲟ	ϩⲗⲗⲟ	NOUN	N	_	6	dislocated	_	Entity=person)|Orig=ϩ̇ⲗⲗⲟ
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	6	advmod	_	_
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	6	advmod	_	OrigLang=grc
 4-6	ⲁϥⲡⲱⲧ	_	_	_	_	_	_	_	_
 4	ⲁ	ⲁ	AUX	APST	_	6	aux	_	Orig=ⲁ̇
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -315,7 +315,7 @@
 13-15	ϩⲛⲧⲡⲟⲗⲓⲥ	_	_	_	_	_	_	_	_
 13	ϩⲛ	ϩⲛ	ADP	PREP	_	12	fixed	_	_
 14	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	Entity=(place|Orig=ⲧ̇
-15	ⲡⲟⲗⲓⲥ	ⲡⲟⲗⲓⲥ	NOUN	N	_	11	obl	_	Entity=place)|Orig=ⲡⲟⲗⲓ̇ⲥ
+15	ⲡⲟⲗⲓⲥ	ⲡⲟⲗⲓⲥ	NOUN	N	Foreign=Yes	11	obl	_	Entity=place)|Orig=ⲡⲟⲗⲓ̇ⲥ|OrigLang=grc
 16	·	·	PUNCT	PUNCT	_	20	punct	_	_
 17-21	ϫⲉⲛⲛⲉⲩⲥⲟⲩⲱⲛϥ	_	_	_	_	_	_	_	_
 17	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	20	mark	_	_

@@ -1,7 +1,7 @@
 # newdoc id = coptic.treebank:AP.135.n305.blame
 # sent_id = coptic_treebank-AP_135_n305_blame_s0001
-# text = ⲁϥϫⲟⲟⲥ ⲛϭⲓⲟⲩϩⲗⲗⲟ ϫⲉϩⲙⲡⲉⲓⲣⲁⲥⲙⲟⲥ ⲛⲓⲙ ⲙⲡⲣϭⲛⲁⲣⲓⲕⲉ ⲉⲣⲱⲙⲉ ·
 # text_en = ...
+# text = ⲁϥϫⲟⲟⲥ ⲛϭⲓⲟⲩϩⲗⲗⲟ ϫⲉϩⲙⲡⲉⲓⲣⲁⲥⲙⲟⲥ ⲛⲓⲙ ⲙⲡⲣϭⲛⲁⲣⲓⲕⲉ ⲉⲣⲱⲙⲉ ·
 1-4	ⲁϥϫⲟⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -14,7 +14,7 @@
 8-10	ϫⲉϩⲙⲡⲉⲓⲣⲁⲥⲙⲟⲥ	_	_	_	_	_	_	_	_
 8	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	13	mark	_	_
 9	ϩⲙ	ϩⲛ	ADP	PREP	_	10	case	_	Orig=ϩ̇ⲙ
-10	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	NOUN	N	_	13	obl	_	Entity=(event|Orig=ⲡⲓ̇ⲣⲁⲥⲙⲟⲥ
+10	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	13	obl	_	Entity=(event|Orig=ⲡⲓ̇ⲣⲁⲥⲙⲟⲥ|OrigLang=grc
 11	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	10	det	_	Entity=event)
 12-13	ⲙⲡⲣϭⲛⲁⲣⲓⲕⲉ	_	_	_	_	_	_	_	_
 12	ⲙⲡⲣ	ⲙⲡⲣ	ADV	NEG	Polarity=Neg	13	advmod	_	Orig=ⲙ̇ⲡⲣ̇
@@ -25,9 +25,9 @@
 16	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-AP_135_n305_blame_s0002
-# text = ⲁⲗⲗⲁ ϭⲛⲁⲣⲓⲕⲉ ......... ⲉⲕϫⲱ ⲙⲙⲟⲥ ϫⲉⲉⲣⲉⲛⲁⲓ ϣⲟⲟⲡ ⲙⲙⲟⲓ ⲉⲧⲃⲉⲛⲁⲛⲟⲃⲉ ⲻ
 # text_en = ...
-1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	2	cc	_	_
+# text = ⲁⲗⲗⲁ ϭⲛⲁⲣⲓⲕⲉ ......... ⲉⲕϫⲱ ⲙⲙⲟⲥ ϫⲉⲉⲣⲉⲛⲁⲓ ϣⲟⲟⲡ ⲙⲙⲟⲓ ⲉⲧⲃⲉⲛⲁⲛⲟⲃⲉ ⲻ
+1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	2	cc	_	OrigLang=grc
 2	ϭⲛⲁⲣⲓⲕⲉ	ϭⲛⲁⲣⲓⲕⲉ	VERB	V	VerbForm=Fin	0	root	_	Morphs=ϭⲛ-ⲁⲣⲓⲕⲉ|Orig=ϭⲛⲁⲣⲓⲕ[ⲉ]
 3	.........	.........	X	UNKNOWN	_	2	dep	_	Orig=[.........]
 4-6	ⲉⲕϫⲱ	_	_	_	_	_	_	_	_

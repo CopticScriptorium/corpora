@@ -1,15 +1,15 @@
 # newdoc id = coptic.treebank:AP.032.benjamin.05
 # sent_id = coptic_treebank-AP_032_benjamin_05_s0001
-# text = ⲛϭⲓⲁⲡⲁ ⲃⲉⲛⲓⲁⲙⲓⲛ ⲙⲛⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ · ϫⲉⲙⲟⲟϣⲉ ϩⲛⲧⲉϩⲓⲏ ⲙⲡⲣⲣⲟ ·
 # text_en = Apa Benjamin and his disciples said, 'Walk on the road of the king,
+# text = ⲛϭⲓⲁⲡⲁ ⲃⲉⲛⲓⲁⲙⲓⲛ ⲙⲛⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ · ϫⲉⲙⲟⲟϣⲉ ϩⲛⲧⲉϩⲓⲏ ⲙⲡⲣⲣⲟ ·
 1-2	ⲛϭⲓⲁⲡⲁ	_	_	_	_	_	_	_	_
 1	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	2	case	_	Orig=Ⲛϭⲓ̇
-2	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	0	root	_	Entity=(person|Orig=ⲁ̇ⲡⲁ
-3	ⲃⲉⲛⲓⲁⲙⲓⲛ	ⲃⲉⲛⲓⲁⲙⲓⲛ	PROPN	NPROP	_	2	flat	_	Entity=person)|Orig=ⲃⲉⲛⲓ̇ⲁ̇ⲙⲓ̇ⲛ
+2	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	0	root	_	Entity=(person|Orig=ⲁ̇ⲡⲁ|OrigLang=he
+3	ⲃⲉⲛⲓⲁⲙⲓⲛ	ⲃⲉⲛⲓⲁⲙⲓⲛ	PROPN	NPROP	Foreign=Yes	2	flat	_	Entity=person)|Orig=ⲃⲉⲛⲓ̇ⲁ̇ⲙⲓ̇ⲛ|OrigLang=he
 4-6	ⲙⲛⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ	_	_	_	_	_	_	_	_
 4	ⲙⲛ	ⲙⲛ	ADP	PREP	_	6	cc	_	Orig=ⲙⲛ̇
 5	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	Entity=(person
-6	ⲙⲁⲑⲏⲧⲏⲥ	ⲙⲁⲑⲏⲧⲏⲥ	NOUN	N	_	2	conj	_	Entity=person)
+6	ⲙⲁⲑⲏⲧⲏⲥ	ⲙⲁⲑⲏⲧⲏⲥ	NOUN	N	Foreign=Yes	2	conj	_	Entity=person)|OrigLang=grc
 7	·	·	PUNCT	PUNCT	_	9	punct	_	_
 8-9	ϫⲉⲙⲟⲟϣⲉ	_	_	_	_	_	_	_	_
 8	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	9	mark	_	_
@@ -25,14 +25,14 @@
 16	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = coptic_treebank-AP_032_benjamin_05_s0002
-# text = ⲁⲩⲱ ⲱⲡ ⲛⲥⲁⲙⲙⲓⲗⲓⲟⲛ ⲁⲩⲱ ⲛⲧⲉⲧⲛⲁϣⲱⲥⲙ ⲁⲛ .
 # text_en = and count the miles and do not be discouraged.'
+# text = ⲁⲩⲱ ⲱⲡ ⲛⲥⲁⲙⲙⲓⲗⲓⲟⲛ ⲁⲩⲱ ⲛⲧⲉⲧⲛⲁϣⲱⲥⲙ ⲁⲛ .
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	2	cc	_	Orig=ⲁⲩⲱ̇
 2	ⲱⲡ	ⲱⲡ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲱ̇ⲡ
 3-5	ⲛⲥⲁⲙⲙⲓⲗⲓⲟⲛ	_	_	_	_	_	_	_	_
 3	ⲛⲥⲁ	ⲛⲥⲁ	ADP	PREP	_	5	case	_	Orig=ⲛ̇ⲥⲁ
-4	ⲙ	ⲡ	DET	ART	_	5	det	_	Entity=(abstract|Orig=ⲙ̇
-5	ⲙⲓⲗⲓⲟⲛ	ⲙⲓⲗⲓⲟⲛ	NOUN	N	_	2	obl	_	Entity=abstract)|Orig=ⲙⲓ̇ⲗⲓ̇ⲟⲛ
+4	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	5	det	_	Entity=(abstract|Orig=ⲙ̇
+5	ⲙⲓⲗⲓⲟⲛ	ⲙⲓⲗⲓⲟⲛ	NOUN	N	Foreign=Yes	2	obl	_	Entity=abstract)|Orig=ⲙⲓ̇ⲗⲓ̇ⲟⲛ|OrigLang=grc
 6	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	10	cc	_	Orig=ⲁⲩⲱ̇
 7-10	ⲛⲧⲉⲧⲛⲁϣⲱⲥⲙ	_	_	_	_	_	_	_	_
 7	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	10	advmod	_	Orig=ⲛ̇

@@ -1,12 +1,12 @@
 # newdoc id = apophthegmata.patrum:AP.100.n294.crocodiles
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0001
-# text = ⲥⲟⲛ ⲥⲛⲁⲩ ⲕⲁⲧⲁⲥⲁⲣⲝ ⲁⲩⲃⲱⲕ ⲉⲩϩⲉⲛⲉⲉⲧⲉ .
 # text_en = Two brothers according to the flesh went to a monastery.
+# text = ⲥⲟⲛ ⲥⲛⲁⲩ ⲕⲁⲧⲁⲥⲁⲣⲝ ⲁⲩⲃⲱⲕ ⲉⲩϩⲉⲛⲉⲉⲧⲉ .
 1	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	7	dislocated	_	Entity=(person
-2	ⲥⲛⲁⲩ	ⲥⲛⲁⲩ	NUM	NUM	NumType=Card	1	dep	_	_
+2	ⲥⲛⲁⲩ	ⲥⲛⲁⲩ	NUM	NUM	NumType=Card	1	nummod	_	_
 3-4	ⲕⲁⲧⲁⲥⲁⲣⲝ	_	_	_	_	_	_	_	_
-3	ⲕⲁⲧⲁ	ⲕⲁⲧⲁ	ADP	PREP	_	4	case	_	_
-4	ⲥⲁⲣⲝ	ⲥⲁⲣⲝ	NOUN	N	_	1	nmod	_	Entity=(object)person)
+3	ⲕⲁⲧⲁ	ⲕⲁⲧⲁ	ADP	PREP	Foreign=Yes	4	case	_	OrigLang=grc
+4	ⲥⲁⲣⲝ	ⲥⲁⲣⲝ	NOUN	N	Foreign=Yes	7	obl	_	Entity=(object)person)|OrigLang=grc
 5-7	ⲁⲩⲃⲱⲕ	_	_	_	_	_	_	_	_
 5	ⲁ	ⲁ	AUX	APST	_	7	aux	_	_
 6	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
@@ -18,8 +18,8 @@
 11	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0002
-# text = ⲡⲟⲩⲁ ⲙⲙⲟⲟⲩ ⲟⲩⲁⲥⲕⲏⲧⲏⲥ ⲡⲉ .
 # text_en = One of them was an ascetic.
+# text = ⲡⲟⲩⲁ ⲙⲙⲟⲟⲩ ⲟⲩⲁⲥⲕⲏⲧⲏⲥ ⲡⲉ .
 1-2	ⲡⲟⲩⲁ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(person
 2	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	6	nsubj	_	_
@@ -28,13 +28,13 @@
 4	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	2	nmod	_	Entity=person)
 5-6	ⲟⲩⲁⲥⲕⲏⲧⲏⲥ	_	_	_	_	_	_	_	_
 5	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	6	det	_	Entity=(person
-6	ⲁⲥⲕⲏⲧⲏⲥ	ⲁⲥⲕⲏⲧⲏⲥ	NOUN	N	_	0	root	_	Entity=person)|Orig=ⲁⲥⲕⲓⲧⲏⲥ
+6	ⲁⲥⲕⲏⲧⲏⲥ	ⲁⲥⲕⲏⲧⲏⲥ	NOUN	N	Foreign=Yes	0	root	_	Entity=person)|Orig=ⲁⲥⲕⲓⲧⲏⲥ|OrigLang=grc
 7	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	6	cop	_	_
 8	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0003
-# text = ⲡⲕⲉⲟⲩⲁ ⲟⲩⲥⲧⲙⲏⲧ ⲡⲉ ⲉⲙⲁⲧⲉ ·
 # text_en = The other was very obedient.
+# text = ⲡⲕⲉⲟⲩⲁ ⲟⲩⲥⲧⲙⲏⲧ ⲡⲉ ⲉⲙⲁⲧⲉ ·
 1-3	ⲡⲕⲉⲟⲩⲁ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(person
 2	ⲕⲉ	ⲕⲉ	DET	ART	PronType=Art	3	det	_	_
@@ -47,8 +47,8 @@
 8	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0004
-# text = ⲉⲣϣⲁⲛⲡⲉⲓⲱⲧ ϫⲟⲟⲥ ⲛⲁϥ ϫⲉⲁⲣⲓ ⲟⲩϩⲱⲃ
 # text_en = If the father told him to do something,
+# text = ⲉⲣϣⲁⲛⲡⲉⲓⲱⲧ ϫⲟⲟⲥ ⲛⲁϥ ϫⲉⲁⲣⲓ ⲟⲩϩⲱⲃ
 1-3	ⲉⲣϣⲁⲛⲡⲉⲓⲱⲧ	_	_	_	_	_	_	_	_
 1	ⲉⲣϣⲁⲛ	ⲉⲣϣⲁⲛ	AUX	ACOND	_	4	aux	_	_
 2	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(person
@@ -67,8 +67,8 @@
 11	ϩⲱⲃ	ϩⲱⲃ	NOUN	N	_	9	obj	_	Entity=abstract)|Orig=ϩ[ⲱⲃ]
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0005
-# text = ϣⲁϥⲁⲁϥ .
 # text_en = he did it.
+# text = ϣⲁϥⲁⲁϥ .
 1-4	ϣⲁϥⲁⲁϥ	_	_	_	_	_	_	_	_
 1	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -77,38 +77,38 @@
 5	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0006
-# text = .. ⲟⲩⲱⲙ … ⲛϣⲱⲣⲡ ϣⲁϥ ............. .............
 # text_en = …
-1	..	UNKNOWN	X	UNKNOWN	_	2	advmod	_	Orig=[..]
+# text = .. ⲟⲩⲱⲙ … ⲛϣⲱⲣⲡ ϣⲁϥ ............. .............
+1	..	UNKNOWN	X	UNKNOWN	_	2	dep	_	Orig=[..]
 2	ⲟⲩⲱⲙ	ⲟⲩⲱⲙ	VERB	V	VerbForm=Fin	0	root	_	Orig=[ⲟⲩ]ⲱⲙ
-3	…	UNKNOWN	X	UNKNOWN	_	2	obj	_	Orig=[…]
+3	…	UNKNOWN	X	UNKNOWN	_	5	nummod	_	Orig=[…]
 4-5	ⲛϣⲱⲣⲡ	_	_	_	_	_	_	_	_
 4	ⲛ	ⲛ	ADP	PREP	_	5	case	_	_
-5	ϣⲱⲣⲡ	ϣⲱⲣⲡ	NOUN	N	_	2	obl	_	Entity=(time)
+5	ϣⲱⲣⲡ	ϣⲱⲣⲡ	NOUN	N	_	2	obj	_	Entity=(time)
 6-7	ϣⲁϥ	_	_	_	_	_	_	_	_
 6	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	8	aux	_	_
 7	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	.............	UNKNOWN	X	UNKNOWN	_	2	parataxis	_	Orig=[.............]
-9	.............	UNKNOWN	X	UNKNOWN	_	2	dep	_	Orig=[.............]
+9	.............	UNKNOWN	X	UNKNOWN	_	8	dep	_	Orig=[.............]
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0007
-# text = ⲉⲧⲃⲉⲧⲉϥⲙⲛⲧⲥⲧⲙⲏⲧ
 # text_en = because of his obedience.
+# text = ⲉⲧⲃⲉⲧⲉϥⲙⲛⲧⲥⲧⲙⲏⲧ
 1-3	ⲉⲧⲃⲉⲧⲉϥⲙⲛⲧⲥⲧⲙⲏⲧ	_	_	_	_	_	_	_	_
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	3	case	_	_
 2	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	Entity=(abstract
 3	ⲙⲛⲧⲥⲧⲙⲏⲧ	ⲙⲛⲧⲥⲧⲙⲏⲧ	NOUN	N	_	0	root	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲥⲧⲙ-ⲏⲧ|Orig=ⲙⲛⲧⲥⲧ̇ⲙⲏⲧ
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0008
-# text = ⲡⲉϥⲥⲟⲛ ⲇⲉ ⲛⲁⲥⲕⲏⲧⲏⲥ ⲁⲩⲧⲟⲃⲥϥ ⲉϩⲟⲩⲛ ⲉⲣⲟϥ .
 # text_en = But his ascetic brother was goaded by it.
+# text = ⲡⲉϥⲥⲟⲛ ⲇⲉ ⲛⲁⲥⲕⲏⲧⲏⲥ ⲁⲩⲧⲟⲃⲥϥ ⲉϩⲟⲩⲛ ⲉⲣⲟϥ .
 1-2	ⲡⲉϥⲥⲟⲛ	_	_	_	_	_	_	_	_
 1	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	Entity=(person
 2	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	8	dislocated	_	_
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	8	advmod	_	_
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	8	advmod	_	OrigLang=grc
 4-5	ⲛⲁⲥⲕⲏⲧⲏⲥ	_	_	_	_	_	_	_	_
 4	ⲛ	ⲛ	ADP	PREP	_	5	case	_	_
-5	ⲁⲥⲕⲏⲧⲏⲥ	ⲁⲥⲕⲏⲧⲏⲥ	NOUN	N	_	2	nmod	_	Entity=person)|Orig=ⲁⲥⲕⲓ̇ⲧⲏⲥ
+5	ⲁⲥⲕⲏⲧⲏⲥ	ⲁⲥⲕⲏⲧⲏⲥ	NOUN	N	Foreign=Yes	2	nmod	_	Entity=person)|Orig=ⲁⲥⲕⲓ̇ⲧⲏⲥ|OrigLang=grc
 6-9	ⲁⲩⲧⲟⲃⲥϥ	_	_	_	_	_	_	_	_
 6	ⲁ	ⲁ	AUX	APST	_	8	aux	_	_
 7	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
@@ -121,8 +121,8 @@
 13	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0009
-# text = ⲡⲉϫⲁϥ ϩⲣⲁⲓ ⲛϩⲏⲧϥ
 # text_en = He said to himself,
+# text = ⲡⲉϫⲁϥ ϩⲣⲁⲓ ⲛϩⲏⲧϥ
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
@@ -132,20 +132,20 @@
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0010
-# text = ϫⲉϯⲛⲁⲇⲟⲕⲓⲙⲁⲍⲉ ⲙⲡⲁⲓ
 # text_en = “I will test him
+# text = ϫⲉϯⲛⲁⲇⲟⲕⲓⲙⲁⲍⲉ ⲙⲡⲁⲓ
 1-4	ϫⲉϯⲛⲁⲇⲟⲕⲓⲙⲁⲍⲉ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	4	mark	_	_
 2	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	ⲛⲁ	ⲛⲁ	AUX	FUT	_	4	aux	_	_
-4	ⲇⲟⲕⲓⲙⲁⲍⲉ	ⲇⲟⲕⲓⲙⲁⲍⲉ	VERB	V	VerbForm=Fin	0	root	_	_
+4	ⲇⲟⲕⲓⲙⲁⲍⲉ	ⲇⲟⲕⲓⲙⲁⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	OrigLang=grc
 5-6	ⲙⲡⲁⲓ	_	_	_	_	_	_	_	_
 5	ⲙ	ⲛ	ADP	PREP	_	6	case	_	_
 6	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	Entity=(person)
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0011
-# text = ⲧⲁⲛⲁⲩ ϫⲉⲟⲩⲥⲧⲙⲏⲧ ⲡⲉ .
 # text_en = and I will see if he is obedient.”
+# text = ⲧⲁⲛⲁⲩ ϫⲉⲟⲩⲥⲧⲙⲏⲧ ⲡⲉ .
 1-2	ⲧⲁⲛⲁⲩ	_	_	_	_	_	_	_	_
 1	ⲧⲁ	ⲛⲧⲉ_ⲁⲛⲟⲕ	PRON	ACONJ_PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	VerbForm=Fin	0	root	_	_
@@ -157,8 +157,8 @@
 7	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·ⲻ
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0012
-# text = ⲁϥϯⲡⲉϥⲟⲩⲟⲓ ⲉⲡⲉϥⲉⲓⲱⲧ
 # text_en = He made his way to his father
+# text = ⲁϥϯⲡⲉϥⲟⲩⲟⲓ ⲉⲡⲉϥⲉⲓⲱⲧ
 1-5	ⲁϥϯⲡⲉϥⲟⲩⲟⲓ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -171,15 +171,15 @@
 8	ⲉⲓⲱⲧ	ⲉⲓⲱⲧ	NOUN	N	_	3	obl	_	Entity=person)
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0013
-# text = ⲡⲉϫⲁϥ
 # text_en = and he said,
+# text = ⲡⲉϫⲁϥ
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0014
-# text = ϫⲉⲧⲛⲛⲟⲟⲩ ⲡⲁⲥⲟⲛ ⲛⲙⲙⲁⲓ
 # text_en = “Send my brother and me
+# text = ϫⲉⲧⲛⲛⲟⲟⲩ ⲡⲁⲥⲟⲛ ⲛⲙⲙⲁⲓ
 1-2	ϫⲉⲧⲛⲛⲟⲟⲩ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	2	mark	_	_
 2	ⲧⲛⲛⲟⲟⲩ	ⲧⲛⲛⲟⲟⲩ	VERB	V	VerbForm=Fin	0	root	_	_
@@ -191,8 +191,8 @@
 6	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0015
-# text = ⲧⲁⲣⲉⲛⲃⲱⲕ ϣⲁⲡⲉⲓⲧⲟⲡⲟⲥ
 # text_en = and we will go to that place.”
+# text = ⲧⲁⲣⲉⲛⲃⲱⲕ ϣⲁⲡⲉⲓⲧⲟⲡⲟⲥ
 1-3	ⲧⲁⲣⲉⲛⲃⲱⲕ	_	_	_	_	_	_	_	_
 1	ⲧⲁⲣⲉ	ⲧⲁⲣⲉ	AUX	AFUTCONJ	_	3	aux	_	_
 2	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
@@ -200,11 +200,11 @@
 4-6	ϣⲁⲡⲉⲓⲧⲟⲡⲟⲥ	_	_	_	_	_	_	_	_
 4	ϣⲁ	ϣⲁ	ADP	PREP	_	6	case	_	_
 5	ⲡⲉⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	Entity=(place
-6	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	_	3	obl	_	Entity=place)|Orig=ⲧⲟ[ⲡⲟⲥ]
+6	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	3	obl	_	Entity=place)|Orig=ⲧⲟ[ⲡⲟⲥ]|OrigLang=grc
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0016
-# text = ⲁⲩⲱ ⲁⲡⲉⲓⲱⲧ ⲕⲁⲁⲩ ⲉⲃⲟⲗ .
 # text_en = And the father gave them permission.
+# text = ⲁⲩⲱ ⲁⲡⲉⲓⲱⲧ ⲕⲁⲁⲩ ⲉⲃⲟⲗ .
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	5	cc	_	_
 2-4	ⲁⲡⲉⲓⲱⲧ	_	_	_	_	_	_	_	_
 2	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
@@ -217,8 +217,8 @@
 8	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0017
-# text = ⲁϥϥⲓⲧϥ ⲛϭⲓⲡⲁⲥⲕⲏⲧⲏⲥ ⲉϥⲟⲩⲱϣ ⲉⲡⲉⲓⲣⲁⲍⲉ ⲙⲙⲟϥ
 # text_en = Wishing to test him, the ascetic took him
+# text = ⲁϥϥⲓⲧϥ ⲛϭⲓⲡⲁⲥⲕⲏⲧⲏⲥ ⲉϥⲟⲩⲱϣ ⲉⲡⲉⲓⲣⲁⲍⲉ ⲙⲙⲟϥ
 1-4	ⲁϥϥⲓⲧϥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -227,21 +227,21 @@
 5-7	ⲛϭⲓⲡⲁⲥⲕⲏⲧⲏⲥ	_	_	_	_	_	_	_	_
 5	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	7	case	_	Orig=[ⲛ]ϭⲓ
 6	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(person
-7	ⲁⲥⲕⲏⲧⲏⲥ	ⲁⲥⲕⲏⲧⲏⲥ	NOUN	N	_	3	dislocated	_	Entity=person)|Orig=ⲁⲥⲕⲓ̇ⲧⲏⲥ
+7	ⲁⲥⲕⲏⲧⲏⲥ	ⲁⲥⲕⲏⲧⲏⲥ	NOUN	N	Foreign=Yes	3	dislocated	_	Entity=person)|Orig=ⲁⲥⲕⲓ̇ⲧⲏⲥ|OrigLang=grc
 8-10	ⲉϥⲟⲩⲱϣ	_	_	_	_	_	_	_	_
 8	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	10	mark	_	_
 9	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
-10	ⲟⲩⲱϣ	ⲟⲩⲱϣ	VERB	V	VerbForm=Fin	3	advcl	_	_
+10	ⲟⲩⲱϣ	ⲟⲩⲱϣ	VERB	V	VerbForm=Fin	7	acl	_	_
 11-12	ⲉⲡⲉⲓⲣⲁⲍⲉ	_	_	_	_	_	_	_	_
 11	ⲉ	ⲉ	PART	PREP	_	12	mark	_	Orig=ⲉ̇
-12	ⲡⲉⲓⲣⲁⲍⲉ	ⲡⲉⲓⲣⲁⲍⲉ	VERB	V	VerbForm=Inf	10	xcomp	_	Orig=ⲡⲓ̇ⲣⲁⲍⲉ
+12	ⲡⲉⲓⲣⲁⲍⲉ	ⲡⲉⲓⲣⲁⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Inf	10	xcomp	_	Orig=ⲡⲓ̇ⲣⲁⲍⲉ|OrigLang=grc
 13-14	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 13	ⲙⲙⲟ	ⲛ	ADP	PREP	_	14	case	_	_
 14	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0018
-# text = ⲁϥⲉⲓ ⲉϩⲣⲁⲓ ϩⲓϫⲙⲡⲓⲉⲣⲟ .
 # text_en = and he went down beside the river.
+# text = ⲁϥⲉⲓ ⲉϩⲣⲁⲓ ϩⲓϫⲙⲡⲓⲉⲣⲟ .
 1-3	ⲁϥⲉⲓ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=ⲁ̇
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -254,13 +254,13 @@
 8	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0019
-# text = ⲛⲉⲩϣⲟⲟⲡ ⲇⲉ ⲡⲉ ϩⲙⲡⲙⲁ ⲉⲧⲙⲙⲁⲩ ⲛϭⲓϩⲉⲛⲙⲥⲁϩ ⲉⲛⲁϣⲱⲟⲩ .
 # text_en = In that place, there were many crocodiles.
+# text = ⲛⲉⲩϣⲟⲟⲡ ⲇⲉ ⲡⲉ ϩⲙⲡⲙⲁ ⲉⲧⲙⲙⲁⲩ ⲛϭⲓϩⲉⲛⲙⲥⲁϩ ⲉⲛⲁϣⲱⲟⲩ .
 1-3	ⲛⲉⲩϣⲟⲟⲡ	_	_	_	_	_	_	_	_
 1	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	3	aux	_	_
 2	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 3	ϣⲟⲟⲡ	ϣⲱⲡⲉ	VERB	VSTAT	VerbForm=Fin	0	root	_	_
-4	ⲇⲉ	ⲇⲉ	PART	PTC	_	3	advmod	_	Orig=ⲇ[ⲉ]
+4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	3	advmod	_	Orig=ⲇ[ⲉ]|OrigLang=grc
 5	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	3	cop	_	_
 6-8	ϩⲙⲡⲙⲁ	_	_	_	_	_	_	_	_
 6	ϩⲙ	ϩⲛ	ADP	PREP	_	8	case	_	Orig=ϩ̇ⲙ
@@ -280,8 +280,8 @@
 17	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0020
-# text = ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛⲁϥ
 # text_en = And he said to him,
+# text = ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛⲁϥ
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	2	cc	_	_
 2-3	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 2	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
@@ -291,8 +291,8 @@
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0021
-# text = ϫⲉⲃⲱⲕ ⲉⲡⲉⲥⲏⲧ ⲉⲡⲓⲉⲣⲟ ⲛⲅⲡⲉⲣⲁ .
 # text_en = “Go down to the river and pass through.”
+# text = ϫⲉⲃⲱⲕ ⲉⲡⲉⲥⲏⲧ ⲉⲡⲓⲉⲣⲟ ⲛⲅⲡⲉⲣⲁ .
 1-2	ϫⲉⲃⲱⲕ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	2	mark	_	_
 2	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	0	root	_	_
@@ -307,25 +307,25 @@
 9-11	ⲛⲅⲡⲉⲣⲁ	_	_	_	_	_	_	_	_
 9	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	11	aux	_	Orig=ⲛ̇
 10	ⲅ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	Orig=ⲅ̇
-11	ⲡⲉⲣⲁ	ⲡⲉⲣⲁ	VERB	V	VerbForm=Fin	2	advcl	_	_
+11	ⲡⲉⲣⲁ	ⲡⲉⲣⲁ	VERB	V	Foreign=Yes|VerbForm=Fin	2	advcl	_	OrigLang=grc
 12	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0022
-# text = ⲡⲉⲧⲙⲙⲁⲩ ⲇⲉ ⲁϥⲃⲱⲕ
 # text_en = So he went
+# text = ⲡⲉⲧⲙⲙⲁⲩ ⲇⲉ ⲁϥⲃⲱⲕ
 1-3	ⲡⲉⲧⲙⲙⲁⲩ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	dislocated	_	Entity=(person
 2	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	3	mark	_	_
 3	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	1	acl	_	Entity=person)
-4	ⲇⲉ	ⲇⲉ	PART	PTC	_	7	advmod	_	_
+4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	7	advmod	_	OrigLang=grc
 5-7	ⲁϥⲃⲱⲕ	_	_	_	_	_	_	_	_
 5	ⲁ	ⲁ	AUX	APST	_	7	aux	_	_
 6	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	0	root	_	_
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0023
-# text = ⲁⲩⲉⲓ ⲛϭⲓⲛⲉⲙⲥⲁϩ
 # text_en = and the crocodiles came
+# text = ⲁⲩⲉⲓ ⲛϭⲓⲛⲉⲙⲥⲁϩ
 1-3	ⲁⲩⲉⲓ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
@@ -336,8 +336,8 @@
 6	ⲙⲥⲁϩ	ⲙⲥⲁϩ	NOUN	N	_	3	dislocated	_	Entity=animal)
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0024
-# text = ⲁⲩⲗⲱϫϩ ⲙⲡⲉϥⲥⲱⲙⲁ .
 # text_en = and they crushed his body.
+# text = ⲁⲩⲗⲱϫϩ ⲙⲡⲉϥⲥⲱⲙⲁ .
 1-3	ⲁⲩⲗⲱϫϩ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=ⲁ̇
 2	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
@@ -345,42 +345,42 @@
 4-6	ⲙⲡⲉϥⲥⲱⲙⲁ	_	_	_	_	_	_	_	_
 4	ⲙ	ⲛ	ADP	PREP	_	6	case	_	_
 5	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	Entity=(object
-6	ⲥⲱⲙⲁ	ⲥⲱⲙⲁ	NOUN	N	_	3	obj	_	Entity=object)
+6	ⲥⲱⲙⲁ	ⲥⲱⲙⲁ	NOUN	N	Foreign=Yes	3	obj	_	Entity=object)|OrigLang=grc
 7	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0025
-# text = ⲁⲩⲱ ⲙⲡⲟⲩⲃⲗⲁⲡⲧⲉⲓ ⲙⲙⲟϥ ⲗⲁⲁⲩ .
 # text_en = And they did not hurt him at all.
+# text = ⲁⲩⲱ ⲙⲡⲟⲩⲃⲗⲁⲡⲧⲉⲓ ⲙⲙⲟϥ ⲗⲁⲁⲩ .
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2-4	ⲙⲡⲟⲩⲃⲗⲁⲡⲧⲉⲓ	_	_	_	_	_	_	_	_
 2	ⲙⲡ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	4	aux	_	Orig=ⲙ̇ⲡ
 3	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
-4	ⲃⲗⲁⲡⲧⲉⲓ	ⲃⲗⲁⲡⲧⲉⲓ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϥⲗⲁⲡⲧⲉⲓ
+4	ⲃⲗⲁⲡⲧⲉⲓ	ⲃⲗⲁⲡⲧⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	Orig=ϥⲗⲁⲡⲧⲉⲓ|OrigLang=grc
 5-6	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 5	ⲙⲙⲟ	ⲛ	ADP	PREP	_	6	case	_	_
 6	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
-7	ⲗⲁⲁⲩ	ⲗⲁⲁⲩ	NOUN	N	_	4	obl	_	Entity=(abstract)
+7	ⲗⲁⲁⲩ	ⲗⲁⲁⲩ	NOUN	N	_	4	obl:npmod	_	Entity=(abstract)
 8	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0026
-# text = ⲛⲧⲉⲣⲉϥⲛⲁⲩ ⲇⲉ ⲛϭⲓⲡⲁⲥⲕⲏⲧⲏⲥ ⲡⲉϫⲁϥ
 # text_en = When the ascetic saw, he said,
+# text = ⲛⲧⲉⲣⲉϥⲛⲁⲩ ⲇⲉ ⲛϭⲓⲡⲁⲥⲕⲏⲧⲏⲥ ⲡⲉϫⲁϥ
 1-3	ⲛⲧⲉⲣⲉϥⲛⲁⲩ	_	_	_	_	_	_	_	_
 1	ⲛⲧⲉⲣⲉ	ⲛⲧⲉⲣⲉ	AUX	APREC	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	VerbForm=Fin	8	advcl	_	_
-4	ⲇⲉ	ⲇⲉ	PART	PTC	_	8	advmod	_	_
+4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	8	advmod	_	OrigLang=grc
 5-7	ⲛϭⲓⲡⲁⲥⲕⲏⲧⲏⲥ	_	_	_	_	_	_	_	_
 5	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	7	case	_	Orig=ⲛϭⲓ̇
 6	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(person
-7	ⲁⲥⲕⲏⲧⲏⲥ	ⲁⲥⲕⲏⲧⲏⲥ	NOUN	N	_	3	dislocated	_	Entity=person)|Orig=ⲁⲥⲕⲓⲧⲏⲥ
+7	ⲁⲥⲕⲏⲧⲏⲥ	ⲁⲥⲕⲏⲧⲏⲥ	NOUN	N	Foreign=Yes	3	dislocated	_	Entity=person)|Orig=ⲁⲥⲕⲓⲧⲏⲥ|OrigLang=grc
 8-9	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 8	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 9	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0027
-# text = ϫⲉⲁⲙⲟⲩ ⲉϩⲣⲁⲓ ϩⲙⲡⲓⲉⲣⲟ .
 # text_en = “Come out of the river.”
+# text = ϫⲉⲁⲙⲟⲩ ⲉϩⲣⲁⲓ ϩⲙⲡⲓⲉⲣⲟ .
 1-2	ϫⲉⲁⲙⲟⲩ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	2	mark	_	_
 2	ⲁⲙⲟⲩ	ⲉⲓ	VERB	VIMP	VerbForm=Fin	0	root	_	_
@@ -392,8 +392,8 @@
 7	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·ⲻ
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0028
-# text = ⲁⲩⲱ ⲉⲩⲙⲟⲟϣⲉ
 # text_en = And as they were walking,
+# text = ⲁⲩⲱ ⲉⲩⲙⲟⲟϣⲉ
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2-4	ⲉⲩⲙⲟⲟϣⲉ	_	_	_	_	_	_	_	_
 2	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	4	mark	_	Orig=ⲉ̇
@@ -401,8 +401,8 @@
 4	ⲙⲟⲟϣⲉ	ⲙⲟⲟϣⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲙⲟⲟϣ[ⲉ]
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0029
-# text = ⲁⲩϭⲓⲛⲉ ⲛⲟⲩⲥⲱⲙⲁ ⲉϥⲛⲏϫ ⲉⲃⲟⲗ ϩⲙⲡϩⲟⲟⲩⲧⲛ .
 # text_en = they found a body lying in the road.
+# text = ⲁⲩϭⲓⲛⲉ ⲛⲟⲩⲥⲱⲙⲁ ⲉϥⲛⲏϫ ⲉⲃⲟⲗ ϩⲙⲡϩⲟⲟⲩⲧⲛ .
 1-3	ⲁⲩϭⲓⲛⲉ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=ⲁ̣
 2	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Orig=ⲩ̣
@@ -410,7 +410,7 @@
 4-6	ⲛⲟⲩⲥⲱⲙⲁ	_	_	_	_	_	_	_	_
 4	ⲛ	ⲛ	ADP	PREP	_	6	case	_	_
 5	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	6	det	_	Entity=(object
-6	ⲥⲱⲙⲁ	ⲥⲱⲙⲁ	NOUN	N	_	3	obj	_	_
+6	ⲥⲱⲙⲁ	ⲥⲱⲙⲁ	NOUN	N	Foreign=Yes	3	obj	_	OrigLang=grc
 7-9	ⲉϥⲛⲏϫ	_	_	_	_	_	_	_	_
 7	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	9	mark	_	_
 8	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
@@ -423,17 +423,17 @@
 14	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0030
-# text = ⲁⲩⲱ ⲡⲉϫⲉⲡⲁⲥⲕⲏⲧⲏⲥ
 # text_en = And the ascetic said,
+# text = ⲁⲩⲱ ⲡⲉϫⲉⲡⲁⲥⲕⲏⲧⲏⲥ
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	2	cc	_	_
 2-4	ⲡⲉϫⲉⲡⲁⲥⲕⲏⲧⲏⲥ	_	_	_	_	_	_	_	_
 2	ⲡⲉϫⲉ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 3	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Entity=(person
-4	ⲁⲥⲕⲏⲧⲏⲥ	ⲁⲥⲕⲏⲧⲏⲥ	NOUN	N	_	2	nsubj	_	Entity=person)|Orig=ⲁⲥⲕⲓⲧⲏⲥ
+4	ⲁⲥⲕⲏⲧⲏⲥ	ⲁⲥⲕⲏⲧⲏⲥ	NOUN	N	Foreign=Yes	2	nsubj	_	Entity=person)|Orig=ⲁⲥⲕⲓⲧⲏⲥ|OrigLang=grc
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0031
-# text = ϫⲉⲉϣⲱⲡⲉ ⲟⲩⲛⲧⲁⲕ ⲙⲙⲁⲩ ⲛⲟⲩϭⲓⲛⲙⲓϣⲉ
 # text_en = “If you have an [old thing]
+# text = ϫⲉⲉϣⲱⲡⲉ ⲟⲩⲛⲧⲁⲕ ⲙⲙⲁⲩ ⲛⲟⲩϭⲓⲛⲙⲓϣⲉ
 1-2	ϫⲉⲉϣⲱⲡⲉ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	3	mark	_	_
 2	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	3	mark	_	_
@@ -444,11 +444,11 @@
 6-8	ⲛⲟⲩϭⲓⲛⲙⲓϣⲉ	_	_	_	_	_	_	_	_
 6	ⲛ	ⲛ	ADP	PREP	_	8	case	_	_
 7	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	8	det	_	Entity=(object
-8	ϭⲓⲛⲙⲓϣⲉ	ϭⲓⲛⲙⲓϣⲉ	NOUN	N	_	3	obj	_	Entity=object)|Morphs=ϭⲓⲛ-ⲙⲓϣⲉ
+8	ϭⲓⲛⲙⲓϣⲉ	ϭⲓⲛⲙⲓϣⲉ	NOUN	N	_	3	obl	_	Entity=object)|Morphs=ϭⲓⲛ-ⲙⲓϣⲉ
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0032
-# text = ⲙⲁⲣⲛⲛⲟⲩϫⲉ ⲉϩⲣⲁⲓ ⲉϫⲱϥ .
 # text_en = let us throw it over him.”
+# text = ⲙⲁⲣⲛⲛⲟⲩϫⲉ ⲉϩⲣⲁⲓ ⲉϫⲱϥ .
 1-3	ⲙⲁⲣⲛⲛⲟⲩϫⲉ	_	_	_	_	_	_	_	_
 1	ⲙⲁⲣ	ⲙⲁⲣⲉ	AUX	AJUS	_	3	aux	_	_
 2	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Orig=ⲛ̇
@@ -460,8 +460,8 @@
 7	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0033
-# text = ⲡⲉϫⲁϥ ⲛϭⲓⲡⲉⲧⲉⲟⲩⲛⲧⲁϥ ⲙⲙⲁⲩ ⲛⲧⲙⲛⲧⲥⲧⲙⲏⲧ ,
 # text_en = The one who had obedience said,
+# text = ⲡⲉϫⲁϥ ⲛϭⲓⲡⲉⲧⲉⲟⲩⲛⲧⲁϥ ⲙⲙⲁⲩ ⲛⲧⲙⲛⲧⲥⲧⲙⲏⲧ ,
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
@@ -479,11 +479,11 @@
 12	,	,	PUNCT	PUNCT	_	0	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0034
-# text = ϫⲉⲙⲁⲗⲗⲟⲛ ⲙⲁⲣⲛϣⲗⲏⲗ ⲉϩⲣⲁⲓ ⲉϫⲱϥ
 # text_en = “Let us pray for him instead.
+# text = ϫⲉⲙⲁⲗⲗⲟⲛ ⲙⲁⲣⲛϣⲗⲏⲗ ⲉϩⲣⲁⲓ ⲉϫⲱϥ
 1-2	ϫⲉⲙⲁⲗⲗⲟⲛ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	5	mark	_	_
-2	ⲙⲁⲗⲗⲟⲛ	ⲙⲁⲗⲗⲟⲛ	ADV	ADV	_	5	advmod	_	Orig=[ⲙⲁⲗⲗⲟⲛ]
+2	ⲙⲁⲗⲗⲟⲛ	ⲙⲁⲗⲗⲟⲛ	ADV	ADV	Foreign=Yes	5	advmod	_	Orig=[ⲙⲁⲗⲗⲟⲛ]|OrigLang=grc
 3-5	ⲙⲁⲣⲛϣⲗⲏⲗ	_	_	_	_	_	_	_	_
 3	ⲙⲁⲣ	ⲙⲁⲣⲉ	AUX	AJUS	_	5	aux	_	_
 4	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
@@ -494,8 +494,8 @@
 8	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0035
-# text = ⲙⲉϣⲁⲕ ϥⲛⲁⲧⲱⲟⲩⲛ
 # text_en = Perhaps he will arise.”
+# text = ⲙⲉϣⲁⲕ ϥⲛⲁⲧⲱⲟⲩⲛ
 1	ⲙⲉϣⲁⲕ	ⲙⲉϣⲁⲕ	ADV	ADV	_	4	advmod	_	_
 2-4	ϥⲛⲁⲧⲱⲟⲩⲛ	_	_	_	_	_	_	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Orig=[ϥ]
@@ -503,8 +503,8 @@
 4	ⲧⲱⲟⲩⲛ	ⲧⲱⲟⲩⲛ	VERB	V	VerbForm=Fin	0	root	_	_
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0036
-# text = ....... .............
 # text_en = …
-1	.......	UNKNOWN	X	UNKNOWN	_	0	root	_	Orig=[.......]
-2	.............	UNKNOWN	X	UNKNOWN	_	1	dep	_	Orig=[.............]
+# text = ....... .............
+1	.......	UNKNOWN	X	UNKNOWN	_	2	root	_	Orig=[.......]
+2	.............	UNKNOWN	X	UNKNOWN	_	0	root	_	Orig=[.............]
 

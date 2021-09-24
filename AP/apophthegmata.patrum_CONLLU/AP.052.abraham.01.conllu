@@ -1,7 +1,7 @@
 # newdoc id = apophthegmata.patrum:AP.052.abraham.01
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0001
-# text = ϯⲛⲁⲙⲓϣⲉ ⲙⲛⲡⲁⲙⲉⲉⲩⲉ ⲉⲧⲙϫⲱϩ ⲉⲣⲟⲥ .
 # text_en = ...'I will struggle with my thought to not touch her.'
+# text = ϯⲛⲁⲙⲓϣⲉ ⲙⲛⲡⲁⲙⲉⲉⲩⲉ ⲉⲧⲙϫⲱϩ ⲉⲣⲟⲥ .
 1-3	ϯⲛⲁⲙⲓϣⲉ	_	_	_	_	_	_	_	_
 1	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Orig=ϯ̇
 2	ⲛⲁ	ⲛⲁ	AUX	FUT	_	3	aux	_	_
@@ -13,26 +13,26 @@
 7-9	ⲉⲧⲙϫⲱϩ	_	_	_	_	_	_	_	_
 7	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	9	mark	_	Orig=ⲉ̇
 8	ⲧⲙ	ⲧⲙ	ADV	NEG	Polarity=Neg	9	advmod	_	Orig=ⲧⲙ̇
-9	ϫⲱϩ	ϫⲱϩ	VERB	V	VerbForm=Fin	3	advcl	_	_
+9	ϫⲱϩ	ϫⲱϩ	VERB	V	VerbForm=Fin	3	xcomp	_	_
 10-11	ⲉⲣⲟⲥ	_	_	_	_	_	_	_	_
 10	ⲉⲣⲟ	ⲉ	ADP	PREP	_	11	case	_	_
 11	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	Entity=abstract)
 12	.	.	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0002
-# text = ⲡⲉϫⲉⲁⲡⲁ ⲁⲃⲣⲁϩⲁⲙ ⲛⲁϥ · ϫⲉⲟⲩⲕ ⲟⲩⲛ ⲉⲓⲥϩⲏⲏⲧⲉⲙⲡⲉⲕϩⲱⲧⲃ ⲙⲡⲡⲁⲑⲟⲥ .
 # text_en = Abba Abraham said to him, 'Behold, you have not killed the passion,
+# text = ⲡⲉϫⲉⲁⲡⲁ ⲁⲃⲣⲁϩⲁⲙ ⲛⲁϥ · ϫⲉⲟⲩⲕ ⲟⲩⲛ ⲉⲓⲥϩⲏⲏⲧⲉⲙⲡⲉⲕϩⲱⲧⲃ ⲙⲡⲡⲁⲑⲟⲥ .
 1-2	ⲡⲉϫⲉⲁⲡⲁ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲉ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
-2	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	1	nsubj	_	Entity=(person|Orig=ⲁ̇ⲡⲁ
-3	ⲁⲃⲣⲁϩⲁⲙ	ⲁⲃⲣⲁϩⲁⲙ	PROPN	NPROP	_	2	flat	_	Entity=person)|Orig=ⲁ̇ⲃⲣⲁϩⲁⲙ
+2	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	1	nsubj	_	Entity=(person|Orig=ⲁ̇ⲡⲁ|OrigLang=he
+3	ⲁⲃⲣⲁϩⲁⲙ	ⲁⲃⲣⲁϩⲁⲙ	PROPN	NPROP	Foreign=Yes	2	flat	_	Entity=person)|Orig=ⲁ̇ⲃⲣⲁϩⲁⲙ|OrigLang=he
 4-5	ⲛⲁϥ	_	_	_	_	_	_	_	_
 4	ⲛⲁ	ⲛⲁ	ADP	PREP	_	5	case	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
 6	·	·	PUNCT	PUNCT	_	0	punct	_	_
 7-8	ϫⲉⲟⲩⲕ	_	_	_	_	_	_	_	_
 7	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	14	mark	_	_
-8	ⲟⲩⲕ	ⲟⲩⲕ	ADV	NEG	Polarity=Neg	14	advmod	_	_
+8	ⲟⲩⲕ	ⲟⲩⲕ	ADV	NEG	Foreign=Yes|Polarity=Neg	14	advmod	_	OrigLang=grc
 9	ⲟⲩⲛ	ⲟⲩⲛ	PART	PTC	_	14	advmod	_	_
 10-14	ⲉⲓⲥϩⲏⲏⲧⲉⲙⲡⲉⲕϩⲱⲧⲃ	_	_	_	_	_	_	_	_
 10	ⲉⲓⲥ	ⲉⲓⲥ	PART	PTC	_	14	advmod	_	Orig=ⲉⲓ̇ⲥ
@@ -43,29 +43,29 @@
 15-17	ⲙⲡⲡⲁⲑⲟⲥ	_	_	_	_	_	_	_	_
 15	ⲙ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲙ̇
 16	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Entity=(abstract|Orig=ⲡ̇
-17	ⲡⲁⲑⲟⲥ	ⲡⲁⲑⲟⲥ	NOUN	N	_	14	obl	_	Entity=abstract)
+17	ⲡⲁⲑⲟⲥ	ⲡⲁⲑⲟⲥ	NOUN	N	Foreign=Yes	14	obl	_	Entity=abstract)|OrigLang=grc
 18	.	.	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0003
-# text = ⲁⲗⲗⲁ ⲉⲧⲓϥⲟⲛϩ · ϥⲙⲏⲣ ⲇⲉ ⲻ
 # text_en = it is still alive but it is bound.
-1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	4	cc	_	Orig=ⲁ̇ⲗⲗⲁ
+# text = ⲁⲗⲗⲁ ⲉⲧⲓϥⲟⲛϩ · ϥⲙⲏⲣ ⲇⲉ ⲻ
+1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	4	cc	_	Orig=ⲁ̇ⲗⲗⲁ|OrigLang=grc
 2-4	ⲉⲧⲓϥⲟⲛϩ	_	_	_	_	_	_	_	_
-2	ⲉⲧⲓ	ⲉⲧⲓ	ADV	ADV	_	4	advmod	_	Orig=ⲉ̇ⲧⲓ̇
+2	ⲉⲧⲓ	ⲉⲧⲓ	ADV	ADV	Foreign=Yes	4	advmod	_	Orig=ⲉ̇ⲧⲓ̇|OrigLang=grc
 3	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-4	ⲟⲛϩ	ⲱⲛϩ	VERB	VSTAT	VerbForm=Fin	7	advcl	_	Orig=ⲟⲛⲁϩ
+4	ⲟⲛϩ	ⲱⲛϩ	VERB	VSTAT	VerbForm=Fin	0	root	_	Orig=ⲟⲛⲁϩ
 5	·	·	PUNCT	PUNCT	_	0	punct	_	_
 6-7	ϥⲙⲏⲣ	_	_	_	_	_	_	_	_
 6	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Orig=ϥ̇
-7	ⲙⲏⲣ	ⲙⲟⲩⲣ	VERB	VSTAT	VerbForm=Fin	0	root	_	_
-8	ⲇⲉ	ⲇⲉ	PART	PTC	_	7	advmod	_	_
+7	ⲙⲏⲣ	ⲙⲟⲩⲣ	VERB	VSTAT	VerbForm=Fin	4	parataxis	_	_
+8	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	7	advmod	_	OrigLang=grc
 9	ⲻ	ⲻ	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0004
-# text = ⲡⲁⲗⲓⲛ ⲟⲛ ⲉⲕⲙⲟⲟϣⲉ · ϩⲛⲧⲉϩⲓⲏ . ⲁⲩⲱ ⲉⲕⲛⲁⲩ ⲉϩⲉⲛⲱⲛⲉ ⲙⲛϩⲉⲛⲃⲉⲗϫⲉ . ⲉⲣⲉⲟⲩⲛⲟⲩⲃ ⲇⲉ ϩⲛⲧⲉⲩⲙⲏⲧⲉ ·
 # text_en = Again, if you are walking on the road, and you see some stones and some pottery pieces and gold in their midst,
-1	ⲡⲁⲗⲓⲛ	ⲡⲁⲗⲓⲛ	ADV	ADV	_	5	advmod	_	Orig=ⲡⲁⲗⲓ̈ⲛ
-2	ⲟⲛ	ⲟⲛ	ADV	ADV	_	5	advmod	_	_
+# text = ⲡⲁⲗⲓⲛ ⲟⲛ ⲉⲕⲙⲟⲟϣⲉ · ϩⲛⲧⲉϩⲓⲏ . ⲁⲩⲱ ⲉⲕⲛⲁⲩ ⲉϩⲉⲛⲱⲛⲉ ⲙⲛϩⲉⲛⲃⲉⲗϫⲉ . ⲉⲣⲉⲟⲩⲛⲟⲩⲃ ⲇⲉ ϩⲛⲧⲉⲩⲙⲏⲧⲉ ·
+1	ⲡⲁⲗⲓⲛ	ⲡⲁⲗⲓⲛ	ADV	ADV	Foreign=Yes	14	advmod	_	Orig=ⲡⲁⲗⲓ̈ⲛ|OrigLang=grc
+2	ⲟⲛ	ⲟⲛ	ADV	ADV	_	14	advmod	_	_
 3-5	ⲉⲕⲙⲟⲟϣⲉ	_	_	_	_	_	_	_	_
 3	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	5	mark	_	Orig=ⲉ̇
 4	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
@@ -91,10 +91,10 @@
 20	ⲃⲉⲗϫⲉ	ⲃⲉⲗϫⲉ	NOUN	N	_	17	conj	_	Entity=object)
 21	.	.	PUNCT	PUNCT	_	0	punct	_	_
 22-24	ⲉⲣⲉⲟⲩⲛⲟⲩⲃ	_	_	_	_	_	_	_	_
-22	ⲉⲣⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	24	mark	_	Orig=ⲉ̇ⲣⲉ
+22	ⲉⲣⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	28	mark	_	Orig=ⲉ̇ⲣⲉ
 23	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	24	det	_	Entity=(substance
 24	ⲛⲟⲩⲃ	ⲛⲟⲩⲃ	NOUN	N	_	28	nsubj	_	Entity=substance)
-25	ⲇⲉ	ⲇⲉ	PART	PTC	_	24	advmod	_	_
+25	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	28	advmod	_	OrigLang=grc
 26-28	ϩⲛⲧⲉⲩⲙⲏⲧⲉ	_	_	_	_	_	_	_	_
 26	ϩⲛ	ϩⲛ	ADP	PREP	_	28	case	_	Orig=ϩⲛ̇
 27	ⲧⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	28	det	_	Entity=(place
@@ -102,8 +102,8 @@
 29	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0005
-# text = ⲟⲩⲛϭⲟⲙ ⲙⲡⲉⲕϩⲏⲧ ⲉⲉⲡⲡⲁⲓ ⲛⲧϩⲉ ⲛⲛⲁⲓ .
 # text_en = is there power in your heart to reckon this one like those?'
+# text = ⲟⲩⲛϭⲟⲙ ⲙⲡⲉⲕϩⲏⲧ ⲉⲉⲡⲡⲁⲓ ⲛⲧϩⲉ ⲛⲛⲁⲓ .
 1-2	ⲟⲩⲛϭⲟⲙ	_	_	_	_	_	_	_	_
 1	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	0	root	_	Orig=ⲟⲩⲛ̇
 2	ϭⲟⲙ	ϭⲟⲙ	NOUN	N	_	1	nsubj	_	_
@@ -113,7 +113,7 @@
 5	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	1	obl	_	Entity=abstract)
 6-8	ⲉⲉⲡⲡⲁⲓ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	7	mark	_	Orig=ⲉ̇
-7	ⲉⲡ	ⲱⲡ	VERB	V	VerbForm=Fin	1	advcl	_	Orig=ⲉ̇ⲡ
+7	ⲉⲡ	ⲱⲡ	VERB	V	VerbForm=Fin	2	acl	_	Orig=ⲉ̇ⲡ
 8	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	7	obj	_	Entity=(object)|Orig=ⲡⲁⲓ̇
 9-11	ⲛⲧϩⲉ	_	_	_	_	_	_	_	_
 9	ⲛ	ⲛ	ADP	PREP	_	11	case	_	Orig=ⲛ̇
@@ -125,8 +125,8 @@
 14	.	.	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0006
-# text = ⲡⲉϫⲁϥ ϫⲉⲙⲙⲟⲛ .
 # text_en = He said, 'No.
+# text = ⲡⲉϫⲁϥ ϫⲉⲙⲙⲟⲛ .
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
@@ -136,9 +136,9 @@
 5	.	.	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0007
-# text = ⲁⲗⲗⲁ ϯⲛⲁⲙⲓϣⲉ ⲙⲛⲡⲁⲙⲉⲉⲩⲉ ⲉⲧⲙϥⲓⲧϥ ⲻ
 # text_en = But I will struggle with my thought in order to not take it.
-1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	4	cc	_	Orig=ⲁ̇ⲗⲗⲁ
+# text = ⲁⲗⲗⲁ ϯⲛⲁⲙⲓϣⲉ ⲙⲛⲡⲁⲙⲉⲉⲩⲉ ⲉⲧⲙϥⲓⲧϥ ⲻ
+1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	4	cc	_	Orig=ⲁ̇ⲗⲗⲁ|OrigLang=grc
 2-4	ϯⲛⲁⲙⲓϣⲉ	_	_	_	_	_	_	_	_
 2	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Orig=ϯ̇
 3	ⲛⲁ	ⲛⲁ	AUX	FUT	_	4	aux	_	_
@@ -150,13 +150,13 @@
 8-11	ⲉⲧⲙϥⲓⲧϥ	_	_	_	_	_	_	_	_
 8	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	10	mark	_	Orig=ⲉ̇
 9	ⲧⲙ	ⲧⲙ	ADV	NEG	Polarity=Neg	10	advmod	_	Orig=ⲧⲙ̇
-10	ϥⲓⲧ	ϥⲓ	VERB	V	VerbForm=Fin	4	advcl	_	Orig=ϥⲓ̇ⲧ
+10	ϥⲓⲧ	ϥⲓ	VERB	V	VerbForm=Fin	4	xcomp	_	Orig=ϥⲓ̇ⲧ
 11	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	Entity=abstract)|Orig=ϥ̇
 12	ⲻ	ⲻ	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0008
-# text = ⲡⲉϫⲉⲡϩⲗⲗⲟ ⲛⲁϥ
 # text_en = The old man said to him,
+# text = ⲡⲉϫⲉⲡϩⲗⲗⲟ ⲛⲁϥ
 1-3	ⲡⲉϫⲉⲡϩⲗⲗⲟ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲉ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 2	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(person|Orig=ⲡ̇
@@ -166,8 +166,8 @@
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0009
-# text = ϫⲉⲉⲓⲥϩⲏⲏⲧⲉ ⲟⲛ ⲡⲡⲁⲑⲟⲥ ⲟⲛϩ . ⲁⲗⲗⲁ ϥⲙⲏⲣ .
 # text_en = 'Behold again, the passion is living but it is bound.'
+# text = ϫⲉⲉⲓⲥϩⲏⲏⲧⲉ ⲟⲛ ⲡⲡⲁⲑⲟⲥ ⲟⲛϩ . ⲁⲗⲗⲁ ϥⲙⲏⲣ .
 1-3	ϫⲉⲉⲓⲥϩⲏⲏⲧⲉ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	7	mark	_	_
 2	ⲉⲓⲥ	ⲉⲓⲥ	PART	PTC	_	7	advmod	_	Orig=ⲉⲓ̇ⲥ
@@ -175,31 +175,31 @@
 4	ⲟⲛ	ⲟⲛ	ADV	ADV	_	7	advmod	_	Orig=ⲟ̇ⲛ
 5-6	ⲡⲡⲁⲑⲟⲥ	_	_	_	_	_	_	_	_
 5	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(abstract|Orig=ⲡ̇
-6	ⲡⲁⲑⲟⲥ	ⲡⲁⲑⲟⲥ	NOUN	N	_	7	vocative	_	Entity=abstract)
+6	ⲡⲁⲑⲟⲥ	ⲡⲁⲑⲟⲥ	NOUN	N	Foreign=Yes	7	nsubj	_	Entity=abstract)|OrigLang=grc
 7	ⲟⲛϩ	ⲱⲛϩ	VERB	VSTAT	VerbForm=Fin	0	root	_	Orig=ⲟ̇ⲛⲁϩ
 8	.	.	PUNCT	PUNCT	_	0	punct	_	_
-9	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	11	cc	_	Orig=ⲁ̇ⲗⲗⲁ
+9	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	11	cc	_	Orig=ⲁ̇ⲗⲗⲁ|OrigLang=grc
 10-11	ϥⲙⲏⲣ	_	_	_	_	_	_	_	_
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	Orig=ϥ̇
 11	ⲙⲏⲣ	ⲙⲟⲩⲣ	VERB	VSTAT	VerbForm=Fin	7	conj	_	_
 12	.	.	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0010
-# text = ⲡⲉϫⲁϥ ⲟⲛ ⲛϭⲓⲁⲡⲁ ⲁⲃⲣⲁϩⲁⲙ ·
 # text_en = Again, Abba Abraham said,
+# text = ⲡⲉϫⲁϥ ⲟⲛ ⲛϭⲓⲁⲡⲁ ⲁⲃⲣⲁϩⲁⲙ ·
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
 3	ⲟⲛ	ⲟⲛ	ADV	ADV	_	1	advmod	_	Orig=ⲟ̇ⲛ
 4-5	ⲛϭⲓⲁⲡⲁ	_	_	_	_	_	_	_	_
 4	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	5	case	_	Orig=ⲛ̇ϭⲓ̇
-5	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	1	dislocated	_	Entity=(person|Orig=ⲁ̇ⲡⲁ
-6	ⲁⲃⲣⲁϩⲁⲙ	ⲁⲃⲣⲁϩⲁⲙ	PROPN	NPROP	_	5	flat	_	Entity=person)|Orig=ⲁ̇ⲃⲣⲁϩⲁⲙ
+5	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	1	dislocated	_	Entity=(person|Orig=ⲁ̇ⲡⲁ|OrigLang=he
+6	ⲁⲃⲣⲁϩⲁⲙ	ⲁⲃⲣⲁϩⲁⲙ	PROPN	NPROP	Foreign=Yes	5	flat	_	Entity=person)|Orig=ⲁ̇ⲃⲣⲁϩⲁⲙ|OrigLang=he
 7	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0011
-# text = ϫⲉⲉⲓⲥϩⲏⲏⲧⲉ ⲁⲕⲥⲱⲧⲙ ⲉⲧⲃⲉⲥⲟⲛ ⲥⲛⲁⲩ .
 # text_en = 'Behold, you heard concerning two brothers
+# text = ϫⲉⲉⲓⲥϩⲏⲏⲧⲉ ⲁⲕⲥⲱⲧⲙ ⲉⲧⲃⲉⲥⲟⲛ ⲥⲛⲁⲩ .
 1-3	ϫⲉⲉⲓⲥϩⲏⲏⲧⲉ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	6	mark	_	_
 2	ⲉⲓⲥ	ⲉⲓⲥ	PART	PTC	_	6	advmod	_	Orig=ⲉⲓ̇ⲥ
@@ -211,12 +211,12 @@
 7-8	ⲉⲧⲃⲉⲥⲟⲛ	_	_	_	_	_	_	_	_
 7	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	8	case	_	Orig=ⲉ̇ⲧⲃⲉ
 8	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	6	obl	_	Entity=(person
-9	ⲥⲛⲁⲩ	ⲥⲛⲁⲩ	NUM	NUM	NumType=Card	8	flat	_	Entity=person)|Orig=ⲥ̇ⲛⲁⲩ
+9	ⲥⲛⲁⲩ	ⲥⲛⲁⲩ	NUM	NUM	NumType=Card	8	nummod	_	Entity=person)|Orig=ⲥ̇ⲛⲁⲩ
 10	.	.	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0012
-# text = ϫⲉⲡⲟⲩⲁ ⲙⲉ ⲙⲙⲟⲕ · ⲁⲩⲱ ϥϯⲉⲟⲟⲩ ⲛⲁⲕ ⲻ
 # text_en = that one loves you and glorifies you,
+# text = ϫⲉⲡⲟⲩⲁ ⲙⲉ ⲙⲙⲟⲕ · ⲁⲩⲱ ϥϯⲉⲟⲟⲩ ⲛⲁⲕ ⲻ
 1-3	ϫⲉⲡⲟⲩⲁ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	4	mark	_	_
 2	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(person
@@ -236,33 +236,33 @@
 13	ⲻ	ⲻ	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0013
-# text = ⲡⲕⲉⲟⲩⲁ ⲇⲉ ⲙⲟⲥⲧⲉ ⲙⲙⲟⲕ ⲁⲩⲱ ϥⲕⲁⲧⲁⲗⲁⲗⲉⲓ ⲙⲙⲟⲕ .
 # text_en = while the other one hates you and slanders you.
+# text = ⲡⲕⲉⲟⲩⲁ ⲇⲉ ⲙⲟⲥⲧⲉ ⲙⲙⲟⲕ ⲁⲩⲱ ϥⲕⲁⲧⲁⲗⲁⲗⲉⲓ ⲙⲙⲟⲕ .
 1-3	ⲡⲕⲉⲟⲩⲁ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(person
 2	ⲕⲉ	ⲕⲉ	DET	ART	PronType=Art	3	det	_	_
 3	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	5	nsubj	_	Entity=person)|Orig=ⲟⲩⲁ̇
-4	ⲇⲉ	ⲇⲉ	PART	PTC	_	5	advmod	_	_
+4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	5	advmod	_	OrigLang=grc
 5	ⲙⲟⲥⲧⲉ	ⲙⲟⲥⲧⲉ	VERB	V	VerbForm=Fin	0	root	_	_
 6-7	ⲙⲙⲟⲕ	_	_	_	_	_	_	_	_
 6	ⲙⲙⲟ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲙ̇ⲙⲟ
-7	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	obl	_	_
+7	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
 8	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	10	cc	_	Orig=ⲁⲩⲱ̇
 9-10	ϥⲕⲁⲧⲁⲗⲁⲗⲉⲓ	_	_	_	_	_	_	_	_
 9	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Orig=ϥ̇
-10	ⲕⲁⲧⲁⲗⲁⲗⲉⲓ	ⲕⲁⲧⲁⲗⲁⲗⲉⲓ	VERB	V	VerbForm=Fin	5	conj	_	Orig=ⲕⲁⲧⲁⲗⲁⲗⲓ̈
+10	ⲕⲁⲧⲁⲗⲁⲗⲉⲓ	ⲕⲁⲧⲁⲗⲁⲗⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	5	conj	_	Orig=ⲕⲁⲧⲁⲗⲁⲗⲓ̈|OrigLang=grc
 11-12	ⲙⲙⲟⲕ	_	_	_	_	_	_	_	_
 11	ⲙⲙⲟ	ⲛ	ADP	PREP	_	12	case	_	Orig=ⲙ̇ⲙⲟ
 12	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	10	obj	_	_
 13	.	.	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0014
-# text = ⲉⲩϣⲁⲛⲉⲓ ⲇⲉ ϣⲁⲣⲟⲕ ⲕⲛⲁϣⲟⲡⲟⲩ ⲉⲣⲟⲕ ϩⲙⲡⲉⲓⲙⲉⲉⲩⲉ ⲛⲟⲩⲱⲧ ⲙⲡⲉⲥⲛⲁⲩ .
 # text_en = If they come to you, will you receive them with this thought as the same?'
+# text = ⲉⲩϣⲁⲛⲉⲓ ⲇⲉ ϣⲁⲣⲟⲕ ⲕⲛⲁϣⲟⲡⲟⲩ ⲉⲣⲟⲕ ϩⲙⲡⲉⲓⲙⲉⲉⲩⲉ ⲛⲟⲩⲱⲧ ⲙⲡⲉⲥⲛⲁⲩ .
 1-2	ⲉⲩϣⲁⲛⲉⲓ	_	_	_	_	_	_	_	_
 1	ⲉⲩϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟⲟⲩ	PRON	ACOND_PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Orig=ⲉ̇ⲩϣⲁⲛ
 2	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	8	advcl	_	Orig=ⲉⲓ̇
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	8	advmod	_	_
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	8	advmod	_	OrigLang=grc
 4-5	ϣⲁⲣⲟⲕ	_	_	_	_	_	_	_	_
 4	ϣⲁⲣⲟ	ϣⲁ	ADP	PREP	_	5	case	_	Orig=ϣ̣ⲁⲣⲟ
 5	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	2	obl	_	_
@@ -284,12 +284,12 @@
 17-19	ⲙⲡⲉⲥⲛⲁⲩ	_	_	_	_	_	_	_	_
 17	ⲙ	ⲛ	ADP	PREP	_	19	case	_	Orig=ⲙ̇
 18	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Entity=(person
-19	ⲥⲛⲁⲩ	ⲥⲛⲁⲩ	NUM	NUM	NumType=Card	8	obl	_	Entity=person)
+19	ⲥⲛⲁⲩ	ⲥⲛⲁⲩ	NUM	NUM	NumType=Card	16	nmod	_	Entity=person)
 20	.	.	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0015
-# text = ⲡⲉϫⲁϥ ϫⲉⲙⲙⲟⲛ ·
 # text_en = He said, 'No.
+# text = ⲡⲉϫⲁϥ ϫⲉⲙⲙⲟⲛ ·
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
@@ -299,21 +299,21 @@
 5	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0016
-# text = ⲁⲗⲗⲁ ϯⲛⲁⲡⲟⲗⲩⲙⲉⲓ ⲙⲛⲡⲁϩⲏⲧ
 # text_en = But I will wrestle with my heart
-1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	4	cc	_	Orig=ⲁ̇ⲗⲗⲁ
+# text = ⲁⲗⲗⲁ ϯⲛⲁⲡⲟⲗⲩⲙⲉⲓ ⲙⲛⲡⲁϩⲏⲧ
+1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	4	cc	_	Orig=ⲁ̇ⲗⲗⲁ|OrigLang=grc
 2-4	ϯⲛⲁⲡⲟⲗⲩⲙⲉⲓ	_	_	_	_	_	_	_	_
 2	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Orig=ϯ̇
 3	ⲛⲁ	ⲛⲁ	AUX	FUT	_	4	aux	_	_
-4	ⲡⲟⲗⲩⲙⲉⲓ	ⲡⲟⲗⲩⲙⲉⲓ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲡⲟⲗⲩⲙⲓ̇
+4	ⲡⲟⲗⲩⲙⲉⲓ	ⲡⲟⲗⲩⲙⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	Orig=ⲡⲟⲗⲩⲙⲓ̇|OrigLang=grc
 5-7	ⲙⲛⲡⲁϩⲏⲧ	_	_	_	_	_	_	_	_
 5	ⲙⲛ	ⲙⲛ	ADP	PREP	_	7	case	_	Orig=ⲙⲛ̇
 6	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det	_	Entity=(abstract
 7	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	4	obl	_	Entity=abstract)
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0017
-# text = ⲉⲧⲣⲁⲣⲡⲡⲉⲧⲛⲁⲛⲟⲩϥ ⲙⲛⲡⲉⲧⲙⲟⲥⲧⲉ ⲙⲙⲟⲓ ⲛⲧϩⲉ ⲙⲡⲉⲧⲙⲉ ⲙⲙⲟⲓ ⲻ
 # text_en = to do that which is good with the one who hates me like with the one who loves me.'
+# text = ⲉⲧⲣⲁⲣⲡⲡⲉⲧⲛⲁⲛⲟⲩϥ ⲙⲛⲡⲉⲧⲙⲟⲥⲧⲉ ⲙⲙⲟⲓ ⲛⲧϩⲉ ⲙⲡⲉⲧⲙⲉ ⲙⲙⲟⲓ ⲻ
 1-6	ⲉⲧⲣⲁⲣⲡⲡⲉⲧⲛⲁⲛⲟⲩϥ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉ	PART	PREP	_	2	mark	_	Orig=ⲉ̇
 2	ⲧⲣ	ⲧⲣⲉ	VERB	ACAUS	_	0	root	_	_
@@ -332,7 +332,7 @@
 13-15	ⲛⲧϩⲉ	_	_	_	_	_	_	_	_
 13	ⲛ	ⲛ	ADP	PREP	_	15	case	_	Orig=ⲛ̇
 14	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	Orig=ⲑ
-15	ϩⲉ	ϩⲉ	NOUN	N	_	10	obl	_	Orig=ⲉ
+15	ϩⲉ	ϩⲉ	NOUN	N	_	4	obl	_	Orig=ⲉ
 16-19	ⲙⲡⲉⲧⲙⲉ	_	_	_	_	_	_	_	_
 16	ⲙ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲙ̇
 17	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	nmod	_	Entity=(person
@@ -344,37 +344,37 @@
 22	ⲻ	ⲻ	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0018
-# text = ⲡⲉϫⲁϥ ⲇⲉ ⲛⲁϥ ⲛϭⲓⲁⲡⲁ ⲁⲃⲣⲁϩⲁⲙ · ϫⲉϩⲱⲥⲧⲉ ϭⲉ ⲥⲉⲟⲛⲁϩ ⲛϭⲓⲙⲡⲁⲑⲟⲥ .
 # text_en = Abba Abraham said to him, 'Thus, therefore, the passions are alive,
+# text = ⲡⲉϫⲁϥ ⲇⲉ ⲛⲁϥ ⲛϭⲓⲁⲡⲁ ⲁⲃⲣⲁϩⲁⲙ · ϫⲉϩⲱⲥⲧⲉ ϭⲉ ⲥⲉⲟⲛⲁϩ ⲛϭⲓⲙⲡⲁⲑⲟⲥ .
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	1	advmod	_	_
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	1	advmod	_	OrigLang=grc
 4-5	ⲛⲁϥ	_	_	_	_	_	_	_	_
 4	ⲛⲁ	ⲛⲁ	ADP	PREP	_	5	case	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
 6-7	ⲛϭⲓⲁⲡⲁ	_	_	_	_	_	_	_	_
 6	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	7	case	_	Orig=ⲛ̇ϭⲓ
-7	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	1	dislocated	_	Entity=(person|Orig=ⲁ̇ⲡⲁ
-8	ⲁⲃⲣⲁϩⲁⲙ	ⲁⲃⲣⲁϩⲁⲙ	PROPN	NPROP	_	7	flat	_	Entity=person)|Orig=ⲁ̇ⲃⲣⲁϩⲁⲙ
+7	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	1	dislocated	_	Entity=(person|Orig=ⲁ̇ⲡⲁ|OrigLang=he
+8	ⲁⲃⲣⲁϩⲁⲙ	ⲁⲃⲣⲁϩⲁⲙ	PROPN	NPROP	Foreign=Yes	7	flat	_	Entity=person)|Orig=ⲁ̇ⲃⲣⲁϩⲁⲙ|OrigLang=he
 9	·	·	PUNCT	PUNCT	_	0	punct	_	_
 10-11	ϫⲉϩⲱⲥⲧⲉ	_	_	_	_	_	_	_	_
 10	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	14	mark	_	_
-11	ϩⲱⲥⲧⲉ	ϩⲱⲥⲧⲉ	SCONJ	CONJ	_	14	mark	_	_
+11	ϩⲱⲥⲧⲉ	ϩⲱⲥⲧⲉ	SCONJ	CONJ	Foreign=Yes	14	mark	_	OrigLang=grc
 12	ϭⲉ	ϭⲉ	PART	PTC	_	14	advmod	_	_
 13-14	ⲥⲉⲟⲛⲁϩ	_	_	_	_	_	_	_	_
 13	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
 14	ⲟⲛⲁϩ	ⲱⲛϩ	VERB	VSTAT	VerbForm=Fin	1	advcl	_	Orig=ⲟ̇ⲛⲁϩ
 15-17	ⲛϭⲓⲙⲡⲁⲑⲟⲥ	_	_	_	_	_	_	_	_
 15	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	17	case	_	Orig=ⲛ̇ϭⲓ̇
-16	ⲙ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲙ̇
-17	ⲡⲁⲑⲟⲥ	ⲡⲁⲑⲟⲥ	NOUN	N	_	14	dislocated	_	Entity=(abstract)
+16	ⲙ	ⲛ	ADP	PREP	_	15	fixed	_	Orig=ⲙ̇
+17	ⲡⲁⲑⲟⲥ	ⲡⲁⲑⲟⲥ	NOUN	N	Foreign=Yes	14	dislocated	_	Entity=(abstract)|OrigLang=grc
 18	.	.	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0019
-# text = ⲁⲗⲗⲁ ⲉⲩⲙⲏⲣ ⲛⲧⲟⲟⲧⲟⲩ ⲛⲛⲉⲧⲟⲩⲁⲁⲃ ⲻ
 # text_en = but they are bound by the holy ones.'
-1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	4	cc	_	Orig=ⲁ̇ⲗⲗⲁ
+# text = ⲁⲗⲗⲁ ⲉⲩⲙⲏⲣ ⲛⲧⲟⲟⲧⲟⲩ ⲛⲛⲉⲧⲟⲩⲁⲁⲃ ⲻ
+1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	4	cc	_	Orig=ⲁ̇ⲗⲗⲁ|OrigLang=grc
 2-4	ⲉⲩⲙⲏⲣ	_	_	_	_	_	_	_	_
 2	ⲉ	ⲉⲣⲉ	PART	CFOC	_	4	mark	_	Orig=ⲉ̇
 3	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
@@ -384,7 +384,7 @@
 6	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
 7-10	ⲛⲛⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 7	ⲛ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲛ̇
-8	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	4	obl	_	Entity=(person
+8	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	4	obj	_	Entity=(person
 9	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	10	mark	_	_
 10	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	8	acl	_	Entity=person)|Orig=ⲟⲩⲁ̇ⲁⲃ
 11	ⲻ	ⲻ	PUNCT	PUNCT	_	0	punct	_	_

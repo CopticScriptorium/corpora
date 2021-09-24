@@ -1,7 +1,7 @@
 # newdoc id = coptic.treebank:AP.002.n136.account
 # sent_id = coptic_treebank-AP_002_n136_account_s0001
-# text = ⲁϥϫⲟⲟⲥ ⲛϭⲓⲟⲩϩⲗⲗⲟ ϫⲉⲉⲛⲉϣⲁⲣⲉⲛⲉⲯⲩⲭⲟⲟⲩⲉ ⲛⲛⲣⲱⲙⲉ ⲉϣⲉⲓ ⲉⲃⲟⲗ ⲡⲉ ϩⲛⲧϩⲟⲧⲉ ⲙⲛⲛⲥⲁⲧⲁⲛⲁⲥⲧⲁⲥⲓⲥ ϩⲛⲧⲡⲁⲣⲟⲩⲥⲓⲁ ⲙⲡⲛⲟⲩⲧⲉ ⲛⲉⲣⲉⲡⲕⲟⲥⲙⲟⲥ ⲡⲉ ⲛⲁⲙⲟⲩ ⲛⲛⲉϩϣⲗϥ . ϩⲓⲥⲧⲱⲧ . .
 # text_en = An old man said, ‘If the souls of men were to go come in fear after the resurrection, in the presence of God, the world would die of fear and trembling.
+# text = ⲁϥϫⲟⲟⲥ ⲛϭⲓⲟⲩϩⲗⲗⲟ ϫⲉⲉⲛⲉϣⲁⲣⲉⲛⲉⲯⲩⲭⲟⲟⲩⲉ ⲛⲛⲣⲱⲙⲉ ⲉϣⲉⲓ ⲉⲃⲟⲗ ⲡⲉ ϩⲛⲧϩⲟⲧⲉ ⲙⲛⲛⲥⲁⲧⲁⲛⲁⲥⲧⲁⲥⲓⲥ ϩⲛⲧⲡⲁⲣⲟⲩⲥⲓⲁ ⲙⲡⲛⲟⲩⲧⲉ ⲛⲉⲣⲉⲡⲕⲟⲥⲙⲟⲥ ⲡⲉ ⲛⲁⲙⲟⲩ ⲛⲛⲉϩϣⲗϥ . ϩⲓⲥⲧⲱⲧ . .
 1-4	ⲁϥϫⲟⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -16,7 +16,7 @@
 9	ⲉⲛⲉ	ⲉⲛⲉ	SCONJ	CONJ	_	17	mark	_	Orig=ⲉ̇ⲛⲉ
 10	ϣⲁⲣⲉ	ϣⲁⲣⲉ	AUX	AAOR	_	17	aux	_	_
 11	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	12	det	_	Entity=(abstract|Orig=ⲛⲉ̇
-12	ⲯⲩⲭⲟⲟⲩⲉ	ⲯⲩⲭⲏ	NOUN	N	_	17	nsubj	_	Orig=ⲯⲩⲭⲟ̇ⲟⲩⲉ̇
+12	ⲯⲩⲭⲟⲟⲩⲉ	ⲯⲩⲭⲏ	NOUN	N	Foreign=Yes	17	nsubj	_	Orig=ⲯⲩⲭⲟ̇ⲟⲩⲉ̇|OrigLang=grc
 13-15	ⲛⲛⲣⲱⲙⲉ	_	_	_	_	_	_	_	_
 13	ⲛ	ⲛ	ADP	PREP	_	15	case	_	Orig=ⲛ̇
 14	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	15	det	_	Entity=(person|Orig=ⲛ̇
@@ -33,11 +33,11 @@
 23-25	ⲙⲛⲛⲥⲁⲧⲁⲛⲁⲥⲧⲁⲥⲓⲥ	_	_	_	_	_	_	_	_
 23	ⲙⲛⲛⲥⲁ	ⲙⲛⲛⲥⲁ	ADP	PREP	_	25	case	_	Orig=ⲙⲛ̇ⲛ̇ⲥⲁ
 24	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	Entity=(event
-25	ⲁⲛⲁⲥⲧⲁⲥⲓⲥ	ⲁⲛⲁⲥⲧⲁⲥⲓⲥ	NOUN	N	_	22	nmod	_	Entity=event)abstract)|Orig=ⲁⲛⲁⲥⲧⲁⲥⲓ̇ⲥ
+25	ⲁⲛⲁⲥⲧⲁⲥⲓⲥ	ⲁⲛⲁⲥⲧⲁⲥⲓⲥ	NOUN	N	Foreign=Yes	22	nmod	_	Entity=event)abstract)|Orig=ⲁⲛⲁⲥⲧⲁⲥⲓ̇ⲥ|OrigLang=grc
 26-28	ϩⲛⲧⲡⲁⲣⲟⲩⲥⲓⲁ	_	_	_	_	_	_	_	_
 26	ϩⲛ	ϩⲛ	ADP	PREP	_	28	case	_	Orig=ϩⲛ̇
 27	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	Entity=(abstract|Orig=ⲧ̇
-28	ⲡⲁⲣⲟⲩⲥⲓⲁ	ⲡⲁⲣⲟⲩⲥⲓⲁ	NOUN	N	_	17	nmod	_	Orig=ⲡⲁⲣⲟⲩⲥⲓ̇ⲁ̇
+28	ⲡⲁⲣⲟⲩⲥⲓⲁ	ⲡⲁⲣⲟⲩⲥⲓⲁ	NOUN	N	Foreign=Yes	17	nmod	_	Orig=ⲡⲁⲣⲟⲩⲥⲓ̇ⲁ̇|OrigLang=grc
 29-31	ⲙⲡⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 29	ⲙ	ⲛ	ADP	PREP	_	31	case	_	Orig=ⲙ̇
 30	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	Entity=(person
@@ -45,7 +45,7 @@
 32-34	ⲛⲉⲣⲉⲡⲕⲟⲥⲙⲟⲥ	_	_	_	_	_	_	_	_
 32	ⲛⲉⲣⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	34	aux	_	_
 33	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	Entity=(place|Orig=ⲡ̇
-34	ⲕⲟⲥⲙⲟⲥ	ⲕⲟⲥⲙⲟⲥ	NOUN	N	_	37	nsubj	_	Entity=place)
+34	ⲕⲟⲥⲙⲟⲥ	ⲕⲟⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	37	nsubj	_	Entity=place)|OrigLang=grc
 35	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	34	cop	_	_
 36-37	ⲛⲁⲙⲟⲩ	_	_	_	_	_	_	_	_
 36	ⲛⲁ	ⲛⲁ	AUX	FUT	_	37	aux	_	_
@@ -61,15 +61,15 @@
 44	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=·
 
 # sent_id = coptic_treebank-AP_002_n136_account_s0002
-# text = ⲟⲩ ⲅⲁⲣ ⲡⲉ ⲛⲁⲩ ⲉⲙⲡⲏⲩⲉ ⲉⲩⲛⲁⲡⲱϩ . ⲁⲩⲱ ⲡⲛⲟⲩⲧⲉ ⲉϥⲟⲩⲱⲛϩ ⲙⲙⲟϥ ⲉⲃⲟⲗ ϩⲛⲟⲩⲟⲣⲅⲏ . ⲙⲛⲟⲩⲁⲡⲉⲓⲗⲏ
 # text_en = For, what would it be like to see the heavens opening, and God revealing himself in anger and threat
+# text = ⲟⲩ ⲅⲁⲣ ⲡⲉ ⲛⲁⲩ ⲉⲙⲡⲏⲩⲉ ⲉⲩⲛⲁⲡⲱϩ . ⲁⲩⲱ ⲡⲛⲟⲩⲧⲉ ⲉϥⲟⲩⲱⲛϩ ⲙⲙⲟϥ ⲉⲃⲟⲗ ϩⲛⲟⲩⲟⲣⲅⲏ . ⲙⲛⲟⲩⲁⲡⲉⲓⲗⲏ
 1	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	_
-2	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	_	1	advmod	_	_
+2	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	1	advmod	_	OrigLang=grc
 3	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	1	cop	_	_
 4	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	VerbForm=Fin	1	csubj	_	_
 5-7	ⲉⲙⲡⲏⲩⲉ	_	_	_	_	_	_	_	_
 5	ⲉ	ⲉ	ADP	PREP	_	7	case	_	Orig=ⲉ̇
-6	ⲙ	ⲡ	DET	ART	_	7	det	_	Entity=(place
+6	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	7	det	_	Entity=(place
 7	ⲡⲏⲩⲉ	ⲡⲉ	NOUN	N	_	4	obl	_	Entity=place)
 8-11	ⲉⲩⲛⲁⲡⲱϩ	_	_	_	_	_	_	_	_
 8	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	11	mark	_	Orig=ⲉ̇
@@ -92,24 +92,24 @@
 22-24	ϩⲛⲟⲩⲟⲣⲅⲏ	_	_	_	_	_	_	_	_
 22	ϩⲛ	ϩⲛ	ADP	PREP	_	24	case	_	Orig=ϩ̇ⲛ
 23	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	24	det	_	Entity=(abstract
-24	ⲟⲣⲅⲏ	ⲟⲣⲅⲏ	NOUN	N	_	18	obl	_	Entity=abstract)|Orig=ⲟ̇ⲣⲅⲏ
+24	ⲟⲣⲅⲏ	ⲟⲣⲅⲏ	NOUN	N	Foreign=Yes	18	obl	_	Entity=abstract)|Orig=ⲟ̇ⲣⲅⲏ|OrigLang=grc
 25	.	.	PUNCT	PUNCT	_	24	punct	_	Orig=·
 26-28	ⲙⲛⲟⲩⲁⲡⲉⲓⲗⲏ	_	_	_	_	_	_	_	_
 26	ⲙⲛ	ⲙⲛ	ADP	PREP	_	28	cc	_	Orig=ⲙⲛ̇
 27	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	28	det	_	Entity=(abstract
-28	ⲁⲡⲉⲓⲗⲏ	ⲁⲡⲉⲓⲗⲏ	NOUN	N	_	24	conj	_	Entity=abstract)|Orig=ⲁⲡⲓ̇ⲗⲏ
+28	ⲁⲡⲉⲓⲗⲏ	ⲁⲡⲉⲓⲗⲏ	NOUN	N	Foreign=Yes	24	conj	_	Entity=abstract)|Orig=ⲁⲡⲓ̇ⲗⲏ|OrigLang=grc
 
 # sent_id = coptic_treebank-AP_002_n136_account_s0003
-# text = ..... ⲙⲏⲏϣⲉ ⲛⲧⲁⲅⲙⲁ ⲛⲁⲅⲅⲉⲗⲟⲥ ⲉⲙⲛⲏⲡ .....
 # text_en = ... an army of angels, being without number ...
+# text = ..... ⲙⲏⲏϣⲉ ⲛⲧⲁⲅⲙⲁ ⲛⲁⲅⲅⲉⲗⲟⲥ ⲉⲙⲛⲏⲡ .....
 1	.....	.....	X	UNKNOWN	_	2	dep	_	Orig=[.....]
 2	ⲙⲏⲏϣⲉ	ⲙⲏⲏϣⲉ	NOUN	N	_	0	root	_	Entity=(person|Orig=ⲙⲏⲏϣⲉ̇
 3-4	ⲛⲧⲁⲅⲙⲁ	_	_	_	_	_	_	_	_
 3	ⲛ	ⲛ	ADP	PREP	_	4	case	_	Orig=ⲛ̇
-4	ⲧⲁⲅⲙⲁ	ⲧⲁⲅⲙⲁ	NOUN	N	_	2	nmod	_	Entity=(organization
+4	ⲧⲁⲅⲙⲁ	ⲧⲁⲅⲙⲁ	NOUN	N	Foreign=Yes	2	nmod	_	Entity=(organization|OrigLang=grc
 5-6	ⲛⲁⲅⲅⲉⲗⲟⲥ	_	_	_	_	_	_	_	_
 5	ⲛ	ⲛ	ADP	PREP	_	6	case	_	_
-6	ⲁⲅⲅⲉⲗⲟⲥ	ⲁⲅⲅⲉⲗⲟⲥ	NOUN	N	_	4	nmod	_	Entity=(person
+6	ⲁⲅⲅⲉⲗⲟⲥ	ⲁⲅⲅⲉⲗⲟⲥ	NOUN	N	Foreign=Yes	4	nmod	_	Entity=(person|OrigLang=grc
 7-9	ⲉⲙⲛⲏⲡ	_	_	_	_	_	_	_	_
 7	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	8	mark	_	_
 8	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	2	advcl	_	Orig=ⲙ̇ⲛ
@@ -117,8 +117,8 @@
 10	.....	.....	X	UNKNOWN	_	2	dep	_	Orig=[.....]
 
 # sent_id = coptic_treebank-AP_002_n136_account_s0004
-# text = ⲉⲧⲣⲉⲧⲙⲛⲧⲣⲱⲙⲉ ⲧⲏⲣⲥ ⲛⲁⲩ ⲉⲛⲁⲓϩⲓⲟⲩⲥⲟⲡ
 # text_en = to cause all of mankind to see these together.
+# text = ⲉⲧⲣⲉⲧⲙⲛⲧⲣⲱⲙⲉ ⲧⲏⲣⲥ ⲛⲁⲩ ⲉⲛⲁⲓϩⲓⲟⲩⲥⲟⲡ
 1-4	ⲉⲧⲣⲉⲧⲙⲛⲧⲣⲱⲙⲉ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉ	PART	PREP	_	2	mark	_	_
 2	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	0	root	_	_
@@ -136,8 +136,8 @@
 12	ⲥⲟⲡ	ⲥⲟⲡ	NOUN	N	_	7	obl	_	_
 
 # sent_id = coptic_treebank-AP_002_n136_account_s0005
-# text = ⲉⲧⲃⲉ ⲡⲁⲓ ϣϣⲉ ⲉⲣⲟⲛ ⲉⲙⲉⲉⲩⲉ ⲛⲧⲉⲓϩⲉ ϩⲱⲥ ⲉⲛⲛⲁϯⲗⲟⲅⲟⲥ ⲙⲡⲛⲟⲩⲧⲉ ⲙⲙⲏⲛⲉ . ϫⲉⲉⲩⲛⲁϣⲁⲧⲛ ϩⲁⲛⲉⲛⲧⲁⲛⲁⲁⲩ ϩⲛⲧⲉⲛϭⲓⲛⲱⲛⲁϩ .
 # text_en = Because of this, it is right for us to think in this way, if we shall give an account to God daily, that we shall be cut off because of what we have done in our daily lives.'
+# text = ⲉⲧⲃⲉ ⲡⲁⲓ ϣϣⲉ ⲉⲣⲟⲛ ⲉⲙⲉⲉⲩⲉ ⲛⲧⲉⲓϩⲉ ϩⲱⲥ ⲉⲛⲛⲁϯⲗⲟⲅⲟⲥ ⲙⲡⲛⲟⲩⲧⲉ ⲙⲙⲏⲛⲉ . ϫⲉⲉⲩⲛⲁϣⲁⲧⲛ ϩⲁⲛⲉⲛⲧⲁⲛⲁⲁⲩ ϩⲛⲧⲉⲛϭⲓⲛⲱⲛⲁϩ .
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	2	case	_	Orig=ⲉ̇ⲧⲃⲉ
 2	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	Entity=(abstract)|Orig=ⲡⲁⲓ̇
 3	ϣϣⲉ	ϣϣⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϣ̇ϣⲉ
@@ -151,12 +151,12 @@
 8	ⲛ	ⲛ	ADP	PREP	_	10	case	_	Orig=ⲛ̇
 9	ⲧⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	Orig=ⲧⲉ̇ⲓ̇
 10	ϩⲉ	ϩⲉ	NOUN	N	_	7	nmod	_	_
-11	ϩⲱⲥ	ϩⲱⲥ	SCONJ	CONJ	_	15	mark	_	_
+11	ϩⲱⲥ	ϩⲱⲥ	SCONJ	CONJ	Foreign=Yes	15	mark	_	OrigLang=grc
 12-15	ⲉⲛⲛⲁϯⲗⲟⲅⲟⲥ	_	_	_	_	_	_	_	_
 12	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	15	mark	_	_
 13	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
 14	ⲛⲁ	ⲛⲁ	AUX	FUT	_	15	aux	_	_
-15	ϯⲗⲟⲅⲟⲥ	ϯⲗⲟⲅⲟⲥ	VERB	V	VerbForm=Fin	7	advcl	_	Morphs=ϯ-ⲗⲟⲅⲟⲥ
+15	ϯⲗⲟⲅⲟⲥ	ϯⲗⲟⲅⲟⲥ	VERB	V	Foreign=Yes|VerbForm=Fin	7	advcl	_	Morphs=ϯ-ⲗⲟⲅⲟⲥ|OrigLang=grc
 16-18	ⲙⲡⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 16	ⲙ	ⲛ	ADP	PREP	_	18	case	_	Orig=ⲙ̇
 17	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	Entity=(person|Orig=ⲡ̇

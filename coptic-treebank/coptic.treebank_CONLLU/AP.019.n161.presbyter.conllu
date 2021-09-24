@@ -1,7 +1,7 @@
 # newdoc id = coptic.treebank:AP.019.n161.presbyter
 # sent_id = coptic_treebank-AP_019_n161_presbyter_s0001
-# text = ⲁϥⲃⲱⲕ ⲛⲟⲩⲟⲉⲓϣ ⲛϭⲓⲡⲉⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ ⲛϣⲓⲏⲧ ϣⲁⲡⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ ⲛⲣⲁⲕⲟⲧⲉ .
 # text_en = He went once, that is the presbyter of Scetis, to the archbishop of Alexandria
+# text = ⲁϥⲃⲱⲕ ⲛⲟⲩⲟⲉⲓϣ ⲛϭⲓⲡⲉⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ ⲛϣⲓⲏⲧ ϣⲁⲡⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ ⲛⲣⲁⲕⲟⲧⲉ .
 1-3	ⲁϥⲃⲱⲕ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=Ⲁ
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -12,22 +12,22 @@
 6-8	ⲛϭⲓⲡⲉⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ	_	_	_	_	_	_	_	_
 6	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	8	case	_	Orig=ⲛ̇ϭⲓ̇
 7	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(person
-8	ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ	ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ	NOUN	N	_	3	dislocated	_	_
+8	ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ	ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ	NOUN	N	Foreign=Yes	3	dislocated	_	OrigLang=grc
 9-10	ⲛϣⲓⲏⲧ	_	_	_	_	_	_	_	_
 9	ⲛ	ⲛ	ADP	PREP	_	10	case	_	Orig=ⲛ̇
 10	ϣⲓⲏⲧ	ϣⲓⲏⲧ	PROPN	NPROP	_	8	nmod	_	Entity=(place-Wadi_El_Natrun)person)|Orig=ϣⲓ̇ⲏⲧ
 11-13	ϣⲁⲡⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ	_	_	_	_	_	_	_	_
 11	ϣⲁ	ϣⲁ	ADP	PREP	_	13	case	_	_
 12	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Entity=(person
-13	ⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ	ⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ	NOUN	N	_	3	obl	_	Orig=ⲁⲣⲭⲏⲉ̇ⲡⲓ̇ⲥⲕⲟⲡⲟⲥ
+13	ⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ	ⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	3	obl	_	Orig=ⲁⲣⲭⲏⲉ̇ⲡⲓ̇ⲥⲕⲟⲡⲟⲥ|OrigLang=grc
 14-15	ⲛⲣⲁⲕⲟⲧⲉ	_	_	_	_	_	_	_	_
 14	ⲛ	ⲛ	ADP	PREP	_	15	case	_	Orig=ⲛ̇
 15	ⲣⲁⲕⲟⲧⲉ	ⲣⲁⲕⲟⲧⲉ	PROPN	NPROP	_	13	nmod	_	Entity=(place-Alexandria)person)
 16	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=·ⲻ
 
 # sent_id = coptic_treebank-AP_019_n161_presbyter_s0002
-# text = ⲁⲩⲱ ⲛⲧⲉⲣⲉϥⲕⲧⲟϥ ⲉϣⲓⲏⲧ , ⲁⲩϫⲛⲟⲩϥ ⲛϭⲓⲛⲉⲥⲛⲏⲩ ϫⲉⲉⲣⲉⲧⲡⲟⲗⲓⲥⲣⲟⲩ .
 # text_en = and after he returned to Scetis, they asked him, that is the brothers, about news from the city.
+# text = ⲁⲩⲱ ⲛⲧⲉⲣⲉϥⲕⲧⲟϥ ⲉϣⲓⲏⲧ , ⲁⲩϫⲛⲟⲩϥ ⲛϭⲓⲛⲉⲥⲛⲏⲩ ϫⲉⲉⲣⲉⲧⲡⲟⲗⲓⲥⲣⲟⲩ .
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	11	cc	_	Orig=Ⲁⲩⲱ̇
 2-5	ⲛⲧⲉⲣⲉϥⲕⲧⲟϥ	_	_	_	_	_	_	_	_
 2	ⲛⲧⲉⲣⲉ	ⲛⲧⲉⲣⲉ	AUX	APREC	_	4	aux	_	Orig=ⲛ̇ⲧⲉⲣⲉ
@@ -51,16 +51,16 @@
 16	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	20	mark	_	_
 17	ⲉⲣⲉ	ⲉⲣⲉ	PART	CFOC	_	20	mark	_	Orig=ⲉ̇ⲣⲉ
 18	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	Entity=(place|Orig=ⲧ̇
-19	ⲡⲟⲗⲓⲥ	ⲡⲟⲗⲓⲥ	NOUN	N	_	20	nsubj	_	Entity=place)|Orig=ⲡ̇ⲟⲗⲓ̇ⲥ̣
+19	ⲡⲟⲗⲓⲥ	ⲡⲟⲗⲓⲥ	NOUN	N	Foreign=Yes	20	nsubj	_	Entity=place)|Orig=ⲡ̇ⲟⲗⲓ̇ⲥ̣|OrigLang=grc
 20	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	11	ccomp	_	_
 21	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	20	obj	_	_
 22	.	.	PUNCT	PUNCT	_	11	punct	_	Orig=⸱
 
 # sent_id = coptic_treebank-AP_019_n161_presbyter_s0003
-# text = ⲛⲧⲟϥ ⲇⲉ ⲡⲉϫⲁϥ ⲛⲁⲩ ϫⲉⲫⲩⲥⲓ ⲛⲁⲥⲛⲏⲩ ⲁⲛⲟⲕ ⲙⲡⲓⲛⲁⲩ ⲉⲡϩⲟ ⲛⲗⲁⲁⲩ ⲛⲣⲱⲙⲉ ⲛⲥⲁⲡⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ ⲙⲁⲩⲁⲁϥ
 # text_en = But he told them: 'Naturally, my brothers, I have not seen the face of any man, except the archbishop alone.'
+# text = ⲛⲧⲟϥ ⲇⲉ ⲡⲉϫⲁϥ ⲛⲁⲩ ϫⲉⲫⲩⲥⲓ ⲛⲁⲥⲛⲏⲩ ⲁⲛⲟⲕ ⲙⲡⲓⲛⲁⲩ ⲉⲡϩⲟ ⲛⲗⲁⲁⲩ ⲛⲣⲱⲙⲉ ⲛⲥⲁⲡⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ ⲙⲁⲩⲁⲁϥ
 1	ⲛⲧⲟϥ	ⲛⲧⲟϥ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	dislocated	_	Orig=ⲛ̇ⲧⲟϥ
-2	ⲇⲉ	ⲇⲉ	PART	PTC	_	3	advmod	_	Orig=Ⲇⲉ
+2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	3	advmod	_	Orig=Ⲇⲉ|OrigLang=grc
 3-4	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 3	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -69,7 +69,7 @@
 6	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	obl	_	_
 7-8	ϫⲉⲫⲩⲥⲓ	_	_	_	_	_	_	_	_
 7	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	14	mark	_	_
-8	ⲫⲩⲥⲓ	ⲫⲩⲥⲓ	ADV	ADV	_	14	advmod	_	Orig=Ⲫⲩⲥⲓ̇
+8	ⲫⲩⲥⲓ	ⲫⲩⲥⲓ	ADV	ADV	Foreign=Yes	14	advmod	_	Orig=Ⲫⲩⲥⲓ̇|OrigLang=grc
 9-10	ⲛⲁⲥⲛⲏⲩ	_	_	_	_	_	_	_	_
 9	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det	_	Entity=(person
 10	ⲥⲛⲏⲩ	ⲥⲟⲛ	NOUN	N	_	14	vocative	_	Entity=person)
@@ -91,16 +91,16 @@
 22-24	ⲛⲥⲁⲡⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ	_	_	_	_	_	_	_	_
 22	ⲛⲥⲁ	ⲛⲥⲁ	ADP	PREP	_	24	case	_	Orig=ⲛ̇ⲥⲁ
 23	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Entity=(person
-24	ⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ	ⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ	NOUN	N	_	14	obl	_	Orig=ⲁⲣⲭⲏⲉ̇ⲡⲓ̇ⲥⲕⲟⲡⲟⲥ
+24	ⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ	ⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	14	obl	_	Orig=ⲁⲣⲭⲏⲉ̇ⲡⲓ̇ⲥⲕⲟⲡⲟⲥ|OrigLang=grc
 25-26	ⲙⲁⲩⲁⲁϥ	_	_	_	_	_	_	_	_
 25	ⲙⲁⲩⲁⲁ	ⲙⲁⲩⲁⲁ	ADV	IMOD	_	24	advmod	_	Orig=ⲙⲁⲩⲁⲁ̇
 26	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	25	det	_	Entity=person)
 
 # sent_id = coptic_treebank-AP_019_n161_presbyter_s0004
-# text = ⲛⲧⲟⲟⲩ ⲇⲉ ⲛⲧⲉⲣⲟⲩⲥⲱⲧⲙ ⲁⲩⲧⲁϫⲣⲟ ⲉⲧⲃⲉⲡϣⲁϫⲉ , ϫⲉⲉⲩⲉϩⲁⲣⲉϩ ⲉⲣⲟⲟⲩ ϩⲁⲃⲟⲗ ϩⲁⲡϫⲓϩⲣⲁϥ ⲛⲛⲃⲁⲗ .
 # text_en = After hearing him they became strengthened thanks to his story, that they should guard themselves against raising their eyes.
+# text = ⲛⲧⲟⲟⲩ ⲇⲉ ⲛⲧⲉⲣⲟⲩⲥⲱⲧⲙ ⲁⲩⲧⲁϫⲣⲟ ⲉⲧⲃⲉⲡϣⲁϫⲉ , ϫⲉⲉⲩⲉϩⲁⲣⲉϩ ⲉⲣⲟⲟⲩ ϩⲁⲃⲟⲗ ϩⲁⲡϫⲓϩⲣⲁϥ ⲛⲛⲃⲁⲗ .
 1	ⲛⲧⲟⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERI	Definite=Def|Number=Plur|Person=3|PronType=Prs	5	dislocated	_	Orig=Ⲛⲧⲟⲟⲩ
-2	ⲇⲉ	ⲇⲉ	PART	PTC	_	5	advmod	_	_
+2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	5	advmod	_	OrigLang=grc
 3-5	ⲛⲧⲉⲣⲟⲩⲥⲱⲧⲙ	_	_	_	_	_	_	_	_
 3	ⲛⲧⲉⲣ	ⲛⲧⲉⲣⲉ	AUX	APREC	_	5	aux	_	Orig=ⲛ̇ⲧⲉⲣ
 4	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_

@@ -1,7 +1,7 @@
 # newdoc id = coptic.treebank:AP.136.unid.humility
 # sent_id = coptic_treebank-AP_136_unid_humility_s0001
-# text = ⲁϥϫⲟⲟⲥ ⲛϭⲓⲟⲩϩⲗⲗⲟ ϫⲉⲙⲡⲓⲡⲁⲣⲁⲃⲁ ⲛⲧⲁⲧⲁⲝⲓⲥ ⲉⲛⲉϩ · ⲉⲧⲣⲁⲙⲟⲟϣⲉ ⲉⲡϫⲓⲥⲉ ⲙⲙⲟⲓ
 # text_en = ...
+# text = ⲁϥϫⲟⲟⲥ ⲛϭⲓⲟⲩϩⲗⲗⲟ ϫⲉⲙⲡⲓⲡⲁⲣⲁⲃⲁ ⲛⲧⲁⲧⲁⲝⲓⲥ ⲉⲛⲉϩ · ⲉⲧⲣⲁⲙⲟⲟϣⲉ ⲉⲡϫⲓⲥⲉ ⲙⲙⲟⲓ
 1-4	ⲁϥϫⲟⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -15,11 +15,11 @@
 8	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	11	mark	_	_
 9	ⲙⲡ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	11	aux	_	_
 10	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
-11	ⲡⲁⲣⲁⲃⲁ	ⲡⲁⲣⲁⲃⲁ	VERB	V	VerbForm=Fin	3	ccomp	_	_
+11	ⲡⲁⲣⲁⲃⲁ	ⲡⲁⲣⲁⲃⲁ	VERB	V	Foreign=Yes|VerbForm=Fin	3	ccomp	_	OrigLang=grc
 12-14	ⲛⲧⲁⲧⲁⲝⲓⲥ	_	_	_	_	_	_	_	_
 12	ⲛ	ⲛ	ADP	PREP	_	14	case	_	_
 13	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det	_	Entity=(abstract
-14	ⲧⲁⲝⲓⲥ	ⲧⲁⲝⲓⲥ	NOUN	N	_	11	obl	_	Entity=abstract)|Orig=ⲇⲁⲝⲓⲥ
+14	ⲧⲁⲝⲓⲥ	ⲧⲁⲝⲓⲥ	NOUN	N	Foreign=Yes	11	obl	_	Entity=abstract)|Orig=ⲇⲁⲝⲓⲥ|OrigLang=grc
 15	ⲉⲛⲉϩ	ⲉⲛⲉϩ	ADV	ADV	_	11	advmod	_	_
 16	·	·	PUNCT	PUNCT	_	18	punct	_	_
 17-20	ⲉⲧⲣⲁⲙⲟⲟϣⲉ	_	_	_	_	_	_	_	_
@@ -36,8 +36,8 @@
 25	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	23	obl	_	Entity=abstract)
 
 # sent_id = coptic_treebank-AP_136_unid_humility_s0002
-# text = ⲁⲩⲱ ⲟⲛ ⲉⲩⲉⲓⲛⲉ ⲙⲙⲟⲓ ⲉⲡⲉⲥⲏⲧ ⲉⲩⲑⲃⲃⲓⲟ ⲙⲡⲓϣⲧⲟⲣⲧⲣ .
 # text_en = ...
+# text = ⲁⲩⲱ ⲟⲛ ⲉⲩⲉⲓⲛⲉ ⲙⲙⲟⲓ ⲉⲡⲉⲥⲏⲧ ⲉⲩⲑⲃⲃⲓⲟ ⲙⲡⲓϣⲧⲟⲣⲧⲣ .
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	16	cc	_	Orig=ⲁⲩⲱ̇
 2	ⲟⲛ	ⲟⲛ	ADV	ADV	_	16	advmod	_	_
 3-5	ⲉⲩⲉⲓⲛⲉ	_	_	_	_	_	_	_	_
@@ -62,8 +62,8 @@
 17	.	.	PUNCT	PUNCT	_	16	punct	_	Orig=ⲻ
 
 # sent_id = coptic_treebank-AP_136_unid_humility_s0003
-# text = ⲡⲁⲣⲟⲟⲩϣ ⲧⲏⲣϥ ⲡⲉ ⲉⲧⲣⲁⲧⲱⲃϩ ⲙⲡⲛⲟⲩⲧⲉ ϣⲁⲛⲧⲉϥ.. ⲙⲙⲟⲓ ⲉⲃⲟⲗ ⲙⲡⲣⲙⲛⲁⲥ .
 # text_en = ...
+# text = ⲡⲁⲣⲟⲟⲩϣ ⲧⲏⲣϥ ⲡⲉ ⲉⲧⲣⲁⲧⲱⲃϩ ⲙⲡⲛⲟⲩⲧⲉ ϣⲁⲛⲧⲉϥ.. ⲙⲙⲟⲓ ⲉⲃⲟⲗ ⲙⲡⲣⲙⲛⲁⲥ .
 1-2	ⲡⲁⲣⲟⲟⲩϣ	_	_	_	_	_	_	_	_
 1	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	Entity=(abstract
 2	ⲣⲟⲟⲩϣ	ⲣⲟⲟⲩϣ	NOUN	N	_	0	root	_	_

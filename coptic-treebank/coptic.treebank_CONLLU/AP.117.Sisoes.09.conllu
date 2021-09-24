@@ -1,7 +1,7 @@
 # newdoc id = coptic.treebank:AP.117.Sisoes.09
 # sent_id = coptic_treebank-AP_117_Sisoes_09_s0001
-# text = ⲁϥⲃⲱⲕ ⲛϭⲓⲟⲩⲥⲟⲛ ϣⲁⲁⲡⲁ ϫⲓϫⲱⲓ ⲉⲡⲧⲟⲟⲩ ⲛⲁⲡⲁ ⲁⲛⲧⲱⲛⲓⲟⲥ ⲁⲩⲱ ⲟⲩϣⲁϫⲉ ⲁⲩϫⲟⲟϥ ⲛⲁⲡⲁ ϫⲓϫⲱⲓ ϫⲉⲧⲉⲛⲟⲩ ⲙⲡⲁⲧⲉⲕⲡⲱϩ ⲉⲡϣⲓ ⲛⲁⲡⲁ ⲁⲛⲧⲱⲛⲓⲟⲥ ⲁⲡⲁ · ·
 # text_en = ...
+# text = ⲁϥⲃⲱⲕ ⲛϭⲓⲟⲩⲥⲟⲛ ϣⲁⲁⲡⲁ ϫⲓϫⲱⲓ ⲉⲡⲧⲟⲟⲩ ⲛⲁⲡⲁ ⲁⲛⲧⲱⲛⲓⲟⲥ ⲁⲩⲱ ⲟⲩϣⲁϫⲉ ⲁⲩϫⲟⲟϥ ⲛⲁⲡⲁ ϫⲓϫⲱⲓ ϫⲉⲧⲉⲛⲟⲩ ⲙⲡⲁⲧⲉⲕⲡⲱϩ ⲉⲡϣⲓ ⲛⲁⲡⲁ ⲁⲛⲧⲱⲛⲓⲟⲥ ⲁⲡⲁ · ·
 1-3	ⲁϥⲃⲱⲕ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -12,7 +12,7 @@
 6	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	3	dislocated	_	Entity=person)
 7-8	ϣⲁⲁⲡⲁ	_	_	_	_	_	_	_	_
 7	ϣⲁ	ϣⲁ	ADP	PREP	_	8	case	_	_
-8	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	3	obl	_	Entity=(person-Sisoes_the_Great
+8	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	3	obl	_	Entity=(person-Sisoes_the_Great|OrigLang=he
 9	ϫⲓϫⲱⲓ	ϫⲓϫⲱⲓ	PROPN	NPROP	_	8	flat	_	Entity=person-Sisoes_the_Great)|Orig=ϫⲓ̇ϫⲱⲓ̇
 10-12	ⲉⲡⲧⲟⲟⲩ	_	_	_	_	_	_	_	_
 10	ⲉ	ⲉ	ADP	PREP	_	12	case	_	_
@@ -20,8 +20,8 @@
 12	ⲧⲟⲟⲩ	ⲧⲟⲟⲩ	NOUN	N	_	3	obl	_	_
 13-14	ⲛⲁⲡⲁ	_	_	_	_	_	_	_	_
 13	ⲛ	ⲛ	ADP	PREP	_	14	case	_	_
-14	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	12	nmod	_	Entity=(person-Anthony_the_Great
-15	ⲁⲛⲧⲱⲛⲓⲟⲥ	ⲁⲛⲧⲱⲛⲓⲟⲥ	PROPN	NPROP	_	14	flat	_	Entity=person-Anthony_the_Great)place)|Orig=ⲁⲛⲧⲱⲛⲓ̇ⲟⲥ
+14	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	12	nmod	_	Entity=(person-Anthony_the_Great|OrigLang=he
+15	ⲁⲛⲧⲱⲛⲓⲟⲥ	ⲁⲛⲧⲱⲛⲓⲟⲥ	PROPN	NPROP	Foreign=Yes	14	flat	_	Entity=person-Anthony_the_Great)place)|Orig=ⲁⲛⲧⲱⲛⲓ̇ⲟⲥ|OrigLang=grc
 16	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	21	cc	_	Orig=ⲁ̇ⲩⲱ̇
 17-18	ⲟⲩϣⲁϫⲉ	_	_	_	_	_	_	_	_
 17	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	18	det	_	Entity=(abstract
@@ -33,7 +33,7 @@
 22	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
 23-24	ⲛⲁⲡⲁ	_	_	_	_	_	_	_	_
 23	ⲛ	ⲛ	ADP	PREP	_	24	case	_	_
-24	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	21	obl	_	Entity=(person-Sisoes_the_Great
+24	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	21	obl	_	Entity=(person-Sisoes_the_Great|OrigLang=he
 25	ϫⲓϫⲱⲓ	ϫⲓϫⲱⲓ	PROPN	NPROP	_	24	flat	_	Entity=person-Sisoes_the_Great)|Orig=ϫⲓ̇ϫⲱⲓ̇
 26-27	ϫⲉⲧⲉⲛⲟⲩ	_	_	_	_	_	_	_	_
 26	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	30	mark	_	_
@@ -48,15 +48,15 @@
 33	ϣⲓ	ϣⲓ	NOUN	N	_	30	obl	_	Orig=ϣⲓ̇
 34-35	ⲛⲁⲡⲁ	_	_	_	_	_	_	_	_
 34	ⲛ	ⲛ	ADP	PREP	_	35	case	_	_
-35	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	33	nmod	_	Entity=(person-Anthony_the_Great
-36	ⲁⲛⲧⲱⲛⲓⲟⲥ	ⲁⲛⲧⲱⲛⲓⲟⲥ	PROPN	NPROP	_	35	flat	_	Entity=person-Anthony_the_Great)abstract)|Orig=ⲁ̇ⲛⲧⲱⲛⲓ̇ⲟⲥ
-37	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	30	vocative	_	Entity=(person)|Orig=ⲁ̇ⲡⲁ
+35	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	33	nmod	_	Entity=(person-Anthony_the_Great|OrigLang=he
+36	ⲁⲛⲧⲱⲛⲓⲟⲥ	ⲁⲛⲧⲱⲛⲓⲟⲥ	PROPN	NPROP	Foreign=Yes	35	flat	_	Entity=person-Anthony_the_Great)abstract)|Orig=ⲁ̇ⲛⲧⲱⲛⲓ̇ⲟⲥ|OrigLang=grc
+37	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	30	vocative	_	Entity=(person)|Orig=ⲁ̇ⲡⲁ|OrigLang=he
 38	·	·	PUNCT	PUNCT	_	3	punct	_	_
 39	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-AP_117_Sisoes_09_s0002
-# text = ⲡⲉϫⲁϥ ⲛⲁⲩ ϫⲉⲉⲃⲟⲗ ⲧⲱⲛ ·
 # text_en = ...
+# text = ⲡⲉϫⲁϥ ⲛⲁⲩ ϫⲉⲉⲃⲟⲗ ⲧⲱⲛ ·
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	Orig=ϥ̣
@@ -70,8 +70,8 @@
 8	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = coptic_treebank-AP_117_Sisoes_09_s0003
-# text = ⲉⲛⲉⲟⲩⲛⲧⲁⲓ ⲙⲙⲁⲩ ⲛⲟⲩⲙⲉⲉⲩⲉ ⲛⲟⲩⲱⲧ ⲛⲧⲉⲁⲡⲁ ⲁⲛⲧⲱⲛⲓⲟⲥ ⲛⲉⲓⲛⲁϣⲱⲡⲉ ⲛⲕⲱϩⲧ ⲧⲏⲣⲧ ·
 # text_en = ...
+# text = ⲉⲛⲉⲟⲩⲛⲧⲁⲓ ⲙⲙⲁⲩ ⲛⲟⲩⲙⲉⲉⲩⲉ ⲛⲟⲩⲱⲧ ⲛⲧⲉⲁⲡⲁ ⲁⲛⲧⲱⲛⲓⲟⲥ ⲛⲉⲓⲛⲁϣⲱⲡⲉ ⲛⲕⲱϩⲧ ⲧⲏⲣⲧ ·
 1-3	ⲉⲛⲉⲟⲩⲛⲧⲁⲓ	_	_	_	_	_	_	_	_
 1	ⲉⲛⲉ	ⲉⲛⲉ	SCONJ	CONJ	_	2	mark	_	Orig=ⲉ̇ⲛⲉ
 2	ⲟⲩⲛⲧⲁ	ⲟⲩⲛⲧⲉ	VERB	EXIST	_	16	advcl	_	Orig=ⲟⲩⲛ̇ⲧⲁ
@@ -86,8 +86,8 @@
 9	ⲟⲩⲱⲧ	ⲟⲩⲱⲧ	NOUN	N	_	7	nmod	_	Orig=ⲟⲩⲱ̇ⲧ̇
 10-11	ⲛⲧⲉⲁⲡⲁ	_	_	_	_	_	_	_	_
 10	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	11	case	_	Orig=ⲛ̇ⲧⲉ
-11	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	7	nmod	_	Entity=(person-Anthony_the_Great|Orig=ⲁ̇ⲡⲁ
-12	ⲁⲛⲧⲱⲛⲓⲟⲥ	ⲁⲛⲧⲱⲛⲓⲟⲥ	PROPN	NPROP	_	11	flat	_	Entity=person-Anthony_the_Great)abstract)|Orig=ⲁ̇ⲛⲧⲱⲛⲓ̇ⲟⲥ
+11	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	7	nmod	_	Entity=(person-Anthony_the_Great|Orig=ⲁ̇ⲡⲁ|OrigLang=he
+12	ⲁⲛⲧⲱⲛⲓⲟⲥ	ⲁⲛⲧⲱⲛⲓⲟⲥ	PROPN	NPROP	Foreign=Yes	11	flat	_	Entity=person-Anthony_the_Great)abstract)|Orig=ⲁ̇ⲛⲧⲱⲛⲓ̇ⲟⲥ|OrigLang=grc
 13-16	ⲛⲉⲓⲛⲁϣⲱⲡⲉ	_	_	_	_	_	_	_	_
 13	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	16	aux	_	_
 14	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	Orig=ⲓ̇
@@ -102,9 +102,9 @@
 21	·	·	PUNCT	PUNCT	_	16	punct	_	_
 
 # sent_id = coptic_treebank-AP_117_Sisoes_09_s0004
-# text = ⲡⲗⲏⲛ ⲁⲓⲛⲁⲩ ⲉⲩⲣⲱⲙⲉ ⲉⲩⲛϭⲟⲙ ⲙⲙⲟϥ ⲉⲧⲱⲟⲩⲛ ϩⲁⲡⲉϥⲙⲉⲉⲩⲉ ⲙⲁⲩⲁⲁϥ ϩⲛⲟⲩϩⲓⲥⲉ · ⲻ
 # text_en = ...
-1	ⲡⲗⲏⲛ	ⲡⲗⲏⲛ	CCONJ	CONJ	_	4	advmod	_	Orig=ⲡ̇ⲗⲏⲛ
+# text = ⲡⲗⲏⲛ ⲁⲓⲛⲁⲩ ⲉⲩⲣⲱⲙⲉ ⲉⲩⲛϭⲟⲙ ⲙⲙⲟϥ ⲉⲧⲱⲟⲩⲛ ϩⲁⲡⲉϥⲙⲉⲉⲩⲉ ⲙⲁⲩⲁⲁϥ ϩⲛⲟⲩϩⲓⲥⲉ · ⲻ
+1	ⲡⲗⲏⲛ	ⲡⲗⲏⲛ	CCONJ	CONJ	Foreign=Yes	4	advmod	_	Orig=ⲡ̇ⲗⲏⲛ|OrigLang=grc
 2-4	ⲁⲓⲛⲁⲩ	_	_	_	_	_	_	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
 3	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Orig=ⲓ̇

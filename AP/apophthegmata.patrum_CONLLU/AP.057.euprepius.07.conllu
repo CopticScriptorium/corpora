@@ -1,15 +1,15 @@
 # newdoc id = apophthegmata.patrum:AP.057.euprepius.07
 # sent_id = apophthegmata_patrum-AP_057_euprepius_07_s0001
-# text = ϩⲛⲧⲁⲣⲭⲏ ⲛⲁⲡⲁ ⲉⲩⲁⲅⲣⲓⲟⲥ ⲁϥⲃⲱⲕ ϣⲁⲟⲩϩⲗⲗⲟ · ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉⲁⲡⲁ ⲁϫⲓⲟⲩϣⲁϫⲉ ⲉⲣⲟⲓ · ϫⲉⲉⲓⲛⲁⲟⲩϫⲁⲓ ⲛⲁϣ ⲛϩⲉ ⲻ
 # text_en = In the beginning, Abba Evagrius/Euprepius went to an old man and said to him, 'Speak to me, how shall I be saved?'
+# text = ϩⲛⲧⲁⲣⲭⲏ ⲛⲁⲡⲁ ⲉⲩⲁⲅⲣⲓⲟⲥ ⲁϥⲃⲱⲕ ϣⲁⲟⲩϩⲗⲗⲟ · ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉⲁⲡⲁ ⲁϫⲓⲟⲩϣⲁϫⲉ ⲉⲣⲟⲓ · ϫⲉⲉⲓⲛⲁⲟⲩϫⲁⲓ ⲛⲁϣ ⲛϩⲉ ⲻ
 1-3	ϩⲛⲧⲁⲣⲭⲏ	_	_	_	_	_	_	_	_
 1	ϩⲛ	ϩⲛ	ADP	PREP	_	3	case	_	Orig=ϩⲛ̇
 2	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Entity=(time
-3	ⲁⲣⲭⲏ	ⲁⲣⲭⲏ	NOUN	N	_	9	obl	_	_
+3	ⲁⲣⲭⲏ	ⲁⲣⲭⲏ	NOUN	N	Foreign=Yes	9	obl	_	OrigLang=grc
 4-5	ⲛⲁⲡⲁ	_	_	_	_	_	_	_	_
 4	ⲛ	ⲛ	ADP	PREP	_	5	case	_	_
-5	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	3	nmod	_	Entity=(person-Evagrius_Ponticus
-6	ⲉⲩⲁⲅⲣⲓⲟⲥ	ⲉⲩⲁⲅⲣⲓⲟⲥ	PROPN	NPROP	_	5	flat	_	Entity=person-Evagrius_Ponticus)time)|Orig=ⲉ̇ⲩⲁ̇ⲅⲣⲓ̇ⲟⲥ
+5	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	3	nmod	_	Entity=(person-Evagrius_Ponticus|OrigLang=he
+6	ⲉⲩⲁⲅⲣⲓⲟⲥ	ⲉⲩⲁⲅⲣⲓⲟⲥ	PROPN	NPROP	Foreign=Yes	5	flat	_	Entity=person-Evagrius_Ponticus)time)|Orig=ⲉ̇ⲩⲁ̇ⲅⲣⲓ̇ⲟⲥ|OrigLang=grc
 7-9	ⲁϥⲃⲱⲕ	_	_	_	_	_	_	_	_
 7	ⲁ	ⲁ	AUX	APST	_	9	aux	_	Orig=ⲁ̇
 8	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
@@ -27,8 +27,8 @@
 17	ⲛⲁ	ⲛⲁ	ADP	PREP	_	18	case	_	_
 18	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
 19-20	ϫⲉⲁⲡⲁ	_	_	_	_	_	_	_	_
-19	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	21	mark	_	_
-20	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	21	vocative	_	Entity=(person)|Orig=ⲁ̇ⲡⲁ
+19	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	20	mark	_	_
+20	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	15	ccomp	_	Entity=(person)|Orig=ⲁ̇ⲡⲁ|OrigLang=he
 21-23	ⲁϫⲓⲟⲩϣⲁϫⲉ	_	_	_	_	_	_	_	_
 21	ⲁϫⲓ	ϫⲱ	VERB	VIMP	VerbForm=Fin	15	ccomp	_	Orig=ⲁ̇ϫⲓ̇
 22	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	23	det	_	Entity=(abstract
@@ -52,10 +52,10 @@
 36	ⲻ	ⲻ	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_057_euprepius_07_s0002
-# text = ⲛⲧⲟϥ ⲇⲉ ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉⲉϣϫⲉ ⲕⲟⲩⲱϣ ⲉⲟⲩϫⲁⲓ ⲙⲡⲣⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ ⲻ
 # text_en = He said to him, 'If you wish to be saved, do not be disdainful.
+# text = ⲛⲧⲟϥ ⲇⲉ ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉⲉϣϫⲉ ⲕⲟⲩⲱϣ ⲉⲟⲩϫⲁⲓ ⲙⲡⲣⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ ⲻ
 1	ⲛⲧⲟϥ	ⲛⲧⲟϥ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	dislocated	_	_
-2	ⲇⲉ	ⲇⲉ	PART	PTC	_	3	advmod	_	_
+2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
 3-4	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 3	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -63,7 +63,7 @@
 5	ⲛⲁ	ⲛⲁ	ADP	PREP	_	6	case	_	_
 6	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
 7-8	ϫⲉⲉϣϫⲉ	_	_	_	_	_	_	_	_
-7	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	10	mark	_	_
+7	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	14	mark	_	_
 8	ⲉϣϫⲉ	ⲉϣϫⲉ	SCONJ	CONJ	_	10	mark	_	Orig=ⲉ̇ϣϫⲉ
 9-10	ⲕⲟⲩⲱϣ	_	_	_	_	_	_	_	_
 9	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
@@ -73,12 +73,12 @@
 12	ⲟⲩϫⲁⲓ	ⲟⲩϫⲁⲓ	VERB	V	VerbForm=Inf	10	xcomp	_	Orig=ⲟⲩϫⲁⲓ̇
 13-14	ⲙⲡⲣⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ	_	_	_	_	_	_	_	_
 13	ⲙⲡⲣ	ⲙⲡⲣ	ADV	NEG	Polarity=Neg	14	advmod	_	Orig=ⲙ̇ⲡⲣ̇
-14	ⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ	ⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ	VERB	V	VerbForm=Fin	3	ccomp	_	Orig=ⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ̈
+14	ⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ	ⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	3	ccomp	_	Orig=ⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ̈|OrigLang=grc
 15	ⲻ	ⲻ	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_057_euprepius_07_s0003
-# text = ⲁⲩⲱ ⲉⲕϣⲁⲛⲃⲱⲕ ϣⲁⲟⲩⲁ · ⲙⲡⲣϣⲁϫⲉ ⲛϣⲟⲣⲡ ⲙⲡⲁⲧⲉ ϥϫⲛⲟⲩⲕ ·
 # text_en = And if you should visit someone, at first do not speak, until he questions you.'
+# text = ⲁⲩⲱ ⲉⲕϣⲁⲛⲃⲱⲕ ϣⲁⲟⲩⲁ · ⲙⲡⲣϣⲁϫⲉ ⲛϣⲟⲣⲡ ⲙⲡⲁⲧⲉ ϥϫⲛⲟⲩⲕ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	8	cc	_	Orig=ⲁⲩⲱ̇
 2-3	ⲉⲕϣⲁⲛⲃⲱⲕ	_	_	_	_	_	_	_	_
 2	ⲉⲕϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟⲕ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	Orig=ⲉ̇ⲕϣⲁⲛ
@@ -101,10 +101,10 @@
 15	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_057_euprepius_07_s0004
-# text = ⲛⲧⲟϥ ⲇⲉ ⲁϥⲧⲱⲃⲥ ϩⲓϫⲙ ⲡϣⲁϫⲉ ⲁϥⲡⲁϩⲧϥ ⲛⲁϥ ⲉϥϫⲱ ⲙⲙⲟⲥ ϫⲉⲕⲱ ⲛⲁⲓ ⲉⲃⲟⲗ ·
 # text_en = And he [Evagrius/Euprepius] was pricked by this word, and he bowed before him [the old man], saying, 'Forgive me!
+# text = ⲛⲧⲟϥ ⲇⲉ ⲁϥⲧⲱⲃⲥ ϩⲓϫⲙ ⲡϣⲁϫⲉ ⲁϥⲡⲁϩⲧϥ ⲛⲁϥ ⲉϥϫⲱ ⲙⲙⲟⲥ ϫⲉⲕⲱ ⲛⲁⲓ ⲉⲃⲟⲗ ·
 1	ⲛⲧⲟϥ	ⲛⲧⲟϥ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	dislocated	_	Orig=ⲛ̇ⲧⲟϥ
-2	ⲇⲉ	ⲇⲉ	PART	PTC	_	5	advmod	_	_
+2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	5	advmod	_	OrigLang=grc
 3-5	ⲁϥⲧⲱⲃⲥ	_	_	_	_	_	_	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	Orig=ⲁ̇
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
@@ -138,8 +138,8 @@
 25	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_057_euprepius_07_s0005
-# text = ⲛⲁⲙⲉ ⲁⲓⲟⲩⲉϣ ⲟⲩⲙⲏⲏϣⲉ ⲛϫⲱⲱⲙⲉ ·
 # text_en = Truly, I have read a multitude of books,
+# text = ⲛⲁⲙⲉ ⲁⲓⲟⲩⲉϣ ⲟⲩⲙⲏⲏϣⲉ ⲛϫⲱⲱⲙⲉ ·
 1	ⲛⲁⲙⲉ	ⲛⲁⲙⲉ	ADV	ADV	_	4	advmod	_	_
 2-4	ⲁⲓⲟⲩⲉϣ	_	_	_	_	_	_	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
@@ -154,8 +154,8 @@
 9	·	·	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_057_euprepius_07_s0006
-# text = ⲁⲩⲱ ⲙⲡⲓⲥⲟⲩⲛ ⲧⲙⲛⲧⲥⲁⲃⲉ ⲉⲛⲉϩ .
 # text_en = but I have never learned wisdom.'
+# text = ⲁⲩⲱ ⲙⲡⲓⲥⲟⲩⲛ ⲧⲙⲛⲧⲥⲁⲃⲉ ⲉⲛⲉϩ .
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	Orig=ⲁⲩⲱ̇
 2-4	ⲙⲡⲓⲥⲟⲩⲛ	_	_	_	_	_	_	_	_
 2	ⲙⲡ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	4	aux	_	Orig=ⲙ̇ⲡ
@@ -168,8 +168,8 @@
 8	.	.	PUNCT	PUNCT	_	0	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_057_euprepius_07_s0007
-# text = ⲁⲩⲱ ⲁϥϯϩⲏⲩ ⲁϥⲉⲓ ⲉⲃⲟⲗ ⲻ
 # text_en = And he benefited and he went away.
+# text = ⲁⲩⲱ ⲁϥϯϩⲏⲩ ⲁϥⲉⲓ ⲉⲃⲟⲗ ⲻ
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	Orig=ⲁⲩⲱ̇
 2-4	ⲁϥϯϩⲏⲩ	_	_	_	_	_	_	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	Orig=ⲁ̇

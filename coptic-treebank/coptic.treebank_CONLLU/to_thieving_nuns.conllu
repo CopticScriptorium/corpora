@@ -1,8 +1,8 @@
 # newdoc id = coptic.treebank:to_thieving_nuns
 # sent_id = coptic_treebank-to_thieving_nuns_s0001
-# text = ⲱ ⲧⲉⲧⲛⲣⲱϣⲉ ⲛⲧⲱⲧⲛ ⲛⲉⲧⲕⲁⲙⲁ ⲙⲡⲥⲁⲧⲁⲛⲁⲥ ⲉⲧⲣⲉϥⲉⲓ ⲉϩⲟⲩⲛ ⲛϥϫⲱϩⲙ ⲛⲙⲙⲁ ⲉⲧⲟⲩⲁⲁⲃ ⲙⲡⲛⲟⲩⲧⲉ ·
 # text_en = ...
-1	ⲱ	ⲱ	PART	PTC	_	3	discourse	_	Orig=ⲱ̂
+# text = ⲱ ⲧⲉⲧⲛⲣⲱϣⲉ ⲛⲧⲱⲧⲛ ⲛⲉⲧⲕⲁⲙⲁ ⲙⲡⲥⲁⲧⲁⲛⲁⲥ ⲉⲧⲣⲉϥⲉⲓ ⲉϩⲟⲩⲛ ⲛϥϫⲱϩⲙ ⲛⲙⲙⲁ ⲉⲧⲟⲩⲁⲁⲃ ⲙⲡⲛⲟⲩⲧⲉ ·
+1	ⲱ	ⲱ	PART	PTC	Foreign=Yes	3	discourse	_	Orig=ⲱ̂|OrigLang=grc
 2-3	ⲧⲉⲧⲛⲣⲱϣⲉ	_	_	_	_	_	_	_	_
 2	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	Orig=ⲧⲉⲧ︤ⲛ︥
 3	ⲣⲱϣⲉ	ⲣⲱϣⲉ	VERB	V	VerbForm=Fin	0	root	_	_
@@ -14,7 +14,7 @@
 8-10	ⲙⲡⲥⲁⲧⲁⲛⲁⲥ	_	_	_	_	_	_	_	_
 8	ⲙ	ⲛ	ADP	PREP	_	10	case	_	Orig=ⲙ̄
 9	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(person-Satan
-10	ⲥⲁⲧⲁⲛⲁⲥ	ⲥⲁⲧⲁⲛⲁⲥ	PROPN	NPROP	_	7	obl	_	Entity=person-Satan)
+10	ⲥⲁⲧⲁⲛⲁⲥ	ⲥⲁⲧⲁⲛⲁⲥ	PROPN	NPROP	Foreign=Yes	7	obl	_	Entity=person-Satan)|OrigLang=he
 11-14	ⲉⲧⲣⲉϥⲉⲓ	_	_	_	_	_	_	_	_
 11	ⲉ	ⲉ	PART	PREP	_	12	mark	_	_
 12	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	7	xcomp	_	_
@@ -27,7 +27,7 @@
 18	ϫⲱϩⲙ	ϫⲱϩⲙ	VERB	V	VerbForm=Fin	14	advcl	_	Orig=ϫⲱϩ︤ⲙ︥
 19-21	ⲛⲙⲙⲁ	_	_	_	_	_	_	_	_
 19	ⲛ	ⲛ	ADP	PREP	_	21	case	_	Orig=ⲛ̄
-20	ⲙ	ⲡ	DET	ART	_	21	det	_	Entity=(place|Orig=ⲙ̄
+20	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	21	det	_	Entity=(place|Orig=ⲙ̄
 21	ⲙⲁ	ⲙⲁ	NOUN	N	_	18	obj	_	_
 22-23	ⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 22	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	23	mark	_	_
@@ -39,8 +39,8 @@
 27	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0002
-# text = ⲁⲩⲱ ⲛⲧⲉⲧⲛⲥⲱⲱϥ ⲙⲡⲉϥⲣⲡⲉ ⲉⲧⲉⲛⲧⲱⲧⲛ ⲡⲉ ⲙⲙⲓⲛⲙⲙⲱⲧⲛ ·
 # text_en = ...
+# text = ⲁⲩⲱ ⲛⲧⲉⲧⲛⲥⲱⲱϥ ⲙⲡⲉϥⲣⲡⲉ ⲉⲧⲉⲛⲧⲱⲧⲛ ⲡⲉ ⲙⲙⲓⲛⲙⲙⲱⲧⲛ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2-4	ⲛⲧⲉⲧⲛⲥⲱⲱϥ	_	_	_	_	_	_	_	_
 2	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	4	aux	_	Orig=ⲛ̄
@@ -60,8 +60,8 @@
 13	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0003
-# text = ⲙⲡⲉⲧⲛⲣⲡⲙⲉⲉⲩⲉ ⲛⲧⲁⲡⲟⲫⲁⲥⲓⲥ ⲙⲡⲁⲡⲟⲥⲧⲟⲗⲟⲥ , ϫⲉⲡⲉⲧⲛⲁⲥⲱⲱϥ ⲙⲡⲉⲣⲡⲉ ⲙⲡⲛⲟⲩⲧⲉ . ⲡⲁⲓ ⲡⲛⲟⲩⲧⲉ ⲛⲁⲧⲁⲕⲟϥ :
 # text_en = ...
+# text = ⲙⲡⲉⲧⲛⲣⲡⲙⲉⲉⲩⲉ ⲛⲧⲁⲡⲟⲫⲁⲥⲓⲥ ⲙⲡⲁⲡⲟⲥⲧⲟⲗⲟⲥ , ϫⲉⲡⲉⲧⲛⲁⲥⲱⲱϥ ⲙⲡⲉⲣⲡⲉ ⲙⲡⲛⲟⲩⲧⲉ . ⲡⲁⲓ ⲡⲛⲟⲩⲧⲉ ⲛⲁⲧⲁⲕⲟϥ :
 1-5	ⲙⲡⲉⲧⲛⲣⲡⲙⲉⲉⲩⲉ	_	_	_	_	_	_	_	_
 1	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	3	aux	_	Orig=ⲙ̄ⲡⲉ
 2	ⲧⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Orig=ⲧ︤ⲛ︥
@@ -71,11 +71,11 @@
 6-8	ⲛⲧⲁⲡⲟⲫⲁⲥⲓⲥ	_	_	_	_	_	_	_	_
 6	ⲛ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲛ̄
 7	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(abstract
-8	ⲁⲡⲟⲫⲁⲥⲓⲥ	ⲁⲡⲟⲫⲁⲥⲓⲥ	NOUN	N	_	5	nmod	_	_
+8	ⲁⲡⲟⲫⲁⲥⲓⲥ	ⲁⲡⲟⲫⲁⲥⲓⲥ	NOUN	N	Foreign=Yes	5	nmod	_	OrigLang=grc
 9-11	ⲙⲡⲁⲡⲟⲥⲧⲟⲗⲟⲥ	_	_	_	_	_	_	_	_
 9	ⲙ	ⲛ	ADP	PREP	_	11	case	_	Orig=ⲙ̄
 10	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(person
-11	ⲁⲡⲟⲥⲧⲟⲗⲟⲥ	ⲁⲡⲟⲥⲧⲟⲗⲟⲥ	NOUN	N	_	8	nmod	_	Entity=person)abstract)
+11	ⲁⲡⲟⲥⲧⲟⲗⲟⲥ	ⲁⲡⲟⲥⲧⲟⲗⲟⲥ	NOUN	N	Foreign=Yes	8	nmod	_	Entity=person)abstract)|OrigLang=grc
 12	,	,	PUNCT	PUNCT	_	13	punct	_	_
 13-17	ϫⲉⲡⲉⲧⲛⲁⲥⲱⲱϥ	_	_	_	_	_	_	_	_
 13	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	29	mark	_	_
@@ -103,9 +103,9 @@
 31	:	:	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0004
-# text = ⲟⲩⲧⲉ ⲟⲛ ⲙⲡⲉⲧⲛⲣⲡⲙⲉⲉⲩⲉ ⲛⲛⲥⲁϩⲟⲩ ⲧⲏⲣⲟⲩ ⲉⲛⲧⲁⲡⲉⲛⲉⲓⲱⲧ ϫⲟⲟⲩ ⲉϥϯ ⲙⲙⲟⲛ ⲧⲏⲣⲛ ⲉⲧⲟⲟⲧϥ ⲙⲡⲛⲟⲩⲧⲉ ⲉϥϫⲱ ⲙⲙⲟⲥ , ϫⲉϥⲥϩⲟⲩⲟⲣⲧ ⲛϭⲓⲡⲉⲧⲛⲁϫⲱϩⲙ ⲙⲡⲉϥⲥⲱⲙⲁ ⲕⲁⲧⲁⲗⲁⲁⲩ ⲛⲥⲙⲟⲧ · ⲏ ⲛϥϫⲓⲟⲩⲉ ϩⲛⲗⲁⲁⲩ ⲛϩⲛⲟ · ϫⲓⲛⲟⲩϩⲱⲥ ⲙⲛⲟⲩⲙⲟⲩⲥ ·
 # text_en = ...
-1	ⲟⲩⲧⲉ	ⲟⲩⲧⲉ	CCONJ	CONJ	_	5	cc	_	_
+# text = ⲟⲩⲧⲉ ⲟⲛ ⲙⲡⲉⲧⲛⲣⲡⲙⲉⲉⲩⲉ ⲛⲛⲥⲁϩⲟⲩ ⲧⲏⲣⲟⲩ ⲉⲛⲧⲁⲡⲉⲛⲉⲓⲱⲧ ϫⲟⲟⲩ ⲉϥϯ ⲙⲙⲟⲛ ⲧⲏⲣⲛ ⲉⲧⲟⲟⲧϥ ⲙⲡⲛⲟⲩⲧⲉ ⲉϥϫⲱ ⲙⲙⲟⲥ , ϫⲉϥⲥϩⲟⲩⲟⲣⲧ ⲛϭⲓⲡⲉⲧⲛⲁϫⲱϩⲙ ⲙⲡⲉϥⲥⲱⲙⲁ ⲕⲁⲧⲁⲗⲁⲁⲩ ⲛⲥⲙⲟⲧ · ⲏ ⲛϥϫⲓⲟⲩⲉ ϩⲛⲗⲁⲁⲩ ⲛϩⲛⲟ · ϫⲓⲛⲟⲩϩⲱⲥ ⲙⲛⲟⲩⲙⲟⲩⲥ ·
+1	ⲟⲩⲧⲉ	ⲟⲩⲧⲉ	CCONJ	CONJ	Foreign=Yes	5	cc	_	OrigLang=grc
 2	ⲟⲛ	ⲟⲛ	ADV	ADV	_	5	advmod	_	_
 3-7	ⲙⲡⲉⲧⲛⲣⲡⲙⲉⲉⲩⲉ	_	_	_	_	_	_	_	_
 3	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	5	aux	_	Orig=ⲙ̄ⲡⲉ
@@ -166,15 +166,15 @@
 45-47	ⲙⲡⲉϥⲥⲱⲙⲁ	_	_	_	_	_	_	_	_
 45	ⲙ	ⲛ	ADP	PREP	_	47	case	_	Orig=ⲙ̄
 46	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	47	det	_	Entity=(object
-47	ⲥⲱⲙⲁ	ⲥⲱⲙⲁ	NOUN	N	_	44	obj	_	Entity=object)
+47	ⲥⲱⲙⲁ	ⲥⲱⲙⲁ	NOUN	N	Foreign=Yes	44	obj	_	Entity=object)|OrigLang=grc
 48-49	ⲕⲁⲧⲁⲗⲁⲁⲩ	_	_	_	_	_	_	_	_
-48	ⲕⲁⲧⲁ	ⲕⲁⲧⲁ	ADP	PREP	_	49	case	_	_
+48	ⲕⲁⲧⲁ	ⲕⲁⲧⲁ	ADP	PREP	Foreign=Yes	49	case	_	OrigLang=grc
 49	ⲗⲁⲁⲩ	ⲗⲁⲁⲩ	NOUN	N	_	44	obl	_	Entity=(abstract
 50-51	ⲛⲥⲙⲟⲧ	_	_	_	_	_	_	_	_
 50	ⲛ	ⲛ	ADP	PREP	_	51	case	_	Orig=ⲛ̄
 51	ⲥⲙⲟⲧ	ⲥⲙⲟⲧ	NOUN	N	_	49	nmod	_	Entity=abstract)person)
 52	·	·	PUNCT	PUNCT	_	56	punct	_	_
-53	ⲏ	ⲏ	CCONJ	CONJ	_	56	cc	_	Orig=ⲏ̂
+53	ⲏ	ⲏ	CCONJ	CONJ	Foreign=Yes	56	cc	_	Orig=ⲏ̂|OrigLang=grc
 54-56	ⲛϥϫⲓⲟⲩⲉ	_	_	_	_	_	_	_	_
 54	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	56	aux	_	Orig=ⲛ︤
 55	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	56	nsubj	_	Orig=ϥ︥
@@ -197,9 +197,9 @@
 68	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0005
-# text = ⲙⲁⲗⲓⲥⲧⲁ ϩⲟⲉⲓⲧⲉ ϩⲓⲡⲣⲏϣ ϩⲓⲕⲗⲁϥⲧ ·
 # text_en = ...
-1	ⲙⲁⲗⲓⲥⲧⲁ	ⲙⲁⲗⲓⲥⲧⲁ	ADV	ADV	_	2	advmod	_	_
+# text = ⲙⲁⲗⲓⲥⲧⲁ ϩⲟⲉⲓⲧⲉ ϩⲓⲡⲣⲏϣ ϩⲓⲕⲗⲁϥⲧ ·
+1	ⲙⲁⲗⲓⲥⲧⲁ	ⲙⲁⲗⲓⲥⲧⲁ	ADV	ADV	Foreign=Yes	2	advmod	_	OrigLang=grc
 2	ϩⲟⲉⲓⲧⲉ	ϩⲟⲉⲓⲧⲉ	NOUN	N	_	0	root	_	Entity=(object)
 3-4	ϩⲓⲡⲣⲏϣ	_	_	_	_	_	_	_	_
 3	ϩⲓ	ϩⲓ	ADP	PREP	_	4	cc	_	_
@@ -210,14 +210,14 @@
 7	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0006
-# text = ⲁⲩⲱ ϣⲁϩⲣⲁⲓ ⲉⲟⲩⲉⲗⲁⲭⲓⲥⲧⲟⲛ ⲛ ϩⲛⲟ ⲛ ⲟⲩⲱⲙ ·
 # text_en = ...
+# text = ⲁⲩⲱ ϣⲁϩⲣⲁⲓ ⲉⲟⲩⲉⲗⲁⲭⲓⲥⲧⲟⲛ ⲛ ϩⲛⲟ ⲛ ⲟⲩⲱⲙ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	5	cc	_	_
 2	ϣⲁϩⲣⲁⲓ	ϣⲁϩⲣⲁⲓ	ADV	ADV	_	5	advmod	_	Orig=ϣⲁϩⲣⲁⲓ̈
 3-5	ⲉⲟⲩⲉⲗⲁⲭⲓⲥⲧⲟⲛ	_	_	_	_	_	_	_	_
 3	ⲉ	ⲉ	ADP	PREP	_	5	case	_	_
 4	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	5	det	_	Entity=(abstract
-5	ⲉⲗⲁⲭⲓⲥⲧⲟⲛ	ⲉⲗⲁⲭⲓⲥⲧⲟⲛ	NOUN	N	_	0	root	_	_
+5	ⲉⲗⲁⲭⲓⲥⲧⲟⲛ	ⲉⲗⲁⲭⲓⲥⲧⲟⲛ	NOUN	N	Foreign=Yes	0	root	_	OrigLang=grc
 6	ⲛ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲛ̄
 7	ϩⲛⲟ	ϩⲛⲁⲩ	NOUN	N	_	5	nmod	_	Entity=(object|Orig=ϩⲛⲟ̂
 8	ⲛ	ⲛ	ADP	PREP	_	9	case	_	Orig=ⲛ̄
@@ -225,9 +225,9 @@
 10	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0007
-# text = ⲉⲓⲧⲉ ⲉⲃⲟⲗ ϩⲛ ⲛⲉ ϩⲛⲁⲁⲩ ⲛⲧⲇⲓⲁⲕⲟⲛⲓⲁ ⲙⲡⲛⲟⲩⲧⲉ ·
 # text_en = ...
-1	ⲉⲓⲧⲉ	ⲉⲓⲧⲉ	CCONJ	CONJ	_	5	cc	_	_
+# text = ⲉⲓⲧⲉ ⲉⲃⲟⲗ ϩⲛ ⲛⲉ ϩⲛⲁⲁⲩ ⲛⲧⲇⲓⲁⲕⲟⲛⲓⲁ ⲙⲡⲛⲟⲩⲧⲉ ·
+1	ⲉⲓⲧⲉ	ⲉⲓⲧⲉ	CCONJ	CONJ	Foreign=Yes	5	cc	_	OrigLang=grc
 2	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	5	case	_	_
 3	ϩⲛ	ϩⲛ	ADP	PREP	_	2	fixed	_	Orig=ϩ︤ⲛ︥
 4	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	5	det	_	Entity=(object
@@ -235,7 +235,7 @@
 6-8	ⲛⲧⲇⲓⲁⲕⲟⲛⲓⲁ	_	_	_	_	_	_	_	_
 6	ⲛ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲛ̄
 7	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(abstract
-8	ⲇⲓⲁⲕⲟⲛⲓⲁ	ⲇⲓⲁⲕⲟⲛⲓⲁ	NOUN	N	_	5	nmod	_	_
+8	ⲇⲓⲁⲕⲟⲛⲓⲁ	ⲇⲓⲁⲕⲟⲛⲓⲁ	NOUN	N	Foreign=Yes	5	nmod	_	OrigLang=grc
 9-11	ⲙⲡⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 9	ⲙ	ⲛ	ADP	PREP	_	11	case	_	Orig=ⲙ̄
 10	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(person
@@ -243,9 +243,9 @@
 12	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0008
-# text = ⲉⲓⲧⲉ ⲉⲃⲟⲗ ϩⲛⲛⲧⲟ ⲛⲛⲉⲧϩⲓⲧⲟⲩⲱⲟⲩ ·
 # text_en = ...
-1	ⲉⲓⲧⲉ	ⲉⲓⲧⲉ	CCONJ	CONJ	_	5	cc	_	_
+# text = ⲉⲓⲧⲉ ⲉⲃⲟⲗ ϩⲛⲛⲧⲟ ⲛⲛⲉⲧϩⲓⲧⲟⲩⲱⲟⲩ ·
+1	ⲉⲓⲧⲉ	ⲉⲓⲧⲉ	CCONJ	CONJ	Foreign=Yes	5	cc	_	OrigLang=grc
 2	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	5	case	_	_
 3-5	ϩⲛⲛⲧⲟ	_	_	_	_	_	_	_	_
 3	ϩⲛ	ϩⲛ	ADP	PREP	_	2	fixed	_	Orig=ϩ︤ⲛ︥
@@ -260,13 +260,13 @@
 11	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0009
-# text = ⲛⲉⲓⲙⲉⲉⲩⲉ ⲙⲉⲛ ⲡⲉ ⲉⲉⲓ ϣⲁⲣⲱⲧⲛ ϩⲛⲟⲩⲧⲱⲧ ⲛ ϩⲏⲧ ·
 # text_en = ...
+# text = ⲛⲉⲓⲙⲉⲉⲩⲉ ⲙⲉⲛ ⲡⲉ ⲉⲉⲓ ϣⲁⲣⲱⲧⲛ ϩⲛⲟⲩⲧⲱⲧ ⲛ ϩⲏⲧ ·
 1-3	ⲛⲉⲓⲙⲉⲉⲩⲉ	_	_	_	_	_	_	_	_
 1	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	3	aux	_	_
 2	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Orig=ⲓ̈
 3	ⲙⲉⲉⲩⲉ	ⲙⲉⲉⲩⲉ	VERB	V	VerbForm=Fin	0	root	_	_
-4	ⲙⲉⲛ	ⲙⲉⲛ	PART	PTC	_	3	advmod	_	Orig=ⲙⲉ⳯
+4	ⲙⲉⲛ	ⲙⲉⲛ	PART	PTC	Foreign=Yes	3	advmod	_	Orig=ⲙⲉ⳯|OrigLang=grc
 5	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	3	cop	_	_
 6-7	ⲉⲉⲓ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉ	PART	PREP	_	7	mark	_	_
@@ -283,9 +283,9 @@
 15	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0010
-# text = ⲁⲗⲗⲁ ⲡⲉⲙⲕⲁϩ ⲛϩⲏⲧ ⲛⲛⲉⲛⲧⲁⲩϯϭⲱⲛⲧ ⲙⲡⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲁⲩⲗⲩⲡⲉⲓ ⲙⲡⲉϥⲡⲛⲉⲩⲙⲁ ⲉⲧⲟⲩⲁⲁⲃ · ⲡⲉⲛⲧⲁϥⲕⲱⲗⲩⲉ ⲙⲡⲉⲛⲟⲩⲣⲟⲧ ·
 # text_en = ...
-1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	3	cc	_	_
+# text = ⲁⲗⲗⲁ ⲡⲉⲙⲕⲁϩ ⲛϩⲏⲧ ⲛⲛⲉⲛⲧⲁⲩϯϭⲱⲛⲧ ⲙⲡⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲁⲩⲗⲩⲡⲉⲓ ⲙⲡⲉϥⲡⲛⲉⲩⲙⲁ ⲉⲧⲟⲩⲁⲁⲃ · ⲡⲉⲛⲧⲁϥⲕⲱⲗⲩⲉ ⲙⲡⲉⲛⲟⲩⲣⲟⲧ ·
+1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	3	cc	_	OrigLang=grc
 2-3	ⲡⲉⲙⲕⲁϩ	_	_	_	_	_	_	_	_
 2	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(abstract
 3	ⲙⲕⲁϩ	ⲙⲕⲁϩ	NOUN	N	_	0	root	_	_
@@ -307,11 +307,11 @@
 16-18	ⲁⲩⲗⲩⲡⲉⲓ	_	_	_	_	_	_	_	_
 16	ⲁ	ⲁ	AUX	APST	_	18	aux	_	_
 17	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
-18	ⲗⲩⲡⲉⲓ	ⲗⲩⲡⲉⲓ	VERB	V	VerbForm=Fin	11	conj	_	_
+18	ⲗⲩⲡⲉⲓ	ⲗⲩⲡⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	11	conj	_	OrigLang=grc
 19-21	ⲙⲡⲉϥⲡⲛⲉⲩⲙⲁ	_	_	_	_	_	_	_	_
 19	ⲙ	ⲛ	ADP	PREP	_	21	case	_	Orig=ⲙ̄
 20	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	Entity=(abstract
-21	ⲡⲛⲉⲩⲙⲁ	ⲡⲛⲉⲩⲙⲁ	NOUN	N	_	18	obj	_	Orig=ⲡ︤ⲛ︦ⲁ︥
+21	ⲡⲛⲉⲩⲙⲁ	ⲡⲛⲉⲩⲙⲁ	NOUN	N	Foreign=Yes	18	obj	_	Orig=ⲡ︤ⲛ︦ⲁ︥|OrigLang=grc
 22-23	ⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 22	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	23	mark	_	_
 23	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	21	acl	_	Entity=abstract)person)abstract)
@@ -321,7 +321,7 @@
 26	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	29	mark	_	Orig=⳯ⲉⲧ
 27	ⲁ	ⲁ	AUX	APST	_	29	aux	_	_
 28	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
-29	ⲕⲱⲗⲩⲉ	ⲕⲱⲗⲩⲉ	VERB	V	VerbForm=Fin	3	csubj	_	_
+29	ⲕⲱⲗⲩⲉ	ⲕⲱⲗⲩⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	3	csubj	_	OrigLang=grc
 30-32	ⲙⲡⲉⲛⲟⲩⲣⲟⲧ	_	_	_	_	_	_	_	_
 30	ⲙ	ⲛ	ADP	PREP	_	32	case	_	Orig=ⲙ̄
 31	ⲡⲉⲛ	ⲡⲉⲛ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	32	det	_	Entity=(abstract
@@ -329,12 +329,12 @@
 33	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0011
-# text = ϯⲥⲟⲟⲩⲛ ⲙⲉⲛ ϫⲉⲡⲁⲙⲡϣⲁ ⲡⲉ ⲙⲕⲁϩ ⲛϩⲏⲧ ⲛⲓⲙ ·
 # text_en = ...
+# text = ϯⲥⲟⲟⲩⲛ ⲙⲉⲛ ϫⲉⲡⲁⲙⲡϣⲁ ⲡⲉ ⲙⲕⲁϩ ⲛϩⲏⲧ ⲛⲓⲙ ·
 1-2	ϯⲥⲟⲟⲩⲛ	_	_	_	_	_	_	_	_
 1	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	ⲥⲟⲟⲩⲛ	ⲥⲟⲟⲩⲛ	VERB	V	VerbForm=Fin	0	root	_	_
-3	ⲙⲉⲛ	ⲙⲉⲛ	PART	PTC	_	2	advmod	_	_
+3	ⲙⲉⲛ	ⲙⲉⲛ	PART	PTC	Foreign=Yes	2	advmod	_	OrigLang=grc
 4-6	ϫⲉⲡⲁⲙⲡϣⲁ	_	_	_	_	_	_	_	_
 4	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	6	mark	_	_
 5	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	Entity=(abstract
@@ -348,8 +348,8 @@
 12	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0012
-# text = ⲁⲗⲗⲁ ⲉⲣϣⲁⲛⲡⲛⲟⲩⲧⲉ ⲙⲛⲡⲉⲛϫⲟⲉⲓⲥ ⲓⲏⲥⲟⲩⲥ ⲣϩⲛⲁϥ · ϯⲛⲏⲩ ϣⲁⲣⲱⲧⲛ ϩⲛⲟⲩϭⲱⲛⲧ ·
 # text_en = ...
+# text = ⲁⲗⲗⲁ ⲉⲣϣⲁⲛⲡⲛⲟⲩⲧⲉ ⲙⲛⲡⲉⲛϫⲟⲉⲓⲥ ⲓⲏⲥⲟⲩⲥ ⲣϩⲛⲁϥ · ϯⲛⲏⲩ ϣⲁⲣⲱⲧⲛ ϩⲛⲟⲩϭⲱⲛⲧ ·
 1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	9	cc	_	_
 2-4	ⲉⲣϣⲁⲛⲡⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 2	ⲉⲣϣⲁⲛ	ⲉⲣϣⲁⲛ	AUX	ACOND	_	9	aux	_	_
@@ -378,8 +378,8 @@
 20	·	·	PUNCT	PUNCT	_	14	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0013
-# text = ⲛⲧⲁⲉⲓⲣⲉ ⲛⲛⲓⲁⲧⲥⲃⲱ ⲁⲩⲱ ⲛⲓⲡⲁⲣⲑⲉⲛⲟⲥ ⲛⲥⲟϭ , ⲉⲧⲉⲙⲛⲛⲉϩ ϩⲛⲛⲉⲩⲁⲅⲅⲓⲟⲛ ⲛⲛⲉⲧϩⲙⲡⲁϩⲏⲧ ⲧⲏⲣⲟⲩ ·
 # text_en = ...
+# text = ⲛⲧⲁⲉⲓⲣⲉ ⲛⲛⲓⲁⲧⲥⲃⲱ ⲁⲩⲱ ⲛⲓⲡⲁⲣⲑⲉⲛⲟⲥ ⲛⲥⲟϭ , ⲉⲧⲉⲙⲛⲛⲉϩ ϩⲛⲛⲉⲩⲁⲅⲅⲓⲟⲛ ⲛⲛⲉⲧϩⲙⲡⲁϩⲏⲧ ⲧⲏⲣⲟⲩ ·
 1-3	ⲛⲧⲁⲉⲓⲣⲉ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	3	aux	_	Orig=ⲛ̄
 2	ⲧⲁ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -391,7 +391,7 @@
 7	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	9	cc	_	_
 8-9	ⲛⲓⲡⲁⲣⲑⲉⲛⲟⲥ	_	_	_	_	_	_	_	_
 8	ⲛⲓ	ⲡⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	9	det	_	Entity=(person
-9	ⲡⲁⲣⲑⲉⲛⲟⲥ	ⲡⲁⲣⲑⲉⲛⲟⲥ	NOUN	N	_	6	conj	_	_
+9	ⲡⲁⲣⲑⲉⲛⲟⲥ	ⲡⲁⲣⲑⲉⲛⲟⲥ	NOUN	N	Foreign=Yes	6	conj	_	OrigLang=grc
 10-11	ⲛⲥⲟϭ	_	_	_	_	_	_	_	_
 10	ⲛ	ⲛ	ADP	PREP	_	11	case	_	Orig=ⲛ̄
 11	ⲥⲟϭ	ⲥⲟϭ	NOUN	N	_	9	nmod	_	_
@@ -403,7 +403,7 @@
 16-18	ϩⲛⲛⲉⲩⲁⲅⲅⲓⲟⲛ	_	_	_	_	_	_	_	_
 16	ϩⲛ	ϩⲛ	ADP	PREP	_	18	case	_	Orig=ϩ︤ⲛ︥
 17	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	18	det	_	Entity=(object
-18	ⲁⲅⲅⲓⲟⲛ	ⲁⲅⲅⲓⲟⲛ	NOUN	N	_	14	obl	_	Entity=object)person)person)
+18	ⲁⲅⲅⲓⲟⲛ	ⲁⲅⲅⲓⲟⲛ	NOUN	N	Foreign=Yes	14	obl	_	Entity=object)person)person)|OrigLang=grc
 19-24	ⲛⲛⲉⲧϩⲙⲡⲁϩⲏⲧ	_	_	_	_	_	_	_	_
 19	ⲛ	ⲛ	ADP	PREP	_	20	case	_	Orig=ⲛ̄
 20	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	3	obj	_	Entity=(abstract
@@ -417,11 +417,11 @@
 27	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0014
-# text = ϫⲉⲡⲁⲗⲓⲛ ⲟⲛ ⲛⲧⲉⲧⲛⲕⲉⲧⲧⲏⲩⲧⲛ ⲉⲡⲁϩⲟⲩ ϩⲓⲛⲓⲙⲛⲧⲣⲉϥϯϭⲱⲛⲧ ⲙⲡⲛⲟⲩⲧⲉ ⲛⲧⲉⲧⲛϩⲉ ⲉϩⲣⲁⲓ ⲉⲧⲟⲟⲧⲥ ⲛⲧⲥⲏϥⲉ ⲙⲡⲡⲟⲛⲏⲣⲟⲥ ⲡⲉⲛⲧⲁϥⲧⲁⲕⲟ ⲛⲧⲟⲓⲕⲟⲩⲙⲉⲛⲏ ⲧⲏⲣⲥ ϩⲛⲛⲉϥⲛⲟⲃⲉ ⲙⲛⲛⲉϥⲁⲛⲟⲙⲓⲁ ·
 # text_en = ...
+# text = ϫⲉⲡⲁⲗⲓⲛ ⲟⲛ ⲛⲧⲉⲧⲛⲕⲉⲧⲧⲏⲩⲧⲛ ⲉⲡⲁϩⲟⲩ ϩⲓⲛⲓⲙⲛⲧⲣⲉϥϯϭⲱⲛⲧ ⲙⲡⲛⲟⲩⲧⲉ ⲛⲧⲉⲧⲛϩⲉ ⲉϩⲣⲁⲓ ⲉⲧⲟⲟⲧⲥ ⲛⲧⲥⲏϥⲉ ⲙⲡⲡⲟⲛⲏⲣⲟⲥ ⲡⲉⲛⲧⲁϥⲧⲁⲕⲟ ⲛⲧⲟⲓⲕⲟⲩⲙⲉⲛⲏ ⲧⲏⲣⲥ ϩⲛⲛⲉϥⲛⲟⲃⲉ ⲙⲛⲛⲉϥⲁⲛⲟⲙⲓⲁ ·
 1-2	ϫⲉⲡⲁⲗⲓⲛ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	6	mark	_	_
-2	ⲡⲁⲗⲓⲛ	ⲡⲁⲗⲓⲛ	ADV	ADV	_	6	advmod	_	Orig=ⲡⲁⲡⲁⲗⲓⲛ
+2	ⲡⲁⲗⲓⲛ	ⲡⲁⲗⲓⲛ	ADV	ADV	Foreign=Yes	6	advmod	_	Orig=ⲡⲁⲡⲁⲗⲓⲛ|OrigLang=grc
 3	ⲟⲛ	ⲟⲛ	ADV	ADV	_	6	advmod	_	_
 4-7	ⲛⲧⲉⲧⲛⲕⲉⲧⲧⲏⲩⲧⲛ	_	_	_	_	_	_	_	_
 4	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	6	aux	_	Orig=ⲛ̄
@@ -454,7 +454,7 @@
 25-27	ⲙⲡⲡⲟⲛⲏⲣⲟⲥ	_	_	_	_	_	_	_	_
 25	ⲙ	ⲛ	ADP	PREP	_	27	case	_	Orig=ⲙ̄
 26	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	Entity=(person|Orig=ⲡ︤
-27	ⲡⲟⲛⲏⲣⲟⲥ	ⲡⲟⲛⲏⲣⲟⲥ	NOUN	N	_	24	nmod	_	Orig=ⲡ︥ⲟⲛⲏⲣⲟⲥ
+27	ⲡⲟⲛⲏⲣⲟⲥ	ⲡⲟⲛⲏⲣⲟⲥ	NOUN	N	Foreign=Yes	24	nmod	_	Orig=ⲡ︥ⲟⲛⲏⲣⲟⲥ|OrigLang=grc
 28-32	ⲡⲉⲛⲧⲁϥⲧⲁⲕⲟ	_	_	_	_	_	_	_	_
 28	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	appos	_	_
 29	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	32	mark	_	_
@@ -464,7 +464,7 @@
 33-35	ⲛⲧⲟⲓⲕⲟⲩⲙⲉⲛⲏ	_	_	_	_	_	_	_	_
 33	ⲛ	ⲛ	ADP	PREP	_	35	case	_	Orig=ⲛ̄
 34	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	Entity=(place
-35	ⲟⲓⲕⲟⲩⲙⲉⲛⲏ	ⲟⲓⲕⲟⲩⲙⲉⲛⲏ	NOUN	N	_	32	obj	_	_
+35	ⲟⲓⲕⲟⲩⲙⲉⲛⲏ	ⲟⲓⲕⲟⲩⲙⲉⲛⲏ	NOUN	N	Foreign=Yes	32	obj	_	OrigLang=grc
 36-37	ⲧⲏⲣⲥ	_	_	_	_	_	_	_	_
 36	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	35	advmod	_	Orig=ⲧⲏⲣ︤
 37	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	36	det	_	Entity=place)|Orig=ⲥ︥
@@ -475,12 +475,12 @@
 41-43	ⲙⲛⲛⲉϥⲁⲛⲟⲙⲓⲁ	_	_	_	_	_	_	_	_
 41	ⲙⲛ	ⲙⲛ	ADP	PREP	_	43	cc	_	Orig=ⲙ︤ⲛ︥
 42	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	43	det	_	Entity=(abstract
-43	ⲁⲛⲟⲙⲓⲁ	ⲁⲛⲟⲙⲓⲁ	NOUN	N	_	40	conj	_	Entity=abstract)person)object)
+43	ⲁⲛⲟⲙⲓⲁ	ⲁⲛⲟⲙⲓⲁ	NOUN	N	Foreign=Yes	40	conj	_	Entity=abstract)person)object)|OrigLang=grc
 44	·	·	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0015
-# text = ⲉⲃⲟⲗ ϫⲉⲁⲧⲉⲧⲛⲙⲉⲣⲉⲡϫⲱϩⲙ · ⲉϩⲟⲩⲉⲡⲧⲃⲃⲟ ·
 # text_en = ...
+# text = ⲉⲃⲟⲗ ϫⲉⲁⲧⲉⲧⲛⲙⲉⲣⲉⲡϫⲱϩⲙ · ⲉϩⲟⲩⲉⲡⲧⲃⲃⲟ ·
 1	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	5	advmod	_	_
 2-7	ϫⲉⲁⲧⲉⲧⲛⲙⲉⲣⲉⲡϫⲱϩⲙ	_	_	_	_	_	_	_	_
 2	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	5	mark	_	_
@@ -497,8 +497,8 @@
 12	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0016
-# text = ⲁⲩⲱ ⲁⲧⲉⲧⲛⲥⲱⲧⲡ ⲛⲏ ⲧⲛ ⲙⲡⲙⲟⲩ · ⲉϩⲟⲩⲉⲡⲱⲛϩ ·
 # text_en = ...
+# text = ⲁⲩⲱ ⲁⲧⲉⲧⲛⲥⲱⲧⲡ ⲛⲏ ⲧⲛ ⲙⲡⲙⲟⲩ · ⲉϩⲟⲩⲉⲡⲱⲛϩ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2-4	ⲁⲧⲉⲧⲛⲥⲱⲧⲡ	_	_	_	_	_	_	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
@@ -518,13 +518,13 @@
 14	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0017
-# text = ⲁⲧⲉⲧⲛϯⲛⲟⲩϭⲥ ⲅⲁⲣ ⲙⲡⲉⲛⲧⲁϥⲧⲁⲙⲓⲉⲧⲏⲩⲧⲛ · ⲁⲩⲱ ⲁϥⲥⲁⲛϣⲧⲏⲩⲧⲛ ⲡⲛⲟⲩⲧⲉ ⲡϣⲁⲉⲛⲉϩ ·
 # text_en = ...
+# text = ⲁⲧⲉⲧⲛϯⲛⲟⲩϭⲥ ⲅⲁⲣ ⲙⲡⲉⲛⲧⲁϥⲧⲁⲙⲓⲉⲧⲏⲩⲧⲛ · ⲁⲩⲱ ⲁϥⲥⲁⲛϣⲧⲏⲩⲧⲛ ⲡⲛⲟⲩⲧⲉ ⲡϣⲁⲉⲛⲉϩ ·
 1-3	ⲁⲧⲉⲧⲛϯⲛⲟⲩϭⲥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
 3	ϯⲛⲟⲩϭⲥ	ϯⲛⲟⲩϭⲥ	VERB	V	VerbForm=Fin	0	root	_	Morphs=ϯ-ⲛⲟⲩϭⲥ|Orig=ϯⲛⲟⲩϭ︤ⲥ︥
-4	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	_	3	advmod	_	_
+4	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
 5-11	ⲙⲡⲉⲛⲧⲁϥⲧⲁⲙⲓⲉⲧⲏⲩⲧⲛ	_	_	_	_	_	_	_	_
 5	ⲙ	ⲛ	ADP	PREP	_	6	case	_	Orig=ⲙ̄
 6	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	obl	_	Entity=(person
@@ -550,8 +550,8 @@
 23	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0018
-# text = ⲁⲧⲉⲧⲛϯⲙⲕⲁϩ ⲛϩⲏⲧ ⲇⲉ ⲟⲛ ⲛⲧⲉⲛⲧⲁⲥϣⲉⲡϣⲡⲧⲏⲩⲧⲛ ⲧϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ ⲉⲧⲉⲧⲥⲩⲛⲁⲅⲱⲅⲏ ⲧⲉ ·
 # text_en = ...
+# text = ⲁⲧⲉⲧⲛϯⲙⲕⲁϩ ⲛϩⲏⲧ ⲇⲉ ⲟⲛ ⲛⲧⲉⲛⲧⲁⲥϣⲉⲡϣⲡⲧⲏⲩⲧⲛ ⲧϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ ⲉⲧⲉⲧⲥⲩⲛⲁⲅⲱⲅⲏ ⲧⲉ ·
 1-4	ⲁⲧⲉⲧⲛϯⲙⲕⲁϩ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	Orig=ⲧⲉⲧ︤ⲛ︥
@@ -560,7 +560,7 @@
 5-6	ⲛϩⲏⲧ	_	_	_	_	_	_	_	_
 5	ⲛ	ⲛ	ADP	PREP	_	6	case	_	Orig=ⲛ̄
 6	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	4	nmod	_	Entity=abstract)|Orig=ϩⲏⲧ⳿
-7	ⲇⲉ	ⲇⲉ	PART	PTC	_	3	advmod	_	_
+7	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
 8	ⲟⲛ	ⲟⲛ	ADV	ADV	_	3	advmod	_	_
 9-15	ⲛⲧⲉⲛⲧⲁⲥϣⲉⲡϣⲡⲧⲏⲩⲧⲛ	_	_	_	_	_	_	_	_
 9	ⲛ	ⲛ	ADP	PREP	_	10	case	_	Orig=ⲛ̄
@@ -572,17 +572,17 @@
 15	ⲧⲏⲩⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	14	obj	_	Orig=ⲧⲏⲩⲧ︤ⲛ︥
 16-17	ⲧϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ	_	_	_	_	_	_	_	_
 16	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Orig=ⲑ
-17	ϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ	ϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ	PROPN	NPROP	_	10	appos	_	Orig=ⲓ︤ⲗ︥︦︤ⲏ︦︥︤ⲙ︦︥
+17	ϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ	ϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ	PROPN	NPROP	Foreign=Yes	10	appos	_	Orig=ⲓ︤ⲗ︥︦︤ⲏ︦︥︤ⲙ︦︥|OrigLang=he
 18-20	ⲉⲧⲉⲧⲥⲩⲛⲁⲅⲱⲅⲏ	_	_	_	_	_	_	_	_
 18	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	20	mark	_	_
 19	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Entity=(organization
-20	ⲥⲩⲛⲁⲅⲱⲅⲏ	ⲥⲩⲛⲁⲅⲱⲅⲏ	NOUN	N	_	17	acl	_	Entity=organization)
+20	ⲥⲩⲛⲁⲅⲱⲅⲏ	ⲥⲩⲛⲁⲅⲱⲅⲏ	NOUN	N	Foreign=Yes	17	acl	_	Entity=organization)|OrigLang=grc
 21	ⲧⲉ	ⲡⲉ	PRON	COP	Gender=Fem|Number=Sing	20	cop	_	Entity=place-Jerusalem)
 22	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0019
-# text = ⲁⲩⲱ ⲁⲧⲉⲧⲛϩⲉ ⲙⲙⲉⲉⲣⲉ ⲛⲧϩⲉ ⲛⲛⲉⲧϩⲛⲧⲡⲁϣⲉ ⲛⲧⲉⲩϣⲏ ·
 # text_en = ...
+# text = ⲁⲩⲱ ⲁⲧⲉⲧⲛϩⲉ ⲙⲙⲉⲉⲣⲉ ⲛⲧϩⲉ ⲛⲛⲉⲧϩⲛⲧⲡⲁϣⲉ ⲛⲧⲉⲩϣⲏ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2-4	ⲁⲧⲉⲧⲛϩⲉ	_	_	_	_	_	_	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
@@ -609,8 +609,8 @@
 19	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0020
-# text = ⲛⲧϩⲉ ⲉⲧⲥⲏϩ ϫⲉⲁⲥⲥⲗⲁⲁⲧⲉ ⲁⲥϩⲉ ⲛϭⲓⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲙⲡⲓⲥⲣⲁⲏⲗ ⲛⲥⲛⲁⲟⲩⲱϩ ϭⲉ ⲁⲛ ⲉⲧⲟⲟⲧⲥ ⲉⲧⲱⲟⲩⲛ ·
 # text_en = ...
+# text = ⲛⲧϩⲉ ⲉⲧⲥⲏϩ ϫⲉⲁⲥⲥⲗⲁⲁⲧⲉ ⲁⲥϩⲉ ⲛϭⲓⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲙⲡⲓⲥⲣⲁⲏⲗ ⲛⲥⲛⲁⲟⲩⲱϩ ϭⲉ ⲁⲛ ⲉⲧⲟⲟⲧⲥ ⲉⲧⲱⲟⲩⲛ ·
 1-3	ⲛⲧϩⲉ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲛ	ADP	PREP	_	3	case	_	Orig=ⲛ̄
 2	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Orig=ⲑ
@@ -630,11 +630,11 @@
 13-15	ⲛϭⲓⲧⲡⲁⲣⲑⲉⲛⲟⲥ	_	_	_	_	_	_	_	_
 13	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	15	case	_	Orig=ⲛ̄ϭⲓ
 14	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	Entity=(person
-15	ⲡⲁⲣⲑⲉⲛⲟⲥ	ⲡⲁⲣⲑⲉⲛⲟⲥ	NOUN	N	_	12	dislocated	_	_
+15	ⲡⲁⲣⲑⲉⲛⲟⲥ	ⲡⲁⲣⲑⲉⲛⲟⲥ	NOUN	N	Foreign=Yes	12	dislocated	_	OrigLang=grc
 16-18	ⲙⲡⲓⲥⲣⲁⲏⲗ	_	_	_	_	_	_	_	_
 16	ⲙ	ⲛ	ADP	PREP	_	18	case	_	Orig=ⲙ̄
 17	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	Entity=(place-Kingdom_of_Israel_%28united_monarchy%29
-18	ⲓⲥⲣⲁⲏⲗ	ⲓⲥⲣⲁⲏⲗ	PROPN	NPROP	_	15	nmod	_	Entity=place-Kingdom_of_Israel_%28united_monarchy%29)person)|Orig=ⲓ︤ⲏ︦ⲗ︥
+18	ⲓⲥⲣⲁⲏⲗ	ⲓⲥⲣⲁⲏⲗ	PROPN	NPROP	Foreign=Yes	15	nmod	_	Entity=place-Kingdom_of_Israel_%28united_monarchy%29)person)|Orig=ⲓ︤ⲏ︦ⲗ︥|OrigLang=he
 19-22	ⲛⲥⲛⲁⲟⲩⲱϩ	_	_	_	_	_	_	_	_
 19	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	22	aux	_	Orig=ⲛ︤
 20	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	Orig=ⲥ︥
@@ -651,13 +651,13 @@
 29	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0021
-# text = ⲛⲉⲧⲛⲕⲟⲧⲕ ⲅⲁⲣ ⲡⲉϫⲁϥ · ⲉⲩⲛⲕⲟⲧⲕ ⲛⲧⲉⲩϣⲏ ·
 # text_en = ...
+# text = ⲛⲉⲧⲛⲕⲟⲧⲕ ⲅⲁⲣ ⲡⲉϫⲁϥ · ⲉⲩⲛⲕⲟⲧⲕ ⲛⲧⲉⲩϣⲏ ·
 1-3	ⲛⲉⲧⲛⲕⲟⲧⲕ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	10	dislocated	_	Entity=(person
 2	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	3	mark	_	Orig=ⲉⲧ︤
 3	ⲛⲕⲟⲧⲕ	ⲛⲕⲟⲧⲕ	VERB	V	VerbForm=Fin	1	acl	_	Entity=person)|Orig=ⲛ︥ⲕⲟⲧ︤ⲕ︥
-4	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	_	10	advmod	_	_
+4	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	10	advmod	_	OrigLang=grc
 5-6	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 5	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	10	parataxis	_	_
 6	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
@@ -673,8 +673,8 @@
 14	·	·	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0022
-# text = ⲁⲩⲱ ⲛⲉⲧⲧⲁϩⲉ . ⲉⲩⲧⲁϩⲉ ⲛⲧⲉⲩϣⲏ ·
 # text_en = ...
+# text = ⲁⲩⲱ ⲛⲉⲧⲧⲁϩⲉ . ⲉⲩⲧⲁϩⲉ ⲛⲧⲉⲩϣⲏ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	8	cc	_	_
 2-4	ⲛⲉⲧⲧⲁϩⲉ	_	_	_	_	_	_	_	_
 2	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	8	dislocated	_	Entity=(person
@@ -692,10 +692,10 @@
 12	·	·	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0023
-# text = ⲛⲧⲱⲧⲛ ⲇⲉ ⲁⲧⲉⲧⲛϯϩⲉ ⲙⲙⲉⲉⲣⲉ ⲛⲧϩⲉ ⲛⲛⲉⲛⲧⲁⲩϫⲟⲟⲥ ⲉⲧⲃⲏⲏⲧⲟⲩ · ϫⲉⲛⲉⲧⲧⲁϩⲉ ⲁϫⲛⲏⲣⲡ ·
 # text_en = ...
+# text = ⲛⲧⲱⲧⲛ ⲇⲉ ⲁⲧⲉⲧⲛϯϩⲉ ⲙⲙⲉⲉⲣⲉ ⲛⲧϩⲉ ⲛⲛⲉⲛⲧⲁⲩϫⲟⲟⲥ ⲉⲧⲃⲏⲏⲧⲟⲩ · ϫⲉⲛⲉⲧⲧⲁϩⲉ ⲁϫⲛⲏⲣⲡ ·
 1	ⲛⲧⲱⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=2|PronType=Prs	5	dislocated	_	Orig=ⲛ̄ⲧⲱⲧ︤ⲛ︥
-2	ⲇⲉ	ⲇⲉ	PART	PTC	_	5	advmod	_	_
+2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	5	advmod	_	OrigLang=grc
 3-5	ⲁⲧⲉⲧⲛϯϩⲉ	_	_	_	_	_	_	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	Orig=ⲧⲉⲧ︤ⲛ︥
@@ -730,8 +730,8 @@
 27	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0024
-# text = ⲁⲩⲱ ⲁⲧⲉⲧⲛϩⲱⲣⲡ ⲙⲙⲉⲉⲣⲉ ⲛⲧϩⲉ ⲛⲛⲉⲧⲛⲕⲟⲧⲕ ⲛⲧⲉⲩϣⲏ ·
 # text_en = ...
+# text = ⲁⲩⲱ ⲁⲧⲉⲧⲛϩⲱⲣⲡ ⲙⲙⲉⲉⲣⲉ ⲛⲧϩⲉ ⲛⲛⲉⲧⲛⲕⲟⲧⲕ ⲛⲧⲉⲩϣⲏ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2-4	ⲁⲧⲉⲧⲛϩⲱⲣⲡ	_	_	_	_	_	_	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
@@ -756,8 +756,8 @@
 17	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0025
-# text = ⲉⲃⲟⲗ ϫⲉⲁⲧⲉⲧⲛⲕⲱ ⲛⲥⲱⲧⲛ ⲛⲧϩⲟⲧⲉ ⲙⲡⲛⲟⲩⲧⲉ ·
 # text_en = ...
+# text = ⲉⲃⲟⲗ ϫⲉⲁⲧⲉⲧⲛⲕⲱ ⲛⲥⲱⲧⲛ ⲛⲧϩⲟⲧⲉ ⲙⲡⲛⲟⲩⲧⲉ ·
 1	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	5	advmod	_	_
 2-5	ϫⲉⲁⲧⲉⲧⲛⲕⲱ	_	_	_	_	_	_	_	_
 2	ϫⲉ	ϫⲉ	CCONJ	CONJ	_	1	fixed	_	_
@@ -778,8 +778,8 @@
 14	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0026
-# text = ⲉⲁⲧⲉⲧⲛⲙⲉⲣⲉⲡⲕⲁⲕⲉ ⲉϩⲟⲩⲉ ⲉⲡⲟⲩⲟⲉⲓⲛ ·
 # text_en = ...
+# text = ⲉⲁⲧⲉⲧⲛⲙⲉⲣⲉⲡⲕⲁⲕⲉ ⲉϩⲟⲩⲉ ⲉⲡⲟⲩⲟⲉⲓⲛ ·
 1-6	ⲉⲁⲧⲉⲧⲛⲙⲉⲣⲉⲡⲕⲁⲕⲉ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	4	mark	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
@@ -795,8 +795,8 @@
 11	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0027
-# text = ⲉⲁⲧⲉⲧⲛⲉⲡ ⲡⲉⲧⲥⲁϣⲉ ⲇⲉ ⲟⲛ ϫⲉϥϩⲟⲗϭ · ⲁⲩⲱ ⲡⲉⲧϩⲟⲗϭ ϫⲉϥⲥⲁϣⲉ ·
 # text_en = ...
+# text = ⲉⲁⲧⲉⲧⲛⲉⲡ ⲡⲉⲧⲥⲁϣⲉ ⲇⲉ ⲟⲛ ϫⲉϥϩⲟⲗϭ · ⲁⲩⲱ ⲡⲉⲧϩⲟⲗϭ ϫⲉϥⲥⲁϣⲉ ·
 1-4	ⲉⲁⲧⲉⲧⲛⲉⲡ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	4	mark	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
@@ -806,7 +806,7 @@
 5	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	nsubj	_	Entity=(abstract
 6	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	7	mark	_	_
 7	ⲥⲁϣⲉ	ⲥⲓϣⲉ	VERB	VSTAT	VerbForm=Fin	5	acl	_	Entity=abstract)
-8	ⲇⲉ	ⲇⲉ	PART	PTC	_	4	advmod	_	_
+8	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	4	advmod	_	OrigLang=grc
 9	ⲟⲛ	ⲟⲛ	ADV	ADV	_	4	advmod	_	_
 10-12	ϫⲉϥϩⲟⲗϭ	_	_	_	_	_	_	_	_
 10	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	12	mark	_	_
@@ -825,8 +825,8 @@
 21	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0028
-# text = ⲉⲧⲃⲉⲡⲁⲓ ⲟⲩⲟⲓ ⲛⲏⲧⲛ ⲙⲡⲟⲛⲏⲣⲟⲥ ϫⲉⲙⲡⲉⲧⲛⲣⲡⲙⲉⲉⲩⲉ ⲙⲡϩⲓⲥⲉ ⲧⲏⲣϥ ⲉⲛⲧⲁⲡⲉⲛⲉⲓⲱⲧ ϣⲟⲡϥ ⲛⲙⲙⲏⲧⲛ ⲧⲏⲣⲧⲛ ·
 # text_en = ...
+# text = ⲉⲧⲃⲉⲡⲁⲓ ⲟⲩⲟⲓ ⲛⲏⲧⲛ ⲙⲡⲟⲛⲏⲣⲟⲥ ϫⲉⲙⲡⲉⲧⲛⲣⲡⲙⲉⲉⲩⲉ ⲙⲡϩⲓⲥⲉ ⲧⲏⲣϥ ⲉⲛⲧⲁⲡⲉⲛⲉⲓⲱⲧ ϣⲟⲡϥ ⲛⲙⲙⲏⲧⲛ ⲧⲏⲣⲧⲛ ·
 1-2	ⲉⲧⲃⲉⲡⲁⲓ	_	_	_	_	_	_	_	_
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	2	case	_	_
 2	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	Entity=(abstract)|Orig=ⲡⲁⲓ̈
@@ -836,7 +836,7 @@
 5	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	3	obl	_	Orig=ⲧ︤ⲛ︥
 6-7	ⲙⲡⲟⲛⲏⲣⲟⲥ	_	_	_	_	_	_	_	_
 6	ⲙ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲙ̄
-7	ⲡⲟⲛⲏⲣⲟⲥ	ⲡⲟⲛⲏⲣⲟⲥ	NOUN	N	_	5	nmod	_	_
+7	ⲡⲟⲛⲏⲣⲟⲥ	ⲡⲟⲛⲏⲣⲟⲥ	NOUN	N	Foreign=Yes	5	nmod	_	OrigLang=grc
 8-13	ϫⲉⲙⲡⲉⲧⲛⲣⲡⲙⲉⲉⲩⲉ	_	_	_	_	_	_	_	_
 8	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	11	mark	_	_
 9	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	11	aux	_	Orig=ⲙ̄ⲡⲉ
@@ -868,8 +868,8 @@
 29	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0029
-# text = ⲉⲁⲧⲉⲧⲛⲕⲱ ⲛⲥⲱⲧⲛ ⲛⲛⲉϥⲥⲃⲟⲟⲩⲉ ⲛⲱⲛϩ ⲙⲛⲛⲁⲛⲥⲙⲙⲉ ⲛⲛⲉⲧⲛⲉⲓⲟⲧⲉ :
 # text_en = ...
+# text = ⲉⲁⲧⲉⲧⲛⲕⲱ ⲛⲥⲱⲧⲛ ⲛⲛⲉϥⲥⲃⲟⲟⲩⲉ ⲛⲱⲛϩ ⲙⲛⲛⲁⲛⲥⲙⲙⲉ ⲛⲛⲉⲧⲛⲉⲓⲟⲧⲉ :
 1-4	ⲉⲁⲧⲉⲧⲛⲕⲱ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	4	mark	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
@@ -897,9 +897,9 @@
 19	:	:	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0030
-# text = ⲡⲗⲏⲛ ⲉⲓⲥⲛϩⲗⲗⲟ ⲉⲓ ⲙⲛⲛⲉⲛⲥⲛⲏⲩ ⲁⲩⲉⲓ ϣⲁⲣⲱⲧⲛ ⲛⲕⲉⲥⲟⲡ ·
 # text_en = ...
-1	ⲡⲗⲏⲛ	ⲡⲗⲏⲛ	CCONJ	CONJ	_	5	advmod	_	_
+# text = ⲡⲗⲏⲛ ⲉⲓⲥⲛϩⲗⲗⲟ ⲉⲓ ⲙⲛⲛⲉⲛⲥⲛⲏⲩ ⲁⲩⲉⲓ ϣⲁⲣⲱⲧⲛ ⲛⲕⲉⲥⲟⲡ ·
+1	ⲡⲗⲏⲛ	ⲡⲗⲏⲛ	CCONJ	CONJ	Foreign=Yes	5	advmod	_	OrigLang=grc
 2-4	ⲉⲓⲥⲛϩⲗⲗⲟ	_	_	_	_	_	_	_	_
 2	ⲉⲓⲥ	ⲉⲓⲥ	PART	PTC	_	5	advmod	_	_
 3	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	4	det	_	Entity=(person|Orig=ⲛ̄
@@ -923,8 +923,8 @@
 17	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0031
-# text = ⲉⲛⲟⲛϩ ϩⲛⲟⲩⲛⲟϭ ⲛⲗⲩⲡⲏ ⲙⲛⲟⲩⲙⲕⲁϩ ⲛϩⲏⲧ ⲉⲛⲁϣⲱϥ ·
 # text_en = ...
+# text = ⲉⲛⲟⲛϩ ϩⲛⲟⲩⲛⲟϭ ⲛⲗⲩⲡⲏ ⲙⲛⲟⲩⲙⲕⲁϩ ⲛϩⲏⲧ ⲉⲛⲁϣⲱϥ ·
 1-3	ⲉⲛⲟⲛϩ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	3	mark	_	_
 2	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
@@ -935,7 +935,7 @@
 6	ⲛⲟϭ	ⲛⲟϭ	NOUN	N	_	3	obl	_	_
 7-8	ⲛⲗⲩⲡⲏ	_	_	_	_	_	_	_	_
 7	ⲛ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲛ̄
-8	ⲗⲩⲡⲏ	ⲗⲩⲡⲏ	VERB	V	VerbForm=Fin	6	nmod	_	Entity=abstract)
+8	ⲗⲩⲡⲏ	ⲗⲩⲡⲏ	VERB	V	Foreign=Yes|VerbForm=Fin	6	nmod	_	Entity=abstract)|OrigLang=grc
 9-11	ⲙⲛⲟⲩⲙⲕⲁϩ	_	_	_	_	_	_	_	_
 9	ⲙⲛ	ⲙⲛ	ADP	PREP	_	11	cc	_	Orig=ⲙ︤ⲛ︥
 10	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	11	det	_	Entity=(abstract
@@ -950,8 +950,8 @@
 17	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0032
-# text = ⲉⲧⲣⲉⲩⲉⲓⲣⲉ ⲛⲧⲟⲩⲉⲓ ⲧⲟⲩⲉⲓ ⲙⲙⲱⲧⲛ ⲕⲁⲧⲁⲡⲉⲥⲙⲡϣⲁ ·
 # text_en = ...
+# text = ⲉⲧⲣⲉⲩⲉⲓⲣⲉ ⲛⲧⲟⲩⲉⲓ ⲧⲟⲩⲉⲓ ⲙⲙⲱⲧⲛ ⲕⲁⲧⲁⲡⲉⲥⲙⲡϣⲁ ·
 1-4	ⲉⲧⲣⲉⲩⲉⲓⲣⲉ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉ	PART	PREP	_	2	mark	_	_
 2	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	0	root	_	_
@@ -968,14 +968,14 @@
 10	ⲙⲙⲱ	ⲛ	ADP	PREP	_	11	case	_	Orig=ⲙ̄ⲙⲱ
 11	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	7	nmod	_	Orig=ⲧ︤ⲛ︥
 12-14	ⲕⲁⲧⲁⲡⲉⲥⲙⲡϣⲁ	_	_	_	_	_	_	_	_
-12	ⲕⲁⲧⲁ	ⲕⲁⲧⲁ	ADP	PREP	_	14	case	_	_
+12	ⲕⲁⲧⲁ	ⲕⲁⲧⲁ	ADP	PREP	Foreign=Yes	14	case	_	OrigLang=grc
 13	ⲡⲉⲥ	ⲡⲉⲥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	Entity=(abstract
 14	ⲙⲡϣⲁ	ⲙⲡϣⲁ	NOUN	N	_	4	obl	_	Entity=abstract)|Orig=ⲙ̄ⲡϣⲁ
 15	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0033
-# text = ⲉⲃⲟⲗ ϫⲉⲁⲧⲉⲧⲛⲕⲱ ⲛⲥⲱⲧⲛ ⲛⲧⲡⲏⲅⲏ ⲙⲙⲟⲟⲩ ⲛⲱⲛϩ ·
 # text_en = ...
+# text = ⲉⲃⲟⲗ ϫⲉⲁⲧⲉⲧⲛⲕⲱ ⲛⲥⲱⲧⲛ ⲛⲧⲡⲏⲅⲏ ⲙⲙⲟⲟⲩ ⲛⲱⲛϩ ·
 1	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	5	advmod	_	_
 2-5	ϫⲉⲁⲧⲉⲧⲛⲕⲱ	_	_	_	_	_	_	_	_
 2	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	5	mark	_	_
@@ -988,7 +988,7 @@
 8-10	ⲛⲧⲡⲏⲅⲏ	_	_	_	_	_	_	_	_
 8	ⲛ	ⲛ	ADP	PREP	_	10	case	_	Orig=ⲛ̄
 9	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Entity=(place
-10	ⲡⲏⲅⲏ	ⲡⲏⲅⲏ	NOUN	N	_	5	obj	_	Orig=ⲡⲏⲅⲏ̂
+10	ⲡⲏⲅⲏ	ⲡⲏⲅⲏ	NOUN	N	Foreign=Yes	5	obj	_	Orig=ⲡⲏⲅⲏ̂|OrigLang=grc
 11-12	ⲙⲙⲟⲟⲩ	_	_	_	_	_	_	_	_
 11	ⲙ	ⲛ	ADP	PREP	_	12	case	_	Orig=ⲙ̄
 12	ⲙⲟⲟⲩ	ⲙⲟⲟⲩ	NOUN	N	_	10	nmod	_	Entity=(substance|Orig=ⲙⲟⲩ
@@ -998,8 +998,8 @@
 15	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0034
-# text = ⲉⲁⲧⲉⲧⲛϣⲓⲕⲉ ⲛⲏⲧⲛ ⲛϩⲉⲛϣⲏⲓ ⲉⲩⲟⲩⲟϭⲡ ϩⲙⲡⲧⲣⲉⲡⲉⲧⲛϩⲏⲧ ⲛⲁⲧⲥⲃⲱ ⲣⲕⲁⲕⲉ ⲉⲣⲱⲧⲛ ·
 # text_en = ...
+# text = ⲉⲁⲧⲉⲧⲛϣⲓⲕⲉ ⲛⲏⲧⲛ ⲛϩⲉⲛϣⲏⲓ ⲉⲩⲟⲩⲟϭⲡ ϩⲙⲡⲧⲣⲉⲡⲉⲧⲛϩⲏⲧ ⲛⲁⲧⲥⲃⲱ ⲣⲕⲁⲕⲉ ⲉⲣⲱⲧⲛ ·
 1-4	ⲉⲁⲧⲉⲧⲛϣⲓⲕⲉ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	4	mark	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
@@ -1032,8 +1032,8 @@
 23	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0035
-# text = ⲉⲧⲉⲧⲛϫⲱ ⲙⲙⲟⲥ ϫⲉⲁⲛⲟⲛ ϩⲉⲛⲥⲁⲃⲉ · ⲁⲧⲉⲧⲛⲣⲥⲟϭ ·
 # text_en = ...
+# text = ⲉⲧⲉⲧⲛϫⲱ ⲙⲙⲟⲥ ϫⲉⲁⲛⲟⲛ ϩⲉⲛⲥⲁⲃⲉ · ⲁⲧⲉⲧⲛⲣⲥⲟϭ ·
 1-3	ⲉⲧⲉⲧⲛϫⲱ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	3	mark	_	_
 2	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	Orig=ⲧⲉⲧ︤ⲛ︥
@@ -1055,8 +1055,8 @@
 14	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0036
-# text = ⲉⲁⲧⲉⲧⲛϣⲓⲃⲉ ⲙⲡⲉⲟⲟⲩ ⲙⲡⲛⲟⲩⲧⲉ ϩⲛϩⲉⲛϩⲃⲏⲩⲉ ⲉⲙⲉϣϣⲉ .
 # text_en = ...
+# text = ⲉⲁⲧⲉⲧⲛϣⲓⲃⲉ ⲙⲡⲉⲟⲟⲩ ⲙⲡⲛⲟⲩⲧⲉ ϩⲛϩⲉⲛϩⲃⲏⲩⲉ ⲉⲙⲉϣϣⲉ .
 1-4	ⲉⲁⲧⲉⲧⲛϣⲓⲃⲉ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	4	mark	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
@@ -1080,8 +1080,8 @@
 16	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0037
-# text = ⲉⲧⲃⲉⲡⲁⲓ ⲁⲡⲛⲟⲩⲧⲉ ϯⲧⲏⲩⲧⲛ ⲉϩⲣⲁⲓ ⲉϩⲉⲛⲡⲁⲑⲟⲥ ⲉⲩⲥⲏϣ ⲉⲧⲉⲡϫⲓⲟⲩⲉ ⲡⲉ ⲙⲛⲡϫⲱϩⲙ ⲙⲛⲡⲟⲛⲏⲣⲟⲛ ⲛⲓⲙ ·
 # text_en = ...
+# text = ⲉⲧⲃⲉⲡⲁⲓ ⲁⲡⲛⲟⲩⲧⲉ ϯⲧⲏⲩⲧⲛ ⲉϩⲣⲁⲓ ⲉϩⲉⲛⲡⲁⲑⲟⲥ ⲉⲩⲥⲏϣ ⲉⲧⲉⲡϫⲓⲟⲩⲉ ⲡⲉ ⲙⲛⲡϫⲱϩⲙ ⲙⲛⲡⲟⲛⲏⲣⲟⲛ ⲛⲓⲙ ·
 1-2	ⲉⲧⲃⲉⲡⲁⲓ	_	_	_	_	_	_	_	_
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	2	case	_	_
 2	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	obl	_	Entity=(abstract)|Orig=ⲡⲁⲓ̈
@@ -1096,7 +1096,7 @@
 9-11	ⲉϩⲉⲛⲡⲁⲑⲟⲥ	_	_	_	_	_	_	_	_
 9	ⲉ	ⲉ	ADP	PREP	_	11	case	_	_
 10	ϩⲉⲛ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	11	det	_	Entity=(abstract
-11	ⲡⲁⲑⲟⲥ	ⲡⲁⲑⲟⲥ	NOUN	N	_	6	obl	_	_
+11	ⲡⲁⲑⲟⲥ	ⲡⲁⲑⲟⲥ	NOUN	N	Foreign=Yes	6	obl	_	OrigLang=grc
 12-14	ⲉⲩⲥⲏϣ	_	_	_	_	_	_	_	_
 12	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	14	mark	_	_
 13	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
@@ -1112,17 +1112,17 @@
 21	ϫⲱϩⲙ	ϫⲱϩⲙ	VERB	V	VerbForm=Fin	17	conj	_	Entity=abstract)|Orig=ϫⲱϩ︤ⲙ︥
 22-23	ⲙⲛⲡⲟⲛⲏⲣⲟⲛ	_	_	_	_	_	_	_	_
 22	ⲙⲛ	ⲙⲛ	ADP	PREP	_	23	cc	_	Orig=ⲙ︤ⲛ︥
-23	ⲡⲟⲛⲏⲣⲟⲛ	ⲡⲟⲛⲏⲣⲟⲛ	NOUN	N	_	21	conj	_	Entity=(abstract|Orig=ⲡⲟⲛⲏⲣⲟ⳯
+23	ⲡⲟⲛⲏⲣⲟⲛ	ⲡⲟⲛⲏⲣⲟⲛ	NOUN	N	Foreign=Yes	21	conj	_	Entity=(abstract|Orig=ⲡⲟⲛⲏⲣⲟ⳯|OrigLang=grc
 24	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	23	det	_	Entity=abstract)abstract)
 25	·	·	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = coptic_treebank-to_thieving_nuns_s0038
-# text = ⲛⲁⲓ ⲉⲧⲉⲣⲉⲧⲓⲙⲱⲣⲓⲁ ⲛⲓⲙ ϣⲟⲟⲡ ⲛⲛⲉⲧⲉⲓⲣⲉ ⲙⲙⲟⲟⲩ · ⲟⲩ ⲙⲟⲛⲟⲛ ϩⲙⲡⲉⲓⲁⲓⲱⲛ · ⲁⲗⲗⲁ ϩⲙⲡⲕⲉⲟⲩⲁ :
 # text_en = ...
+# text = ⲛⲁⲓ ⲉⲧⲉⲣⲉⲧⲓⲙⲱⲣⲓⲁ ⲛⲓⲙ ϣⲟⲟⲡ ⲛⲛⲉⲧⲉⲓⲣⲉ ⲙⲙⲟⲟⲩ · ⲟⲩ ⲙⲟⲛⲟⲛ ϩⲙⲡⲉⲓⲁⲓⲱⲛ · ⲁⲗⲗⲁ ϩⲙⲡⲕⲉⲟⲩⲁ :
 1	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	0	root	_	Entity=(abstract|Orig=ⲛⲁⲓ̈
 2-3	ⲉⲧⲉⲣⲉⲧⲓⲙⲱⲣⲓⲁ	_	_	_	_	_	_	_	_
 2	ⲉⲧⲉⲣⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
-3	ⲧⲓⲙⲱⲣⲓⲁ	ⲧⲓⲙⲱⲣⲓⲁ	NOUN	N	_	5	nsubj	_	Entity=(abstract
+3	ⲧⲓⲙⲱⲣⲓⲁ	ⲧⲓⲙⲱⲣⲓⲁ	NOUN	N	Foreign=Yes	5	nsubj	_	Entity=(abstract|OrigLang=grc
 4	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	3	det	_	Entity=abstract)|Orig=ⲛⲓⲙ⳿
 5	ϣⲟⲟⲡ	ϣⲱⲡⲉ	VERB	VSTAT	VerbForm=Fin	1	acl	_	Orig=ϣⲟⲟⲡ⳿
 6-9	ⲛⲛⲉⲧⲉⲓⲣⲉ	_	_	_	_	_	_	_	_
@@ -1135,11 +1135,11 @@
 11	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	9	obj	_	Entity=person)abstract)
 12	·	·	PUNCT	PUNCT	_	17	punct	_	_
 13	ⲟⲩ	ⲟⲩ	X	FM	Polarity=Neg	17	advmod	_	_
-14	ⲙⲟⲛⲟⲛ	ⲙⲟⲛⲟⲛ	X	FM	_	13	fixed	_	Orig=ⲙⲟⲛⲟ⳯
+14	ⲙⲟⲛⲟⲛ	ⲙⲟⲛⲟⲛ	X	FM	Foreign=Yes	13	fixed	_	Orig=ⲙⲟⲛⲟ⳯|OrigLang=grc
 15-17	ϩⲙⲡⲉⲓⲁⲓⲱⲛ	_	_	_	_	_	_	_	_
 15	ϩⲙ	ϩⲛ	ADP	PREP	_	17	case	_	Orig=ϩ︤ⲙ︥
 16	ⲡⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	Entity=(time|Orig=ⲡⲉⲓ̈
-17	ⲁⲓⲱⲛ	ⲁⲓⲱⲛ	NOUN	N	_	5	obl	_	Entity=time)
+17	ⲁⲓⲱⲛ	ⲁⲓⲱⲛ	NOUN	N	Foreign=Yes	5	obl	_	Entity=time)|OrigLang=grc
 18	·	·	PUNCT	PUNCT	_	23	punct	_	_
 19	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	23	cc	_	_
 20-23	ϩⲙⲡⲕⲉⲟⲩⲁ	_	_	_	_	_	_	_	_

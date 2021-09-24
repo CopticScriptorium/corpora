@@ -1,8 +1,8 @@
 # newdoc id = coptic.treebank:exhortations
 # sent_id = coptic_treebank-exhortations_s0001
-# text = ⲕⲟⲥⲙⲟⲥ ⲉⲛⲙⲟⲟϣⲉ ϩⲛⲛϫⲱϩⲙ ⲙⲛⲛϯϩⲉ · ⲙⲛⲛϫⲏⲣ · ⲙⲛⲛⲥⲱ · ⲙⲛⲙⲙⲛⲧⲣⲉϥϣⲙϣⲉⲉⲓⲇⲱⲗⲟⲛ ⲉⲧϫⲁϩⲙ ·
 # text_en = world, as we walk in defilement and drunkenness and reveling and drinking and defiled idol worship. (1 Pet 4:3)
-1	ⲕⲟⲥⲙⲟⲥ	ⲕⲟⲥⲙⲟⲥ	NOUN	N	_	0	root	_	Entity=(place)|Orig=[ⲕⲟ]ⲥⲙⲟⲥ
+# text = ⲕⲟⲥⲙⲟⲥ ⲉⲛⲙⲟⲟϣⲉ ϩⲛⲛϫⲱϩⲙ ⲙⲛⲛϯϩⲉ · ⲙⲛⲛϫⲏⲣ · ⲙⲛⲛⲥⲱ · ⲙⲛⲙⲙⲛⲧⲣⲉϥϣⲙϣⲉⲉⲓⲇⲱⲗⲟⲛ ⲉⲧϫⲁϩⲙ ·
+1	ⲕⲟⲥⲙⲟⲥ	ⲕⲟⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	0	root	_	Entity=(place)|Orig=[ⲕⲟ]ⲥⲙⲟⲥ|OrigLang=grc
 2-4	ⲉⲛⲙⲟⲟϣⲉ	_	_	_	_	_	_	_	_
 2	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	4	mark	_	_
 3	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
@@ -28,16 +28,16 @@
 19	·	·	PUNCT	PUNCT	_	22	punct	_	_
 20-22	ⲙⲛⲙⲙⲛⲧⲣⲉϥϣⲙϣⲉⲉⲓⲇⲱⲗⲟⲛ	_	_	_	_	_	_	_	_
 20	ⲙⲛ	ⲙⲛ	ADP	PREP	_	22	cc	_	Orig=ⲙ︤ⲛ︥
-21	ⲙ	ⲡ	DET	ART	_	22	det	_	Entity=(abstract|Orig=ⲙ̄
-22	ⲙⲛⲧⲣⲉϥϣⲙϣⲉⲉⲓⲇⲱⲗⲟⲛ	ⲙⲛⲧⲣⲉϥϣⲙϣⲉⲉⲓⲇⲱⲗⲟⲛ	NOUN	N	_	7	conj	_	Morphs=ⲙⲛⲧ-ⲣⲉϥ-ϣⲙϣⲉ-ⲉⲓⲇⲱⲗⲟⲛ|Orig=ⲙ︤ⲛ︦ⲧ︥ⲣⲉϥϣⲙ̄︥ϣⲉⲉⲓⲇⲱⲗⲟⲛ
+21	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	22	det	_	Entity=(abstract|Orig=ⲙ̄
+22	ⲙⲛⲧⲣⲉϥϣⲙϣⲉⲉⲓⲇⲱⲗⲟⲛ	ⲙⲛⲧⲣⲉϥϣⲙϣⲉⲉⲓⲇⲱⲗⲟⲛ	NOUN	N	Foreign=Yes	7	conj	_	Morphs=ⲙⲛⲧ-ⲣⲉϥ-ϣⲙϣⲉ-ⲉⲓⲇⲱⲗⲟⲛ|Orig=ⲙ︤ⲛ︦ⲧ︥ⲣⲉϥϣⲙ̄︥ϣⲉⲉⲓⲇⲱⲗⲟⲛ|OrigLang=grc
 23-24	ⲉⲧϫⲁϩⲙ	_	_	_	_	_	_	_	_
 23	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	24	mark	_	_
 24	ϫⲁϩⲙ	ϫⲱϩⲙ	VERB	VSTAT	VerbForm=Fin	22	acl	_	Entity=abstract)|Orig=ϫⲁϩ︤ⲙ︥
 25	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = coptic_treebank-exhortations_s0002
-# text = ⲉⲛⲙⲟⲟϣⲉ ϩⲛⲟⲩⲕⲁⲕⲓⲁ ⲙⲛⲟⲩⲫⲑⲟⲛⲟⲥ · ⲉⲛⲟ ⲙⲙⲉⲥⲧⲉ ⲉⲛⲙⲟⲥⲧⲉ ⲛⲛⲉⲛⲉⲣⲏⲩ ·
 # text_en = As we walk in wickedness and envy, becoming hated as we hate each other.
+# text = ⲉⲛⲙⲟⲟϣⲉ ϩⲛⲟⲩⲕⲁⲕⲓⲁ ⲙⲛⲟⲩⲫⲑⲟⲛⲟⲥ · ⲉⲛⲟ ⲙⲙⲉⲥⲧⲉ ⲉⲛⲙⲟⲥⲧⲉ ⲛⲛⲉⲛⲉⲣⲏⲩ ·
 1-3	ⲉⲛⲙⲟⲟϣⲉ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	3	mark	_	_
 2	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
@@ -45,11 +45,11 @@
 4-6	ϩⲛⲟⲩⲕⲁⲕⲓⲁ	_	_	_	_	_	_	_	_
 4	ϩⲛ	ϩⲛ	ADP	PREP	_	6	case	_	Orig=ϩ︤ⲛ︥
 5	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	6	det	_	Entity=(abstract
-6	ⲕⲁⲕⲓⲁ	ⲕⲁⲕⲓⲁ	NOUN	N	_	3	obl	_	Entity=abstract)
+6	ⲕⲁⲕⲓⲁ	ⲕⲁⲕⲓⲁ	NOUN	N	Foreign=Yes	3	obl	_	Entity=abstract)|OrigLang=grc
 7-9	ⲙⲛⲟⲩⲫⲑⲟⲛⲟⲥ	_	_	_	_	_	_	_	_
 7	ⲙⲛ	ⲙⲛ	ADP	PREP	_	9	cc	_	Orig=ⲙ︤ⲛ︥
 8	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	9	det	_	Entity=(abstract
-9	ⲫⲑⲟⲛⲟⲥ	ⲫⲑⲟⲛⲟⲥ	NOUN	N	_	6	conj	_	Entity=abstract)
+9	ⲫⲑⲟⲛⲟⲥ	ⲫⲑⲟⲛⲟⲥ	NOUN	N	Foreign=Yes	6	conj	_	Entity=abstract)|OrigLang=grc
 10	·	·	PUNCT	PUNCT	_	13	punct	_	_
 11-13	ⲉⲛⲟ	_	_	_	_	_	_	_	_
 11	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	13	mark	_	_
@@ -69,8 +69,8 @@
 22	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-exhortations_s0003
-# text = ⲉⲛⲟ ⲛⲁⲧⲥⲱⲧⲙ · ⲉⲛⲡⲗⲁⲛⲁ ·
 # text_en = As we become disobedient and stray. (Titus 3:3)
+# text = ⲉⲛⲟ ⲛⲁⲧⲥⲱⲧⲙ · ⲉⲛⲡⲗⲁⲛⲁ ·
 1-3	ⲉⲛⲟ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	3	mark	_	_
 2	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
@@ -82,12 +82,12 @@
 7-9	ⲉⲛⲡⲗⲁⲛⲁ	_	_	_	_	_	_	_	_
 7	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	9	mark	_	_
 8	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
-9	ⲡⲗⲁⲛⲁ	ⲡⲗⲁⲛⲁ	VERB	V	VerbForm=Fin	3	parataxis	_	_
+9	ⲡⲗⲁⲛⲁ	ⲡⲗⲁⲛⲁ	VERB	V	Foreign=Yes|VerbForm=Fin	3	parataxis	_	OrigLang=grc
 10	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-exhortations_s0004
-# text = ⲉⲛⲙⲟⲟϣⲉ ϩⲙⲡⲡⲉⲧϣⲟⲩⲉⲓⲧ ⲙⲡⲉⲛϩⲏⲧ · ⲉⲛⲟ ⲛⲕⲁⲕⲉ ϩⲛⲛⲉⲛⲙⲉⲉⲩⲉ ·
 # text_en = As we walk in the vanity of our heart and become dark in our thoughts.
+# text = ⲉⲛⲙⲟⲟϣⲉ ϩⲙⲡⲡⲉⲧϣⲟⲩⲉⲓⲧ ⲙⲡⲉⲛϩⲏⲧ · ⲉⲛⲟ ⲛⲕⲁⲕⲉ ϩⲛⲛⲉⲛⲙⲉⲉⲩⲉ ·
 1-3	ⲉⲛⲙⲟⲟϣⲉ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	3	mark	_	_
 2	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
@@ -115,15 +115,15 @@
 19	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-exhortations_s0005
-# text = ⲉⲛⲟ ⲛⲁⲗⲗⲟⲧⲣⲓⲟⲥ ⲉⲡⲱⲛϩ ⲙⲡⲛⲟⲩⲧⲉ , ⲉⲧⲃⲉⲧⲙⲛⲧⲁⲧⲥⲟⲟⲩⲛ ⲉⲧϣⲟⲟⲡ ⲛϩⲏⲧⲛ ⲉⲧⲃⲉⲡⲉⲛⲧⲱⲛ ⲛϩⲏⲧ ·
 # text_en = As we become alienated from the life of God because of the ignorance that is inside us because of our obstinacy.
+# text = ⲉⲛⲟ ⲛⲁⲗⲗⲟⲧⲣⲓⲟⲥ ⲉⲡⲱⲛϩ ⲙⲡⲛⲟⲩⲧⲉ , ⲉⲧⲃⲉⲧⲙⲛⲧⲁⲧⲥⲟⲟⲩⲛ ⲉⲧϣⲟⲟⲡ ⲛϩⲏⲧⲛ ⲉⲧⲃⲉⲡⲉⲛⲧⲱⲛ ⲛϩⲏⲧ ·
 1-3	ⲉⲛⲟ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	3	mark	_	_
 2	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	ⲟ	ⲉⲓⲣⲉ	VERB	VSTAT	VerbForm=Fin	0	root	_	_
 4-5	ⲛⲁⲗⲗⲟⲧⲣⲓⲟⲥ	_	_	_	_	_	_	_	_
 4	ⲛ	ⲙ	ADP	PREP	_	5	case	_	Orig=ⲛ̄
-5	ⲁⲗⲗⲟⲧⲣⲓⲟⲥ	ⲁⲗⲗⲟⲧⲣⲓⲟⲥ	NOUN	N	_	3	obl	_	Entity=(person)
+5	ⲁⲗⲗⲟⲧⲣⲓⲟⲥ	ⲁⲗⲗⲟⲧⲣⲓⲟⲥ	NOUN	N	Foreign=Yes	3	obl	_	Entity=(person)|OrigLang=grc
 6-8	ⲉⲡⲱⲛϩ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉ	ADP	PREP	_	8	case	_	_
 7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(abstract
@@ -153,8 +153,8 @@
 25	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-exhortations_s0006
-# text = ⲉⲁⲛⲧⲁⲁⲛ ⲙⲙⲓⲛⲙⲙⲟⲛ ⲙⲡϫⲱϩⲙ ⲙⲛⲡⲣϩⲱⲃ ⲉⲁⲕⲁⲑⲁⲣⲥⲓⲁ ⲛⲓⲙ ·
 # text_en = As we have given over to defilement and doing every impure thing.
+# text = ⲉⲁⲛⲧⲁⲁⲛ ⲙⲙⲓⲛⲙⲙⲟⲛ ⲙⲡϫⲱϩⲙ ⲙⲛⲡⲣϩⲱⲃ ⲉⲁⲕⲁⲑⲁⲣⲥⲓⲁ ⲛⲓⲙ ·
 1-5	ⲉⲁⲛⲧⲁⲁⲛ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	4	mark	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
@@ -174,15 +174,15 @@
 13	ⲣϩⲱⲃ	ⲣϩⲱⲃ	NOUN	N	_	10	conj	_	Morphs=ⲣ-ϩⲱⲃ|Orig=ⲣ̄ϩⲱⲃ
 14-15	ⲉⲁⲕⲁⲑⲁⲣⲥⲓⲁ	_	_	_	_	_	_	_	_
 14	ⲉ	ⲉ	ADP	PREP	_	15	case	_	_
-15	ⲁⲕⲁⲑⲁⲣⲥⲓⲁ	ⲁⲕⲁⲑⲁⲣⲥⲓⲁ	NOUN	N	_	13	nmod	_	Entity=(abstract
+15	ⲁⲕⲁⲑⲁⲣⲥⲓⲁ	ⲁⲕⲁⲑⲁⲣⲥⲓⲁ	NOUN	N	Foreign=Yes	13	nmod	_	Entity=(abstract|OrigLang=grc
 16	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	15	det	_	Entity=abstract)abstract)
 17	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = coptic_treebank-exhortations_s0007
-# text = ⲧⲉⲛⲟⲩ ⲇⲉ ⲛⲧⲁⲩⲧⲥⲁⲃⲟⲛ ⲁⲛ ⲛⲧⲉⲓϩⲉ ·
 # text_en = But now it is not in this way that we were taught. (Eph 4:17-20)
+# text = ⲧⲉⲛⲟⲩ ⲇⲉ ⲛⲧⲁⲩⲧⲥⲁⲃⲟⲛ ⲁⲛ ⲛⲧⲉⲓϩⲉ ·
 1	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	6	advmod	_	_
-2	ⲇⲉ	ⲇⲉ	PART	PTC	_	6	advmod	_	_
+2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	6	advmod	_	OrigLang=grc
 3-7	ⲛⲧⲁⲩⲧⲥⲁⲃⲟⲛ	_	_	_	_	_	_	_	_
 3	ⲛⲧ	ⲉⲣⲉ	PART	CFOC	_	6	mark	_	Orig=ⲛ̄ⲧ
 4	ⲁ	ⲁ	AUX	APST	_	6	aux	_	_
@@ -197,9 +197,9 @@
 12	·	·	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = coptic_treebank-exhortations_s0008
-# text = ⲁⲗⲗⲁ ⲉⲛⲧⲁⲩϯⲥⲃⲱ ⲛⲁⲛ ϫⲉϩⲛⲟⲩϩⲟⲧⲉ ⲙⲛⲟⲩⲥⲧⲱⲧ ⲁⲣⲓϩⲱⲃ ⲉⲡⲉⲧⲛⲟⲩϫⲁⲓ .
 # text_en = But rather what was taught to us is to do something for our salvation in fear and trembling.
-1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	_	5	cc	_	_
+# text = ⲁⲗⲗⲁ ⲉⲛⲧⲁⲩϯⲥⲃⲱ ⲛⲁⲛ ϫⲉϩⲛⲟⲩϩⲟⲧⲉ ⲙⲛⲟⲩⲥⲧⲱⲧ ⲁⲣⲓϩⲱⲃ ⲉⲡⲉⲧⲛⲟⲩϫⲁⲓ .
+1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	5	cc	_	OrigLang=grc
 2-5	ⲉⲛⲧⲁⲩϯⲥⲃⲱ	_	_	_	_	_	_	_	_
 2	ⲉⲛⲧ	ⲉⲣⲉ	PART	CFOC	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
@@ -225,16 +225,16 @@
 19	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = coptic_treebank-exhortations_s0009
-# text = ⲡⲛⲟⲩⲧⲉ ⲅⲁⲣ ⲡⲉⲧⲉⲛⲉⲣⲅⲉⲓ ⲛϩⲏⲧⲧⲏⲩⲧⲛ ⲙⲡⲟⲩⲱϣ ⲙⲛⲡϫⲱⲕ ⲉⲃⲟⲗ ⲙⲡⲟⲩⲱϣ ·
 # text_en = For God is the one who enacts the will and the fulfillment of the will. (Phil 2:12-13)
+# text = ⲡⲛⲟⲩⲧⲉ ⲅⲁⲣ ⲡⲉⲧⲉⲛⲉⲣⲅⲉⲓ ⲛϩⲏⲧⲧⲏⲩⲧⲛ ⲙⲡⲟⲩⲱϣ ⲙⲛⲡϫⲱⲕ ⲉⲃⲟⲗ ⲙⲡⲟⲩⲱϣ ·
 1-2	ⲡⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(person
 2	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	0	root	_	_
-3	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	_	2	advmod	_	_
+3	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	2	advmod	_	OrigLang=grc
 4-6	ⲡⲉⲧⲉⲛⲉⲣⲅⲉⲓ	_	_	_	_	_	_	_	_
 4	ⲡ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	2	cop	_	_
 5	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	6	mark	_	_
-6	ⲉⲛⲉⲣⲅⲉⲓ	ⲉⲛⲉⲣⲅⲉⲓ	VERB	V	VerbForm=Fin	2	csubj	_	_
+6	ⲉⲛⲉⲣⲅⲉⲓ	ⲉⲛⲉⲣⲅⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	2	csubj	_	OrigLang=grc
 7-8	ⲛϩⲏⲧⲧⲏⲩⲧⲛ	_	_	_	_	_	_	_	_
 7	ⲛϩⲏⲧ	ϩⲛ	ADP	PREP	_	8	case	_	Orig=ⲛ̄ϩⲏⲧ
 8	ⲧⲏⲩⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	6	obl	_	Orig=ⲧⲏⲩⲧⲛ̄
@@ -254,24 +254,24 @@
 19	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = coptic_treebank-exhortations_s0010
-# text = ⲕⲁⲓ ⲅⲁⲣ ⲛϣⲏⲣⲉ ⲙⲡⲓⲥⲣⲁⲏⲗ ⲙⲡⲓⲟⲩⲟⲉⲓϣ ⲁⲙⲱⲩⲥⲏⲥ ⲛⲁⲩ ⲉⲣⲟⲟⲩ ⲛⲧϩⲉ ⲉⲧⲟⲩϭⲉⲡⲏ ⲉⲣⲡⲱⲃϣ ⲛⲛⲉⲛⲧⲟⲗⲏ ⲙⲡⲛⲟⲩⲧⲉ
 # text_en = And indeed the children of Israel, Moses saw them at that time in the way that they hastened to forget the commandments of God.
-1	ⲕⲁⲓ	ⲕⲁⲓ	CCONJ	CONJ	_	13	cc	_	_
-2	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	_	13	advmod	_	_
+# text = ⲕⲁⲓ ⲅⲁⲣ ⲛϣⲏⲣⲉ ⲙⲡⲓⲥⲣⲁⲏⲗ ⲙⲡⲓⲟⲩⲟⲉⲓϣ ⲁⲙⲱⲩⲥⲏⲥ ⲛⲁⲩ ⲉⲣⲟⲟⲩ ⲛⲧϩⲉ ⲉⲧⲟⲩϭⲉⲡⲏ ⲉⲣⲡⲱⲃϣ ⲛⲛⲉⲛⲧⲟⲗⲏ ⲙⲡⲛⲟⲩⲧⲉ
+1	ⲕⲁⲓ	ⲕⲁⲓ	CCONJ	CONJ	Foreign=Yes	13	cc	_	OrigLang=grc
+2	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	13	advmod	_	OrigLang=grc
 3-4	ⲛϣⲏⲣⲉ	_	_	_	_	_	_	_	_
 3	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	4	det	_	Entity=(person|Orig=ⲛ̄
 4	ϣⲏⲣⲉ	ϣⲏⲣⲉ	NOUN	N	_	13	dislocated	_	_
 5-7	ⲙⲡⲓⲥⲣⲁⲏⲗ	_	_	_	_	_	_	_	_
 5	ⲙ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲙ̄
 6	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(organization-Israelites|Orig=ⲡ︤
-7	ⲓⲥⲣⲁⲏⲗ	ⲓⲥⲣⲁⲏⲗ	PROPN	NPROP	_	4	nmod	_	Entity=organization-Israelites)person)|Orig=ⲓ︦ⲏ︦ⲗ︥
+7	ⲓⲥⲣⲁⲏⲗ	ⲓⲥⲣⲁⲏⲗ	PROPN	NPROP	Foreign=Yes	4	nmod	_	Entity=organization-Israelites)person)|Orig=ⲓ︦ⲏ︦ⲗ︥|OrigLang=he
 8-10	ⲙⲡⲓⲟⲩⲟⲉⲓϣ	_	_	_	_	_	_	_	_
 8	ⲙ	ⲛ	ADP	PREP	_	10	case	_	Orig=ⲙ̄
 9	ⲡⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	Entity=(time
 10	ⲟⲩⲟⲉⲓϣ	ⲟⲩⲟⲉⲓϣ	NOUN	N	_	13	obl	_	Entity=time)
 11-12	ⲁⲙⲱⲩⲥⲏⲥ	_	_	_	_	_	_	_	_
 11	ⲁ	ⲁ	AUX	APST	_	13	aux	_	_
-12	ⲙⲱⲩⲥⲏⲥ	ⲙⲱⲩⲥⲏⲥ	PROPN	NPROP	_	13	nsubj	_	Entity=(person-Moses)|Orig=ⲙⲱⲩ̈ⲥⲏⲥ
+12	ⲙⲱⲩⲥⲏⲥ	ⲙⲱⲩⲥⲏⲥ	PROPN	NPROP	Foreign=Yes	13	nsubj	_	Entity=(person-Moses)|Orig=ⲙⲱⲩ̈ⲥⲏⲥ|OrigLang=he
 13	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	VerbForm=Fin	0	root	_	_
 14-15	ⲉⲣⲟⲟⲩ	_	_	_	_	_	_	_	_
 14	ⲉⲣⲟ	ⲉ	ADP	PREP	_	15	case	_	_
@@ -292,15 +292,15 @@
 26-28	ⲛⲛⲉⲛⲧⲟⲗⲏ	_	_	_	_	_	_	_	_
 26	ⲛ	ⲙ	ADP	PREP	_	28	case	_	Orig=ⲛ̄
 27	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	28	det	_	Entity=(abstract|Orig=ⲛ̄
-28	ⲉⲛⲧⲟⲗⲏ	ⲉⲛⲧⲟⲗⲏ	NOUN	N	_	25	nmod	_	_
+28	ⲉⲛⲧⲟⲗⲏ	ⲉⲛⲧⲟⲗⲏ	NOUN	N	Foreign=Yes	25	nmod	_	OrigLang=grc
 29-31	ⲙⲡⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 29	ⲙ	ⲛ	ADP	PREP	_	31	case	_	Orig=ⲙ̄
 30	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	Entity=(person
 31	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	28	nmod	_	Entity=person)abstract)abstract)
 
 # sent_id = coptic_treebank-exhortations_s0011
-# text = ⲁϥⲟⲩⲉϩⲥⲁϩⲛⲉ ⲛⲁⲩ ⲉⲧⲣⲉⲩⲧⲁⲙⲓⲟ ⲛϩⲉⲛⲧⲱⲱⲧⲉ ⲉϫⲛⲛⲧⲛϩ ⲛⲛⲉⲩϩⲟⲉⲓⲧⲉ , ϫⲉⲕⲁⲥ ⲉⲩⲛⲁⲛⲁⲩ ⲉⲣⲟⲟⲩ ⲛⲥⲉⲣⲡⲙⲉⲉⲩⲉ ⲛⲛⲉⲛⲧⲟⲗⲏ ⲙⲡⲛⲟⲩⲧⲉ ⲛⲥⲉⲧⲙⲣⲡⲉⲩⲱⲃϣ :
 # text_en = He commanded them to make fringes at the wings of their garments so that they might see them and think of the commandments of God and not forget them. (cf. Num 15:38-39)
+# text = ⲁϥⲟⲩⲉϩⲥⲁϩⲛⲉ ⲛⲁⲩ ⲉⲧⲣⲉⲩⲧⲁⲙⲓⲟ ⲛϩⲉⲛⲧⲱⲱⲧⲉ ⲉϫⲛⲛⲧⲛϩ ⲛⲛⲉⲩϩⲟⲉⲓⲧⲉ , ϫⲉⲕⲁⲥ ⲉⲩⲛⲁⲛⲁⲩ ⲉⲣⲟⲟⲩ ⲛⲥⲉⲣⲡⲙⲉⲉⲩⲉ ⲛⲛⲉⲛⲧⲟⲗⲏ ⲙⲡⲛⲟⲩⲧⲉ ⲛⲥⲉⲧⲙⲣⲡⲉⲩⲱⲃϣ :
 1-3	ⲁϥⲟⲩⲉϩⲥⲁϩⲛⲉ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -344,7 +344,7 @@
 32-34	ⲛⲛⲉⲛⲧⲟⲗⲏ	_	_	_	_	_	_	_	_
 32	ⲛ	ⲙ	ADP	PREP	_	34	case	_	Orig=ⲛ̄
 33	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	34	det	_	Entity=(abstract|Orig=ⲛ̄
-34	ⲉⲛⲧⲟⲗⲏ	ⲉⲛⲧⲟⲗⲏ	NOUN	N	_	31	nmod	_	Orig=ⲉⲛⲧⲟⲗⲏ̂
+34	ⲉⲛⲧⲟⲗⲏ	ⲉⲛⲧⲟⲗⲏ	NOUN	N	Foreign=Yes	31	nmod	_	Orig=ⲉⲛⲧⲟⲗⲏ̂|OrigLang=grc
 35-37	ⲙⲡⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 35	ⲙ	ⲛ	ADP	PREP	_	37	case	_	Orig=ⲙ̄
 36	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	Entity=(person
@@ -359,10 +359,10 @@
 44	:	:	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-exhortations_s0012
-# text = ⲁⲛⲟⲛ ⲇⲉ ϩⲱⲱⲛ ⲙⲁⲣⲛⲕⲱ ⲛⲁⲛ ⲛⲧϩⲟⲧⲉ ⲙⲡⲛⲟⲩⲧⲉ ϩⲙⲡⲉⲛϩⲏⲧ ⲉⲡⲙⲁ ⲛⲛⲧⲱⲧⲉ . ϫⲉⲕⲁⲥ ⲛⲛⲉⲛⲣⲡⲱⲃϣ ⲛⲛⲉⲛⲧⲟⲗⲏ ⲉⲛⲧⲁⲛⲉⲛⲉⲓⲟⲧⲉ ⲧⲁⲁⲩ ⲉⲧⲟⲟⲧⲛ :
 # text_en = Now let us too place the fear of God in our heart instead of the fringes, so that we do not forget the commandments that our fathers entrusted to us.
+# text = ⲁⲛⲟⲛ ⲇⲉ ϩⲱⲱⲛ ⲙⲁⲣⲛⲕⲱ ⲛⲁⲛ ⲛⲧϩⲟⲧⲉ ⲙⲡⲛⲟⲩⲧⲉ ϩⲙⲡⲉⲛϩⲏⲧ ⲉⲡⲙⲁ ⲛⲛⲧⲱⲧⲉ . ϫⲉⲕⲁⲥ ⲛⲛⲉⲛⲣⲡⲱⲃϣ ⲛⲛⲉⲛⲧⲟⲗⲏ ⲉⲛⲧⲁⲛⲉⲛⲉⲓⲟⲧⲉ ⲧⲁⲁⲩ ⲉⲧⲟⲟⲧⲛ :
 1	ⲁⲛⲟⲛ	ⲁⲛⲟⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=1|PronType=Prs	7	dislocated	_	_
-2	ⲇⲉ	ⲇⲉ	PART	PTC	_	7	advmod	_	_
+2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	7	advmod	_	OrigLang=grc
 3-4	ϩⲱⲱⲛ	_	_	_	_	_	_	_	_
 3	ϩⲱⲱ	ϩⲱⲱ	ADV	IMOD	_	1	advmod	_	_
 4	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	3	det	_	Orig=⳯
@@ -404,7 +404,7 @@
 32-34	ⲛⲛⲉⲛⲧⲟⲗⲏ	_	_	_	_	_	_	_	_
 32	ⲛ	ⲙ	ADP	PREP	_	34	case	_	Orig=ⲛ̄
 33	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	34	det	_	Entity=(abstract|Orig=ⲛ̄
-34	ⲉⲛⲧⲟⲗⲏ	ⲉⲛⲧⲟⲗⲏ	NOUN	N	_	31	nmod	_	Orig=ⲉⲛⲧⲟⲗⲏ̂
+34	ⲉⲛⲧⲟⲗⲏ	ⲉⲛⲧⲟⲗⲏ	NOUN	N	Foreign=Yes	31	nmod	_	Orig=ⲉⲛⲧⲟⲗⲏ̂|OrigLang=grc
 35-38	ⲉⲛⲧⲁⲛⲉⲛⲉⲓⲟⲧⲉ	_	_	_	_	_	_	_	_
 35	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	39	mark	_	_
 36	ⲁ	ⲁ	AUX	APST	_	39	aux	_	_
@@ -419,8 +419,8 @@
 43	:	:	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = coptic_treebank-exhortations_s0013
-# text = ⲉⲧⲃⲉⲡⲁⲓ ϭⲉ ⲛⲉⲥⲛⲏⲩ ⲙⲁⲣⲛⲕⲧⲟⲛ ⲛⲧⲛⲙⲉⲧⲁⲛⲟⲉⲓ ⲉⲙⲡⲁⲧⲉⲡⲕⲁⲓⲣⲟⲥ ⲱϫⲛ ⲛⲧⲟⲟⲧ ⲛ . ⲁⲩⲱ ϩⲱⲥ ⲉⲣⲉⲡⲟⲩⲟⲉⲓⲛ ϣⲟⲟⲡ ⲛⲙⲙⲁⲛ ⲉⲧⲉⲛⲉⲥⲃⲟⲟⲩⲉ ⲛⲉ ⲛⲛⲉⲛⲉⲓⲟⲧⲉ .
 # text_en = Therefore brothers let us turn around and repent while the opportunity is not yet lost for us, and while the light is still with us, which is the teachings of our fathers.
+# text = ⲉⲧⲃⲉⲡⲁⲓ ϭⲉ ⲛⲉⲥⲛⲏⲩ ⲙⲁⲣⲛⲕⲧⲟⲛ ⲛⲧⲛⲙⲉⲧⲁⲛⲟⲉⲓ ⲉⲙⲡⲁⲧⲉⲡⲕⲁⲓⲣⲟⲥ ⲱϫⲛ ⲛⲧⲟⲟⲧ ⲛ . ⲁⲩⲱ ϩⲱⲥ ⲉⲣⲉⲡⲟⲩⲟⲉⲓⲛ ϣⲟⲟⲡ ⲛⲙⲙⲁⲛ ⲉⲧⲉⲛⲉⲥⲃⲟⲟⲩⲉ ⲛⲉ ⲛⲛⲉⲛⲉⲓⲟⲧⲉ .
 1-2	ⲉⲧⲃⲉⲡⲁⲓ	_	_	_	_	_	_	_	_
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	2	case	_	_
 2	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	8	obl	_	Orig=ⲡⲁⲓ̈
@@ -436,18 +436,18 @@
 10-12	ⲛⲧⲛⲙⲉⲧⲁⲛⲟⲉⲓ	_	_	_	_	_	_	_	_
 10	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	12	aux	_	Orig=ⲛ̄
 11	ⲧⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	Orig=ⲧⲛ̄
-12	ⲙⲉⲧⲁⲛⲟⲉⲓ	ⲙⲉⲧⲁⲛⲟⲉⲓ	VERB	V	VerbForm=Fin	8	advcl	_	_
+12	ⲙⲉⲧⲁⲛⲟⲉⲓ	ⲙⲉⲧⲁⲛⲟⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	8	advcl	_	OrigLang=grc
 13-16	ⲉⲙⲡⲁⲧⲉⲡⲕⲁⲓⲣⲟⲥ	_	_	_	_	_	_	_	_
 13	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	17	mark	_	_
 14	ⲙⲡⲁⲧⲉ	ⲙⲡⲁⲧⲉ	AUX	ANY	Polarity=Neg	17	aux	_	_
 15	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	Entity=(time
-16	ⲕⲁⲓⲣⲟⲥ	ⲕⲁⲓⲣⲟⲥ	NOUN	N	_	17	nsubj	_	Entity=time)
+16	ⲕⲁⲓⲣⲟⲥ	ⲕⲁⲓⲣⲟⲥ	NOUN	N	Foreign=Yes	17	nsubj	_	Entity=time)|OrigLang=grc
 17	ⲱϫⲛ	ⲱϫⲛ	VERB	V	VerbForm=Fin	12	advcl	_	Orig=ⲱϫ︤ⲛ︥
 18	ⲛⲧⲟⲟⲧ	ⲛⲧⲛ	ADP	PREP	_	19	case	_	Orig=ⲛ̄ⲧⲟⲟⲧ︤
 19	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=1|PronType=Prs	17	obl	_	Orig=ⲛ︥
 20	.	.	PUNCT	PUNCT	_	17	punct	_	_
 21	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	26	cc	_	_
-22	ϩⲱⲥ	ϩⲱⲥ	SCONJ	CONJ	_	26	mark	_	_
+22	ϩⲱⲥ	ϩⲱⲥ	SCONJ	CONJ	Foreign=Yes	26	mark	_	OrigLang=grc
 23-25	ⲉⲣⲉⲡⲟⲩⲟⲉⲓⲛ	_	_	_	_	_	_	_	_
 23	ⲉⲣⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	26	mark	_	_
 24	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	Entity=(abstract
@@ -468,8 +468,8 @@
 36	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = coptic_treebank-exhortations_s0014
-# text = ⲛⲧϩⲉ ⲉⲛⲧⲁⲡϫⲟⲉⲓⲥ ϫⲟⲟⲥ ϫⲉⲙⲟⲟϣⲉ ϩⲟⲥⲟⲛ ⲉⲟⲩⲛⲧⲏⲧⲛ ⲡⲟⲩⲟⲉⲓⲛ · ϫⲉⲛⲛⲉⲡⲕⲁⲕⲉ ⲧⲁϩⲉⲧⲏⲩⲧⲛ · :
 # text_en = In the way that the Lord said: 'Walk as long as you have the light so that the darkness does not overtake you.' (Jn 12:35)
+# text = ⲛⲧϩⲉ ⲉⲛⲧⲁⲡϫⲟⲉⲓⲥ ϫⲟⲟⲥ ϫⲉⲙⲟⲟϣⲉ ϩⲟⲥⲟⲛ ⲉⲟⲩⲛⲧⲏⲧⲛ ⲡⲟⲩⲟⲉⲓⲛ · ϫⲉⲛⲛⲉⲡⲕⲁⲕⲉ ⲧⲁϩⲉⲧⲏⲩⲧⲛ · :
 1-3	ⲛⲧϩⲉ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲙ	ADP	PREP	_	3	case	_	Orig=ⲛ̄
 2	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Orig=ⲑ
@@ -485,7 +485,7 @@
 10-11	ϫⲉⲙⲟⲟϣⲉ	_	_	_	_	_	_	_	_
 10	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	11	mark	_	_
 11	ⲙⲟⲟϣⲉ	ⲙⲟⲟϣⲉ	VERB	V	VerbForm=Fin	8	ccomp	_	_
-12	ϩⲟⲥⲟⲛ	ϩⲟⲥⲟⲛ	ADV	ADV	_	11	advmod	_	_
+12	ϩⲟⲥⲟⲛ	ϩⲟⲥⲟⲛ	ADV	ADV	Foreign=Yes	11	advmod	_	OrigLang=grc
 13-15	ⲉⲟⲩⲛⲧⲏⲧⲛ	_	_	_	_	_	_	_	_
 13	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	14	mark	_	_
 14	ⲟⲩⲛⲧⲏ	ⲟⲩⲛⲧⲉ	VERB	EXIST	_	11	advcl	_	Orig=ⲟⲩⲛ̄ⲧⲏ
@@ -506,12 +506,12 @@
 26	:	:	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-exhortations_s0015
-# text = ⲁⲩⲱ ϫⲉϩⲱⲥ ⲉⲛϩⲙⲡⲉϩⲟⲟⲩ , ⲙⲁⲣⲛⲙⲟⲟϣⲉ ⲉⲛⲧⲥⲁⲛⲏⲩ ·
 # text_en = And: 'As we are in the day, let us walk while we are in propriety.' (Rom 13:13)
+# text = ⲁⲩⲱ ϫⲉϩⲱⲥ ⲉⲛϩⲙⲡⲉϩⲟⲟⲩ , ⲙⲁⲣⲛⲙⲟⲟϣⲉ ⲉⲛⲧⲥⲁⲛⲏⲩ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	12	cc	_	_
 2-3	ϫⲉϩⲱⲥ	_	_	_	_	_	_	_	_
 2	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	12	mark	_	_
-3	ϩⲱⲥ	ϩⲱⲥ	SCONJ	CONJ	_	8	mark	_	_
+3	ϩⲱⲥ	ϩⲱⲥ	SCONJ	CONJ	Foreign=Yes	8	mark	_	OrigLang=grc
 4-8	ⲉⲛϩⲙⲡⲉϩⲟⲟⲩ	_	_	_	_	_	_	_	_
 4	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	8	mark	_	_
 5	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
@@ -530,15 +530,15 @@
 16	·	·	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = coptic_treebank-exhortations_s0016
-# text = ⲁⲩⲱ ϫⲉⲛⲉⲧⲛⲕⲟⲧⲕ ⲅⲁⲣ . ⲉⲩⲛⲕⲟⲧⲕ ⲛⲧⲉⲩϣⲏ ·
 # text_en = And: 'Those that sleep, it's at night that they sleep.
+# text = ⲁⲩⲱ ϫⲉⲛⲉⲧⲛⲕⲟⲧⲕ ⲅⲁⲣ . ⲉⲩⲛⲕⲟⲧⲕ ⲛⲧⲉⲩϣⲏ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	10	cc	_	_
 2-5	ϫⲉⲛⲉⲧⲛⲕⲟⲧⲕ	_	_	_	_	_	_	_	_
 2	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	10	mark	_	_
 3	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	10	dislocated	_	Entity=(person
 4	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 5	ⲛⲕⲟⲧⲕ	ⲛⲕⲟⲧⲕ	VERB	V	VerbForm=Fin	3	acl	_	Entity=person)|Orig=ⲛ︦ⲕⲟⲧ︤ⲕ︥
-6	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	_	10	advmod	_	_
+6	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	10	advmod	_	OrigLang=grc
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 8-10	ⲉⲩⲛⲕⲟⲧⲕ	_	_	_	_	_	_	_	_
 8	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	10	mark	_	_
@@ -551,8 +551,8 @@
 14	·	·	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = coptic_treebank-exhortations_s0017
-# text = ⲁⲩⲱ ⲛⲉⲧⲧⲁϩⲉ . ⲉⲩⲧⲁϩⲉ ⲛⲧⲉⲩϣⲏ ·
 # text_en = And those that are drunk, it is at night that they are drunk.
+# text = ⲁⲩⲱ ⲛⲉⲧⲧⲁϩⲉ . ⲉⲩⲧⲁϩⲉ ⲛⲧⲉⲩϣⲏ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	8	cc	_	_
 2-4	ⲛⲉⲧⲧⲁϩⲉ	_	_	_	_	_	_	_	_
 2	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	8	dislocated	_	Entity=(person
@@ -570,10 +570,10 @@
 12	·	·	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = coptic_treebank-exhortations_s0018
-# text = ⲁⲛⲟⲛ ⲇⲉ ⲁⲛⲟⲛ ⲛⲁⲡⲉϩⲟⲟⲩ ⲙⲁⲣⲛⲛⲏⲫⲉ · ⲉⲁⲛϯ ϩⲓⲱⲱⲛ ⲙⲡϩⲱⲱⲕ ⲛⲧⲡⲓⲥⲧⲓⲥ
 # text_en = But we are of the day, let us be sober as we don the armor of faith.' (1 Thess 5:7-8)
+# text = ⲁⲛⲟⲛ ⲇⲉ ⲁⲛⲟⲛ ⲛⲁⲡⲉϩⲟⲟⲩ ⲙⲁⲣⲛⲛⲏⲫⲉ · ⲉⲁⲛϯ ϩⲓⲱⲱⲛ ⲙⲡϩⲱⲕ ⲛⲧⲡⲓⲥⲧⲓⲥ
 1	ⲁⲛⲟⲛ	ⲁⲛⲟⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=1|PronType=Prs	4	dislocated	_	_
-2	ⲇⲉ	ⲇⲉ	PART	PTC	_	4	advmod	_	_
+2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	4	advmod	_	OrigLang=grc
 3	ⲁⲛⲟⲛ	ⲁⲛⲟⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	Orig=ⲁⲛⲟ⳯
 4-6	ⲛⲁⲡⲉϩⲟⲟⲩ	_	_	_	_	_	_	_	_
 4	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	0	root	_	_
@@ -582,7 +582,7 @@
 7-9	ⲙⲁⲣⲛⲛⲏⲫⲉ	_	_	_	_	_	_	_	_
 7	ⲙⲁⲣ	ⲙⲁⲣⲉ	AUX	AJUS	_	9	aux	_	Orig=ⲙⲁⲣ︤
 8	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	Orig=ⲛ︥
-9	ⲛⲏⲫⲉ	ⲛⲏⲫⲉ	VERB	V	VerbForm=Fin	4	parataxis	_	_
+9	ⲛⲏⲫⲉ	ⲛⲏⲫⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	4	parataxis	_	OrigLang=grc
 10	·	·	PUNCT	PUNCT	_	14	punct	_	_
 11-14	ⲉⲁⲛϯ	_	_	_	_	_	_	_	_
 11	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	14	mark	_	_
@@ -592,12 +592,12 @@
 15-16	ϩⲓⲱⲱⲛ	_	_	_	_	_	_	_	_
 15	ϩⲓⲱⲱ	ϩⲓ	ADP	PREP	_	16	case	_	_
 16	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=1|PronType=Prs	14	obl	_	Orig=⳯
-17-19	ⲙⲡϩⲱⲱⲕ	_	_	_	_	_	_	_	_
+17-19	ⲙⲡϩⲱⲕ	_	_	_	_	_	_	_	_
 17	ⲙ	ⲛ	ADP	PREP	_	19	case	_	Orig=ⲙ̄
 18	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Entity=(object
-19	ϩⲱⲱⲕ	ϩⲱⲱⲕ	NOUN	N	_	14	obl	_	Orig=ϩⲱⲕ⳿
+19	ϩⲱⲕ	ϩⲱⲱⲕ	NOUN	N	_	14	obl	_	Orig=ϩⲱⲕ⳿
 20-22	ⲛⲧⲡⲓⲥⲧⲓⲥ	_	_	_	_	_	_	_	_
 20	ⲛ	ⲛ	ADP	PREP	_	22	case	_	Orig=ⲛ̄
 21	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	Entity=(abstract
-22	ⲡⲓⲥⲧⲓⲥ	ⲡⲓⲥⲧⲓⲥ	NOUN	N	_	19	nmod	_	Entity=abstract)object)|Orig=ⲡⲓ[ⲥⲧⲓⲥ]
+22	ⲡⲓⲥⲧⲓⲥ	ⲡⲓⲥⲧⲓⲥ	NOUN	N	Foreign=Yes	19	nmod	_	Entity=abstract)object)|Orig=ⲡⲓ[ⲥⲧⲓⲥ]|OrigLang=grc
 

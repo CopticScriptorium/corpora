@@ -1,13 +1,13 @@
 # newdoc id = coptic.treebank:AP.024.isaac-cells.07
 # sent_id = coptic_treebank-AP_024_isaac-cells_07_s0001
-# text = ⲉⲩⲛⲁⲃⲱⲕ ⲇⲉ ⲉⲡⲱϩⲥ ⲡⲉϫⲁϥ ⲛⲁⲩ ϫⲉⲛϯⲛⲁⲃⲱⲕ ⲁⲛ ⲉⲕⲟⲧⲧ ⲉϯⲛⲧⲟⲗⲏ ⲛⲏⲧⲛ .
 # text_en = ...
+# text = ⲉⲩⲛⲁⲃⲱⲕ ⲇⲉ ⲉⲡⲱϩⲥ ⲡⲉϫⲁϥ ⲛⲁⲩ ϫⲉⲛϯⲛⲁⲃⲱⲕ ⲁⲛ ⲉⲕⲟⲧⲧ ⲉϯⲛⲧⲟⲗⲏ ⲛⲏⲧⲛ .
 1-4	ⲉⲩⲛⲁⲃⲱⲕ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	4	mark	_	Orig=Ⲉ︤
 2	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 3	ⲛⲁ	ⲛⲁ	AUX	FUT	_	4	aux	_	_
 4	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	9	advcl	_	_
-5	ⲇⲉ	ⲇⲉ	PART	PTC	_	4	advmod	_	_
+5	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	4	advmod	_	OrigLang=grc
 6-8	ⲉⲡⲱϩⲥ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉ	ADP	PREP	_	8	case	_	Orig=ⲉ̇
 7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(event
@@ -31,20 +31,20 @@
 21	ⲧ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	20	obj	_	Orig=ⲧ̇
 22-23	ⲉϯⲛⲧⲟⲗⲏ	_	_	_	_	_	_	_	_
 22	ⲉ	ⲉ	PART	PREP	_	23	mark	_	Orig=ⲉ̇
-23	ϯⲛⲧⲟⲗⲏ	ϯⲛⲧⲟⲗⲏ	VERB	V	VerbForm=Inf	20	xcomp	_	Morphs=ϯ-ⲛⲧⲟⲗⲏ|Orig=ϯ̇ⲛ̇ⲧⲟⲗⲏ
+23	ϯⲛⲧⲟⲗⲏ	ϯⲛⲧⲟⲗⲏ	VERB	V	Foreign=Yes|VerbForm=Inf	20	xcomp	_	Morphs=ϯ-ⲛⲧⲟⲗⲏ|Orig=ϯ̇ⲛ̇ⲧⲟⲗⲏ|OrigLang=grc
 24-25	ⲛⲏⲧⲛ	_	_	_	_	_	_	_	_
 24	ⲛⲏ	ⲛⲁ	ADP	PREP	_	25	case	_	_
 25	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	23	obl	_	Orig=ⲧⲛ̇
 26	.	.	PUNCT	PUNCT	_	9	punct	_	Orig=·
 
 # sent_id = coptic_treebank-AP_024_isaac-cells_07_s0002
-# text = ⲛⲧⲉⲧⲛ ϩⲁⲣⲉϩ ⲅⲁⲣ ⲁⲛ .
 # text_en = ...
+# text = ⲛⲧⲉⲧⲛ ϩⲁⲣⲉϩ ⲅⲁⲣ ⲁⲛ .
 1-2	ⲛⲧⲉⲧⲛ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	3	advmod	_	Orig=ⲛ̇
 2	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	Orig=ⲧⲉⲧⲛ̇
 3	ϩⲁⲣⲉϩ	ϩⲁⲣⲉϩ	VERB	V	VerbForm=Fin	0	root	_	_
-4	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	_	3	advmod	_	_
+4	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
 5	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	3	advmod	_	Orig=ⲁ̇ⲛ
 6	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=·
 

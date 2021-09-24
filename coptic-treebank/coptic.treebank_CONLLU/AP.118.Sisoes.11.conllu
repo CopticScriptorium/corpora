@@ -1,13 +1,13 @@
 # newdoc id = coptic.treebank:AP.118.Sisoes.11
 # sent_id = coptic_treebank-AP_118_Sisoes_11_s0001
-# text = ⲁϥϫⲛⲟⲩϥ ⲇⲉ ⲟⲛ ⲛϭⲓⲡⲥⲟⲛ · ϫⲉⲁⲣⲁ ⲡⲥⲁⲧⲁⲛⲁⲥ ϯϩⲓⲥⲉ ⲛⲛⲁⲣⲭⲉⲟⲥ ⲟⲛ ⲛⲧⲉⲓϩⲉ -
 # text_en = ...
+# text = ⲁϥϫⲛⲟⲩϥ ⲇⲉ ⲟⲛ ⲛϭⲓⲡⲥⲟⲛ · ϫⲉⲁⲣⲁ ⲡⲥⲁⲧⲁⲛⲁⲥ ϯϩⲓⲥⲉ ⲛⲛⲁⲣⲭⲉⲟⲥ ⲟⲛ ⲛⲧⲉⲓϩⲉ -
 1-4	ⲁϥϫⲛⲟⲩϥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	ϫⲛⲟⲩ	ϫⲛⲟⲩ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϫ̇ⲛⲟⲩ
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
-5	ⲇⲉ	ⲇⲉ	PART	PTC	_	3	advmod	_	_
+5	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
 6	ⲟⲛ	ⲟⲛ	ADV	ADV	_	3	advmod	_	Orig=ⲟ̇ⲛ
 7-9	ⲛϭⲓⲡⲥⲟⲛ	_	_	_	_	_	_	_	_
 7	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	9	case	_	Orig=ⲛ̇ϭⲓ̇
@@ -16,15 +16,15 @@
 10	·	·	PUNCT	PUNCT	_	15	punct	_	_
 11-12	ϫⲉⲁⲣⲁ	_	_	_	_	_	_	_	_
 11	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	15	mark	_	_
-12	ⲁⲣⲁ	ⲁⲣⲁ	PART	PTC	_	15	advmod	_	Orig=ⲁ̇ⲣⲁ
+12	ⲁⲣⲁ	ⲁⲣⲁ	PART	PTC	Foreign=Yes	15	advmod	_	Orig=ⲁ̇ⲣⲁ|OrigLang=grc
 13-14	ⲡⲥⲁⲧⲁⲛⲁⲥ	_	_	_	_	_	_	_	_
 13	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Entity=(person-Satan|Orig=ⲡ̇
-14	ⲥⲁⲧⲁⲛⲁⲥ	ⲥⲁⲧⲁⲛⲁⲥ	PROPN	NPROP	_	15	nsubj	_	Entity=person-Satan)
+14	ⲥⲁⲧⲁⲛⲁⲥ	ⲥⲁⲧⲁⲛⲁⲥ	PROPN	NPROP	Foreign=Yes	15	nsubj	_	Entity=person-Satan)|OrigLang=he
 15	ϯϩⲓⲥⲉ	ϯϩⲓⲥⲉ	VERB	V	VerbForm=Fin	3	ccomp	_	Morphs=ϯ-ϩⲓⲥⲉ|Orig=ϯϩⲓ̇ⲥⲉ
 16-18	ⲛⲛⲁⲣⲭⲉⲟⲥ	_	_	_	_	_	_	_	_
 16	ⲛ	ⲛ	ADP	PREP	_	18	case	_	Orig=ⲛ̇
 17	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	18	det	_	Entity=(person
-18	ⲁⲣⲭⲉⲟⲥ	ⲁⲣⲭⲉⲟⲥ	NOUN	N	_	15	obl	_	Entity=person)
+18	ⲁⲣⲭⲉⲟⲥ	ⲁⲣⲭⲉⲟⲥ	NOUN	N	Foreign=Yes	15	obl	_	Entity=person)|OrigLang=grc
 19	ⲟⲛ	ⲟⲛ	ADV	ADV	_	15	advmod	_	Orig=ⲟ̇ⲛ
 20-22	ⲛⲧⲉⲓϩⲉ	_	_	_	_	_	_	_	_
 20	ⲛ	ⲛ	ADP	PREP	_	22	case	_	Orig=ⲛ̇
@@ -33,18 +33,18 @@
 23	-	-	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-AP_118_Sisoes_11_s0002
-# text = ⲡⲉϫⲁϥ ⲇⲉ ⲛⲁϥ ⲛϭⲓⲁⲡⲁ ϫⲓϫⲱⲓ · ϫⲉϥϯϩⲓⲥⲉ ⲛϩⲟⲩⲟ ⲧⲉⲛⲟⲩ ⲉⲃⲟⲗ ϫⲉⲁⲡⲉϥⲟⲩⲟⲉⲓϣ ϩⲱⲛ ⲉϩⲟⲩⲛ ⲉⲧⲃⲉⲡⲁⲓ ϥϣⲧⲣⲧⲱⲣ
 # text_en = ...
+# text = ⲡⲉϫⲁϥ ⲇⲉ ⲛⲁϥ ⲛϭⲓⲁⲡⲁ ϫⲓϫⲱⲓ · ϫⲉϥϯϩⲓⲥⲉ ⲛϩⲟⲩⲟ ⲧⲉⲛⲟⲩ ⲉⲃⲟⲗ ϫⲉⲁⲡⲉϥⲟⲩⲟⲉⲓϣ ϩⲱⲛ ⲉϩⲟⲩⲛ ⲉⲧⲃⲉⲡⲁⲓ ϥϣⲧⲣⲧⲱⲣ
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	1	advmod	_	_
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	1	advmod	_	OrigLang=grc
 4-5	ⲛⲁϥ	_	_	_	_	_	_	_	_
 4	ⲛⲁ	ⲛⲁ	ADP	PREP	_	5	case	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
 6-7	ⲛϭⲓⲁⲡⲁ	_	_	_	_	_	_	_	_
 6	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	7	case	_	Orig=ⲛ̇ϭⲓ̇
-7	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	1	dislocated	_	Entity=(person-Sisoes_the_Great
+7	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	1	dislocated	_	Entity=(person-Sisoes_the_Great|OrigLang=he
 8	ϫⲓϫⲱⲓ	ϫⲓϫⲱⲓ	PROPN	NPROP	_	7	flat	_	Entity=person-Sisoes_the_Great)|Orig=ϫⲓ̇ϫⲱⲓ̇
 9	·	·	PUNCT	PUNCT	_	12	punct	_	_
 10-12	ϫⲉϥϯϩⲓⲥⲉ	_	_	_	_	_	_	_	_
