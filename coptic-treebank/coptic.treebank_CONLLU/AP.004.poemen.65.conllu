@@ -1,7 +1,7 @@
 # newdoc id = coptic.treebank:AP.004.poemen.65
 # sent_id = coptic_treebank-AP_004_poemen_65_s0001
-# text = ⲁϥϫⲟⲟⲥ ⲛϭⲓⲁⲡⲁ ⲡⲟⲓⲙⲏⲛ . ϫⲉⲁⲟⲩⲥⲟⲛ ϫⲟⲟⲥ ⲛⲁⲡⲁ ⲡⲁⲏⲥⲉ . ϫⲉⲉⲓⲛⲁⲣⲟⲩ ⲙⲡⲁϩⲏⲧ ⲉϥⲛⲁϣⲧ .
 # text_en = ...
+# text = ⲁϥϫⲟⲟⲥ ⲛϭⲓⲁⲡⲁ ⲡⲟⲓⲙⲏⲛ . ϫⲉⲁⲟⲩⲥⲟⲛ ϫⲟⲟⲥ ⲛⲁⲡⲁ ⲡⲁⲏⲥⲉ . ϫⲉⲉⲓⲛⲁⲣⲟⲩ ⲙⲡⲁϩⲏⲧ ⲉϥⲛⲁϣⲧ .
 1-4	ⲁϥϫⲟⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=Ⲁ
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Orig=ϥ̇
@@ -9,8 +9,8 @@
 4	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 5-6	ⲛϭⲓⲁⲡⲁ	_	_	_	_	_	_	_	_
 5	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	6	case	_	Orig=ⲛϭⲓ̇
-6	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	3	dislocated	_	Entity=(person-Poemen
-7	ⲡⲟⲓⲙⲏⲛ	ⲡⲟⲓⲙⲏⲛ	PROPN	NPROP	_	6	flat	_	Entity=person-Poemen)|Orig=ⲡⲟⲓ̈ⲙⲏⲛ
+6	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	3	dislocated	_	Entity=(person-Poemen|OrigLang=he
+7	ⲡⲟⲓⲙⲏⲛ	ⲡⲟⲓⲙⲏⲛ	PROPN	NPROP	Foreign=Yes	6	flat	_	Entity=person-Poemen)|Orig=ⲡⲟⲓ̈ⲙⲏⲛ|OrigLang=grc
 8	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=·
 9-12	ϫⲉⲁⲟⲩⲥⲟⲛ	_	_	_	_	_	_	_	_
 9	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	13	mark	_	_
@@ -22,7 +22,7 @@
 14	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 15-16	ⲛⲁⲡⲁ	_	_	_	_	_	_	_	_
 15	ⲛ	ⲛ	ADP	PREP	_	16	case	_	_
-16	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	13	obl	_	Entity=(person
+16	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	13	obl	_	Entity=(person|OrigLang=he
 17	ⲡⲁⲏⲥⲉ	ⲡⲁⲏⲥⲉ	PROPN	NPROP	_	16	flat	_	Entity=person)
 18	.	.	PUNCT	PUNCT	_	13	punct	_	Orig=·
 19-24	ϫⲉⲉⲓⲛⲁⲣⲟⲩ	_	_	_	_	_	_	_	_
@@ -43,8 +43,8 @@
 31	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-AP_004_poemen_65_s0002
-# text = ⲛϯⲣϩⲟⲧⲉ ⲁⲛ ⲛϩⲏⲧϥ ⲙⲡⲛⲟⲩⲧⲉ .
 # text_en = ...
+# text = ⲛϯⲣϩⲟⲧⲉ ⲁⲛ ⲛϩⲏⲧϥ ⲙⲡⲛⲟⲩⲧⲉ .
 1-3	ⲛϯⲣϩⲟⲧⲉ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	3	advmod	_	Orig=ⲛ̇
 2	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Orig=ϯ̇
@@ -60,8 +60,8 @@
 10	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=ⲻ
 
 # sent_id = coptic_treebank-AP_004_poemen_65_s0003
-# text = ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉⲃⲱⲕ ⲛⲅⲧⲟϭⲕ ⲉⲩⲥⲟⲛ ⲉϥⲣϩⲟⲧⲉ ⲛϩⲏⲧϥ ⲙⲡⲛⲟⲩⲧⲉ
 # text_en = ...
+# text = ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉⲃⲱⲕ ⲛⲅⲧⲟϭⲕ ⲉⲩⲥⲟⲛ ⲉϥⲣϩⲟⲧⲉ ⲛϩⲏⲧϥ ⲙⲡⲛⲟⲩⲧⲉ
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	Orig=Ⲡ̇ⲉϫⲁ
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
@@ -93,8 +93,8 @@
 21	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	16	obl	_	Entity=person)person)
 
 # sent_id = coptic_treebank-AP_004_poemen_65_s0004
-# text = ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲛⲧⲙⲛⲧⲣⲉϥⲣϩⲟⲧⲉ ⲙⲡⲉⲧⲙⲙⲁⲩ ⲕⲛⲁⲣϩⲟⲧⲉ ϩⲱⲱⲕ ⲛϩⲏⲧϥ ⲙⲡⲛⲟⲩⲧⲉ .
 # text_en = ...
+# text = ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲛⲧⲙⲛⲧⲣⲉϥⲣϩⲟⲧⲉ ⲙⲡⲉⲧⲙⲙⲁⲩ ⲕⲛⲁⲣϩⲟⲧⲉ ϩⲱⲱⲕ ⲛϩⲏⲧϥ ⲙⲡⲛⲟⲩⲧⲉ .
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	12	cc	_	Orig=Ⲁⲩⲱ̇
 2	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	5	case	_	Orig=ⲉ̇ⲃⲟⲗ
 3-5	ϩⲛⲧⲙⲛⲧⲣⲉϥⲣϩⲟⲧⲉ	_	_	_	_	_	_	_	_

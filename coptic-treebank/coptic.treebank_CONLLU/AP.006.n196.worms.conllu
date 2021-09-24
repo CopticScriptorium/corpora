@@ -1,7 +1,7 @@
 # newdoc id = coptic.treebank:AP.006.n196.worms
 # sent_id = coptic_treebank-AP_006_n196_worms_s0001
-# text = ⲁⲟⲩⲁ ⲟⲛ ϫⲛⲉⲟⲩϩⲗⲗⲟ ϫⲉⲉⲧⲃⲉⲟⲩ ϯϩⲙⲟⲟⲥ ϩⲙⲡⲁⲙⲁ ⲛϣⲱⲡⲉ ϯϩⲗⲡⲗⲱⲡ ·ⲻ
 # text_en = ...
+# text = ⲁⲟⲩⲁ ⲟⲛ ϫⲛⲉⲟⲩϩⲗⲗⲟ ϫⲉⲉⲧⲃⲉⲟⲩ ϯϩⲙⲟⲟⲥ ϩⲙⲡⲁⲙⲁ ⲛϣⲱⲡⲉ ϯϩⲗⲡⲗⲱⲡ ·ⲻ
 1-2	ⲁⲟⲩⲁ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	4	aux	_	Orig=Ⲁ
 2	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	4	nsubj	_	Entity=(person)|Orig=ⲟⲩⲁ̇
@@ -30,8 +30,8 @@
 19	·ⲻ	·ⲻ	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = coptic_treebank-AP_006_n196_worms_s0002
-# text = ⲁϥⲟⲩⲱϣⲃ ⲛⲁϥ ϫⲉⲉⲃⲟⲗ ϫⲉⲙⲡⲁⲧⲕⲉⲓⲱⲣϩ ⲙⲡⲙⲧⲟⲛ ⲉⲧⲛϩⲉⲗⲡⲓⲍⲉ ⲉⲣⲟϥ ·
 # text_en = ...
+# text = ⲁϥⲟⲩⲱϣⲃ ⲛⲁϥ ϫⲉⲉⲃⲟⲗ ϫⲉⲙⲡⲁⲧⲕⲉⲓⲱⲣϩ ⲙⲡⲙⲧⲟⲛ ⲉⲧⲛϩⲉⲗⲡⲓⲍⲉ ⲉⲣⲟϥ ·
 1-3	ⲁϥⲟⲩⲱϣⲃ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=Ⲁ
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -54,16 +54,16 @@
 15-17	ⲉⲧⲛϩⲉⲗⲡⲓⲍⲉ	_	_	_	_	_	_	_	_
 15	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	17	mark	_	Orig=ⲉ̇ⲧ
 16	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	Orig=ⲛ̇
-17	ϩⲉⲗⲡⲓⲍⲉ	ϩⲉⲗⲡⲓⲍⲉ	VERB	V	VerbForm=Fin	14	acl	_	_
+17	ϩⲉⲗⲡⲓⲍⲉ	ϩⲉⲗⲡⲓⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	14	acl	_	OrigLang=grc
 18-19	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 18	ⲉⲣⲟ	ⲉ	ADP	PREP	_	19	case	_	Orig=ⲉ̇ⲣⲟ
 19	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obl	_	Entity=abstract)
 20	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-AP_006_n196_worms_s0003
-# text = ⲟⲩⲇⲉ ⲧⲕⲟⲗⲁⲥⲓⲥ ⲉⲧⲛⲁϣⲱⲡⲉ ·
 # text_en = ...
-1	ⲟⲩⲇⲉ	ⲟⲩⲇⲉ	CCONJ	CONJ	Polarity=Neg	3	cc	_	_
+# text = ⲟⲩⲇⲉ ⲧⲕⲟⲗⲁⲥⲓⲥ ⲉⲧⲛⲁϣⲱⲡⲉ ·
+1	ⲟⲩⲇⲉ	ⲟⲩⲇⲉ	CCONJ	CONJ	Foreign=Yes|Polarity=Neg	3	cc	_	OrigLang=grc
 2-3	ⲧⲕⲟⲗⲁⲥⲓⲥ	_	_	_	_	_	_	_	_
 2	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Entity=(abstract|Orig=ⲧ̇
 3	ⲕⲟⲗⲁⲥⲓⲥ	ⲕⲟⲗⲁⲥⲓⲥ	NOUN	N	_	0	root	_	Orig=ⲕⲟⲗⲁⲥⲓ̇ⲥ
@@ -74,8 +74,8 @@
 7	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-AP_006_n196_worms_s0004
-# text = ⲉⲛⲉⲁⲕⲉⲓⲉⲣϩ ⲛⲁⲓ ϩⲛⲟⲩⲱⲣϫ ·ⲻ ⲁⲩⲱ ⲛⲧⲉⲡⲉⲕⲙⲁ ⲛϣⲱⲱⲡⲉ ⲙⲟⲩϩ ⲛⲃⲛⲧ ⲉⲣⲟⲕ ϣⲁⲛⲧⲟⲩⲡⲱϩ ⲉϩⲣⲁⲓ ⲉⲡⲉⲕⲙⲟⲧⲉ ⲛⲉⲕⲛⲁϭⲱ ⲉϩⲣⲁⲓ ⲛϩⲏⲧⲟⲩ ⲡⲉ ⲛⲅϥⲓ ϩⲁⲣⲟⲟⲩ ⲛⲅⲧⲙϩⲗⲟⲡⲗⲡ ·
 # text_en = ...
+# text = ⲉⲛⲉⲁⲕⲉⲓⲉⲣϩ ⲛⲁⲓ ϩⲛⲟⲩⲱⲣϫ ·ⲻ ⲁⲩⲱ ⲛⲧⲉⲡⲉⲕⲙⲁ ⲛϣⲱⲱⲡⲉ ⲙⲟⲩϩ ⲛⲃⲛⲧ ⲉⲣⲟⲕ ϣⲁⲛⲧⲟⲩⲡⲱϩ ⲉϩⲣⲁⲓ ⲉⲡⲉⲕⲙⲟⲧⲉ ⲛⲉⲕⲛⲁϭⲱ ⲉϩⲣⲁⲓ ⲛϩⲏⲧⲟⲩ ⲡⲉ ⲛⲅϥⲓ ϩⲁⲣⲟⲟⲩ ⲛⲅⲧⲙϩⲗⲟⲡⲗⲡ ·
 1-4	ⲉⲛⲉⲁⲕⲉⲓⲉⲣϩ	_	_	_	_	_	_	_	_
 1	ⲉⲛⲉ	ⲉⲛⲉ	CCONJ	CONJ	_	16	cc	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	Orig=ⲁ̇

@@ -1,7 +1,7 @@
 # newdoc id = coptic.treebank:AP.116.pistus.01
 # sent_id = coptic_treebank-AP_116_pistus_01_s0001
-# text = ⲛⲁⲓ ⲁϥϫⲟⲟⲩ ⲛϭⲓⲁⲡⲁ ϫⲓϫⲱⲓ ·
 # text_en = ...
+# text = ⲛⲁⲓ ⲁϥϫⲟⲟⲩ ⲛϭⲓⲁⲡⲁ ϫⲓϫⲱⲓ ·
 1	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	4	dislocated	_	Entity=(abstract)|Orig=ⲛⲁⲓ̇
 2-5	ⲁϥϫⲟⲟⲩ	_	_	_	_	_	_	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
@@ -10,20 +10,20 @@
 5	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
 6-7	ⲛϭⲓⲁⲡⲁ	_	_	_	_	_	_	_	_
 6	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	7	case	_	Orig=ⲛ̇ϭⲓ
-7	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	4	dislocated	_	Entity=(person-Sisoes_the_Great|Orig=ⲁ̇ⲡⲁ
+7	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	4	dislocated	_	Entity=(person-Sisoes_the_Great|Orig=ⲁ̇ⲡⲁ|OrigLang=he
 8	ϫⲓϫⲱⲓ	ϫⲓϫⲱⲓ	PROPN	NPROP	_	7	flat	_	Entity=person-Sisoes_the_Great)|Orig=ϫⲓ̇ϫⲱⲓ
 9	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = coptic_treebank-AP_116_pistus_01_s0002
-# text = ⲟⲩⲁ ⲇⲉ ⲉⲃⲟⲗ ⲛϩⲏⲧⲛ ⲡⲁⲣⲁⲕⲁⲗⲉⲓ ⲙⲙⲟϥ ϫⲉⲁⲣⲓⲧⲁⲅⲁⲡⲏ ⲁϫⲓⲟⲩϣⲁϫⲉ ⲉⲣⲟⲛ ϩⲱⲱⲕ ·
 # text_en = ...
-1	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	6	nsubj	_	Entity=(person|Orig=ⲟⲩⲁ̇
-2	ⲇⲉ	ⲇⲉ	PART	PTC	_	6	advmod	_	_
+# text = ⲟⲩⲁ ⲇⲉ ⲉⲃⲟⲗ ⲛϩⲏⲧⲛ ⲡⲁⲣⲁⲕⲁⲗⲉⲓ ⲙⲙⲟϥ ϫⲉⲁⲣⲓⲧⲁⲅⲁⲡⲏ ⲁϫⲓⲟⲩϣⲁϫⲉ ⲉⲣⲟⲛ ϩⲱⲱⲕ ·
+1	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	Foreign=Yes|NumType=Card	6	nsubj	_	Entity=(person|Orig=ⲟⲩⲁ̇|OrigLang=grc
+2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	6	advmod	_	OrigLang=grc
 3	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	5	case	_	Orig=ⲉ̇ⲃⲟⲗ
 4-5	ⲛϩⲏⲧⲛ	_	_	_	_	_	_	_	_
 4	ⲛϩⲏⲧ	ϩⲛ	ADP	PREP	_	3	fixed	_	Orig=ⲛ̇ϩⲏⲧ
 5	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=1|PronType=Prs	1	nmod	_	Entity=person)|Orig=ⲛ̇
-6	ⲡⲁⲣⲁⲕⲁⲗⲉⲓ	ⲡⲁⲣⲁⲕⲁⲗⲉⲓ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲡⲁⲣⲁⲕⲁⲗⲉⲓ̇
+6	ⲡⲁⲣⲁⲕⲁⲗⲉⲓ	ⲡⲁⲣⲁⲕⲁⲗⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	Orig=ⲡⲁⲣⲁⲕⲁⲗⲉⲓ̇|OrigLang=grc
 7-8	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 7	ⲙⲙⲟ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲙ̇ⲙ̇ⲟ
 8	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
@@ -31,7 +31,7 @@
 9	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	10	mark	_	_
 10	ⲁⲣⲓ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	6	ccomp	_	Orig=ⲁ̇ⲣⲓ̇
 11	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	ⲁⲅⲁⲡⲏ	ⲁⲅⲁⲡⲏ	NOUN	N	_	10	obj	_	_
+12	ⲁⲅⲁⲡⲏ	ⲁⲅⲁⲡⲏ	NOUN	N	Foreign=Yes	10	obj	_	OrigLang=grc
 13-15	ⲁϫⲓⲟⲩϣⲁϫⲉ	_	_	_	_	_	_	_	_
 13	ⲁϫⲓ	ϫⲱ	VERB	VIMP	VerbForm=Fin	10	parataxis	_	Orig=ⲁ̇ϫⲓ̇
 14	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	15	det	_	Entity=(abstract
@@ -45,8 +45,8 @@
 20	·	·	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = coptic_treebank-AP_116_pistus_01_s0003
-# text = ⲡⲉϫⲁϥ ϫⲉⲧⲙⲛⲧⲁⲧⲟⲡⲕ ϩⲛⲟⲩⲥⲟⲟⲩⲛ ·
 # text_en = ...
+# text = ⲡⲉϫⲁϥ ϫⲉⲧⲙⲛⲧⲁⲧⲟⲡⲕ ϩⲛⲟⲩⲥⲟⲟⲩⲛ ·
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
@@ -61,8 +61,8 @@
 9	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = coptic_treebank-AP_116_pistus_01_s0004
-# text = ϥⲛⲁϫⲱⲕ ⲉⲃⲟⲗ ⲛⲧⲉⲅⲣⲁⲫⲏ ⲧⲏⲣⲥ ·
 # text_en = ...
+# text = ϥⲛⲁϫⲱⲕ ⲉⲃⲟⲗ ⲛⲧⲉⲅⲣⲁⲫⲏ ⲧⲏⲣⲥ ·
 1-3	ϥⲛⲁϫⲱⲕ	_	_	_	_	_	_	_	_
 1	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	ⲛⲁ	ⲛⲁ	AUX	FUT	_	3	aux	_	_
@@ -71,20 +71,20 @@
 5-7	ⲛⲧⲉⲅⲣⲁⲫⲏ	_	_	_	_	_	_	_	_
 5	ⲛ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲛ̇
 6	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(abstract
-7	ⲅⲣⲁⲫⲏ	ⲅⲣⲁⲫⲏ	NOUN	N	_	3	obj	_	_
+7	ⲅⲣⲁⲫⲏ	ⲅⲣⲁⲫⲏ	NOUN	N	Foreign=Yes	3	obj	_	OrigLang=grc
 8-9	ⲧⲏⲣⲥ	_	_	_	_	_	_	_	_
 8	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	7	advmod	_	Orig=ⲧⲏⲣ̇
 9	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	8	det	_	Entity=abstract)
 10	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-AP_116_pistus_01_s0005
-# text = ⲡⲉϫⲉⲕⲉⲟⲩⲁ ⲇⲉ ⲛⲁϥ ⲛϩⲏⲧⲛ · ϫⲉⲟⲩ ⲧⲉ ⲧⲙⲛⲧϣⲙⲙⲟ ⲡⲁⲉⲓⲱⲧ ·
 # text_en = ...
+# text = ⲡⲉϫⲉⲕⲉⲟⲩⲁ ⲇⲉ ⲛⲁϥ ⲛϩⲏⲧⲛ · ϫⲉⲟⲩ ⲧⲉ ⲧⲙⲛⲧϣⲙⲙⲟ ⲡⲁⲉⲓⲱⲧ ·
 1-3	ⲡⲉϫⲉⲕⲉⲟⲩⲁ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲉ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 2	ⲕⲉ	ⲕⲉ	DET	ART	PronType=Art	3	det	_	Entity=(person
 3	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	1	nsubj	_	Entity=person)|Orig=ⲟⲩⲁ̇
-4	ⲇⲉ	ⲇⲉ	PART	PTC	_	1	advmod	_	_
+4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	1	advmod	_	OrigLang=grc
 5-6	ⲛⲁϥ	_	_	_	_	_	_	_	_
 5	ⲛⲁ	ⲛⲁ	ADP	PREP	_	6	case	_	_
 6	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
@@ -105,8 +105,8 @@
 17	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = coptic_treebank-AP_116_pistus_01_s0006
-# text = ⲡⲉϫⲁϥ ϫⲉⲡⲕⲁⲣⲱϥ ⲡⲉ
 # text_en = ...
+# text = ⲡⲉϫⲁϥ ϫⲉⲡⲕⲁⲣⲱϥ ⲡⲉ
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
@@ -117,8 +117,8 @@
 6	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	5	cop	_	_
 
 # sent_id = coptic_treebank-AP_116_pistus_01_s0007
-# text = ⲁⲩⲱ ⲁϫⲓⲥ ϩⲙⲙⲁ ⲛⲓⲙ ⲉⲧⲕⲛⲁⲃⲱⲕ ⲉⲣⲟⲟⲩ · ϫⲉⲙⲛⲧⲁⲓϩⲱⲃ ·
 # text_en = ...
+# text = ⲁⲩⲱ ⲁϫⲓⲥ ϩⲙⲙⲁ ⲛⲓⲙ ⲉⲧⲕⲛⲁⲃⲱⲕ ⲉⲣⲟⲟⲩ · ϫⲉⲙⲛⲧⲁⲓϩⲱⲃ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	2	cc	_	_
 2-3	ⲁϫⲓⲥ	_	_	_	_	_	_	_	_
 2	ⲁϫⲓ	ϫⲱ	VERB	VIMP	VerbForm=Fin	0	root	_	Orig=ⲁ̇ϫⲓ̇
@@ -144,8 +144,8 @@
 18	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = coptic_treebank-AP_116_pistus_01_s0008
-# text = ⲧⲁⲓ ⲧⲉ ⲧⲙⲛⲧϣⲙⲙⲟ · ⲻ
 # text_en = ...
+# text = ⲧⲁⲓ ⲧⲉ ⲧⲙⲛⲧϣⲙⲙⲟ · ⲻ
 1	ⲧⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	0	root	_	Entity=(abstract)|Orig=ⲧⲁⲓ̇
 2	ⲧⲉ	ⲡⲉ	PRON	COP	Gender=Fem|Number=Sing	1	cop	_	_
 3-4	ⲧⲙⲛⲧϣⲙⲙⲟ	_	_	_	_	_	_	_	_

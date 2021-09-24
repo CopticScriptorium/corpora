@@ -1,7 +1,7 @@
 # newdoc id = apophthegmata.patrum:AP.042.sarah.01
 # sent_id = apophthegmata_patrum-AP_042_sarah_01_s0001
-# text = ⲁⲩϫⲟⲟⲥ ⲉⲧⲃⲉⲧⲙⲁⲕⲁⲣⲓⲁ ⲥⲁⲣⲁ ⲧⲡⲁⲣⲑⲉⲛⲟⲥ ϫⲉⲁⲥⲉⲣ ⲥⲉ ⲛⲣⲟⲙⲡⲉ ⲉⲥⲟⲩⲏϩ ⲙⲡⲉⲧⲡⲉ ⲙⲡⲓⲉⲣⲟ .
 # text_en = They said about the blessed Sarah the virgin that she spent sixty years living at the top of the river
+# text = ⲁⲩϫⲟⲟⲥ ⲉⲧⲃⲉⲧⲙⲁⲕⲁⲣⲓⲁ ⲥⲁⲣⲁ ⲧⲡⲁⲣⲑⲉⲛⲟⲥ ϫⲉⲁⲥⲉⲣ ⲥⲉ ⲛⲣⲟⲙⲡⲉ ⲉⲥⲟⲩⲏϩ ⲙⲡⲉⲧⲡⲉ ⲙⲡⲓⲉⲣⲟ .
 1-4	ⲁⲩϫⲟⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
@@ -10,11 +10,11 @@
 5-7	ⲉⲧⲃⲉⲧⲙⲁⲕⲁⲣⲓⲁ	_	_	_	_	_	_	_	_
 5	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	7	case	_	Orig=ⲉ̇ⲧⲃⲉ
 6	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(person-Sarah_of_the_Desert|Orig=ⲧ̇
-7	ⲙⲁⲕⲁⲣⲓⲁ	ⲙⲁⲕⲁⲣⲓⲁ	NOUN	N	_	3	obl	_	Orig=ⲙⲁⲕⲁⲣⲓ̇ⲁ̇
-8	ⲥⲁⲣⲁ	ⲥⲁⲣⲁ	PROPN	NPROP	_	7	appos	_	_
+7	ⲙⲁⲕⲁⲣⲓⲁ	ⲙⲁⲕⲁⲣⲓⲁ	NOUN	N	Foreign=Yes	3	obl	_	Orig=ⲙⲁⲕⲁⲣⲓ̇ⲁ̇|OrigLang=grc
+8	ⲥⲁⲣⲁ	ⲥⲁⲣⲁ	PROPN	NPROP	Foreign=Yes	7	appos	_	OrigLang=he
 9-10	ⲧⲡⲁⲣⲑⲉⲛⲟⲥ	_	_	_	_	_	_	_	_
 9	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Orig=ⲧ̇
-10	ⲡⲁⲣⲑⲉⲛⲟⲥ	ⲡⲁⲣⲑⲉⲛⲟⲥ	NOUN	N	_	7	appos	_	Entity=person-Sarah_of_the_Desert)
+10	ⲡⲁⲣⲑⲉⲛⲟⲥ	ⲡⲁⲣⲑⲉⲛⲟⲥ	NOUN	N	Foreign=Yes	7	appos	_	Entity=person-Sarah_of_the_Desert)|OrigLang=grc
 11-14	ϫⲉⲁⲥⲉⲣ	_	_	_	_	_	_	_	_
 11	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	14	mark	_	_
 12	ⲁ	ⲁ	AUX	APST	_	14	aux	_	Orig=ⲁ̇
@@ -23,7 +23,7 @@
 15	ⲥⲉ	ⲥⲉ	NUM	NUM	NumType=Card	17	nummod	_	Entity=(time
 16-17	ⲛⲣⲟⲙⲡⲉ	_	_	_	_	_	_	_	_
 16	ⲛ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲛ̇
-17	ⲣⲟⲙⲡⲉ	ⲣⲟⲙⲡⲉ	NOUN	N	_	14	obj	_	Entity=time)
+17	ⲣⲟⲙⲡⲉ	ⲣⲟⲙⲡⲉ	NOUN	N	_	14	obl	_	Entity=time)
 18-20	ⲉⲥⲟⲩⲏϩ	_	_	_	_	_	_	_	_
 18	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	20	mark	_	Orig=ⲉ̇
 19	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
@@ -31,7 +31,7 @@
 21-23	ⲙⲡⲉⲧⲡⲉ	_	_	_	_	_	_	_	_
 21	ⲙ	ⲛ	ADP	PREP	_	23	case	_	Orig=ⲙ̇
 22	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	Entity=(place
-23	ⲧⲡⲉ	ⲧⲡⲉ	NOUN	N	_	20	obj	_	_
+23	ⲧⲡⲉ	ⲧⲡⲉ	NOUN	N	_	20	obl	_	_
 24-26	ⲙⲡⲓⲉⲣⲟ	_	_	_	_	_	_	_	_
 24	ⲙ	ⲛ	ADP	PREP	_	26	case	_	Orig=ⲙ̇
 25	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	Entity=(place
@@ -39,8 +39,8 @@
 27	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_042_sarah_01_s0002
-# text = ⲙⲡⲉⲥⲕⲉⲣⲁⲧⲥ ⲉⲃⲟⲗ ⲉⲛⲉϩ ⲉⲛⲁⲩ ⲉⲡⲓⲉⲣⲟ .
 # text_en = and she never set foot outside to see the river.
+# text = ⲙⲡⲉⲥⲕⲉⲣⲁⲧⲥ ⲉⲃⲟⲗ ⲉⲛⲉϩ ⲉⲛⲁⲩ ⲉⲡⲓⲉⲣⲟ .
 1-5	ⲙⲡⲉⲥⲕⲉⲣⲁⲧⲥ	_	_	_	_	_	_	_	_
 1	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	3	aux	_	Orig=ⲙ̇ⲡⲉ
 2	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_

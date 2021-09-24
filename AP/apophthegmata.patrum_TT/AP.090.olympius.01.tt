@@ -2,14 +2,14 @@
 <pb_xml_id pb_xml_id="EG61">
 <cb_n cb_n="1">
 <chapter_n chapter_n="1">
-<vid_n vid_n="urn:cts:copticLit:ap.90.monbeg:1.1">
 <verse_n verse_n="1">
+<vid_n vid_n="urn:cts:copticLit:ap.90.monbeg:1.1">
 <translation translation="...one of the elders…">
 <lb_n lb_n="1">
 <orig_group orig_group="…ⲛ">
 <norm_group norm_group="…ⲛ">
 <orig orig="…ⲛ">
-<norm xml:id="u1" func="case" head="#u2" new_sent="true" pos="UNKNOWN" lemma="…ⲛ" norm="…ⲛ">
+<norm xml:id="u1" func="dep" head="#u2" new_sent="true" pos="UNKNOWN" lemma="…ⲛ" norm="…ⲛ">
 …ⲛ
 </norm>
 </orig>
@@ -61,33 +61,33 @@
 <orig_group orig_group="..">
 <norm_group norm_group="..">
 <orig orig="..">
-<norm xml:id="u7" func="advmod" head="#u2" pos="UNKNOWN" lemma=".." norm="..">
+<norm xml:id="u7" func="dep" head="#u2" pos="UNKNOWN" lemma=".." norm="..">
 ..
 </norm>
 </orig>
 </norm_group>
 </orig_group>
 </translation>
+<translation translation="of(?)">
 <orig_group orig_group="ⲙ.">
 <norm_group norm_group="ⲙ.">
-<translation translation="of(?)">
 <orig orig="ⲙ">
-<norm xml:id="u8" func="root" new_sent="true" pos="PREP" lemma="ⲛ" norm="ⲙ">
+<norm xml:id="u8" func="case" head="#u9" new_sent="true" pos="PREP" lemma="ⲛ" norm="ⲙ">
 ⲙ
 </norm>
 </orig>
 <orig orig=".">
-<norm xml:id="u9" func="advmod" head="#u8" pos="UNKNOWN" lemma="." norm=".">
+<norm xml:id="u9" func="root" pos="UNKNOWN" lemma="." norm=".">
 .
 </norm>
 </orig>
-</translation>
 </norm_group>
 </orig_group>
+</translation>
 </vid_n>
 </verse_n>
-<vid_n vid_n="urn:cts:copticLit:ap.90.monbeg:1.2">
 <verse_n verse_n="2">
+<vid_n vid_n="urn:cts:copticLit:ap.90.monbeg:1.2">
 <translation translation="he saw his way of life">
 <orig_group orig_group="ⲁϥⲛⲁⲩ">
 <norm_group norm_group="ⲁϥⲛⲁⲩ">
@@ -263,7 +263,7 @@
 </norm>
 </orig>
 <orig orig="ⲛⲟⲩⲧⲉ">
-<norm xml:id="u32" func="nmod" head="#u28" pos="N" lemma="ⲛⲟⲩⲧⲉ" norm="ⲛⲟⲩⲧⲉ">
+<norm xml:id="u32" func="obl" head="#u25" pos="N" lemma="ⲛⲟⲩⲧⲉ" norm="ⲛⲟⲩⲧⲉ">
 ⲛⲟⲩⲧⲉ
 </norm>
 </orig>
@@ -284,9 +284,9 @@
 </vid_n>
 </verse_n>
 <lb_n lb_n="7">
+<verse_n verse_n="3">
 <translation translation="He said: “No”.">
 <vid_n vid_n="urn:cts:copticLit:ap.90.monbeg:1.3">
-<verse_n verse_n="3">
 <orig_group orig_group="ⲡⲉϫⲁϥ">
 <norm_group norm_group="ⲡⲉϫⲁϥ">
 <orig orig="ⲡⲉϫⲁ">
@@ -333,12 +333,12 @@
 </orig>
 </norm_group>
 </orig_group>
-</translation>
 </vid_n>
+</translation>
 </verse_n>
 </lb_n>
-<vid_n vid_n="urn:cts:copticLit:ap.90.monbeg:1.4">
 <verse_n verse_n="4">
+<vid_n vid_n="urn:cts:copticLit:ap.90.monbeg:1.4">
 <translation translation="He said, that is the priest: “Us, it is small liturgies that we do">
 <lb_n lb_n="8">
 <orig_group orig_group="Ⲡⲉϫⲁϥ">
@@ -500,7 +500,7 @@
 </orig>
 <entity head_tok="#u60" text="ⲙⲩⲥⲧⲏⲣⲓⲟⲛ" entity="abstract">
 <orig orig="ⲙⲩⲥⲧⲏⲣⲓ̈ⲟⲛ">
-<norm xml:id="u60" func="obl" head="#u61" pos="N" lemma="ⲙⲩⲥⲧⲏⲣⲓⲟⲛ" norm="ⲙⲩⲥⲧⲏⲣⲓⲟⲛ">
+<norm xml:id="u60" func="nsubj" head="#u61" pos="N" lemma="ⲙⲩⲥⲧⲏⲣⲓⲟⲛ" norm="ⲙⲩⲥⲧⲏⲣⲓⲟⲛ">
 <lang lang="Greek">
 ⲙⲩⲥⲧⲏⲣⲓ̈ⲟⲛ
 </lang>
@@ -673,7 +673,7 @@
 </norm>
 </orig>
 <orig orig="ⲟⲩϣⲏ">
-<norm xml:id="u80" func="conj" head="#u73" pos="N" lemma="ⲟⲩϣⲏ" norm="ⲟⲩϣⲏ">
+<norm xml:id="u80" func="parataxis" head="#u70" pos="N" lemma="ⲟⲩϣⲏ" norm="ⲟⲩϣⲏ">
 ⲟⲩϣⲏ
 </norm>
 </orig>
@@ -719,7 +719,7 @@
 </norm>
 </orig>
 <orig orig="ⲁ̇ⲥⲕⲏⲥⲓⲥ">
-<norm xml:id="u86" func="conj" head="#u73" pos="N" lemma="ⲁⲥⲕⲏⲥⲓⲥ" norm="ⲁⲥⲕⲏⲥⲓⲥ">
+<norm xml:id="u86" func="conj" head="#u80" pos="N" lemma="ⲁⲥⲕⲏⲥⲓⲥ" norm="ⲁⲥⲕⲏⲥⲓⲥ">
 <lang lang="Greek">
 ⲁ̇ⲥⲕⲏⲥⲓⲥ
 </lang>
@@ -753,7 +753,7 @@
 </norm>
 </orig>
 <orig orig="ⲥ̇ϭⲣⲁϩⲧ̇">
-<norm xml:id="u90" func="conj" head="#u73" pos="N" lemma="ⲥϭⲣⲁϩⲧ" norm="ⲥϭⲣⲁϩⲧ">
+<norm xml:id="u90" func="conj" head="#u80" pos="N" lemma="ⲥϭⲣⲁϩⲧ" norm="ⲥϭⲣⲁϩⲧ">
 ⲥ̇ϭⲣⲁϩⲧ̇
 </norm>
 </orig>
@@ -774,8 +774,8 @@
 </translation>
 </vid_n>
 </verse_n>
-<vid_n vid_n="urn:cts:copticLit:ap.90.monbeg:1.5">
 <verse_n verse_n="5">
+<vid_n vid_n="urn:cts:copticLit:ap.90.monbeg:1.5">
 <translation translation="and you say: ‘we don’t have any thought that’s wicked in our heart’,">
 <lb_n lb_n="20">
 <orig_group orig_group="Ⲁⲩⲱ̇">
@@ -1094,9 +1094,9 @@
 </translation>
 </vid_n>
 </verse_n>
+<verse_n verse_n="6">
 <translation translation="And after they heard, that is the elders, they were amazed and they said: “The thoughts that are wicked truly have always separated us from God.”">
 <vid_n vid_n="urn:cts:copticLit:ap.90.monbeg:1.6">
-<verse_n verse_n="6">
 <orig_group orig_group="ⲛ̇ⲧⲉⲣⲟⲩⲥⲱⲧⲙ̇">
 <norm_group norm_group="ⲛⲧⲉⲣⲟⲩⲥⲱⲧⲙ">
 <orig orig="ⲛ̇ⲧⲉⲣ">
@@ -1312,8 +1312,8 @@
 </norm_group>
 </orig_group>
 </lb_n>
-</translation>
 </vid_n>
+</translation>
 </verse_n>
 </chapter_n>
 </cb_n>

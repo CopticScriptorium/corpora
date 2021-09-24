@@ -1,7 +1,7 @@
 # newdoc id = coptic.treebank:AP.128.n299.arrogance
 # sent_id = coptic_treebank-AP_128_n299_arrogance_s0001
-# text = ⲁϥϫⲟⲟⲥ ⲛϭⲓⲟⲩϩⲗⲗⲟ ϫⲉⲉϣⲱⲡⲉ ⲟⲩⲙⲉⲉⲩⲉ ⲡⲉ ⲉϥϫⲟⲥⲉ ⲙⲙⲛⲧϫⲁⲥⲓϩⲏⲧ · ⲛϥⲉⲓ ⲛⲁⲕ ⲉϩⲟⲩⲛ ϩⲟⲧϩⲧ ϩⲛⲛⲉⲕⲙⲉⲉⲩⲉ ϫⲉⲉⲛⲉⲁⲕϩⲁⲣⲉϩ ⲉⲛⲉⲛⲧⲟⲗⲏ · ⲉϣⲱⲡⲉ ⲁⲕⲙⲉⲣⲉⲛⲉⲕϫⲁϫⲉ ⲉϣⲱⲡⲉ ⲁⲕⲣⲁϣⲉ ϩⲓϫⲙⲡⲉⲟⲟⲩ ⲛⲛⲉⲕϫⲁϫⲉ ⲁⲩⲱ ⲁⲕⲗⲩⲡⲉⲓ ⲉϫⲙⲡⲉⲩϣⲱⲱⲧ ⲉϣⲱⲡⲉ ⲕⲟ ⲛⲁϩⲣⲁⲕ ⲙⲁⲩⲁⲁⲕ ⲛⲟⲩϩⲙϩⲁⲗ ⲛⲁⲧϣⲁⲩ ⲁⲩⲱ ⲛⲣⲉϥⲣⲛⲟⲃⲉ ⲙⲡⲁⲣⲁⲟⲩⲟⲛ ⲛⲓⲙ
 # text_en = ...
+# text = ⲁϥϫⲟⲟⲥ ⲛϭⲓⲟⲩϩⲗⲗⲟ ϫⲉⲉϣⲱⲡⲉ ⲟⲩⲙⲉⲉⲩⲉ ⲡⲉ ⲉϥϫⲟⲥⲉ ⲙⲙⲛⲧϫⲁⲥⲓϩⲏⲧ · ⲛϥⲉⲓ ⲛⲁⲕ ⲉϩⲟⲩⲛ ϩⲟⲧϩⲧ ϩⲛⲛⲉⲕⲙⲉⲉⲩⲉ ϫⲉⲉⲛⲉⲁⲕϩⲁⲣⲉϩ ⲉⲛⲉⲛⲧⲟⲗⲏ · ⲉϣⲱⲡⲉ ⲁⲕⲙⲉⲣⲉⲛⲉⲕϫⲁϫⲉ ⲉϣⲱⲡⲉ ⲁⲕⲣⲁϣⲉ ϩⲓϫⲙⲡⲉⲟⲟⲩ ⲛⲛⲉⲕϫⲁϫⲉ ⲁⲩⲱ ⲁⲕⲗⲩⲡⲉⲓ ⲉϫⲙⲡⲉⲩϣⲱⲱⲧ ⲉϣⲱⲡⲉ ⲕⲟ ⲛⲁϩⲣⲁⲕ ⲙⲁⲩⲁⲁⲕ ⲛⲟⲩϩⲙϩⲁⲗ ⲛⲁⲧϣⲁⲩ ⲁⲩⲱ ⲛⲣⲉϥⲣⲛⲟⲃⲉ ⲙⲡⲁⲣⲁⲟⲩⲟⲛ ⲛⲓⲙ
 1-4	ⲁϥϫⲟⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -48,7 +48,7 @@
 34-36	ⲉⲛⲉⲛⲧⲟⲗⲏ	_	_	_	_	_	_	_	_
 34	ⲉ	ⲉ	ADP	PREP	_	36	case	_	Orig=ⲉ̇
 35	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	36	det	_	Entity=(abstract
-36	ⲉⲛⲧⲟⲗⲏ	ⲉⲛⲧⲟⲗⲏ	NOUN	N	_	33	obl	_	Entity=abstract)
+36	ⲉⲛⲧⲟⲗⲏ	ⲉⲛⲧⲟⲗⲏ	NOUN	N	Foreign=Yes	33	obl	_	Entity=abstract)|OrigLang=grc
 37	·	·	PUNCT	PUNCT	_	41	punct	_	_
 38	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	41	mark	_	_
 39-43	ⲁⲕⲙⲉⲣⲉⲛⲉⲕϫⲁϫⲉ	_	_	_	_	_	_	_	_
@@ -74,7 +74,7 @@
 55-57	ⲁⲕⲗⲩⲡⲉⲓ	_	_	_	_	_	_	_	_
 55	ⲁ	ⲁ	AUX	APST	_	57	aux	_	Orig=ⲁ̇
 56	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	57	nsubj	_	_
-57	ⲗⲩⲡⲉⲓ	ⲗⲩⲡⲉⲓ	VERB	V	VerbForm=Fin	33	conj	_	Orig=ⲗⲩⲡⲉⲓ̇
+57	ⲗⲩⲡⲉⲓ	ⲗⲩⲡⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	33	conj	_	Orig=ⲗⲩⲡⲉⲓ̇|OrigLang=grc
 58-60	ⲉϫⲙⲡⲉⲩϣⲱⲱⲧ	_	_	_	_	_	_	_	_
 58	ⲉϫⲙ	ⲉϫⲛ	ADP	PREP	_	60	case	_	Orig=ⲉϫⲙ̇
 59	ⲡⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	60	det	_	Entity=(abstract
@@ -102,13 +102,13 @@
 75	ⲣⲉϥⲣⲛⲟⲃⲉ	ⲣⲉϥⲣⲛⲟⲃⲉ	NOUN	N	_	70	conj	_	Morphs=ⲣⲉϥ-ⲣ-ⲛⲟⲃⲉ|Orig=ⲣⲉϥⲣ̇ⲛⲟⲃⲉ
 76-78	ⲙⲡⲁⲣⲁⲟⲩⲟⲛ	_	_	_	_	_	_	_	_
 76	ⲙ	ⲛ	ADP	PREP	_	78	case	_	Orig=ⲙ̇
-77	ⲡⲁⲣⲁ	ⲡⲁⲣⲁ	ADP	PREP	_	78	case	_	_
+77	ⲡⲁⲣⲁ	ⲡⲁⲣⲁ	ADP	PREP	Foreign=Yes	78	case	_	OrigLang=grc
 78	ⲟⲩⲟⲛ	ⲟⲩⲟⲛ	NOUN	N	_	75	nmod	_	Entity=(person|Orig=ⲟⲩⲟ̇ⲛ
 79	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	78	det	_	Entity=person)person)
 
 # sent_id = coptic_treebank-AP_128_n299_arrogance_s0002
-# text = ⲁⲩⲱ ϩⲛⲛⲁⲓ ⲛⲅⲧⲙⲙⲉⲉⲩⲉ ⲉⲩⲙⲛⲧⲛⲟϭ ϩⲱⲥ ⲉⲁⲕⲕⲁⲧⲟⲣⲑⲟⲩ ⲛϩⲱⲃ ⲛⲓⲙ · ⲉⲕⲥⲟⲟⲩⲛ ϫⲉⲡⲉⲓⲙⲉⲉⲩⲉ ϣⲁϥⲃⲗϩⲱⲃ ⲛⲓⲙ ⲉⲃⲟⲗ ·
 # text_en = ...
+# text = ⲁⲩⲱ ϩⲛⲛⲁⲓ ⲛⲅⲧⲙⲙⲉⲉⲩⲉ ⲉⲩⲙⲛⲧⲛⲟϭ ϩⲱⲥ ⲉⲁⲕⲕⲁⲧⲟⲣⲑⲟⲩ ⲛϩⲱⲃ ⲛⲓⲙ · ⲉⲕⲥⲟⲟⲩⲛ ϫⲉⲡⲉⲓⲙⲉⲉⲩⲉ ϣⲁϥⲃⲗϩⲱⲃ ⲛⲓⲙ ⲉⲃⲟⲗ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	22	cc	_	_
 2-3	ϩⲛⲛⲁⲓ	_	_	_	_	_	_	_	_
 2	ϩⲛ	ϩⲛ	ADP	PREP	_	3	case	_	_
@@ -122,12 +122,12 @@
 8	ⲉ	ⲉ	ADP	PREP	_	10	case	_	Orig=ⲉ̇
 9	ⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	10	det	_	Entity=(abstract
 10	ⲙⲛⲧⲛⲟϭ	ⲙⲛⲧⲛⲟϭ	NOUN	N	_	7	obl	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲛⲟϭ|Orig=ⲙⲛⲧ̇ⲛⲟϭ
-11	ϩⲱⲥ	ϩⲱⲥ	SCONJ	CONJ	_	15	mark	_	Orig=ϩⲱϭⲥ
+11	ϩⲱⲥ	ϩⲱⲥ	SCONJ	CONJ	Foreign=Yes	15	mark	_	Orig=ϩⲱϭⲥ|OrigLang=grc
 12-15	ⲉⲁⲕⲕⲁⲧⲟⲣⲑⲟⲩ	_	_	_	_	_	_	_	_
 12	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	15	mark	_	Orig=ⲉ̇
 13	ⲁ	ⲁ	AUX	APST	_	15	aux	_	Orig=ⲁ̇
 14	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	_
-15	ⲕⲁⲧⲟⲣⲑⲟⲩ	ⲕⲁⲧⲟⲣⲑⲟⲩ	VERB	V	VerbForm=Fin	7	advcl	_	_
+15	ⲕⲁⲧⲟⲣⲑⲟⲩ	ⲕⲁⲧⲟⲣⲑⲟⲩ	VERB	V	Foreign=Yes|VerbForm=Fin	7	advcl	_	OrigLang=grc
 16-17	ⲛϩⲱⲃ	_	_	_	_	_	_	_	_
 16	ⲛ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲛ̇
 17	ϩⲱⲃ	ϩⲱⲃ	NOUN	N	_	15	obl	_	Entity=(abstract

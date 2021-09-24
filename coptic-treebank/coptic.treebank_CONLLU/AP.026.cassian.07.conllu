@@ -1,7 +1,7 @@
 # newdoc id = coptic.treebank:AP.026.cassian.07
 # sent_id = coptic_treebank-AP_026_cassian_07_s0001
-# text = ⲁϥϫⲟⲟⲥ ⲛϭⲓⲁⲡⲁ ⲕⲁⲥⲓⲁⲛⲟⲥ · ϫⲉⲁϥϫⲟⲟⲥ ⲛϭⲓⲟⲩⲁ ⲛⲛⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ · ⲉⲁϥⲁⲡⲟⲧⲁⲥⲥⲉ ⲛⲛⲉϥⲭⲣⲏⲙⲁ ⲧⲏⲣⲟⲩ
 # text_en = Apa Cassian said, 'A nobleman (senator?) said, after he renounced all his possessions,
+# text = ⲁϥϫⲟⲟⲥ ⲛϭⲓⲁⲡⲁ ⲕⲁⲥⲓⲁⲛⲟⲥ · ϫⲉⲁϥϫⲟⲟⲥ ⲛϭⲓⲟⲩⲁ ⲛⲛⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ · ⲉⲁϥⲁⲡⲟⲧⲁⲥⲥⲉ ⲛⲛⲉϥⲭⲣⲏⲙⲁ ⲧⲏⲣⲟⲩ
 1-4	ⲁϥϫⲟⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -9,8 +9,8 @@
 4	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 5-6	ⲛϭⲓⲁⲡⲁ	_	_	_	_	_	_	_	_
 5	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	6	case	_	Orig=ⲛ̇ϭⲓ̇
-6	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	3	dislocated	_	Entity=(person-John_Cassian|Orig=ⲁ̇ⲡⲁ
-7	ⲕⲁⲥⲓⲁⲛⲟⲥ	ⲕⲁⲥⲓⲁⲛⲟⲥ	PROPN	NPROP	_	6	flat	_	Entity=person-John_Cassian)|Orig=ⲕⲁⲥⲓ̇ⲁ̇ⲛⲟⲥ
+6	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	3	dislocated	_	Entity=(person-John_Cassian|Orig=ⲁ̇ⲡⲁ|OrigLang=he
+7	ⲕⲁⲥⲓⲁⲛⲟⲥ	ⲕⲁⲥⲓⲁⲛⲟⲥ	PROPN	NPROP	Foreign=Yes	6	flat	_	Entity=person-John_Cassian)|Orig=ⲕⲁⲥⲓ̇ⲁ̇ⲛⲟⲥ|OrigLang=grc
 8	·	·	PUNCT	PUNCT	_	12	punct	_	_
 9-13	ϫⲉⲁϥϫⲟⲟⲥ	_	_	_	_	_	_	_	_
 9	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	12	mark	_	_
@@ -24,24 +24,24 @@
 16-18	ⲛⲛⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ	_	_	_	_	_	_	_	_
 16	ⲛ	ⲛ	ADP	PREP	_	18	case	_	_
 17	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	18	det	_	Entity=(person|Orig=ⲉⲛ
-18	ⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ	ⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ	NOUN	N	_	15	nmod	_	Entity=person)|Orig=ⲥⲩⲛⲕ̇ⲗⲏⲧⲓ̇ⲕⲟⲥ
+18	ⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ	ⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ	NOUN	N	Foreign=Yes	15	nmod	_	Entity=person)|Orig=ⲥⲩⲛⲕ̇ⲗⲏⲧⲓ̇ⲕⲟⲥ|OrigLang=grc
 19	·	·	PUNCT	PUNCT	_	23	punct	_	_
 20-23	ⲉⲁϥⲁⲡⲟⲧⲁⲥⲥⲉ	_	_	_	_	_	_	_	_
 20	ⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	23	mark	_	Orig=ⲉ̇
 21	ⲁ	ⲁ	AUX	APST	_	23	aux	_	Orig=ⲁ̇
 22	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
-23	ⲁⲡⲟⲧⲁⲥⲥⲉ	ⲁⲡⲟⲧⲁⲥⲥⲉ	VERB	V	VerbForm=Fin	15	acl	_	Orig=ⲁ̇ⲡⲟⲧⲁⲥⲥⲉ
+23	ⲁⲡⲟⲧⲁⲥⲥⲉ	ⲁⲡⲟⲧⲁⲥⲥⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	15	acl	_	Orig=ⲁ̇ⲡⲟⲧⲁⲥⲥⲉ|OrigLang=grc
 24-26	ⲛⲛⲉϥⲭⲣⲏⲙⲁ	_	_	_	_	_	_	_	_
 24	ⲛ	ⲛ	ADP	PREP	_	26	case	_	Orig=ⲛ̇
 25	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	26	det	_	Entity=(abstract
-26	ⲭⲣⲏⲙⲁ	ⲭⲣⲏⲙⲁ	NOUN	N	_	23	obj	_	Orig=ⲭ̇ⲣⲏⲙⲁ
+26	ⲭⲣⲏⲙⲁ	ⲭⲣⲏⲙⲁ	NOUN	N	Foreign=Yes	23	obj	_	Orig=ⲭ̇ⲣⲏⲙⲁ|OrigLang=grc
 27-28	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
 27	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	26	advmod	_	_
 28	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	27	det	_	Entity=abstract)person)
 
 # sent_id = coptic_treebank-AP_026_cassian_07_s0002
-# text = ⲁϥⲧⲁⲁⲩ ⲛⲛϩⲏⲕⲉ ·
 # text_en = he gave them to the poor.
+# text = ⲁϥⲧⲁⲁⲩ ⲛⲛϩⲏⲕⲉ ·
 1-4	ⲁϥⲧⲁⲁⲩ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=ⲁ̇
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -54,8 +54,8 @@
 8	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-AP_026_cassian_07_s0003
-# text = ⲁϥⲕⲁ ϩⲉⲛⲕⲟⲩⲓ ⲛⲁϥ ⲉⲧⲃⲉⲧⲉϥⲭⲣⲉⲓⲁ ⲙⲁⲩⲁⲁϥ ·
 # text_en = He set a little for himself because of his own needs.
+# text = ⲁϥⲕⲁ ϩⲉⲛⲕⲟⲩⲓ ⲛⲁϥ ⲉⲧⲃⲉⲧⲉϥⲭⲣⲉⲓⲁ ⲙⲁⲩⲁⲁϥ ·
 1-3	ⲁϥⲕⲁ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=ⲁ̇
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -69,15 +69,15 @@
 8-10	ⲉⲧⲃⲉⲧⲉϥⲭⲣⲉⲓⲁ	_	_	_	_	_	_	_	_
 8	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	10	case	_	Orig=ⲉ̇ⲧⲃⲉ
 9	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	Entity=(abstract
-10	ⲭⲣⲉⲓⲁ	ⲭⲣⲉⲓⲁ	NOUN	N	_	3	obl	_	Orig=ⲭⲣⲓ̇ⲁ̇
+10	ⲭⲣⲉⲓⲁ	ⲭⲣⲉⲓⲁ	NOUN	N	Foreign=Yes	3	obl	_	Orig=ⲭⲣⲓ̇ⲁ̇|OrigLang=grc
 11-12	ⲙⲁⲩⲁⲁϥ	_	_	_	_	_	_	_	_
 11	ⲙⲁⲩⲁⲁ	ⲙⲁⲩⲁⲁ	ADV	IMOD	_	3	advmod	_	Orig=ⲙⲁⲩⲁ̇ⲁ
 12	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	11	det	_	Entity=abstract)
 13	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-AP_026_cassian_07_s0004
-# text = ⲙⲡⲉϥⲟⲩⲱϣ ⲉⲱⲛϩ ϩⲛⲟⲩⲙⲛⲧⲁⲡⲟⲧⲁⲕⲧⲓⲕⲟⲥ ⲉⲧϫⲏⲕ ⲉⲃⲟⲗ · ⲻ ⲛⲧⲉⲡⲉⲑⲃⲃⲓⲟ ⲛϩⲏⲧ · ⲻ
 # text_en = He did not wish to live in complete renunciation, of humility of heart.
+# text = ⲙⲡⲉϥⲟⲩⲱϣ ⲉⲱⲛϩ ϩⲛⲟⲩⲙⲛⲧⲁⲡⲟⲧⲁⲕⲧⲓⲕⲟⲥ ⲉⲧϫⲏⲕ ⲉⲃⲟⲗ · ⲻ ⲛⲧⲉⲡⲉⲑⲃⲃⲓⲟ ⲛϩⲏⲧ · ⲻ
 1-3	ⲙⲡⲉϥⲟⲩⲱϣ	_	_	_	_	_	_	_	_
 1	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	3	aux	_	Orig=ⲙ̇ⲡⲉ
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -88,7 +88,7 @@
 6-8	ϩⲛⲟⲩⲙⲛⲧⲁⲡⲟⲧⲁⲕⲧⲓⲕⲟⲥ	_	_	_	_	_	_	_	_
 6	ϩⲛ	ϩⲛ	ADP	PREP	_	8	case	_	Orig=ϩⲛ̇
 7	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	8	det	_	Entity=(abstract
-8	ⲙⲛⲧⲁⲡⲟⲧⲁⲕⲧⲓⲕⲟⲥ	ⲙⲛⲧⲁⲡⲟⲧⲁⲕⲧⲓⲕⲟⲥ	NOUN	N	_	5	obl	_	Morphs=ⲙⲛⲧ-ⲁⲡⲟⲧⲁⲕⲧⲓⲕⲟⲥ|Orig=ⲙⲛⲧ̇ⲁ̇ⲡⲟⲧⲁⲕⲧⲓ̇ⲕⲟⲥ
+8	ⲙⲛⲧⲁⲡⲟⲧⲁⲕⲧⲓⲕⲟⲥ	ⲙⲛⲧⲁⲡⲟⲧⲁⲕⲧⲓⲕⲟⲥ	NOUN	N	Foreign=Yes	5	obl	_	Morphs=ⲙⲛⲧ-ⲁⲡⲟⲧⲁⲕⲧⲓⲕⲟⲥ|Orig=ⲙⲛⲧ̇ⲁ̇ⲡⲟⲧⲁⲕⲧⲓ̇ⲕⲟⲥ|OrigLang=grc
 9-10	ⲉⲧϫⲏⲕ	_	_	_	_	_	_	_	_
 9	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	10	mark	_	Orig=ⲉ̇ⲧ
 10	ϫⲏⲕ	ϫⲱⲕ	VERB	VSTAT	VerbForm=Fin	8	acl	_	_
@@ -106,10 +106,10 @@
 20	ⲻ	ⲻ	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-AP_026_cassian_07_s0005
-# text = ⲡⲁⲓ ⲇⲉ ⲁϥϫⲱ ⲛⲟⲩϣⲁϫⲉ ⲛⲁϩⲣⲁϥ ⲛϭⲓⲃⲁⲥⲓⲙⲟⲥ ⲡⲉⲧϣⲟⲟⲡ ϩⲛⲛⲉⲧⲟⲩⲁⲁⲃ · ⲉϥϫⲱ ⲙⲙⲟⲥ ϫⲉⲧⲙⲛⲧⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ ⲁⲕⲥⲟⲣⲙⲉⲥ ·
 # text_en = who said, 'The elite (senatorial?) rank, you lost it; and monasticism, you did not find it.
+# text = ⲡⲁⲓ ⲇⲉ ⲁϥϫⲱ ⲛⲟⲩϣⲁϫⲉ ⲛⲁϩⲣⲁϥ ⲛϭⲓⲃⲁⲥⲓⲙⲟⲥ ⲡⲉⲧϣⲟⲟⲡ ϩⲛⲛⲉⲧⲟⲩⲁⲁⲃ · ⲉϥϫⲱ ⲙⲙⲟⲥ ϫⲉⲧⲙⲛⲧⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ ⲁⲕⲥⲟⲣⲙⲉⲥ ·
 1	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	dislocated	_	Entity=(abstract)|Orig=Ⲡⲁⲓ̇
-2	ⲇⲉ	ⲇⲉ	PART	PTC	_	5	advmod	_	_
+2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	5	advmod	_	OrigLang=grc
 3-5	ⲁϥϫⲱ	_	_	_	_	_	_	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	Orig=ⲁ̇
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
@@ -123,7 +123,7 @@
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
 11-12	ⲛϭⲓⲃⲁⲥⲓⲙⲟⲥ	_	_	_	_	_	_	_	_
 11	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	12	case	_	Orig=ⲛϭⲓ̇
-12	ⲃⲁⲥⲓⲙⲟⲥ	ⲃⲁⲥⲓⲙⲟⲥ	PROPN	NPROP	_	5	dislocated	_	Entity=(person|Orig=ⲃⲁⲥⲓ̇ⲙⲟⲥ
+12	ⲃⲁⲥⲓⲙⲟⲥ	ⲃⲁⲥⲓⲙⲟⲥ	PROPN	NPROP	Foreign=Yes	5	dislocated	_	Entity=(person|Orig=ⲃⲁⲥⲓ̇ⲙⲟⲥ|OrigLang=grc
 13-15	ⲡⲉⲧϣⲟⲟⲡ	_	_	_	_	_	_	_	_
 13	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	appos	_	_
 14	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	15	mark	_	_
@@ -144,7 +144,7 @@
 26-28	ϫⲉⲧⲙⲛⲧⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ	_	_	_	_	_	_	_	_
 26	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	31	mark	_	_
 27	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	Entity=(abstract|Orig=ⲧ̇
-28	ⲙⲛⲧⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ	ⲙⲛⲧⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ	NOUN	N	_	31	dislocated	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ|Orig=ⲙⲛⲧⲥⲩⲛⲕ̇ⲗⲏⲧⲓ̇ⲕⲟ̇ⲥ
+28	ⲙⲛⲧⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ	ⲙⲛⲧⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ	NOUN	N	Foreign=Yes	31	dislocated	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲥⲩⲛⲕⲗⲏⲧⲓⲕⲟⲥ|Orig=ⲙⲛⲧⲥⲩⲛⲕ̇ⲗⲏⲧⲓ̇ⲕⲟ̇ⲥ|OrigLang=grc
 29-32	ⲁⲕⲥⲟⲣⲙⲉⲥ	_	_	_	_	_	_	_	_
 29	ⲁ	ⲁ	AUX	APST	_	31	aux	_	Orig=ⲁ̇
 30	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	31	nsubj	_	_
@@ -153,12 +153,12 @@
 33	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = coptic_treebank-AP_026_cassian_07_s0006
-# text = ⲁⲩⲱ ⲧⲙⲛⲧⲙⲟⲛⲁⲭⲟⲥ ⲙⲡⲉⲕϩⲉ ⲉⲣⲟⲥ · ⲻ
 # text_en = who said, 'The elite (senatorial?) rank, you lost it; and monasticism, you did not find it.
+# text = ⲁⲩⲱ ⲧⲙⲛⲧⲙⲟⲛⲁⲭⲟⲥ ⲙⲡⲉⲕϩⲉ ⲉⲣⲟⲥ · ⲻ
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	6	cc	_	Orig=ⲁ̇ⲩⲱ̇
 2-3	ⲧⲙⲛⲧⲙⲟⲛⲁⲭⲟⲥ	_	_	_	_	_	_	_	_
 2	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Entity=(abstract|Orig=ⲧ̇
-3	ⲙⲛⲧⲙⲟⲛⲁⲭⲟⲥ	ⲙⲛⲧⲙⲟⲛⲁⲭⲟⲥ	NOUN	N	_	6	dislocated	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲙⲟⲛⲁⲭⲟⲥ|Orig=ⲙⲛⲧ̇ⲙⲟⲛⲁⲭⲟⲥ
+3	ⲙⲛⲧⲙⲟⲛⲁⲭⲟⲥ	ⲙⲛⲧⲙⲟⲛⲁⲭⲟⲥ	NOUN	N	Foreign=Yes	6	dislocated	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲙⲟⲛⲁⲭⲟⲥ|Orig=ⲙⲛⲧ̇ⲙⲟⲛⲁⲭⲟⲥ|OrigLang=grc
 4-6	ⲙⲡⲉⲕϩⲉ	_	_	_	_	_	_	_	_
 4	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	6	aux	_	Orig=ⲙ̇ⲡⲉ
 5	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_

@@ -1,7 +1,7 @@
 # newdoc id = coptic.treebank:AP.127.n298.demon
 # sent_id = coptic_treebank-AP_127_n298_demon_s0001
-# text = ⲟⲩⲣⲱⲙⲉ ⲉϥⲟ ⲛⲇⲁⲓⲙⲱⲛⲓⲟⲛ · ⲁⲩⲱ ⲉϥⲙⲟⲕϩ ⲙⲙⲁⲧⲉ · ⲉϥⲧⲁⲩⲉⲥϩⲃⲏⲏⲧⲉ ⲉⲃⲟⲗ · ⲁϥⲣⲱϩⲧ ⲛⲟⲩⲙⲟⲛⲁⲭⲟⲥ ⲉⲃⲟⲗ ϩⲛⲛϩⲗⲗⲟ ⲉϩⲟⲩⲛ ⲉⲧⲉϥⲟⲩⲟϭⲉ ·
 # text_en = ...
+# text = ⲟⲩⲣⲱⲙⲉ ⲉϥⲟ ⲛⲇⲁⲓⲙⲱⲛⲓⲟⲛ · ⲁⲩⲱ ⲉϥⲙⲟⲕϩ ⲙⲙⲁⲧⲉ · ⲉϥⲧⲁⲩⲉⲥϩⲃⲏⲏⲧⲉ ⲉⲃⲟⲗ · ⲁϥⲣⲱϩⲧ ⲛⲟⲩⲙⲟⲛⲁⲭⲟⲥ ⲉⲃⲟⲗ ϩⲛⲛϩⲗⲗⲟ ⲉϩⲟⲩⲛ ⲉⲧⲉϥⲟⲩⲟϭⲉ ·
 1-2	ⲟⲩⲣⲱⲙⲉ	_	_	_	_	_	_	_	_
 1	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	2	det	_	Entity=(person
 2	ⲣⲱⲙⲉ	ⲣⲱⲙⲉ	NOUN	N	_	23	dislocated	_	_
@@ -11,7 +11,7 @@
 5	ⲟ	ⲉⲓⲣⲉ	VERB	VSTAT	VerbForm=Fin	2	acl	_	Orig=ⲟ̇
 6-7	ⲛⲇⲁⲓⲙⲱⲛⲓⲟⲛ	_	_	_	_	_	_	_	_
 6	ⲛ	ⲛ	ADP	PREP	_	7	case	_	_
-7	ⲇⲁⲓⲙⲱⲛⲓⲟⲛ	ⲇⲁⲓⲙⲱⲛⲓⲟⲛ	NOUN	N	_	5	obl	_	Entity=(person)|Orig=ⲇⲁⲓ̇ⲙⲱⲛⲓ̇ⲟ̇ⲛ
+7	ⲇⲁⲓⲙⲱⲛⲓⲟⲛ	ⲇⲁⲓⲙⲱⲛⲓⲟⲛ	NOUN	N	Foreign=Yes	5	obl	_	Entity=(person)|Orig=ⲇⲁⲓ̇ⲙⲱⲛⲓ̇ⲟ̇ⲛ|OrigLang=grc
 8	·	·	PUNCT	PUNCT	_	12	punct	_	_
 9	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	12	cc	_	Orig=ⲁⲩⲱ̇
 10-12	ⲉϥⲙⲟⲕϩ	_	_	_	_	_	_	_	_
@@ -34,7 +34,7 @@
 24-26	ⲛⲟⲩⲙⲟⲛⲁⲭⲟⲥ	_	_	_	_	_	_	_	_
 24	ⲛ	ⲛ	ADP	PREP	_	26	case	_	_
 25	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	26	det	_	Entity=(person
-26	ⲙⲟⲛⲁⲭⲟⲥ	ⲙⲟⲛⲁⲭⲟⲥ	NOUN	N	_	23	obj	_	_
+26	ⲙⲟⲛⲁⲭⲟⲥ	ⲙⲟⲛⲁⲭⲟⲥ	NOUN	N	Foreign=Yes	23	obj	_	OrigLang=grc
 27	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	30	case	_	Orig=ⲉ̇ⲃⲟⲗ
 28-30	ϩⲛⲛϩⲗⲗⲟ	_	_	_	_	_	_	_	_
 28	ϩⲛ	ϩⲛ	ADP	PREP	_	27	fixed	_	Orig=ϩⲛ̇
@@ -48,12 +48,12 @@
 35	·	·	PUNCT	PUNCT	_	23	punct	_	_
 
 # sent_id = coptic_treebank-AP_127_n298_demon_s0002
-# text = ⲡϩⲗⲗⲟ ⲇⲉ ϩⲛⲟⲩϭⲉⲡⲏ ⲁϥⲕⲧⲟ ⲉⲣⲟϥ ⲛⲧⲕⲉⲟⲩⲉⲓ ·
 # text_en = ...
+# text = ⲡϩⲗⲗⲟ ⲇⲉ ϩⲛⲟⲩϭⲉⲡⲏ ⲁϥⲕⲧⲟ ⲉⲣⲟϥ ⲛⲧⲕⲉⲟⲩⲉⲓ ·
 1-2	ⲡϩⲗⲗⲟ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(person
 2	ϩⲗⲗⲟ	ϩⲗⲗⲟ	NOUN	N	_	9	dislocated	_	Entity=person)
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	9	advmod	_	_
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	9	advmod	_	OrigLang=grc
 4-6	ϩⲛⲟⲩϭⲉⲡⲏ	_	_	_	_	_	_	_	_
 4	ϩⲛ	ϩⲛ	ADP	PREP	_	6	case	_	Orig=ϩⲛ̇
 5	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
@@ -73,12 +73,12 @@
 16	·	·	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = coptic_treebank-AP_127_n298_demon_s0003
-# text = ⲡⲇⲁⲓⲙⲱⲛ ⲇⲉ ⲙⲡⲉϥⲧⲱⲟⲩⲛ ϩⲁⲡϫⲟϥϫϥ ⲙⲡⲉⲑⲃⲃⲓⲟ
 # text_en = ...
+# text = ⲡⲇⲁⲓⲙⲱⲛ ⲇⲉ ⲙⲡⲉϥⲧⲱⲟⲩⲛ ϩⲁⲡϫⲟϥϫϥ ⲙⲡⲉⲑⲃⲃⲓⲟ
 1-2	ⲡⲇⲁⲓⲙⲱⲛ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(person
-2	ⲇⲁⲓⲙⲱⲛ	ⲇⲁⲓⲙⲱⲛ	NOUN	N	_	6	dislocated	_	Entity=person)|Orig=ⲇⲁⲓ̇ⲙⲱⲛ
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	6	advmod	_	_
+2	ⲇⲁⲓⲙⲱⲛ	ⲇⲁⲓⲙⲱⲛ	NOUN	N	Foreign=Yes	6	dislocated	_	Entity=person)|Orig=ⲇⲁⲓ̇ⲙⲱⲛ|OrigLang=grc
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	6	advmod	_	OrigLang=grc
 4-6	ⲙⲡⲉϥⲧⲱⲟⲩⲛ	_	_	_	_	_	_	_	_
 4	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	6	aux	_	Orig=ⲙ̇ⲡⲉ
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -93,8 +93,8 @@
 12	ⲑⲃⲃⲓⲟ	ⲑⲃⲃⲓⲟ	NOUN	N	_	9	nmod	_	Entity=abstract)abstract)|Orig=ⲑⲃⲃⲓ̇ⲟ̇
 
 # sent_id = coptic_treebank-AP_127_n298_demon_s0004
-# text = ⲁϥⲉⲓ ⲉⲃⲟⲗ ϩⲓⲱⲱϥ · ⲻ ·
 # text_en = ...
+# text = ⲁϥⲉⲓ ⲉⲃⲟⲗ ϩⲓⲱⲱϥ · ⲻ ·
 1-3	ⲁϥⲉⲓ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=ⲁ̇
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_

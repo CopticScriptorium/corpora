@@ -1,7 +1,7 @@
 # newdoc id = coptic.treebank:AP.124.orsisius.01
 # sent_id = coptic_treebank-AP_124_orsisius_01_s0001
-# text = ⲁϥϫⲟⲟⲥ ⲛϭⲓⲁⲡⲁ ϩⲱⲣⲥⲓⲏⲥⲓ . ϫⲉⲟⲩⲧⲱⲱⲃⲉ ⲛⲟⲙⲉ ⲉⲩϣⲁⲛⲛⲟϫⲥ ⲉⲩⲥⲛⲧⲉ ϩⲁⲧⲙⲡⲓⲉⲣⲟ . ⲛⲥⲛⲁϩⲩⲡⲟⲙⲓⲛⲉ ⲁⲛ ⲛⲟⲩϩⲟⲟⲩ ⲛⲟⲩⲱⲧ .
 # text_en = Apa Orsisius said, 'A mud brick that is laid as a foundation by the river will not last a single day.
+# text = ⲁϥϫⲟⲟⲥ ⲛϭⲓⲁⲡⲁ ϩⲱⲣⲥⲓⲏⲥⲓ . ϫⲉⲟⲩⲧⲱⲱⲃⲉ ⲛⲟⲙⲉ ⲉⲩϣⲁⲛⲛⲟϫⲥ ⲉⲩⲥⲛⲧⲉ ϩⲁⲧⲙⲡⲓⲉⲣⲟ . ⲛⲥⲛⲁϩⲩⲡⲟⲙⲓⲛⲉ ⲁⲛ ⲛⲟⲩϩⲟⲟⲩ ⲛⲟⲩⲱⲧ .
 1-4	ⲁϥϫⲟⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -9,7 +9,7 @@
 4	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 5-6	ⲛϭⲓⲁⲡⲁ	_	_	_	_	_	_	_	_
 5	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	6	case	_	Orig=ⲛ̇ϭⲓ̇
-6	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	3	dislocated	_	Entity=(person-Orsisius
+6	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	3	dislocated	_	Entity=(person-Orsisius|OrigLang=he
 7	ϩⲱⲣⲥⲓⲏⲥⲓ	ϩⲱⲣⲥⲓⲏⲥⲓ	PROPN	NPROP	_	6	flat	_	Entity=person-Orsisius)|Orig=ϩⲱⲣⲥⲓ̇ⲏⲥⲓ̈
 8	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=·
 9-11	ϫⲉⲟⲩⲧⲱⲱⲃⲉ	_	_	_	_	_	_	_	_
@@ -36,7 +36,7 @@
 24	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	27	advmod	_	_
 25	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	Orig=ⲥ̇
 26	ⲛⲁ	ⲛⲁ	AUX	FUT	_	27	aux	_	_
-27	ϩⲩⲡⲟⲙⲓⲛⲉ	ϩⲩⲡⲟⲙⲓⲛⲉ	VERB	V	VerbForm=Fin	3	ccomp	_	Orig=ϩⲩⲡⲟⲙⲓ̇ⲛⲉ
+27	ϩⲩⲡⲟⲙⲓⲛⲉ	ϩⲩⲡⲟⲙⲓⲛⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	3	ccomp	_	Orig=ϩⲩⲡⲟⲙⲓ̇ⲛⲉ|OrigLang=grc
 28	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	27	advmod	_	Orig=ⲁ̇ⲛ
 29-31	ⲛⲟⲩϩⲟⲟⲩ	_	_	_	_	_	_	_	_
 29	ⲛ	ⲛ	ADP	PREP	_	31	case	_	_
@@ -48,13 +48,13 @@
 34	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=·
 
 # sent_id = coptic_treebank-AP_124_orsisius_01_s0002
-# text = ⲧⲉⲧⲉⲣⲡⲟⲥⲉ ⲇⲉ ϣⲁⲥⲙⲟⲩⲛ ⲉⲃⲟⲗ ⲛⲧϩⲉ ⲙⲡⲱⲛⲉ .
 # text_en = But the one that has been baked ensures like a rock.
+# text = ⲧⲉⲧⲉⲣⲡⲟⲥⲉ ⲇⲉ ϣⲁⲥⲙⲟⲩⲛ ⲉⲃⲟⲗ ⲛⲧϩⲉ ⲙⲡⲱⲛⲉ .
 1-3	ⲧⲉⲧⲉⲣⲡⲟⲥⲉ	_	_	_	_	_	_	_	_
 1	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	dislocated	_	Entity=(object
 2	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	3	mark	_	Orig=ⲧⲉ
 3	ⲣⲡⲟⲥⲉ	ⲣⲡⲟⲥⲉ	VERB	V	VerbForm=Fin	1	acl	_	Entity=object)|Morphs=ⲣ-ⲡⲟⲥⲉ
-4	ⲇⲉ	ⲇⲉ	PART	PTC	_	7	advmod	_	_
+4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	7	advmod	_	OrigLang=grc
 5-7	ϣⲁⲥⲙⲟⲩⲛ	_	_	_	_	_	_	_	_
 5	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	7	aux	_	_
 6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -71,8 +71,8 @@
 15	.	.	PUNCT	PUNCT	_	7	punct	_	Orig=·ⲻ
 
 # sent_id = coptic_treebank-AP_124_orsisius_01_s0003
-# text = ⲧⲁⲓ ⲧⲉ ⲧϩⲉ ⲙⲡⲣⲱⲙⲉ ⲉⲟⲩⲛⲧⲁϥ ⲙⲙⲁⲩ ⲙⲡⲉϥⲙⲉⲉⲩⲉ ⲙⲙⲛⲧⲕⲱⲥⲙⲓⲕⲟⲛ . ⲛϥⲡⲟⲥⲉ ⲁⲛ ϩⲛⲧϩⲟⲧⲉ ⲙⲡⲛⲟⲩⲧⲉ .
 # text_en = In the same way, the man who has his mind on worldliness is not baked in the fear of God.
+# text = ⲧⲁⲓ ⲧⲉ ⲧϩⲉ ⲙⲡⲣⲱⲙⲉ ⲉⲟⲩⲛⲧⲁϥ ⲙⲙⲁⲩ ⲙⲡⲉϥⲙⲉⲉⲩⲉ ⲙⲙⲛⲧⲕⲱⲥⲙⲓⲕⲟⲛ . ⲛϥⲡⲟⲥⲉ ⲁⲛ ϩⲛⲧϩⲟⲧⲉ ⲙⲡⲛⲟⲩⲧⲉ .
 1	ⲧⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	0	root	_	Entity=(abstract)|Orig=ⲧⲁⲓ̇
 2	ⲧⲉ	ⲡⲉ	PRON	COP	Gender=Fem|Number=Sing	1	cop	_	_
 3-4	ⲧϩⲉ	_	_	_	_	_	_	_	_
@@ -93,7 +93,7 @@
 14	ⲙⲉⲉⲩⲉ	ⲙⲉⲉⲩⲉ	NOUN	N	_	9	obj	_	Orig=ⲙⲉⲉⲩⲉ̇
 15-16	ⲙⲙⲛⲧⲕⲱⲥⲙⲓⲕⲟⲛ	_	_	_	_	_	_	_	_
 15	ⲙ	ⲛ	ADP	PREP	_	16	case	_	Orig=ⲙ̇
-16	ⲙⲛⲧⲕⲱⲥⲙⲓⲕⲟⲛ	ⲙⲛⲧⲕⲱⲥⲙⲓⲕⲟⲛ	NOUN	N	_	14	nmod	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲕⲱⲥⲙⲓⲕⲟⲛ|Orig=ⲙⲛⲧ̇ⲕⲱⲥⲙⲓ̇ⲕⲟⲛ
+16	ⲙⲛⲧⲕⲱⲥⲙⲓⲕⲟⲛ	ⲙⲛⲧⲕⲱⲥⲙⲓⲕⲟⲛ	NOUN	N	Foreign=Yes	14	nmod	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲕⲱⲥⲙⲓⲕⲟⲛ|Orig=ⲙⲛⲧ̇ⲕⲱⲥⲙⲓ̇ⲕⲟⲛ|OrigLang=grc
 17	.	.	PUNCT	PUNCT	_	1	punct	_	Orig=·
 18-20	ⲛϥⲡⲟⲥⲉ	_	_	_	_	_	_	_	_
 18	ⲛ	ⲛⲧⲉ	ADV	NEG	Polarity=Neg	20	advmod	_	Orig=ⲛ̇
@@ -111,8 +111,8 @@
 28	.	.	PUNCT	PUNCT	_	1	punct	_	Orig=·
 
 # sent_id = coptic_treebank-AP_124_orsisius_01_s0004
-# text = ⲉϥϣⲁⲛⲉⲓ ⲉϩⲣⲁⲓ ⲉⲩⲙⲛⲧⲛⲟϭ ϣⲁϥⲃⲱⲗ ⲉⲃⲟⲗ .
 # text_en = If he comes upon greatness, he dissolves.
+# text = ⲉϥϣⲁⲛⲉⲓ ⲉϩⲣⲁⲓ ⲉⲩⲙⲛⲧⲛⲟϭ ϣⲁϥⲃⲱⲗ ⲉⲃⲟⲗ .
 1-2	ⲉϥϣⲁⲛⲉⲓ	_	_	_	_	_	_	_	_
 1	ⲉϥϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟϥ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Orig=ⲉ̇ϥϣⲁⲛ
 2	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	9	advcl	_	Orig=ⲉⲓ̇
@@ -129,20 +129,20 @@
 11	.	.	PUNCT	PUNCT	_	9	punct	_	Orig=·ⲻ
 
 # sent_id = coptic_treebank-AP_124_orsisius_01_s0005
-# text = ϩⲁϩ ⲅⲁⲣ ⲛⲉ ⲙⲡⲉⲓⲣⲁⲥⲙⲟⲥ ⲛⲛⲁⲧⲉⲓⲙⲓⲛⲉ ⲙⲁⲗⲓⲥⲧⲁ ⲉⲩϣⲟⲟⲡ ϩⲛⲧⲙⲏⲧⲉ ⲛⲛⲣⲱⲙⲉ .
 # text_en = For there are many trials, mostly of this kind, that happen in the midst of men
+# text = ϩⲁϩ ⲅⲁⲣ ⲛⲉ ⲙⲡⲉⲓⲣⲁⲥⲙⲟⲥ ⲛⲛⲁⲧⲉⲓⲙⲓⲛⲉ ⲙⲁⲗⲓⲥⲧⲁ ⲉⲩϣⲟⲟⲡ ϩⲛⲧⲙⲏⲧⲉ ⲛⲛⲣⲱⲙⲉ .
 1	ϩⲁϩ	ϩⲁϩ	NOUN	N	_	0	root	_	Entity=(abstract)
-2	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	_	1	advmod	_	_
+2	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	1	advmod	_	OrigLang=grc
 3	ⲛⲉ	ⲡⲉ	PRON	COP	Number=Plur	1	cop	_	_
 4-5	ⲙⲡⲉⲓⲣⲁⲥⲙⲟⲥ	_	_	_	_	_	_	_	_
-4	ⲙ	ⲡ	DET	ART	_	5	det	_	Entity=(abstract|Orig=ⲙ̇
-5	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	NOUN	N	_	1	nsubj	_	Orig=ⲡⲓ̇ⲣⲁⲥⲙⲟⲥ
+4	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	5	det	_	Entity=(abstract|Orig=ⲙ̇
+5	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	1	nsubj	_	Orig=ⲡⲓ̇ⲣⲁⲥⲙⲟⲥ|OrigLang=grc
 6-9	ⲛⲛⲁⲧⲉⲓⲙⲓⲛⲉ	_	_	_	_	_	_	_	_
 6	ⲛ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲛ̇
 7	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	5	nmod	_	Entity=(abstract
 8	ⲧⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	Entity=(abstract|Orig=ⲧⲉⲓ̇
 9	ⲙⲓⲛⲉ	ⲙⲓⲛⲉ	NOUN	N	_	7	nmod	_	Entity=abstract)abstract)abstract)|Orig=ⲙⲓ̇ⲛⲉ
-10	ⲙⲁⲗⲓⲥⲧⲁ	ⲙⲁⲗⲓⲥⲧⲁ	ADV	ADV	_	13	advmod	_	Orig=ⲙⲁⲗⲓ̇ⲥⲧⲁ
+10	ⲙⲁⲗⲓⲥⲧⲁ	ⲙⲁⲗⲓⲥⲧⲁ	ADV	ADV	Foreign=Yes	13	advmod	_	Orig=ⲙⲁⲗⲓ̇ⲥⲧⲁ|OrigLang=grc
 11-13	ⲉⲩϣⲟⲟⲡ	_	_	_	_	_	_	_	_
 11	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	13	mark	_	Orig=ⲉ̇
 12	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
@@ -158,12 +158,12 @@
 20	.	.	PUNCT	PUNCT	_	1	punct	_	Orig=·
 
 # sent_id = coptic_treebank-AP_124_orsisius_01_s0006
-# text = ⲛⲁⲛⲟⲩⲥ ⲇⲉ ⲉⲧⲣⲉⲡⲣⲱⲙⲉ ⲥⲟⲩⲛⲡⲉϥϣⲓ ⲙⲙⲓⲛⲙⲙⲟϥ . ⲉⲧⲣⲉϥⲡⲱⲧ ⲇⲉ ⲉⲃⲟⲗ ⲙⲡⲉϩⲣⲟϣ ⲛⲧⲙⲛⲧⲛⲟϭ
 # text_en = But it is good that a man know his mesaure, and to avoid the burden of greatness.
+# text = ⲛⲁⲛⲟⲩⲥ ⲇⲉ ⲉⲧⲣⲉⲡⲣⲱⲙⲉ ⲥⲟⲩⲛⲡⲉϥϣⲓ ⲙⲙⲓⲛⲙⲙⲟϥ . ⲉⲧⲣⲉϥⲡⲱⲧ ⲇⲉ ⲉⲃⲟⲗ ⲙⲡⲉϩⲣⲟϣ ⲛⲧⲙⲛⲧⲛⲟϭ
 1-2	ⲛⲁⲛⲟⲩⲥ	_	_	_	_	_	_	_	_
 1	ⲛⲁⲛⲟⲩ	ⲛⲁⲛⲟⲩ	VERB	VBD	VerbForm=Fin	0	root	_	_
 2	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	1	advmod	_	_
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	1	advmod	_	OrigLang=grc
 4-7	ⲉⲧⲣⲉⲡⲣⲱⲙⲉ	_	_	_	_	_	_	_	_
 4	ⲉ	ⲉ	PART	PREP	_	5	mark	_	Orig=ⲉ̇
 5	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	1	dislocated	_	_
@@ -182,7 +182,7 @@
 15	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	8	xcomp	_	_
 16	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 17	ⲡⲱⲧ	ⲡⲱⲧ	VERB	V	VerbForm=Fin	15	xcomp	_	_
-18	ⲇⲉ	ⲇⲉ	PART	PTC	_	17	advmod	_	_
+18	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	17	advmod	_	OrigLang=grc
 19	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	17	advmod	_	Orig=ⲉ̇ⲃⲟⲗ
 20-22	ⲙⲡⲉϩⲣⲟϣ	_	_	_	_	_	_	_	_
 20	ⲙ	ⲛ	ADP	PREP	_	22	case	_	Orig=ⲙ̇
@@ -194,23 +194,23 @@
 25	ⲙⲛⲧⲛⲟϭ	ⲙⲛⲧⲛⲟϭ	NOUN	N	_	22	nmod	_	Entity=abstract)abstract)|Morphs=ⲙⲛⲧ-ⲛⲟϭ|Orig=ⲙⲛⲧ̇ⲛⲟϭ
 
 # sent_id = coptic_treebank-AP_124_orsisius_01_s0007
-# text = ⲛⲉⲧⲧⲁϫⲣⲏⲩ ⲇⲉ ϩⲓⲧⲛⲧⲡⲓⲥⲧⲓⲥ ϩⲉⲛⲁⲧⲕⲓⲙ ⲉⲣⲟⲟⲩ ⲛⲉ .
 # text_en = The things which are strenghtened in faith are unshakeable.'
+# text = ⲛⲉⲧⲧⲁϫⲣⲏⲩ ⲇⲉ ϩⲓⲧⲛⲧⲡⲓⲥⲧⲓⲥ ϩⲉⲛⲁⲧⲕⲓⲙ ⲉⲣⲟⲟⲩ ⲛⲉ .
 1-3	ⲛⲉⲧⲧⲁϫⲣⲏⲩ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	9	nsubj	_	Entity=(abstract
 2	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	3	mark	_	_
 3	ⲧⲁϫⲣⲏⲩ	ⲧⲁϫⲣⲟ	VERB	VSTAT	VerbForm=Fin	1	acl	_	_
-4	ⲇⲉ	ⲇⲉ	PART	PTC	_	9	advmod	_	_
+4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	9	advmod	_	OrigLang=grc
 5-7	ϩⲓⲧⲛⲧⲡⲓⲥⲧⲓⲥ	_	_	_	_	_	_	_	_
 5	ϩⲓⲧⲛ	ϩⲓⲧⲛ	ADP	PREP	_	7	case	_	Orig=ϩⲓ̇ⲧⲛ̇
 6	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(abstract|Orig=ⲧ̇
-7	ⲡⲓⲥⲧⲓⲥ	ⲡⲓⲥⲧⲓⲥ	NOUN	N	_	3	obl	_	Entity=abstract)abstract)|Orig=ⲡⲓ̇ⲥⲧⲓ̇ⲥ
+7	ⲡⲓⲥⲧⲓⲥ	ⲡⲓⲥⲧⲓⲥ	NOUN	N	Foreign=Yes	3	obl	_	Entity=abstract)abstract)|Orig=ⲡⲓ̇ⲥⲧⲓ̇ⲥ|OrigLang=grc
 8-9	ϩⲉⲛⲁⲧⲕⲓⲙ	_	_	_	_	_	_	_	_
 8	ϩⲉⲛ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	9	det	_	Entity=(abstract|Orig=ϩⲛ̇
 9	ⲁⲧⲕⲓⲙ	ⲁⲧⲕⲓⲙ	NOUN	N	_	0	root	_	Morphs=ⲁⲧ-ⲕⲓⲙ|Orig=ⲁ̇ⲧⲕⲓ̇ⲙ
 10-11	ⲉⲣⲟⲟⲩ	_	_	_	_	_	_	_	_
 10	ⲉⲣⲟ	ⲉ	ADP	PREP	_	11	case	_	_
-11	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	9	nmod	_	Entity=abstract)
+11	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Foreign=Yes|Number=Plur|Person=3|PronType=Prs	9	nmod	_	Entity=abstract)|OrigLang=grc
 12	ⲛⲉ	ⲡⲉ	PRON	COP	Number=Plur	9	cop	_	_
 13	.	.	PUNCT	PUNCT	_	9	punct	_	Orig=·ⲻ
 

@@ -1,7 +1,7 @@
 # newdoc id = coptic.treebank:AP.121.syncletica.26
 # sent_id = coptic_treebank-AP_121_syncletica_26_s0001
-# text = ⲁⲥϫⲟⲟⲥ ⲛϭⲓⲧⲙⲁⲕⲁⲣⲓⲁ ⲥⲩⲅⲕⲗⲏⲧⲓⲕⲏ ϫⲉⲛⲧϩⲉ ⲉⲧⲉⲙⲛϭⲟⲙ ⲛϫⲟⲓ ⲉⲧⲁϩⲟⲉⲣⲁⲧϥ ⲁϫⲛⲉⲓϥⲧ . ⲧⲁⲓ ⲧⲉ ⲧϩⲉ ⲟⲩⲁⲧϭⲟⲙ ⲡⲉ ⲟⲩϫⲁⲓ ⲭⲱⲣⲓⲥ ⲡⲉⲑⲃⲃⲓⲟ ⲛϩⲏⲧ .
 # text_en = ...
+# text = ⲁⲥϫⲟⲟⲥ ⲛϭⲓⲧⲙⲁⲕⲁⲣⲓⲁ ⲥⲩⲅⲕⲗⲏⲧⲓⲕⲏ ϫⲉⲛⲧϩⲉ ⲉⲧⲉⲙⲛϭⲟⲙ ⲛϫⲟⲓ ⲉⲧⲁϩⲟⲉⲣⲁⲧϥ ⲁϫⲛⲉⲓϥⲧ . ⲧⲁⲓ ⲧⲉ ⲧϩⲉ ⲟⲩⲁⲧϭⲟⲙ ⲡⲉ ⲟⲩϫⲁⲓ ⲭⲱⲣⲓⲥ ⲡⲉⲑⲃⲃⲓⲟ ⲛϩⲏⲧ .
 1-4	ⲁⲥϫⲟⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -10,8 +10,8 @@
 5-7	ⲛϭⲓⲧⲙⲁⲕⲁⲣⲓⲁ	_	_	_	_	_	_	_	_
 5	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	7	case	_	Orig=ⲛ̇ϭⲓ̇
 6	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(person-Syncletica_of_Alexandria|Orig=ⲧ̇
-7	ⲙⲁⲕⲁⲣⲓⲁ	ⲙⲁⲕⲁⲣⲓⲁ	NOUN	N	_	3	dislocated	_	Orig=ⲙⲁⲕⲁⲣⲓⲁ̇
-8	ⲥⲩⲅⲕⲗⲏⲧⲓⲕⲏ	ⲥⲩⲅⲕⲗⲏⲧⲓⲕⲏ	PROPN	NPROP	_	7	appos	_	Entity=person-Syncletica_of_Alexandria)|Orig=ⲥⲩⲅⲕⲗⲏⲧⲓ̇ⲕⲏ
+7	ⲙⲁⲕⲁⲣⲓⲁ	ⲙⲁⲕⲁⲣⲓⲁ	NOUN	N	Foreign=Yes	3	dislocated	_	Orig=ⲙⲁⲕⲁⲣⲓⲁ̇|OrigLang=grc
+8	ⲥⲩⲅⲕⲗⲏⲧⲓⲕⲏ	ⲥⲩⲅⲕⲗⲏⲧⲓⲕⲏ	PROPN	NPROP	Foreign=Yes	7	appos	_	Entity=person-Syncletica_of_Alexandria)|Orig=ⲥⲩⲅⲕⲗⲏⲧⲓ̇ⲕⲏ|OrigLang=grc
 9-12	ϫⲉⲛⲧϩⲉ	_	_	_	_	_	_	_	_
 9	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	25	mark	_	_
 10	ⲛ	ⲛ	ADP	PREP	_	12	case	_	Orig=ⲛ̇
@@ -43,7 +43,7 @@
 30	ⲁⲧϭⲟⲙ	ⲁⲧϭⲟⲙ	NOUN	N	_	25	parataxis	_	Entity=abstract)|Morphs=ⲁⲧ-ϭⲟⲙ|Orig=ⲁ̇ⲧϭⲟⲙ
 31	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	30	cop	_	_
 32	ⲟⲩϫⲁⲓ	ⲟⲩϫⲁⲓ	NOUN	N	_	30	nsubj	_	Entity=(abstract|Orig=ⲟⲩϫⲁⲓ̇
-33	ⲭⲱⲣⲓⲥ	ⲭⲱⲣⲓⲥ	ADP	PREP	_	35	case	_	Orig=ⲭⲱⲣⲓ̇ⲥ
+33	ⲭⲱⲣⲓⲥ	ⲭⲱⲣⲓⲥ	ADP	PREP	Foreign=Yes	35	case	_	Orig=ⲭⲱⲣⲓ̇ⲥ|OrigLang=grc
 34-35	ⲡⲉⲑⲃⲃⲓⲟ	_	_	_	_	_	_	_	_
 34	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	Entity=(abstract
 35	ⲑⲃⲃⲓⲟ	ⲑⲃⲃⲓⲟ	NOUN	N	_	32	nmod	_	Orig=ⲑⲃ̇ⲃⲓ̇ⲟ

@@ -1,15 +1,15 @@
 # newdoc id = coptic.treebank:AP.028.serapion.02
 # sent_id = coptic_treebank-AP_028_serapion_02_s0001
-# text = ⲁⲟⲩⲥⲟⲛ ϫⲛⲉⲁⲡⲁ ⲥⲁⲣⲁⲡⲓⲟⲛ ϫⲉⲁϫⲓ ⲟⲩϣⲁϫⲉ ⲉⲣⲟⲓ .
 # text_en = ...
+# text = ⲁⲟⲩⲥⲟⲛ ϫⲛⲉⲁⲡⲁ ⲥⲁⲣⲁⲡⲓⲟⲛ ϫⲉⲁϫⲓ ⲟⲩϣⲁϫⲉ ⲉⲣⲟⲓ .
 1-3	ⲁⲟⲩⲥⲟⲛ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	4	aux	_	Orig=Ⲁ
 2	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	3	det	_	Entity=(person
 3	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	4	nsubj	_	Entity=person)
 4-5	ϫⲛⲉⲁⲡⲁ	_	_	_	_	_	_	_	_
 4	ϫⲛⲉ	ϫⲛⲟⲩ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϫ̇ⲛⲉ
-5	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	4	obj	_	Entity=(person|Orig=ⲁ̇ⲡⲁ
-6	ⲥⲁⲣⲁⲡⲓⲟⲛ	ⲥⲁⲣⲁⲡⲓⲟⲛ	PROPN	NPROP	_	5	flat	_	Entity=person)|Orig=ⲥⲁⲣⲁⲡⲓ̇ⲟⲛ
+5	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	4	obj	_	Entity=(person|Orig=ⲁ̇ⲡⲁ|OrigLang=he
+6	ⲥⲁⲣⲁⲡⲓⲟⲛ	ⲥⲁⲣⲁⲡⲓⲟⲛ	PROPN	NPROP	Foreign=Yes	5	flat	_	Entity=person)|Orig=ⲥⲁⲣⲁⲡⲓ̇ⲟⲛ|OrigLang=grc
 7-8	ϫⲉⲁϫⲓ	_	_	_	_	_	_	_	_
 7	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	8	mark	_	_
 8	ⲁϫⲓ	ϫⲱ	VERB	VIMP	VerbForm=Fin	4	ccomp	_	Orig=ⲁ̇ϫⲓ̇
@@ -22,8 +22,8 @@
 13	.	.	PUNCT	PUNCT	_	4	punct	_	Orig=·
 
 # sent_id = coptic_treebank-AP_028_serapion_02_s0002
-# text = ⲡⲉϫⲉⲡϩⲗⲗⲟ ⲛⲁϥ ϫⲉⲉⲓⲛⲁϫⲉ ⲟⲩ ⲛⲁⲕ ϫⲉⲁⲕϥⲓ ⲛⲉⲛⲕⲁ ⲛⲛϩⲏⲕⲉ . ⲙⲛⲛⲉⲭⲏⲣⲁ ⲙⲛⲛⲟⲣⲫⲁⲛⲟⲥ .
 # text_en = ...
+# text = ⲡⲉϫⲉⲡϩⲗⲗⲟ ⲛⲁϥ ϫⲉⲉⲓⲛⲁϫⲉ ⲟⲩ ⲛⲁⲕ ϫⲉⲁⲕϥⲓ ⲛⲉⲛⲕⲁ ⲛⲛϩⲏⲕⲉ . ⲙⲛⲛⲉⲭⲏⲣⲁ ⲙⲛⲛⲟⲣⲫⲁⲛⲟⲥ .
 1-3	ⲡⲉϫⲉⲡϩⲗⲗⲟ	_	_	_	_	_	_	_	_
 1	ⲡⲉϫⲉ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	Orig=ⲡⲉϫⲉ̇̇
 2	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(person|Orig=ⲡ̇
@@ -57,16 +57,16 @@
 24-26	ⲙⲛⲛⲉⲭⲏⲣⲁ	_	_	_	_	_	_	_	_
 24	ⲙⲛ	ⲙⲛ	ADP	PREP	_	26	cc	_	Orig=ⲙⲛ̇
 25	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	26	det	_	Entity=(person
-26	ⲭⲏⲣⲁ	ⲭⲏⲣⲁ	NOUN	N	_	22	conj	_	Entity=person)
+26	ⲭⲏⲣⲁ	ⲭⲏⲣⲁ	NOUN	N	Foreign=Yes	22	conj	_	Entity=person)|OrigLang=grc
 27-29	ⲙⲛⲛⲟⲣⲫⲁⲛⲟⲥ	_	_	_	_	_	_	_	_
 27	ⲙⲛ	ⲙⲛ	ADP	PREP	_	29	cc	_	Orig=ⲙⲛ̇
 28	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	29	det	_	Entity=(person
-29	ⲟⲣⲫⲁⲛⲟⲥ	ⲟⲣⲫⲁⲛⲟⲥ	NOUN	N	_	22	conj	_	Entity=person)object)|Orig=ⲟⲣⲪⲁⲛⲟⲥ
+29	ⲟⲣⲫⲁⲛⲟⲥ	ⲟⲣⲫⲁⲛⲟⲥ	NOUN	N	Foreign=Yes	22	conj	_	Entity=person)object)|Orig=ⲟⲣⲪⲁⲛⲟⲥ|OrigLang=grc
 30	.	.	PUNCT	PUNCT	_	1	punct	_	Orig=·
 
 # sent_id = coptic_treebank-AP_028_serapion_02_s0003
-# text = ⲁⲕⲕⲁⲁⲩ ϩⲙⲡϣⲟⲩϣⲧ .
 # text_en = ...
+# text = ⲁⲕⲕⲁⲁⲩ ϩⲙⲡϣⲟⲩϣⲧ .
 1-4	ⲁⲕⲕⲁⲁⲩ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=ⲁ̇
 2	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -79,13 +79,13 @@
 8	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=·
 
 # sent_id = coptic_treebank-AP_028_serapion_02_s0004
-# text = ⲁϥⲛⲁⲩ ⲅⲁⲣ ⲉⲡϣⲟⲩϣⲧ ⲉϥⲙⲉϩ ⲛϫⲱⲱⲙⲉ .
 # text_en = ...
+# text = ⲁϥⲛⲁⲩ ⲅⲁⲣ ⲉⲡϣⲟⲩϣⲧ ⲉϥⲙⲉϩ ⲛϫⲱⲱⲙⲉ .
 1-3	ⲁϥⲛⲁⲩ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=ⲁ̇
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	VerbForm=Fin	0	root	_	_
-4	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	_	3	advmod	_	_
+4	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
 5-7	ⲉⲡϣⲟⲩϣⲧ	_	_	_	_	_	_	_	_
 5	ⲉ	ⲉ	ADP	PREP	_	7	case	_	Orig=ⲉ̣
 6	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(place

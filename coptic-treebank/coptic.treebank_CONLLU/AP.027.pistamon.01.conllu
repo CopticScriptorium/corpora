@@ -1,7 +1,7 @@
 # newdoc id = coptic.treebank:AP.027.pistamon.01
 # sent_id = coptic_treebank-AP_027_pistamon_01_s0001
-# text = ⲁ ⲟⲩⲁ ⲛⲛⲉⲥⲛⲏⲩ ϫⲛⲉⲁⲡⲁ ⲡⲁⲥⲧⲁⲙⲱⲛ ϫⲉⲟⲩ ⲡⲉ ϯⲛⲁⲁⲁϥ ϫⲉⲥⲉⲑⲗⲓⲃⲉ ⲙⲙⲟⲓ ⲉⲓϯ ⲙⲡⲁϩⲱⲃ ⲛϭⲓϫ ⲉⲃⲟⲗ .
 # text_en = ...
+# text = ⲁ ⲟⲩⲁ ⲛⲛⲉⲥⲛⲏⲩ ϫⲛⲉⲁⲡⲁ ⲡⲁⲥⲧⲁⲙⲱⲛ ϫⲉⲟⲩ ⲡⲉ ϯⲛⲁⲁⲁϥ ϫⲉⲥⲉⲑⲗⲓⲃⲉ ⲙⲙⲟⲓ ⲉⲓϯ ⲙⲡⲁϩⲱⲃ ⲛϭⲓϫ ⲉⲃⲟⲗ .
 1	ⲁ	ⲁ	AUX	APST	_	6	aux	_	Orig=Ⲁ
 2	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	6	nsubj	_	Entity=(person|Orig=ⲟⲩⲁ̇
 3-5	ⲛⲛⲉⲥⲛⲏⲩ	_	_	_	_	_	_	_	_
@@ -10,7 +10,7 @@
 5	ⲥⲛⲏⲩ	ⲥⲟⲛ	NOUN	N	_	2	nmod	_	Entity=person)person)
 6-7	ϫⲛⲉⲁⲡⲁ	_	_	_	_	_	_	_	_
 6	ϫⲛⲉ	ϫⲛⲟⲩ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϫ̇ⲛⲉ
-7	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	6	obj	_	Entity=(person|Orig=ⲁ̇ⲡⲁ
+7	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	6	obj	_	Entity=(person|Orig=ⲁ̇ⲡⲁ|OrigLang=he
 8	ⲡⲁⲥⲧⲁⲙⲱⲛ	ⲡⲁⲥⲧⲁⲙⲱⲛ	PROPN	NPROP	_	7	flat	_	Entity=person)|Orig=ⲡⲁ̇ⲥⲧⲁⲙⲱⲛ
 9-10	ϫⲉⲟⲩ	_	_	_	_	_	_	_	_
 9	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	10	mark	_	_
@@ -24,7 +24,7 @@
 16-18	ϫⲉⲥⲉⲑⲗⲓⲃⲉ	_	_	_	_	_	_	_	_
 16	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	18	mark	_	_
 17	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
-18	ⲑⲗⲓⲃⲉ	ⲑⲗⲓⲃⲉ	VERB	V	VerbForm=Fin	10	advcl	_	Orig=ⲑ̇ⲗⲓ̇ⲃⲉ
+18	ⲑⲗⲓⲃⲉ	ⲑⲗⲓⲃⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	10	advcl	_	Orig=ⲑ̇ⲗⲓ̇ⲃⲉ|OrigLang=grc
 19-20	ⲙⲙⲟⲓ	_	_	_	_	_	_	_	_
 19	ⲙⲙⲟ	ⲛ	ADP	PREP	_	20	case	_	Orig=ⲙ̇ⲙⲟ
 20	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	18	obj	_	Orig=ⲓ̇
@@ -43,8 +43,8 @@
 30	.	.	PUNCT	PUNCT	_	6	punct	_	Orig=·
 
 # sent_id = coptic_treebank-AP_027_pistamon_01_s0002
-# text = ⲁϥⲟⲩⲱϣⲃ ⲛϭⲓⲡϩⲗⲗⲟ ⲡⲉϫⲁϥ ϫⲉⲡⲕⲉ · ⲁⲡⲁ ϫⲓϫⲱⲓ · ⲙⲛⲡⲕⲉⲥⲉⲉⲡⲉ ϣⲁⲩϯⲡⲉⲩϩⲱⲃ ⲛϭⲓϫ ⲉⲃⲟⲗ . ⲡⲁⲓ ⲛⲟⲩⲟⲥⲉ ⲁⲛ ⲡⲉ .
 # text_en = ...
+# text = ⲁϥⲟⲩⲱϣⲃ ⲛϭⲓⲡϩⲗⲗⲟ ⲡⲉϫⲁϥ ϫⲉⲡⲕⲉ · ⲁⲡⲁ ϫⲓϫⲱⲓ · ⲙⲛⲡⲕⲉⲥⲉⲉⲡⲉ ϣⲁⲩϯⲡⲉⲩϩⲱⲃ ⲛϭⲓϫ ⲉⲃⲟⲗ . ⲡⲁⲓ ⲛⲟⲩⲟⲥⲉ ⲁⲛ ⲡⲉ .
 1-3	ⲁϥⲟⲩⲱϣⲃ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=Ⲁ
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -61,7 +61,7 @@
 10	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(person-Sisoes_the_Great|Orig=ⲡ̇
 11	ⲕⲉ	ⲕⲉ	NOUN	N	_	13	obl:npmod	_	_
 12	·	·	PUNCT	PUNCT	_	11	punct	_	_
-13	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	22	dislocated	_	Orig=ⲁ̇ⲡⲁ
+13	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	22	dislocated	_	Orig=ⲁ̇ⲡⲁ|OrigLang=he
 14	ϫⲓϫⲱⲓ	ϫⲓϫⲱⲓ	PROPN	NPROP	_	13	flat	_	Entity=person-Sisoes_the_Great)|Orig=ϫⲓ̇ϫⲱⲓ
 15	·	·	PUNCT	PUNCT	_	19	punct	_	_
 16-19	ⲙⲛⲡⲕⲉⲥⲉⲉⲡⲉ	_	_	_	_	_	_	_	_
@@ -90,12 +90,12 @@
 35	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=ⲻ
 
 # sent_id = coptic_treebank-AP_027_pistamon_01_s0003
-# text = ⲉⲕϣⲁⲛⲛⲟⲩ ⲇⲉ ⲉϯ ⲁϫⲓⲧϯⲙⲏ ⲛⲟⲩⲥⲟⲡ ⲛⲟⲩⲱⲧ ⲛⲧⲉⲡⲉⲓⲇⲟⲥ ⲉⲕϣⲁⲛⲟⲩⲱϣ ⲇⲉ ⲉⲕⲁ ⲟⲩⲕⲟⲩⲓ ⲉⲃⲟⲗ ϩⲛⲥⲟⲩⲛⲧϥ · ⲛⲧⲟⲕ ⲉⲧⲧⲱϣ . ⲧⲁⲓ ⲧⲉ ⲧϩⲉ ⲉⲧⲉⲕⲛⲁϭⲛⲙⲧⲟⲛ .
 # text_en = ...
+# text = ⲉⲕϣⲁⲛⲛⲟⲩ ⲇⲉ ⲉϯ ⲁϫⲓⲧϯⲙⲏ ⲛⲟⲩⲥⲟⲡ ⲛⲟⲩⲱⲧ ⲛⲧⲉⲡⲉⲓⲇⲟⲥ ⲉⲕϣⲁⲛⲟⲩⲱϣ ⲇⲉ ⲉⲕⲁ ⲟⲩⲕⲟⲩⲓ ⲉⲃⲟⲗ ϩⲛⲥⲟⲩⲛⲧϥ · ⲛⲧⲟⲕ ⲉⲧⲧⲱϣ . ⲧⲁⲓ ⲧⲉ ⲧϩⲉ ⲉⲧⲉⲕⲛⲁϭⲛⲙⲧⲟⲛ .
 1-2	ⲉⲕϣⲁⲛⲛⲟⲩ	_	_	_	_	_	_	_	_
 1	ⲉⲕϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟⲕ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	Orig=Ⲉⲕϣⲁⲛ
 2	ⲛⲟⲩ	ⲛⲟⲩ	VERB	V	VerbForm=Fin	6	advcl	_	_
-3	ⲇⲉ	ⲇⲉ	PART	PTC	_	2	advmod	_	_
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	2	advmod	_	OrigLang=grc
 4-5	ⲉϯ	_	_	_	_	_	_	_	_
 4	ⲉ	ⲉ	PART	PREP	_	5	mark	_	Orig=ⲉ̇
 5	ϯ	ϯ	VERB	V	VerbForm=Inf	2	xcomp	_	Orig=ϯ̇
@@ -113,11 +113,11 @@
 14-16	ⲛⲧⲉⲡⲉⲓⲇⲟⲥ	_	_	_	_	_	_	_	_
 14	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	16	case	_	_
 15	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	Entity=(object
-16	ⲉⲓⲇⲟⲥ	ⲉⲓⲇⲟⲥ	NOUN	N	_	8	nmod	_	Entity=object)abstract)|Orig=ⲓ̇ⲇⲟⲥ
+16	ⲉⲓⲇⲟⲥ	ⲉⲓⲇⲟⲥ	NOUN	N	Foreign=Yes	8	nmod	_	Entity=object)abstract)|Orig=ⲓ̇ⲇⲟⲥ|OrigLang=grc
 17-18	ⲉⲕϣⲁⲛⲟⲩⲱϣ	_	_	_	_	_	_	_	_
 17	ⲉⲕϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟⲕ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	18	nsubj	_	Orig=Ⲉⲕϣⲁⲛ
 18	ⲟⲩⲱϣ	ⲟⲩⲱϣ	VERB	V	VerbForm=Fin	29	advcl	_	Orig=ⲟⲩⲱ̇ϣ
-19	ⲇⲉ	ⲇⲉ	PART	PTC	_	18	advmod	_	_
+19	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	18	advmod	_	OrigLang=grc
 20-21	ⲉⲕⲁ	_	_	_	_	_	_	_	_
 20	ⲉ	ⲉ	PART	PREP	_	21	mark	_	Orig=ⲉ̇
 21	ⲕⲁ	ⲕⲱ	VERB	V	VerbForm=Inf	18	xcomp	_	_
@@ -148,8 +148,8 @@
 41	.	.	PUNCT	PUNCT	_	6	punct	_	Orig=·ⲻ
 
 # sent_id = coptic_treebank-AP_027_pistamon_01_s0004
-# text = ⲡⲉϫⲉ ⲡⲥⲟⲛ ⲛⲁϥ ϫⲉⲉϣⲱⲡⲉ ⲟⲩⲛⲧⲁⲓ ⲧⲁⲭⲣⲉⲓⲁ ⲙⲙⲁⲩ · ⲕⲟⲩⲱϣ ⲉⲧⲙⲧⲣⲁϥⲉⲓⲣⲟⲟⲩϣ ϩⲁϩⲱⲃ ⲛϭⲓϫ ·
 # text_en = ...
+# text = ⲡⲉϫⲉ ⲡⲥⲟⲛ ⲛⲁϥ ϫⲉⲉϣⲱⲡⲉ ⲟⲩⲛⲧⲁⲓ ⲧⲁⲭⲣⲉⲓⲁ ⲙⲙⲁⲩ · ⲕⲟⲩⲱϣ ⲉⲧⲙⲧⲣⲁϥⲉⲓⲣⲟⲟⲩϣ ϩⲁϩⲱⲃ ⲛϭⲓϫ ·
 1	ⲡⲉϫⲉ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	Orig=Ⲡⲉϫⲉ
 2-3	ⲡⲥⲟⲛ	_	_	_	_	_	_	_	_
 2	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(person|Orig=ⲡ̇
@@ -165,7 +165,7 @@
 9	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	8	iobj	_	Orig=ⲓ̇
 10-11	ⲧⲁⲭⲣⲉⲓⲁ	_	_	_	_	_	_	_	_
 10	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	11	det	_	Entity=(abstract
-11	ⲭⲣⲉⲓⲁ	ⲭⲣⲉⲓⲁ	NOUN	N	_	8	nsubj	_	Entity=abstract)|Orig=ⲭ̇ⲣⲓ̇ⲁ̇
+11	ⲭⲣⲉⲓⲁ	ⲭⲣⲉⲓⲁ	NOUN	N	Foreign=Yes	8	nsubj	_	Entity=abstract)|Orig=ⲭ̇ⲣⲓ̇ⲁ̇|OrigLang=grc
 12	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	8	advmod	_	Orig=ⲙ̇ⲙⲁⲩ
 13	·	·	PUNCT	PUNCT	_	8	punct	_	_
 14-15	ⲕⲟⲩⲱϣ	_	_	_	_	_	_	_	_
@@ -186,8 +186,8 @@
 25	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = coptic_treebank-AP_027_pistamon_01_s0005
-# text = ⲁϥⲟⲩⲱϣⲃ ⲛϭⲓⲡϩⲗⲗⲟ ϫⲉ ⲕⲁⲛ ⲟⲩⲛⲧⲁⲕ ϩⲱⲃ ⲛⲓⲙ ⲙⲡⲣⲕⲁ ⲡϩⲱⲃ ⲛϭⲓϫ ⲉⲃⲟⲗ ⲡⲉⲧⲉⲟⲩⲛϭⲟⲙ ⲙⲙⲟⲕ ⲉⲁⲁϥ ⲁⲣⲓϥ — ⲙⲱⲛⲟⲛ ϩⲛⲟⲩϣⲧⲟⲣⲧⲣ ⲁⲛ .
 # text_en = ...
+# text = ⲁϥⲟⲩⲱϣⲃ ⲛϭⲓⲡϩⲗⲗⲟ ϫⲉ ⲕⲁⲛ ⲟⲩⲛⲧⲁⲕ ϩⲱⲃ ⲛⲓⲙ ⲙⲡⲣⲕⲁ ⲡϩⲱⲃ ⲛϭⲓϫ ⲉⲃⲟⲗ ⲡⲉⲧⲉⲟⲩⲛϭⲟⲙ ⲙⲙⲟⲕ ⲉⲁⲁϥ ⲁⲣⲓϥ — ⲙⲱⲛⲟⲛ ϩⲛⲟⲩϣⲧⲟⲣⲧⲣ ⲁⲛ .
 1-3	ⲁϥⲟⲩⲱϣⲃ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=Ⲁ
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -197,7 +197,7 @@
 5	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(person|Orig=ⲡ̇
 6	ϩⲗⲗⲟ	ϩⲗⲗⲟ	NOUN	N	_	3	dislocated	_	Entity=person)
 7	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	14	mark	_	_
-8	ⲕⲁⲛ	ⲕⲁⲛ	CCONJ	CONJ	_	9	advmod	_	_
+8	ⲕⲁⲛ	ⲕⲁⲛ	CCONJ	CONJ	Foreign=Yes	9	advmod	_	OrigLang=grc
 9-10	ⲟⲩⲛⲧⲁⲕ	_	_	_	_	_	_	_	_
 9	ⲟⲩⲛⲧⲁ	ⲟⲩⲛⲧⲉ	VERB	EXIST	_	14	advcl	_	Orig=ⲟⲩⲛ̇ⲧⲁ
 10	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	iobj	_	_
@@ -229,7 +229,7 @@
 29	ⲁⲣⲓ	ⲉⲓⲣⲉ	VERB	VIMP	VerbForm=Fin	14	parataxis	_	Orig=ⲁ̇ⲣⲓ̈
 30	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
 31	—	—	PUNCT	PUNCT	_	35	punct	_	Orig=·
-32	ⲙⲱⲛⲟⲛ	ⲙⲱⲛⲟⲛ	ADV	ADV	_	35	advmod	_	_
+32	ⲙⲱⲛⲟⲛ	ⲙⲱⲛⲟⲛ	ADV	ADV	Foreign=Yes	35	advmod	_	OrigLang=grc
 33-35	ϩⲛⲟⲩϣⲧⲟⲣⲧⲣ	_	_	_	_	_	_	_	_
 33	ϩⲛ	ϩⲛ	ADP	PREP	_	35	case	_	Orig=ϩⲛ̇
 34	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	35	det	_	Entity=(abstract

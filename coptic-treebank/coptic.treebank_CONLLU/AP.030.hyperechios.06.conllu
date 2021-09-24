@@ -1,15 +1,15 @@
 # newdoc id = coptic.treebank:AP.030.hyperechios.06
 # sent_id = coptic_treebank-AP_030_hyperechios_06_s0001
-# text = ⲁϥϫⲟⲟⲥ ⲛϭⲓ ⲁⲡⲁ ϩⲩⲡⲉⲣⲉⲭⲓⲟⲥ ϫⲉⲡⲁϩⲟ ⲙ ⲡⲙⲟⲛⲁⲭⲟⲥ ⲡⲉ ⲧⲙϫⲡⲉⲗⲁⲁⲩ ⲛϩⲩⲗⲏ ⲛⲁϥ .
 # text_en = Apa Hyperechios said, 'The monk's treasure is not having any material things.
+# text = ⲁϥϫⲟⲟⲥ ⲛϭⲓ ⲁⲡⲁ ϩⲩⲡⲉⲣⲉⲭⲓⲟⲥ ϫⲉⲡⲁϩⲟ ⲙ ⲡⲙⲟⲛⲁⲭⲟⲥ ⲡⲉ ⲧⲙϫⲡⲉⲗⲁⲁⲩ ⲛϩⲩⲗⲏ ⲛⲁϥ .
 1-4	ⲁϥϫⲟⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=Ⲁ
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	ϫⲟⲟ	ϫⲱ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϫⲟⲟ̇
 4	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 5	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	6	case	_	Orig=ⲛ̇ϭⲓ̇
-6	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	_	3	dislocated	_	Entity=(person|Orig=ⲁ̇ⲡⲁ
-7	ϩⲩⲡⲉⲣⲉⲭⲓⲟⲥ	ϩⲩⲡⲉⲣⲉⲭⲓⲟⲥ	PROPN	NPROP	_	6	flat	_	Entity=person)|Orig=ϩⲩⲡⲉⲣⲉⲭⲓ̇ⲟⲥ
+6	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	3	dislocated	_	Entity=(person|Orig=ⲁ̇ⲡⲁ|OrigLang=he
+7	ϩⲩⲡⲉⲣⲉⲭⲓⲟⲥ	ϩⲩⲡⲉⲣⲉⲭⲓⲟⲥ	PROPN	NPROP	Foreign=Yes	6	flat	_	Entity=person)|Orig=ϩⲩⲡⲉⲣⲉⲭⲓ̇ⲟⲥ|OrigLang=grc
 8-10	ϫⲉⲡⲁϩⲟ	_	_	_	_	_	_	_	_
 8	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	9	mark	_	_
 9	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(abstract
@@ -17,7 +17,7 @@
 11	ⲙ	ⲛ	ADP	PREP	_	13	case	_	Orig=ⲙ̇
 12-13	ⲡⲙⲟⲛⲁⲭⲟⲥ	_	_	_	_	_	_	_	_
 12	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Entity=(person|Orig=ⲡ̇
-13	ⲙⲟⲛⲁⲭⲟⲥ	ⲙⲟⲛⲁⲭⲟⲥ	NOUN	N	_	10	nmod	_	Entity=person)abstract)
+13	ⲙⲟⲛⲁⲭⲟⲥ	ⲙⲟⲛⲁⲭⲟⲥ	NOUN	N	Foreign=Yes	10	nmod	_	Entity=person)abstract)|OrigLang=grc
 14	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	10	cop	_	Orig=ⲡⲉ̇
 15-17	ⲧⲙϫⲡⲉⲗⲁⲁⲩ	_	_	_	_	_	_	_	_
 15	ⲧⲙ	ⲧⲙ	ADV	NEG	Polarity=Neg	16	advmod	_	_
@@ -25,15 +25,15 @@
 17	ⲗⲁⲁⲩ	ⲗⲁⲁⲩ	NOUN	N	_	16	obj	_	Entity=(abstract|Orig=ⲖⲁⲁⲨ
 18-19	ⲛϩⲩⲗⲏ	_	_	_	_	_	_	_	_
 18	ⲛ	ⲛ	ADP	PREP	_	19	case	_	Orig=ⲛ̇
-19	ϩⲩⲗⲏ	ϩⲩⲗⲏ	NOUN	N	_	17	nmod	_	Entity=abstract)|Orig=ϩⲨⲗⲏ
+19	ϩⲩⲗⲏ	ϩⲩⲗⲏ	NOUN	N	Foreign=Yes	17	nmod	_	Entity=abstract)|Orig=ϩⲨⲗⲏ|OrigLang=grc
 20-21	ⲛⲁϥ	_	_	_	_	_	_	_	_
 20	ⲛⲁ	ⲛⲁ	ADP	PREP	_	21	case	_	_
 21	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
 22	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=·
 
 # sent_id = coptic_treebank-AP_030_hyperechios_06_s0002
-# text = ⲱⲧⲡ ⲛⲁⲕ ⲉϩⲟⲩⲛ · ⲁⲩⲱ ⲛⲅⲥⲱⲟⲩϩ ⲛⲁⲕ ⲉϩⲟⲩⲛ ϩⲛⲙⲡⲏⲩⲉ ·
 # text_en = Store and gather for yourself in heaven,
+# text = ⲱⲧⲡ ⲛⲁⲕ ⲉϩⲟⲩⲛ · ⲁⲩⲱ ⲛⲅⲥⲱⲟⲩϩ ⲛⲁⲕ ⲉϩⲟⲩⲛ ϩⲛⲙⲡⲏⲩⲉ ·
 1	ⲱⲧⲡ	ⲱⲧⲡ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲱ̇ⲧⲡ̇
 2-3	ⲛⲁⲕ	_	_	_	_	_	_	_	_
 2	ⲛⲁ	ⲛⲁ	ADP	PREP	_	3	case	_	_
@@ -51,17 +51,17 @@
 12	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	9	advmod	_	Orig=ⲉ̇ϩⲟⲩⲛ
 13-15	ϩⲛⲙⲡⲏⲩⲉ	_	_	_	_	_	_	_	_
 13	ϩⲛ	ϩⲛ	ADP	PREP	_	15	case	_	Orig=ϩⲛ̇
-14	ⲙ	ⲡ	DET	ART	_	15	det	_	Entity=(place|Orig=ⲙ̇
+14	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	15	det	_	Entity=(place|Orig=ⲙ̇
 15	ⲡⲏⲩⲉ	ⲡⲉ	NOUN	N	_	9	obl	_	Entity=place)
 16	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = coptic_treebank-AP_030_hyperechios_06_s0003
-# text = ⲟⲩⲁⲧⲟⲩⲱ ⲅⲁⲣ ⲛⲁⲕ ⲡⲉ ⲡⲙⲧⲟⲛ ⲛϣⲁ ⲉⲛⲉϩ .
 # text_en = for there is unceasing rest for you forever.'
+# text = ⲟⲩⲁⲧⲟⲩⲱ ⲅⲁⲣ ⲛⲁⲕ ⲡⲉ ⲡⲙⲧⲟⲛ ⲛϣⲁ ⲉⲛⲉϩ .
 1-2	ⲟⲩⲁⲧⲟⲩⲱ	_	_	_	_	_	_	_	_
 1	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	2	det	_	Entity=(abstract|Orig=Ⲟⲩ
 2	ⲁⲧⲟⲩⲱ	ⲁⲧⲟⲩⲱ	NOUN	N	_	0	root	_	Entity=abstract)|Morphs=ⲁⲧ-ⲟⲩⲱ|Orig=ⲁ̇ⲧⲟⲩⲱ̇
-3	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	_	2	advmod	_	_
+3	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	2	advmod	_	OrigLang=grc
 4-5	ⲛⲁⲕ	_	_	_	_	_	_	_	_
 4	ⲛⲁ	ⲛⲁ	ADP	PREP	_	5	case	_	_
 5	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	2	obl	_	_
