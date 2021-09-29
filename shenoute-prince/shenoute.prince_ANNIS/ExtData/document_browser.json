@@ -1,0 +1,32 @@
+{
+    "visualizers": [
+        {
+          "type"  : "htmldoc", 
+          "displayName" :  "diplomatic text (document)", 
+          "mappings" : "config:dipl"
+        },
+        {
+          "type"  : "htmldoc", 
+          "displayName" :  "linguistic analysis (document)", 
+          "mappings" : "config:analytic"
+        },
+        {
+          "type"  : "htmldoc", 
+          "displayName" :  "normalized text (document)", 
+          "mappings" : "config:verses"
+        }
+    ],
+     "metaDataColumns" : [
+        {
+            "name" : "title"
+        },
+        {
+            "name" : "msName"
+        }
+    ],
+    "orderBy" : [
+        {
+            "name" :"title",
+            "ascending" : "true"}
+    ]
+}

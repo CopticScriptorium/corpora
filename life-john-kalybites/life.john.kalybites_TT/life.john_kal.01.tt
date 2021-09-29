@@ -8,7 +8,7 @@
 <orig_group orig_group="▢">
 <norm_group norm_group="▢">
 <orig orig="▢">
-<norm xml:id="u1" func="root" new_sent="true" pos="PUNCT" lemma="▢" norm="▢">
+<norm xml:id="u1" func="punct" new_sent="true" pos="PUNCT" lemma="▢" norm="▢">
 ▢
 </norm>
 </orig>
@@ -95,7 +95,7 @@
 </norm>
 </orig>
 <orig orig="ⲘⲞⲚⲞⲬⲞⲤ">
-<norm xml:id="u11" func="appos" head="#u9" pos="N" lemma="ⲙⲟⲛⲁⲭⲟⲥ" norm="ⲙⲟⲛⲁⲭⲟⲥ">
+<norm xml:id="u11" func="appos" head="#u8" pos="N" lemma="ⲙⲟⲛⲁⲭⲟⲥ" norm="ⲙⲟⲛⲁⲭⲟⲥ">
 <lang lang="Greek">
 ⲘⲞⲚⲞⲬⲞⲤ
 </lang>
@@ -122,7 +122,7 @@
 <orig_group orig_group="ⲠⲀⲒ">
 <norm_group norm_group="ⲡⲁⲓ">
 <orig orig="ⲠⲀⲒ">
-<norm xml:id="u14" func="appos" head="#u11" pos="PDEM" lemma="ⲡⲁⲓ" norm="ⲡⲁⲓ">
+<norm xml:id="u14" func="appos" head="#u8" pos="PDEM" lemma="ⲡⲁⲓ" norm="ⲡⲁⲓ">
 ⲠⲀⲒ
 </norm>
 </orig>
@@ -231,12 +231,13 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="AND WHO ENDED HIS LIFE, WITH THE MOST EXCELLENT PATIENT ENDURANCE, ON THE FOURTH DAY OF THE MONTH MEKHIR, IN THE PEACE OF GOD. PRAY FOR US ALL! AMEN.">
 <orig_group orig_group="ⲈⲀϤϪⲰⲔ">
 <norm_group norm_group="ⲉⲁϥϫⲱⲕ">
+<multiword multiword="ⲉ ⲁ">
 <orig orig="Ⲉ">
 <norm xml:id="u28" func="mark" head="#u31" new_sent="true" pos="CFOC" lemma="ⲉⲣⲉ" norm="ⲉ">
 Ⲉ
@@ -247,6 +248,7 @@
 Ⲁ
 </norm>
 </orig>
+</multiword>
 <orig orig="Ϥ">
 <norm xml:id="u30" func="nsubj" head="#u31" pos="PPERS" lemma="ⲛⲧⲟϥ" norm="ϥ">
 Ϥ
@@ -403,7 +405,7 @@
 </orig>
 <entity head_tok="#u50" text="ⲥⲟⲩϥⲧⲟⲟⲩ ⲙ ⲡ ⲉⲃⲟⲧ · ⲙϣⲓⲣ" entity="time">
 <orig orig="ⲤⲞⲨϤⲦⲞⲞⲨ">
-<norm xml:id="u50" func="obl" head="#u31" pos="NUM" lemma="ⲥⲟⲩϥⲧⲟⲟⲩ" norm="ⲥⲟⲩϥⲧⲟⲟⲩ">
+<norm xml:id="u50" func="nmod" head="#u44" pos="NUM" lemma="ⲥⲟⲩϥⲧⲟⲟⲩ" norm="ⲥⲟⲩϥⲧⲟⲟⲩ">
 <morph morph="ⲥⲟⲩ">
 ⲤⲞⲨ
 </morph>
@@ -448,7 +450,7 @@
 <orig_group orig_group="ⲘⲈⲬⲒⲢ">
 <norm_group norm_group="ⲙϣⲓⲣ">
 <orig orig="ⲘⲈⲬⲒⲢ">
-<norm xml:id="u55" func="mark" head="#u62" pos="NPROP" lemma="ⲙϣⲓⲣ" norm="ⲙϣⲓⲣ">
+<norm xml:id="u55" func="appos" head="#u53" pos="NPROP" lemma="ⲙϣⲓⲣ" norm="ⲙϣⲓⲣ">
 ⲘⲈⲬⲒⲢ
 </norm>
 </orig>
@@ -470,7 +472,7 @@
 </norm>
 </orig>
 <orig orig="ⲈⲒⲢⲎⲚⲎ">
-<norm xml:id="u58" func="nsubj" head="#u62" pos="N" lemma="ⲉⲓⲣⲏⲛⲏ" norm="ⲉⲓⲣⲏⲛⲏ">
+<norm xml:id="u58" func="obl" head="#u62" pos="N" lemma="ⲉⲓⲣⲏⲛⲏ" norm="ⲉⲓⲣⲏⲛⲏ">
 <lang lang="Greek">
 ⲈⲒⲢⲎⲚⲎ
 </lang>
@@ -560,8 +562,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="2">
 <verse_n verse_n="1">
@@ -595,7 +597,7 @@
 <orig_group orig_group="ⲅⲁⲣ">
 <norm_group norm_group="ⲅⲁⲣ">
 <orig orig="ⲅⲁⲣ">
-<norm xml:id="u72" func="advmod" head="#u77" pos="PTC" lemma="ⲅⲁⲣ" norm="ⲅⲁⲣ">
+<norm xml:id="u72" func="advmod" head="#u93" pos="PTC" lemma="ⲅⲁⲣ" norm="ⲅⲁⲣ">
 <lang lang="Greek">
 ⲅⲁⲣ
 </lang>
@@ -774,7 +776,7 @@
 </norm>
 </orig>
 <orig orig="ϥ">
-<norm xml:id="u95" func="obl" head="#u93" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
+<norm xml:id="u95" func="obj" head="#u93" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
 ϥ
 </norm>
 </orig>
@@ -798,7 +800,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲱⲡⲉ">
-<norm xml:id="u99" func="advcl" head="#u93" pos="V" lemma="ϣⲱⲡⲉ" norm="ϣⲱⲡⲉ">
+<norm xml:id="u99" func="acl" head="#u93" pos="V" lemma="ϣⲱⲡⲉ" norm="ϣⲱⲡⲉ">
 ϣⲱⲡⲉ
 </norm>
 </orig>
@@ -836,8 +838,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="This man lived in the city of Rome, and he was exceedingly rich;">
 <orig_group orig_group="ⲡⲁⲓ">
@@ -921,7 +923,7 @@
 <orig_group orig_group="ϩⲣⲱⲙⲏ">
 <norm_group norm_group="ϩⲣⲱⲙⲏ">
 <orig orig="ϩⲣⲱⲙⲏ">
-<norm xml:id="u114" func="cop" head="#u116" pos="NPROP" lemma="ϩⲣⲱⲙⲏ" norm="ϩⲣⲱⲙⲏ">
+<norm xml:id="u114" func="nsubj" head="#u116" pos="NPROP" lemma="ϩⲣⲱⲙⲏ" norm="ϩⲣⲱⲙⲏ">
 <lang lang="Greek">
 ϩⲣⲱⲙⲏ
 </lang>
@@ -982,8 +984,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="he was the Archon of the city.">
 <orig_group orig_group="ⲛ̅ⲧⲟϥ">
@@ -1056,8 +1058,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="4">
 <translation translation="His name was Eutropius,">
 <orig_group orig_group="ⲡϥ̅ⲣⲁⲛ">
@@ -1107,8 +1109,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 </ed_line_n>
 <verse_n verse_n="5">
 <translation translation="and the name of his wife was Theodora; and both of them had been worshippers of God from their youth up.">
@@ -1248,7 +1250,7 @@
 </norm>
 </orig>
 <orig orig="ⲥⲛⲁⲩ">
-<norm xml:id="u149" func="obl" head="#u144" pos="N" lemma="ⲥⲛⲁⲩ" norm="ⲥⲛⲁⲩ">
+<norm xml:id="u149" func="nmod" head="#u146" pos="N" lemma="ⲥⲛⲁⲩ" norm="ⲥⲛⲁⲩ">
 ⲥⲛⲁⲩ
 </norm>
 </orig>
@@ -1292,8 +1294,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="3">
 <ed_line_n ed_line_n="18">
@@ -1383,8 +1385,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="Now two of these had been appointed to high positions in the Palace of the Emperors,">
 <orig_group orig_group="ⲡⲉⲥⲛⲁⲩ">
@@ -1553,8 +1555,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="and the youngest had been sent to receive instruction in the works of God.">
 <ed_line_n ed_line_n="21">
@@ -1577,7 +1579,7 @@
 <orig_group orig_group="ϩⲱⲱϥ">
 <norm_group norm_group="ϩⲱⲱϥ">
 <orig orig="ϩⲱⲱ">
-<norm xml:id="u187" func="advmod" head="#u191" pos="IMOD" lemma="ϩⲱⲱ" norm="ϩⲱⲱ">
+<norm xml:id="u187" func="advmod" head="#u186" pos="IMOD" lemma="ϩⲱⲱ" norm="ϩⲱⲱ">
 ϩⲱⲱ
 </norm>
 </orig>
@@ -1694,8 +1696,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="4">
 <translation translation="And after these things he learned the teachings of the wise men, and associated with them.">
 <orig_group orig_group="ⲙⲛ̅ⲛ̅ⲥⲁⲛⲁⲓ">
@@ -1779,7 +1781,7 @@
 </norm>
 </orig>
 <orig orig="ⲥⲭⲟⲗⲁⲥϯⲕⲟⲥ">
-<norm xml:id="u215" func="obl" head="#u212" pos="N" lemma="ⲥⲭⲟⲗⲁⲥⲧⲓⲕⲟⲥ" norm="ⲥⲭⲟⲗⲁⲥⲧⲓⲕⲟⲥ">
+<norm xml:id="u215" func="obj" head="#u212" pos="N" lemma="ⲥⲭⲟⲗⲁⲥⲧⲓⲕⲟⲥ" norm="ⲥⲭⲟⲗⲁⲥⲧⲓⲕⲟⲥ">
 <lang lang="Greek">
 ⲥⲭⲟⲗⲁⲥϯⲕⲟⲥ
 </lang>
@@ -1856,12 +1858,11 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="5">
 <translation translation="Moreover he learned the works of God, and attached himself to the church, making enquiries concerning God by day and by night.">
 <ed_line_n ed_line_n="24">
-<multiword multiword="ⲡⲁⲗⲓⲛ ⲟⲛ">
 <orig_group orig_group="ⲡⲁⲗⲓⲛ">
 <norm_group norm_group="ⲡⲁⲗⲓⲛ">
 <orig orig="ⲡⲁⲗⲓⲛ">
@@ -1882,7 +1883,6 @@
 </orig>
 </norm_group>
 </orig_group>
-</multiword>
 <orig_group orig_group="·">
 <norm_group norm_group="·">
 <orig orig="·">
@@ -1977,7 +1977,7 @@
 </norm>
 </orig>
 <orig orig="ⲙⲏⲣ">
-<norm xml:id="u240" func="conj" head="#u230" pos="VSTAT" lemma="ⲙⲟⲩⲣ" norm="ⲙⲏⲣ">
+<norm xml:id="u240" func="advcl" head="#u230" pos="VSTAT" lemma="ⲙⲟⲩⲣ" norm="ⲙⲏⲣ">
 ⲙⲏⲣ
 </norm>
 </orig>
@@ -2111,8 +2111,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 </ed_page_n>
 <ed_page_n ed_page_n="2">
@@ -2172,7 +2172,7 @@
 </norm>
 </orig>
 <orig orig="ϩⲟⲟⲩ">
-<norm xml:id="u264" func="nmod" head="#u259" pos="N" lemma="ϩⲟⲟⲩ" norm="ϩⲟⲟⲩ">
+<norm xml:id="u264" func="obl" head="#u267" pos="N" lemma="ϩⲟⲟⲩ" norm="ϩⲟⲟⲩ">
 ϩⲟⲟⲩ
 </norm>
 </orig>
@@ -2208,7 +2208,7 @@
 </norm>
 </orig>
 <orig orig="ϥ">
-<norm xml:id="u269" func="obl" head="#u267" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
+<norm xml:id="u269" func="obj" head="#u267" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
 ϥ
 </norm>
 </orig>
@@ -2266,7 +2266,7 @@
 </norm>
 </orig>
 <orig orig="ⲙⲟⲩⲛⲏ">
-<norm xml:id="u277" func="nmod" head="#u272" pos="N" lemma="ⲙⲟⲛⲏ" norm="ⲙⲟⲛⲏ">
+<norm xml:id="u277" func="obl" head="#u267" pos="N" lemma="ⲙⲟⲛⲏ" norm="ⲙⲟⲛⲏ">
 <lang lang="Greek">
 ⲙⲟⲩⲛⲏ
 </lang>
@@ -2459,7 +2459,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲗⲏⲗ">
-<norm xml:id="u303" func="conj" head="#u297" pos="V" lemma="ϣⲗⲏⲗ" norm="ϣⲗⲏⲗ">
+<norm xml:id="u303" func="xcomp" head="#u297" pos="V" lemma="ϣⲗⲏⲗ" norm="ϣⲗⲏⲗ">
 ϣⲗⲏⲗ
 </norm>
 </orig>
@@ -2512,9 +2512,9 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
-</translation>
 </chapter_n>
+</translation>
+</verse_n>
 <chapter_n chapter_n="5">
 <verse_n verse_n="1">
 <translation translation="And this monk spake unto John inside his house with the words of God,">
@@ -2593,7 +2593,7 @@
 </norm>
 </orig>
 <orig orig="ⲏⲓ">
-<norm xml:id="u319" func="nmod" head="#u316" pos="N" lemma="ⲏⲓ" norm="ⲏⲓ">
+<norm xml:id="u319" func="obl" head="#u314" pos="N" lemma="ⲏⲓ" norm="ⲏⲓ">
 ⲏⲓ
 </norm>
 </orig>
@@ -2662,8 +2662,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="and John marvelled exceedingly when he saw the monkish brother, and his garb, and perceived his pleasant manner of speech, and his internal thought about God, which was like fire.">
 <orig_group orig_group="ⲁϥⲣϣⲡⲏⲣⲉ">
@@ -2753,7 +2753,7 @@
 </norm>
 </orig>
 <orig orig="ⲛⲁⲩ">
-<norm xml:id="u339" func="parataxis" head="#u330" pos="V" lemma="ⲛⲁⲩ" norm="ⲛⲁⲩ">
+<norm xml:id="u339" func="advcl" head="#u330" pos="V" lemma="ⲛⲁⲩ" norm="ⲛⲁⲩ">
 ⲛⲁⲩ
 </norm>
 </orig>
@@ -2872,7 +2872,7 @@
 <orig_group orig_group="ⲙⲛ̅ⲛϥ̅ⲙⲉⲉⲩⲉ">
 <norm_group norm_group="ⲙⲛⲛⲉϥⲙⲉⲉⲩⲉ">
 <orig orig="ⲙⲛ̅">
-<norm xml:id="u354" func="cc" head="#u356" pos="PREP" lemma="ⲙⲛ" norm="ⲙⲛ">
+<norm xml:id="u354" func="case" head="#u356" pos="PREP" lemma="ⲙⲛ" norm="ⲙⲛ">
 ⲙⲛ̅
 </norm>
 </orig>
@@ -2883,7 +2883,7 @@
 </norm>
 </orig>
 <orig orig="ⲙⲉⲉⲩⲉ">
-<norm xml:id="u356" func="conj" head="#u342" pos="N" lemma="ⲙⲉⲉⲩⲉ" norm="ⲙⲉⲉⲩⲉ">
+<norm xml:id="u356" func="conj" head="#u347" pos="N" lemma="ⲙⲉⲉⲩⲉ" norm="ⲙⲉⲉⲩⲉ">
 ⲙⲉⲉⲩⲉ
 </norm>
 </orig>
@@ -2925,7 +2925,7 @@
 </norm>
 </orig>
 <orig orig="ⲛⲟⲩⲧⲉ">
-<norm xml:id="u361" func="obl" head="#u339" pos="N" lemma="ⲛⲟⲩⲧⲉ" norm="ⲛⲟⲩⲧⲉ">
+<norm xml:id="u361" func="obl" head="#u356" pos="N" lemma="ⲛⲟⲩⲧⲉ" norm="ⲛⲟⲩⲧⲉ">
 ⲛⲟⲩⲧⲉ
 </norm>
 </orig>
@@ -2944,7 +2944,7 @@
 </norm>
 </orig>
 <orig orig="ⲉ">
-<norm xml:id="u364" func="obl" head="#u353" pos="N" lemma="ϩⲉ" norm="ϩⲉ">
+<norm xml:id="u364" func="nmod" head="#u361" pos="N" lemma="ϩⲉ" norm="ϩⲉ">
 ⲉ
 </norm>
 </orig>
@@ -2982,8 +2982,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <verse_n verse_n="1">
 <translation translation="And John said, 'My lord father, what is thy native place, or where is thy monastery?'">
@@ -3019,7 +3019,7 @@
 <orig_group orig_group="ϫⲉⲡⲁϫⲟⲉⲓⲥ">
 <norm_group norm_group="ϫⲉⲡⲁϫⲟⲉⲓⲥ">
 <orig orig="ϫⲉ">
-<norm xml:id="u372" func="mark" head="#u376" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
+<norm xml:id="u372" func="mark" head="#u379" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
 ϫⲉ
 </norm>
 </orig>
@@ -3028,9 +3028,9 @@
 ⲡⲁ
 </norm>
 </orig>
-<entity head_tok="#u376" text="ϫⲟⲉⲓⲥ ⲛ ⲉⲓⲱⲧ" entity="person">
+<entity head_tok="#u374" text="ϫⲟⲉⲓⲥ ⲛ ⲉⲓⲱⲧ" entity="person">
 <orig orig="ϫⲟⲉⲓⲥ">
-<norm xml:id="u374" func="nsubj" head="#u376" pos="N" lemma="ϫⲟⲉⲓⲥ" norm="ϫⲟⲉⲓⲥ">
+<norm xml:id="u374" func="vocative" head="#u379" pos="N" lemma="ϫⲟⲉⲓⲥ" norm="ϫⲟⲉⲓⲥ">
 ϫⲟⲉⲓⲥ
 </norm>
 </orig>
@@ -3044,7 +3044,7 @@
 </norm>
 </orig>
 <orig orig="ⲉⲓ̈ⲱⲧ">
-<norm xml:id="u376" func="ccomp" head="#u369" pos="N" lemma="ⲉⲓⲱⲧ" norm="ⲉⲓⲱⲧ">
+<norm xml:id="u376" func="nmod" head="#u374" pos="N" lemma="ⲉⲓⲱⲧ" norm="ⲉⲓⲱⲧ">
 ⲉⲓ̈ⲱⲧ
 </norm>
 </orig>
@@ -3054,7 +3054,7 @@
 <orig_group orig_group="ⲛ̅ⲧⲟⲕ">
 <norm_group norm_group="ⲛⲧⲟⲕ">
 <orig orig="ⲛ̅ⲧⲟⲕ">
-<norm xml:id="u377" func="nsubj" head="#u376" pos="PPERI" lemma="ⲛⲧⲟⲕ" norm="ⲛⲧⲟⲕ">
+<norm xml:id="u377" func="dislocated" head="#u379" pos="PPERI" lemma="ⲛⲧⲟⲕ" norm="ⲛⲧⲟⲕ">
 ⲛ̅ⲧⲟⲕ
 </norm>
 </orig>
@@ -3070,7 +3070,7 @@
 </ed_line_n>
 <ed_line_n ed_line_n="12">
 <orig orig="ⲧⲱⲛ">
-<norm xml:id="u379" func="nmod" head="#u376" pos="PINT" lemma="ⲧⲱⲛ" norm="ⲧⲱⲛ">
+<norm xml:id="u379" func="ccomp" head="#u369" pos="PINT" lemma="ⲧⲱⲛ" norm="ⲧⲱⲛ">
 ⲧⲱⲛ
 </norm>
 </orig>
@@ -3110,7 +3110,7 @@
 </norm>
 </orig>
 <orig orig="ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ">
-<norm xml:id="u384" func="nsubj" head="#u379" pos="N" lemma="ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ" norm="ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ">
+<norm xml:id="u384" func="conj" head="#u379" pos="N" lemma="ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ" norm="ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ">
 <lang lang="Greek">
 ⲙⲟⲛⲁⲥⲧⲏⲣⲓⲟⲛ
 </lang>
@@ -3131,7 +3131,7 @@
 <orig_group orig_group="ⲏ">
 <norm_group norm_group="ⲏ">
 <orig orig="ⲏ">
-<norm xml:id="u386" func="cc" head="#u390" pos="CONJ" lemma="ⲏ" norm="ⲏ">
+<norm xml:id="u386" func="cc" head="#u389" pos="CONJ" lemma="ⲏ" norm="ⲏ">
 <lang lang="Greek">
 ⲏ
 </lang>
@@ -3170,7 +3170,7 @@
 <orig_group orig_group="ⲧⲱⲛ">
 <norm_group norm_group="ⲧⲱⲛ">
 <orig orig="ⲧⲱⲛ">
-<norm xml:id="u390" func="conj" head="#u384" pos="PINT" lemma="ⲧⲱⲛ" norm="ⲧⲱⲛ">
+<norm xml:id="u390" func="conj" head="#u379" pos="PINT" lemma="ⲧⲱⲛ" norm="ⲧⲱⲛ">
 ⲧⲱⲛ
 </norm>
 </orig>
@@ -3186,9 +3186,9 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
-</translation>
 </chapter_n>
+</translation>
+</verse_n>
 <chapter_n chapter_n="7">
 <verse_n verse_n="1">
 <translation translation="The monkish brother said unto him, 'I live in the Monastery of the Sleepless Ones.'">
@@ -3221,7 +3221,7 @@
 </norm>
 </orig>
 <orig orig="ⲙⲟⲛⲟⲭⲟⲥ">
-<norm xml:id="u396" func="obl" head="#u392" pos="N" lemma="ⲙⲟⲛⲁⲭⲟⲥ" norm="ⲙⲟⲛⲁⲭⲟⲥ">
+<norm xml:id="u396" func="nmod" head="#u394" pos="N" lemma="ⲙⲟⲛⲁⲭⲟⲥ" norm="ⲙⲟⲛⲁⲭⲟⲥ">
 <lang lang="Greek">
 ⲙⲟⲛⲟⲭⲟⲥ
 </lang>
@@ -3247,12 +3247,12 @@
 <orig_group orig_group="ϫⲉⲁⲛⲟⲕ">
 <norm_group norm_group="ϫⲉⲁⲛⲟⲕ">
 <orig orig="ϫⲉ">
-<norm xml:id="u399" func="mark" head="#u400" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
+<norm xml:id="u399" func="mark" head="#u403" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
 ϫⲉ
 </norm>
 </orig>
 <orig orig="ⲁⲛⲟⲕ">
-<norm xml:id="u400" func="ccomp" head="#u392" pos="PPERI" lemma="ⲁⲛⲟⲕ" norm="ⲁⲛⲟⲕ">
+<norm xml:id="u400" func="dislocated" head="#u403" pos="PPERI" lemma="ⲁⲛⲟⲕ" norm="ⲁⲛⲟⲕ">
 ⲁⲛⲟⲕ
 </norm>
 </orig>
@@ -3271,7 +3271,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲟⲟⲡ">
-<norm xml:id="u403" func="advcl" head="#u400" pos="VSTAT" lemma="ϣⲱⲡⲉ" norm="ϣⲟⲟⲡ">
+<norm xml:id="u403" func="ccomp" head="#u392" pos="VSTAT" lemma="ϣⲱⲡⲉ" norm="ϣⲟⲟⲡ">
 ϣⲟⲟⲡ
 </norm>
 </orig>
@@ -3347,8 +3347,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="And if God pleaseth I wish to go to Jerusalem so that I may pray there in the Holy Place, and, by the will of God, I will return again to my place.">
 <orig_group orig_group="ⲁⲩⲱ">
@@ -3476,7 +3476,7 @@
 </orig>
 <entity head_tok="#u431" text="ϣⲗⲏⲗ" entity="abstract">
 <orig orig="ϣⲗⲏⲗ">
-<norm xml:id="u431" func="advcl" head="#u418" pos="V" lemma="ϣⲗⲏⲗ" norm="ϣⲗⲏⲗ">
+<norm xml:id="u431" func="advcl" head="#u423" pos="V" lemma="ϣⲗⲏⲗ" norm="ϣⲗⲏⲗ">
 ϣⲗⲏⲗ
 </norm>
 </orig>
@@ -3676,8 +3676,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="And the monk informed him concerning everything about which John enquired of him.">
 <orig_group orig_group="ⲁⲩⲱ">
@@ -3820,8 +3820,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="8">
 <verse_n verse_n="1">
@@ -4043,8 +4043,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="and he made him to swear great oaths, saying unto him, 'My beloved brother, when thou hast gone to Jerusalem, and hast returned in peace, thou shalt not hide thyself from me,">
 <ed_line_n ed_line_n="23">
@@ -4115,7 +4115,7 @@
 </norm>
 </orig>
 <orig orig="ⲁϣ">
-<norm xml:id="u515" func="obl" head="#u508" pos="PINT" lemma="ⲁϣ" norm="ⲁϣ">
+<norm xml:id="u515" func="dislocated" head="#u508" pos="PINT" lemma="ⲁϣ" norm="ⲁϣ">
 ⲁϣ
 </norm>
 </orig>
@@ -4173,7 +4173,7 @@
 <orig_group orig_group="ϫⲉⲉⲕϣⲁⲛⲃⲱⲕ">
 <norm_group norm_group="ϫⲉⲉⲕϣⲁⲛⲃⲱⲕ">
 <orig orig="ϫⲉ">
-<norm xml:id="u523" func="mark" head="#u525" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
+<norm xml:id="u523" func="mark" head="#u541" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
 ϫⲉ
 </norm>
 </orig>
@@ -4183,7 +4183,7 @@
 </norm>
 </orig>
 <orig orig="ⲃⲱⲕ">
-<norm xml:id="u525" func="ccomp" head="#u518" pos="V" lemma="ⲃⲱⲕ" norm="ⲃⲱⲕ">
+<norm xml:id="u525" func="advcl" head="#u541" pos="V" lemma="ⲃⲱⲕ" norm="ⲃⲱⲕ">
 ⲃⲱⲕ
 </norm>
 </orig>
@@ -4299,7 +4299,7 @@
 </norm>
 </orig>
 <orig orig="ϩⲟⲡ">
-<norm xml:id="u541" func="parataxis" head="#u535" pos="V" lemma="ϩⲱⲡ" norm="ϩⲟⲡ">
+<norm xml:id="u541" func="ccomp" head="#u518" pos="V" lemma="ϩⲱⲡ" norm="ϩⲟⲡ">
 ϩⲟⲡ
 </norm>
 </orig>
@@ -4333,8 +4333,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="and I will not hide anything from thee during the whole course of my life. My parents, however, love me very much more than they love my brethren,">
 <orig_group orig_group="ⲟⲩⲇⲉ">
@@ -4632,14 +4632,13 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="9">
-<ed_line_n ed_line_n="29">
 <verse_n verse_n="1">
 <translation translation="for they have placed me in the hands of instructors,">
-<multiword multiword="ⲕⲁⲓ ⲅⲁⲣ">
+<ed_line_n ed_line_n="29">
 <orig_group orig_group="Ⲕⲁⲓ">
 <norm_group norm_group="ⲕⲁⲓ">
 <orig orig="Ⲕⲁⲓ">
@@ -4662,7 +4661,6 @@
 </orig>
 </norm_group>
 </orig_group>
-</multiword>
 <orig_group orig_group="ⲁⲩⲧⲁⲁⲧ">
 <norm_group norm_group="ⲁⲩⲧⲁⲁⲧ">
 <orig orig="ⲁ">
@@ -4737,8 +4735,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="and my father saith, 'I will give thee high offices.'">
 <ed_line_n ed_line_n="30">
@@ -4882,8 +4880,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="10">
 <verse_n verse_n="1">
@@ -4892,7 +4890,7 @@
 <orig_group orig_group="Ⲗⲟⲓⲡⲟⲛ">
 <norm_group norm_group="ⲗⲟⲓⲡⲟⲛ">
 <orig orig="Ⲗⲟⲓⲡⲟⲛ">
-<norm xml:id="u615" func="advmod" head="#u617" new_sent="true" pos="ADV" lemma="ⲗⲟⲓⲡⲟⲛ" norm="ⲗⲟⲓⲡⲟⲛ">
+<norm xml:id="u615" func="advmod" head="#u624" new_sent="true" pos="ADV" lemma="ⲗⲟⲓⲡⲟⲛ" norm="ⲗⲟⲓⲡⲟⲛ">
 <lang lang="Greek">
 Ⲗⲟⲓⲡⲟⲛ
 </lang>
@@ -4995,14 +4993,14 @@
 ⲛ̅
 </norm>
 </orig>
-<entity head_tok="#u634" text="ⲕⲉ ⲥⲁϣϥ ⲉ ⲛ ⲧⲁⲝⲓⲥ ⲉ ⲩ ϫⲟⲥⲉ ⲡⲁⲣⲁ ⲧⲱ ϥ" entity="abstract">
+<entity head_tok="#u631" text="ⲕⲉ ⲥⲁϣϥ ⲉ ⲛ ⲧⲁⲝⲓⲥ ⲉ ⲩ ϫⲟⲥⲉ ⲡⲁⲣⲁ ⲧⲱ ϥ" entity="abstract">
 <orig orig="ⲕⲉ">
 <norm xml:id="u630" func="det" head="#u631" pos="ART" lemma="ⲕⲉ" norm="ⲕⲉ">
 ⲕⲉ
 </norm>
 </orig>
 <orig orig="ⲥⲁϣϥ̅">
-<norm xml:id="u631" func="nummod" head="#u634" pos="N" lemma="ⲥⲁϣϥ" norm="ⲥⲁϣϥ">
+<norm xml:id="u631" func="obj" head="#u626" pos="N" lemma="ⲥⲁϣϥ" norm="ⲥⲁϣϥ">
 ⲥⲁϣϥ̅
 </norm>
 </orig>
@@ -5082,14 +5080,14 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="After these things he wisheth to make me a bridegroom.">
 <orig_group orig_group="ⲁⲩⲱ">
 <norm_group norm_group="ⲁⲩⲱ">
 <orig orig="ⲁⲩⲱ">
-<norm xml:id="u642" func="cc" head="#u650" new_sent="true" pos="CONJ" lemma="ⲁⲩⲱ" norm="ⲁⲩⲱ">
+<norm xml:id="u642" func="cc" head="#u644" new_sent="true" pos="CONJ" lemma="ⲁⲩⲱ" norm="ⲁⲩⲱ">
 ⲁⲩⲱ
 </norm>
 </orig>
@@ -5106,7 +5104,7 @@
 </orig>
 <entity head_tok="#u644" text="ⲛⲁⲓ" entity="abstract">
 <orig orig="ⲛⲁⲓ">
-<norm xml:id="u644" func="obl" head="#u650" pos="PDEM" lemma="ⲡⲁⲓ" norm="ⲛⲁⲓ">
+<norm xml:id="u644" func="root" pos="PDEM" lemma="ⲡⲁⲓ" norm="ⲛⲁⲓ">
 ⲛⲁⲓ
 </norm>
 </orig>
@@ -5126,7 +5124,7 @@
 </norm>
 </orig>
 <orig orig="ⲟⲩⲱϣ">
-<norm xml:id="u647" func="advcl" head="#u650" pos="V" lemma="ⲟⲩⲱϣ" norm="ⲟⲩⲱϣ">
+<norm xml:id="u647" func="acl" head="#u644" pos="V" lemma="ⲟⲩⲱϣ" norm="ⲟⲩⲱϣ">
 ⲟⲩⲱϣ
 </norm>
 </orig>
@@ -5145,7 +5143,7 @@
 </norm>
 </orig>
 <orig orig="ⲣ̅ϣⲉⲗⲉⲉⲧ">
-<norm xml:id="u650" func="root" pos="V" lemma="ⲣϣⲉⲗⲉⲉⲧ" norm="ⲣϣⲉⲗⲉⲉⲧ">
+<norm xml:id="u650" func="advcl" head="#u647" pos="V" lemma="ⲣϣⲉⲗⲉⲉⲧ" norm="ⲣϣⲉⲗⲉⲉⲧ">
 <morph morph="ⲣ">
 ⲣ̅
 </morph>
@@ -5179,8 +5177,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="And, moreover, when I go into the church I hear them proclaiming and saying, 'Everything in this world is contemptible,'">
 <orig_group orig_group="ⲁⲛⲟⲕ">
@@ -5501,8 +5499,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="4">
 <translation translation="and 'Let him that despiseth this world follow the Christ with a right heart,' and even so he shall hardly be saved. Surely, my brother, it will be especially difficult for a sinner like myself to be saved.">
 <orig_group orig_group="ⲁⲩⲱ">
@@ -5517,13 +5515,13 @@
 <orig_group orig_group="ϫⲉⲡⲉⲧⲛⲁⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ">
 <norm_group norm_group="ϫⲉⲡⲉⲧⲛⲁⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ">
 <orig orig="ϫⲉ">
-<norm xml:id="u697" func="mark" head="#u698" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
+<norm xml:id="u697" func="mark" head="#u722" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
 ϫⲉ
 </norm>
 </orig>
 <entity head_tok="#u698" text="ⲡ ⲉⲧ ⲛⲁ ⲕⲁⲧⲁⲫⲣⲟⲛⲉⲓ ⲙ ⲡⲉⲓ ⲕⲟⲥⲙⲟⲥ" entity="person">
 <orig orig="ⲡ">
-<norm xml:id="u698" func="root" pos="ART" lemma="ⲡ" norm="ⲡ">
+<norm xml:id="u698" func="dislocated" head="#u722" pos="ART" lemma="ⲡ" norm="ⲡ">
 ⲡ
 </norm>
 </orig>
@@ -5673,7 +5671,7 @@
 <orig_group orig_group="ⲙⲟⲅⲓⲥ">
 <norm_group norm_group="ⲙⲟⲅⲓⲥ">
 <orig orig="ⲙⲟⲅⲓⲥ">
-<norm xml:id="u719" func="mark" head="#u722" pos="ADV" lemma="ⲙⲟⲅⲓⲥ" norm="ⲙⲟⲅⲓⲥ">
+<norm xml:id="u719" func="advmod" head="#u722" pos="ADV" lemma="ⲙⲟⲅⲓⲥ" norm="ⲙⲟⲅⲓⲥ">
 <lang lang="Greek">
 ⲙⲟⲅⲓⲥ
 </lang>
@@ -5694,7 +5692,7 @@
 </norm>
 </orig>
 <orig orig="ⲛⲟⲩϩⲙ̅">
-<norm xml:id="u722" func="advcl" head="#u707" pos="V" lemma="ⲛⲟⲩϩⲙ" norm="ⲛⲟⲩϩⲙ">
+<norm xml:id="u722" func="root" pos="V" lemma="ⲛⲟⲩϩⲙ" norm="ⲛⲟⲩϩⲙ">
 ⲛⲟⲩϩⲙ̅
 </norm>
 </orig>
@@ -5710,17 +5708,17 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-<entity head_tok="#u725" text="ⲕⲉ ⲙⲁⲗⲓⲥⲧⲁ ⲡⲁ ⲥⲟⲛ ⲡ ⲣⲱⲙⲉ ⲛ ⲣⲉϥⲣⲛⲟⲃⲉ ⲛ ⲧⲁ ⲙⲓⲛⲉ" entity="person">
+<entity head_tok="#u727" text="ⲕⲉ ⲙⲁⲗⲓⲥⲧⲁ ⲡⲁ ⲥⲟⲛ ⲡ ⲣⲱⲙⲉ ⲛ ⲣⲉϥⲣⲛⲟⲃⲉ ⲛ ⲧⲁ ⲙⲓⲛⲉ" entity="person">
 <ed_line_n ed_line_n="6">
 <orig_group orig_group="ⲕⲉⲙⲁⲗⲓⲥⲧⲁ">
 <norm_group norm_group="ⲕⲉⲙⲁⲗⲓⲥⲧⲁ">
 <orig orig="ⲕⲉ">
-<norm xml:id="u724" func="det" head="#u725" pos="ART" lemma="ⲕⲉ" norm="ⲕⲉ">
+<norm xml:id="u724" func="det" head="#u727" pos="ART" lemma="ⲕⲉ" norm="ⲕⲉ">
 ⲕⲉ
 </norm>
 </orig>
 <orig orig="ⲙⲁⲗⲓⲥⲧⲁ">
-<norm xml:id="u725" func="advmod" head="#u722" pos="ADV" lemma="ⲙⲁⲗⲓⲥⲧⲁ" norm="ⲙⲁⲗⲓⲥⲧⲁ">
+<norm xml:id="u725" func="advmod" head="#u727" pos="ADV" lemma="ⲙⲁⲗⲓⲥⲧⲁ" norm="ⲙⲁⲗⲓⲥⲧⲁ">
 <lang lang="Greek">
 ⲙⲁⲗⲓⲥⲧⲁ
 </lang>
@@ -5736,7 +5734,7 @@
 </norm>
 </orig>
 <orig orig="ⲥⲟⲛ">
-<norm xml:id="u727" func="appos" head="#u725" pos="N" lemma="ⲥⲟⲛ" norm="ⲥⲟⲛ">
+<norm xml:id="u727" func="vocative" head="#u722" pos="N" lemma="ⲥⲟⲛ" norm="ⲥⲟⲛ">
 ⲥⲟⲛ
 </norm>
 </orig>
@@ -5811,8 +5809,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="5">
 <translation translation="Therefore, I beseech thee, O mighty father, to take me with thee to thy monastery.'">
 <orig_group orig_group="ⲉⲧⲃⲉⲡⲁⲓ">
@@ -5855,7 +5853,7 @@
 </norm>
 </orig>
 <orig orig="ⲕ">
-<norm xml:id="u741" func="obj" head="#u739" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
+<norm xml:id="u741" func="obl" head="#u739" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
 ⲕ
 </norm>
 </orig>
@@ -5972,8 +5970,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <verse_n verse_n="1">
 <translation translation="And when the monkish brother had heard these things he took an oath, saying, 'When I return I will take thee with me to my monastery';">
@@ -5993,7 +5991,7 @@
 </ed_line_n>
 <ed_line_n ed_line_n="9">
 <orig orig="ⲥⲱⲧⲙ̅">
-<norm xml:id="u759" func="root" pos="V" lemma="ⲥⲱⲧⲙ" norm="ⲥⲱⲧⲙ">
+<norm xml:id="u759" func="advcl" head="#u771" pos="V" lemma="ⲥⲱⲧⲙ" norm="ⲥⲱⲧⲙ">
 ⲥⲱⲧⲙ̅
 </norm>
 </orig>
@@ -6002,7 +6000,7 @@
 <orig_group orig_group="ⲇⲉ">
 <norm_group norm_group="ⲇⲉ">
 <orig orig="ⲇⲉ">
-<norm xml:id="u760" func="advmod" head="#u759" pos="PTC" lemma="ⲇⲉ" norm="ⲇⲉ">
+<norm xml:id="u760" func="advmod" head="#u771" pos="PTC" lemma="ⲇⲉ" norm="ⲇⲉ">
 <lang lang="Greek">
 ⲇⲉ
 </lang>
@@ -6087,7 +6085,7 @@
 </norm>
 </orig>
 <orig orig="ⲱⲣⲕ̅">
-<norm xml:id="u771" func="parataxis" head="#u759" pos="V" lemma="ⲱⲣⲕ" norm="ⲱⲣⲕ">
+<norm xml:id="u771" func="root" pos="V" lemma="ⲱⲣⲕ" norm="ⲱⲣⲕ">
 ⲱⲣⲕ̅
 </norm>
 </orig>
@@ -6211,9 +6209,9 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
-</translation>
 </chapter_n>
+</translation>
+</verse_n>
 <verse_n verse_n="1">
 <translation translation="and straightway they made a firm compact with each other to this effect very readily, and then each departed to his abode in peace.">
 <chapter_n chapter_n="12">
@@ -6295,7 +6293,7 @@
 </norm>
 </orig>
 <orig orig="ⲉⲣⲏⲩ">
-<norm xml:id="u800" func="conj" head="#u797" pos="N" lemma="ⲉⲣⲏⲩ" norm="ⲉⲣⲏⲩ">
+<norm xml:id="u800" func="obl" head="#u795" pos="N" lemma="ⲉⲣⲏⲩ" norm="ⲉⲣⲏⲩ">
 ⲉⲣⲏⲩ
 </norm>
 </orig>
@@ -6360,7 +6358,7 @@
 </norm>
 </orig>
 <orig orig="ⲟⲩⲁ">
-<norm xml:id="u809" func="conj" head="#u807" pos="NUM" lemma="ⲟⲩⲁ" norm="ⲟⲩⲁ">
+<norm xml:id="u809" func="obl:npmod" head="#u807" pos="NUM" lemma="ⲟⲩⲁ" norm="ⲟⲩⲁ">
 ⲟⲩⲁ
 </norm>
 </orig>
@@ -6385,7 +6383,7 @@
 <orig_group orig_group="ⲙⲟⲟϣⲉ">
 <norm_group norm_group="ⲙⲟⲟϣⲉ">
 <orig orig="ⲙⲟⲟϣⲉ">
-<norm xml:id="u812" func="parataxis" head="#u795" pos="V" lemma="ⲙⲟⲟϣⲉ" norm="ⲙⲟⲟϣⲉ">
+<norm xml:id="u812" func="advcl" head="#u795" pos="V" lemma="ⲙⲟⲟϣⲉ" norm="ⲙⲟⲟϣⲉ">
 ⲙⲟⲟϣⲉ
 </norm>
 </orig>
@@ -6441,9 +6439,9 @@
 </entity>
 </norm_group>
 </orig_group>
-</verse_n>
-</translation>
 </chapter_n>
+</translation>
+</verse_n>
 <chapter_n chapter_n="13">
 <verse_n verse_n="1">
 <translation translation="And after these things the blessed John took counsel with himself, saying, 'First of all let me go to my parents, so that i may make them prepare for me a Gospel wherein I may read, for I do not know the commandments of Christ,">
@@ -6599,7 +6597,7 @@
 </orig>
 <entity head_tok="#u838" text="ⲡⲣⲱⲧⲱⲛ" entity="abstract">
 <orig orig="ⲡⲣⲱⲧⲱⲛ">
-<norm xml:id="u838" func="nsubj" head="#u840" pos="N" lemma="ⲡⲣⲱⲧⲱⲛ" norm="ⲡⲣⲱⲧⲱⲛ">
+<norm xml:id="u838" func="vocative" head="#u840" pos="N" lemma="ⲡⲣⲱⲧⲱⲛ" norm="ⲡⲣⲱⲧⲱⲛ">
 <lang lang="Greek">
 ⲡⲣⲱⲧⲱⲛ
 </lang>
@@ -6692,7 +6690,7 @@
 </norm>
 </orig>
 <orig orig="ⲧⲣⲉ">
-<norm xml:id="u850" func="advcl" head="#u844" pos="ACAUS" lemma="ⲧⲣⲉ" norm="ⲧⲣⲉ">
+<norm xml:id="u850" func="advcl" head="#u840" pos="ACAUS" lemma="ⲧⲣⲉ" norm="ⲧⲣⲉ">
 ⲧⲣⲉ
 </norm>
 </orig>
@@ -6807,7 +6805,7 @@
 </norm>
 </orig>
 <orig orig="ⲥⲟⲟⲩⲛ">
-<norm xml:id="u867" func="advcl" head="#u860" pos="V" lemma="ⲥⲟⲟⲩⲛ" norm="ⲥⲟⲟⲩⲛ">
+<norm xml:id="u867" func="advcl" head="#u840" pos="V" lemma="ⲥⲟⲟⲩⲛ" norm="ⲥⲟⲟⲩⲛ">
 ⲥⲟⲟⲩⲛ
 </norm>
 </orig>
@@ -6838,7 +6836,7 @@
 </norm>
 </orig>
 <orig orig="ⲉⲛⲧⲟⲗⲏ">
-<norm xml:id="u871" func="obl" head="#u867" pos="N" lemma="ⲉⲛⲧⲟⲗⲏ" norm="ⲉⲛⲧⲟⲗⲏ">
+<norm xml:id="u871" func="obj" head="#u867" pos="N" lemma="ⲉⲛⲧⲟⲗⲏ" norm="ⲉⲛⲧⲟⲗⲏ">
 <lang lang="Greek">
 ⲉⲛⲧⲟⲗⲏ
 </lang>
@@ -6879,8 +6877,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="and I would find Him in the place whither I am going.'">
 <orig_group orig_group="ⲁⲩⲱ">
@@ -6995,8 +6993,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="14">
 <verse_n verse_n="1">
@@ -7084,8 +7082,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="and he told them the reason [for his desire], and he spake unto them thus: 'Behold, O my parents, I am put to shame among my fellow scholars, for of all those who are at school with me each one hath his own Gospel of gold, which their parents have prepared for them to read in.">
 <orig_group orig_group="ⲁϥϫⲱ">
@@ -7272,7 +7270,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲟⲟⲡ">
-<norm xml:id="u928" func="advcl" head="#u920" pos="VSTAT" lemma="ϣⲱⲡⲉ" norm="ϣⲟⲟⲡ">
+<norm xml:id="u928" func="ccomp" head="#u916" pos="VSTAT" lemma="ϣⲱⲡⲉ" norm="ϣⲟⲟⲡ">
 ϣⲟⲟⲡ
 </norm>
 </orig>
@@ -7312,7 +7310,7 @@
 </norm>
 </orig>
 <orig orig="ⲙⲏⲏⲧⲉ">
-<norm xml:id="u934" func="obl" head="#u928" pos="N" lemma="ⲙⲏⲧⲉ" norm="ⲙⲏⲧⲉ">
+<norm xml:id="u934" func="nmod" head="#u931" pos="N" lemma="ⲙⲏⲧⲉ" norm="ⲙⲏⲧⲉ">
 ⲙⲏⲏⲧⲉ
 </norm>
 </orig>
@@ -7357,7 +7355,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲟⲟⲡ">
-<norm xml:id="u940" func="advcl" head="#u928" pos="VSTAT" lemma="ϣⲱⲡⲉ" norm="ϣⲟⲟⲡ">
+<norm xml:id="u940" func="advcl" head="#u920" pos="VSTAT" lemma="ϣⲱⲡⲉ" norm="ϣⲟⲟⲡ">
 ϣⲟⲟⲡ
 </norm>
 </orig>
@@ -7405,7 +7403,7 @@
 <orig_group orig_group="ⲉⲣⲉⲟⲩⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ">
 <norm_group norm_group="ⲉⲣⲉⲟⲩⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ">
 <orig orig="ⲉⲣⲉ">
-<norm xml:id="u946" func="mark" head="#u948" pos="CCIRC" lemma="ⲉⲣⲉ" norm="ⲉⲣⲉ">
+<norm xml:id="u946" func="mark" head="#u952" pos="CCIRC" lemma="ⲉⲣⲉ" norm="ⲉⲣⲉ">
 ⲉⲣⲉ
 </norm>
 </orig>
@@ -7416,7 +7414,7 @@
 </norm>
 </orig>
 <orig orig="ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ">
-<norm xml:id="u948" func="advcl" head="#u940" pos="N" lemma="ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ" norm="ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ">
+<norm xml:id="u948" func="nsubj" head="#u952" pos="N" lemma="ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ" norm="ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ">
 <lang lang="Greek">
 ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ
 </lang>
@@ -7449,7 +7447,7 @@
 </norm>
 </orig>
 <orig orig="ϥ̅">
-<norm xml:id="u952" func="obl" head="#u940" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
+<norm xml:id="u952" func="advcl" head="#u928" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
 ϥ̅
 </norm>
 </orig>
@@ -7469,7 +7467,7 @@
 </norm>
 </orig>
 <orig orig="ⲟⲩⲁ">
-<norm xml:id="u955" func="nmod" head="#u948" pos="NUM" lemma="ⲟⲩⲁ" norm="ⲟⲩⲁ">
+<norm xml:id="u955" func="nmod" head="#u952" pos="NUM" lemma="ⲟⲩⲁ" norm="ⲟⲩⲁ">
 ⲟⲩⲁ
 </norm>
 </orig>
@@ -7521,7 +7519,7 @@
 <orig_group orig_group="ⲥⲙⲛ̅ⲧϥ̅">
 <norm_group norm_group="ⲥⲙⲛⲧϥ">
 <orig orig="ⲥⲙⲛ̅ⲧ">
-<norm xml:id="u962" func="acl" head="#u957" pos="V" lemma="ⲥⲙⲓⲛⲉ" norm="ⲥⲙⲛⲧ">
+<norm xml:id="u962" func="acl" head="#u955" pos="V" lemma="ⲥⲙⲓⲛⲉ" norm="ⲥⲙⲛⲧ">
 ⲥⲙⲛ̅ⲧ
 </norm>
 </orig>
@@ -7589,8 +7587,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="As for me I am like a beggar in their midst, and like one who hath neither father nor mother.'">
 <ed_line_n ed_line_n="28">
@@ -7698,7 +7696,7 @@
 </norm>
 </orig>
 <orig orig="ⲙⲏⲏⲧⲉ">
-<norm xml:id="u986" func="nmod" head="#u983" pos="N" lemma="ⲙⲏⲏⲧⲉ" norm="ⲙⲏⲏⲧⲉ">
+<norm xml:id="u986" func="obl" head="#u977" pos="N" lemma="ⲙⲏⲏⲧⲉ" norm="ⲙⲏⲏⲧⲉ">
 ⲙⲏⲏⲧⲉ
 </norm>
 </orig>
@@ -7773,8 +7771,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <verse_n verse_n="1">
 <translation translation="And John threw himself down upon his face before his parents, saying, 'I beseech you most earnestly, O my parents, to prepare for me a Gospel, so that I may have it in my hands, and receive instruction therefrom.'">
@@ -7952,7 +7950,7 @@
 </norm>
 </orig>
 <orig orig="ⲧⲛ̅">
-<norm xml:id="u1019" func="obj" head="#u1017" pos="PPERO" lemma="ⲛⲧⲱⲧⲛ" norm="ⲧⲛ">
+<norm xml:id="u1019" func="obl" head="#u1017" pos="PPERO" lemma="ⲛⲧⲱⲧⲛ" norm="ⲧⲛ">
 ⲧⲛ̅
 </norm>
 </orig>
@@ -8007,7 +8005,7 @@
 </norm>
 </orig>
 <orig orig="ⲥⲙⲓⲛⲉ">
-<norm xml:id="u1026" func="xcomp" head="#u1023" pos="V" lemma="ⲥⲙⲓⲛⲉ" norm="ⲥⲙⲓⲛⲉ">
+<norm xml:id="u1026" func="parataxis" head="#u1017" pos="V" lemma="ⲥⲙⲓⲛⲉ" norm="ⲥⲙⲓⲛⲉ">
 ⲥⲙⲓⲛⲉ
 </norm>
 </orig>
@@ -8088,7 +8086,7 @@
 </norm>
 </orig>
 <orig orig="ϩⲉ">
-<norm xml:id="u1037" func="ccomp" head="#u1026" pos="V" lemma="ϩⲉ" norm="ϩⲉ">
+<norm xml:id="u1037" func="advcl" head="#u1026" pos="V" lemma="ϩⲉ" norm="ϩⲉ">
 ϩⲉ
 </norm>
 </orig>
@@ -8189,9 +8187,9 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
-</translation>
 </chapter_n>
+</translation>
+</verse_n>
 </ed_page_n>
 <ed_page_n ed_page_n="4">
 <chapter_n chapter_n="16">
@@ -8358,14 +8356,14 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="And when she had thought over these things she spake unto her husband, saying, 'My lord brother, make a Gospel of gold for our son John.">
 <orig_group orig_group="ⲉⲧⲉⲓ">
 <norm_group norm_group="ⲉⲧⲓ">
 <orig orig="ⲉⲧⲉⲓ">
-<norm xml:id="u1072" func="advmod" head="#u1076" new_sent="true" pos="ADV" lemma="ⲉⲧⲓ" norm="ⲉⲧⲓ">
+<norm xml:id="u1072" func="advmod" head="#u1081" new_sent="true" pos="ADV" lemma="ⲉⲧⲓ" norm="ⲉⲧⲓ">
 <lang lang="Greek">
 ⲉⲧⲉⲓ
 </lang>
@@ -8594,7 +8592,7 @@
 </norm>
 </orig>
 <orig orig="ⲛϣⲏⲣⲉ">
-<norm xml:id="u1102" func="obl" head="#u1094" pos="N" lemma="ⲛϣⲏⲣⲉ" norm="ⲛϣⲏⲣⲉ">
+<norm xml:id="u1102" func="nmod" head="#u1099" pos="N" lemma="ⲛϣⲏⲣⲉ" norm="ⲛϣⲏⲣⲉ">
 ⲛϣⲏⲣⲉ
 </norm>
 </orig>
@@ -8623,19 +8621,19 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="Do not have it beautifully written only, but decorate it also beautifully with really precious stones of great value.'">
 <orig_group orig_group="ⲟⲩⲙⲟⲛⲟⲛ">
 <norm_group norm_group="ⲟⲩⲙⲟⲛⲟⲛ">
 <orig orig="ⲟⲩ">
-<norm xml:id="u1105" func="det" head="#u1106" new_sent="true" pos="FM" lemma="ⲟⲩ" norm="ⲟⲩ">
+<norm xml:id="u1105" func="advmod" head="#u1108" new_sent="true" pos="FM" lemma="ⲟⲩ" norm="ⲟⲩ">
 ⲟⲩ
 </norm>
 </orig>
 <orig orig="ⲙⲟⲛⲟⲛ">
-<norm xml:id="u1106" func="root" pos="FM" lemma="ⲙⲟⲛⲟⲛ" norm="ⲙⲟⲛⲟⲛ">
+<norm xml:id="u1106" func="fixed" head="#u1105" pos="FM" lemma="ⲙⲟⲛⲟⲛ" norm="ⲙⲟⲛⲟⲛ">
 <lang lang="Greek">
 ⲙⲟⲛⲟⲛ
 </lang>
@@ -8651,7 +8649,7 @@
 </norm>
 </orig>
 <orig orig="ⲥϩⲁⲓ">
-<norm xml:id="u1108" func="acl" head="#u1106" pos="V" lemma="ⲥϩⲁⲓ" norm="ⲥϩⲁⲓ">
+<norm xml:id="u1108" func="root" pos="V" lemma="ⲥϩⲁⲓ" norm="ⲥϩⲁⲓ">
 ⲥϩⲁⲓ
 </norm>
 </orig>
@@ -8703,7 +8701,7 @@
 </norm>
 </orig>
 <orig orig="ϥ">
-<norm xml:id="u1114" func="obl" head="#u1112" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
+<norm xml:id="u1114" func="obj" head="#u1112" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
 ϥ
 </norm>
 </orig>
@@ -8712,7 +8710,7 @@
 <orig_group orig_group="ⲕⲁⲗⲱⲥ">
 <norm_group norm_group="ⲕⲁⲗⲱⲥ">
 <orig orig="ⲕⲁⲗⲱⲥ">
-<norm xml:id="u1115" func="advmod" head="#u1118" pos="ADV" lemma="ⲕⲁⲗⲱⲥ" norm="ⲕⲁⲗⲱⲥ">
+<norm xml:id="u1115" func="advmod" head="#u1112" pos="ADV" lemma="ⲕⲁⲗⲱⲥ" norm="ⲕⲁⲗⲱⲥ">
 <lang lang="Greek">
 ⲕⲁⲗⲱⲥ
 </lang>
@@ -8774,7 +8772,7 @@
 </norm>
 </orig>
 <orig orig="ⲛⲁϣⲉ">
-<norm xml:id="u1123" func="acl" head="#u1118" pos="VBD" lemma="ⲛⲁϣⲉ" norm="ⲛⲁϣⲉ">
+<norm xml:id="u1123" func="acl" head="#u1120" pos="VBD" lemma="ⲛⲁϣⲉ" norm="ⲛⲁϣⲉ">
 ⲛⲁϣⲉ
 </norm>
 </orig>
@@ -8785,7 +8783,7 @@
 </norm>
 </orig>
 <orig orig="ⲟⲩ">
-<norm xml:id="u1125" func="obj" head="#u1123" pos="PPERO" lemma="ⲛⲧⲟⲟⲩ" norm="ⲟⲩ">
+<norm xml:id="u1125" func="det" head="#u1124" pos="PPERO" lemma="ⲛⲧⲟⲟⲩ" norm="ⲟⲩ">
 ⲟⲩ
 </norm>
 </orig>
@@ -8802,8 +8800,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="17">
 <verse_n verse_n="1">
@@ -8934,13 +8932,13 @@
 <orig_group orig_group="ⲛ̅ϯⲟⲩ">
 <norm_group norm_group="ⲛϯⲟⲩ">
 <orig orig="ⲛ̅">
-<norm xml:id="u1144" func="case" head="#u1147" pos="PREP" lemma="ⲛ" norm="ⲛ">
+<norm xml:id="u1144" func="case" head="#u1149" pos="PREP" lemma="ⲛ" norm="ⲛ">
 ⲛ̅
 </norm>
 </orig>
 <entity head_tok="#u1149" text="ϯⲟⲩ ⲛ ϣⲉ ⲛ ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ" entity="person">
 <orig orig="ϯⲟⲩ">
-<norm xml:id="u1145" func="compound" head="#u1147" pos="NUM" lemma="ϯⲟⲩ" norm="ϯⲟⲩ">
+<norm xml:id="u1145" func="nummod" head="#u1149" pos="NUM" lemma="ϯⲟⲩ" norm="ϯⲟⲩ">
 ϯⲟⲩ
 </norm>
 </orig>
@@ -8949,7 +8947,7 @@
 <orig_group orig_group="ⲛ̅ϣⲉ">
 <norm_group norm_group="ⲛϣⲉ">
 <orig orig="ⲛ̅">
-<norm xml:id="u1146" func="case" head="#u1147" pos="PREP" lemma="ⲛ" norm="ⲛ">
+<norm xml:id="u1146" func="case" head="#u1149" pos="PREP" lemma="ⲛ" norm="ⲛ">
 ⲛ̅
 </norm>
 </orig>
@@ -9055,7 +9053,7 @@
 </norm>
 </orig>
 <orig orig="ⲧⲁⲁ">
-<norm xml:id="u1161" func="parataxis" head="#u1141" pos="V" lemma="ϯ" norm="ⲧⲁⲁ">
+<norm xml:id="u1161" func="parataxis" head="#u1158" pos="V" lemma="ϯ" norm="ⲧⲁⲁ">
 ⲧⲁⲁ
 </norm>
 </orig>
@@ -9127,8 +9125,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="and he made for him very beautiful decorations for the Gospel which he had caused to be written.">
 <ed_line_n ed_line_n="11">
@@ -9251,8 +9249,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="And John's father took it and gave it to his son,">
 <orig_group orig_group="ⲁⲩⲱ">
@@ -9366,8 +9364,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="18">
 <verse_n verse_n="1">
@@ -9472,8 +9470,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="and he studied it with great diligence.">
 <orig_group orig_group="ⲁⲩⲱ">
@@ -9594,8 +9592,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="And he waited for that brother who was a monk to come in order to depart with him;">
 <orig_group orig_group="ⲁⲩⲱ">
@@ -9754,8 +9752,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <verse_n verse_n="1">
 <translation translation="and after a few days that brother who was a monk arrived, according to the compact which they had previously made with each other.">
@@ -9911,7 +9909,7 @@
 <orig_group orig_group="ⲙⲛ̅ⲛⲉⲩⲉⲣⲏⲩ">
 <norm_group norm_group="ⲙⲛⲛⲉⲩⲉⲣⲏⲩ">
 <orig orig="ⲙⲛ̅">
-<norm xml:id="u1273" func="cc" head="#u1275" pos="PREP" lemma="ⲙⲛ" norm="ⲙⲛ">
+<norm xml:id="u1273" func="case" head="#u1275" pos="PREP" lemma="ⲙⲛ" norm="ⲙⲛ">
 ⲙⲛ̅
 </norm>
 </orig>
@@ -9921,7 +9919,7 @@
 </norm>
 </orig>
 <orig orig="ⲉⲣⲏⲩ">
-<norm xml:id="u1275" func="conj" head="#u1267" pos="N" lemma="ⲉⲣⲏⲩ" norm="ⲉⲣⲏⲩ">
+<norm xml:id="u1275" func="obl" head="#u1271" pos="N" lemma="ⲉⲣⲏⲩ" norm="ⲉⲣⲏⲩ">
 ⲉⲣⲏⲩ
 </norm>
 </orig>
@@ -9938,9 +9936,9 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
-</translation>
 </chapter_n>
+</translation>
+</verse_n>
 <chapter_n chapter_n="20">
 <verse_n verse_n="1">
 <translation translation="And when John saw the brother who was a monk he rejoiced exceedingly, and was glad, and he saluted him, and he was in a state of great joy.">
@@ -10103,7 +10101,7 @@
 </norm>
 </orig>
 <orig orig="ⲁⲥⲡⲁⲍⲉ">
-<norm xml:id="u1298" func="conj" head="#u1290" pos="V" lemma="ⲁⲥⲡⲁⲍⲉ" norm="ⲁⲥⲡⲁⲍⲉ">
+<norm xml:id="u1298" func="parataxis" head="#u1295" pos="V" lemma="ⲁⲥⲡⲁⲍⲉ" norm="ⲁⲥⲡⲁⲍⲉ">
 <lang lang="Greek">
 ⲁⲥⲡⲁⲍⲉ
 </lang>
@@ -10199,8 +10197,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="And he said unto him, 'My lord father, I know the wishes of my parents, and their love towards me,">
 <orig_group orig_group="ⲡⲉϫⲁϥ">
@@ -10372,7 +10370,7 @@
 </norm>
 </orig>
 <orig orig="ⲓ">
-<norm xml:id="u1334" func="nmod" head="#u1331" pos="PPERO" lemma="ⲁⲛⲟⲕ" norm="ⲓ">
+<norm xml:id="u1334" func="nmod" head="#u1332" pos="PPERO" lemma="ⲁⲛⲟⲕ" norm="ⲓ">
 ⲓ
 </norm>
 </orig>
@@ -10388,8 +10386,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="21">
 <verse_n verse_n="1">
@@ -10397,7 +10395,7 @@
 <orig_group orig_group="ⲙⲁⲗⲓⲥⲧⲁ">
 <norm_group norm_group="ⲙⲁⲗⲓⲥⲧⲁ">
 <orig orig="ⲙⲁⲗⲓⲥⲧⲁ">
-<norm xml:id="u1336" func="advmod" head="#u1357" new_sent="true" pos="ADV" lemma="ⲙⲁⲗⲓⲥⲧⲁ" norm="ⲙⲁⲗⲓⲥⲧⲁ">
+<norm xml:id="u1336" func="advmod" head="#u1338" new_sent="true" pos="ADV" lemma="ⲙⲁⲗⲓⲥⲧⲁ" norm="ⲙⲁⲗⲓⲥⲧⲁ">
 <lang lang="Greek">
 ⲙⲁⲗⲓⲥⲧⲁ
 </lang>
@@ -10414,7 +10412,7 @@
 </norm>
 </orig>
 <orig orig="ⲙⲁⲁⲩ">
-<norm xml:id="u1338" func="dislocated" head="#u1357" pos="N" lemma="ⲙⲁⲁⲩ" norm="ⲙⲁⲁⲩ">
+<norm xml:id="u1338" func="root" pos="N" lemma="ⲙⲁⲁⲩ" norm="ⲙⲁⲁⲩ">
 ⲙⲁⲁⲩ
 </norm>
 </orig>
@@ -10563,7 +10561,7 @@
 </norm>
 </orig>
 <orig orig="ϩⲓⲥⲉ">
-<norm xml:id="u1357" func="root" pos="V" lemma="ϩⲓⲥⲉ" norm="ϩⲓⲥⲉ">
+<norm xml:id="u1357" func="parataxis" head="#u1338" pos="V" lemma="ϩⲓⲥⲉ" norm="ϩⲓⲥⲉ">
 ϩⲓⲥⲉ
 </norm>
 </orig>
@@ -10612,8 +10610,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="I therefore beseech thee to let us arrange that we go away secretly,">
 <ed_line_n ed_line_n="27">
@@ -10650,7 +10648,7 @@
 </norm>
 </orig>
 <orig orig="ⲕ">
-<norm xml:id="u1368" func="obj" head="#u1366" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
+<norm xml:id="u1368" func="obl" head="#u1366" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
 ⲕ
 </norm>
 </orig>
@@ -10756,8 +10754,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="and not to let any one know of our departure.'">
 <orig_group orig_group="ⲁⲩⲱ">
@@ -10835,8 +10833,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 </ed_line_n>
 <verse_n verse_n="4">
 <translation translation="And the monk said unto him, 'Whatsoever pleaseth thee that will I do with thee,">
@@ -10976,8 +10974,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <verse_n verse_n="1">
 <translation translation="and that which thou desirest may God fulfill for thee.'">
@@ -11048,7 +11046,7 @@
 </norm>
 </orig>
 <orig orig="ϫⲟⲉⲓⲥ">
-<norm xml:id="u1420" func="vocative" head="#u1422" pos="N" lemma="ϫⲟⲉⲓⲥ" norm="ϫⲟⲉⲓⲥ">
+<norm xml:id="u1420" func="nsubj" head="#u1422" pos="N" lemma="ϫⲟⲉⲓⲥ" norm="ϫⲟⲉⲓⲥ">
 ϫⲟⲉⲓⲥ
 </norm>
 </orig>
@@ -11108,9 +11106,9 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
-</translation>
 </chapter_n>
+</translation>
+</verse_n>
 <chapter_n chapter_n="23">
 <verse_n verse_n="1">
 <translation translation="And John and the monk rose up, and they departed secretly.">
@@ -11167,7 +11165,7 @@
 <orig_group orig_group="ⲙⲛ̅ⲡⲙⲟⲛⲟⲭⲟⲥ">
 <norm_group norm_group="ⲙⲛⲡⲙⲟⲛⲁⲭⲟⲥ">
 <orig orig="ⲙⲛ̅">
-<norm xml:id="u1434" func="case" head="#u1436" pos="PREP" lemma="ⲙⲛ" norm="ⲙⲛ">
+<norm xml:id="u1434" func="cc" head="#u1436" pos="PREP" lemma="ⲙⲛ" norm="ⲙⲛ">
 ⲙⲛ̅
 </norm>
 </orig>
@@ -11255,8 +11253,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="And they arrived at the sea, and they searched for a boat wherein to embark.">
 <ed_line_n ed_line_n="34">
@@ -11417,8 +11415,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="And John spake unto the captain of a ship, saying, 'I charge thee, my brother, to halve the fare in our case, for then thou wilt be able to take the two of us to the Monastery of the Sleepless Ones.'">
 <orig_group orig_group="ⲁⲩⲱ">
@@ -11581,7 +11579,7 @@
 </norm>
 </orig>
 <orig orig="ⲕ">
-<norm xml:id="u1488" func="obj" head="#u1486" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
+<norm xml:id="u1488" func="obl" head="#u1486" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
 ⲕ
 </norm>
 </orig>
@@ -11682,7 +11680,7 @@
 </norm>
 </orig>
 <orig orig="ϫⲓ">
-<norm xml:id="u1502" func="advcl" head="#u1494" pos="V" lemma="ϫⲓ" norm="ϫⲓ">
+<norm xml:id="u1502" func="advcl" head="#u1486" pos="V" lemma="ϫⲓ" norm="ϫⲓ">
 ϫⲓ
 </norm>
 </orig>
@@ -11789,8 +11787,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="4">
 <translation translation="And the captain of the ship said unto them, 'Sit ye down until I have loaded my ship with its freight, and then, by the will of God, we will set sail.'">
 <orig_group orig_group="ⲡⲛⲉⲉϥ">
@@ -12047,8 +12045,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="5">
 <translation translation="And John said unto the captain, 'Tell me how much the fare is';">
 <orig_group orig_group="ⲡⲉϫⲉⲒⲱϩⲁⲛⲛⲏⲥ">
@@ -12124,7 +12122,7 @@
 </norm>
 </orig>
 <orig orig="ⲟⲩⲏⲣ">
-<norm xml:id="u1561" func="ccomp" head="#u1558" pos="PINT" lemma="ⲟⲩⲏⲣ" norm="ⲟⲩⲏⲣ">
+<norm xml:id="u1561" func="advcl" head="#u1557" pos="PINT" lemma="ⲟⲩⲏⲣ" norm="ⲟⲩⲏⲣ">
 ⲟⲩⲏⲣ
 </norm>
 </orig>
@@ -12166,8 +12164,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="6">
 <translation translation="and the captain said unto him, 'One hundred oboli is the passage money for my ship.'">
 <orig_group orig_group="ⲡⲉϫⲉⲡⲛⲉⲉϥ">
@@ -12260,7 +12258,7 @@
 </norm>
 </orig>
 <orig orig="ϩⲙ̅ⲙⲉ">
-<norm xml:id="u1577" func="vocative" head="#u1572" pos="N" lemma="ϩⲙⲙⲉ" norm="ϩⲙⲙⲉ">
+<norm xml:id="u1577" func="nsubj" head="#u1572" pos="N" lemma="ϩⲙⲙⲉ" norm="ϩⲙⲙⲉ">
 ϩⲙ̅ⲙⲉ
 </norm>
 </orig>
@@ -12298,8 +12296,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="24">
 <ed_line_n ed_line_n="11">
@@ -12400,8 +12398,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="and when John had said this he came to the place where was the brother who was a monk, and he said unto him, 'My father, the ship's fare is large, and it is meet for thee that we should depart quickly, lest some people meet us, and they recognize us, and they seize us, and we be put to shame. Therefore, let us flee secretly.'">
 <orig_group orig_group="ⲛ̅ⲧⲉⲣⲉⲓ̅ⲱ̅ⲥ̅">
@@ -12644,7 +12642,7 @@
 </norm>
 </orig>
 <orig orig="ⲉⲙⲉ">
-<norm xml:id="u1626" func="vocative" head="#u1631" pos="N" lemma="ϩⲉⲙⲉ" norm="ϩⲉⲙⲉ">
+<norm xml:id="u1626" func="appos" head="#u1624" pos="N" lemma="ϩⲉⲙⲉ" norm="ϩⲉⲙⲉ">
 ⲉⲙⲉ
 </norm>
 </orig>
@@ -12760,7 +12758,7 @@
 </norm>
 </orig>
 <orig orig="ⲧⲣ">
-<norm xml:id="u1641" func="xcomp" head="#u1634" pos="ACAUS" lemma="ⲧⲣⲉ" norm="ⲧⲣⲉ">
+<norm xml:id="u1641" func="csubj" head="#u1631" pos="ACAUS" lemma="ⲧⲣⲉ" norm="ⲧⲣⲉ">
 ⲧⲣ
 </norm>
 </orig>
@@ -12838,7 +12836,7 @@
 </ed_line_n>
 <ed_line_n ed_line_n="16">
 <orig orig="ⲉⲓ">
-<norm xml:id="u1651" func="advcl" head="#u1641" pos="V" lemma="ⲉⲓ" norm="ⲉⲓ">
+<norm xml:id="u1651" func="advcl" head="#u1631" pos="V" lemma="ⲉⲓ" norm="ⲉⲓ">
 ⲉⲓ
 </norm>
 </orig>
@@ -12974,7 +12972,7 @@
 </norm>
 </orig>
 <orig orig="ⲡⲱⲧ">
-<norm xml:id="u1671" func="advcl" head="#u1659" pos="V" lemma="ⲡⲱⲧ" norm="ⲡⲱⲧ">
+<norm xml:id="u1671" func="ccomp" head="#u1664" pos="V" lemma="ⲡⲱⲧ" norm="ⲡⲱⲧ">
 ⲡⲱⲧ
 </norm>
 </orig>
@@ -13005,8 +13003,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="Then John went into his house to his mother,">
 <orig_group orig_group="ⲧⲟⲧⲉ">
@@ -13121,8 +13119,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="4">
 <translation translation="and he said unto her, 'I make entreaty unto thee, O my beloved mother. I know well that thou fulfillest all my wishes,">
 <orig_group orig_group="ⲡⲉϫⲁϥ">
@@ -13177,7 +13175,7 @@
 <orig_group orig_group="ⲙ̅ⲙⲟ">
 <norm_group norm_group="ⲙⲙⲟ">
 <orig orig="ⲙ̅ⲙⲟ">
-<norm xml:id="u1696" func="obj" head="#u1695" pos="PREP_PPERO" lemma="ⲛ_ⲛⲧⲟ" norm="ⲙⲙⲟ">
+<norm xml:id="u1696" func="obl" head="#u1695" pos="PREP_PPERO" lemma="ⲛ_ⲛⲧⲟ" norm="ⲙⲙⲟ">
 ⲙ̅ⲙⲟ
 </norm>
 </orig>
@@ -13326,8 +13324,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="5">
 <translation translation="but there is one thing that I lack, [and which if granted] would cause us both to be praised.'">
 <entity head_tok="#u1717" text="ⲕⲉ ⲟⲩⲁ ⲛ ⲟⲩⲱⲧ" entity="person">
@@ -13339,7 +13337,7 @@
 </norm>
 </orig>
 <orig orig="ⲟⲩⲁ">
-<norm xml:id="u1717" func="dislocated" head="#u1722" pos="NUM" lemma="ⲟⲩⲁ" norm="ⲟⲩⲁ">
+<norm xml:id="u1717" func="root" pos="NUM" lemma="ⲟⲩⲁ" norm="ⲟⲩⲁ">
 ⲟⲩⲁ
 </norm>
 </orig>
@@ -13379,7 +13377,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲁⲁⲧ">
-<norm xml:id="u1722" func="root" pos="VSTAT" lemma="ϣⲓⲧⲉ" norm="ϣⲁⲁⲧ">
+<norm xml:id="u1722" func="parataxis" head="#u1717" pos="VSTAT" lemma="ϣⲓⲧⲉ" norm="ϣⲁⲁⲧ">
 ϣⲁⲁⲧ
 </norm>
 </orig>
@@ -13480,8 +13478,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="6">
 <translation translation="And she said unto him, 'Whatsoever thou wishest ask at my hand, my son, and I will fulfill thy desire for thee.'">
 <orig_group orig_group="ⲛ̅ⲧⲟⲥ">
@@ -13598,7 +13596,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲏⲣⲉ">
-<norm xml:id="u1750" func="vocative" head="#u1751" pos="N" lemma="ϣⲏⲣⲉ" norm="ϣⲏⲣⲉ">
+<norm xml:id="u1750" func="vocative" head="#u1747" pos="N" lemma="ϣⲏⲣⲉ" norm="ϣⲏⲣⲉ">
 ϣⲏⲣⲉ
 </norm>
 </orig>
@@ -13624,7 +13622,7 @@
 </norm>
 </orig>
 <orig orig="ϥ">
-<norm xml:id="u1753" func="obl" head="#u1751" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
+<norm xml:id="u1753" func="obj" head="#u1751" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
 ϥ
 </norm>
 </orig>
@@ -13647,7 +13645,7 @@
 <orig_group orig_group="ⲛ̅ⲧⲟⲟⲧ">
 <norm_group norm_group="ⲛⲧⲟⲟⲧ">
 <orig orig="ⲛ̅ⲧⲟⲟⲧ">
-<norm xml:id="u1756" func="vocative" head="#u1751" pos="PREP_PPERO" lemma="ⲛⲧⲟⲟⲧ_ⲁⲛⲟⲕ" norm="ⲛⲧⲟⲟⲧ">
+<norm xml:id="u1756" func="advmod" head="#u1751" pos="PREP_PPERO" lemma="ⲛⲧⲟⲟⲧ_ⲁⲛⲟⲕ" norm="ⲛⲧⲟⲟⲧ">
 ⲛ̅ⲧⲟⲟⲧ
 </norm>
 </orig>
@@ -13738,8 +13736,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="7">
 <translation translation="And John said unto his mother, 'Thou knowest that all the youths who are with me at school have provided me with meals, and that not once, nor twice, and that I have eaten often of their provisions.">
 <orig_group orig_group="ⲡⲉϫⲉⲓ̅ⲱ̅ⲥ̅">
@@ -13776,7 +13774,7 @@
 </norm>
 </orig>
 <orig orig="ⲙⲁⲁⲩ">
-<norm xml:id="u1772" func="dislocated" head="#u1768" pos="N" lemma="ⲙⲁⲁⲩ" norm="ⲙⲁⲁⲩ">
+<norm xml:id="u1772" func="obl" head="#u1768" pos="N" lemma="ⲙⲁⲁⲩ" norm="ⲙⲁⲁⲩ">
 ⲙⲁⲁⲩ
 </norm>
 </orig>
@@ -13979,7 +13977,7 @@
 </norm>
 </orig>
 <orig orig="ⲥⲛⲁⲩ">
-<norm xml:id="u1798" func="conj" head="#u1790" pos="NUM" lemma="ⲥⲛⲁⲩ" norm="ⲥⲛⲁⲩ">
+<norm xml:id="u1798" func="conj" head="#u1778" pos="NUM" lemma="ⲥⲛⲁⲩ" norm="ⲥⲛⲁⲩ">
 ⲥⲛⲁⲩ
 </norm>
 </orig>
@@ -14031,7 +14029,7 @@
 </norm>
 </orig>
 <orig orig="ⲁⲣⲓⲥⲧⲁ">
-<norm xml:id="u1805" func="csubj" head="#u1798" pos="V" lemma="ⲁⲣⲓⲥⲧⲁ" norm="ⲁⲣⲓⲥⲧⲁ">
+<norm xml:id="u1805" func="acl" head="#u1798" pos="V" lemma="ⲁⲣⲓⲥⲧⲁ" norm="ⲁⲣⲓⲥⲧⲁ">
 <lang lang="Greek">
 ⲁⲣⲓⲥⲧⲁ
 </lang>
@@ -14158,8 +14156,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="8">
 <translation translation="Now there is nothing at all which I can do for them in return for what they have given unto me,">
 <orig_group orig_group="ⲁⲛⲟⲕ">
@@ -14289,7 +14287,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲃ̅ⲃⲓⲱ">
-<norm xml:id="u1840" func="obl" head="#u1835" pos="N" lemma="ϣⲃⲃⲓⲱ" norm="ϣⲃⲃⲓⲱ">
+<norm xml:id="u1840" func="obj" head="#u1835" pos="N" lemma="ϣⲃⲃⲓⲱ" norm="ϣⲃⲃⲓⲱ">
 ϣⲃ̅ⲃⲓⲱ
 </norm>
 </orig>
@@ -14363,8 +14361,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="9">
 <translation translation="and I am in truth ashamed to enter the school again because of this matter.'">
 <orig_group orig_group="ⲁⲩⲱ">
@@ -14534,8 +14532,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="10">
 <translation translation="His mother saith unto him, 'Whatsoever thou wishest I will do for thee.">
 <orig_group orig_group="ⲡⲉϫⲉⲧϥ̅ⲙⲁⲁⲩ">
@@ -14667,8 +14665,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="11">
 <translation translation="When thy father cometh into the house at the hour of noon I will make him to give it (i.e., money) to thee, so that thou and thy companions mayest do what thou wishest therewith.'">
 <orig_group orig_group="ⲣ̅ϣⲁⲛⲡⲉⲕⲉⲓⲱⲧ">
@@ -14828,7 +14826,7 @@
 </norm>
 </orig>
 <orig orig="ⲉⲓⲣⲉ">
-<norm xml:id="u1914" func="ccomp" head="#u1906" pos="V" lemma="ⲉⲓⲣⲉ" norm="ⲉⲓⲣⲉ">
+<norm xml:id="u1914" func="advcl" head="#u1906" pos="V" lemma="ⲉⲓⲣⲉ" norm="ⲉⲓⲣⲉ">
 ⲉⲓⲣⲉ
 </norm>
 </orig>
@@ -14887,7 +14885,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲃⲏⲣ">
-<norm xml:id="u1922" func="conj" head="#u1917" pos="N" lemma="ϣⲃⲏⲣ" norm="ϣⲃⲏⲣ">
+<norm xml:id="u1922" func="obl" head="#u1914" pos="N" lemma="ϣⲃⲏⲣ" norm="ϣⲃⲏⲣ">
 ϣⲃⲏⲣ
 </norm>
 </orig>
@@ -14903,8 +14901,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="12">
 <translation translation="And when his father came into the house at the hour of noon">
 <orig_group orig_group="ⲧⲟⲧⲉ">
@@ -15005,8 +15003,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="13">
 <translation translation="she told him everything which John had said unto her. And his father answered">
 <orig_group orig_group="ⲁⲥϫⲱ">
@@ -15180,8 +15178,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="25">
 <ed_line_n ed_line_n="5">
@@ -15298,8 +15296,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="but let us set apart a servant to watch over him, for he is young, lest he squander [the money] in works of wickedness.'">
 <orig_group orig_group="ⲁⲗⲗⲁ">
@@ -15469,7 +15467,7 @@
 </norm>
 </orig>
 <orig orig="ⲧⲁⲕⲟ">
-<norm xml:id="u1997" func="advcl" head="#u1990" pos="V" lemma="ⲧⲁⲕⲟ" norm="ⲧⲁⲕⲟ">
+<norm xml:id="u1997" func="acl" head="#u1990" pos="V" lemma="ⲧⲁⲕⲟ" norm="ⲧⲁⲕⲟ">
 ⲧⲁⲕⲟ
 </norm>
 </orig>
@@ -15540,8 +15538,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="And these words pleased them both, and they called their son John, and they gave him the money,">
 <orig_group orig_group="ⲁϥⲣ̅ⲁⲛⲁⲩ">
@@ -15649,7 +15647,7 @@
 <orig_group orig_group="ⲓ̅ⲱ̅ⲥ̅">
 <norm_group norm_group="ⲓⲱϩⲁⲛⲛⲏⲥ">
 <orig orig="ⲓ̅ⲱ̅ⲥ̅">
-<norm xml:id="u2021" func="appos" head="#u2020" pos="NPROP" lemma="ⲓⲱϩⲁⲛⲛⲏⲥ" norm="ⲓⲱϩⲁⲛⲛⲏⲥ">
+<norm xml:id="u2021" func="nmod" head="#u2020" pos="NPROP" lemma="ⲓⲱϩⲁⲛⲛⲏⲥ" norm="ⲓⲱϩⲁⲛⲛⲏⲥ">
 <lang lang="Hebrew">
 ⲓ̅ⲱ̅ⲥ̅
 </lang>
@@ -15722,8 +15720,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="26">
 <ed_line_n ed_line_n="10">
@@ -15792,8 +15790,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="And when John had taken the money he went to the place wherein was the monk, both he and the servant who accompanied him, and he said unto the monk, 'My lord brother, this servant whom thou seest belongeth to me.">
 <orig_group orig_group="ⲛ̅ⲧⲉⲣϥ̅ϫⲓ">
@@ -15949,7 +15947,7 @@
 <orig_group orig_group="ⲛ̅ⲧⲟϥ">
 <norm_group norm_group="ⲛⲧⲟϥ">
 <orig orig="ⲛ̅ⲧⲟϥ">
-<norm xml:id="u2060" func="dislocated" head="#u2068" pos="PPERI" lemma="ⲛⲧⲟϥ" norm="ⲛⲧⲟϥ">
+<norm xml:id="u2060" func="dislocated" head="#u2050" pos="PPERI" lemma="ⲛⲧⲟϥ" norm="ⲛⲧⲟϥ">
 ⲛ̅ⲧⲟϥ
 </norm>
 </orig>
@@ -16007,7 +16005,7 @@
 <orig_group orig_group="ⲡⲉϫⲁϥ">
 <norm_group norm_group="ⲡⲉϫⲁϥ">
 <orig orig="ⲡⲉϫⲁ">
-<norm xml:id="u2068" func="parataxis" head="#u2050" pos="VBD" lemma="ⲡⲉϫⲉ" norm="ⲡⲉϫⲁ">
+<norm xml:id="u2068" func="conj" head="#u2050" pos="VBD" lemma="ⲡⲉϫⲉ" norm="ⲡⲉϫⲁ">
 ⲡⲉϫⲁ
 </norm>
 </orig>
@@ -16037,7 +16035,7 @@
 <orig_group orig_group="ϫⲉⲡⲁϫⲟⲉⲓⲥ">
 <norm_group norm_group="ϫⲉⲡⲁϫⲟⲉⲓⲥ">
 <orig orig="ϫⲉ">
-<norm xml:id="u2072" func="mark" head="#u2074" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
+<norm xml:id="u2072" func="mark" head="#u2084" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
 ϫⲉ
 </norm>
 </orig>
@@ -16048,7 +16046,7 @@
 </orig>
 <entity head_tok="#u2074" text="ϫⲟⲉⲓⲥ ⲛ ⲥⲟⲛ ⲡⲉⲓ ϩⲙϩⲁⲗ ⲉⲧ ⲕ ⲛⲁⲩ ⲉⲣⲟ ϥ" entity="person">
 <orig orig="ϫⲟⲉⲓⲥ">
-<norm xml:id="u2074" func="ccomp" head="#u2068" pos="N" lemma="ϫⲟⲉⲓⲥ" norm="ϫⲟⲉⲓⲥ">
+<norm xml:id="u2074" func="vocative" head="#u2084" pos="N" lemma="ϫⲟⲉⲓⲥ" norm="ϫⲟⲉⲓⲥ">
 ϫⲟⲉⲓⲥ
 </norm>
 </orig>
@@ -16078,7 +16076,7 @@
 </norm>
 </orig>
 <orig orig="ϩⲙ̅ϩⲁⲗ">
-<norm xml:id="u2078" func="appos" head="#u2074" pos="N" lemma="ϩⲙϩⲁⲗ" norm="ϩⲙϩⲁⲗ">
+<norm xml:id="u2078" func="conj" head="#u2074" pos="N" lemma="ϩⲙϩⲁⲗ" norm="ϩⲙϩⲁⲗ">
 ϩⲙ̅ϩⲁⲗ
 </norm>
 </orig>
@@ -16124,7 +16122,7 @@
 <orig_group orig_group="ⲡⲱⲓ">
 <norm_group norm_group="ⲡⲱⲓ">
 <orig orig="ⲡⲱⲓ">
-<norm xml:id="u2084" func="advmod" head="#u2081" pos="PPOS" lemma="ⲡⲱⲓ" norm="ⲡⲱⲓ">
+<norm xml:id="u2084" func="ccomp" head="#u2068" pos="PPOS" lemma="ⲡⲱⲓ" norm="ⲡⲱⲓ">
 ⲡⲱⲓ
 </norm>
 </orig>
@@ -16150,8 +16148,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="I beseech thee to do me an act of grace, and let him tarry with thee, whilst I go to the place where some neighbours of mine are to enquire concerning a certain person who was coming to me at this hour.'">
 <orig_group orig_group="ⲁⲣⲓⲧⲁⲅⲁⲡⲏ">
@@ -16387,8 +16385,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="4">
 <translation translation="Then the old man, the monk, understood that he was talking to him concerning the captain of the ship,">
 <orig_group orig_group="ⲧⲟⲧⲉ">
@@ -16554,8 +16552,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="5">
 <translation translation="and that he wished to go away by himself by reason of the servant who accompanied him.">
 <orig_group orig_group="ⲁⲗⲗⲁ">
@@ -16639,7 +16637,7 @@
 <orig_group orig_group="ⲉⲧⲙⲟⲟϣⲉ">
 <norm_group norm_group="ⲉⲧⲙⲟⲟϣⲉ">
 <orig orig="ⲉⲧ">
-<norm xml:id="u2152" func="mark" head="#u2153" pos="CREL" lemma="ⲉⲧⲉⲣⲉ" norm="ⲉⲧ">
+<norm xml:id="u2152" func="case" head="#u2153" pos="CREL" lemma="ⲉⲧⲉⲣⲉ" norm="ⲉⲧ">
 ⲉⲧ
 </norm>
 </orig>
@@ -16674,8 +16672,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="6">
 <translation translation="And John took the hundred oboli, and came to the place of the captain of the ship,">
 <orig_group orig_group="ⲓ̅ⲱ̅ⲥ̅">
@@ -16752,7 +16750,7 @@
 </orig>
 <entity head_tok="#u2166" text="ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ" entity="person">
 <orig orig="ϩⲟⲗⲟⲕⲟⲧϯⲛⲟⲥ">
-<norm xml:id="u2166" func="obj" head="#u2161" pos="N" lemma="ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ" norm="ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ">
+<norm xml:id="u2166" func="nmod" head="#u2164" pos="N" lemma="ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ" norm="ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ">
 <lang lang="Greek">
 ϩⲟⲗⲟⲕⲟⲧϯⲛⲟⲥ
 </lang>
@@ -16853,7 +16851,7 @@
 </norm>
 </orig>
 <orig orig="ϫⲟⲓ">
-<norm xml:id="u2180" func="obl" head="#u2169" pos="N" lemma="ϫⲟⲉⲓ" norm="ϫⲟⲉⲓ">
+<norm xml:id="u2180" func="nmod" head="#u2177" pos="N" lemma="ϫⲟⲉⲓ" norm="ϫⲟⲉⲓ">
 ϫⲟⲓ
 </norm>
 </orig>
@@ -16871,8 +16869,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="7">
 <translation translation="I beseech thee, O my lord brother, to make ready to sail, and let us depart quickly, I and my brother.'">
 <orig_group orig_group="ⲡⲉϫⲁϥ">
@@ -16930,7 +16928,7 @@
 </norm>
 </orig>
 <orig orig="ⲕ">
-<norm xml:id="u2190" func="obj" head="#u2188" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
+<norm xml:id="u2190" func="obl" head="#u2188" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
 ⲕ
 </norm>
 </orig>
@@ -17091,7 +17089,7 @@
 <orig_group orig_group="ⲁⲛⲟⲕ">
 <norm_group norm_group="ⲁⲛⲟⲕ">
 <orig orig="ⲁⲛⲟⲕ">
-<norm xml:id="u2211" func="appos" head="#u2209" pos="PPERI" lemma="ⲁⲛⲟⲕ" norm="ⲁⲛⲟⲕ">
+<norm xml:id="u2211" func="dislocated" head="#u2204" pos="PPERI" lemma="ⲁⲛⲟⲕ" norm="ⲁⲛⲟⲕ">
 ⲁⲛⲟⲕ
 </norm>
 </orig>
@@ -17111,7 +17109,7 @@
 </norm>
 </orig>
 <orig orig="ⲥⲟⲛ">
-<norm xml:id="u2214" func="conj" head="#u2209" pos="N" lemma="ⲥⲟⲛ" norm="ⲥⲟⲛ">
+<norm xml:id="u2214" func="conj" head="#u2211" pos="N" lemma="ⲥⲟⲛ" norm="ⲥⲟⲛ">
 ⲥⲟⲛ
 </norm>
 </orig>
@@ -17128,8 +17126,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="27">
 <verse_n verse_n="1">
@@ -17220,7 +17218,7 @@
 </orig>
 <entity head_tok="#u2227" text="ⲟⲩⲱϣ" entity="abstract">
 <orig orig="ⲟⲩⲱϣ">
-<norm xml:id="u2227" func="advcl" head="#u2221" pos="V" lemma="ⲟⲩⲱϣ" norm="ⲟⲩⲱϣ">
+<norm xml:id="u2227" func="ccomp" head="#u2221" pos="V" lemma="ⲟⲩⲱϣ" norm="ⲟⲩⲱϣ">
 ⲟⲩⲱϣ
 </norm>
 </orig>
@@ -17282,8 +17280,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="he said unto him, 'I have already finished making my ship ready to sail, and I have already told you that the passage money by my ship is high.">
 <orig_group orig_group="ⲡⲉϫⲁϥ">
@@ -17394,7 +17392,7 @@
 </norm>
 </orig>
 <orig orig="ϫⲟⲓ">
-<norm xml:id="u2251" func="obl" head="#u2248" pos="N" lemma="ϫⲟⲉⲓ" norm="ϫⲟⲉⲓ">
+<norm xml:id="u2251" func="obj" head="#u2248" pos="N" lemma="ϫⲟⲉⲓ" norm="ϫⲟⲉⲓ">
 ϫⲟⲓ
 </norm>
 </orig>
@@ -17584,8 +17582,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="However, if thou wilt remain in this place until I have loaded up my vessel, I will embark thee.'">
 <orig_group orig_group="ⲁⲗⲗⲁ">
@@ -17747,8 +17745,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="28">
 <verse_n verse_n="1">
@@ -17954,8 +17952,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="And straightway he brought out the hundred oboli in his hand, rejoicing greatly,">
 <orig_group orig_group="ⲛ̅ⲧⲉⲩⲛⲟⲩ">
@@ -18049,7 +18047,7 @@
 </orig>
 <entity head_tok="#u2341" text="ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ" entity="person">
 <orig orig="ϩⲟⲗⲟⲕⲟⲧϯⲛⲟⲥ">
-<norm xml:id="u2341" func="obj" head="#u2335" pos="N" lemma="ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ" norm="ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ">
+<norm xml:id="u2341" func="nmod" head="#u2339" pos="N" lemma="ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ" norm="ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ">
 <lang lang="Greek">
 ϩⲟⲗⲟⲕⲟⲧϯⲛⲟⲥ
 </lang>
@@ -18088,7 +18086,7 @@
 </norm>
 </orig>
 <orig orig="ⲣⲁϣⲉ">
-<norm xml:id="u2346" func="advcl" head="#u2335" pos="V" lemma="ⲣⲁϣⲉ" norm="ⲣⲁϣⲉ">
+<norm xml:id="u2346" func="acl" head="#u2339" pos="V" lemma="ⲣⲁϣⲉ" norm="ⲣⲁϣⲉ">
 ⲣⲁϣⲉ
 </norm>
 </orig>
@@ -18112,8 +18110,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="and he gave them to him, saying, 'Whatsoever thou informest me [is needed] more than these I will give unto thee.">
 <orig_group orig_group="ⲁϥⲧⲁⲁϥ">
@@ -18271,7 +18269,7 @@
 </orig>
 <entity head_tok="#u2371" text="ⲛⲁⲓ" entity="abstract">
 <orig orig="ⲛⲁⲓ">
-<norm xml:id="u2371" func="obl" head="#u2366" pos="PDEM" lemma="ⲡⲁⲓ" norm="ⲛⲁⲓ">
+<norm xml:id="u2371" func="nmod" head="#u2369" pos="PDEM" lemma="ⲡⲁⲓ" norm="ⲛⲁⲓ">
 ⲛⲁⲓ
 </norm>
 </orig>
@@ -18327,8 +18325,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <verse_n verse_n="1">
 <translation translation="But observe now, if by the favour of God the weather be favourable for us, thou must put out to sea quickly, and we will depart secretly.'">
@@ -18381,7 +18379,7 @@
 </norm>
 </orig>
 <orig orig="ⲁⲏⲣ">
-<norm xml:id="u2384" func="advcl" head="#u2387" pos="N" lemma="ⲁⲏⲣ" norm="ⲁⲏⲣ">
+<norm xml:id="u2384" func="nsubj" head="#u2387" pos="N" lemma="ⲁⲏⲣ" norm="ⲁⲏⲣ">
 <lang lang="Greek">
 ⲁⲏⲣ
 </lang>
@@ -18417,7 +18415,7 @@
 <orig_group orig_group="ⲁⲣⲓⲥ">
 <norm_group norm_group="ⲁⲣⲓⲥ">
 <orig orig="ⲁⲣⲓ">
-<norm xml:id="u2387" func="parataxis" head="#u2379" pos="VIMP" lemma="ⲉⲓⲣⲉ" norm="ⲁⲣⲓ">
+<norm xml:id="u2387" func="ccomp" head="#u2379" pos="VIMP" lemma="ⲉⲓⲣⲉ" norm="ⲁⲣⲓ">
 ⲁⲣⲓ
 </norm>
 </orig>
@@ -18509,7 +18507,7 @@
 <orig_group orig_group="ⲉⲃⲟⲗ">
 <norm_group norm_group="ⲉⲃⲟⲗ">
 <orig orig="ⲉⲃⲟⲗ">
-<norm xml:id="u2400" func="advmod" head="#u2397" pos="ADV" lemma="ⲉⲃⲟⲗ" norm="ⲉⲃⲟⲗ">
+<norm xml:id="u2400" func="case" head="#u2403" pos="ADV" lemma="ⲉⲃⲟⲗ" norm="ⲉⲃⲟⲗ">
 ⲉⲃⲟⲗ
 </norm>
 </orig>
@@ -18518,7 +18516,7 @@
 <orig_group orig_group="ϩⲛ̅ⲟⲩϭⲉⲡⲏ">
 <norm_group norm_group="ϩⲛⲟⲩϭⲉⲡⲏ">
 <orig orig="ϩⲛ̅">
-<norm xml:id="u2401" func="case" head="#u2403" pos="PREP" lemma="ϩⲛ" norm="ϩⲛ">
+<norm xml:id="u2401" func="fixed" head="#u2400" pos="PREP" lemma="ϩⲛ" norm="ϩⲛ">
 ϩⲛ̅
 </norm>
 </orig>
@@ -18597,9 +18595,9 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
-</translation>
 </chapter_n>
+</translation>
+</verse_n>
 <chapter_n chapter_n="30">
 <verse_n verse_n="1">
 <translation translation="And when the captain of the ship heard these words he took the hundred oboli in his hand, and rejoiced exceedingly,">
@@ -18622,7 +18620,7 @@
 <orig_group orig_group="ⲇⲉ">
 <norm_group norm_group="ⲇⲉ">
 <orig orig="ⲇⲉ">
-<norm xml:id="u2414" func="amod" head="#u2426" pos="PTC" lemma="ⲇⲉ" norm="ⲇⲉ">
+<norm xml:id="u2414" func="advmod" head="#u2426" pos="PTC" lemma="ⲇⲉ" norm="ⲇⲉ">
 <lang lang="Greek">
 ⲇⲉ
 </lang>
@@ -18745,7 +18743,7 @@
 </orig>
 <entity head_tok="#u2431" text="ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ" entity="person">
 <orig orig="ϩⲟⲗⲟⲕⲟⲧϯⲛⲟⲥ">
-<norm xml:id="u2431" func="obj" head="#u2426" pos="N" lemma="ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ" norm="ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ">
+<norm xml:id="u2431" func="nmod" head="#u2429" pos="N" lemma="ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ" norm="ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ">
 <lang lang="Greek">
 ϩⲟⲗⲟⲕⲟⲧϯⲛⲟⲥ
 </lang>
@@ -18784,7 +18782,7 @@
 </norm>
 </orig>
 <orig orig="ⲣⲁϣⲉ">
-<norm xml:id="u2436" func="advcl" head="#u2426" pos="V" lemma="ⲣⲁϣⲉ" norm="ⲣⲁϣⲉ">
+<norm xml:id="u2436" func="acl" head="#u2429" pos="V" lemma="ⲣⲁϣⲉ" norm="ⲣⲁϣⲉ">
 ⲣⲁϣⲉ
 </norm>
 </orig>
@@ -18808,8 +18806,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="and he said unto John, 'Go and bring thy companion, and come [back];">
 <orig_group orig_group="ⲡⲉϫⲁϥ">
@@ -18870,7 +18868,7 @@
 <orig_group orig_group="ⲁⲛⲓⲡⲉⲕϣⲃⲏⲣ">
 <norm_group norm_group="ⲁⲛⲓⲡⲉⲕϣⲃⲏⲣ">
 <orig orig="ⲁⲛⲓ">
-<norm xml:id="u2446" func="xcomp" head="#u2445" pos="VIMP" lemma="ⲉⲓⲛⲉ" norm="ⲁⲛⲓ">
+<norm xml:id="u2446" func="parataxis" head="#u2445" pos="VIMP" lemma="ⲉⲓⲛⲉ" norm="ⲁⲛⲓ">
 ⲁⲛⲓ
 </norm>
 </orig>
@@ -18918,8 +18916,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="if it be the will of God I will take most excellent care of you.'">
 <orig_group orig_group="ⲉϣⲱⲡⲉ">
@@ -19039,8 +19037,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <verse_n verse_n="1">
 <translation translation="And John returned, and informed the brother who was a monk about everything that had happened unto him.">
@@ -19222,9 +19220,9 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
-</translation>
 </chapter_n>
+</translation>
+</verse_n>
 <chapter_n chapter_n="32">
 <verse_n verse_n="1">
 <translation translation="And after two days John said unto the monk, 'Rise up, and let us depart by sea, because this is the day whereon I ought to make ready the meal for my fellow learners,">
@@ -19264,7 +19262,7 @@
 <orig_group orig_group="ⲥⲛⲁⲩ">
 <norm_group norm_group="ⲥⲛⲁⲩ">
 <orig orig="ⲥⲛⲁⲩ">
-<norm xml:id="u2496" func="nmod" head="#u2494" pos="NUM" lemma="ⲥⲛⲁⲩ" norm="ⲥⲛⲁⲩ">
+<norm xml:id="u2496" func="nummod" head="#u2494" pos="NUM" lemma="ⲥⲛⲁⲩ" norm="ⲥⲛⲁⲩ">
 ⲥⲛⲁⲩ
 </norm>
 </orig>
@@ -19403,7 +19401,7 @@
 <norm_group norm_group="ⲡⲁⲓ">
 <entity head_tok="#u2513" text="ⲡⲁⲓ" entity="abstract">
 <orig orig="ⲡⲁⲓ">
-<norm xml:id="u2513" func="advcl" head="#u2507" pos="PDEM" lemma="ⲡⲁⲓ" norm="ⲡⲁⲓ">
+<norm xml:id="u2513" func="ccomp" head="#u2497" pos="PDEM" lemma="ⲡⲁⲓ" norm="ⲡⲁⲓ">
 ⲡⲁⲓ
 </norm>
 </orig>
@@ -19455,7 +19453,7 @@
 </norm>
 </orig>
 <orig orig="ⲥⲃ̅ⲧⲉ">
-<norm xml:id="u2520" func="acl" head="#u2516" pos="V" lemma="ⲥⲃⲧⲉ" norm="ⲥⲃⲧⲉ">
+<norm xml:id="u2520" func="acl" head="#u2513" pos="V" lemma="ⲥⲃⲧⲉ" norm="ⲥⲃⲧⲉ">
 ⲥⲃ̅ⲧⲉ
 </norm>
 </orig>
@@ -19507,11 +19505,11 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
-<ed_line_n ed_line_n="15">
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="and I ought to seek for some small fish for them.'">
+<ed_line_n ed_line_n="15">
 <orig_group orig_group="ⲉⲓⲟⲩⲱϣ">
 <norm_group norm_group="ⲉⲓⲟⲩⲱϣ">
 <orig orig="ⲉ">
@@ -19621,11 +19619,11 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
-<ed_line_n ed_line_n="16">
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="And they came to the sea-shore by the will of God,">
+<ed_line_n ed_line_n="16">
 <orig_group orig_group="ⲁⲩⲉⲓ">
 <norm_group norm_group="ⲁⲩⲉⲓ">
 <orig orig="ⲁ">
@@ -19731,8 +19729,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 <ed_line_n ed_line_n="17">
 <verse_n verse_n="4">
 <translation translation="and a favorable wind arose,">
@@ -19783,7 +19781,7 @@
 </norm>
 </orig>
 <orig orig="ⲛⲁⲛⲟⲩ">
-<norm xml:id="u2562" func="advcl" head="#u2557" pos="VBD" lemma="ⲛⲁⲛⲟⲩ" norm="ⲛⲁⲛⲟⲩ">
+<norm xml:id="u2562" func="acl" head="#u2560" pos="VBD" lemma="ⲛⲁⲛⲟⲩ" norm="ⲛⲁⲛⲟⲩ">
 ⲛⲁⲛⲟⲩ
 </norm>
 </orig>
@@ -19804,8 +19802,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="5">
 <translation translation="and the captain embarked on the ship, and stood on the side of it,">
 <orig_group orig_group="ⲁϥⲃⲱⲕ">
@@ -19972,8 +19970,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="6">
 <translation translation="and he stooped down and beckoned to John and the monk, saying, 'Arise come ye and embark.'">
 <orig_group orig_group="ⲁϥϩⲙⲟⲟⲥ">
@@ -20081,7 +20079,7 @@
 <orig_group orig_group="ⲁⲙⲏⲓⲧⲛ̅">
 <norm_group norm_group="ⲁⲙⲏⲓⲧⲛ">
 <orig orig="ⲁⲙⲏⲓⲧⲛ̅">
-<norm xml:id="u2603" func="parataxis" head="#u2602" pos="VIMP" lemma="ⲉⲓ" norm="ⲁⲙⲏⲓⲧⲛ">
+<norm xml:id="u2603" func="nsubj" head="#u2604" pos="VIMP" lemma="ⲉⲓ" norm="ⲁⲙⲏⲓⲧⲛ">
 ⲁⲙⲏⲓⲧⲛ̅
 </norm>
 </orig>
@@ -20090,7 +20088,7 @@
 <orig_group orig_group="ⲁⲗⲱⲧⲛ̅">
 <norm_group norm_group="ⲁⲗⲱⲧⲛ">
 <orig orig="ⲁⲗⲱⲧⲛ̅">
-<norm xml:id="u2604" func="xcomp" head="#u2603" pos="V" lemma="ⲁⲗⲱⲧⲛ" norm="ⲁⲗⲱⲧⲛ">
+<norm xml:id="u2604" func="parataxis" head="#u2602" pos="V" lemma="ⲁⲗⲱⲧⲛ" norm="ⲁⲗⲱⲧⲛ">
 ⲁⲗⲱⲧⲛ̅
 </norm>
 </orig>
@@ -20105,8 +20103,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="7">
 <translation translation="Now they were troubled, for they wished to send away the servant from them, and to leave him behind,">
 <orig_group orig_group="ⲉⲛⲉⲩϣⲧⲣ̅ⲧⲱⲣ">
@@ -20181,7 +20179,7 @@
 </norm>
 </orig>
 <orig orig="ⲱⲣϫ̅">
-<norm xml:id="u2616" func="obj" head="#u2613" pos="N" lemma="ⲱⲣϫ" norm="ⲱⲣϫ">
+<norm xml:id="u2616" func="obl" head="#u2613" pos="N" lemma="ⲱⲣϫ" norm="ⲱⲣϫ">
 ⲱⲣϫ̅
 </norm>
 </orig>
@@ -20249,8 +20247,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="8">
 <translation translation="but they could not find any satisfactory means for doing so.">
 <orig_group orig_group="ⲙ̅ⲡⲟⲩϭⲛ̅ⲑⲉ">
@@ -20288,8 +20286,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="9">
 <translation translation="And John said unto the servant who was accompanying him, 'Rise up and go to the palace, to the scholars, and see if they have all assembled there, and then come back quickly and let me know;">
 <orig_group orig_group="ⲓ̅ⲱ̅ⲥ̅">
@@ -20455,7 +20453,7 @@
 </norm>
 </orig>
 <orig orig="ⲥⲭⲟⲗⲁⲥϯⲕⲟⲥ">
-<norm xml:id="u2652" func="nmod" head="#u2649" pos="N" lemma="ⲥⲭⲟⲗⲁⲥⲧⲓⲕⲟⲥ" norm="ⲥⲭⲟⲗⲁⲥⲧⲓⲕⲟⲥ">
+<norm xml:id="u2652" func="obl" head="#u2646" pos="N" lemma="ⲥⲭⲟⲗⲁⲥⲧⲓⲕⲟⲥ" norm="ⲥⲭⲟⲗⲁⲥⲧⲓⲕⲟⲥ">
 <lang lang="Greek">
 ⲥⲭⲟⲗⲁⲥϯⲕⲟⲥ
 </lang>
@@ -20590,8 +20588,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 <ed_line_n ed_line_n="26">
 <verse_n verse_n="10">
 <translation translation="behold, I will wait for thee here';">
@@ -20637,12 +20635,12 @@
 <orig_group orig_group="ϩⲏⲧⲕ̅">
 <norm_group norm_group="ϩⲏⲧⲕ">
 <orig orig="ϩⲏⲧ">
-<norm xml:id="u2677" func="obl:npmod" head="#u2675" pos="PREP" lemma="ϩⲏⲧ" norm="ϩⲏⲧ">
+<norm xml:id="u2677" func="case" head="#u2678" pos="PREP" lemma="ϩⲏⲧ" norm="ϩⲏⲧ">
 ϩⲏⲧ
 </norm>
 </orig>
 <orig orig="ⲕ̅">
-<norm xml:id="u2678" func="det" head="#u2677" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
+<norm xml:id="u2678" func="obl" head="#u2675" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
 ⲕ̅
 </norm>
 </orig>
@@ -20657,8 +20655,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="11">
 <translation translation="and the servant departed.">
 <orig_group orig_group="ⲁϥⲃⲱⲕ">
@@ -20724,8 +20722,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="33">
 <verse_n verse_n="1">
@@ -20850,8 +20848,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="and they arrived at the monastery by the will of God.">
 <orig_group orig_group="ⲁⲩⲉⲓ">
@@ -20949,8 +20947,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 </ed_line_n>
 </chapter_n>
 <chapter_n chapter_n="34">
@@ -21028,7 +21026,7 @@
 </norm>
 </orig>
 <orig orig="ⲁⲗⲗⲁⲥⲁ">
-<norm xml:id="u2728" func="obl" head="#u2731" pos="N" lemma="ϩⲁⲗⲗⲁⲥⲁ" norm="ϩⲁⲗⲗⲁⲥⲁ">
+<norm xml:id="u2728" func="obl" head="#u2720" pos="N" lemma="ϩⲁⲗⲗⲁⲥⲁ" norm="ϩⲁⲗⲗⲁⲥⲁ">
 <lang lang="Greek">
 ⲁⲗⲗⲁⲥⲁ
 </lang>
@@ -21071,8 +21069,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="and he was disturbed exceedingly in his mind, saying, 'Shall I take to flight and not tell my master?'">
 <orig_group orig_group="ⲁϥϣⲧⲟⲣⲧⲣ̅">
@@ -21159,18 +21157,18 @@
 <orig_group orig_group="ⲛ̅ⲧⲁⲧⲙ̅ⲧⲁⲙⲉⲡⲁϫⲥ̅">
 <norm_group norm_group="ⲛⲧⲁⲧⲙⲧⲁⲙⲉⲡⲁϫⲟⲉⲓⲥ">
 <orig orig="ⲛ̅">
-<norm xml:id="u2745" func="case" head="#u2751" pos="PREP" lemma="ⲛ" norm="ⲛ">
+<norm xml:id="u2745" func="case" head="#u2747" pos="PREP" lemma="ⲛ" norm="ⲛ">
 ⲛ̅
 </norm>
 </orig>
-<entity head_tok="#u2746" text="ⲧ ⲁ" entity="abstract">
+<entity head_tok="#u2747" text="ⲧ ⲁ" entity="abstract">
 <orig orig="ⲧ">
-<norm xml:id="u2746" func="det" head="#u2751" pos="ART" lemma="ⲡ" norm="ⲧ">
+<norm xml:id="u2746" func="det" head="#u2747" pos="ART" lemma="ⲡ" norm="ⲧ">
 ⲧ
 </norm>
 </orig>
 <orig orig="ⲁ">
-<norm xml:id="u2747" func="nsubj" head="#u2749" pos="N" lemma="ⲁ" norm="ⲁ">
+<norm xml:id="u2747" func="obl" head="#u2744" pos="N" lemma="ⲁ" norm="ⲁ">
 ⲁ
 </norm>
 </orig>
@@ -21202,8 +21200,8 @@
 </ed_line_n>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="35">
 <verse_n verse_n="1">
@@ -21441,8 +21439,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="so I will go and inform my masters, lest perhaps they seek him at my hands,">
 <ed_line_n ed_line_n="2">
@@ -21484,7 +21482,7 @@
 </norm>
 </orig>
 <orig orig="ⲧⲁⲙⲉ">
-<norm xml:id="u2789" func="xcomp" head="#u2787" pos="V" lemma="ⲧⲁⲙⲟ" norm="ⲧⲁⲙⲉ">
+<norm xml:id="u2789" func="advcl" head="#u2787" pos="V" lemma="ⲧⲁⲙⲟ" norm="ⲧⲁⲙⲉ">
 ⲧⲁⲙⲉ
 </norm>
 </orig>
@@ -21526,7 +21524,7 @@
 </ed_line_n>
 <ed_line_n ed_line_n="3">
 <orig orig="ⲕⲱⲧⲉ">
-<norm xml:id="u2795" func="parataxis" head="#u2789" pos="V" lemma="ⲕⲱⲧⲉ" norm="ⲕⲱⲧⲉ">
+<norm xml:id="u2795" func="parataxis" head="#u2787" pos="V" lemma="ⲕⲱⲧⲉ" norm="ⲕⲱⲧⲉ">
 ⲕⲱⲧⲉ
 </norm>
 </orig>
@@ -21549,7 +21547,7 @@
 <orig_group orig_group="ⲛ̅ⲧⲟⲟⲧ">
 <norm_group norm_group="ⲛⲧⲟⲟⲧ">
 <orig orig="ⲛ̅ⲧⲟⲟⲧ">
-<norm xml:id="u2798" func="advmod" head="#u2795" pos="PREP_PPERO" lemma="ⲛⲧⲟⲟⲧ" norm="ⲛⲧⲟⲟⲧ">
+<norm xml:id="u2798" func="obl:npmod" head="#u2795" pos="PREP_PPERO" lemma="ⲛⲧⲟⲟⲧ" norm="ⲛⲧⲟⲟⲧ">
 ⲛ̅ⲧⲟⲟⲧ
 </norm>
 </orig>
@@ -21564,8 +21562,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="and I shall be without anxiety and free from blame.'">
 <orig_group orig_group="ⲁⲛⲟⲕ">
@@ -21656,8 +21654,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="36">
 <verse_n verse_n="1">
@@ -21742,6 +21740,7 @@
 ⲥ
 </norm>
 </orig>
+<multiword multiword="ⲡⲱϩ ⲛ">
 <orig orig="ⲡⲱϩ">
 <norm xml:id="u2821" func="root" pos="V" lemma="ⲡⲱϩ" norm="ⲡⲱϩ">
 ⲡⲱϩ
@@ -21756,6 +21755,7 @@
 ⲛ̅
 </norm>
 </orig>
+</multiword>
 </ed_line_n>
 <ed_line_n ed_line_n="6">
 <entity head_tok="#u2824" text="ⲛⲉⲥ ϩⲟⲓⲧⲉ" entity="object">
@@ -21781,8 +21781,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="and she scattered dust upon her head,">
 <orig_group orig_group="ⲁⲩⲱ">
@@ -21855,8 +21855,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="and she wept with a great weeping, saying, 'Woe is me, O my beloved son John!">
 <orig_group orig_group="ⲁⲥⲣⲓⲙⲉ">
@@ -21998,7 +21998,7 @@
 </norm>
 </orig>
 <orig orig="ⲙⲉⲣⲓⲧ">
-<norm xml:id="u2855" func="vocative" head="#u2851" pos="N" lemma="ⲙⲉⲣⲓⲧ" norm="ⲙⲉⲣⲓⲧ">
+<norm xml:id="u2855" func="ccomp" head="#u2847" pos="N" lemma="ⲙⲉⲣⲓⲧ" norm="ⲙⲉⲣⲓⲧ">
 ⲙⲉⲣⲓⲧ
 </norm>
 </orig>
@@ -22022,7 +22022,7 @@
 <orig_group orig_group="ⲓⲱϩⲁⲛⲛⲏⲥ">
 <norm_group norm_group="ⲓⲱϩⲁⲛⲛⲏⲥ">
 <orig orig="ⲓⲱϩⲁⲛⲛⲏⲥ">
-<norm xml:id="u2858" func="appos" head="#u2857" pos="NPROP" lemma="ⲓⲱϩⲁⲛⲛⲏⲥ" norm="ⲓⲱϩⲁⲛⲛⲏⲥ">
+<norm xml:id="u2858" func="flat" head="#u2857" pos="NPROP" lemma="ⲓⲱϩⲁⲛⲛⲏⲥ" norm="ⲓⲱϩⲁⲛⲛⲏⲥ">
 <lang lang="Hebrew">
 ⲓⲱϩⲁⲛⲛⲏⲥ
 </lang>
@@ -22041,8 +22041,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="4">
 <translation translation="What hath become of thee, O my sweet son? Woe is me, O my son! For thy face is . . . . . . . . .">
 <orig_group orig_group="ⲟⲩ">
@@ -22093,7 +22093,7 @@
 </norm>
 </orig>
 <orig orig="ⲕ">
-<norm xml:id="u2867" func="obj" head="#u2865" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
+<norm xml:id="u2867" func="obl" head="#u2865" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
 ⲕ
 </norm>
 </orig>
@@ -22108,7 +22108,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲏⲣⲉ">
-<norm xml:id="u2869" func="vocative" head="#u2865" pos="N" lemma="ϣⲏⲣⲉ" norm="ϣⲏⲣⲉ">
+<norm xml:id="u2869" func="vocative" head="#u2860" pos="N" lemma="ϣⲏⲣⲉ" norm="ϣⲏⲣⲉ">
 ϣⲏⲣⲉ
 </norm>
 </orig>
@@ -22132,7 +22132,7 @@
 <orig_group orig_group="ⲟⲩⲟⲓ">
 <norm_group norm_group="ⲟⲩⲟⲓ">
 <orig orig="ⲟⲩⲟⲓ">
-<norm xml:id="u2872" func="ccomp" head="#u2865" pos="PTC" lemma="ⲟⲩⲟⲓ" norm="ⲟⲩⲟⲓ">
+<norm xml:id="u2872" func="parataxis" head="#u2865" pos="PTC" lemma="ⲟⲩⲟⲓ" norm="ⲟⲩⲟⲓ">
 ⲟⲩⲟⲓ
 </norm>
 </orig>
@@ -22188,7 +22188,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲟⲛ̅ⲧ̅">
-<norm xml:id="u2880" func="advcl" head="#u2872" pos="V" lemma="ϣⲟⲛⲧ" norm="ϣⲟⲛⲧ">
+<norm xml:id="u2880" func="ccomp" head="#u2872" pos="V" lemma="ϣⲟⲛⲧ" norm="ϣⲟⲛⲧ">
 ϣⲟⲛ̅ⲧ̅
 </norm>
 </orig>
@@ -22215,8 +22215,8 @@
 </entity>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="5">
 <translation translation="O John, my beloved son!">
 <orig_group orig_group="ⲱ̅">
@@ -22282,8 +22282,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 </ed_line_n>
 <ed_line_n ed_line_n="11">
 <verse_n verse_n="6">
@@ -22311,8 +22311,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="7">
 <translation translation="Who hath carried away the light of my body?">
 <orig_group orig_group="ⲛⲓⲙ">
@@ -22403,8 +22403,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="8">
 <translation translation="I know not.">
 <orig_group orig_group="ⲛ̅ϯⲥⲟⲟⲩⲛ">
@@ -22447,8 +22447,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="37">
 <ed_line_n ed_line_n="13">
@@ -22477,8 +22477,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="Who hath carried away my beloved son, the darling of my soul?">
 <orig_group orig_group="ⲛⲓⲙ">
@@ -22571,7 +22571,7 @@
 </norm>
 </orig>
 <orig orig="ⲙⲉⲣⲓⲧ">
-<norm xml:id="u2926" func="appos" head="#u2922" pos="N" lemma="ⲙⲉⲣⲓⲧ" norm="ⲙⲉⲣⲓⲧ">
+<norm xml:id="u2926" func="appos" head="#u2924" pos="N" lemma="ⲙⲉⲣⲓⲧ" norm="ⲙⲉⲣⲓⲧ">
 ⲙⲉⲣⲓⲧ
 </norm>
 </orig>
@@ -22610,8 +22610,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="38">
 <verse_n verse_n="1">
@@ -22679,8 +22679,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="O light of mine eyes!">
 <orig_group orig_group="ⲱ̅">
@@ -22740,8 +22740,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="Why did I send thee forth after wisdom in this manner [to meet] the fate which hath come upon thee?">
 <orig_group orig_group="ⲁⲓϫⲟⲟⲩⲕ">
@@ -22879,7 +22879,7 @@
 </norm>
 </orig>
 <orig orig="ⲕ">
-<norm xml:id="u2964" func="obj" head="#u2962" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
+<norm xml:id="u2964" func="obl" head="#u2962" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
 ⲕ
 </norm>
 </orig>
@@ -22887,13 +22887,13 @@
 </norm_group>
 </orig_group>
 </entity>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="39">
-<ed_line_n ed_line_n="18">
 <verse_n verse_n="1">
 <translation translation="Woe be unto me, o my son, who was sweet to everyone!">
+<ed_line_n ed_line_n="18">
 <orig_group orig_group="Ⲟⲩⲟⲓ">
 <norm_group norm_group="ⲟⲩⲟⲓ">
 <orig orig="Ⲟⲩⲟⲓ">
@@ -22926,7 +22926,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲏⲣⲉ">
-<norm xml:id="u2969" func="vocative" head="#u2965" pos="N" lemma="ϣⲏⲣⲉ" norm="ϣⲏⲣⲉ">
+<norm xml:id="u2969" func="appos" head="#u2967" pos="N" lemma="ϣⲏⲣⲉ" norm="ϣⲏⲣⲉ">
 ϣⲏⲣⲉ
 </norm>
 </orig>
@@ -22989,8 +22989,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="Woe be unto me, my son, my sweet one, thou face full of joy!">
 <ed_line_n ed_line_n="19">
@@ -23026,7 +23026,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲏⲣⲉ">
-<norm xml:id="u2981" func="vocative" head="#u2977" pos="N" lemma="ϣⲏⲣⲉ" norm="ϣⲏⲣⲉ">
+<norm xml:id="u2981" func="appos" head="#u2979" pos="N" lemma="ϣⲏⲣⲉ" norm="ϣⲏⲣⲉ">
 ϣⲏⲣⲉ
 </norm>
 </orig>
@@ -23051,7 +23051,7 @@
 <orig_group orig_group="ⲡⲁⲡⲉⲓϩⲟ">
 <norm_group norm_group="ⲡⲁⲡⲉⲓϩⲟ">
 <orig orig="ⲡⲁ">
-<norm xml:id="u2984" func="parataxis" head="#u2977" pos="PPOS" lemma="ⲡⲁ" norm="ⲡⲁ">
+<norm xml:id="u2984" func="obj" head="#u2983" pos="PPOS" lemma="ⲡⲁ" norm="ⲡⲁ">
 ⲡⲁ
 </norm>
 </orig>
@@ -23119,8 +23119,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="40">
 <ed_line_n ed_line_n="21">
@@ -23129,7 +23129,7 @@
 <orig_group orig_group="Ⲟⲩⲟⲓ">
 <norm_group norm_group="ⲟⲩⲟⲓ">
 <orig orig="Ⲟⲩⲟⲓ">
-<norm xml:id="u2993" func="root" new_sent="true" pos="PTC" lemma="ⲟⲩⲟⲓ" norm="ⲟⲩⲟⲓ">
+<norm xml:id="u2993" func="advmod" head="#u2996" new_sent="true" pos="PTC" lemma="ⲟⲩⲟⲓ" norm="ⲟⲩⲟⲓ">
 Ⲟⲩⲟⲓ
 </norm>
 </orig>
@@ -23143,7 +23143,7 @@
 </norm>
 </orig>
 <orig orig="ⲓ">
-<norm xml:id="u2995" func="obl" head="#u2993" pos="PPERO" lemma="ⲁⲛⲟⲕ" norm="ⲓ">
+<norm xml:id="u2995" func="obl" head="#u2996" pos="PPERO" lemma="ⲁⲛⲟⲕ" norm="ⲓ">
 ⲓ
 </norm>
 </orig>
@@ -23152,7 +23152,7 @@
 <orig_group orig_group="ⲡⲁⲧⲑⲓⲕⲱⲛ">
 <norm_group norm_group="ⲡⲁⲧⲧϩⲓⲕⲱⲛ">
 <orig orig="ⲡⲁ">
-<norm xml:id="u2996" func="vocative" head="#u2993" pos="PPOS" lemma="ⲡⲁ" norm="ⲡⲁ">
+<norm xml:id="u2996" func="root" pos="PPOS" lemma="ⲡⲁ" norm="ⲡⲁ">
 ⲡⲁ
 </norm>
 </orig>
@@ -23163,7 +23163,7 @@
 </norm>
 </orig>
 <orig orig="ⲑⲓⲕⲱⲛ">
-<norm xml:id="u2998" func="vocative" head="#u2993" pos="N" lemma="ⲧϩⲓⲕⲱⲛ" norm="ⲧϩⲓⲕⲱⲛ">
+<norm xml:id="u2998" func="obj" head="#u2996" pos="N" lemma="ⲧϩⲓⲕⲱⲛ" norm="ⲧϩⲓⲕⲱⲛ">
 <lang lang="Greek">
 ⲑⲓⲕⲱⲛ
 </lang>
@@ -23204,14 +23204,14 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="Woe unto me! What shall I do from this day henceforth?'">
 <orig_group orig_group="ⲟⲩⲟⲓ">
 <norm_group norm_group="ⲟⲩⲟⲓ">
 <orig orig="ⲟⲩⲟⲓ">
-<norm xml:id="u3003" func="root" new_sent="true" pos="PTC" lemma="ⲟⲩⲟⲓ" norm="ⲟⲩⲟⲓ">
+<norm xml:id="u3003" func="advmod" head="#u3010" new_sent="true" pos="PTC" lemma="ⲟⲩⲟⲓ" norm="ⲟⲩⲟⲓ">
 ⲟⲩⲟⲓ
 </norm>
 </orig>
@@ -23225,7 +23225,7 @@
 </norm>
 </orig>
 <orig orig="ⲓ">
-<norm xml:id="u3005" func="obl" head="#u3003" pos="PPERO" lemma="ⲁⲛⲟⲕ" norm="ⲓ">
+<norm xml:id="u3005" func="obl" head="#u3010" pos="PPERO" lemma="ⲁⲛⲟⲕ" norm="ⲓ">
 ⲓ
 </norm>
 </orig>
@@ -23234,7 +23234,7 @@
 <orig_group orig_group="ⲱ̅">
 <norm_group norm_group="ⲱ">
 <orig orig="ⲱ̅">
-<norm xml:id="u3006" func="cop" head="#u3003" pos="PTC" lemma="ⲱ" norm="ⲱ">
+<norm xml:id="u3006" func="discourse" head="#u3010" pos="PTC" lemma="ⲱ" norm="ⲱ">
 <lang lang="Greek">
 ⲱ̅
 </lang>
@@ -23245,7 +23245,7 @@
 <orig_group orig_group="ⲡⲉ">
 <norm_group norm_group="ⲡⲉ">
 <orig orig="ⲡⲉ">
-<norm xml:id="u3007" func="cop" head="#u3003" pos="COP" lemma="ⲡⲉ" norm="ⲡⲉ">
+<norm xml:id="u3007" func="cop" head="#u3010" pos="COP" lemma="ⲡⲉ" norm="ⲡⲉ">
 ⲡⲉ
 </norm>
 </orig>
@@ -23266,7 +23266,7 @@
 </norm>
 </orig>
 <orig orig="ⲁ">
-<norm xml:id="u3010" func="parataxis" head="#u3003" pos="V" lemma="ⲉⲓⲣⲉ" norm="ⲁ">
+<norm xml:id="u3010" func="root" pos="V" lemma="ⲉⲓⲣⲉ" norm="ⲁ">
 ⲁ
 </norm>
 </orig>
@@ -23316,8 +23316,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="And thus also did his father weep, with groanings, and sighings, and sorrow of heart, and he cried out, saying,">
 <orig_group orig_group="ⲛ̅ⲧⲉⲓϩⲉ">
@@ -23339,7 +23339,6 @@
 </orig>
 </norm_group>
 </orig_group>
-<multiword multiword="ⲇⲉ ⲟⲛ">
 <orig_group orig_group="ⲇⲉ">
 <norm_group norm_group="ⲇⲉ">
 <orig orig="ⲇⲉ">
@@ -23354,13 +23353,12 @@
 <orig_group orig_group="ⲟⲛ">
 <norm_group norm_group="ⲟⲛ">
 <orig orig="ⲟⲛ">
-<norm xml:id="u3021" func="advmod" head="#u3019" pos="ADV" lemma="ⲟⲛ" norm="ⲟⲛ">
+<norm xml:id="u3021" func="advmod" head="#u3027" pos="ADV" lemma="ⲟⲛ" norm="ⲟⲛ">
 ⲟⲛ
 </norm>
 </orig>
 </norm_group>
 </orig_group>
-</multiword>
 <orig_group orig_group="ⲡⲉϥⲕⲉⲉⲓⲱⲧ">
 <norm_group norm_group="ⲡⲉϥⲕⲉⲉⲓⲱⲧ">
 <orig orig="ⲡⲉϥ">
@@ -23455,7 +23453,7 @@
 </norm>
 </orig>
 <orig orig="ⲟⲩ">
-<norm xml:id="u3034" func="obl" head="#u3036" pos="PINT" lemma="ⲟⲩ" norm="ⲟⲩ">
+<norm xml:id="u3034" func="conj" head="#u3031" pos="PINT" lemma="ⲟⲩ" norm="ⲟⲩ">
 ⲟⲩ
 </norm>
 </orig>
@@ -23573,8 +23571,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="4">
 <translation translation="What hath happened unto thee, O my beloved son?">
 <orig_group orig_group="ϫⲉⲟⲩ">
@@ -23679,8 +23677,8 @@
 </norm_group>
 </orig_group>
 </entity>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="5">
 <translation translation="I know not what hath happened unto thee suddenly.'">
 <orig_group orig_group="ⲛ̅ϯⲥⲟⲟⲩⲛ">
@@ -23794,8 +23792,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="6">
 <translation translation="And whilst the seven days of weeping were being fulfilled the whole city mourned with them.">
 <ed_line_n ed_line_n="27">
@@ -23812,7 +23810,7 @@
 </norm>
 </orig>
 <orig orig="ϫⲱⲕ">
-<norm xml:id="u3082" func="root" pos="V" lemma="ϫⲱⲕ" norm="ϫⲱⲕ">
+<norm xml:id="u3082" func="advcl" head="#u3097" pos="V" lemma="ϫⲱⲕ" norm="ϫⲱⲕ">
 ϫⲱⲕ
 </norm>
 </orig>
@@ -23855,7 +23853,7 @@
 </norm>
 </orig>
 <orig orig="ϩⲟⲟⲩ">
-<norm xml:id="u3088" func="dislocated" head="#u3082" pos="N" lemma="ϩⲟⲟⲩ" norm="ϩⲟⲟⲩ">
+<norm xml:id="u3088" func="obl" head="#u3082" pos="N" lemma="ϩⲟⲟⲩ" norm="ϩⲟⲟⲩ">
 ϩⲟⲟⲩ
 </norm>
 </orig>
@@ -23929,7 +23927,7 @@
 <orig_group orig_group="ⲣ̅ϩⲏⲃⲉ">
 <norm_group norm_group="ⲣϩⲏⲃⲉ">
 <orig orig="ⲣ̅ϩⲏⲃⲉ">
-<norm xml:id="u3097" func="advcl" head="#u3082" pos="V" lemma="ⲣϩⲏⲃⲉ" norm="ⲣϩⲏⲃⲉ">
+<norm xml:id="u3097" func="root" pos="V" lemma="ⲣϩⲏⲃⲉ" norm="ⲣϩⲏⲃⲉ">
 <morph morph="ⲣ">
 ⲣ̅
 </morph>
@@ -23963,8 +23961,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="7">
 <translation translation="Then his father rose up and went into the palace, and informed the king of everything which had happened,">
 <orig_group orig_group="ⲧⲟⲧⲉ">
@@ -24161,8 +24159,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="8">
 <translation translation="and he entreated him to send out an order to every part of his kingdom, so that the people might seek for his son, and, peradventure, might find him.">
 <orig_group orig_group="ⲁⲩⲱ">
@@ -24310,7 +24308,7 @@
 </pb_xml_id>
 <pb_xml_id pb_xml_id="MERC.AT147">
 <orig orig="ⲙⲛ̅ⲧⲉⲣⲟ">
-<norm xml:id="u3146" func="nmod" head="#u3142" pos="N" lemma="ⲙⲛⲧⲣⲣⲟ" norm="ⲙⲛⲧⲣⲣⲟ">
+<norm xml:id="u3146" func="obl" head="#u3136" pos="N" lemma="ⲙⲛⲧⲣⲣⲟ" norm="ⲙⲛⲧⲣⲣⲟ">
 <morph morph="ⲙⲛⲧ">
 ⲙⲛ̅ⲧ
 </morph>
@@ -24365,7 +24363,7 @@
 <orig_group orig_group="ⲙⲉϣⲁⲕ">
 <norm_group norm_group="ⲙⲉϣⲁⲕ">
 <orig orig="ⲙⲉϣⲁⲕ">
-<norm xml:id="u3152" func="advmod" head="#u3155" pos="ADV" lemma="ⲙⲉϣⲁⲕ" norm="ⲙⲉϣⲁⲕ">
+<norm xml:id="u3152" func="advmod" head="#u3149" pos="ADV" lemma="ⲙⲉϣⲁⲕ" norm="ⲙⲉϣⲁⲕ">
 ⲙⲉϣⲁⲕ
 </norm>
 </orig>
@@ -24413,8 +24411,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="41">
 <verse_n verse_n="1">
@@ -24634,7 +24632,7 @@
 <orig_group orig_group="ⲙⲛ̅ⲧϥ̅ⲉⲡⲓⲥⲧⲏⲙⲉⲓ">
 <norm_group norm_group="ⲙⲛⲧϥⲉⲡⲓⲥⲧⲏⲙⲉⲓ">
 <orig orig="ⲙⲛ̅ⲧ">
-<norm xml:id="u3186" func="parataxis" head="#u3178" pos="EXIST" lemma="ⲙⲛⲧⲉ" norm="ⲙⲛⲧ">
+<norm xml:id="u3186" func="parataxis" head="#u3168" pos="EXIST" lemma="ⲙⲛⲧⲉ" norm="ⲙⲛⲧ">
 ⲙⲛ̅ⲧ
 </norm>
 </orig>
@@ -24663,8 +24661,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="and he ate with him at his table because of the greatness of his liking for him.">
 <orig_group orig_group="ⲁⲩⲱ">
@@ -24826,8 +24824,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <verse_n verse_n="1">
 <translation translation="Then the king sent out a command into every part [of his kingdom], and soldiers to seek after him, and they went about in every place, but they found him not; so they returned to the palace.">
@@ -24952,7 +24950,7 @@
 </norm>
 </orig>
 <orig orig="ⲙⲁⲧⲟⲓ">
-<norm xml:id="u3226" func="obl" head="#u3216" pos="N" lemma="ⲙⲁⲧⲟⲓ" norm="ⲙⲁⲧⲟⲓ">
+<norm xml:id="u3226" func="nmod" head="#u3222" pos="N" lemma="ⲙⲁⲧⲟⲓ" norm="ⲙⲁⲧⲟⲓ">
 ⲙⲁⲧⲟⲓ
 </norm>
 </orig>
@@ -25146,9 +25144,9 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
-</translation>
 </chapter_n>
+</translation>
+</verse_n>
 <chapter_n chapter_n="43">
 <verse_n verse_n="1">
 <translation translation="And [although] his parents have worn themselves out in going round about without finding him they ascribed glory to God.">
@@ -25162,7 +25160,7 @@
 </norm>
 </orig>
 <orig orig="ⲉⲓⲟⲟⲧⲉ">
-<norm xml:id="u3254" func="dislocated" head="#u3258" pos="N" lemma="ⲉⲓⲱⲧ" norm="ⲉⲓⲟⲧⲉ">
+<norm xml:id="u3254" func="dislocated" head="#u3266" pos="N" lemma="ⲉⲓⲱⲧ" norm="ⲉⲓⲟⲧⲉ">
 ⲉⲓⲟⲟⲧⲉ
 </norm>
 </orig>
@@ -25321,8 +25319,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="And John came to the monastery, he and the monk also who accompanied him,">
 <orig_group orig_group="ⲓ̅ⲱ̅ⲥ̅">
@@ -25415,7 +25413,7 @@
 </norm>
 </orig>
 <orig orig="ⲙⲟⲛⲟⲭⲟⲥ">
-<norm xml:id="u3287" func="conj" head="#u3282" pos="N" lemma="ⲙⲟⲛⲁⲭⲟⲥ" norm="ⲙⲟⲛⲁⲭⲟⲥ">
+<norm xml:id="u3287" func="conj" head="#u3283" pos="N" lemma="ⲙⲟⲛⲁⲭⲟⲥ" norm="ⲙⲟⲛⲁⲭⲟⲥ">
 <lang lang="Greek">
 ⲙⲟⲛⲟⲭⲟⲥ
 </lang>
@@ -25464,8 +25462,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="and he carried with him the Gospel of gold which his parents had made for him,">
 <orig_group orig_group="ⲁϥϥⲓ">
@@ -25546,7 +25544,7 @@
 <orig_group orig_group="ⲡⲁⲓ">
 <norm_group norm_group="ⲡⲁⲓ">
 <orig orig="ⲡⲁⲓ">
-<norm xml:id="u3303" func="appos" head="#u3298" pos="PDEM" lemma="ⲡⲁⲓ" norm="ⲡⲁⲓ">
+<norm xml:id="u3303" func="appos" head="#u3302" pos="PDEM" lemma="ⲡⲁⲓ" norm="ⲡⲁⲓ">
 ⲡⲁⲓ
 </norm>
 </orig>
@@ -25616,8 +25614,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="4">
 <translation translation="and he (i.e., the monk) informed the head of the monastery of everything which had happened to the young man John, and about his great belief in God.">
 <orig_group orig_group="ⲁϥⲧⲁⲙⲉⲡⲣⲟⲉⲓⲥⲧⲟⲥ">
@@ -25745,7 +25743,7 @@
 <orig_group orig_group="ⲓ̅ⲱ̅ⲥ̅">
 <norm_group norm_group="ⲓⲱϩⲁⲛⲛⲏⲥ">
 <orig orig="ⲓ̅ⲱ̅ⲥ̅">
-<norm xml:id="u3329" func="dislocated" head="#u3324" pos="NPROP" lemma="ⲓⲱϩⲁⲛⲛⲏⲥ" norm="ⲓⲱϩⲁⲛⲛⲏⲥ">
+<norm xml:id="u3329" func="appos" head="#u3327" pos="NPROP" lemma="ⲓⲱϩⲁⲛⲛⲏⲥ" norm="ⲓⲱϩⲁⲛⲛⲏⲥ">
 <lang lang="Hebrew">
 ⲓ̅ⲱ̅ⲥ̅
 </lang>
@@ -25804,7 +25802,7 @@
 <orig_group orig_group="ⲉϩⲟⲩⲛ">
 <norm_group norm_group="ⲉϩⲟⲩⲛ">
 <orig orig="ⲉϩⲟⲩⲛ">
-<norm xml:id="u3336" func="advmod" head="#u3331" pos="ADV" lemma="ⲉϩⲟⲩⲛ" norm="ⲉϩⲟⲩⲛ">
+<norm xml:id="u3336" func="case" head="#u3339" pos="ADV" lemma="ⲉϩⲟⲩⲛ" norm="ⲉϩⲟⲩⲛ">
 ⲉϩⲟⲩⲛ
 </norm>
 </orig>
@@ -25842,8 +25840,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="5">
 <translation translation="And the Archimandrite said unto the young man, 'My son, behold, I see that thou art young in years, but exceedingly well-doing in thy works.">
 <orig_group orig_group="ⲡⲁⲣⲭⲏⲙⲁⲛⲇⲣⲓⲧⲏⲥ">
@@ -26089,7 +26087,7 @@
 </norm>
 </orig>
 <orig orig="ϩⲃⲏⲩⲉ">
-<norm xml:id="u3372" func="nmod" head="#u3368" pos="N" lemma="ϩⲱⲃ" norm="ϩⲃⲏⲩⲉ">
+<norm xml:id="u3372" func="nmod" head="#u3362" pos="N" lemma="ϩⲱⲃ" norm="ϩⲃⲏⲩⲉ">
 ϩⲃⲏⲩⲉ
 </norm>
 </orig>
@@ -26107,8 +26105,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="44">
 <verse_n verse_n="1">
@@ -26117,7 +26115,7 @@
 <orig_group orig_group="Ⲗⲟⲓⲡⲟⲛ">
 <norm_group norm_group="ⲗⲟⲓⲡⲟⲛ">
 <orig orig="Ⲗⲟⲓⲡⲟⲛ">
-<norm xml:id="u3374" func="advmod" head="#u3394" new_sent="true" pos="ADV" lemma="ⲗⲟⲓⲡⲟⲛ" norm="ⲗⲟⲓⲡⲟⲛ">
+<norm xml:id="u3374" func="advmod" head="#u3376" new_sent="true" pos="ADV" lemma="ⲗⲟⲓⲡⲟⲛ" norm="ⲗⲟⲓⲡⲟⲛ">
 <lang lang="Greek">
 Ⲗⲟⲓⲡⲟⲛ
 </lang>
@@ -26144,7 +26142,7 @@
 <orig_group orig_group="ⲟⲩⲟⲛ">
 <norm_group norm_group="ⲟⲩⲟⲛ">
 <orig orig="ⲟⲩⲟⲛ">
-<norm xml:id="u3377" func="dislocated" head="#u3394" pos="N" lemma="ⲟⲩⲟⲛ" norm="ⲟⲩⲟⲛ">
+<norm xml:id="u3377" func="appos" head="#u3376" pos="N" lemma="ⲟⲩⲟⲛ" norm="ⲟⲩⲟⲛ">
 ⲟⲩⲟⲛ
 </norm>
 </orig>
@@ -26182,7 +26180,7 @@
 </norm>
 </orig>
 <orig orig="ⲁⲡⲟⲧⲁⲥⲥⲉ">
-<norm xml:id="u3382" func="csubj" head="#u3380" pos="V" lemma="ⲁⲡⲟⲧⲁⲥⲥⲉ" norm="ⲁⲡⲟⲧⲁⲥⲥⲉ">
+<norm xml:id="u3382" func="xcomp" head="#u3380" pos="V" lemma="ⲁⲡⲟⲧⲁⲥⲥⲉ" norm="ⲁⲡⲟⲧⲁⲥⲥⲉ">
 <lang lang="Greek">
 ⲁⲡⲟⲧⲁⲥⲥⲉ
 </lang>
@@ -26227,7 +26225,7 @@
 </norm>
 </orig>
 <orig orig="ⲟ">
-<norm xml:id="u3388" func="advcl" head="#u3385" pos="VSTAT" lemma="ⲉⲓⲣⲉ" norm="ⲟ">
+<norm xml:id="u3388" func="advcl" head="#u3382" pos="VSTAT" lemma="ⲉⲓⲣⲉ" norm="ⲟ">
 ⲟ
 </norm>
 </orig>
@@ -26454,8 +26452,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="And John said unto him, 'I adjure thee, O my holy father, by the Holy and Consubstantial Trinity, and by the prayers of the monastery, that thou shave my head this day, and especially, as God knoweth, my heart burneth with desire for the life of the monk, and for the garb of the angels.'">
 <orig_group orig_group="ⲡⲉϫⲉⲓ̅ⲱ̅ⲥ̅">
@@ -26519,7 +26517,7 @@
 </norm>
 </orig>
 <orig orig="ⲕ">
-<norm xml:id="u3426" func="obj" head="#u3424" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
+<norm xml:id="u3426" func="obl" head="#u3424" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
 ⲕ
 </norm>
 </orig>
@@ -26568,7 +26566,7 @@
 </norm>
 </orig>
 <orig orig="ⲧⲣⲓⲁⲥ">
-<norm xml:id="u3433" func="obl" head="#u3424" pos="N" lemma="ⲧⲣⲓⲁⲥ" norm="ⲧⲣⲓⲁⲥ">
+<norm xml:id="u3433" func="nmod" head="#u3428" pos="N" lemma="ⲧⲣⲓⲁⲥ" norm="ⲧⲣⲓⲁⲥ">
 <lang lang="Greek">
 ⲧⲣⲓⲁⲥ
 </lang>
@@ -26600,7 +26598,7 @@
 </norm>
 </orig>
 <orig orig="ϩⲟⲙⲟⲟⲩⲥⲓⲟⲛ">
-<norm xml:id="u3437" func="nmod" head="#u3433" pos="N" lemma="ϩⲟⲙⲟⲟⲩⲥⲓⲟⲛ" norm="ϩⲟⲙⲟⲟⲩⲥⲓⲟⲛ">
+<norm xml:id="u3437" func="obl" head="#u3435" pos="N" lemma="ϩⲟⲙⲟⲟⲩⲥⲓⲟⲛ" norm="ϩⲟⲙⲟⲟⲩⲥⲓⲟⲛ">
 <lang lang="Greek">
 ϩⲟⲙⲟⲟⲩⲥⲓⲟⲛ
 </lang>
@@ -26622,7 +26620,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲗⲏⲗ">
-<norm xml:id="u3440" func="conj" head="#u3433" pos="N" lemma="ϣⲗⲏⲗ" norm="ϣⲗⲏⲗ">
+<norm xml:id="u3440" func="conj" head="#u3437" pos="N" lemma="ϣⲗⲏⲗ" norm="ϣⲗⲏⲗ">
 ϣⲗⲏⲗ
 </norm>
 </orig>
@@ -26660,7 +26658,7 @@
 <orig_group orig_group="ⲉⲕⲉϣⲃ̅ϫⲱⲓ">
 <norm_group norm_group="ⲉⲕⲉϣⲃϫⲱⲓ">
 <orig orig="ⲉ">
-<norm xml:id="u3444" func="mark" head="#u3447" pos="PREP" lemma="ⲉ" norm="ⲉ">
+<norm xml:id="u3444" func="case" head="#u3446" pos="PREP" lemma="ⲉ" norm="ⲉ">
 ⲉ
 </norm>
 </orig>
@@ -26733,7 +26731,7 @@
 </norm>
 </orig>
 <orig orig="ⲛⲟⲩⲧⲉ">
-<norm xml:id="u3454" func="advcl" head="#u3447" pos="N" lemma="ⲛⲟⲩⲧⲉ" norm="ⲛⲟⲩⲧⲉ">
+<norm xml:id="u3454" func="obl" head="#u3447" pos="N" lemma="ⲛⲟⲩⲧⲉ" norm="ⲛⲟⲩⲧⲉ">
 ⲛⲟⲩⲧⲉ
 </norm>
 </orig>
@@ -26744,7 +26742,7 @@
 <orig_group orig_group="ⲡⲉⲧⲥⲟⲟⲩⲛ">
 <norm_group norm_group="ⲡⲉⲧⲥⲟⲟⲩⲛ">
 <orig orig="ⲡ">
-<norm xml:id="u3455" func="cop" head="#u3454" pos="ART" lemma="ⲡ" norm="ⲡ">
+<norm xml:id="u3455" func="appos" head="#u3454" pos="ART" lemma="ⲡ" norm="ⲡ">
 ⲡ
 </norm>
 </orig>
@@ -26880,8 +26878,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="And the Archimandrite was persuaded, and straightway he prayed over him, and he placed upon him the angelic garb.">
 <orig_group orig_group="ⲡⲁⲣⲭⲏⲙⲁⲛⲇⲣⲓⲧⲏⲥ">
@@ -26950,7 +26948,7 @@
 </norm>
 </orig>
 <orig orig="ⲩⲛⲟⲩ">
-<norm xml:id="u3480" func="obl" head="#u3477" pos="N" lemma="ⲟⲩⲛⲟⲩ" norm="ⲩⲛⲟⲩ">
+<norm xml:id="u3480" func="obj" head="#u3477" pos="N" lemma="ⲟⲩⲛⲟⲩ" norm="ⲩⲛⲟⲩ">
 ⲩⲛⲟⲩ
 </norm>
 </orig>
@@ -27092,8 +27090,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="4">
 <translation translation="And the heart of John rejoiced within him exceedingly, and he prayed to God by day and by night with such exceedingly long prayers that his praying, and his daily contest, and his asceticism were far in excess of a very great many of those who were his neighbours.">
 <orig_group orig_group="ⲛ̅ⲧⲟϥ">
@@ -27202,7 +27200,7 @@
 </norm>
 </orig>
 <orig orig="ⲧⲱⲃϩ̅">
-<norm xml:id="u3512" func="conj" head="#u3504" pos="V" lemma="ⲧⲱⲃϩ" norm="ⲧⲱⲃϩ">
+<norm xml:id="u3512" func="advcl" head="#u3504" pos="V" lemma="ⲧⲱⲃϩ" norm="ⲧⲱⲃϩ">
 ⲧⲱⲃϩ̅
 </norm>
 </orig>
@@ -27222,7 +27220,7 @@
 </norm>
 </orig>
 <orig orig="ⲛⲟⲩⲧⲉ">
-<norm xml:id="u3515" func="obj" head="#u3512" pos="N" lemma="ⲛⲟⲩⲧⲉ" norm="ⲛⲟⲩⲧⲉ">
+<norm xml:id="u3515" func="obl" head="#u3512" pos="N" lemma="ⲛⲟⲩⲧⲉ" norm="ⲛⲟⲩⲧⲉ">
 ⲛⲟⲩⲧⲉ
 </norm>
 </orig>
@@ -27243,7 +27241,7 @@
 </norm>
 </orig>
 <orig orig="ϩⲟⲟⲩ">
-<norm xml:id="u3518" func="nmod" head="#u3515" pos="N" lemma="ϩⲟⲟⲩ" norm="ϩⲟⲟⲩ">
+<norm xml:id="u3518" func="obl" head="#u3512" pos="N" lemma="ϩⲟⲟⲩ" norm="ϩⲟⲟⲩ">
 ϩⲟⲟⲩ
 </norm>
 </orig>
@@ -27310,7 +27308,7 @@
 <orig_group orig_group="ⲉⲃⲟⲗ">
 <norm_group norm_group="ⲉⲃⲟⲗ">
 <orig orig="ⲉⲃⲟⲗ">
-<norm xml:id="u3527" func="advmod" head="#u3524" pos="ADV" lemma="ⲉⲃⲟⲗ" norm="ⲉⲃⲟⲗ">
+<norm xml:id="u3527" func="advmod" head="#u3526" pos="ADV" lemma="ⲉⲃⲟⲗ" norm="ⲉⲃⲟⲗ">
 ⲉⲃⲟⲗ
 </norm>
 </orig>
@@ -27339,7 +27337,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲗⲏⲗ">
-<norm xml:id="u3530" func="advcl" head="#u3524" pos="N" lemma="ϣⲗⲏⲗ" norm="ϣⲗⲏⲗ">
+<norm xml:id="u3530" func="nsubj" head="#u3518" pos="N" lemma="ϣⲗⲏⲗ" norm="ϣⲗⲏⲗ">
 ϣⲗⲏⲗ
 </norm>
 </orig>
@@ -27423,7 +27421,7 @@
 </norm>
 </orig>
 <orig orig="ⲣ̅ⲛⲟϭ">
-<norm xml:id="u3541" func="advcl" head="#u3504" pos="V" lemma="ⲣⲛⲟϭ" norm="ⲣⲛⲟϭ">
+<norm xml:id="u3541" func="advcl" head="#u3512" pos="V" lemma="ⲣⲛⲟϭ" norm="ⲣⲛⲟϭ">
 <morph morph="ⲣ">
 ⲣ̅
 </morph>
@@ -27494,8 +27492,8 @@
 </norm_group>
 </orig_group>
 </entity>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="5">
 <translation translation="And for six years he led this kind of life of abstinence and ascetic excellence in the fear of God,">
 <orig_group orig_group="ⲉⲛⲉⲁϥⲣ̅ⲥⲟ">
@@ -27556,7 +27554,7 @@
 </orig>
 <entity head_tok="#u3558" text="ⲣⲟⲙⲡⲉ" entity="time">
 <orig orig="ⲣⲟⲙⲡⲉ">
-<norm xml:id="u3558" func="nmod" head="#u3555" pos="N" lemma="ⲣⲟⲙⲡⲉ" norm="ⲣⲟⲙⲡⲉ">
+<norm xml:id="u3558" func="obl" head="#u3554" pos="N" lemma="ⲣⲟⲙⲡⲉ" norm="ⲣⲟⲙⲡⲉ">
 ⲣⲟⲙⲡⲉ
 </norm>
 </orig>
@@ -27661,14 +27659,13 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </chapter_n>
 <chapter_n chapter_n="45">
 <verse_n verse_n="1">
 <translation translation="and besides this he engaged in many contests of self-abnegation, and practised many habits of self-repression.">
 <ed_line_n ed_line_n="4">
-<multiword multiword="ⲕⲁⲓ ⲅⲁⲣ">
 <orig_group orig_group="Ⲕⲁⲓ">
 <norm_group norm_group="ⲕⲁⲓ">
 <orig orig="Ⲕⲁⲓ">
@@ -27691,7 +27688,6 @@
 </orig>
 </norm_group>
 </orig_group>
-</multiword>
 <orig_group orig_group="ⲁϥⲣ̅ϩⲉⲛⲛⲟϭ">
 <norm_group norm_group="ⲁϥⲣϩⲉⲛⲛⲟϭ">
 <orig orig="ⲁ">
@@ -27771,7 +27767,7 @@
 </norm>
 </orig>
 <orig orig="ⲛⲁϣⲱ">
-<norm xml:id="u3585" func="acl" head="#u3578" pos="VBD" lemma="ⲛⲁϣⲉ" norm="ⲛⲁϣⲱ">
+<norm xml:id="u3585" func="acl" head="#u3583" pos="VBD" lemma="ⲛⲁϣⲉ" norm="ⲛⲁϣⲱ">
 ⲛⲁϣⲱ
 </norm>
 </orig>
@@ -27792,8 +27788,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="And the Archimandrite saw him, and marvelled exceedingly.">
 <orig_group orig_group="ⲁϥⲛⲁⲩ">
@@ -27908,8 +27904,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="And the Archimandrite said unto him, 'My son, thou art a very young man, but behold, I see thee practising very many mighty works of abstinence; thou wilt thyself destroy thine own body, and wilt not be able to stand up, neither to pray, nor to fast.">
 <orig_group orig_group="ⲡⲉϫⲉⲡⲁⲣⲭⲏⲙⲁⲛⲇⲣⲓⲧⲏⲥ">
@@ -27969,7 +27965,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲏⲣⲉ">
-<norm xml:id="u3609" func="vocative" head="#u3612" pos="N" lemma="ϣⲏⲣⲉ" norm="ϣⲏⲣⲉ">
+<norm xml:id="u3609" func="appos" head="#u3612" pos="N" lemma="ϣⲏⲣⲉ" norm="ϣⲏⲣⲉ">
 ϣⲏⲣⲉ
 </norm>
 </orig>
@@ -28198,7 +28194,7 @@
 <orig_group orig_group="ⲙ̅ⲙⲓⲛ">
 <norm_group norm_group="ⲙⲙⲓⲛ">
 <orig orig="ⲙ̅ⲙⲓⲛ">
-<norm xml:id="u3639" func="advcl" head="#u3635" pos="V" lemma="ⲙⲙⲓⲛ" norm="ⲙⲙⲓⲛ">
+<norm xml:id="u3639" func="parataxis" head="#u3624" pos="V" lemma="ⲙⲙⲓⲛ" norm="ⲙⲙⲓⲛ">
 ⲙ̅ⲙⲓⲛ
 </norm>
 </orig>
@@ -28212,7 +28208,7 @@
 </norm>
 </orig>
 <orig orig="ⲕ">
-<norm xml:id="u3641" func="obl" head="#u3639" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
+<norm xml:id="u3641" func="obj" head="#u3639" pos="PPERO" lemma="ⲛⲧⲟⲕ" norm="ⲕ">
 ⲕ
 </norm>
 </orig>
@@ -28252,7 +28248,7 @@
 </norm>
 </orig>
 <orig orig="ⲁⲁϩⲉ">
-<norm xml:id="u3647" func="advcl" head="#u3635" pos="V" lemma="ⲱϩⲉ" norm="ⲁϩⲉ">
+<norm xml:id="u3647" func="advcl" head="#u3624" pos="V" lemma="ⲱϩⲉ" norm="ⲁϩⲉ">
 ⲁⲁϩⲉ
 </norm>
 </orig>
@@ -28332,11 +28328,10 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="4">
 <translation translation="For overmuch ascetic labour exhausteth a man greatly, and maketh him weak.'">
-<multiword multiword="ⲕⲁⲓ ⲅⲁⲣ">
 <orig_group orig_group="ⲕⲁⲓ">
 <norm_group norm_group="ⲕⲁⲓ">
 <orig orig="ⲕⲁⲓ">
@@ -28359,7 +28354,6 @@
 </orig>
 </norm_group>
 </orig_group>
-</multiword>
 <entity head_tok="#u3661" text="ⲡ ⲣⲱϣⲉ ⲛ ⲉⲅⲕⲣⲁⲧⲉⲓⲁ" entity="abstract">
 <orig_group orig_group="ⲡⲣⲱϣⲉ">
 <norm_group norm_group="ⲡⲣⲱϣⲉ">
@@ -28435,7 +28429,7 @@
 </orig>
 <entity head_tok="#u3670" text="ϭⲱⲃ" entity="person">
 <orig orig="ϭⲱⲃ">
-<norm xml:id="u3670" func="obl" head="#u3666" pos="N" lemma="ϭⲱⲃ" norm="ϭⲱⲃ">
+<norm xml:id="u3670" func="nmod" head="#u3668" pos="N" lemma="ϭⲱⲃ" norm="ϭⲱⲃ">
 ϭⲱⲃ
 </norm>
 </orig>
@@ -28471,14 +28465,14 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="5">
 <translation translation="But John did not cease to practise the labours which he had begun to perform.">
 <orig_group orig_group="ⲛ̅ⲧⲟϥ">
 <norm_group norm_group="ⲛⲧⲟϥ">
 <orig orig="ⲛ̅ⲧⲟϥ">
-<norm xml:id="u3675" func="root" new_sent="true" pos="PPERI" lemma="ⲛⲧⲟϥ" norm="ⲛⲧⲟϥ">
+<norm xml:id="u3675" func="dislocated" head="#u3680" new_sent="true" pos="PPERI" lemma="ⲛⲧⲟϥ" norm="ⲛⲧⲟϥ">
 ⲛ̅ⲧⲟϥ
 </norm>
 </orig>
@@ -28489,7 +28483,7 @@
 <orig_group orig_group="ⲇⲉ">
 <norm_group norm_group="ⲇⲉ">
 <orig orig="ⲇⲉ">
-<norm xml:id="u3676" func="advmod" head="#u3675" pos="PTC" lemma="ⲇⲉ" norm="ⲇⲉ">
+<norm xml:id="u3676" func="advmod" head="#u3680" pos="PTC" lemma="ⲇⲉ" norm="ⲇⲉ">
 <lang lang="Greek">
 ⲇⲉ
 </lang>
@@ -28501,7 +28495,7 @@
 <norm_group norm_group="ⲓⲱϩⲁⲛⲛⲏⲥ">
 <entity head_tok="#u3677" text="ⲓⲱϩⲁⲛⲛⲏⲥ" entity="person">
 <orig orig="ⲓ̅ⲱ̅ⲥ̅">
-<norm xml:id="u3677" func="appos" head="#u3675" pos="NPROP" lemma="ⲓⲱϩⲁⲛⲛⲏⲥ" norm="ⲓⲱϩⲁⲛⲛⲏⲥ">
+<norm xml:id="u3677" func="dislocated" head="#u3680" pos="NPROP" lemma="ⲓⲱϩⲁⲛⲛⲏⲥ" norm="ⲓⲱϩⲁⲛⲛⲏⲥ">
 <lang lang="Hebrew">
 ⲓ̅ⲱ̅ⲥ̅
 </lang>
@@ -28523,7 +28517,7 @@
 </norm>
 </orig>
 <orig orig="ⲕⲁⲧⲟⲟⲧ">
-<norm xml:id="u3680" func="nmod" head="#u3677" pos="V" lemma="ⲕⲁⲧⲟⲟⲧ" norm="ⲕⲁⲧⲟⲟⲧ">
+<norm xml:id="u3680" func="root" pos="V" lemma="ⲕⲁⲧⲟⲟⲧ" norm="ⲕⲁⲧⲟⲟⲧ">
 <morph morph="ⲕⲁ">
 ⲕⲁ
 </morph>
@@ -28623,8 +28617,8 @@
 </norm_group>
 </orig_group>
 </ed_line_n>
-</verse_n>
 </translation>
+</verse_n>
 </pb_xml_id>
 </chapter_n>
 </ed_page_n>
