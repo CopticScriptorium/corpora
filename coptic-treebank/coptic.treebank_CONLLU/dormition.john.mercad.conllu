@@ -182,7 +182,7 @@
 
 # sent_id = coptic_treebank-dormition_john_mercad_s0006
 # text_en = ...
-# text = ⲁϥⲁⲁⲩ ⲛⲏⲧⲛ · ⲁⲩⲱ ⲧⲉⲧⲛⲥⲟⲟⲩⲛ ϫⲉⲁϣ ⲛⲉ ⲛⲉⲥⲃⲟⲟⲩⲉ ⲙⲛⲛⲉⲣϩⲙⲙⲉ · ⲁⲩⲱ ⲛⲙⲧⲟⲛ ⲙⲛⲧⲇⲓⲁⲕⲟⲛⲓⲁ · ⲙⲛⲛⲉϩⲙⲟⲧ ⲙⲛⲛⲇⲱⲣⲉⲁ · ⲙⲛⲛⲕⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ · ⲛⲧⲁⲧⲉⲧⲛⲛⲁⲩ ⲉⲣⲟⲟⲩ ϩⲛⲛⲉⲧⲛⲃⲁⲗ ·
+# text = ⲁϥⲁⲁⲩ ⲛⲏⲧⲛ · ⲁⲩⲱ ⲧⲉⲧⲛⲥⲟⲟⲩⲛ ϫⲉⲁϣ ⲛⲉ ⲛⲉⲥⲃⲟⲟⲩⲉ ⲙⲛⲛⲉⲣϩⲙⲙⲉ · ⲁⲩⲱ ⲛⲙⲧⲟⲛ ⲙⲛⲧⲇⲓⲁⲕⲟⲛⲓⲁ · ⲙⲛⲛⲉϩⲙⲟⲧ ⲙⲛⲛⲇⲱⲣⲉⲁ · ⲙⲛⲛⲕⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ ·
 1-4	ⲁϥⲁⲁⲩ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -232,23 +232,27 @@
 36	ⲕⲟⲟⲩⲉ	ⲕⲉ	NOUN	N	_	22	conj	_	Orig=ⲕⲟⲟⲩⲉ`
 37-38	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
 37	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	36	advmod	_	_
-38	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	37	det	_	_
-39	·	·	PUNCT	PUNCT	_	43	punct	_	_
-40-43	ⲛⲧⲁⲧⲉⲧⲛⲛⲁⲩ	_	_	_	_	_	_	_	_
-40	ⲛⲧ	ⲉⲣⲉ	PART	CFOC	_	43	mark	_	Orig=ⲛ̅ⲧ
-41	ⲁ	ⲁ	AUX	APST	_	43	aux	_	_
-42	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	43	nsubj	_	Orig=ⲧⲉⲧⲛ̅
-43	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	VerbForm=Fin	22	acl	_	_
-44-45	ⲉⲣⲟⲟⲩ	_	_	_	_	_	_	_	_
-44	ⲉⲣⲟ	ⲉ	ADP	PREP	_	45	case	_	_
-45	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	43	obl	_	_
-46-48	ϩⲛⲛⲉⲧⲛⲃⲁⲗ	_	_	_	_	_	_	_	_
-46	ϩⲛ	ϩⲛ	ADP	PREP	_	48	case	_	_
-47	ⲛⲉⲧⲛ	ⲡⲉⲧⲛ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	48	det	_	Entity=(object|Orig=ⲛⲉⲧⲛ̅
-48	ⲃⲁⲗ	ⲃⲁⲗ	NOUN	N	_	43	obl	_	Entity=object)abstract)
-49	·	·	PUNCT	PUNCT	_	3	punct	_	_
+38	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	37	det	_	Entity=abstract)
+39	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = coptic_treebank-dormition_john_mercad_s0007
+# text_en = ...
+# text = ⲛⲧⲁⲧⲉⲧⲛⲛⲁⲩ ⲉⲣⲟⲟⲩ ϩⲛⲛⲉⲧⲛⲃⲁⲗ ·
+1-4	ⲛⲧⲁⲧⲉⲧⲛⲛⲁⲩ	_	_	_	_	_	_	_	_
+1	ⲛⲧ	ⲉⲣⲉ	PART	CFOC	_	4	mark	_	Orig=ⲛ̅ⲧ
+2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
+3	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	Orig=ⲧⲉⲧⲛ̅
+4	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	VerbForm=Fin	0	root	_	_
+5-6	ⲉⲣⲟⲟⲩ	_	_	_	_	_	_	_	_
+5	ⲉⲣⲟ	ⲉ	ADP	PREP	_	6	case	_	_
+6	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
+7-9	ϩⲛⲛⲉⲧⲛⲃⲁⲗ	_	_	_	_	_	_	_	_
+7	ϩⲛ	ϩⲛ	ADP	PREP	_	9	case	_	_
+8	ⲛⲉⲧⲛ	ⲡⲉⲧⲛ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	9	det	_	Entity=(object|Orig=ⲛⲉⲧⲛ̅
+9	ⲃⲁⲗ	ⲃⲁⲗ	NOUN	N	_	4	obl	_	Entity=object)
+10	·	·	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = coptic_treebank-dormition_john_mercad_s0008
 # text_en = ...
 # text = ⲉⲩϯ ⲙⲙⲟⲟⲩ ⲛⲏⲧⲛ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧϥ ⲙⲡⲉⲛⲥⲁϩ ·
 1-3	ⲉⲩϯ	_	_	_	_	_	_	_	_
@@ -271,7 +275,7 @@
 13	ⲥⲁϩ	ⲥⲁϩ	NOUN	N	_	3	obl	_	Entity=person)
 14	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0008
+# sent_id = coptic_treebank-dormition_john_mercad_s0009
 # text_en = ...
 # text = ⲛⲉϥⲟⲩⲱⲛϩ ⲉⲣⲱⲧⲛ ⲁⲛ ϩⲛⲛⲃⲁⲗ ⲙⲡⲥⲱⲙⲁ · ⲟⲩⲇⲉ ⲛⲉⲧⲉⲧⲛⲥⲱⲧⲙ ⲉⲣⲟϥ ⲁⲛ ϩⲛⲙⲙⲁⲁϫⲉ ⲙⲡⲥⲱⲙⲁ · ⲁⲗⲗⲁ ⲉϥⲟⲩⲱⲛϩ ⲙⲙⲟϥ ⲉⲣⲱⲧⲛ ϩⲙⲡⲥⲟⲟⲩⲧⲛ ⲙⲡⲉⲧⲛϩⲏⲧ · ϩⲛⲟⲩϩⲟⲣⲟⲙⲁ ϩⲛϩⲃⲏⲩⲉ ⲉⲩⲟⲩⲁⲁⲃ ·
 1-3	ⲛⲉϥⲟⲩⲱⲛϩ	_	_	_	_	_	_	_	_
@@ -339,10 +343,10 @@
 48-50	ⲉⲩⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 48	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	50	mark	_	_
 49	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	50	nsubj	_	_
-50	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	47	acl	_	Entity=abstract)
+50	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	47	acl:relcl	_	Entity=abstract)
 51	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0009
+# sent_id = coptic_treebank-dormition_john_mercad_s0010
 # text_en = ...
 # text = ⲧⲁϫⲣⲉⲧⲏⲩⲧⲛ ϭⲉ ϩⲣⲁⲓ ⲛϩⲏⲧϥ · ⲉⲧⲉⲧⲛⲉⲓⲣⲉ ⲙⲡⲉϥⲙⲉⲉⲩⲉ ⲛⲟⲩⲟⲉⲓϣ ⲛⲓⲙ · ⲉⲧⲉⲧⲛⲉⲓⲣⲉ ⲟⲛ ⲙⲡⲙⲉⲉⲩⲉ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ · ⲙⲛⲧⲕⲟⲓⲛⲱⲛⲓⲁ ⲛⲧⲁⲥϣⲱⲡⲉ ⲉϩⲟⲩⲛ ⲉⲣⲱⲧⲛ ·
 1-2	ⲧⲁϫⲣⲉⲧⲏⲩⲧⲛ	_	_	_	_	_	_	_	_
@@ -389,14 +393,14 @@
 32	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	35	mark	_	Orig=ⲛ̅ⲧ
 33	ⲁ	ⲁ	AUX	APST	_	35	aux	_	_
 34	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
-35	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	31	acl	_	Orig=ϣⲱⲡⲉ`
+35	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	31	acl:relcl	_	Orig=ϣⲱⲡⲉ`
 36	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	35	advmod	_	_
 37-38	ⲉⲣⲱⲧⲛ	_	_	_	_	_	_	_	_
 37	ⲉⲣⲱ	ⲉ	ADP	PREP	_	38	case	_	_
 38	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	35	obl	_	Entity=abstract)abstract)|Orig=ⲧⲛ̅
 39	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0010
+# sent_id = coptic_treebank-dormition_john_mercad_s0011
 # text_en = ...
 # text = ⲁⲡⲉⲛϫⲟⲉⲓⲥ ϫⲟⲕⲟⲩ ⲉⲃⲟⲗ ·
 1-3	ⲁⲡⲉⲛϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
@@ -409,7 +413,7 @@
 6	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	4	advmod	_	_
 7	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0011
+# sent_id = coptic_treebank-dormition_john_mercad_s0012
 # text_en = ...
 # text = ⲧⲉⲛⲟⲩ ϭⲉ ⲱ ⲛⲉⲥⲛⲏⲩ · ϥⲥⲟⲡⲥ ⲙⲙⲱⲧⲛ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧϥ · ⲁⲩⲱ ϥⲡⲁⲣⲁⲕⲁⲗⲉⲓ ⲙⲙⲱⲧⲛ · ⲉϥⲟⲩⲱϣ · ⲉⲧⲣⲉⲧⲉⲧⲛϭⲱ ⲛⲟⲩⲉϣ ⲛⲗⲩⲡⲉⲓ ⲙⲙⲟϥ · ⲏ ⲉⲥⲟϣϥ · ⲏ ⲉⲉⲡⲓⲃⲟⲩⲗⲉⲩⲉ ⲉⲣⲟϥ ·
 1	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	8	advmod	_	Orig=Ⲧⲉⲛⲟⲩ
@@ -446,7 +450,7 @@
 25-28	ⲉⲧⲣⲉⲧⲉⲧⲛϭⲱ	_	_	_	_	_	_	_	_
 25	ⲉ	ⲉ	PART	PREP	_	26	mark	_	_
 26	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	23	xcomp	_	_
-27	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	28	nsubj	_	Orig=ⲧⲉⲧⲛ̅
+27	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	26	obj	_	Orig=ⲧⲉⲧⲛ̅
 28	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	26	xcomp	_	Orig=ϭⲱ`
 29-30	ⲛⲟⲩⲉϣ	_	_	_	_	_	_	_	_
 29	ⲛ	ⲛ	ADP	PREP	_	30	case	_	Orig=ⲛ̅
@@ -473,7 +477,7 @@
 45	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	obl	_	_
 46	·	·	PUNCT	PUNCT	_	8	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0012
+# sent_id = coptic_treebank-dormition_john_mercad_s0013
 # text_en = ...
 # text = ϥⲥⲟⲟⲩⲛ ⲅⲁⲣ ⲙⲡⲥⲱϣ ⲉⲧϣⲟⲟⲡ ⲉⲃⲟⲗ ϩⲓⲧⲛⲧⲏⲩⲧⲛ ·
 1-2	ϥⲥⲟⲟⲩⲛ	_	_	_	_	_	_	_	_
@@ -486,14 +490,14 @@
 6	ⲥⲱϣ	ⲥⲱϣ	NOUN	N	_	2	obj	_	_
 7-8	ⲉⲧϣⲟⲟⲡ	_	_	_	_	_	_	_	_
 7	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	8	mark	_	_
-8	ϣⲟⲟⲡ	ϣⲱⲡⲉ	VERB	VSTAT	VerbForm=Fin	6	acl	_	Orig=ϣⲟⲟⲡ`
+8	ϣⲟⲟⲡ	ϣⲱⲡⲉ	VERB	VSTAT	VerbForm=Fin	6	acl:relcl	_	Orig=ϣⲟⲟⲡ`
 9	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	11	case	_	_
 10-11	ϩⲓⲧⲛⲧⲏⲩⲧⲛ	_	_	_	_	_	_	_	_
 10	ϩⲓⲧⲛ	ϩⲓⲧⲛ	ADP	PREP	_	9	fixed	_	Orig=ϩⲓⲧⲛ̅
 11	ⲧⲏⲩⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	8	obl	_	Entity=abstract)|Orig=ⲧⲏⲩⲧⲛ̅
 12	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0013
+# sent_id = coptic_treebank-dormition_john_mercad_s0014
 # text_en = ...
 # text = ϥⲉⲓⲙⲉ ⲇⲉ ⲟⲛ ⲉⲡⲧϭⲁⲉⲓⲟ ⲁⲩⲱ ϥⲥⲟⲟⲩⲛ ⲉⲧⲉⲡⲓⲃⲟⲩⲗⲏ ⲙⲛⲧⲕⲟⲗⲁⲥⲓⲥ ⲉⲧⲉⲧⲛⲕⲟⲗⲁⲍⲉ ⲙⲙⲟϥ ⲛϩⲏⲧⲥ ·
 1-2	ϥⲉⲓⲙⲉ	_	_	_	_	_	_	_	_
@@ -520,7 +524,7 @@
 17-19	ⲉⲧⲉⲧⲛⲕⲟⲗⲁⲍⲉ	_	_	_	_	_	_	_	_
 17	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	19	mark	_	_
 18	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	19	nsubj	_	Orig=ⲧⲉⲧⲛ̅
-19	ⲕⲟⲗⲁⲍⲉ	ⲕⲟⲗⲁⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	16	acl	_	OrigLang=grc
+19	ⲕⲟⲗⲁⲍⲉ	ⲕⲟⲗⲁⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	16	acl:relcl	_	OrigLang=grc
 20-21	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 20	ⲙⲙⲟ	ⲛ	ADP	PREP	_	21	case	_	Orig=ⲙ̅ⲙⲟ
 21	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
@@ -529,7 +533,7 @@
 23	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obl	_	Orig=ⲥ̅
 24	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0014
+# sent_id = coptic_treebank-dormition_john_mercad_s0015
 # text_en = ...
 # text = ϩⲟⲧⲁⲛ ⲉⲧⲉⲧⲛϣⲁⲛⲥⲱⲧⲙ ⲛⲥⲁⲛⲉϥⲉⲛⲧⲟⲗⲏ · ⲉⲧⲟⲩⲁⲁⲃ ϥⲛⲁⲛⲁ ⲛⲏⲧⲛ ϩⲱⲧⲧⲏⲩⲧⲛ ·
 1	ϩⲟⲧⲁⲛ	ϩⲟⲧⲁⲛ	CCONJ	CONJ	Foreign=Yes	3	advmod	_	Orig=Ϩⲟⲧⲁⲛ|OrigLang=grc
@@ -543,7 +547,7 @@
 7	·	·	PUNCT	PUNCT	_	9	punct	_	_
 8-9	ⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 8	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	9	mark	_	_
-9	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	6	acl	_	Entity=abstract)
+9	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	6	acl:relcl	_	Entity=abstract)
 10-12	ϥⲛⲁⲛⲁ	_	_	_	_	_	_	_	_
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 11	ⲛⲁ	ⲛⲁ	AUX	FUT	_	12	aux	_	_
@@ -556,7 +560,7 @@
 16	ⲧⲏⲩⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	15	det	_	Orig=ⲧⲏⲩⲧⲛ̅
 17	·	·	PUNCT	PUNCT	_	12	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0015
+# sent_id = coptic_treebank-dormition_john_mercad_s0016
 # text_en = ...
 # text = ⲙⲡⲣⲧⲣⲉⲡⲁⲅⲁⲑⲟⲥ ⲛⲛⲟⲩⲧⲉ ⲗⲩⲡⲉⲓ ⲉⲧⲃⲉⲧⲏⲩⲧⲛ · ⲡⲛⲁⲏⲧ ⲛϣⲁⲛϩⲧⲏϥ · ⲡⲁⲧⲧⲱⲗⲙ · ⲡⲁⲧϫⲃⲓⲛ · ⲡⲁⲧⲧⲁϩⲟϥ · ⲡⲟⲩⲁ ⲙⲁⲩⲁⲁϥ · ⲡⲁⲧⲡⲱⲱⲛⲉ · ⲡⲁⲧⲕⲣⲟϥ · ⲡⲁⲧϭⲱⲛⲧ · ⲡⲣⲁⲛ ⲉⲧϩⲓϫⲛⲣⲁⲛ ⲛⲓⲙ · ⲉϣⲁⲩⲛⲟⲉⲓ ⲙⲙⲟϥ ·
 1-3	ⲙⲡⲣⲧⲣⲉⲡⲁⲅⲁⲑⲟⲥ	_	_	_	_	_	_	_	_
@@ -615,20 +619,20 @@
 40-42	ⲉⲧϩⲓϫⲛⲣⲁⲛ	_	_	_	_	_	_	_	_
 40	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	42	mark	_	_
 41	ϩⲓϫⲛ	ϩⲓϫⲛ	ADP	PREP	_	42	case	_	Orig=ϩⲓϫⲛ̅
-42	ⲣⲁⲛ	ⲣⲁⲛ	NOUN	N	_	39	acl	_	Orig=ⲣⲁⲛ`
+42	ⲣⲁⲛ	ⲣⲁⲛ	NOUN	N	_	39	acl:relcl	_	Orig=ⲣⲁⲛ`
 43	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	42	det	_	Entity=person)
 44	·	·	PUNCT	PUNCT	_	48	punct	_	_
 45-48	ⲉϣⲁⲩⲛⲟⲉⲓ	_	_	_	_	_	_	_	_
 45	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	48	mark	_	_
 46	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	48	aux	_	_
 47	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	48	nsubj	_	_
-48	ⲛⲟⲉⲓ	ⲛⲟⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	42	acl	_	Orig=ⲛⲟⲓ`|OrigLang=grc
+48	ⲛⲟⲉⲓ	ⲛⲟⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	42	acl:relcl	_	Orig=ⲛⲟⲓ`|OrigLang=grc
 49-50	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 49	ⲙⲙⲟ	ⲛ	ADP	PREP	_	50	case	_	Orig=ⲙ̅ⲙⲟ
 50	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	48	obl	_	_
 51	·	·	PUNCT	PUNCT	_	6	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0016
+# sent_id = coptic_treebank-dormition_john_mercad_s0017
 # text_en = ...
 # text = ⲙⲁⲣⲉϥⲉⲩⲫⲣⲁⲛⲉ ⲛⲙⲙⲏⲧⲛ ⲉⲧⲉⲧⲛⲡⲟⲗⲓⲧⲉⲩⲉ ⲛⲁϥ ⲕⲁⲗⲱⲥ ·
 1-3	ⲙⲁⲣⲉϥⲉⲩⲫⲣⲁⲛⲉ	_	_	_	_	_	_	_	_
@@ -648,7 +652,7 @@
 11	ⲕⲁⲗⲱⲥ	ⲕⲁⲗⲱⲥ	ADV	ADV	Foreign=Yes	8	advmod	_	OrigLang=grc
 12	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0017
+# sent_id = coptic_treebank-dormition_john_mercad_s0018
 # text_en = ...
 # text = ⲙⲁⲣⲉϥⲣⲁϣⲉ ⲛⲙⲙⲏⲧⲛ · ⲉⲧⲉⲧⲛⲟⲛϩ · ϩⲛⲟⲩⲟⲩⲣⲟⲧ · ⲙⲛⲟⲩⲟⲡ ·
 1-3	ⲙⲁⲣⲉϥⲣⲁϣⲉ	_	_	_	_	_	_	_	_
@@ -674,7 +678,7 @@
 16	ⲟⲩⲟⲡ	ⲟⲩⲟⲡ	NOUN	N	_	13	conj	_	Entity=(abstract)
 17	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0018
+# sent_id = coptic_treebank-dormition_john_mercad_s0019
 # text_en = ...
 # text = ⲙⲁⲣⲉϥⲙⲧⲟⲛ ⲙⲙⲟϥ ⲛϩⲏⲧⲧⲏⲩⲧⲛ ⲉⲧⲉⲧⲛⲁⲛⲁⲥⲧⲣⲉⲫⲉ ϩⲛⲟⲩⲙⲛⲧⲥⲉⲙⲛⲟⲥ ·
 1-3	ⲙⲁⲣⲉϥⲙⲧⲟⲛ	_	_	_	_	_	_	_	_
@@ -697,7 +701,7 @@
 13	ⲙⲛⲧⲥⲉⲙⲛⲟⲥ	ⲙⲛⲧⲥⲉⲙⲛⲟⲥ	NOUN	N	Foreign=Yes	10	obl	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲥⲉⲙⲛⲟⲥ|Orig=ⲙⲛⲧ̅ⲥⲉⲙⲛⲟⲥ|OrigLang=grc
 14	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0019
+# sent_id = coptic_treebank-dormition_john_mercad_s0020
 # text_en = ...
 # text = ⲙⲁⲣⲉϥⲣⲁⲧⲣⲟⲟⲩϣ · ⲉⲧⲉⲧⲛⲟⲛϩ · ϩⲛⲟⲩⲉⲅⲕⲣⲁⲧⲓⲁ ·
 1-3	ⲙⲁⲣⲉϥⲣⲁⲧⲣⲟⲟⲩϣ	_	_	_	_	_	_	_	_
@@ -716,7 +720,7 @@
 11	ⲉⲅⲕⲣⲁⲧⲓⲁ	ⲉⲅⲕⲣⲁⲧⲓⲁ	NOUN	N	Foreign=Yes	7	obl	_	Entity=abstract)|OrigLang=grc
 12	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0020
+# sent_id = coptic_treebank-dormition_john_mercad_s0021
 # text_en = ...
 # text = ⲙⲁⲣⲉϥⲟⲩⲛⲟϥ ⲉⲧⲉⲧⲛⲕⲟⲓⲛⲱⲛⲉⲓ · ⲉⲛⲁⲅⲁⲑⲟⲛ ⲙⲛⲛⲉⲣⲏⲧ ·
 1-3	ⲙⲁⲣⲉϥⲟⲩⲛⲟϥ	_	_	_	_	_	_	_	_
@@ -738,7 +742,7 @@
 13	ⲉⲣⲏⲧ	ⲉⲣⲏⲧ	NOUN	N	_	10	conj	_	Entity=abstract)
 14	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0021
+# sent_id = coptic_treebank-dormition_john_mercad_s0022
 # text_en = ...
 # text = ⲙⲁⲣⲉϥⲧⲣⲩⲫⲁ ⲉⲧⲉⲧⲛⲙⲉ ⲙⲙⲟϥ ·
 1-3	ⲙⲁⲣⲉϥⲧⲣⲩⲫⲁ	_	_	_	_	_	_	_	_
@@ -754,7 +758,7 @@
 8	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
 9	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0022
+# sent_id = coptic_treebank-dormition_john_mercad_s0023
 # text_en = ...
 # text = ⲙⲁⲣⲉϥⲥⲱⲃⲉ ⲉⲧⲉⲧⲛⲟ ⲛϩⲁⲕ ·
 1-3	ⲙⲁⲣⲉϥⲥⲱⲃⲉ	_	_	_	_	_	_	_	_
@@ -770,7 +774,7 @@
 8	ϩⲁⲕ	ϩⲁⲕ	NOUN	N	_	6	obl	_	_
 9	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0023
+# sent_id = coptic_treebank-dormition_john_mercad_s0024
 # text_en = ...
 # text = ⲛⲁⲓ ϭⲉ ⲛⲁⲥⲛⲏⲩ ⲉⲓϫⲱ ⲙⲙⲟⲟⲩ ⲛⲏⲧⲛ · ⲉⲃⲟⲗ ϫⲉ · ⲉⲓϭⲉⲡⲏ ⲉϯ ⲙⲡⲁⲟⲩⲟⲓ ⲉϩⲟⲩⲛ ⲉⲡϩⲱⲃ ⲉⲧⲉϥⲕⲏ ⲛⲁⲓ ⲉϩⲣⲁⲓ ⲡⲁⲓ ⲉⲧⲉⲣⲉⲡⲉϥϫⲱⲕ ⲉⲃⲟⲗ ⲛⲁϣⲱⲡⲉ ⲛⲁⲓ ⲉⲃⲟⲗ ϩⲓⲧⲙⲡϫⲟⲉⲓⲥ ·
 1	ⲛⲁⲓ	ⲛⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	7	dislocated	_	Entity=(abstract)|Orig=Ⲛⲁⲓ̅
@@ -811,7 +815,7 @@
 28-30	ⲉⲧⲉϥⲕⲏ	_	_	_	_	_	_	_	_
 28	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	30	mark	_	_
 29	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
-30	ⲕⲏ	ⲕⲱ	VERB	VSTAT	VerbForm=Fin	27	acl	_	Orig=ⲕⲏ`
+30	ⲕⲏ	ⲕⲱ	VERB	VSTAT	VerbForm=Fin	27	acl:relcl	_	Orig=ⲕⲏ`
 31-32	ⲛⲁⲓ	_	_	_	_	_	_	_	_
 31	ⲛⲁ	ⲛⲁ	ADP	PREP	_	32	case	_	_
 32	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	30	obl	_	Orig=ⲓ̅
@@ -824,7 +828,7 @@
 38	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	37	advmod	_	Entity=event)
 39-40	ⲛⲁϣⲱⲡⲉ	_	_	_	_	_	_	_	_
 39	ⲛⲁ	ⲛⲁ	AUX	FUT	_	40	aux	_	_
-40	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	34	acl	_	_
+40	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	34	acl:relcl	_	_
 41-42	ⲛⲁⲓ	_	_	_	_	_	_	_	_
 41	ⲛⲁ	ⲛⲁ	ADP	PREP	_	42	case	_	_
 42	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	40	obl	_	Orig=ⲓ̅
@@ -835,7 +839,7 @@
 46	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	40	obl	_	Entity=person)event)
 47	·	·	PUNCT	PUNCT	_	7	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0024
+# sent_id = coptic_treebank-dormition_john_mercad_s0025
 # text_en = ...
 # text = ⲁϣ ⲅⲁⲣ ⲡⲉ ⲡⲕⲉϣⲁϫⲉ · ⲉⲧⲓⲛⲁϫⲟⲟϥ ⲉⲣⲱⲧⲛ ⲉⲟⲩⲛⲧⲏⲧⲛ ⲙⲙⲁⲩ ⲙⲡⲉⲛⲉⲭⲉⲣⲟⲛ ⲙⲡⲉⲧⲛⲛⲟⲩⲧⲉ ·
 1	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	0	root	_	Orig=Ⲁϣ`
@@ -850,7 +854,7 @@
 8	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	11	mark	_	Orig=ⲉ
 9	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	Orig=ϯ
 10	ⲛⲁ	ⲛⲁ	AUX	FUT	_	11	aux	_	_
-11	ϫⲟⲟ	ϫⲱ	VERB	V	VerbForm=Fin	6	acl	_	_
+11	ϫⲟⲟ	ϫⲱ	VERB	V	VerbForm=Fin	6	acl:relcl	_	_
 12	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
 13-14	ⲉⲣⲱⲧⲛ	_	_	_	_	_	_	_	_
 13	ⲉⲣⲱ	ⲉ	ADP	PREP	_	14	case	_	_
@@ -870,7 +874,7 @@
 24	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	21	nmod	_	Entity=person)abstract)
 25	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0025
+# sent_id = coptic_treebank-dormition_john_mercad_s0026
 # text_en = ...
 # text = ⲟⲩⲉⲛⲧⲏⲧⲛ ⲙⲙⲁⲩ ⲙⲡⲁⲣⲏⲃ ⲛⲧⲉϥⲙⲛⲧⲣⲣⲟ ·
 1-2	ⲟⲩⲉⲛⲧⲏⲧⲛ	_	_	_	_	_	_	_	_
@@ -887,7 +891,7 @@
 9	ⲙⲛⲧⲣⲣⲟ	ⲙⲛⲧⲣⲣⲟ	NOUN	N	_	6	nmod	_	Entity=abstract)abstract)|Morphs=ⲙⲛⲧ-ⲣⲣⲟ|Orig=ⲙⲛ̅ⲧ̅ⲉⲣⲟ
 10	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0026
+# sent_id = coptic_treebank-dormition_john_mercad_s0027
 # text_en = ...
 # text = ⲟⲩⲉⲛⲧⲏⲧⲛ ⲙⲙⲁⲩ ⲛⲧⲉϥⲡⲁⲣⲟⲩⲥⲓⲁ ⲛⲁⲧⲡⲁⲣⲁⲓⲧⲉⲓ ⲙⲙⲟⲥ ·
 1-2	ⲟⲩⲉⲛⲧⲏⲧⲛ	_	_	_	_	_	_	_	_
@@ -906,7 +910,7 @@
 10	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nmod	_	Entity=abstract)
 11	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0027
+# sent_id = coptic_treebank-dormition_john_mercad_s0028
 # text_en = ...
 # text = ⲉϣⲱⲡⲉ ⲉⲧⲉⲧⲛϣⲁⲛⲧⲙⲣⲛⲟⲃⲉ · ϫⲓⲛⲧⲉⲛⲟⲩ · ⲉⲓⲉ ⲛⲉⲛⲧⲁⲧⲉⲧⲛⲁⲁⲩ ϩⲛⲟⲩⲙⲛⲧⲁⲧⲥⲟⲟⲩⲛ · ϥⲛⲁⲕⲁⲁⲩ ⲛⲏⲧⲛ ⲉⲃⲟⲗ ·
 1	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	4	mark	_	Orig=ⲉϣⲱⲡⲉ`
@@ -925,7 +929,7 @@
 11	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	14	mark	_	_
 12	ⲁ	ⲁ	AUX	APST	_	14	aux	_	_
 13	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	14	nsubj	_	Orig=ⲧⲉⲧⲛ̅
-14	ⲁⲁ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	10	acl	_	_
+14	ⲁⲁ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	10	acl:relcl	_	_
 15	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	14	obj	_	Orig=ⲩ`
 16-18	ϩⲛⲟⲩⲙⲛⲧⲁⲧⲥⲟⲟⲩⲛ	_	_	_	_	_	_	_	_
 16	ϩⲛ	ϩⲛ	ADP	PREP	_	18	case	_	Orig=ϩⲛ̅
@@ -942,7 +946,7 @@
 25	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	22	advmod	_	_
 26	·	·	PUNCT	PUNCT	_	22	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0028
+# sent_id = coptic_treebank-dormition_john_mercad_s0029
 # text_en = ...
 # text = ⲉϣⲱⲡⲉ ⲇⲉ ⲟⲛ ⲙⲛⲛⲥⲁⲧⲣⲉⲧⲉⲧⲛⲥⲟⲩⲱⲛϥ ⲛⲧⲉⲧⲛϭⲱ ⲉⲧⲉⲧⲛⲙⲏⲛ ⲉⲃⲟⲗ ϩⲛⲛⲉⲓϩⲃⲏⲩⲉ ⲛⲟⲩⲱⲧ · ⲥⲉⲛⲁⲉⲡ ⲛϣⲟⲣⲡ ⲉⲣⲱⲧⲛ · ⲛⲥⲉⲡⲁⲣⲁⲇⲓⲇⲟⲩ ⲙⲙⲱⲧⲛ ⲉⲡⲕⲱϩⲧ ·
 1	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	11	mark	_	Orig=Ⲉϣⲱⲡⲉ
@@ -951,7 +955,7 @@
 4-8	ⲙⲛⲛⲥⲁⲧⲣⲉⲧⲉⲧⲛⲥⲟⲩⲱⲛϥ	_	_	_	_	_	_	_	_
 4	ⲙⲛⲛⲥⲁ	ⲙⲛⲛⲥⲁ	PART	PREP	_	5	mark	_	Orig=ⲙⲛ̅ⲛ̅ⲥⲁ
 5	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	11	advcl	_	_
-6	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	Orig=ⲧⲉⲧⲛ̅
+6	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	5	obj	_	Orig=ⲧⲉⲧⲛ̅
 7	ⲥⲟⲩⲱⲛ	ⲥⲟⲟⲩⲛ	VERB	V	VerbForm=Fin	5	xcomp	_	Orig=ⲥⲟⲩⲱ̅ⲛ
 8	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	Orig=ϥ̅
 9-11	ⲛⲧⲉⲧⲛϭⲱ	_	_	_	_	_	_	_	_
@@ -995,7 +999,7 @@
 37	ⲕⲱϩⲧ	ⲕⲱϩⲧ	NOUN	N	_	32	obl	_	Entity=object)|Orig=ⲕⲱϩⲧ̅
 38	·	·	PUNCT	PUNCT	_	24	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0029
+# sent_id = coptic_treebank-dormition_john_mercad_s0030
 # text_en = ...
 # text = ⲁⲩⲱ ⲛⲧⲉⲣⲉϥϫⲉⲛⲁⲓ · ⲁϥϣⲗⲏⲗ ⲉϥϫⲱ ⲙⲙⲟⲥ · ϫⲉ · ⲓⲏⲥⲟⲩⲥ ⲡⲉⲛⲧⲁϥϣⲱⲛⲧ ⲙⲡⲉⲕⲗⲟⲙ ⲡⲁⲓ ⲉⲧϩⲙⲡⲉⲕϣⲱⲛⲧ ⲡⲱⲕ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	9	cc	_	Orig=Ⲁⲩⲱ̅
@@ -1035,11 +1039,11 @@
 28	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	31	mark	_	_
 29	ϩⲙ	ϩⲛ	ADP	PREP	_	31	case	_	Orig=ϩⲙ̅
 30	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	31	det	_	Entity=(abstract
-31	ϣⲱⲛⲧ	ϣⲱⲛⲧ	NOUN	N	_	27	acl	_	Orig=ϣⲱⲛⲧ̅
+31	ϣⲱⲛⲧ	ϣⲱⲛⲧ	NOUN	N	_	27	acl:relcl	_	Orig=ϣⲱⲛⲧ̅
 32	ⲡⲱⲕ	ⲡⲱⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	26	appos	_	Entity=abstract)object)person-Jesus)
 33	·	·	PUNCT	PUNCT	_	9	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0030
+# sent_id = coptic_treebank-dormition_john_mercad_s0031
 # text_en = ...
 # text = ⲱ ⲡⲉⲛⲧⲁϥⲥⲱⲛⲧ ⲙⲡⲉⲕⲗⲟⲙ ⲛⲛⲉⲧⲟⲩⲁⲁⲃ ⲧⲏⲣⲟⲩ · ⲙⲛⲛⲉⲓⲟⲩⲟⲧⲟⲩⲉⲧ ⲉⲧⲟϣ · ⲉⲁϥϣⲟⲃⲟⲩ ϩⲛⲛⲉⲣⲱⲙⲉ · ⲡⲉⲕϩⲣⲏⲣⲉ · ⲉⲧⲉⲙⲉϥϩⲱϭⲃ ϣⲁⲃⲟⲗ ·
 1	ⲱ	ⲱ	PART	PTC	Foreign=Yes	2	discourse	_	Orig=Ⲱ|OrigLang=grc
@@ -1048,7 +1052,7 @@
 3	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	6	mark	_	_
 4	ⲁ	ⲁ	AUX	APST	_	6	aux	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-6	ⲥⲱⲛⲧ	ⲥⲱⲛⲧ	VERB	V	VerbForm=Fin	2	acl	_	Orig=ⲥⲱⲛⲧ̅
+6	ⲥⲱⲛⲧ	ⲥⲱⲛⲧ	VERB	V	VerbForm=Fin	2	acl:relcl	_	Orig=ⲥⲱⲛⲧ̅
 7-9	ⲙⲡⲉⲕⲗⲟⲙ	_	_	_	_	_	_	_	_
 7	ⲙ	ⲛ	ADP	PREP	_	9	case	_	Orig=ⲙ̅
 8	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Entity=(object
@@ -1057,7 +1061,7 @@
 10	ⲛ	ⲛ	ADP	PREP	_	11	case	_	Orig=ⲛ̅
 11	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	9	nmod	_	Entity=(person
 12	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	13	mark	_	_
-13	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	11	acl	_	_
+13	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	11	acl:relcl	_	_
 14-15	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
 14	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	11	advmod	_	_
 15	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	14	det	_	Entity=person)object)
@@ -1068,7 +1072,7 @@
 19	ⲟⲩⲟⲧⲟⲩⲉⲧ	ⲟⲩⲟⲧⲟⲩⲉⲧ	NOUN	N	_	9	conj	_	Orig=ⲟⲩⲟⲧⲟⲩⲉⲧ`
 20-21	ⲉⲧⲟϣ	_	_	_	_	_	_	_	_
 20	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	21	mark	_	_
-21	ⲟϣ	ⲱϣ	VERB	VSTAT	VerbForm=Fin	19	acl	_	Entity=plant)
+21	ⲟϣ	ⲱϣ	VERB	VSTAT	VerbForm=Fin	19	acl:relcl	_	Entity=plant)
 22	·	·	PUNCT	PUNCT	_	26	punct	_	_
 23-26	ⲉⲁϥϣⲟⲃⲟⲩ	_	_	_	_	_	_	_	_
 23	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	26	mark	_	_
@@ -1088,11 +1092,11 @@
 34	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	37	mark	_	_
 35	ⲙⲉ	ⲙⲉⲣⲉ	AUX	ANEGAOR	Polarity=Neg	37	aux	_	_
 36	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
-37	ϩⲱϭⲃ	ϩⲱϭⲃ	VERB	V	VerbForm=Fin	32	acl	_	Orig=ϩⲱϭⲃ̅
+37	ϩⲱϭⲃ	ϩⲱϭⲃ	VERB	V	VerbForm=Fin	32	acl:relcl	_	Orig=ϩⲱϭⲃ̅
 38	ϣⲁⲃⲟⲗ	ϣⲁⲃⲟⲗ	ADV	ADV	_	37	advmod	_	Entity=plant)person)
 39	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0031
+# sent_id = coptic_treebank-dormition_john_mercad_s0032
 # text_en = ...
 # text = ⲱ ⲡⲉⲛⲧⲁϥϫⲟ ϩⲣⲁⲓ ⲛϩⲏⲧⲛ ⲛⲛⲉϥϣⲁϫⲉ ·
 1	ⲱ	ⲱ	PART	PTC	Foreign=Yes	2	discourse	_	Orig=Ⲱ|OrigLang=grc
@@ -1101,7 +1105,7 @@
 3	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	6	mark	_	_
 4	ⲁ	ⲁ	AUX	APST	_	6	aux	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-6	ϫⲟ	ϫⲟ	VERB	V	VerbForm=Fin	2	acl	_	_
+6	ϫⲟ	ϫⲟ	VERB	V	VerbForm=Fin	2	acl:relcl	_	_
 7	ϩⲣⲁⲓ	ϩⲣⲁⲓ	ADV	ADV	_	6	advmod	_	Orig=ϩⲣⲁⲓ̅
 8-9	ⲛϩⲏⲧⲛ	_	_	_	_	_	_	_	_
 8	ⲛϩⲏⲧ	ϩⲛ	ADP	PREP	_	9	case	_	Orig=ⲛ̅ϩⲏⲧ
@@ -1112,7 +1116,7 @@
 12	ϣⲁϫⲉ	ϣⲁϫⲉ	NOUN	N	_	6	obj	_	Entity=abstract)person)
 13	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0032
+# sent_id = coptic_treebank-dormition_john_mercad_s0033
 # text_en = ...
 # text = ⲱ ⲡϥⲁⲓⲣⲟⲟⲩϣ ⲙⲁⲩⲁⲁϥ ϩⲁⲛⲉϥϩⲙϩⲁⲗ ·
 1	ⲱ	ⲱ	PART	PTC	Foreign=Yes	3	discourse	_	Orig=Ⲱ|OrigLang=grc
@@ -1128,7 +1132,7 @@
 8	ϩⲙϩⲁⲗ	ϩⲙϩⲁⲗ	NOUN	N	_	3	nmod	_	Entity=person)person)|Orig=ϩⲙ̅ϩⲁⲗ
 9	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0033
+# sent_id = coptic_treebank-dormition_john_mercad_s0034
 # text_en = ...
 # text = ⲱ ⲡⲥⲁⲉⲓⲛ ⲛⲡⲉⲛⲥⲱⲙⲁ · ⲉϥⲧⲁⲗϭⲟ ⲙⲙⲟⲟⲩ ⲧⲏⲣⲟⲩ ⲛϫⲓⲛϫⲏ ·
 1	ⲱ	ⲱ	PART	PTC	Foreign=Yes	3	discourse	_	Orig=Ⲱ̅|OrigLang=grc
@@ -1155,7 +1159,7 @@
 16	ϫⲓⲛϫⲏ	ϫⲓⲛϫⲏ	NOUN	N	_	10	obl	_	Orig=ϫⲓⲛϫⲏ`
 17	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0034
+# sent_id = coptic_treebank-dormition_john_mercad_s0035
 # text_en = ...
 # text = ⲱ ⲡⲉⲛⲣⲉϥⲣⲡⲉⲧⲛⲁⲛⲟⲩϥ ⲛⲁⲛ ⲙⲁⲩⲁⲁϥ ·
 1	ⲱ	ⲱ	PART	PTC	Foreign=Yes	3	discourse	_	Orig=Ⲱ̅|OrigLang=grc
@@ -1170,7 +1174,7 @@
 7	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	6	det	_	Entity=person)
 8	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0035
+# sent_id = coptic_treebank-dormition_john_mercad_s0036
 # text_en = ...
 # text = ⲱ ⲡⲉⲧⲉⲙⲛⲗⲁⲁⲩ ⲙⲙⲛⲧϫⲁⲥⲓϩⲏⲧ ϩⲏⲡ ⲛϩⲏⲧϥ ·
 1	ⲱ	ⲱ	PART	PTC	Foreign=Yes	2	discourse	_	Orig=Ⲱ̅|OrigLang=grc
@@ -1182,13 +1186,13 @@
 6-7	ⲙⲙⲛⲧϫⲁⲥⲓϩⲏⲧ	_	_	_	_	_	_	_	_
 6	ⲙ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲙ̅
 7	ⲙⲛⲧϫⲁⲥⲓϩⲏⲧ	ⲙⲛⲧϫⲁⲥⲓϩⲏⲧ	NOUN	N	_	5	nmod	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ϫⲁⲥⲓ-ϩⲏⲧ|Orig=ⲙⲛ̅ⲧ̅ϫⲁⲥⲓϩⲏⲧ`
-8	ϩⲏⲡ	ϩⲱⲡ	VERB	VSTAT	VerbForm=Fin	2	acl	_	_
+8	ϩⲏⲡ	ϩⲱⲡ	VERB	VSTAT	VerbForm=Fin	2	acl:relcl	_	_
 9-10	ⲛϩⲏⲧϥ	_	_	_	_	_	_	_	_
 9	ⲛϩⲏⲧ	ϩⲛ	ADP	PREP	_	10	case	_	Orig=ⲛ̅ϩⲏⲧ
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	Entity=person)|Orig=ϥ̅
 11	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0036
+# sent_id = coptic_treebank-dormition_john_mercad_s0037
 # text_en = ...
 # text = ⲱ ⲡⲛⲁⲏⲧ ⲙⲁⲩⲁⲁϥ · ⲁⲩⲱ ⲡⲙⲁⲓⲣⲱⲙⲉ ⲛⲓⲙ ·
 1	ⲱ	ⲱ	PART	PTC	Foreign=Yes	3	discourse	_	Orig=Ⲱ̅|OrigLang=grc
@@ -1207,7 +1211,7 @@
 11	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	10	det	_	Entity=person)person)
 12	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0037
+# sent_id = coptic_treebank-dormition_john_mercad_s0038
 # text_en = ...
 # text = ⲱ ⲡⲥⲱⲧⲏⲣ ⲙⲁⲩⲁⲁϥ · ⲁⲩⲱ ⲡⲇⲓⲕⲁⲓⲟⲥ · ⲡⲉⲧϣⲟⲟⲡ ϩⲙⲙⲁ ⲛⲓⲙ · ⲡⲉⲧϣⲱⲱⲡ ϫⲓⲛⲉⲛⲉϩ · ⲡⲛⲟⲩⲧⲉ ⲡⲉⲭⲣⲓⲥⲧⲟⲥ ⲓⲏⲥⲟⲩⲥ ·
 1	ⲱ	ⲱ	PART	PTC	Foreign=Yes	3	discourse	_	Orig=Ⲱ̅|OrigLang=grc
@@ -1226,7 +1230,7 @@
 11-13	ⲡⲉⲧϣⲟⲟⲡ	_	_	_	_	_	_	_	_
 11	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	appos	_	_
 12	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	13	mark	_	_
-13	ϣⲟⲟⲡ	ϣⲱⲡⲉ	VERB	VSTAT	VerbForm=Fin	11	acl	_	_
+13	ϣⲟⲟⲡ	ϣⲱⲡⲉ	VERB	VSTAT	VerbForm=Fin	11	acl:relcl	_	_
 14-15	ϩⲙⲙⲁ	_	_	_	_	_	_	_	_
 14	ϩⲙ	ϩⲛ	ADP	PREP	_	15	case	_	Orig=ϩⲙ̅
 15	ⲙⲁ	ⲙⲁ	NOUN	N	_	13	obl	_	Entity=(place|Orig=ⲙⲁ̅
@@ -1235,7 +1239,7 @@
 18-20	ⲡⲉⲧϣⲱⲱⲡ	_	_	_	_	_	_	_	_
 18	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	appos	_	_
 19	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	20	mark	_	_
-20	ϣⲱⲱⲡ	ϣⲱⲱⲡ	VERB	V	VerbForm=Fin	18	acl	_	_
+20	ϣⲱⲱⲡ	ϣⲱⲱⲡ	VERB	V	VerbForm=Fin	18	acl:relcl	_	_
 21-22	ϫⲓⲛⲉⲛⲉϩ	_	_	_	_	_	_	_	_
 21	ϫⲓⲛ	ϫⲓⲛ	ADP	PREP	_	22	case	_	_
 22	ⲉⲛⲉϩ	ⲉⲛⲉϩ	NOUN	N	_	20	obl	_	Entity=(time)
@@ -1249,7 +1253,7 @@
 28	ⲓⲏⲥⲟⲩⲥ	ⲓⲏⲥⲟⲩⲥ	PROPN	NPROP	Foreign=Yes	3	appos	_	Entity=person-Jesus)|Orig=ⲓ̅ⲥ̅|OrigLang=he
 29	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0038
+# sent_id = coptic_treebank-dormition_john_mercad_s0039
 # text_en = ...
 # text = ⲛⲧⲟⲕ ⲡⲉⲧⲥⲕⲩⲡⲁⲍⲉ ⲛⲟⲩⲟⲛ ⲛⲓⲙ ⲉⲧϩⲉⲗⲡⲓⲍⲉ ⲉⲣⲟⲕ · ϩⲛⲛⲉⲕⲇⲱⲣⲉⲁ ⲙⲛⲛⲉⲕⲙⲛⲧⲛⲁ · ⲉⲕⲥⲟⲟⲩⲛ ⲛⲧⲉⲭⲛⲏ ⲛⲓⲙ ⲙⲛⲉⲡⲏⲣⲉⲓⲁ ⲛⲓⲙ ⲛⲧⲉⲡϫⲁϫⲉ ⲉⲧϯⲟⲩⲃⲏⲛ ⲛⲟⲩⲟⲉⲓϣ ⲛⲓⲙ ·
 1	ⲛⲧⲟⲕ	ⲛⲧⲟⲕ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	0	root	_	Orig=ⲛ̅ⲧⲟⲕ
@@ -1263,7 +1267,7 @@
 7	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	6	det	_	Entity=person)|Orig=ⲛⲓⲙ`
 8-9	ⲉⲧϩⲉⲗⲡⲓⲍⲉ	_	_	_	_	_	_	_	_
 8	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	9	mark	_	_
-9	ϩⲉⲗⲡⲓⲍⲉ	ϩⲉⲗⲡⲓⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	6	acl	_	Orig=ϩⲉⲗⲡⲓⲍⲉ`|OrigLang=grc
+9	ϩⲉⲗⲡⲓⲍⲉ	ϩⲉⲗⲡⲓⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	6	acl:relcl	_	Orig=ϩⲉⲗⲡⲓⲍⲉ`|OrigLang=grc
 10-11	ⲉⲣⲟⲕ	_	_	_	_	_	_	_	_
 10	ⲉⲣⲟ	ⲉ	ADP	PREP	_	11	case	_	_
 11	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	obl	_	_
@@ -1295,7 +1299,7 @@
 31	ϫⲁϫⲉ	ϫⲁⲁϫⲉ	NOUN	N	_	24	nmod	_	Orig=ϫⲁϫⲉ`
 32-35	ⲉⲧϯⲟⲩⲃⲏⲛ	_	_	_	_	_	_	_	_
 32	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	33	mark	_	_
-33	ϯ	ϯ	VERB	V	VerbForm=Fin	31	acl	_	_
+33	ϯ	ϯ	VERB	V	VerbForm=Fin	31	acl:relcl	_	_
 34	ⲟⲩⲃⲏ	ⲟⲩⲃⲉ	ADP	PREP	_	35	case	_	_
 35	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=1|PronType=Prs	33	obl	_	Orig=ⲛ`
 36-37	ⲛⲟⲩⲟⲉⲓϣ	_	_	_	_	_	_	_	_
@@ -1304,14 +1308,14 @@
 38	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	37	det	_	Entity=time)person)abstract)abstract)
 39	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0039
+# sent_id = coptic_treebank-dormition_john_mercad_s0040
 # text_en = ...
 # text = ⲁⲩⲱ ⲙⲛⲛⲥⲁⲧⲣⲉϥϫⲉⲛⲁⲓ ⲛϭⲓⲡⲡⲉⲧⲟⲩⲁⲁⲃ ⲓⲱϩⲁⲛⲛⲏⲥ ⲡⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ · ⲁϥϫⲓ ⲛⲟⲩⲟⲉⲓⲕ · ⲁϥϣⲡϩⲙⲟⲧ ⲛⲧⲉⲓϩⲉ ⲉϥϫⲱ ⲙⲙⲟⲥ · ϫⲉⲁϣ ⲡⲉ ⲡⲕⲉⲥⲙⲟⲩ · ⲏ ⲁϣ ⲡⲉ ⲡⲕⲉⲉⲓ ⲉⲃⲟⲗ ⲙⲡϣⲁϫⲉ · ⲏ ⲁϣ ⲧⲉ ⲧⲕⲉⲉⲩⲭⲁⲣⲓⲥⲧⲓⲁ ⲉⲛⲛⲁⲟⲛⲟⲙⲁⲍⲉ ⲙⲙⲟⲟⲩ ⲉϫⲙⲡⲉⲓⲟⲉⲓⲕ ⲉⲛⲡⲱϣ ⲙⲙⲟϥ · ⲉⲓⲙⲏⲧⲓ ⲛⲧⲟⲕ ⲙⲁⲩⲁⲁⲕ · ⲡϫⲟⲉⲓⲥ ⲓⲏⲥⲟⲩⲥ ⲡⲉⲭⲣⲓⲥⲧⲟⲥ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	16	cc	_	_
 2-6	ⲙⲛⲛⲥⲁⲧⲣⲉϥϫⲉⲛⲁⲓ	_	_	_	_	_	_	_	_
 2	ⲙⲛⲛⲥⲁ	ⲙⲛⲛⲥⲁ	PART	PREP	_	3	mark	_	Orig=Ⲙⲛ̅ⲛ̅ⲥⲁ
 3	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	16	advcl	_	_
-4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 5	ϫⲉ	ϫⲱ	VERB	V	VerbForm=Fin	3	xcomp	_	Orig=ϫⲉ`
 6	ⲛⲁⲓ	ⲛⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	5	obj	_	Entity=(abstract)|Orig=ⲛⲁⲓ̅
 7-9	ⲛϭⲓⲡⲡⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
@@ -1381,7 +1385,7 @@
 57	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	60	mark	_	_
 58	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	60	nsubj	_	_
 59	ⲛⲁ	ⲛⲁ	AUX	FUT	_	60	aux	_	_
-60	ⲟⲛⲟⲙⲁⲍⲉ	ⲟⲛⲟⲙⲁⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	34	acl	_	Orig=ⲟ̅ⲛⲟⲙⲁⲍⲉ|OrigLang=grc
+60	ⲟⲛⲟⲙⲁⲍⲉ	ⲟⲛⲟⲙⲁⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	34	acl:relcl	_	Orig=ⲟ̅ⲛⲟⲙⲁⲍⲉ|OrigLang=grc
 61-62	ⲙⲙⲟⲟⲩ	_	_	_	_	_	_	_	_
 61	ⲙⲙⲟ	ⲛ	ADP	PREP	_	62	case	_	Orig=ⲙ̅ⲙⲟ
 62	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	60	obj	_	_
@@ -1412,7 +1416,7 @@
 81	ⲭⲣⲓⲥⲧⲟⲥ	ⲭⲣⲓⲥⲧⲟⲥ	NOUN	N	Foreign=Yes	73	appos	_	Entity=person-Jesus)|Orig=ⲭ̅ⲥ̅|OrigLang=grc
 82	·	·	PUNCT	PUNCT	_	16	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0040
+# sent_id = coptic_treebank-dormition_john_mercad_s0041
 # text_en = ...
 # text = ⲧⲛϯⲉⲟⲟⲩ ⲛⲁⲕ ⲡϫⲟⲉⲓⲥ ⲓⲏⲥⲟⲩⲥ ⲡⲉⲭⲣⲓⲥⲧⲟⲥ ⲡⲁⲓ ⲛⲧⲁⲩⲟⲩⲉⲛϩⲡⲉϥⲣⲁⲛ ⲉⲃⲟⲗ ϩⲓⲧⲙⲡⲉⲓⲱⲧ ·
 1-2	ⲧⲛϯⲉⲟⲟⲩ	_	_	_	_	_	_	_	_
@@ -1433,7 +1437,7 @@
 11	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	14	mark	_	Orig=ⲛⲧ̅
 12	ⲁ	ⲁ	AUX	APST	_	14	aux	_	_
 13	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
-14	ⲟⲩⲉⲛϩ	ⲟⲩⲱⲛϩ	VERB	V	VerbForm=Fin	10	acl	_	Orig=ⲟⲩⲉⲛϩ̅
+14	ⲟⲩⲉⲛϩ	ⲟⲩⲱⲛϩ	VERB	V	VerbForm=Fin	10	acl:relcl	_	Orig=ⲟⲩⲉⲛϩ̅
 15	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	Entity=(abstract
 16	ⲣⲁⲛ	ⲣⲁⲛ	NOUN	N	_	14	obj	_	Entity=abstract)|Orig=ⲣⲁⲛ`
 17	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	20	case	_	_
@@ -1443,7 +1447,7 @@
 20	ⲉⲓⲱⲧ	ⲉⲓⲱⲧ	NOUN	N	_	14	obl	_	Entity=person)person-Jesus)
 21	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0041
+# sent_id = coptic_treebank-dormition_john_mercad_s0042
 # text_en = ...
 # text = ⲧⲛϯⲉⲟⲟⲩ ⲛⲧⲉⲕϭⲓⲛⲉⲓ ⲉϩⲟⲩⲛ ϩⲓⲧⲙⲡⲣⲟ ·
 1-2	ⲧⲛϯⲉⲟⲟⲩ	_	_	_	_	_	_	_	_
@@ -1460,7 +1464,7 @@
 9	ⲣⲟ	ⲣⲟ	NOUN	N	_	2	obl	_	Entity=object)event)
 10	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0042
+# sent_id = coptic_treebank-dormition_john_mercad_s0043
 # text_en = ...
 # text = ⲧⲛϯⲉⲟⲟⲩ ⲛⲧⲉⲕⲁⲛⲁⲥⲧⲁⲥⲓⲥ ⲉⲧⲟⲩⲁⲁⲃ · ⲉⲃⲟⲗ ϩⲛⲛⲉⲧⲙⲟⲟⲩⲧ · ⲧⲁⲓ ⲛⲧⲁⲩⲧⲥⲁⲃⲟⲛ ⲉⲣⲟⲥ · ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲕ ·
 1-2	ⲧⲛϯⲉⲟⲟⲩ	_	_	_	_	_	_	_	_
@@ -1472,21 +1476,21 @@
 5	ⲁⲛⲁⲥⲧⲁⲥⲓⲥ	ⲁⲛⲁⲥⲧⲁⲥⲓⲥ	NOUN	N	Foreign=Yes	2	obl	_	Orig=ⲁⲛⲁⲥⲧⲁⲥⲓⲥ`|OrigLang=grc
 6-7	ⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 6	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	7	mark	_	_
-7	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	5	acl	_	_
+7	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	5	acl:relcl	_	_
 8	·	·	PUNCT	PUNCT	_	11	punct	_	_
 9	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	11	case	_	_
 10-13	ϩⲛⲛⲉⲧⲙⲟⲟⲩⲧ	_	_	_	_	_	_	_	_
 10	ϩⲛ	ϩⲛ	ADP	PREP	_	9	fixed	_	Orig=ϩⲛ̅
 11	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	5	nmod	_	_
 12	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	13	mark	_	_
-13	ⲙⲟⲟⲩⲧ	ⲙⲟⲩⲟⲩⲧ	VERB	VSTAT	VerbForm=Fin	11	acl	_	Entity=event)
+13	ⲙⲟⲟⲩⲧ	ⲙⲟⲩⲟⲩⲧ	VERB	VSTAT	VerbForm=Fin	11	acl:relcl	_	Entity=event)
 14	·	·	PUNCT	PUNCT	_	15	punct	_	_
 15	ⲧⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	5	appos	_	Entity=(event|Orig=ⲧⲁⲓ̅
 16-20	ⲛⲧⲁⲩⲧⲥⲁⲃⲟⲛ	_	_	_	_	_	_	_	_
 16	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	19	mark	_	Orig=ⲛ̅ⲧ
 17	ⲁ	ⲁ	AUX	APST	_	19	aux	_	_
 18	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
-19	ⲧⲥⲁⲃⲟ	ⲧⲥⲁⲃⲟ	VERB	V	VerbForm=Fin	15	acl	_	_
+19	ⲧⲥⲁⲃⲟ	ⲧⲥⲁⲃⲟ	VERB	V	VerbForm=Fin	15	acl:relcl	_	_
 20	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=1|PronType=Prs	19	obj	_	Orig=ⲛ`
 21-22	ⲉⲣⲟⲥ	_	_	_	_	_	_	_	_
 21	ⲉⲣⲟ	ⲉ	ADP	PREP	_	22	case	_	_
@@ -1498,7 +1502,7 @@
 26	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	19	obl	_	Entity=event)|Orig=ⲕ̅
 27	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0043
+# sent_id = coptic_treebank-dormition_john_mercad_s0044
 # text_en = ...
 # text = ⲧⲛϯⲉⲟⲟⲩ ⲛⲁⲕ ⲧⲉϩⲓⲏ ·
 1-2	ⲧⲛϯⲉⲟⲟⲩ	_	_	_	_	_	_	_	_
@@ -1512,7 +1516,7 @@
 6	ϩⲓⲏ	ϩⲓⲏ	NOUN	N	_	4	appos	_	Entity=abstract)
 7	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0044
+# sent_id = coptic_treebank-dormition_john_mercad_s0045
 # text_en = ...
 # text = ⲧⲛϯⲉⲟⲟⲩ ⲛⲁⲕ ⲡⲉϭⲣⲟⲟϭ · ⲡⲗⲟⲅⲟⲥ · ⲡⲉϩⲙⲟⲩ · ⲡⲱⲛⲉ ⲙⲙⲉ · ⲡⲁϩⲟ ⲉⲧⲟⲩⲁⲁⲃ · ⲡϩⲃⲃⲉ · ⲧⲁⲃⲱ · ⲧⲙⲛⲧⲛⲟϭ · ⲡⲉⲛⲧⲁⲩϫⲟⲟⲥ ⲉⲣⲟϥ · ϫⲉϣⲏⲣⲉ ⲛⲣⲱⲙⲉ ⲉⲧⲃⲏⲏⲧⲛ · ϫⲉⲕⲁⲥ ⲉϥⲉⲧⲟⲩϫⲟ ⲙⲡⲅⲉⲛⲟⲥ ⲛⲛⲣⲱⲙⲉ ·
 1-2	ⲧⲛϯⲉⲟⲟⲩ	_	_	_	_	_	_	_	_
@@ -1545,7 +1549,7 @@
 20	ⲁϩⲟ	ⲁϩⲟ	NOUN	N	_	6	appos	_	Orig=ⲁϩⲟ`
 21-22	ⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 21	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	22	mark	_	_
-22	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	20	acl	_	_
+22	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	20	acl:relcl	_	_
 23	·	·	PUNCT	PUNCT	_	25	punct	_	_
 24-25	ⲡϩⲃⲃⲉ	_	_	_	_	_	_	_	_
 24	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -1564,7 +1568,7 @@
 34	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	37	mark	_	_
 35	ⲁ	ⲁ	AUX	APST	_	37	aux	_	_
 36	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	37	nsubj	_	_
-37	ϫⲟⲟ	ϫⲱ	VERB	V	VerbForm=Fin	33	acl	_	_
+37	ϫⲟⲟ	ϫⲱ	VERB	V	VerbForm=Fin	33	acl:relcl	_	_
 38	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	obj	_	Orig=ⲥ`
 39-40	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 39	ⲉⲣⲟ	ⲉ	ADP	PREP	_	40	case	_	_
@@ -1583,7 +1587,7 @@
 49	ϫⲉⲕⲁⲥ	ϫⲉⲕⲁⲥ	SCONJ	CONJ	_	51	mark	_	_
 50-51	ⲉϥⲉⲧⲟⲩϫⲟ	_	_	_	_	_	_	_	_
 50	ⲉϥⲉ	ⲉⲣⲉ_ⲛⲧⲟϥ	PRON	AOPT_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	51	nsubj	_	_
-51	ⲧⲟⲩϫⲟ	ⲧⲟⲩϫⲟ	VERB	V	VerbForm=Fin	43	acl	_	_
+51	ⲧⲟⲩϫⲟ	ⲧⲟⲩϫⲟ	VERB	V	VerbForm=Fin	37	advcl	_	_
 52-54	ⲙⲡⲅⲉⲛⲟⲥ	_	_	_	_	_	_	_	_
 52	ⲙ	ⲛ	ADP	PREP	_	54	case	_	Orig=ⲙ̅
 53	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	Entity=(abstract|Orig=ⲡ̅
@@ -1594,7 +1598,7 @@
 57	ⲣⲱⲙⲉ	ⲣⲱⲙⲉ	NOUN	N	_	54	nmod	_	Entity=abstract)person)
 58	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0045
+# sent_id = coptic_treebank-dormition_john_mercad_s0046
 # text_en = ...
 # text = ⲧⲛϯⲉⲟⲟⲩ ⲛⲁⲕ ⲧⲙⲉ · ⲡⲙⲧⲟⲛ · ⲡⲉⲟⲟⲩ · ⲧϭⲟⲙ ⲧⲉⲛⲧⲟⲗⲏ · ⲧⲡⲁⲣⲣⲏⲥⲓⲁ · ⲧⲙⲛⲧⲣⲙϩⲉ · ⲡⲉⲛⲙⲁ ⲙⲡⲱⲧ ·
 1-2	ⲧⲛϯⲉⲟⲟⲩ	_	_	_	_	_	_	_	_
@@ -1638,7 +1642,7 @@
 28	ⲡⲱⲧ	ⲡⲱⲧ	NOUN	N	_	26	nmod	_	Entity=person)
 29	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0046
+# sent_id = coptic_treebank-dormition_john_mercad_s0047
 # text_en = ...
 # text = ⲛⲧⲟⲕ ⲅⲁⲣ ⲡⲉ ⲡϫⲟⲉⲓⲥ · ⲧⲛⲟⲩⲛⲉ ⲛⲧⲙⲛⲧⲁⲧⲙⲟⲩ · ⲁⲩⲱ ⲧⲡⲏⲅⲏ ⲛⲧⲙⲛⲧⲁⲧⲧⲁⲕⲟ · ⲁⲩⲱ ⲡⲧⲁϫⲣⲟ ⲛⲛⲁⲓⲱⲛ ·
 1	ⲛⲧⲟⲕ	ⲛⲧⲟⲕ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	0	root	_	Orig=Ⲛ̅ⲧⲟⲕ`
@@ -1675,7 +1679,7 @@
 25	ⲁⲓⲱⲛ	ⲁⲓⲱⲛ	NOUN	N	Foreign=Yes	22	obl	_	Entity=time)person)|Orig=ⲁⲓ̅ⲱⲛ|OrigLang=grc
 26	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0047
+# sent_id = coptic_treebank-dormition_john_mercad_s0048
 # text_en = ...
 # text = ⲉⲁⲩⲧⲁⲩⲉⲡⲉⲕⲣⲁⲛ ⲉϫⲛⲛⲁⲓ ⲧⲏⲣⲟⲩ · ϫⲉⲕⲁⲥ ⲁⲛⲟⲛ ϩⲱⲱⲛ ⲉⲛⲛⲁⲉⲡⲓⲕⲁⲗⲉⲓ ⲙⲙⲟⲕ ϩⲓⲧⲛⲛⲁⲓ ·
 1-6	ⲉⲁⲩⲧⲁⲩⲉⲡⲉⲕⲣⲁⲛ	_	_	_	_	_	_	_	_
@@ -1710,7 +1714,7 @@
 23	ⲛⲁⲓ	ⲛⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	19	obl	_	Entity=(abstract)|Orig=ⲛⲁⲓ̅
 24	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0048
+# sent_id = coptic_treebank-dormition_john_mercad_s0049
 # text_en = ...
 # text = ⲧⲛⲥⲟⲟⲩⲛ ⲅⲁⲣ ⲛⲧⲉⲕⲙⲛⲧⲛⲟϭ ⲛⲁⲧⲛⲁⲩ ⲉⲣⲟⲥ · ⲧⲁⲓ ⲉⲧⲉⲛⲥⲟⲩⲟⲛϩ ⲉⲣⲟⲛ ⲁⲛ ⲧⲉⲛⲟⲩ ·
 1-2	ⲧⲛⲥⲟⲟⲩⲛ	_	_	_	_	_	_	_	_
@@ -1733,7 +1737,7 @@
 13	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	16	mark	_	_
 14	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	16	advmod	_	_
 15	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	Orig=ⲥ̅
-16	ⲟⲩⲟⲛϩ	ⲟⲩⲱⲛϩ	VERB	V	VerbForm=Fin	12	acl	_	Orig=ⲟⲨⲟ̅ⲛϩ̅
+16	ⲟⲩⲟⲛϩ	ⲟⲩⲱⲛϩ	VERB	V	VerbForm=Fin	12	acl:relcl	_	Orig=ⲟⲨⲟ̅ⲛϩ̅
 17-18	ⲉⲣⲟⲛ	_	_	_	_	_	_	_	_
 17	ⲉⲣⲟ	ⲉ	ADP	PREP	_	18	case	_	_
 18	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=1|PronType=Prs	16	obl	_	_
@@ -1741,7 +1745,7 @@
 20	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	16	advmod	_	Entity=abstract)
 21	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0049
+# sent_id = coptic_treebank-dormition_john_mercad_s0050
 # text_en = ...
 # text = ϩⲟⲧⲁⲛ ⲉⲕϣⲁⲛⲧⲃⲃⲟⲛ · ⲧⲟⲧⲉ ⲧⲛⲛⲁⲛⲁⲩ ⲉⲣⲟⲕ ϩⲙⲡⲥⲱⲙⲁ ⲙⲁⲩⲁⲁϥ · ⲡⲁⲓ ⲛⲧⲁⲕⲁⲁϥ ⲛⲃⲣⲣⲉ ϩⲛⲟⲩⲙⲛⲧⲁⲥ ·
 1	ϩⲟⲧⲁⲛ	ϩⲟⲧⲁⲛ	SCONJ	CONJ	Foreign=Yes	3	mark	_	Orig=Ϩⲟⲧⲁⲛ`|OrigLang=grc
@@ -1771,7 +1775,7 @@
 19	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	22	mark	_	Orig=ⲛ̅ⲧ
 20	ⲁ	ⲁ	AUX	APST	_	22	aux	_	_
 21	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	22	nsubj	_	_
-22	ⲁⲁ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	18	acl	_	_
+22	ⲁⲁ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	18	acl:relcl	_	_
 23	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	Orig=ϥ`
 24-25	ⲛⲃⲣⲣⲉ	_	_	_	_	_	_	_	_
 24	ⲛ	ⲛ	ADP	PREP	_	25	case	_	Orig=ⲛ̅
@@ -1782,7 +1786,7 @@
 28	ⲙⲛⲧⲁⲥ	ⲙⲛⲧⲁⲥ	NOUN	N	_	22	obl	_	Entity=abstract)object)|Morphs=ⲙⲛⲧ-ⲁⲥ
 29	·	·	PUNCT	PUNCT	_	9	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0050
+# sent_id = coptic_treebank-dormition_john_mercad_s0051
 # text_en = ...
 # text = ⲁⲩⲱ ⲛⲧⲉⲣⲉϥⲡⲉϣ ⲡⲟⲉⲓⲕ · ⲁϥϣⲗⲏⲗ ⲉϫⲙⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛⲛⲉⲥⲛⲏⲩ · ϫⲉⲕⲁⲥ ⲉⲩⲉⲙⲡϣⲁ ⲛⲧⲉⲭⲁⲣⲓⲥ ⲙⲡϫⲟⲉⲓⲥ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	10	cc	_	Orig=ⲁⲩⲱ̅
@@ -1824,7 +1828,7 @@
 28	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	25	nmod	_	Entity=person)abstract)
 29	·	·	PUNCT	PUNCT	_	10	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0051
+# sent_id = coptic_treebank-dormition_john_mercad_s0052
 # text_en = ...
 # text = ϩⲟⲙⲟⲓⲱⲥ ⲛⲧⲟϥ ϩⲱⲱϥ · ⲡⲡⲉⲧⲟⲩⲁⲁⲃ · ⲓⲱϩⲁⲛⲛⲏⲥ · ⲛⲧⲉⲣⲉϥϫⲓϯⲡⲉ ⲙⲡⲟⲉⲓⲕ ·
 1	ϩⲟⲙⲟⲓⲱⲥ	ϩⲟⲙⲟⲓⲱⲥ	ADV	ADV	_	2	advmod	_	Orig=Ϩⲟⲙⲟⲓⲱⲥ
@@ -1849,7 +1853,7 @@
 16	ⲟⲉⲓⲕ	ⲟⲉⲓⲕ	NOUN	N	_	13	obl	_	Entity=object)
 17	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0052
+# sent_id = coptic_treebank-dormition_john_mercad_s0053
 # text_en = ...
 # text = ⲉⲁϥϫⲟⲟⲥ ⲛⲧⲉⲓϩⲉ ⲛϭⲓⲡⲑⲉⲟⲗⲟⲅⲟⲥ ⲓⲱϩⲁⲛⲛⲏⲥ · ⲉϥϫⲱ ⲙⲙⲟⲥ · ϫⲉⲙⲁⲣⲉⲟⲩⲙⲉⲣⲓⲥ ϣⲱⲡⲉ ⲛⲁⲓ ϩⲱ ⲛⲙⲙⲏⲧⲛ ϩⲛⲟⲩⲉⲓⲣⲏⲛⲏ · ⲱ ⲛⲁⲙⲉⲣⲁⲧⲉ ·
 1-5	ⲉⲁϥϫⲟⲟⲥ	_	_	_	_	_	_	_	_
@@ -1900,7 +1904,7 @@
 36	ⲙⲉⲣⲁⲧⲉ	ⲙⲉⲣⲓⲧ	NOUN	N	_	24	vocative	_	Entity=person)
 37	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0053
+# sent_id = coptic_treebank-dormition_john_mercad_s0054
 # text_en = ...
 # text = ⲧⲟⲧⲉ ⲡⲉϫⲁϥ ⲛⲃⲓⲃⲣⲟⲥ ϫⲉϫⲓ ⲛⲙⲙⲁⲕ ⲛⲥⲟⲛ ⲥⲛⲁⲩ · ⲉⲩⲛϩⲉⲛⲃⲓⲣ ⲛⲧⲟⲟⲧⲟⲩ · ⲙⲛϩⲉⲛⲧⲱⲣⲉ · ⲛⲧⲉⲧⲛⲟⲩⲉϩⲧⲏⲩⲧⲛ ⲛⲥⲱⲓ ·
 1	ⲧⲟⲧⲉ	ⲧⲟⲧⲉ	ADV	ADV	Foreign=Yes	2	advmod	_	Orig=ⲧⲟⲦⲉ`|OrigLang=grc
@@ -1923,7 +1927,7 @@
 13	·	·	PUNCT	PUNCT	_	15	punct	_	_
 14-17	ⲉⲩⲛϩⲉⲛⲃⲓⲣ	_	_	_	_	_	_	_	_
 14	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	15	mark	_	_
-15	ⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	11	acl	_	Orig=ⲩⲉⲛ
+15	ⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	11	acl:relcl	_	Orig=ⲩⲉⲛ
 16	ϩⲉⲛ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	17	det	_	Entity=(object
 17	ⲃⲓⲣ	ⲃⲓⲣ	NOUN	N	_	15	nsubj	_	Entity=object)
 18-19	ⲛⲧⲟⲟⲧⲟⲩ	_	_	_	_	_	_	_	_
@@ -1945,7 +1949,7 @@
 30	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	27	obl	_	Orig=ⲓ̅
 31	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0054
+# sent_id = coptic_treebank-dormition_john_mercad_s0055
 # text_en = ...
 # text = ⲃⲓⲃⲣⲟⲥ ⲇⲉ ⲙⲡⲉϥⲁⲙⲉⲗⲉⲓ ⲉⲡⲧⲏⲣϥ · ⲁⲗⲗⲁ ⲁϥⲉⲓⲣⲉ ⲙⲡⲉⲛⲧⲁⲩⲟⲩⲉϩⲥⲁϩⲛⲉ ⲙⲙⲟϥ ⲛⲁϥ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧϥ ⲙⲡⲡⲉⲧⲟⲩⲁⲁⲃ ⲡⲑⲉⲟⲗⲟⲅⲟⲥ ⲓⲱϩⲁⲛⲛⲏⲥ · ⲡϩⲙϩⲁⲗ ⲙⲡⲛⲟⲩⲧⲉ ·
 1	ⲃⲓⲃⲣⲟⲥ	ⲃⲓⲃⲣⲟⲥ	PROPN	NPROP	_	5	dislocated	_	Entity=(person)|Orig=ⲃⲓⲃⲢⲟⲥ
@@ -1970,7 +1974,7 @@
 16	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	19	mark	_	_
 17	ⲁ	ⲁ	AUX	APST	_	19	aux	_	_
 18	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
-19	ⲟⲩⲉϩⲥⲁϩⲛⲉ	ⲟⲩⲉϩⲥⲁϩⲛⲉ	VERB	V	VerbForm=Fin	15	acl	_	Morphs=ⲟⲩⲉϩ-ⲥⲁϩⲛⲉ
+19	ⲟⲩⲉϩⲥⲁϩⲛⲉ	ⲟⲩⲉϩⲥⲁϩⲛⲉ	VERB	V	VerbForm=Fin	15	acl:relcl	_	Morphs=ⲟⲩⲉϩ-ⲥⲁϩⲛⲉ
 20-21	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 20	ⲙⲙⲟ	ⲛ	ADP	PREP	_	21	case	_	Orig=ⲙ̅ⲙⲟ
 21	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
@@ -1999,7 +2003,7 @@
 38	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	35	nmod	_	Entity=person)person-John_the_Apostle)abstract)
 39	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0055
+# sent_id = coptic_treebank-dormition_john_mercad_s0056
 # text_en = ...
 # text = ⲛⲧⲉⲣⲉⲡⲙⲁⲕⲁⲣⲓⲟⲥ ⲇⲉ ⲓⲱϩⲁⲛⲛⲏⲥ ⲉⲓ ⲉⲃⲟⲗ ϩⲙⲡⲉϥⲏⲓ · ⲁϥⲙⲟⲟϣⲉ ⲡⲃⲟⲗ ⲛⲧⲡⲩⲗⲏ ⲛⲧⲡⲟⲗⲓⲥ · ⲉⲁϥϫⲟⲟⲥ ⲉⲧⲣⲉⲡⲉϩⲟⲩⲟ ⲙⲡⲙⲏⲏϣⲉ ⲉⲧⲟⲩⲏϩ ⲛⲥⲱϥ · ⲃⲱⲕ ⲛⲥⲉⲗⲟ ϩⲁⲣⲟϥ ·
 1-3	ⲛⲧⲉⲣⲉⲡⲙⲁⲕⲁⲣⲓⲟⲥ	_	_	_	_	_	_	_	_
@@ -2041,14 +2045,14 @@
 29	ⲉ	ⲉ	PART	PREP	_	30	mark	_	_
 30	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	27	xcomp	_	_
 31	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	Entity=(person
-32	ϩⲟⲩⲟ	ϩⲟⲩⲟ	NOUN	N	_	41	nsubj	_	Orig=ϩⲟⲩⲟ̅
+32	ϩⲟⲩⲟ	ϩⲟⲩⲟ	NOUN	N	_	30	obj	_	Orig=ϩⲟⲩⲟ̅
 33-35	ⲙⲡⲙⲏⲏϣⲉ	_	_	_	_	_	_	_	_
 33	ⲙ	ⲛ	ADP	PREP	_	35	case	_	Orig=ⲙ̅
 34	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	ⲙⲏⲏϣⲉ	ⲙⲏⲏϣⲉ	NOUN	N	_	32	nmod	_	Orig=ⲙⲏⲏϣⲉ`
 36-37	ⲉⲧⲟⲩⲏϩ	_	_	_	_	_	_	_	_
 36	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	37	mark	_	_
-37	ⲟⲩⲏϩ	ⲟⲩⲱϩ	VERB	VSTAT	VerbForm=Fin	35	acl	_	Orig=ⲟⲩⲏϩ`
+37	ⲟⲩⲏϩ	ⲟⲩⲱϩ	VERB	VSTAT	VerbForm=Fin	35	acl:relcl	_	Orig=ⲟⲩⲏϩ`
 38-39	ⲛⲥⲱϥ	_	_	_	_	_	_	_	_
 38	ⲛⲥⲱ	ⲛⲥⲁ	ADP	PREP	_	39	case	_	Orig=ⲛ̅ⲥⲱ
 39	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	obl	_	Entity=person)
@@ -2063,7 +2067,7 @@
 46	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	obl	_	_
 47	·	·	PUNCT	PUNCT	_	14	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0056
+# sent_id = coptic_treebank-dormition_john_mercad_s0057
 # text_en = ...
 # text = ⲛⲧⲉⲣⲉϥⲡⲱϩ ⲇⲉ ⲉⲩⲙⲁ ⲛⲙϩⲁⲁⲩ · ⲉⲡⲁⲟⲩⲁ ⲡⲉ ϩⲛⲛⲉⲥⲛⲏⲩ ⲁϥϫⲟⲟⲥ ⲛⲛⲉϩⲣϣⲓⲣⲉ · ϫⲉϣⲓⲕⲉ ϩⲙⲡⲉⲓⲙⲁ ⲛⲁϣⲏⲣⲉ ·
 1-3	ⲛⲧⲉⲣⲉϥⲡⲱϩ	_	_	_	_	_	_	_	_
@@ -2082,7 +2086,7 @@
 11-13	ⲉⲡⲁⲟⲩⲁ	_	_	_	_	_	_	_	_
 11	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	13	case	_	_
 12	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	13	det	_	Entity=(person
-13	ⲟⲩⲁ	oⲩⲁ	NUM	NUM	NumType=Card	7	acl	_	Entity=person)|Orig=ⲟⲩⲁ`
+13	ⲟⲩⲁ	oⲩⲁ	NUM	NUM	NumType=Card	7	acl:relcl	_	Entity=person)|Orig=ⲟⲩⲁ`
 14	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	13	cop	_	Orig=ⲡⲉ`
 15-17	ϩⲛⲛⲉⲥⲛⲏⲩ	_	_	_	_	_	_	_	_
 15	ϩⲛ	ϩⲛ	ADP	PREP	_	17	case	_	Orig=ϩⲛ̅
@@ -2110,13 +2114,13 @@
 32	ϣⲏⲣⲉ	ϣⲏⲣⲉ	NOUN	N	_	27	vocative	_	Entity=person)
 33	·	·	PUNCT	PUNCT	_	20	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0057
+# sent_id = coptic_treebank-dormition_john_mercad_s0058
 # text_en = ...
 # text = ⲛⲉⲧⲙⲙⲁⲩ ⲇⲉ ⲁⲩϣⲓⲕⲉ ⲉⲡⲉⲥⲏⲧ ·
 1-3	ⲛⲉⲧⲙⲙⲁⲩ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	7	dislocated	_	Entity=(person|Orig=Ⲛ
 2	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	3	mark	_	_
-3	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	1	acl	_	Entity=person)|Orig=ⲙ̅ⲙⲁⲩ
+3	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	1	acl:relcl	_	Entity=person)|Orig=ⲙ̅ⲙⲁⲩ
 4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	7	advmod	_	Orig=ⲇⲉ`|OrigLang=grc
 5-7	ⲁⲩϣⲓⲕⲉ	_	_	_	_	_	_	_	_
 5	ⲁ	ⲁ	AUX	APST	_	7	aux	_	_
@@ -2128,7 +2132,7 @@
 10	ⲉⲥⲏⲧ	ⲉⲥⲏⲧ	NOUN	N	_	7	obl	_	Orig=ⲉⲥⲏⲧ̅
 11	·	·	PUNCT	PUNCT	_	7	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0058
+# sent_id = coptic_treebank-dormition_john_mercad_s0059
 # text_en = ...
 # text = ⲛⲧⲟϥ ⲇⲉ ⲓⲱϩⲁⲛⲛⲏⲥ ⲡⲑⲉⲟⲗⲟⲅⲟⲥ · ⲛⲉϥⲟⲩⲉϩⲥⲁϩⲛⲉ ⲛⲁⲩ · ϫⲉϣⲓⲕⲉ ⲉⲡⲉⲥⲏⲧ ⲕⲁⲗⲱⲥ ·
 1	ⲛⲧⲟϥ	ⲛⲧⲟϥ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	dislocated	_	Orig=ⲛ̅ⲧⲟϥ
@@ -2156,7 +2160,7 @@
 18	ⲕⲁⲗⲱⲥ	ⲕⲁⲗⲱⲥ	ADV	ADV	Foreign=Yes	14	advmod	_	OrigLang=grc
 19	·	·	PUNCT	PUNCT	_	9	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0059
+# sent_id = coptic_treebank-dormition_john_mercad_s0060
 # text_en = ...
 # text = ⲁⲩⲱ ⲛⲉϥϫⲱ ⲙⲙⲟⲥ · ϫⲉϭⲱϫⲉ ⲉⲡⲉⲥⲏⲧ ⲉⲡⲉϩⲟⲩⲟ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	Orig=Ⲁⲩⲱ
@@ -2181,7 +2185,7 @@
 15	ϩⲟⲩⲟ	ϩⲟⲩⲟ	NOUN	N	_	9	obl	_	Orig=ϩⲟⲩⲟ`
 16	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0060
+# sent_id = coptic_treebank-dormition_john_mercad_s0061
 # text_en = ...
 # text = ⲉⲩϭⲱϫⲉ ⲇⲉ ⲉⲡⲉⲥⲏⲧ ⲛϭⲓⲛⲉⲧⲙⲙⲁⲩ ·
 1-3	ⲉⲩϭⲱϫⲉ	_	_	_	_	_	_	_	_
@@ -2197,10 +2201,10 @@
 8	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	9	case	_	Orig=ⲛ̅ϭⲓ
 9	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	3	dislocated	_	Entity=(person
 10	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	11	mark	_	_
-11	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	9	acl	_	Entity=person)|Orig=ⲙ̅ⲙⲁⲩ
+11	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	9	acl:relcl	_	Entity=person)|Orig=ⲙ̅ⲙⲁⲩ
 12	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0061
+# sent_id = coptic_treebank-dormition_john_mercad_s0062
 # text_en = ...
 # text = ⲛⲉϥϣⲁϫⲉ ⲛⲙⲙⲁⲩ ϩⲙⲡϣⲁϫⲉ · ⲁⲩⲱ ⲛⲉϥⲡⲣⲟⲧⲣⲉⲡⲉ ⲙⲙⲟⲟⲩ · ⲉϥⲕⲱⲧ ⲙⲙⲟⲟⲩ · ⲉϥⲥⲟⲃⲧⲉ ⲙⲙⲟⲟⲩ ⲁⲩⲱ ⲉϥⲡⲉⲓⲑⲉ ⲙⲙⲟⲟⲩ ⲉϩⲟⲩⲛ ⲉⲧⲙⲛⲧⲣⲣⲟ ⲙⲡⲛⲟⲩⲧⲉ ·
 1-3	ⲛⲉϥϣⲁϫⲉ	_	_	_	_	_	_	_	_
@@ -2258,7 +2262,7 @@
 40	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	37	nmod	_	Entity=person)abstract)
 41	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0062
+# sent_id = coptic_treebank-dormition_john_mercad_s0063
 # text_en = ...
 # text = ⲁⲩⲱ ⲛⲉϥϣⲗⲏⲗ ⲉϫⲙⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲙⲙⲟⲟⲩ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	Orig=Ⲁⲩⲱ̅
@@ -2278,7 +2282,7 @@
 11	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	7	nmod	_	_
 12	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0063
+# sent_id = coptic_treebank-dormition_john_mercad_s0064
 # text_en = ...
 # text = ⲛⲧⲉⲣⲉⲛϩⲣϣⲓⲣⲉ ⲇⲉ ⲟⲩⲱ ⲉⲩϭⲱϫⲉ · ⲙⲡⲧⲟⲡⲟⲥ ⲉⲧⲟⲩϣⲓⲕⲉ ⲛϩⲏⲧϥ · ⲉⲁⲩⲥⲙⲛⲧϥ ⲕⲁⲗⲱⲥ · ⲕⲁⲧⲁⲧϩⲉ ⲛⲧⲁϥⲟⲩⲁϣⲥ ·
 1-3	ⲛⲧⲉⲣⲉⲛϩⲣϣⲓⲣⲉ	_	_	_	_	_	_	_	_
@@ -2299,7 +2303,7 @@
 13-15	ⲉⲧⲟⲩϣⲓⲕⲉ	_	_	_	_	_	_	_	_
 13	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	15	mark	_	_
 14	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
-15	ϣⲓⲕⲉ	ϣⲓⲕⲉ	VERB	V	VerbForm=Fin	12	acl	_	_
+15	ϣⲓⲕⲉ	ϣⲓⲕⲉ	VERB	V	VerbForm=Fin	12	acl:relcl	_	_
 16-17	ⲛϩⲏⲧϥ	_	_	_	_	_	_	_	_
 16	ⲛϩⲏⲧ	ϩⲛ	ADP	PREP	_	17	case	_	Orig=ⲛ̅ϩⲏⲧ
 17	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	Entity=place)|Orig=ϥ̅
@@ -2320,11 +2324,11 @@
 29	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	32	mark	_	Orig=ⲛ̅ⲧ
 30	ⲁ	ⲁ	AUX	APST	_	32	aux	_	_
 31	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
-32	ⲟⲩⲁϣ	ⲟⲩⲱϣ	VERB	V	VerbForm=Fin	28	acl	_	_
+32	ⲟⲩⲁϣ	ⲟⲩⲱϣ	VERB	V	VerbForm=Fin	28	acl:relcl	_	_
 33	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	obj	_	Entity=abstract)|Orig=ⲥ̅
 34	·	·	PUNCT	PUNCT	_	22	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0064
+# sent_id = coptic_treebank-dormition_john_mercad_s0065
 # text_en = ...
 # text = ⲁⲩⲱ ⲁⲛⲟⲛ ⲙⲡⲉⲛⲉⲓⲙⲉ ⲉⲗⲁⲁⲩ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	5	cc	_	Orig=ⲁⲩⲱ̅
@@ -2338,7 +2342,7 @@
 7	ⲗⲁⲁⲩ	ⲗⲁⲁⲩ	NOUN	N	_	5	obl	_	Entity=(abstract)
 8	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0065
+# sent_id = coptic_treebank-dormition_john_mercad_s0066
 # text_en = ...
 # text = ⲧⲟⲧⲉ ⲁϥⲕⲁⲁϥ ⲕⲁϩⲏⲩ ⲛⲛⲉϩⲟⲓⲧⲉ ⲉⲧⲧⲟ ϩⲓⲱⲱϥ ·
 1	ⲧⲟⲧⲉ	ⲧⲟⲧⲉ	ADV	ADV	Foreign=Yes	4	advmod	_	Orig=Ⲧⲟⲧⲉ`|OrigLang=grc
@@ -2354,13 +2358,13 @@
 9	ϩⲟⲓⲧⲉ	ϩⲟⲉⲓⲧⲉ	NOUN	N	_	6	nmod	_	Orig=ϩⲟⲓⲧⲉ`
 10-11	ⲉⲧⲧⲟ	_	_	_	_	_	_	_	_
 10	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	11	case	_	_
-11	ⲧⲟ	ϯ	VERB	VSTAT	VerbForm=Fin	9	acl	_	Orig=ⲧⲟ`
+11	ⲧⲟ	ϯ	VERB	VSTAT	VerbForm=Fin	9	acl:relcl	_	Orig=ⲧⲟ`
 12-13	ϩⲓⲱⲱϥ	_	_	_	_	_	_	_	_
 12	ϩⲓⲱⲱ	ϩⲓ	ADP	PREP	_	13	case	_	_
 13	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	Entity=object)
 14	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0066
+# sent_id = coptic_treebank-dormition_john_mercad_s0067
 # text_en = ...
 # text = ⲁϥⲛⲟⲩϫⲉ ⲙⲙⲟⲟⲩ ⲉⲡⲉⲥⲏⲧ ⲉⲡⲧⲟⲡⲟⲥ ⲛⲧⲁⲩϭⲱϫⲉ ⲙⲙⲟϥ ⲉⲡⲉⲥⲏⲧ ⲙⲡⲉⲥⲙⲟⲧ · ⲛⲟⲩⲙⲁ ⲉϥⲡⲟⲣϣ ·
 1-3	ⲁϥⲛⲟⲩϫⲉ	_	_	_	_	_	_	_	_
@@ -2382,7 +2386,7 @@
 12	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	15	mark	_	Orig=ⲛ̅ⲧ
 13	ⲁ	ⲁ	AUX	APST	_	15	aux	_	_
 14	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
-15	ϭⲱϫⲉ	ϭⲱϫⲉ	VERB	V	VerbForm=Fin	11	acl	_	_
+15	ϭⲱϫⲉ	ϭⲱϫⲉ	VERB	V	VerbForm=Fin	11	acl:relcl	_	_
 16-17	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 16	ⲙⲙⲟ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲙ̅ⲙⲟ
 17	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	Orig=ϥ`
@@ -2402,10 +2406,10 @@
 28-30	ⲉϥⲡⲟⲣϣ	_	_	_	_	_	_	_	_
 28	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	30	mark	_	_
 29	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
-30	ⲡⲟⲣϣ	ⲡⲱⲣϣ	VERB	VSTAT	VerbForm=Fin	27	acl	_	Entity=place)abstract)place)|Orig=ⲡⲟⲣϣ̅
+30	ⲡⲟⲣϣ	ⲡⲱⲣϣ	VERB	VSTAT	VerbForm=Fin	27	acl:relcl	_	Entity=place)abstract)place)|Orig=ⲡⲟⲣϣ̅
 31	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0067
+# sent_id = coptic_treebank-dormition_john_mercad_s0068
 # text_en = ...
 # text = ⲛⲧⲟϥ ⲇⲉ ⲉⲛⲉϥⲁϩⲉⲣⲁⲧϥ · ⲉⲣⲉⲟⲩϣⲧⲏⲛ ⲛϩⲃⲟⲟⲥ ϩⲓⲱⲱϥ · ⲙⲁⲩⲁⲁⲥ · ⲉⲥϫⲓ ⲧⲟⲧⲉ ⲉⲡⲥⲁ ⲥⲛⲁⲩ ·
 1	ⲛⲧⲟϥ	ⲛⲧⲟϥ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	dislocated	_	Orig=Ⲛ̅ⲧⲟϥ
@@ -2436,7 +2440,7 @@
 21-23	ⲉⲥϫⲓ	_	_	_	_	_	_	_	_
 21	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	23	mark	_	_
 22	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
-23	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	12	acl	_	Orig=ϫⲓ`
+23	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	12	acl:relcl	_	Orig=ϫⲓ`
 24	ⲧⲟⲧⲉ	ⲧⲟⲧⲉ	ADV	ADV	Foreign=Yes	23	advmod	_	Orig=ⲧⲟⲧⲉ`|OrigLang=grc
 25-27	ⲉⲡⲥⲁ	_	_	_	_	_	_	_	_
 25	ⲉ	ⲉ	ADP	PREP	_	27	case	_	_
@@ -2445,7 +2449,7 @@
 28	ⲥⲛⲁⲩ	ⲥⲛⲁⲩ	NUM	NUM	NumType=Card	27	nummod	_	Entity=place)
 29	·	·	PUNCT	PUNCT	_	6	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0068
+# sent_id = coptic_treebank-dormition_john_mercad_s0069
 # text_en = ...
 # text = ⲁⲩⲱ ⲁϥⲡⲱⲣϣ ⲛⲛⲉϥϭⲓϫ ⲉⲃⲟⲗ ⲁϥϣⲗⲏⲗ ⲛⲧⲉⲓϩⲉ ⲉϥϫⲱ ⲙⲙⲟⲥ · ϫⲉⲡⲛⲟⲩⲧⲉ ⲡⲉⲛⲧⲁϥⲥⲱⲧⲡ ⲙⲙⲟⲓ ⲛⲁϥ · ⲉⲩⲙⲛⲧⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲛⲛϩⲉⲑⲛⲟⲥ · ⲉⲁⲕⲧⲛⲛⲟⲟⲩⲧ ⲉⲃⲟⲗ ⲉⲧⲟⲓⲕⲟⲩⲙⲉⲛⲏ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	Orig=Ⲁⲩⲱ̅
@@ -2483,7 +2487,7 @@
 25	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	28	mark	_	_
 26	ⲁ	ⲁ	AUX	APST	_	28	aux	_	_
 27	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
-28	ⲥⲱⲧⲡ	ⲥⲱⲧⲡ	VERB	V	VerbForm=Fin	24	acl	_	Orig=ⲥⲱⲧⲡ̅
+28	ⲥⲱⲧⲡ	ⲥⲱⲧⲡ	VERB	V	VerbForm=Fin	24	acl:relcl	_	Orig=ⲥⲱⲧⲡ̅
 29-30	ⲙⲙⲟⲓ	_	_	_	_	_	_	_	_
 29	ⲙⲙⲟ	ⲛ	ADP	PREP	_	30	case	_	Orig=ⲙ̅ⲙⲟ
 30	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	28	obj	_	Orig=ⲓ̀
@@ -2513,7 +2517,7 @@
 49	ⲟⲓⲕⲟⲩⲙⲉⲛⲏ	ⲟⲓⲕⲟⲩⲙⲉⲛⲏ	NOUN	N	Foreign=Yes	44	obl	_	Entity=place)|OrigLang=grc
 50	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0069
+# sent_id = coptic_treebank-dormition_john_mercad_s0070
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲛⲛⲉⲡⲣⲟⲫⲏⲧⲏⲥ · ⲙⲛⲛⲉϥⲁⲡⲟⲥⲧⲟⲗⲟⲥ ·
 1-5	ⲡⲉⲛⲧⲁϥⲟⲩⲱⲛϩ	_	_	_	_	_	_	_	_
@@ -2521,7 +2525,7 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲟⲩⲱⲛϩ	ⲟⲩⲱⲛϩ	VERB	V	VerbForm=Fin	1	acl	_	Orig=ⲟⲩⲱ̅ⲛϩ̅
+5	ⲟⲩⲱⲛϩ	ⲟⲩⲱⲛϩ	VERB	V	VerbForm=Fin	1	acl:relcl	_	Orig=ⲟⲩⲱ̅ⲛϩ̅
 6	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	5	advmod	_	_
 7-9	ⲛⲛⲉⲡⲣⲟⲫⲏⲧⲏⲥ	_	_	_	_	_	_	_	_
 7	ⲛ	ⲛ	ADP	PREP	_	9	case	_	Orig=ⲛ̅
@@ -2534,7 +2538,7 @@
 13	ⲁⲡⲟⲥⲧⲟⲗⲟⲥ	ⲁⲡⲟⲥⲧⲟⲗⲟⲥ	NOUN	N	Foreign=Yes	9	conj	_	Entity=person)person)|OrigLang=grc
 14	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0070
+# sent_id = coptic_treebank-dormition_john_mercad_s0071
 # text_en = ...
 # text = ⲡⲉⲧⲉⲙⲡⲉϥϭⲱ ⲉⲛⲉϩ · ⲉϥⲣⲡⲉⲧⲛⲁⲛⲟⲩϥ · ϫⲓⲛⲧⲕⲁⲧⲁⲃⲟⲗⲏ ⲙⲡⲕⲟⲥⲙⲟⲥ · ⲉϥⲧⲟⲩϫⲟ ⲛⲟⲩⲟⲛ ⲛⲓⲙ · ⲉⲧⲉⲙⲛϭⲟⲙ ⲙⲙⲟⲟⲩ ·
 1-5	ⲡⲉⲧⲉⲙⲡⲉϥϭⲱ	_	_	_	_	_	_	_	_
@@ -2542,7 +2546,7 @@
 2	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	5	aux	_	Orig=ⲙ̅ⲡⲉ
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	1	acl	_	Orig=ϭⲱ`
+5	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	1	acl:relcl	_	Orig=ϭⲱ`
 6	ⲉⲛⲉϩ	ⲉⲛⲉϩ	ADV	ADV	_	5	advmod	_	Entity=person)
 7	·	·	PUNCT	PUNCT	_	10	punct	_	_
 8-14	ⲉϥⲣⲡⲉⲧⲛⲁⲛⲟⲩϥ	_	_	_	_	_	_	_	_
@@ -2551,7 +2555,7 @@
 10	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	5	advcl	_	Orig=ⲣ̅
 11	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	obj	_	_
 12	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	13	mark	_	_
-13	ⲛⲁⲛⲟⲩ	ⲛⲁⲛⲟⲩ	VERB	VBD	VerbForm=Fin	11	acl	_	_
+13	ⲛⲁⲛⲟⲩ	ⲛⲁⲛⲟⲩ	VERB	VBD	VerbForm=Fin	11	acl:relcl	_	_
 14	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 15	·	·	PUNCT	PUNCT	_	18	punct	_	_
 16-18	ϫⲓⲛⲧⲕⲁⲧⲁⲃⲟⲗⲏ	_	_	_	_	_	_	_	_
@@ -2574,14 +2578,14 @@
 29	·	·	PUNCT	PUNCT	_	31	punct	_	_
 30-32	ⲉⲧⲉⲙⲛϭⲟⲙ	_	_	_	_	_	_	_	_
 30	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	31	mark	_	_
-31	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	27	acl	_	Orig=ⲙⲛ̅
+31	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	27	acl:relcl	_	Orig=ⲙⲛ̅
 32	ϭⲟⲙ	ϭⲟⲙ	NOUN	N	_	31	nsubj	_	Entity=(abstract)
 33-34	ⲙⲙⲟⲟⲩ	_	_	_	_	_	_	_	_
 33	ⲙⲙⲟ	ⲛ	ADP	PREP	_	34	case	_	Orig=ⲙ̅ⲙⲟ
 34	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	31	obl	_	Entity=person)
 35	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0071
+# sent_id = coptic_treebank-dormition_john_mercad_s0072
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲧⲣⲉⲩⲥⲟⲩⲱⲛϥ · ⲉⲃⲟⲗ ϩⲓⲧⲛⲣⲱⲙⲉ ⲛⲓⲙ ⲛⲗⲟⲅⲓⲕⲟⲛ ⲙⲛⲍⲱⲟⲛ ⲛⲓⲙ · ⲉⲩⲇⲓⲁⲕⲟⲛⲉⲓ ⲙⲙⲟⲟⲩ ⲉⲃⲟⲗ ϩⲓⲧⲛⲧⲉϥⲡⲣⲟⲛⲟⲓⲁ ·
 1-8	ⲡⲉⲛⲧⲁϥⲧⲣⲉⲩⲥⲟⲩⲱⲛϥ	_	_	_	_	_	_	_	_
@@ -2589,8 +2593,8 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	1	acl	_	_
-6	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+5	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	1	acl:relcl	_	_
+6	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
 7	ⲥⲟⲩⲱⲛ	ⲥⲟⲟⲩⲛ	VERB	V	VerbForm=Fin	5	xcomp	_	Orig=ⲥⲟⲩⲱ̅ⲛ
 8	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	Orig=ϥ̅
 9	·	·	PUNCT	PUNCT	_	12	punct	_	_
@@ -2610,7 +2614,7 @@
 20-22	ⲉⲩⲇⲓⲁⲕⲟⲛⲉⲓ	_	_	_	_	_	_	_	_
 20	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	22	mark	_	_
 21	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
-22	ⲇⲓⲁⲕⲟⲛⲉⲓ	ⲇⲓⲁⲕⲟⲛⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	12	acl	_	OrigLang=grc
+22	ⲇⲓⲁⲕⲟⲛⲉⲓ	ⲇⲓⲁⲕⲟⲛⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	12	acl:relcl	_	OrigLang=grc
 23-24	ⲙⲙⲟⲟⲩ	_	_	_	_	_	_	_	_
 23	ⲙⲙⲟ	ⲛ	ADP	PREP	_	24	case	_	Orig=ⲙ̅ⲙⲟ
 24	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	22	obj	_	_
@@ -2621,7 +2625,7 @@
 28	ⲡⲣⲟⲛⲟⲓⲁ	ⲡⲣⲟⲛⲟⲓⲁ	NOUN	N	Foreign=Yes	22	obl	_	Entity=abstract)|OrigLang=grc
 29	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0072
+# sent_id = coptic_treebank-dormition_john_mercad_s0073
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲧⲣⲉⲧⲉⲛⲯⲩⲭⲏ ⲣϩⲩⲙⲉⲣⲟⲥ · ⲉⲁϥⲧⲣⲉⲥϩⲣⲟⲕ · ⲉⲥⲟ ⲛϫⲁⲉⲓⲉ · ⲁⲩⲱ ⲛⲁⲅⲣⲓⲟⲥ ·
 1-7	ⲡⲉⲛⲧⲁϥⲧⲣⲉⲧⲉⲛⲯⲩⲭⲏ	_	_	_	_	_	_	_	_
@@ -2629,9 +2633,9 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	1	acl	_	_
+5	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	1	acl:relcl	_	_
 6	ⲧⲉⲛ	ⲡⲉⲛ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det	_	Entity=(abstract
-7	ⲯⲩⲭⲏ	ⲯⲩⲭⲏ	NOUN	N	Foreign=Yes	8	nsubj	_	Entity=abstract)|OrigLang=grc
+7	ⲯⲩⲭⲏ	ⲯⲩⲭⲏ	NOUN	N	Foreign=Yes	5	obj	_	Entity=abstract)|OrigLang=grc
 8	ⲣϩⲩⲙⲉⲣⲟⲥ	ⲣϩⲩⲙⲉⲣⲟⲥ	VERB	V	Foreign=Yes|VerbForm=Fin	5	xcomp	_	Entity=person)|Morphs=ⲣ-ϩⲩⲙⲉⲣⲟⲥ|Orig=ⲣ̅ϩⲩⲙⲉⲣⲟⲥ|OrigLang=grc
 9	·	·	PUNCT	PUNCT	_	13	punct	_	_
 10-15	ⲉⲁϥⲧⲣⲉⲥϩⲣⲟⲕ	_	_	_	_	_	_	_	_
@@ -2639,7 +2643,7 @@
 11	ⲁ	ⲁ	AUX	APST	_	13	aux	_	_
 12	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	5	advcl	_	_
-14	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 15	ϩⲣⲟⲕ	ϩⲣⲟⲕ	VERB	V	VerbForm=Fin	13	xcomp	_	_
 16	·	·	PUNCT	PUNCT	_	19	punct	_	_
 17-19	ⲉⲥⲟ	_	_	_	_	_	_	_	_
@@ -2656,7 +2660,7 @@
 25	ⲁⲅⲣⲓⲟⲥ	ⲁⲅⲣⲓⲟⲥ	NOUN	N	Foreign=Yes	21	conj	_	OrigLang=grc
 26	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0073
+# sent_id = coptic_treebank-dormition_john_mercad_s0074
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲧⲁⲁⲥ ⲛⲁϥ ⲙⲙⲓⲛⲙⲙⲟϥ ⲉⲥⲱⲃⲉ ⲛⲛⲉϥϫⲁϫⲉ ·
 1-6	ⲡⲉⲛⲧⲁϥⲧⲁⲁⲥ	_	_	_	_	_	_	_	_
@@ -2664,7 +2668,7 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲧⲁⲁ	ϯ	VERB	V	VerbForm=Fin	1	acl	_	_
+5	ⲧⲁⲁ	ϯ	VERB	V	VerbForm=Fin	1	acl:relcl	_	_
 6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 7-8	ⲛⲁϥ	_	_	_	_	_	_	_	_
 7	ⲛⲁ	ⲛⲁ	ADP	PREP	_	8	case	_	_
@@ -2681,7 +2685,7 @@
 15	ϫⲁϫⲉ	ϫⲁⲁϫⲉ	NOUN	N	_	12	obj	_	Entity=person)person)
 16	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0074
+# sent_id = coptic_treebank-dormition_john_mercad_s0075
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥϭⲟⲗⲡⲥ ⲛⲁϥ ⲉⲥⲙⲟⲟⲩⲧ · ⲉⲁϥⲣⲛⲟⲙⲟⲥ ⲛⲁⲥ ⲉⲥⲟⲙⲥ ϩⲙⲡϣⲓⲕ ⲛⲧⲁⲛⲟⲙⲓⲁ ·
 1-6	ⲡⲉⲛⲧⲁϥϭⲟⲗⲡⲥ	_	_	_	_	_	_	_	_
@@ -2689,7 +2693,7 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	Orig=ⲉⲛⲦ
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ϭⲟⲗⲡ	ϭⲱⲗⲡ	VERB	V	VerbForm=Fin	1	acl	_	_
+5	ϭⲟⲗⲡ	ϭⲱⲗⲡ	VERB	V	VerbForm=Fin	1	acl:relcl	_	_
 6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	Orig=ⲥ̅
 7-8	ⲛⲁϥ	_	_	_	_	_	_	_	_
 7	ⲛⲁ	ⲛⲁ	ADP	PREP	_	8	case	_	_
@@ -2721,7 +2725,7 @@
 27	ⲁⲛⲟⲙⲓⲁ	ⲁⲛⲟⲙⲓⲁ	NOUN	N	Foreign=Yes	24	nmod	_	Entity=abstract)place)|OrigLang=grc
 28	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0075
+# sent_id = coptic_treebank-dormition_john_mercad_s0076
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲧⲣⲉⲥϫⲣⲟ ⲉⲛⲉⲥϫⲁϫⲉ ϩⲙⲡⲧⲣⲉⲥⲡⲱⲧ ⲉⲣⲁⲧϥ ·
 1-7	ⲡⲉⲛⲧⲁϥⲧⲣⲉⲥϫⲣⲟ	_	_	_	_	_	_	_	_
@@ -2729,8 +2733,8 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	1	acl	_	_
-6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	1	acl:relcl	_	_
+6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 7	ϫⲣⲟ	ϫⲣⲟ	VERB	V	VerbForm=Fin	5	xcomp	_	Orig=ϫⲣⲟ`
 8-10	ⲉⲛⲉⲥϫⲁϫⲉ	_	_	_	_	_	_	_	_
 8	ⲉ	ⲉ	ADP	PREP	_	10	case	_	_
@@ -2740,14 +2744,14 @@
 11	ϩⲙ	ϩⲛ	ADP	PREP	_	13	case	_	Orig=ϩⲙ̅
 12	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	7	obl	_	_
-14	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 15	ⲡⲱⲧ	ⲡⲱⲧ	VERB	V	VerbForm=Fin	13	xcomp	_	_
 16-17	ⲉⲣⲁⲧϥ	_	_	_	_	_	_	_	_
 16	ⲉⲣⲁⲧ	ⲉⲣⲁⲧ	ADP	PREP	_	17	case	_	_
 17	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	Entity=person)|Orig=ϥ̅
 18	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0076
+# sent_id = coptic_treebank-dormition_john_mercad_s0077
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥϯ ⲛⲁⲥ ⲛⲧⲉϥϭⲓϫ · ⲁⲩⲱ ⲁϥⲧⲟⲩϫⲟⲥ ⲉⲃⲟⲗ ϩⲛⲁⲙⲛⲧⲉ ·
 1-5	ⲡⲉⲛⲧⲁϥϯ	_	_	_	_	_	_	_	_
@@ -2755,7 +2759,7 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ϯ	ϯ	VERB	V	VerbForm=Fin	1	acl	_	_
+5	ϯ	ϯ	VERB	V	VerbForm=Fin	1	acl:relcl	_	_
 6-7	ⲛⲁⲥ	_	_	_	_	_	_	_	_
 6	ⲛⲁ	ⲛⲁ	ADP	PREP	_	7	case	_	_
 7	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
@@ -2776,7 +2780,7 @@
 19	ⲁⲙⲛⲧⲉ	ⲁⲙⲛⲧⲉ	NOUN	N	_	15	obl	_	Entity=(place)person)|Orig=ⲁⲙⲛ̅ⲧⲉ
 20	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0077
+# sent_id = coptic_treebank-dormition_john_mercad_s0078
 # text_en = ...
 # text = ⲡⲉⲧⲙⲡⲉϥⲕⲁⲁⲥ ⲉⲡⲟⲗⲓⲧⲉⲩⲉ ϩⲙⲡⲕⲟⲥⲙⲟⲥ ·
 1-6	ⲡⲉⲧⲙⲡⲉϥⲕⲁⲁⲥ	_	_	_	_	_	_	_	_
@@ -2784,7 +2788,7 @@
 2	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	5	aux	_	Orig=ⲙ̅ⲡⲉ
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲕⲁⲁ	ⲕⲱ	VERB	V	VerbForm=Fin	1	acl	_	_
+5	ⲕⲁⲁ	ⲕⲱ	VERB	V	VerbForm=Fin	1	acl:relcl	_	_
 6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	Orig=ⲥ`
 7-8	ⲉⲡⲟⲗⲓⲧⲉⲩⲉ	_	_	_	_	_	_	_	_
 7	ⲉ	ⲉ	PART	PREP	_	8	mark	_	_
@@ -2795,7 +2799,7 @@
 11	ⲕⲟⲥⲙⲟⲥ	ⲕⲟⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	8	obl	_	Entity=place)person)|OrigLang=grc
 12	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0078
+# sent_id = coptic_treebank-dormition_john_mercad_s0079
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲧⲥⲁⲃⲉ ⲉⲓⲁⲁⲧⲥ ⲉⲃⲟⲗ ⲉⲛⲉⲥϫⲁϫⲉ ·
 1-5	ⲡⲉⲛⲧⲁϥⲧⲥⲁⲃⲉ	_	_	_	_	_	_	_	_
@@ -2803,7 +2807,7 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	Orig=ⲉⲛ̅ⲧ
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲧⲥⲁⲃⲉ	ⲧⲥⲁⲃⲟ	VERB	V	VerbForm=Fin	1	acl	_	Orig=ⲧⲥⲁⲃⲉ`
+5	ⲧⲥⲁⲃⲉ	ⲧⲥⲁⲃⲟ	VERB	V	VerbForm=Fin	1	acl:relcl	_	Orig=ⲧⲥⲁⲃⲉ`
 6-7	ⲉⲓⲁⲁⲧⲥ	_	_	_	_	_	_	_	_
 6	ⲉⲓⲁⲁⲧ	ⲉⲓⲁⲁⲧ	NOUN	N	_	5	obj	_	Entity=(object
 7	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	6	det	_	Entity=object)|Orig=ⲥ̅
@@ -2814,7 +2818,7 @@
 11	ϫⲁϫⲉ	ϫⲁⲁϫⲉ	NOUN	N	_	5	obl	_	Entity=person)person)
 12	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0079
+# sent_id = coptic_treebank-dormition_john_mercad_s0080
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲧⲣⲉⲡⲉϥⲥⲟⲟⲩⲛ ⲣⲟⲩⲟⲉⲓⲛ ϩⲙⲙⲁ ⲛⲓⲙ ·
 1-7	ⲡⲉⲛⲧⲁϥⲧⲣⲉⲡⲉϥⲥⲟⲟⲩⲛ	_	_	_	_	_	_	_	_
@@ -2822,9 +2826,9 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	Orig=ⲉⲛ̅ⲧ
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	1	acl	_	_
+5	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	1	acl:relcl	_	_
 6	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	Entity=(abstract
-7	ⲥⲟⲟⲩⲛ	ⲥⲟⲟⲩⲛ	NOUN	N	_	8	nsubj	_	Entity=abstract)|Orig=ⲥⲟⲟⲩⲛ`
+7	ⲥⲟⲟⲩⲛ	ⲥⲟⲟⲩⲛ	NOUN	N	_	5	obj	_	Entity=abstract)|Orig=ⲥⲟⲟⲩⲛ`
 8	ⲣⲟⲩⲟⲉⲓⲛ	ⲣⲟⲩⲟⲉⲓⲛ	VERB	V	VerbForm=Fin	5	xcomp	_	Morphs=ⲣ-ⲟⲩⲟⲉⲓⲛ|Orig=ⲣ̅ⲟⲩⲟ̅ⲉⲓⲛ
 9-10	ϩⲙⲙⲁ	_	_	_	_	_	_	_	_
 9	ϩⲙ	ϩⲛ	ADP	PREP	_	10	case	_	Orig=ϩⲙ̅
@@ -2832,7 +2836,7 @@
 11	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	10	det	_	Entity=place)person)
 12	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0080
+# sent_id = coptic_treebank-dormition_john_mercad_s0081
 # text_en = ...
 # text = ⲡϣⲏⲣⲉ ⲙⲡⲛⲟⲩⲧⲉ · ⲡⲥⲱⲧⲏⲣ · ⲡϫⲟⲉⲓⲥ · ⲧⲧⲁⲝⲓⲥ ⲛⲛⲉⲧϩⲙⲡⲁⲏⲣ ·
 1-2	ⲡϣⲏⲣⲉ	_	_	_	_	_	_	_	_
@@ -2860,10 +2864,10 @@
 17	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	20	mark	_	_
 18	ϩⲙ	ϩⲛ	ADP	PREP	_	20	case	_	Orig=ϩⲙ̅
 19	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	Entity=(place
-20	ⲁⲏⲣ	ⲁⲏⲣ	NOUN	N	Foreign=Yes	16	acl	_	Entity=place)abstract)person)|OrigLang=grc
+20	ⲁⲏⲣ	ⲁⲏⲣ	NOUN	N	Foreign=Yes	16	acl:relcl	_	Entity=place)abstract)person)|OrigLang=grc
 21	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0081
+# sent_id = coptic_treebank-dormition_john_mercad_s0082
 # text_en = ...
 # text = ⲡⲣⲉϥϩⲁⲣⲉϩ ⲉⲛⲉⲧϩⲓϫⲙⲡⲕⲁϩ · ⲧⲉⲭⲁⲣⲓⲥ · ⲁⲩⲱ ⲡⲣⲁϣⲉ ⲛⲛⲉⲧⲉⲛⲟⲩⲃ ⲛⲉ ·
 1-2	ⲡⲣⲉϥϩⲁⲣⲉϩ	_	_	_	_	_	_	_	_
@@ -2875,7 +2879,7 @@
 5	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	8	mark	_	_
 6	ϩⲓϫⲙ	ϩⲓϫⲛ	ADP	PREP	_	8	case	_	Orig=ϩⲓϫⲙ̅
 7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(place
-8	ⲕⲁϩ	ⲕⲁϩ	NOUN	N	_	4	acl	_	Entity=place)abstract)
+8	ⲕⲁϩ	ⲕⲁϩ	NOUN	N	_	4	acl:relcl	_	Entity=place)abstract)
 9	·	·	PUNCT	PUNCT	_	11	punct	_	_
 10-11	ⲧⲉⲭⲁⲣⲓⲥ	_	_	_	_	_	_	_	_
 10	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -2889,11 +2893,11 @@
 16	ⲛ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲛ̅
 17	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	15	nmod	_	Entity=(person
 18	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	19	mark	_	_
-19	ⲛⲟⲩⲃ	ⲛⲟⲩⲃ	NOUN	N	_	17	acl	_	Entity=person)|Orig=ⲛⲟⲩϥ
+19	ⲛⲟⲩⲃ	ⲛⲟⲩⲃ	NOUN	N	_	17	acl:relcl	_	Entity=person)|Orig=ⲛⲟⲩϥ
 20	ⲛⲉ	ⲡⲉ	PRON	COP	Number=Plur	19	cop	_	Entity=person)
 21	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0082
+# sent_id = coptic_treebank-dormition_john_mercad_s0083
 # text_en = ...
 # text = ϣⲱⲡ ⲉⲣⲟⲕ ⲛⲧⲉⲯⲩⲭⲏ ⲛⲓⲱϩⲁⲛⲛⲏⲥ · ⲡⲉⲧⲉⲡⲱⲕ ⲡⲉ · ⲧⲁⲓ ⲛⲧⲁⲕⲁⲁⲥ ⲛⲙⲡϣⲁ ⲉⲧⲣⲉⲕⲥⲟⲩⲱⲛⲥ ·
 1	ϣⲱⲡ	ϣⲱⲡ	VERB	V	VerbForm=Fin	0	root	_	Orig=Ϣⲱⲡ
@@ -2911,7 +2915,7 @@
 10-12	ⲡⲉⲧⲉⲡⲱⲕ	_	_	_	_	_	_	_	_
 10	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	appos	_	_
 11	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	12	mark	_	_
-12	ⲡⲱⲕ	ⲡⲱⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	10	acl	_	_
+12	ⲡⲱⲕ	ⲡⲱⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	10	acl:relcl	_	_
 13	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	12	cop	_	Entity=person-John_the_Apostle)
 14	·	·	PUNCT	PUNCT	_	15	punct	_	_
 15	ⲧⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	6	appos	_	Orig=ⲧⲁⲓ̅
@@ -2919,7 +2923,7 @@
 16	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	19	mark	_	Orig=ⲛ̅ⲧ
 17	ⲁ	ⲁ	AUX	APST	_	19	aux	_	_
 18	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	19	nsubj	_	_
-19	ⲁⲁ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	15	acl	_	_
+19	ⲁⲁ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	15	acl:relcl	_	_
 20	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	Orig=ⲥ`
 21-22	ⲛⲙⲡϣⲁ	_	_	_	_	_	_	_	_
 21	ⲛ	ⲛ	ADP	PREP	_	22	case	_	_
@@ -2927,12 +2931,12 @@
 23-27	ⲉⲧⲣⲉⲕⲥⲟⲩⲱⲛⲥ	_	_	_	_	_	_	_	_
 23	ⲉ	ⲉ	PART	PREP	_	24	mark	_	_
 24	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	22	acl	_	_
-25	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	26	nsubj	_	_
+25	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	24	obj	_	_
 26	ⲥⲟⲩⲱⲛ	ⲥⲟⲟⲩⲛ	VERB	V	VerbForm=Fin	24	xcomp	_	Orig=ⲥⲟⲩⲱ̅ⲛ
 27	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	Entity=abstract)|Orig=ⲥ̅
 28	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0083
+# sent_id = coptic_treebank-dormition_john_mercad_s0084
 # text_en = ...
 # text = ⲛⲧⲟⲕ ⲅⲁⲣ ⲡⲉ ⲛⲧⲁⲕϩⲁⲣⲉϩ ⲉⲣⲟⲓ ϣⲁⲧⲉⲛⲟⲩ ⲙⲡⲉⲓⲧⲱⲗⲙ ϩⲟⲗⲱⲥ ⲙⲛⲥϩⲓⲙⲉ ·
 1	ⲛⲧⲟⲕ	ⲛⲧⲟⲕ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	0	root	_	Orig=Ⲛ̅ⲧⲟⲕ
@@ -2959,7 +2963,7 @@
 17	ⲥϩⲓⲙⲉ	ⲥϩⲓⲙⲉ	NOUN	N	_	14	obl	_	Entity=(person)
 18	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0084
+# sent_id = coptic_treebank-dormition_john_mercad_s0085
 # text_en = ...
 # text = ⲁⲕⲟⲩⲟⲛϩⲕ ⲛⲁⲓ ⲉⲃⲟⲗ · ⲛⲧⲉⲣⲓⲟⲩⲱϣ ⲉϫⲓⲥϩⲓⲙⲉ ϩⲛⲧⲁⲙⲛⲧⲃⲣⲣⲉ ·
 1-4	ⲁⲕⲟⲩⲟⲛϩⲕ	_	_	_	_	_	_	_	_
@@ -2985,7 +2989,7 @@
 16	ⲙⲛⲧⲃⲣⲣⲉ	ⲙⲛⲧⲃⲣⲣⲉ	NOUN	N	_	11	obl	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲃⲣⲣⲉ|Orig=ⲙⲛ̅ⲧ̅ⲃⲣ̅ⲣⲉ
 17	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0085
+# sent_id = coptic_treebank-dormition_john_mercad_s0086
 # text_en = ...
 # text = ⲁⲩⲱ ⲁⲕϫⲟⲟⲥ ⲛⲁⲓ · ϫⲉⲓⲱϩⲁⲛⲛⲏⲥ · ϯⲣⲭⲣⲉⲓⲁ ⲙⲙⲟⲕ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	Orig=Ⲁⲩⲱ̅
@@ -3010,7 +3014,7 @@
 15	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	13	obl	_	_
 16	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0086
+# sent_id = coptic_treebank-dormition_john_mercad_s0087
 # text_en = ...
 # text = ⲁⲕⲣϣⲟⲣⲡ ·
 1-3	ⲁⲕⲣϣⲟⲣⲡ	_	_	_	_	_	_	_	_
@@ -3019,7 +3023,7 @@
 3	ⲣϣⲟⲣⲡ	ⲣϣⲟⲣⲡ	VERB	V	VerbForm=Fin	0	root	_	Morphs=ⲣ-ϣⲟⲣⲡ|Orig=ⲣ̅ϣⲟⲣⲡ
 4	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0087
+# sent_id = coptic_treebank-dormition_john_mercad_s0088
 # text_en = ...
 # text = ⲁⲕⲟⲓⲕⲟⲛⲟⲙⲉⲓ ⲙⲡⲁⲥⲱⲙⲁ ⲛⲟⲩⲉϣ ⲛϣⲱⲛⲉ ⲛⲥⲱⲙⲁⲧⲓⲕⲟⲛ ·
 1-3	ⲁⲕⲟⲓⲕⲟⲛⲟⲙⲉⲓ	_	_	_	_	_	_	_	_
@@ -3041,7 +3045,7 @@
 12	ⲥⲱⲙⲁⲧⲓⲕⲟⲛ	ⲥⲱⲙⲁⲧⲓⲕⲟⲛ	NOUN	N	Foreign=Yes	10	nmod	_	Entity=abstract)|OrigLang=grc
 13	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0088
+# sent_id = coptic_treebank-dormition_john_mercad_s0089
 # text_en = ...
 # text = ⲛⲧⲟⲕ ⲡⲉⲛⲧⲁⲕϯϫⲣⲟⲡ ⲛⲁⲓ ⲛϩⲁϩ ⲛⲥⲟⲡ · ⲛⲧⲉⲣⲓⲟⲩⲱϣ ⲉϫⲓⲥϩⲓⲙⲉ ·
 1	ⲛⲧⲟⲕ	ⲛⲧⲟⲕ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	0	root	_	Orig=Ⲛ̅ⲧⲟⲕ
@@ -3071,7 +3075,7 @@
 19	ϫⲓⲥϩⲓⲙⲉ	ϫⲓⲥϩⲓⲙⲉ	VERB	V	VerbForm=Inf	17	xcomp	_	Morphs=ϫⲓ-ⲥϩⲓⲙⲉ
 20	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0089
+# sent_id = coptic_treebank-dormition_john_mercad_s0090
 # text_en = ...
 # text = ⲙⲛⲛⲥⲱⲥ ⲁⲕϣⲁϫⲉ ⲛⲙⲙⲁⲓ ⲛϫⲡϣⲟⲙⲧⲉ ⲙⲡⲉϩⲟⲟⲩ ϩⲓϫⲛⲧϩⲁⲗⲁⲥⲥⲁ · ϫⲉⲓⲱϩⲁⲛⲛⲏⲥ ⲉⲛⲉ ⲛⲧⲟⲕ ⲡⲉⲧⲉⲡⲱⲓ ⲁⲛ ⲡⲉ · ⲛⲉⲓⲛⲁⲗⲟ ϩⲁⲣⲟⲕ ⲡⲉ · ⲛⲅϫⲓⲥϩⲓⲙⲉ · ⲁⲩⲱ ⲛⲅⲣⲃⲗⲗⲉ ⲉⲡⲉⲕⲃⲁⲗ ⲥⲛⲁⲩ · ⲛⲅϭⲱ ⲉⲕⲣϩⲏⲃⲉ · ⲉⲕⲧⲱⲃϩ ⲙⲙⲟⲓ ·
 1-2	ⲙⲛⲛⲥⲱⲥ	_	_	_	_	_	_	_	_
@@ -3105,7 +3109,7 @@
 22-24	ⲡⲉⲧⲉⲡⲱⲓ	_	_	_	_	_	_	_	_
 22	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	advcl	_	Entity=(person
 23	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	24	mark	_	_
-24	ⲡⲱⲓ	ⲡⲱⲓ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	22	acl	_	Entity=person)|Orig=ⲡⲱⲓ̅
+24	ⲡⲱⲓ	ⲡⲱⲓ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	22	acl:relcl	_	Entity=person)|Orig=ⲡⲱⲓ̅
 25	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	22	advmod	_	_
 26	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	22	cop	_	_
 27	·	·	PUNCT	PUNCT	_	22	punct	_	_
@@ -3153,7 +3157,7 @@
 60	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	58	obl	_	_
 61	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0090
+# sent_id = coptic_treebank-dormition_john_mercad_s0091
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲟⲩⲱⲛ ⲙⲡⲁϩⲏⲧ ϩⲛⲧⲁⲙⲉϩϣⲟⲙⲧⲉ ⲛⲣⲟⲙⲡⲉ ·
 1-5	ⲡⲉⲛⲧⲁϥⲟⲩⲱⲛ	_	_	_	_	_	_	_	_
@@ -3161,7 +3165,7 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲟⲩⲱⲛ	ⲟⲩⲱⲛ	VERB	V	VerbForm=Fin	1	acl	_	_
+5	ⲟⲩⲱⲛ	ⲟⲩⲱⲛ	VERB	V	VerbForm=Fin	1	acl:relcl	_	_
 6-8	ⲙⲡⲁϩⲏⲧ	_	_	_	_	_	_	_	_
 6	ⲙ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲙ̅
 7	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	Entity=(object
@@ -3175,7 +3179,7 @@
 13	ⲣⲟⲙⲡⲉ	ⲣⲟⲙⲡⲉ	NOUN	N	_	5	obl	_	Entity=time)person)
 14	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0091
+# sent_id = coptic_treebank-dormition_john_mercad_s0092
 # text_en = ...
 # text = ⲁⲕⲭⲁⲣⲓⲍⲉ ⲛⲁⲓ ⲛϩⲉⲛ ⲕⲉⲃⲁⲗ · ⲛⲥⲉⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲁⲛ ·
 1-3	ⲁⲕⲭⲁⲣⲓⲍⲉ	_	_	_	_	_	_	_	_
@@ -3200,7 +3204,7 @@
 15	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	13	advmod	_	_
 16	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0092
+# sent_id = coptic_treebank-dormition_john_mercad_s0093
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲧⲣⲉⲡϭⲱⲛⲧ · ⲏ ⲡⲉⲓⲱⲣϩ ⲛⲛⲉϩⲓⲟⲙⲉ ϣⲱⲡⲉ ⲛⲁⲓ ⲛⲃⲟⲧⲉ ·
 1-7	ⲡⲉⲛⲧⲁϥⲧⲣⲉⲡϭⲱⲛⲧ	_	_	_	_	_	_	_	_
@@ -3208,9 +3212,9 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	1	acl	_	_
+5	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	1	acl:relcl	_	_
 6	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(abstract
-7	ϭⲱⲛⲧ	ϭⲱⲛⲧ	NOUN	N	_	15	nsubj	_	Entity=abstract)|Orig=ϭⲱⲛⲧ̅
+7	ϭⲱⲛⲧ	ϭⲱⲛⲧ	NOUN	N	_	5	obj	_	Entity=abstract)|Orig=ϭⲱⲛⲧ̅
 8	·	·	PUNCT	PUNCT	_	11	punct	_	_
 9	ⲏ	ⲏ	CCONJ	CONJ	Foreign=Yes	11	cc	_	Orig=ⲏ̂|OrigLang=grc
 10-11	ⲡⲉⲓⲱⲣϩ	_	_	_	_	_	_	_	_
@@ -3229,7 +3233,7 @@
 19	ⲃⲟⲧⲉ	ⲃⲟⲧⲉ	NOUN	N	_	15	obl	_	Entity=(abstract)person)
 20	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0093
+# sent_id = coptic_treebank-dormition_john_mercad_s0094
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲛⲁϩⲙⲧ ⲉⲃⲟⲗ ϩⲛⲛⲉⲫⲁⲛⲧⲁⲥⲓⲁ ⲙⲡⲣⲟⲥⲟⲩⲟⲉⲓϣ · ⲉⲁϥϩⲁⲣⲉϩ ⲉⲣⲟⲓ ⲉⲡⲱⲛϩ ⲉⲧⲙⲏⲛ ⲉⲃⲟⲗ ·
 1-6	ⲡⲉⲛⲧⲁϥⲛⲁϩⲙⲧ	_	_	_	_	_	_	_	_
@@ -3237,7 +3241,7 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲛⲁϩⲙ	ⲛⲟⲩϩⲙ	VERB	V	VerbForm=Fin	1	acl	_	_
+5	ⲛⲁϩⲙ	ⲛⲟⲩϩⲙ	VERB	V	VerbForm=Fin	1	acl:relcl	_	_
 6	ⲧ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	5	obj	_	Orig=ⲧ̅
 7	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	10	case	_	_
 8-10	ϩⲛⲛⲉⲫⲁⲛⲧⲁⲥⲓⲁ	_	_	_	_	_	_	_	_
@@ -3262,11 +3266,11 @@
 22	ⲱⲛϩ	ⲱⲛϩ	NOUN	N	_	17	obl	_	Orig=ⲱⲛϩ̅
 23-24	ⲉⲧⲙⲏⲛ	_	_	_	_	_	_	_	_
 23	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	24	mark	_	_
-24	ⲙⲏⲛ	ⲙⲟⲩⲛ	VERB	VSTAT	VerbForm=Fin	22	acl	_	_
+24	ⲙⲏⲛ	ⲙⲟⲩⲛ	VERB	VSTAT	VerbForm=Fin	22	acl:relcl	_	_
 25	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	24	advmod	_	Entity=abstract)
 26	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0094
+# sent_id = coptic_treebank-dormition_john_mercad_s0095
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲁⲁⲧ ⲛϣⲙⲙⲟ ⲉⲧⲙⲁⲛⲓⲁ ⲉⲧϩⲟⲟⲩ · ⲧⲁⲓ ⲉⲧϣⲟⲟⲡ ϩⲛⲧⲥⲁⲣⲝ ⲉⲁϥⲧⲣⲁⲟⲩⲉ ⲉⲃⲟⲗ ⲙⲡⲙⲟⲩ ⲉⲧⲥⲁϣⲉ ·
 1-6	ⲡⲉⲛⲧⲁϥⲁⲁⲧ	_	_	_	_	_	_	_	_
@@ -3274,7 +3278,7 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲁⲁ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	1	acl	_	_
+5	ⲁⲁ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	1	acl:relcl	_	_
 6	ⲧ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	5	obj	_	Orig=ⲧ`
 7-8	ⲛϣⲙⲙⲟ	_	_	_	_	_	_	_	_
 7	ⲛ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲛ̅
@@ -3285,12 +3289,12 @@
 11	ⲙⲁⲛⲓⲁ	ⲙⲁⲛⲓⲁ	NOUN	N	Foreign=Yes	8	nmod	_	Orig=ⲙⲁⲛⲓⲁ`|OrigLang=grc
 12-13	ⲉⲧϩⲟⲟⲩ	_	_	_	_	_	_	_	_
 12	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	13	mark	_	Orig=ⲉⲑ
-13	ϩⲟⲟⲩ	ϩⲟⲟⲩ	VERB	VSTAT	VerbForm=Fin	11	acl	_	Orig=ⲟⲟⲩ
+13	ϩⲟⲟⲩ	ϩⲟⲟⲩ	VERB	VSTAT	VerbForm=Fin	11	acl:relcl	_	Orig=ⲟⲟⲩ
 14	·	·	PUNCT	PUNCT	_	15	punct	_	_
 15	ⲧⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	11	appos	_	Orig=ⲧⲁⲓ̅
 16-17	ⲉⲧϣⲟⲟⲡ	_	_	_	_	_	_	_	_
 16	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	17	mark	_	_
-17	ϣⲟⲟⲡ	ϣⲱⲡⲉ	VERB	VSTAT	VerbForm=Fin	15	acl	_	_
+17	ϣⲟⲟⲡ	ϣⲱⲡⲉ	VERB	VSTAT	VerbForm=Fin	15	acl:relcl	_	_
 18-20	ϩⲛⲧⲥⲁⲣⲝ	_	_	_	_	_	_	_	_
 18	ϩⲛ	ϩⲛ	ADP	PREP	_	20	case	_	Orig=ϩⲛ̅
 19	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Entity=(object
@@ -3300,7 +3304,7 @@
 22	ⲁ	ⲁ	AUX	APST	_	24	aux	_	_
 23	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 24	ⲧⲣ	ⲧⲣⲉ	VERB	ACAUS	_	5	advcl	_	_
-25	ⲁ	ⲁ	PRON	PPERS	_	26	nsubj	_	_
+25	ⲁ	ⲁ	PRON	PPERS	_	24	obj	_	_
 26	ⲟⲩⲉ	ⲟⲩⲉ	VERB	V	VerbForm=Fin	24	xcomp	_	Orig=ⲟⲩⲉ`
 27	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	26	advmod	_	_
 28-30	ⲙⲡⲙⲟⲩ	_	_	_	_	_	_	_	_
@@ -3309,10 +3313,10 @@
 30	ⲙⲟⲩ	ⲙⲟⲩ	NOUN	N	_	26	obl	_	Orig=ⲙⲟⲩ`
 31-32	ⲉⲧⲥⲁϣⲉ	_	_	_	_	_	_	_	_
 31	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	32	mark	_	_
-32	ⲥⲁϣⲉ	ⲥⲓϣⲉ	VERB	VSTAT	VerbForm=Fin	30	acl	_	Entity=event)abstract)person)
+32	ⲥⲁϣⲉ	ⲥⲓϣⲉ	VERB	VSTAT	VerbForm=Fin	30	acl:relcl	_	Entity=event)abstract)person)
 33	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0095
+# sent_id = coptic_treebank-dormition_john_mercad_s0096
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲛⲁϩⲙⲉⲧ ⲉⲡⲙⲟⲩ ⲙⲙⲉϩⲥⲛⲁⲩ · ⲉⲧⲉⲧⲅⲉϩⲉⲛⲛⲁ ⲛⲥⲁⲧⲉ ⲧⲉ · ⲉⲁⲕⲧⲁϩⲟⲓ ⲉⲣⲁⲧ ⲉⲓⲟⲩⲁⲁⲃ ·
 1-6	ⲡⲉⲛⲧⲁϥⲛⲁϩⲙⲉⲧ	_	_	_	_	_	_	_	_
@@ -3320,7 +3324,7 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲛⲁϩⲙⲉ	ⲛⲟⲩϩⲙ	VERB	V	VerbForm=Fin	1	acl	_	_
+5	ⲛⲁϩⲙⲉ	ⲛⲟⲩϩⲙ	VERB	V	VerbForm=Fin	1	acl:relcl	_	_
 6	ⲧ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	5	obj	_	Orig=ⲧ`
 7-9	ⲉⲡⲙⲟⲩ	_	_	_	_	_	_	_	_
 7	ⲉ	ⲉ	ADP	PREP	_	9	case	_	_
@@ -3333,7 +3337,7 @@
 13-15	ⲉⲧⲉⲧⲅⲉϩⲉⲛⲛⲁ	_	_	_	_	_	_	_	_
 13	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	15	mark	_	_
 14	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	Entity=(place
-15	ⲅⲉϩⲉⲛⲛⲁ	ⲅⲉϩⲉⲛⲛⲁ	NOUN	N	Foreign=Yes	9	acl	_	Orig=ⲅⲉϩⲉⲛⲛⲁ`|OrigLang=he
+15	ⲅⲉϩⲉⲛⲛⲁ	ⲅⲉϩⲉⲛⲛⲁ	NOUN	N	Foreign=Yes	9	acl:relcl	_	Orig=ⲅⲉϩⲉⲛⲛⲁ`|OrigLang=he
 16-17	ⲛⲥⲁⲧⲉ	_	_	_	_	_	_	_	_
 16	ⲛ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲛ̅
 17	ⲥⲁⲧⲉ	ⲥⲁⲧⲉ	NOUN	N	_	15	nmod	_	Entity=(abstract)place)
@@ -3354,7 +3358,7 @@
 29	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	23	advcl	_	_
 30	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0096
+# sent_id = coptic_treebank-dormition_john_mercad_s0097
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲧⲱⲙ ⲉⲣⲱϥ ⲙⲡϣⲱⲛⲉ ⲉⲧϩⲏⲡ ⲛⲧⲁⲯⲩⲭⲏ ·
 1-5	ⲡⲉⲛⲧⲁϥⲧⲱⲙ	_	_	_	_	_	_	_	_
@@ -3362,7 +3366,7 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲧⲱⲙ	ⲧⲱⲙ	VERB	V	VerbForm=Fin	1	acl	_	_
+5	ⲧⲱⲙ	ⲧⲱⲙ	VERB	V	VerbForm=Fin	1	acl:relcl	_	_
 6-8	ⲉⲣⲱϥ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉ	ADP	PREP	_	7	case	_	_
 7	ⲣⲱ	ⲣⲟ	NOUN	N	_	5	obl	_	Entity=(abstract
@@ -3373,14 +3377,14 @@
 11	ϣⲱⲛⲉ	ϣⲱⲛⲉ	NOUN	N	_	7	nmod	_	Orig=ϣⲱⲛⲉ`
 12-13	ⲉⲧϩⲏⲡ	_	_	_	_	_	_	_	_
 12	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	13	mark	_	Orig=ⲉⲑ
-13	ϩⲏⲡ	ϩⲱⲡ	VERB	VSTAT	VerbForm=Fin	11	acl	_	Orig=ⲏⲡ
+13	ϩⲏⲡ	ϩⲱⲡ	VERB	VSTAT	VerbForm=Fin	11	acl:relcl	_	Orig=ⲏⲡ
 14-16	ⲛⲧⲁⲯⲩⲭⲏ	_	_	_	_	_	_	_	_
 14	ⲛ	ⲛ	ADP	PREP	_	16	case	_	_
 15	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	16	det	_	Entity=(abstract
 16	ⲯⲩⲭⲏ	ⲯⲩⲭⲏ	NOUN	N	Foreign=Yes	13	obl	_	Entity=abstract)abstract)person)|OrigLang=grc
 17	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0097
+# sent_id = coptic_treebank-dormition_john_mercad_s0098
 # text_en = ...
 # text = ⲁⲩⲱ ⲁⲕϣⲱϣⲧ ⲉⲃⲟⲗ ⲛⲧⲉⲡⲣⲁⲝⲓⲥ ⲉⲧϩⲏⲡ · ⲏ ⲡϩⲱⲃ ⲉⲧⲟⲩⲟⲛϩ ⲉⲃⲟⲗ · ⲡⲁⲓ ⲉϣⲁⲩⲧⲁⲁϥ ϩⲙⲡⲥⲱⲙⲁ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	Orig=ⲁⲩⲱ̅
@@ -3395,7 +3399,7 @@
 8	ⲡⲣⲁⲝⲓⲥ	ⲡⲣⲁⲝⲓⲥ	NOUN	N	Foreign=Yes	4	obj	_	Orig=ⲡⲣⲁⲝⲓⲥ`|OrigLang=grc
 9-10	ⲉⲧϩⲏⲡ	_	_	_	_	_	_	_	_
 9	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	10	mark	_	Orig=ⲉⲑ
-10	ϩⲏⲡ	ϩⲱⲡ	VERB	VSTAT	VerbForm=Fin	8	acl	_	Entity=abstract)|Orig=ⲏⲡ
+10	ϩⲏⲡ	ϩⲱⲡ	VERB	VSTAT	VerbForm=Fin	8	acl:relcl	_	Entity=abstract)|Orig=ⲏⲡ
 11	·	·	PUNCT	PUNCT	_	14	punct	_	_
 12	ⲏ	ⲏ	CCONJ	CONJ	Foreign=Yes	14	cc	_	Orig=ⲏ̅|OrigLang=grc
 13-14	ⲡϩⲱⲃ	_	_	_	_	_	_	_	_
@@ -3403,7 +3407,7 @@
 14	ϩⲱⲃ	ϩⲱⲃ	NOUN	N	_	8	conj	_	_
 15-16	ⲉⲧⲟⲩⲟⲛϩ	_	_	_	_	_	_	_	_
 15	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	16	mark	_	_
-16	ⲟⲩⲟⲛϩ	ⲟⲩⲱⲛϩ	VERB	VSTAT	VerbForm=Fin	14	acl	_	Orig=ⲟⲩⲟ̅ⲛϩ̅
+16	ⲟⲩⲟⲛϩ	ⲟⲩⲱⲛϩ	VERB	VSTAT	VerbForm=Fin	14	acl:relcl	_	Orig=ⲟⲩⲟ̅ⲛϩ̅
 17	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	16	advmod	_	_
 18	·	·	PUNCT	PUNCT	_	19	punct	_	_
 19	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	14	appos	_	Orig=ⲡⲁⲓ̅
@@ -3411,7 +3415,7 @@
 20	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	23	mark	_	_
 21	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	23	aux	_	_
 22	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
-23	ⲧⲁⲁ	ϯ	VERB	V	VerbForm=Fin	19	acl	_	_
+23	ⲧⲁⲁ	ϯ	VERB	V	VerbForm=Fin	19	acl:relcl	_	_
 24	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
 25-27	ϩⲙⲡⲥⲱⲙⲁ	_	_	_	_	_	_	_	_
 25	ϩⲙ	ϩⲛ	ADP	PREP	_	27	case	_	Orig=ϩⲙ̅
@@ -3419,7 +3423,7 @@
 27	ⲥⲱⲙⲁ	ⲥⲱⲙⲁ	NOUN	N	Foreign=Yes	23	obl	_	Entity=object)abstract)|OrigLang=grc
 28	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0098
+# sent_id = coptic_treebank-dormition_john_mercad_s0099
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲛⲁϩⲙⲉⲧ · ⲁⲩⲱ ⲁϥⲛⲟⲩϫⲉ ⲉⲃⲟⲗ ⲛϩⲏⲧ · ⲙⲡⲉⲧϣⲧⲟⲣⲧⲣ ⲙⲙⲟⲓ ·
 1-6	ⲡⲉⲛⲧⲁϥⲛⲁϩⲙⲉⲧ	_	_	_	_	_	_	_	_
@@ -3427,7 +3431,7 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲛⲁϩⲙⲉ	ⲛⲟⲩϩⲙ	VERB	V	VerbForm=Fin	1	acl	_	_
+5	ⲛⲁϩⲙⲉ	ⲛⲟⲩϩⲙ	VERB	V	VerbForm=Fin	1	acl:relcl	_	_
 6	ⲧ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
 7	·	·	PUNCT	PUNCT	_	11	punct	_	_
 8	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	11	cc	_	Orig=ⲁⲩⲱ̅
@@ -3442,13 +3446,13 @@
 15	ⲙ	ⲛ	ADP	PREP	_	16	case	_	Orig=ⲙ̅
 16	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	obj	_	Entity=(abstract
 17	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	18	mark	_	_
-18	ϣⲧⲟⲣⲧⲣ	ϣⲧⲟⲣⲧⲣ	VERB	V	VerbForm=Fin	16	acl	_	Orig=ϣⲧⲟⲣⲧⲣ̅
+18	ϣⲧⲟⲣⲧⲣ	ϣⲧⲟⲣⲧⲣ	VERB	V	VerbForm=Fin	16	acl:relcl	_	Orig=ϣⲧⲟⲣⲧⲣ̅
 19-20	ⲙⲙⲟⲓ	_	_	_	_	_	_	_	_
 19	ⲙⲙⲟ	ⲛ	ADP	PREP	_	20	case	_	Orig=ⲙ̅ⲙⲟ
 20	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	18	obl	_	Entity=abstract)person)|Orig=ⲓ̅
 21	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0099
+# sent_id = coptic_treebank-dormition_john_mercad_s0100
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲥⲟⲃⲧⲉ ⲛⲧⲁϭⲓⲛⲃⲱⲕ ϣⲁⲣⲟϥ ⲉⲥⲟⲩⲁⲁⲃ ·
 1-5	ⲡⲉⲛⲧⲁϥⲥⲟⲃⲧⲉ	_	_	_	_	_	_	_	_
@@ -3456,7 +3460,7 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲥⲟⲃⲧⲉ	ⲥⲟⲃⲧⲉ	VERB	V	VerbForm=Fin	1	acl	_	Orig=ⲥⲟⲃⲧⲉ`
+5	ⲥⲟⲃⲧⲉ	ⲥⲟⲃⲧⲉ	VERB	V	VerbForm=Fin	1	acl:relcl	_	Orig=ⲥⲟⲃⲧⲉ`
 6-8	ⲛⲧⲁϭⲓⲛⲃⲱⲕ	_	_	_	_	_	_	_	_
 6	ⲛ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲛ̅
 7	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	Entity=(event
@@ -3467,10 +3471,10 @@
 11-13	ⲉⲥⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 11	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	13	mark	_	_
 12	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
-13	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	8	acl	_	Entity=person)
+13	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	8	acl:relcl	_	Entity=person)
 14	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0100
+# sent_id = coptic_treebank-dormition_john_mercad_s0101
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲕⲁⲛⲁⲙⲉⲉⲩⲉ ⲉⲩϣⲟⲟⲡ ⲉϩⲟⲩⲛ ⲉⲣⲟϥ ⲛⲁⲧⲧⲱⲗⲙ ·
 1-7	ⲡⲉⲛⲧⲁϥⲕⲁⲛⲁⲙⲉⲉⲩⲉ	_	_	_	_	_	_	_	_
@@ -3478,7 +3482,7 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲕⲁ	ⲕⲱ	VERB	V	VerbForm=Fin	1	acl	_	Orig=ⲕⲁ̅
+5	ⲕⲁ	ⲕⲱ	VERB	V	VerbForm=Fin	1	acl:relcl	_	Orig=ⲕⲁ̅
 6	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det	_	Entity=(abstract
 7	ⲙⲉⲉⲩⲉ	ⲙⲉⲉⲩⲉ	NOUN	N	_	5	obj	_	Entity=abstract)|Orig=ⲙⲉⲉⲩⲉ`
 8-10	ⲉⲩϣⲟⲟⲡ	_	_	_	_	_	_	_	_
@@ -3494,7 +3498,7 @@
 15	ⲁⲧⲧⲱⲗⲙ	ⲁⲧⲧⲱⲗⲙ	NOUN	N	_	10	obl	_	Entity=person)|Morphs=ⲁⲧ-ⲧⲱⲗⲙ|Orig=ⲁⲧⲧⲱⲗⲙ̅
 16	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0101
+# sent_id = coptic_treebank-dormition_john_mercad_s0102
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲭⲁⲣⲓⲍⲉ ⲛⲁⲓ ⲛⲧⲉϥⲡⲓⲥⲧⲓⲥ ⲉⲛⲥⲡⲏϣ ⲁⲛ ·
 1-5	ⲡⲉⲛⲧⲁϥⲭⲁⲣⲓⲍⲉ	_	_	_	_	_	_	_	_
@@ -3502,7 +3506,7 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲭⲁⲣⲓⲍⲉ	ⲭⲁⲣⲓⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	1	acl	_	OrigLang=grc
+5	ⲭⲁⲣⲓⲍⲉ	ⲭⲁⲣⲓⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	1	acl:relcl	_	OrigLang=grc
 6-7	ⲛⲁⲓ	_	_	_	_	_	_	_	_
 6	ⲛⲁ	ⲛⲁ	ADP	PREP	_	7	case	_	_
 7	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	5	obl	_	Orig=ⲓ̅
@@ -3514,11 +3518,11 @@
 11	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	14	mark	_	_
 12	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	14	advmod	_	_
 13	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Orig=ⲥ̅
-14	ⲡⲏϣ	ⲡⲱϣ	VERB	VSTAT	VerbForm=Fin	10	acl	_	_
+14	ⲡⲏϣ	ⲡⲱϣ	VERB	VSTAT	VerbForm=Fin	10	acl:relcl	_	_
 15	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	14	advmod	_	Entity=person)
 16	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0102
+# sent_id = coptic_treebank-dormition_john_mercad_s0103
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲧⲣⲉⲛⲁⲙⲉⲉⲩⲉ · ⲙⲛⲛⲁϣⲟϫⲛⲉ ϣⲱⲡⲉ ⲉⲩⲣϩⲟⲩⲟ ⲉϩⲟⲩⲛ ⲉⲣⲟϥ ·
 1-7	ⲡⲉⲛⲧⲁϥⲧⲣⲉⲛⲁⲙⲉⲉⲩⲉ	_	_	_	_	_	_	_	_
@@ -3526,9 +3530,9 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	1	acl	_	_
+5	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	1	acl:relcl	_	_
 6	ⲛⲁ	ⲛⲁ	AUX	FUT	_	7	aux	_	Entity=(abstract
-7	ⲙⲉⲉⲩⲉ	ⲙⲉⲉⲩⲉ	VERB	V	VerbForm=Fin	12	nsubj	_	Entity=abstract)
+7	ⲙⲉⲉⲩⲉ	ⲙⲉⲉⲩⲉ	VERB	V	VerbForm=Fin	5	obj	_	Entity=abstract)
 8	·	·	PUNCT	PUNCT	_	11	punct	_	_
 9-11	ⲙⲛⲛⲁϣⲟϫⲛⲉ	_	_	_	_	_	_	_	_
 9	ⲙⲛ	ⲙⲛ	ADP	PREP	_	11	cc	_	Orig=ⲙⲛ̅
@@ -3545,13 +3549,13 @@
 18	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	Entity=person)
 19	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0103
+# sent_id = coptic_treebank-dormition_john_mercad_s0104
 # text_en = ...
 # text = ⲡⲉⲧϯ ⲙⲡⲟⲩⲁ ⲡⲟⲩⲁ · ⲕⲁⲧⲁⲛⲉϥϩⲃⲏⲩⲉ ·
 1-3	ⲡⲉⲧϯ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	root	_	Entity=(person|Orig=Ⲡ
 2	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	3	mark	_	_
-3	ϯ	ϯ	VERB	V	VerbForm=Fin	1	acl	_	_
+3	ϯ	ϯ	VERB	V	VerbForm=Fin	1	acl:relcl	_	_
 4-6	ⲙⲡⲟⲩⲁ	_	_	_	_	_	_	_	_
 4	ⲙ	ⲛ	ADP	PREP	_	6	case	_	Orig=ⲙ̅
 5	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(person
@@ -3566,7 +3570,7 @@
 12	ϩⲃⲏⲩⲉ	ϩⲱⲃ	NOUN	N	_	3	obl	_	Entity=abstract)person)
 13	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0104
+# sent_id = coptic_treebank-dormition_john_mercad_s0105
 # text_en = ...
 # text = ⲡⲉⲛⲧⲁϥⲕⲱ ϩⲣⲁⲓ ϩⲛⲧⲁⲯⲩⲭⲏ · ⲉⲧⲙⲕⲁⲗⲁⲁⲩ ⲛⲁⲓ · ⲛⲥⲁⲃⲗⲗⲁⲕ ⲙⲁⲩⲁⲁⲕ ⲡϫⲟⲉⲓⲥ ·
 1-5	ⲡⲉⲛⲧⲁϥⲕⲱ	_	_	_	_	_	_	_	_
@@ -3574,7 +3578,7 @@
 2	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲕⲱ	ⲕⲱ	VERB	V	VerbForm=Fin	1	acl	_	Orig=ⲕⲱ̅
+5	ⲕⲱ	ⲕⲱ	VERB	V	VerbForm=Fin	1	acl:relcl	_	Orig=ⲕⲱ̅
 6	ϩⲣⲁⲓ	ϩⲣⲁⲓ	ADV	ADV	_	5	advmod	_	Orig=ϩⲣⲁⲓ̅
 7-9	ϩⲛⲧⲁⲯⲩⲭⲏ	_	_	_	_	_	_	_	_
 7	ϩⲛ	ϩⲛ	ADP	PREP	_	9	case	_	Orig=ϩⲛ̅
@@ -3601,7 +3605,7 @@
 23	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	1	vocative	_	Entity=person)
 24	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0105
+# sent_id = coptic_treebank-dormition_john_mercad_s0106
 # text_en = ...
 # text = ⲟⲩ ⲅⲁⲣ ⲡⲉⲧⲓⲛⲁϩⲉ ⲉⲣⲟϥ ⲉϥⲥⲱⲧⲡ · ⲉϥⲧⲃⲃⲏⲩ ⲉϩⲟⲩⲟ ⲉⲣⲟⲕ ·
 1	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	Orig=Ⲟⲩ`
@@ -3632,7 +3636,7 @@
 20	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	18	nmod	_	Entity=abstract)
 21	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0106
+# sent_id = coptic_treebank-dormition_john_mercad_s0107
 # text_en = ...
 # text = ⲧⲉⲛⲟⲩ ⲇⲉ ⲁⲓϩⲉ ⲉⲣⲟⲕ · ⲁⲩⲱ ⲁⲓϫⲱⲕ ⲉⲃⲟⲗ ⲛⲧⲟⲓⲕⲟⲛⲟⲙⲓⲁ ⲛⲧⲁⲕⲧⲁⲛϩⲟⲩⲧ ⲉⲣⲟⲥ ·
 1	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	5	advmod	_	Orig=Ⲧⲉⲛⲟⲩ
@@ -3659,13 +3663,13 @@
 17	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	20	mark	_	Orig=ⲛ̅ⲧ
 18	ⲁ	ⲁ	AUX	APST	_	20	aux	_	_
 19	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	20	nsubj	_	_
-20	ⲧⲁⲛϩⲟⲩⲧ	ⲧⲁⲛϩⲟⲩⲧ	VERB	V	VerbForm=Fin	16	acl	_	Orig=ⲧⲁⲛϩⲟⲩⲧ`
+20	ⲧⲁⲛϩⲟⲩⲧ	ⲧⲁⲛϩⲟⲩⲧ	VERB	V	VerbForm=Fin	16	acl:relcl	_	Orig=ⲧⲁⲛϩⲟⲩⲧ`
 21-22	ⲉⲣⲟⲥ	_	_	_	_	_	_	_	_
 21	ⲉⲣⲟ	ⲉ	ADP	PREP	_	22	case	_	_
 22	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obl	_	Entity=abstract)
 23	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0107
+# sent_id = coptic_treebank-dormition_john_mercad_s0108
 # text_en = ...
 # text = ⲁⲁⲧ ⲟⲩⲛ ⲛⲙⲡϣⲁ ⲉⲧⲣⲉⲕϯⲙⲧⲟⲛ ⲛⲁⲓ ϩⲛⲧⲉⲕⲁⲛⲁⲡⲁⲩⲥⲓⲥ ⲉⲧⲟⲩⲁⲁⲃ · ⲛⲅⲭⲁⲣⲓⲍⲉ ⲛⲁⲓ ⲛⲧⲙⲛⲧⲧⲉⲗⲓⲟⲥ ⲉⲧⲛϩⲏⲧⲕ · ⲉⲧⲉⲧⲙⲛⲧⲁⲧⲛⲟⲃⲉ ⲧⲉ · ⲙⲛⲡⲟⲩϫⲁⲓ ⲛⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ · ⲁⲩⲱ ⲛⲁⲧϩⲉⲧϩⲱⲧϥ · ⲁⲩⲱ ⲛⲁⲧⲧⲁϩⲟϥ · ⲉⲓⲛⲏⲩ ϣⲁⲣⲟⲕ ⲡⲁϫⲟⲉⲓⲥ ⲓⲏⲥⲟⲩⲥ ⲡⲉⲭⲣⲓⲥⲧⲟⲥ ·
 1-2	ⲁⲁⲧ	_	_	_	_	_	_	_	_
@@ -3678,7 +3682,7 @@
 6-9	ⲉⲧⲣⲉⲕϯⲙⲧⲟⲛ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉ	PART	PREP	_	7	mark	_	_
 7	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	1	xcomp	_	_
-8	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
+8	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	obj	_	_
 9	ϯⲙⲧⲟⲛ	ϯⲙⲧⲟⲛ	VERB	V	VerbForm=Fin	7	xcomp	_	Morphs=ϯ-ⲙⲧⲟⲛ|Orig=ϯⲉⲙⲧⲟⲛ
 10-11	ⲛⲁⲓ	_	_	_	_	_	_	_	_
 10	ⲛⲁ	ⲛⲁ	ADP	PREP	_	11	case	_	_
@@ -3689,7 +3693,7 @@
 14	ⲁⲛⲁⲡⲁⲩⲥⲓⲥ	ⲁⲛⲁⲡⲁⲩⲥⲓⲥ	NOUN	N	Foreign=Yes	9	obl	_	Orig=ⲁⲛⲁⲡⲁⲩⲥⲓⲥ`|OrigLang=grc
 15-16	ⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 15	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	16	mark	_	_
-16	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	14	acl	_	Entity=event)
+16	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	14	acl:relcl	_	Entity=event)
 17	·	·	PUNCT	PUNCT	_	20	punct	_	_
 18-20	ⲛⲅⲭⲁⲣⲓⲍⲉ	_	_	_	_	_	_	_	_
 18	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	20	aux	_	_
@@ -3705,12 +3709,12 @@
 26-28	ⲉⲧⲛϩⲏⲧⲕ	_	_	_	_	_	_	_	_
 26	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	28	mark	_	_
 27	ⲛϩⲏⲧ	ϩⲛ	ADP	PREP	_	28	case	_	Orig=ⲛ̅ϩⲏⲧ
-28	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	25	acl	_	Entity=abstract)|Orig=ⲕ̅
+28	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	25	acl:relcl	_	Entity=abstract)|Orig=ⲕ̅
 29	·	·	PUNCT	PUNCT	_	32	punct	_	_
 30-32	ⲉⲧⲉⲧⲙⲛⲧⲁⲧⲛⲟⲃⲉ	_	_	_	_	_	_	_	_
 30	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	32	mark	_	_
 31	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	Entity=(abstract
-32	ⲙⲛⲧⲁⲧⲛⲟⲃⲉ	ⲙⲛⲧⲁⲧⲛⲟⲃⲉ	NOUN	N	_	25	acl	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲁⲧ-ⲛⲟⲃⲉ|Orig=ⲙⲛ̅ⲧ̅ⲁⲧⲛⲟⲃⲉ`
+32	ⲙⲛⲧⲁⲧⲛⲟⲃⲉ	ⲙⲛⲧⲁⲧⲛⲟⲃⲉ	NOUN	N	_	25	acl:relcl	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲁⲧ-ⲛⲟⲃⲉ|Orig=ⲙⲛ̅ⲧ̅ⲁⲧⲛⲟⲃⲉ`
 33	ⲧⲉ	ⲡⲉ	PRON	COP	Gender=Fem|Number=Sing	32	cop	_	_
 34	·	·	PUNCT	PUNCT	_	37	punct	_	_
 35-37	ⲙⲛⲡⲟⲩϫⲁⲓ	_	_	_	_	_	_	_	_
@@ -3752,7 +3756,7 @@
 62	ⲭⲣⲓⲥⲧⲟⲥ	ⲭⲣⲓⲥⲧⲟⲥ	NOUN	N	Foreign=Yes	59	appos	_	Entity=person-Jesus)|Orig=ⲭ̅ⲥ̅|OrigLang=grc
 63	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0108
+# sent_id = coptic_treebank-dormition_john_mercad_s0109
 # text_en = ...
 # text = ⲙⲁⲣⲉϥϩⲣⲟⲕ ⲛϭⲓⲡⲕⲱϩⲧ · ⲛⲧⲉⲡⲕⲁⲕⲉ ⲁⲛⲁⲭⲱⲣⲉⲓ ⲛⲁϥ · ⲛⲧⲉⲡⲉⲭⲁⲟⲥ ⲣϭⲱⲃ · ⲛⲧⲉⲧⲉϩⲣⲱ ⲛⲥⲁⲧⲉ ϣⲱⲡⲉ ⲛⲁⲧϭⲟⲙ · ⲛⲧⲉⲧⲅⲉϩⲉⲛⲛⲁ ⲱϣⲙ · ⲁⲩⲱ ⲛⲥⲉⲟⲩⲁϩⲟⲩ ⲛⲥⲱⲓ ⲛϭⲓⲛⲁⲅⲅⲉⲗⲟⲥ ⲉⲧⲟⲩⲁⲁⲃ · ⲛⲧⲉⲛⲇⲁⲓⲙⲟⲛⲓⲟⲛ ⲣϩⲟⲧⲉ · ⲛⲥⲉⲟⲩⲱϣϥ ⲛϭⲓⲛⲁⲣⲭⲱⲛ · ⲛⲧⲉⲛⲇⲩⲛⲁⲙⲓⲥ ⲙⲡⲕⲁⲕⲉ ⲁⲛⲁⲭⲱⲣⲉⲓ ⲛⲁⲩ ⲛⲥⲉϩⲉ ⲉⲡⲉⲥⲏⲧ ⲛⲧⲉⲛⲧⲟⲡⲟⲥ ⲉⲧϩⲓⲟⲩⲛⲁⲙ ⲁϩⲉⲣⲁⲧⲟⲩ ·
 1-3	ⲙⲁⲣⲉϥϩⲣⲟⲕ	_	_	_	_	_	_	_	_
@@ -3812,7 +3816,7 @@
 43	ⲁⲅⲅⲉⲗⲟⲥ	ⲁⲅⲅⲉⲗⲟⲥ	NOUN	N	Foreign=Yes	37	dislocated	_	OrigLang=grc
 44-45	ⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 44	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	45	mark	_	_
-45	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	43	acl	_	Entity=person)
+45	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	43	acl:relcl	_	Entity=person)
 46	·	·	PUNCT	PUNCT	_	50	punct	_	_
 47-49	ⲛⲧⲉⲛⲇⲁⲓⲙⲟⲛⲓⲟⲛ	_	_	_	_	_	_	_	_
 47	ⲛⲧⲉ	ⲛⲧⲉ	AUX	ACONJ	_	50	aux	_	Orig=ⲛ̅ⲧⲉ
@@ -3857,14 +3861,14 @@
 78-80	ⲉⲧϩⲓⲟⲩⲛⲁⲙ	_	_	_	_	_	_	_	_
 78	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	80	mark	_	_
 79	ϩⲓ	ϩⲓ	ADP	PREP	_	80	case	_	_
-80	ⲟⲩⲛⲁⲙ	ⲟⲩⲛⲁⲙ	NOUN	N	_	77	acl	_	Entity=(place)place)
+80	ⲟⲩⲛⲁⲙ	ⲟⲩⲛⲁⲙ	NOUN	N	_	77	acl:relcl	_	Entity=(place)place)
 81-83	ⲁϩⲉⲣⲁⲧⲟⲩ	_	_	_	_	_	_	_	_
 81	ⲁϩⲉ	ⲱϩⲉ	VERB	V	VerbForm=Fin	71	advcl	_	_
 82	ⲣⲁⲧ	ⲣⲁⲧ	NOUN	N	_	81	obj	_	_
 83	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	82	det	_	_
 84	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0109
+# sent_id = coptic_treebank-dormition_john_mercad_s0110
 # text_en = ...
 # text = ⲙⲁⲣⲉⲡⲇⲓⲁⲃⲟⲗⲟⲥ ϫⲓϣⲓⲡⲉ · ⲛⲥⲉⲥⲱⲃⲉ ⲛⲥⲁⲡⲥⲁⲧⲁⲛⲁⲥ ·
 1-3	ⲙⲁⲣⲉⲡⲇⲓⲁⲃⲟⲗⲟⲥ	_	_	_	_	_	_	_	_
@@ -3883,7 +3887,7 @@
 11	ⲥⲁⲧⲁⲛⲁⲥ	ⲥⲁⲧⲁⲛⲁⲥ	PROPN	NPROP	Foreign=Yes	8	obl	_	Entity=person-Satan)|OrigLang=he
 12	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0110
+# sent_id = coptic_treebank-dormition_john_mercad_s0111
 # text_en = ...
 # text = ⲙⲁⲣⲉⲡⲉϥϭⲱⲛⲧ ⲱϣⲙ · ⲛⲧⲉⲧⲉϥⲙⲁⲛⲓⲁ ϩⲣⲟⲕ ⲙⲙⲟⲥ ·
 1-3	ⲙⲁⲣⲉⲡⲉϥϭⲱⲛⲧ	_	_	_	_	_	_	_	_
@@ -3902,7 +3906,7 @@
 11	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
 12	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0111
+# sent_id = coptic_treebank-dormition_john_mercad_s0112
 # text_en = ...
 # text = ⲙⲁⲣⲉⲡⲉϥⲧⲁⲓⲟ ϫⲓϣⲓⲡⲉ · ⲛⲧⲉⲧⲉϥⲟⲣⲅⲏ ⲟⲩⲱϣϥ · ⲙⲁⲣⲟⲩⲥⲉⲕⲛⲉϥϣⲏⲣⲉ ⲉⲡⲉⲥⲏⲧ ⲛⲥⲉⲡⲉⲣⲕⲧⲉⲩⲛⲟⲩⲛⲉ ⲧⲏⲣⲥ ·
 1-3	ⲙⲁⲣⲉⲡⲉϥⲧⲁⲓⲟ	_	_	_	_	_	_	_	_
@@ -3940,7 +3944,7 @@
 26	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	25	det	_	Entity=plant)|Orig=ⲥ̅
 27	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0112
+# sent_id = coptic_treebank-dormition_john_mercad_s0113
 # text_en = ...
 # text = ⲙⲁ ⲛⲁⲓ ⲛⲧⲉⲝⲟⲩⲥⲓⲁ ⲉⲧⲣⲁⲙⲟⲟϣⲉ · ⲁⲩⲱ ⲛⲧⲁϫⲉⲕⲧⲁϩⲓⲏ ⲉⲃⲟⲗ ⲁϫⲛϩⲓⲥⲉ ϩⲓϣⲧⲟⲣⲧⲣ · ⲉⲓⲛⲏⲩ ϣⲁⲣⲟⲕ ⲡⲁϫⲟⲉⲓⲥ ϫⲉⲕⲁⲥ ⲉⲓⲉϫⲓ ⲛⲛⲁⲅⲁⲑⲟⲛ ⲛⲛⲉⲛⲧⲁⲩⲱⲛϩ · ϩⲛⲟⲩⲟⲡ ·
 1	ⲙⲁ	ϯ	VERB	VIMP	VerbForm=Fin	0	root	_	Orig=Ⲙⲁ`
@@ -3954,7 +3958,7 @@
 7-10	ⲉⲧⲣⲁⲙⲟⲟϣⲉ	_	_	_	_	_	_	_	_
 7	ⲉ	ⲉ	PART	PREP	_	8	mark	_	_
 8	ⲧⲣ	ⲧⲣⲉ	VERB	ACAUS	_	6	acl	_	_
-9	ⲁ	ⲁ	PRON	PPERS	_	10	nsubj	_	_
+9	ⲁ	ⲁ	PRON	PPERS	_	8	obj	_	_
 10	ⲙⲟⲟϣⲉ	ⲙⲟⲟϣⲉ	VERB	V	VerbForm=Fin	8	xcomp	_	_
 11	·	·	PUNCT	PUNCT	_	15	punct	_	_
 12	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	15	cc	_	Orig=ⲁⲩⲱ̅
@@ -3996,14 +4000,14 @@
 39	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	42	mark	_	_
 40	ⲁ	ⲁ	AUX	APST	_	42	aux	_	_
 41	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	42	nsubj	_	_
-42	ⲱⲛϩ	ⲱⲛϩ	VERB	V	VerbForm=Fin	38	acl	_	Orig=ⲱ̅ⲛϩ̅
+42	ⲱⲛϩ	ⲱⲛϩ	VERB	V	VerbForm=Fin	38	acl:relcl	_	Orig=ⲱ̅ⲛϩ̅
 43	·	·	PUNCT	PUNCT	_	45	punct	_	_
 44-45	ϩⲛⲟⲩⲟⲡ	_	_	_	_	_	_	_	_
 44	ϩⲛ	ϩⲛ	ADP	PREP	_	45	case	_	Orig=ϩⲛ̅
 45	ⲟⲩⲟⲡ	ⲟⲩⲟⲡ	NOUN	N	_	42	obl	_	Entity=(abstract)person)
 46	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0113
+# sent_id = coptic_treebank-dormition_john_mercad_s0114
 # text_en = ...
 # text = ⲛⲁⲓ ⲇⲉ ⲛⲧⲉⲣⲉϥϫⲟⲟⲩ · ⲛϭⲓⲓⲱϩⲁⲛⲛⲏⲥ ⲡⲑⲉⲟⲗⲟⲅⲟⲥ · ⲉϥϭⲱϣⲧ ⲉⲙⲙⲁ ⲛϣⲁ ⲉϥϯⲉⲟⲟⲩ ⲙⲡⲛⲟⲩⲧⲉ ·
 1	ⲛⲁⲓ	ⲛⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	5	dislocated	_	Entity=(abstract)|Orig=Ⲛⲁⲓ̅
@@ -4042,7 +4046,7 @@
 26	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	23	obl	_	Entity=person)
 27	·	·	PUNCT	PUNCT	_	15	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0114
+# sent_id = coptic_treebank-dormition_john_mercad_s0115
 # text_en = ...
 # text = ⲉⲁϥⲡⲉⲣϣⲛⲉϥϭⲓϫ ⲟⲛ ⲉⲃⲟⲗ ⲁϥϣⲗⲏⲗ · ⲉϥϫⲱ ⲙⲙⲟⲥ · ϫⲉⲛⲧⲟⲕ ⲕϣⲟⲟⲡ ⲛⲙⲙⲁⲓ · ⲡⲁϫⲟⲉⲓⲥ ⲓⲏⲥⲟⲩⲥ ⲡⲉⲭⲣⲓⲥⲧⲟⲥ ·
 1-6	ⲉⲁϥⲡⲉⲣϣⲛⲉϥϭⲓϫ	_	_	_	_	_	_	_	_
@@ -4086,7 +4090,7 @@
 30	ⲭⲣⲓⲥⲧⲟⲥ	ⲭⲣⲓⲥⲧⲟⲥ	NOUN	N	Foreign=Yes	27	appos	_	Entity=person-Jesus)|Orig=ⲭ̅ⲥ̅|OrigLang=grc
 31	·	·	PUNCT	PUNCT	_	11	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0115
+# sent_id = coptic_treebank-dormition_john_mercad_s0116
 # text_en = ...
 # text = ⲁⲩⲱ ⲛⲧⲉⲩⲛⲟⲩ ⲁϥϥⲟϭϥ ⲉⲡⲉⲥⲏⲧ ⲉⲡϣⲓⲕ ⲛⲧⲁⲩϣⲁⲕⲧϥ · ⲡⲙⲁ ⲉⲧⲉⲛⲉϥϩⲟⲓⲧⲉ ⲡⲟⲣϣ ⲛϩⲏⲧϥ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	7	cc	_	Orig=Ⲁⲩⲱ̅
@@ -4111,7 +4115,7 @@
 15	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	18	mark	_	Orig=ⲛ̅ⲧ
 16	ⲁ	ⲁ	AUX	APST	_	18	aux	_	_
 17	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
-18	ϣⲁⲕⲧ	ϣⲁⲕⲧ	VERB	V	VerbForm=Fin	14	acl	_	_
+18	ϣⲁⲕⲧ	ϣⲁⲕⲧ	VERB	V	VerbForm=Fin	14	acl:relcl	_	_
 19	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	Orig=ϥ̅
 20	·	·	PUNCT	PUNCT	_	22	punct	_	_
 21-22	ⲡⲙⲁ	_	_	_	_	_	_	_	_
@@ -4121,13 +4125,13 @@
 23	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	26	mark	_	_
 24	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	25	det	_	Entity=(object
 25	ϩⲟⲓⲧⲉ	ϩⲟⲉⲓⲧⲉ	NOUN	N	_	26	nsubj	_	Entity=object)
-26	ⲡⲟⲣϣ	ⲡⲱⲣϣ	VERB	VSTAT	VerbForm=Fin	22	acl	_	Orig=ⲡⲟⲣϣ̅
+26	ⲡⲟⲣϣ	ⲡⲱⲣϣ	VERB	VSTAT	VerbForm=Fin	22	acl:relcl	_	Orig=ⲡⲟⲣϣ̅
 27-28	ⲛϩⲏⲧϥ	_	_	_	_	_	_	_	_
 27	ⲛϩⲏⲧ	ϩⲛ	ADP	PREP	_	28	case	_	Orig=ⲛ̅ϩⲏⲧ
 28	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obl	_	Entity=place)|Orig=ϥ̅
 29	·	·	PUNCT	PUNCT	_	7	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0116
+# sent_id = coptic_treebank-dormition_john_mercad_s0117
 # text_en = ...
 # text = ⲁⲩⲱ ⲛⲧⲉⲣⲉϥϫⲟⲟⲥ ⲛⲁⲩ ϫⲉⲧⲉⲓⲣⲏⲛⲏ ⲁⲩⲱ ⲧⲉⲭⲁⲣⲓⲥ · ⲁϥⲕⲁⲛⲉⲥⲛⲏⲩ ⲉⲃⲟⲗ · ⲁⲩⲃⲱⲕ ⲁⲩⲉⲓ ⲉⲃⲟⲗ ⲙⲡⲉϥⲣⲁⲥⲧⲉ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	17	cc	_	Orig=ⲁⲩⲱ̅
@@ -4171,7 +4175,7 @@
 31	ⲣⲁⲥⲧⲉ	ⲣⲁⲥⲧⲉ	NOUN	N	_	27	obl	_	Entity=time)
 32	·	·	PUNCT	PUNCT	_	17	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0117
+# sent_id = coptic_treebank-dormition_john_mercad_s0118
 # text_en = ...
 # text = ⲛⲧⲟϥ ⲙⲉⲛ ⲙⲡⲟⲩϩⲉ ⲉⲣⲟϥ · ⲁⲗⲗⲁ ⲁⲩϩⲉ ⲉⲡⲉϥⲥⲁⲛⲇⲁⲗⲓⲟⲛ · ⲙⲛⲟⲩⲕⲁϩ ⲛⲃⲣⲣⲉ ϩⲣⲁⲓ ϩⲙⲡⲙⲁ ⲛⲧⲁϥⲃⲱⲕ ⲉⲡⲉⲥⲏⲧ ⲉⲣⲟϥ ·
 1	ⲛⲧⲟϥ	ⲛⲧⲟϥ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	dislocated	_	Orig=ⲛ̅ⲧⲟϥ
@@ -4210,7 +4214,7 @@
 26	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	29	mark	_	Orig=ⲛ̅ⲧ
 27	ⲁ	ⲁ	AUX	APST	_	29	aux	_	_
 28	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
-29	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	25	acl	_	_
+29	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	25	acl:relcl	_	_
 30-32	ⲉⲡⲉⲥⲏⲧ	_	_	_	_	_	_	_	_
 30	ⲉ	ⲉ	ADP	PREP	_	32	case	_	_
 31	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -4220,7 +4224,7 @@
 34	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obl	_	Entity=place)
 35	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0118
+# sent_id = coptic_treebank-dormition_john_mercad_s0119
 # text_en = ...
 # text = ⲁⲩⲣⲡⲙⲉⲉⲩⲉ ⲗⲟⲓⲡⲟⲛ ⲙⲡϣⲁϫⲉ · ⲛⲧⲁⲡϫⲟⲉⲓⲥ ϫⲟⲟϥ ⲙⲡⲉⲧⲣⲟⲥ ϫⲉⲉⲓϣⲁⲛⲟⲩⲱϣ ⲉⲧⲣⲉϥϭⲱ ϣⲁⲛⲧⲓⲉⲓ · ⲛⲧⲕ ⲛⲓⲙ ⲛⲧⲟⲕ ⲟⲩⲁϩⲕ ⲛⲥⲱⲓ ·
 1-5	ⲁⲩⲣⲡⲙⲉⲉⲩⲉ	_	_	_	_	_	_	_	_
@@ -4236,12 +4240,12 @@
 9	ϣⲁϫⲉ	ϣⲁϫⲉ	NOUN	N	_	5	nmod	_	_
 10	·	·	PUNCT	PUNCT	_	15	punct	_	_
 11-14	ⲛⲧⲁⲡϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
-11	ⲛⲧ	ⲉⲣⲉ	PART	CFOC	_	15	mark	_	Orig=ⲛ̅ⲧ
+11	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	15	mark	_	Orig=ⲛ̅ⲧ
 12	ⲁ	ⲁ	AUX	APST	_	15	aux	_	_
 13	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Entity=(person
 14	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	15	nsubj	_	Entity=person)
 15-16	ϫⲟⲟϥ	_	_	_	_	_	_	_	_
-15	ϫⲟⲟ	ϫⲱ	VERB	V	VerbForm=Fin	9	acl	_	_
+15	ϫⲟⲟ	ϫⲱ	VERB	V	VerbForm=Fin	9	acl:relcl	_	_
 16	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
 17-18	ⲙⲡⲉⲧⲣⲟⲥ	_	_	_	_	_	_	_	_
 17	ⲙ	ⲛ	ADP	PREP	_	18	case	_	Orig=ⲙ̅
@@ -4253,7 +4257,7 @@
 22-25	ⲉⲧⲣⲉϥϭⲱ	_	_	_	_	_	_	_	_
 22	ⲉ	ⲉ	PART	PREP	_	23	mark	_	_
 23	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	21	xcomp	_	_
-24	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+24	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
 25	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	23	xcomp	_	Orig=ϭⲱ̅
 26-28	ϣⲁⲛⲧⲓⲉⲓ	_	_	_	_	_	_	_	_
 26	ϣⲁⲛⲧ	ϣⲁⲛⲧⲉ	AUX	ALIM	_	28	aux	_	Orig=ϣⲁⲛ
@@ -4271,7 +4275,7 @@
 36	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	33	obl	_	Orig=ⲓ̈
 37	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0119
+# sent_id = coptic_treebank-dormition_john_mercad_s0120
 # text_en = ...
 # text = ⲁⲩⲱ ⲁⲩϯⲉⲟⲟⲩ ⲙⲡϫⲟⲉⲓⲥ ⲓⲏⲥⲟⲩⲥ ⲡⲉⲭⲣⲓⲥⲧⲟⲥ · ⲉϫⲛⲧⲉϣⲡⲏⲣⲉ ⲛⲧⲁⲥϣⲱⲡⲉ ⲙⲡⲙⲁⲕⲁⲣⲓⲟⲥ ⲛⲁⲡⲟⲥⲧⲟⲗⲟⲥ · ⲁⲩⲱ ⲛⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ · ⲁⲩⲱ ⲡⲑⲉⲟⲗⲟⲅⲟⲥ · ⲁⲩⲱ ⲡⲡⲁⲣⲑⲉⲛⲟⲥ ⲉⲧⲟⲩⲁⲁⲃ · ⲡϩⲁⲅⲓⲟⲥ ⲓⲱϩⲁⲛⲛⲏⲥ · ⲡⲙⲉⲣⲓⲧ ⲙⲡⲉⲭⲣⲓⲥⲧⲟⲥ ⲓⲏⲥⲟⲩⲥ ⲡⲉⲛϫⲟⲉⲓⲥ · ⲁⲩⲱ ⲡⲉⲛⲛⲟⲩⲧⲉ · ⲁⲩⲱ ⲡⲉⲛⲥⲱⲧⲏⲣ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	Orig=Ⲁⲩⲱ̅
@@ -4296,7 +4300,7 @@
 15	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	18	mark	_	Orig=ⲛ̅ⲧ
 16	ⲁ	ⲁ	AUX	APST	_	18	aux	_	_
 17	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
-18	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	14	acl	_	Orig=ϣⲱⲡⲉ`
+18	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	14	acl:relcl	_	Orig=ϣⲱⲡⲉ`
 19-21	ⲙⲡⲙⲁⲕⲁⲣⲓⲟⲥ	_	_	_	_	_	_	_	_
 19	ⲙ	ⲛ	ADP	PREP	_	21	case	_	Orig=ⲙ̅
 20	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	Entity=(person-John_the_Apostle
@@ -4321,7 +4325,7 @@
 35	ⲡⲁⲣⲑⲉⲛⲟⲥ	ⲡⲁⲣⲑⲉⲛⲟⲥ	NOUN	N	Foreign=Yes	23	conj	_	Orig=ⲡⲁⲣⲑⲉⲛⲟⲥ`|OrigLang=grc
 36-37	ⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 36	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	37	mark	_	_
-37	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	35	acl	_	_
+37	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	35	acl:relcl	_	_
 38	·	·	PUNCT	PUNCT	_	40	punct	_	_
 39-40	ⲡϩⲁⲅⲓⲟⲥ	_	_	_	_	_	_	_	_
 39	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
@@ -4351,7 +4355,7 @@
 58	ⲥⲱⲧⲏⲣ	ⲥⲱⲧⲏⲣ	NOUN	N	Foreign=Yes	50	conj	_	Entity=person-Jesus)person-John_the_Apostle)event)|OrigLang=grc
 59	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = coptic_treebank-dormition_john_mercad_s0120
+# sent_id = coptic_treebank-dormition_john_mercad_s0121
 # text_en = ...
 # text = ⲡⲁⲓ ⲉⲣⲉⲉⲟⲟⲩ ⲛⲓⲙ ⲡⲣⲉⲡⲉⲓ ⲙⲡⲉⲓⲱⲧ ⲛⲙⲙⲁϥ · ⲙⲛⲡⲉⲡⲛⲉⲩⲙⲁ ⲉⲧⲟⲩⲁⲁⲃ · ⲛⲣⲉϥⲧⲁⲛϩⲟ ⲙⲡⲧⲏⲣϥ · ⲁⲩⲱ ⲛϩⲟⲙⲟⲟⲩⲥⲓⲟⲛ · ⲧⲉⲛⲟⲩ · ⲁⲩⲱ ⲛⲟⲩⲟⲉⲓϣ ⲛⲓⲙ · ϣⲁⲛⲁⲓⲱⲛ ⲧⲏⲣⲟⲩ ⲛⲛⲁⲓⲱⲛ ϩⲁⲙⲏⲛ :—
 1	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	0	root	_	Entity=(person)|Orig=Ⲡⲁⲓ̅
@@ -4359,7 +4363,7 @@
 2	ⲉⲣⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	5	mark	_	_
 3	ⲉⲟⲟⲩ	ⲉⲟⲟⲩ	NOUN	N	_	5	nsubj	_	Entity=(abstract
 4	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	3	det	_	Entity=abstract)
-5	ⲡⲣⲉⲡⲉⲓ	ⲡⲣⲉⲡⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	1	acl	_	Orig=ⲡⲣⲉⲡⲉⲓ̅|OrigLang=grc
+5	ⲡⲣⲉⲡⲉⲓ	ⲡⲣⲉⲡⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	1	acl:relcl	_	Orig=ⲡⲣⲉⲡⲉⲓ̅|OrigLang=grc
 6-8	ⲙⲡⲉⲓⲱⲧ	_	_	_	_	_	_	_	_
 6	ⲙ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲙ̅
 7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(person
@@ -4374,7 +4378,7 @@
 14	ⲡⲛⲉⲩⲙⲁ	ⲡⲛⲉⲩⲙⲁ	NOUN	N	Foreign=Yes	8	conj	_	Orig=ⲡⲛ̅ⲁ̅|OrigLang=grc
 15-16	ⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 15	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	16	mark	_	_
-16	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	14	acl	_	_
+16	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	14	acl:relcl	_	_
 17	·	·	PUNCT	PUNCT	_	19	punct	_	_
 18-19	ⲛⲣⲉϥⲧⲁⲛϩⲟ	_	_	_	_	_	_	_	_
 18	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	19	det	_	Orig=ⲛ̅
