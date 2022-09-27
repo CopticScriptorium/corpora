@@ -45,7 +45,7 @@
 			</msIdentifier>
 			<msContents>
 				<msItem>
-					<locus scheme="CMCL.AQ" from="172" to="203">172-203</locus>
+					<locus scheme="CMCL.AQ" from="174" to="205">174-205</locus>
 					<textLang>Sahidic Coptic</textLang>
 					<incipit/>
 					<title>Pistis Sophia Book 1 Part 7</title>
@@ -68,14 +68,14 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="4.3.0" when="2022-05-03"></change>
+	<change n="4.4.0" when="2022-09-26"></change>
 </revisionDesc>
 
 </teiHeader>
 <text>
 <body>
 <div type="textpart">
-<pb xml:id="AQ172"/>
+<pb xml:id="AQ174"/>
 <cb n="1"/>
 <p n="12">
 <s style="...">
@@ -87,13 +87,11 @@
 <w lemma="ⲛⲧⲟⲕ" type="PPERS">
 ⲅ
 </w>
-<w lemma="ϯϩⲧⲏ" type="V">
-<m>
+<w lemma="ϯ" type="V">
 ϯ
-</m>
-<m>
+</w>
+<w lemma="ϩⲏⲧ" type="N">
 ϩⲧⲏ
-</m>
 </w>
 <w lemma="ⲛⲧⲟⲕ" type="PPERO">
 ⲕ
@@ -116,11 +114,14 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲁⲛⲟⲕ" type="PPERS">
+<w lemma="ϯ" type="V">
 ϯ
 </w>
-<w lemma="ϩⲧⲏⲕ" type="V">
-ϩⲧⲏⲕ
+<w lemma="ϩⲏⲧ" type="N">
+ϩⲧⲏ
+</w>
+<w lemma="ⲛⲧⲟⲕ" type="PPERO">
+ⲕ
 </w>
 </phr>
 <phr>
@@ -406,18 +407,13 @@
 <p n="13">
 <s style="...">
 <phr>
-<w lemma="ϯ" type="VIMP">
-ⲙⲁ
+<w lemma="ⲙⲁⲣⲉ" type="AJUS">
+ⲙⲁⲣ
 </w>
-<w lemma="ⲉⲓⲣⲉ" type="V">
-ⲣ
-</w>
-<w lemma="ⲟⲩ" type="ART">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲟⲩ
 </w>
-</phr>
-<phr>
-<w lemma="ϯ" type="N">
+<w lemma="ϯ" type="V">
 ϯ
 </w>
 </phr>
@@ -436,8 +432,6 @@
 <w lemma="ⲟⲩ" type="ART">
 ⲟⲩ
 </w>
-</phr>
-<phr>
 <w lemma="ϣⲓⲡⲉ" type="N">
 ϣⲓⲡⲉ
 </w>
@@ -449,8 +443,6 @@
 <w lemma="ⲟⲩ" type="ART">
 ⲟⲩ
 </w>
-</phr>
-<phr>
 <w lemma="ⲟⲩⲱⲗⲥ" type="N">
 ⲟⲩ
 <lb n="13"/>
@@ -512,7 +504,7 @@
 <w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲟⲩ
 </w>
-<w lemma="ⲧⲉⲗⲏⲗ" type="N">
+<w lemma="ⲧⲉⲗⲏⲗ" type="V">
 ⲧⲉⲗⲏⲗ
 </w>
 </phr>
@@ -545,9 +537,12 @@
 <w lemma="ⲟⲩⲱϣ" type="V">
 ⲟⲩⲉϣ
 </w>
-<w lemma="ⲧⲁⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ" type="N">
-ⲧⲁⲇⲓ
-<pb xml:id="AQ173"/>
+<w lemma="ⲡⲁ" type="PPOS">
+ⲧⲁ
+</w>
+<w lemma="ⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ" type="N" xml:lang="Greek">
+ⲇⲓ
+<pb xml:id="AQ175"/>
 <cb n="1"/>
 <lb n="1"/>
 ⲕⲁⲓⲟⲥⲩⲛⲏ
@@ -593,8 +588,18 @@
 </phr>
 <lb n="2"/>
 <phr>
-<w lemma="ⲣⲛⲟϭⲛ" type="CREL">
-ⲣ̅ⲛⲟϭⲛ
+<w lemma="ⲣⲛⲟϭ" type="V">
+<m>
+ⲣ̅
+</m>
+<m>
+ⲛⲟϭ
+</m>
+</w>
+</phr>
+<phr>
+<w lemma="ⲛⲧⲉ" type="ACONJ">
+ⲛ
 </w>
 <w lemma="ⲛⲧⲟϥ" type="PPERS">
 ϥ̅
@@ -613,8 +618,14 @@
 <w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
 </w>
-<w lemma="ⲟⲩⲉϣϯⲣⲏⲛⲏ" type="V">
-ⲟⲩⲉϣϯⲣⲏⲛⲏ
+<w lemma="ⲟⲩⲱϣ" type="V">
+ⲟⲩⲉϣ
+</w>
+<w lemma="ⲡ" type="ART">
+ϯ
+</w>
+<w lemma="ⲉⲓⲣⲏⲛⲏ" type="N" xml:lang="Greek">
+ⲣⲏⲛⲏ
 </w>
 </phr>
 <phr>
@@ -1152,7 +1163,7 @@
 <phr>
 <w lemma="ⲙⲁⲩⲁⲁ" type="V">
 ⲙⲁⲩ
-<pb xml:id="AQ174"/>
+<pb xml:id="AQ176"/>
 <cb n="1"/>
 <lb n="1"/>
 ⲁⲧ
@@ -1829,7 +1840,7 @@
 <w lemma="ϫⲉ" type="CONJ">
 ϫⲉ
 </w>
-<pb xml:id="AQ175"/>
+<pb xml:id="AQ177"/>
 <cb n="1"/>
 <lb n="1"/>
 <w lemma="ⲁ" type="APST">
@@ -2333,8 +2344,11 @@
 <w lemma="ⲁⲛⲟⲕ" type="PPERS">
 ⲓ̈
 </w>
-<w lemma="ⲛⲧⲥ" type="V">
-ⲛ̅ⲧⲥ̅
+<w lemma="ⲉⲓⲛⲉ" type="V">
+ⲛ̅ⲧ
+</w>
+<w lemma="ⲙⲙⲟⲥ" type="PPERO">
+ⲥ̅
 </w>
 </phr>
 <phr>
@@ -2349,8 +2363,6 @@
 <w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
-</phr>
-<phr>
 <w lemma="ⲭⲁⲟⲥ" type="N" xml:lang="Greek">
 ⲭⲁⲟⲥ
 </w>
@@ -2578,7 +2590,7 @@
 <w lemma="ⲛ" type="PREP">
 ⲛ̅
 </w>
-<pb xml:id="AQ176"/>
+<pb xml:id="AQ178"/>
 <cb n="1"/>
 <lb n="1"/>
 <w lemma="ϩⲱⲃ" type="N">
@@ -2825,10 +2837,8 @@
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲧⲏⲣ" type="IMOD">
+<w lemma="ⲧⲏⲣϥ" type="N">
 ⲧⲏⲣ
-</w>
-<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ̅
 </w>
 </phr>
@@ -3392,7 +3402,7 @@
 ⲥ
 </w>
 </phr>
-<pb xml:id="AQ177"/>
+<pb xml:id="AQ179"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -3423,11 +3433,11 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲡⲉⲧⲛ" type="PPOS">
-ⲉⲧⲛ̅
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
+ⲉⲧ
 </w>
-<w lemma="ϩⲏⲧ" type="N">
-ϩⲏⲧ
+<w lemma="ϩⲛ" type="PREP">
+ⲛ̅ϩⲏⲧ
 </w>
 <w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ̅
@@ -4188,7 +4198,7 @@
 ϩⲁϭⲉ
 </w>
 </phr>
-<pb xml:id="AQ178"/>
+<pb xml:id="AQ180"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -4951,7 +4961,7 @@
 <w lemma="ⲛ" type="PREP">
 ⲛ̅
 </w>
-<pb xml:id="AQ179"/>
+<pb xml:id="AQ181"/>
 <cb n="1"/>
 <lb n="1"/>
 <w lemma="ⲡⲁ" type="PPOS">
@@ -5694,7 +5704,7 @@
 </phr>
 </s>
 </p>
-<pb xml:id="AQ180"/>
+<pb xml:id="AQ182"/>
 <cb n="1"/>
 <p n="3">
 <s style="...">
@@ -6392,7 +6402,7 @@
 ⲁⲩⲱ
 </w>
 </phr>
-<pb xml:id="AQ181"/>
+<pb xml:id="AQ183"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -7154,7 +7164,7 @@
 <phr>
 <w lemma="ⲉϩⲣⲁⲓ" type="ADV">
 ⲉ
-<pb xml:id="AQ182"/>
+<pb xml:id="AQ184"/>
 <cb n="1"/>
 <lb n="1"/>
 ϩⲣⲁⲓ̈
@@ -7343,13 +7353,12 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲡⲉⲧⲛ" type="PPOS">
+<w lemma="ⲉⲧⲉⲣⲉ" type="CREL">
 ⲉⲧ
-<lb n="5"/>
-ⲛ̅
 </w>
-<w lemma="ϩⲏⲧ" type="N">
-ϩⲏⲧ
+<lb n="5"/>
+<w lemma="ϩⲛ" type="PREP">
+ⲛ̅ϩⲏⲧ
 </w>
 <w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ̅
@@ -7862,7 +7871,7 @@
 <w lemma="ⲛ" type="PREP">
 ⲙ̅
 </w>
-<pb xml:id="AQ183"/>
+<pb xml:id="AQ185"/>
 <cb n="1"/>
 <lb n="1"/>
 <w lemma="ⲡ" type="ART">
@@ -8685,7 +8694,7 @@
 ⲉⲛⲉϩ
 </w>
 </phr>
-<pb xml:id="AQ184"/>
+<pb xml:id="AQ186"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -9363,11 +9372,8 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲉⲙⲁ" type="PREP">
-ⲉⲙⲁ
-</w>
-<w lemma="ϣⲟ" type="NUM">
-ϣⲟ
+<w lemma="ⲉⲙⲁϣⲟ" type="ADV">
+ⲉⲙⲁϣⲟ
 </w>
 </phr>
 <phr>
@@ -9444,7 +9450,7 @@
 ⲟ
 </w>
 </phr>
-<pb xml:id="AQ185"/>
+<pb xml:id="AQ187"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -10107,7 +10113,7 @@
 ⲁⲩⲱ
 </w>
 </phr>
-<pb xml:id="AQ186"/>
+<pb xml:id="AQ188"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -10803,7 +10809,7 @@
 <w lemma="ϩⲛ" type="PREP">
 ϩⲙ̅
 </w>
-<pb xml:id="AQ187"/>
+<pb xml:id="AQ189"/>
 <cb n="1"/>
 <lb n="1"/>
 <w lemma="ⲡ" type="ART">
@@ -10961,17 +10967,12 @@
 </w>
 </phr>
 <phr>
-<w lemma="ϯ" type="VIMP">
-ⲙⲁ
+<w lemma="ⲙⲁⲣⲉ" type="AJUS">
+ⲙⲁⲣ
 </w>
-<w lemma="ⲉⲓⲣⲉ" type="V">
-ⲣ
-</w>
-<w lemma="ⲟⲩ" type="ART">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲟⲩ
 </w>
-</phr>
-<phr>
 <w lemma="ⲱϫⲛ" type="V">
 ⲱϫⲛ̅
 </w>
@@ -11083,18 +11084,13 @@
 </w>
 </phr>
 <phr>
-<w lemma="ϯ" type="VIMP">
-ⲙⲁ
+<w lemma="ⲙⲁⲣⲉ" type="AJUS">
+ⲙⲁⲣ
 </w>
-<w lemma="ⲉⲓⲣⲉ" type="V">
-ⲣ
-</w>
-<w lemma="ⲟⲩ" type="ART">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲟⲩ
 </w>
-</phr>
-<phr>
-<w lemma="ⲣⲁⲧⲟⲩⲟⲓⲛ" type="N">
+<w lemma="ⲣⲁⲧⲟⲩⲟⲓⲛ" type="V">
 <m>
 ⲣ̅
 </m>
@@ -11213,8 +11209,6 @@
 <w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
-</phr>
-<phr>
 <w lemma="ⲭⲁⲟⲥ" type="N" xml:lang="Greek">
 ⲭⲁⲟⲥ
 </w>
@@ -11393,7 +11387,7 @@
 ⲟⲩ
 </w>
 </phr>
-<pb xml:id="AQ188"/>
+<pb xml:id="AQ190"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -11488,18 +11482,13 @@
 </w>
 </phr>
 <phr>
-<w lemma="ϯ" type="VIMP">
-ⲙⲁ
+<w lemma="ⲙⲁⲣⲉ" type="AJUS">
+ⲙⲁⲣ
 </w>
-<w lemma="ⲉⲓⲣⲉ" type="V">
-ⲣ
-</w>
-<w lemma="ⲟⲩ" type="ART">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲟⲩ
 </w>
-</phr>
-<phr>
-<w lemma="ⲁⲙⲁϩⲧⲉ" type="N">
+<w lemma="ⲁⲙⲁϩⲧⲉ" type="V">
 ⲁⲙⲁϩⲧⲉ
 </w>
 </phr>
@@ -11510,7 +11499,7 @@
 <w lemma="ⲡⲉϥ" type="PPOS">
 ⲛⲉϥ
 </w>
-<w lemma="ⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ" type="N">
+<w lemma="ⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ" type="N" xml:lang="Greek">
 ⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ
 </w>
 </phr>
@@ -11655,8 +11644,6 @@
 <w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
-</phr>
-<phr>
 <w lemma="ⲭⲁⲟⲥ" type="N" xml:lang="Greek">
 ⲭⲁⲟⲥ
 </w>
@@ -11667,22 +11654,15 @@
 </w>
 </phr>
 <phr>
-<w lemma="ϯ" type="VIMP">
-ⲙⲁ
+<w lemma="ⲙⲁⲣⲉ" type="AJUS">
+ⲙⲁⲣ
 </w>
-<w lemma="ⲉⲓⲣⲉ" type="V">
-ⲣ
-</w>
-<w lemma="ⲟⲩ" type="ART">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲟⲩ
 </w>
-</phr>
-<phr>
 <w lemma="ϥⲓ" type="V">
 ϥⲓ
 </w>
-</phr>
-<phr>
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
@@ -11700,7 +11680,7 @@
 <w lemma="ⲡⲉϥ" type="PPOS">
 ⲛⲉϥ
 </w>
-<w lemma="ⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ" type="N">
+<w lemma="ⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ" type="N" xml:lang="Greek">
 ⲡⲣⲟⲃⲟ
 <lb n="8"/>
 ⲗⲟⲟⲩⲉ
@@ -11874,18 +11854,13 @@
 </w>
 </phr>
 <phr>
-<w lemma="ϯ" type="VIMP">
-ⲙⲁ
+<w lemma="ⲙⲁⲣⲉ" type="AJUS">
+ⲙⲁⲣ
 </w>
-<w lemma="ⲉⲓⲣⲉ" type="V">
-ⲣ
-</w>
-<w lemma="ⲟⲩ" type="ART">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲟⲩ
 </w>
-</phr>
-<phr>
-<w lemma="ⲉⲓⲛⲉ" type="N">
+<w lemma="ⲉⲓⲛⲉ" type="V">
 ⲉⲓⲛⲉ
 </w>
 </phr>
@@ -12015,7 +11990,7 @@
 ⲁⲛⲟⲙⲓⲁ
 </w>
 </phr>
-<pb xml:id="AQ189"/>
+<pb xml:id="AQ191"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -12743,7 +12718,7 @@
 <w lemma="ⲡⲉϥ" type="PPOS">
 ⲛⲉϥ
 </w>
-<pb xml:id="AQ190"/>
+<pb xml:id="AQ192"/>
 <cb n="1"/>
 <lb n="1"/>
 <w lemma="ϭⲟⲙ" type="N">
@@ -13121,11 +13096,11 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲁ" type="FUT">
-ⲛⲁ
+<w lemma="ⲛⲟⲩϩⲙ" type="V">
+ⲛⲁϩⲙⲉ
 </w>
-<w lemma="ϩⲙⲉⲧ" type="V">
-ϩⲙⲉⲧ
+<w lemma="ⲁⲛⲟⲕ" type="PPERO">
+ⲧ
 </w>
 </phr>
 <lb n="8"/>
@@ -13520,7 +13495,7 @@
 ⲁⲩⲱ
 </w>
 </phr>
-<pb xml:id="AQ191"/>
+<pb xml:id="AQ193"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -14194,7 +14169,7 @@
 ⲕⲱⲧⲉ
 </w>
 </phr>
-<pb xml:id="AQ192"/>
+<pb xml:id="AQ194"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -14783,18 +14758,13 @@
 </w>
 </phr>
 <phr>
-<w lemma="ϯ" type="VIMP">
-ⲙⲁ
+<w lemma="ⲙⲁⲣⲉ" type="AJUS">
+ⲙⲁⲣ
 </w>
-<w lemma="ⲉⲓⲣⲉ" type="V">
-ⲣ
-</w>
-<w lemma="ⲟⲩ" type="ART">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲟⲩ
 </w>
-</phr>
-<phr>
-<w lemma="ⲕⲓⲙ" type="N">
+<w lemma="ⲕⲓⲙ" type="V">
 ⲕⲓⲙ
 </w>
 </phr>
@@ -14820,22 +14790,17 @@
 </w>
 </phr>
 <phr>
-<w lemma="ϯ" type="VIMP">
-ⲙⲁ
+<w lemma="ⲙⲁⲣⲉ" type="AJUS">
+ⲙⲁⲣ
 </w>
-<w lemma="ⲉⲓⲣⲉ" type="V">
-ⲣ
-</w>
-<w lemma="ⲟⲩ" type="ART">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲟⲩ
 </w>
-</phr>
 <lb n="13"/>
-<phr>
-<w lemma="ⲡⲟⲟⲛ" type="N">
+<w lemma="ⲡⲱⲱⲛⲉ" type="V">
 ⲡⲟⲟⲛ
 </w>
-<w lemma="ⲟⲩ" type="ART">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERO">
 ⲟⲩ
 </w>
 </phr>
@@ -14865,17 +14830,12 @@
 <p n="7">
 <s style="...">
 <phr>
-<w lemma="ϯ" type="VIMP">
-ⲙⲁ
-</w>
-<w lemma="ⲉⲓⲣⲉ" type="V">
-ⲣ
+<w lemma="ⲙⲁⲣⲉ" type="AJUS">
+ⲙⲁⲣ
 </w>
 <w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲟⲩ
 </w>
-</phr>
-<phr>
 <w lemma="ⲛⲟⲩϫⲉ" type="V">
 ⲛⲟϫ
 </w>
@@ -14892,7 +14852,7 @@
 <w lemma="ϩⲛ" type="PREP">
 ϩⲛ̅
 </w>
-<pb xml:id="AQ193"/>
+<pb xml:id="AQ195"/>
 <cb n="1"/>
 <lb n="1"/>
 <w lemma="ⲡⲉⲩ" type="PPOS">
@@ -15053,10 +15013,13 @@
 <w lemma="ⲙⲡⲣⲧⲣⲉ" type="ANEGJUS">
 ⲙ̅ⲡⲣ̅ⲧⲣⲉ
 </w>
-<w lemma="ϣⲁⲛϩⲧⲏ" type="ANEGOPT">
-ϣⲁⲛϩⲧⲏ
+<w lemma="ϣⲓⲛⲉ" type="V">
+ϣⲁⲛ
 </w>
-<w lemma="ⲛⲧⲟϥ" type="PPERS">
+<w lemma="ϩⲏⲧ" type="N">
+ϩⲧⲏ
+</w>
+<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ
 </w>
 </phr>
@@ -15122,7 +15085,7 @@
 ⲟⲩ
 </w>
 <lb n="6"/>
-<w lemma="ϥⲉⲧ" type="V">
+<w lemma="ϥⲱⲧⲉ" type="V">
 ϥⲉⲧ
 </w>
 <w lemma="ⲡⲉϥ" type="PPOS">
@@ -15162,18 +15125,12 @@
 </w>
 </phr>
 <phr>
-<w lemma="ϯ" type="VIMP">
-ⲙⲁ
+<w lemma="ⲙⲁⲣⲉ" type="AJUS">
+ⲙⲁⲣ
 </w>
-<lb n="7"/>
-<w lemma="ⲉⲓⲣⲉ" type="V">
-ⲣ
-</w>
-<w lemma="ⲟⲩ" type="ART">
+<w lemma="ⲛⲧⲟⲟⲩ" type="ART">
 ⲟⲩ
 </w>
-</phr>
-<phr>
 <w lemma="ⲉⲓⲣⲉ" type="V">
 ⲣ̅
 </w>
@@ -15339,11 +15296,8 @@
 <w lemma="ⲛ" type="PREP">
 ⲙ̅
 </w>
-<w lemma="ⲟⲩ" type="ART">
-ⲟⲩ
-</w>
-<w lemma="ⲟⲉⲓϣ" type="N">
-ⲟⲓ̈ϣ
+<w lemma="ⲟⲩⲟⲉⲓϣ" type="N">
+ⲟⲩⲟⲓ̈ϣ
 </w>
 </phr>
 <phr>
@@ -15362,28 +15316,28 @@
 <s style="...">
 <lb n="11"/>
 <phr>
-<w lemma="ϯ" type="VIMP">
-ⲙⲁ
-</w>
-<w lemma="ⲉⲓⲣⲉ" type="V">
-ⲣ
+<w lemma="ⲙⲁⲣⲉ" type="AJUS">
+ⲙⲁⲣ
 </w>
 <w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲟⲩ
 </w>
-</phr>
-<phr>
 <w lemma="ϫⲉⲣⲟ" type="V">
 ϫⲉⲣⲉ
 </w>
 <w lemma="ⲡⲉϥ" type="PPOS">
 ⲡⲉϥ
 </w>
-<w lemma="ⲣⲡ" type="N">
-ⲣ̅ⲡ
-</w>
-<w lemma="ⲙⲉⲉⲩⲉ" type="V">
+<w lemma="ⲣⲡⲙⲉⲉⲩⲉ" type="N">
+<m>
+ⲣ̅
+</m>
+<m>
+ⲡ
+</m>
+<m>
 ⲙⲉⲉⲩⲉ
+</m>
 </w>
 </phr>
 <phr>
@@ -15509,7 +15463,7 @@
 ⲁⲩⲱ
 </w>
 </phr>
-<pb xml:id="AQ194"/>
+<pb xml:id="AQ196"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -16317,7 +16271,7 @@
 .
 </w>
 </phr>
-<pb xml:id="AQ195"/>
+<pb xml:id="AQ197"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -16600,17 +16554,12 @@
 <s style="...">
 <lb n="6"/>
 <phr>
-<w lemma="ϯ" type="VIMP">
-ⲙⲁ
-</w>
-<w lemma="ⲉⲓⲣⲉ" type="V">
-ⲣ
+<w lemma="ⲙⲁⲣⲉ" type="AJUS">
+ⲙⲁⲣ
 </w>
 <w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲟⲩ
 </w>
-</phr>
-<phr>
 <w lemma="ⲉⲓⲙⲉ" type="V">
 ⲉⲓⲙⲉ
 </w>
@@ -16787,11 +16736,12 @@
 <w lemma="ⲛⲧⲟⲥ" type="PPERS">
 ⲥ
 </w>
-<w lemma="ϩⲙⲡⲉ" type="V">
-ϩⲙ̅ⲡⲉ
+<w lemma="ϩⲛ" type="PREP">
+ϩⲙ̅
 </w>
-</phr>
-<phr>
+<w lemma="ⲡ" type="ART">
+ⲡⲉ
+</w>
 <w lemma="ⲭⲁⲟⲥ" type="N" xml:lang="Greek">
 ⲭⲁⲟⲥ
 </w>
@@ -16990,7 +16940,7 @@
 ⲛ̅ⲟⲩ
 </w>
 </phr>
-<pb xml:id="AQ196"/>
+<pb xml:id="AQ198"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -17682,7 +17632,7 @@
 <w lemma="ⲛ" type="PREP">
 ⲙ̅
 </w>
-<pb xml:id="AQ197"/>
+<pb xml:id="AQ199"/>
 <cb n="1"/>
 <lb n="1"/>
 <w lemma="ⲙⲉⲧⲁⲛⲟⲓⲁ" type="N" xml:lang="Greek">
@@ -17912,11 +17862,11 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲁ" type="FUT">
-ⲛⲁ
+<w lemma="ⲛⲟⲩϩⲙ" type="V">
+ⲛⲁϩⲙⲉ
 </w>
-<w lemma="ϩⲙⲉⲧ" type="V">
-ϩⲙⲉⲧ
+<w lemma="ⲁⲛⲟⲕ" type="PPERO">
+ⲧ
 </w>
 </phr>
 <phr>
@@ -18322,7 +18272,7 @@
 ·
 </w>
 </phr>
-<pb xml:id="AQ198"/>
+<pb xml:id="AQ200"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -18888,16 +18838,19 @@
 <w lemma="ⲡⲉⲕ" type="PPOS">
 ⲛⲉⲕ
 </w>
-<w lemma="ⲙⲛⲧϣⲁⲛ‐ϩⲧⲏ" type="N">
+<w lemma="ⲙⲛⲧϣⲁⲛϩⲧⲏϥ" type="N">
 <m>
 ⲙ̅ⲛ̅ⲧ̅
 </m>
 <m>
-ϣⲁⲛ‐ϩⲧⲏ
+ϣⲁⲛ
 </m>
-</w>
-<w lemma="ⲛⲧⲟϥ" type="PPERS">
+<m>
+ϩⲧⲏ
+</m>
+<m>
 ϥ
+</m>
 </w>
 </phr>
 <phr>
@@ -18948,7 +18901,7 @@
 <w lemma="ⲡⲁ" type="PPOS">
 ⲧⲁ
 </w>
-<pb xml:id="AQ199"/>
+<pb xml:id="AQ201"/>
 <cb n="1"/>
 <lb n="1"/>
 <w lemma="ⲁⲛⲟⲙⲓⲁ" type="N" xml:lang="Greek">
@@ -19373,8 +19326,11 @@
 <w lemma="ⲧⲣⲉ" type="ACAUS">
 ⲧⲣⲉ
 </w>
-<w lemma="ⲟⲩⲛⲧⲉ" type="EXIST">
-ⲩⲛ̅ⲧ
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
+ⲩ
+</w>
+<w lemma="ⲉⲓⲛⲉ" type="V">
+ⲛ̅ⲧ
 </w>
 <w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ̅
@@ -19392,8 +19348,6 @@
 <w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
-</phr>
-<phr>
 <w lemma="ⲭⲁⲟⲥ" type="N" xml:lang="Greek">
 ⲭⲁⲟⲥ
 </w>
@@ -19410,21 +19364,13 @@
 </w>
 </phr>
 <phr>
-<w lemma="ϩⲓ" type="PREP">
-ϩⲓ
-</w>
-<w lemma="ⲧⲱⲣⲉ" type="N">
-ⲧⲟⲟⲧ
+<w lemma="ϩⲓⲧⲛ_ⲁⲛⲟⲕ" type="PREP_PPERO">
+ϩⲓⲧⲟⲟⲧ
 </w>
 </phr>
 <phr>
-<w lemma="ⲙⲙⲓⲛ" type="V">
-ⲙ̅ⲙⲓⲛ
-</w>
-</phr>
-<phr>
-<w lemma="ⲛ" type="PREP">
-ⲙ̅ⲙⲟ
+<w lemma="ⲙⲙⲓⲛⲙⲙⲟ" type="IMOD">
+ⲙ̅ⲙⲓⲛⲙ̅ⲙⲟ
 </w>
 <w lemma="ⲁⲛⲟⲕ" type="PPERO">
 ⲓ̈
@@ -19588,7 +19534,7 @@
 <w lemma="ⲛⲧⲉ" type="PREP">
 ⲛ̅ⲧⲉ
 </w>
-<pb xml:id="AQ200"/>
+<pb xml:id="AQ202"/>
 <cb n="1"/>
 <lb n="1"/>
 <w lemma="ⲡ" type="ART">
@@ -19714,8 +19660,11 @@
 <w lemma="ⲧⲣⲉ" type="ACAUS">
 ⲧⲣⲉ
 </w>
-<w lemma="ⲟⲩⲛⲧⲉ" type="EXIST">
-ⲩⲛ̅ⲧ
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
+ⲩ
+</w>
+<w lemma="ⲉⲓⲛⲉ" type="V">
+ⲛ̅ⲧ
 </w>
 <w lemma="ⲛⲧⲟⲥ" type="PPERO">
 ⲥ̅
@@ -19733,9 +19682,7 @@
 <w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
-</phr>
 <lb n="4"/>
-<phr>
 <w lemma="ⲭⲁⲟⲥ" type="N" xml:lang="Greek">
 ⲭⲁⲟⲥ
 </w>
@@ -19747,10 +19694,8 @@
 <w lemma="ⲡ" type="ART">
 ⲡ
 </w>
-<w lemma="ⲧⲏⲣ" type="IMOD">
+<w lemma="ⲧⲏⲣϥ" type="N">
 ⲧⲏⲣ
-</w>
-<w lemma="ⲛⲧⲟϥ" type="PPERO">
 ϥ̅
 </w>
 </phr>
@@ -20191,8 +20136,6 @@
 <w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
-</phr>
-<phr>
 <w lemma="ⲭⲁⲟⲥ" type="N" xml:lang="Greek">
 ⲭⲁⲟⲥ
 </w>
@@ -20252,7 +20195,7 @@
 <w lemma="ⲡ" type="ART">
 ⲛⲉ
 </w>
-<pb xml:id="AQ201"/>
+<pb xml:id="AQ203"/>
 <cb n="1"/>
 <lb n="1"/>
 <w lemma="ⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ" type="N">
@@ -20545,9 +20488,7 @@
 <w lemma="ⲡ" type="ART">
 ⲡⲉ
 </w>
-</phr>
 <lb n="7"/>
-<phr>
 <w lemma="ⲭⲁⲟⲥ" type="N" xml:lang="Greek">
 ⲭⲁⲟⲥ
 </w>
@@ -20558,11 +20499,11 @@
 </w>
 </phr>
 <phr>
-<w lemma="ⲛⲁ" type="FUT">
-ⲛⲁ
+<w lemma="ⲛⲟⲩϩⲙ" type="V">
+ⲛⲁϩⲙⲉ
 </w>
-<w lemma="ϩⲙⲉⲧ" type="V">
-ϩⲙⲉⲧ
+<w lemma="ⲁⲛⲟⲕ" type="PPERO">
+ⲧ
 </w>
 </phr>
 <phr>
@@ -20769,18 +20710,13 @@
 <p n="5">
 <s style="...">
 <phr>
-<w lemma="ϯ" type="VIMP">
-ⲙⲁ
+<w lemma="ⲙⲁⲣⲉ" type="AJUS">
+ⲙⲁⲣ
 </w>
-<w lemma="ⲉⲓⲣⲉ" type="V">
-ⲣ
-</w>
-<w lemma="ⲟⲩ" type="ART">
+<w lemma="ⲛⲧⲟⲟⲩ" type="PPERS">
 ⲟⲩ
 </w>
-</phr>
-<phr>
-<w lemma="ϩⲉ" type="N">
+<w lemma="ϩⲉ" type="V">
 ϩⲉ
 </w>
 </phr>
@@ -20927,7 +20863,7 @@
 ⲥⲁ
 </w>
 </phr>
-<pb xml:id="AQ202"/>
+<pb xml:id="AQ204"/>
 <cb n="1"/>
 <lb n="1"/>
 <phr>
@@ -21155,11 +21091,11 @@
 <w lemma="ⲉ" type="PREP">
 ⲉ
 </w>
-<w lemma="ⲡⲁ" type="PPOS">
-ⲛⲁ
+<w lemma="ⲛⲟⲩϩⲙ" type="V">
+ⲛⲁϩⲙⲉ
 </w>
-<w lemma="ϩⲙⲉⲧ" type="N">
-ϩⲙⲉⲧ
+<w lemma="ⲁⲛⲟⲕ" type="PPERO">
+ⲧ
 </w>
 </phr>
 <phr>
@@ -21574,7 +21510,7 @@
 <w lemma="ⲉⲧⲃⲉ" type="PREP">
 ⲉⲧⲃⲉ
 </w>
-<pb xml:id="AQ203"/>
+<pb xml:id="AQ205"/>
 <cb n="1"/>
 <lb n="1"/>
 <w lemma="ⲡⲁⲓ" type="PDEM">
