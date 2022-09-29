@@ -137,7 +137,7 @@
 9-10	ⲙⲙⲁⲣⲓⲁ	_	_	_	_	_	_	_	_
 9	ⲙ	ⲛ	ADP	PREP	_	10	case	_	_
 10	ⲙⲁⲣⲓⲁ	ⲙⲁⲣⲓⲁ	PROPN	NPROP	Foreign=Yes	8	nmod	_	Entity=(person-Mary,_mother_of_Jesus)|OrigLang=he
-11	.	.	PUNCT	PUNCT	_	14	punct	_	_
+11	.	.	PUNCT	PUNCT	_	8	punct	_	_
 12	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	14	cc	_	_
 13-14	ⲡⲥⲟⲛ	_	_	_	_	_	_	_	_
 13	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -1961,7 +1961,7 @@
 
 # sent_id = coptic_treebank-Mark_06_s0045
 # text_en = Immediately he made his disciples get into the boat, and to go ahead to the other side, to Bethsaida, while he himself sent the multitude away.
-# text = ⲁⲩⲱ ⲛⲧⲉⲩⲛⲟⲩ ⲁϥⲁⲛⲁⲅⲕⲁⲍⲉ ⲛⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲉⲧⲁⲗⲉ ⲉⲡϫⲟⲉⲓ ⲁⲩⲱ ⲉⲣϣⲟⲣⲡ ⲉⲣⲟϥ ⲉⲡⲓⲕⲣⲟ ⲉ ⲃⲏⲑⲥⲁⲓⲇⲁ ϣⲁⲛⲧⲉϥⲕⲁⲡⲙⲏⲏϣⲉ ⲉⲃⲟⲗ .
+# text = ⲁⲩⲱ ⲛⲧⲉⲩⲛⲟⲩ ⲁϥⲁⲛⲁⲅⲕⲁⲍⲉ ⲛⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲉⲧⲁⲗⲉ ⲉⲡϫⲟⲉⲓ ⲁⲩⲱ ⲉⲣϣⲟⲣⲡ ⲉⲣⲟϥ ⲉⲡⲓⲕⲣⲟ ⲉⲃⲏⲑⲥⲁⲓⲇⲁ ϣⲁⲛⲧⲉϥⲕⲁⲡⲙⲏⲏϣⲉ ⲉⲃⲟⲗ .
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	7	cc	_	_
 2-4	ⲛⲧⲉⲩⲛⲟⲩ	_	_	_	_	_	_	_	_
 2	ⲛ	ⲛ	ADP	PREP	_	4	case	_	_
@@ -1992,9 +1992,10 @@
 21-23	ⲉⲡⲓⲕⲣⲟ	_	_	_	_	_	_	_	_
 21	ⲉ	ⲉ	ADP	PREP	_	23	case	_	_
 22	ⲡⲓ	ⲡⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	Entity=(place
-23	ⲕⲣⲟ	ⲕⲣⲟ	VERB	V	VerbForm=Inf	18	obl	_	Entity=place)
+23	ⲕⲣⲟ	ⲕⲣⲟ	NOUN	N	_	18	obl	_	Entity=place)
+24-25	ⲉⲃⲏⲑⲥⲁⲓⲇⲁ	_	_	_	_	_	_	_	_
 24	ⲉ	ⲉ	ADP	PREP	_	25	case	_	_
-25	ⲃⲏⲑⲥⲁⲓⲇⲁ	ⲃⲏⲑⲥⲁⲓⲇⲁ	NOUN	N	Foreign=Yes	18	obl	_	Entity=(place)|OrigLang=arc
+25	ⲃⲏⲑⲥⲁⲓⲇⲁ	ⲃⲏⲑⲥⲁⲓⲇⲁ	PROPN	NPROP	Foreign=Yes	18	obl	_	Entity=(place-Bethsaida)|OrigLang=arc
 26-30	ϣⲁⲛⲧⲉϥⲕⲁⲡⲙⲏⲏϣⲉ	_	_	_	_	_	_	_	_
 26	ϣⲁⲛⲧⲉ	ϣⲁⲛⲧⲉ	AUX	ALIM	_	28	aux	_	_
 27	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_

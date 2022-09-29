@@ -409,7 +409,7 @@
 
 # sent_id = coptic_treebank-1Cor_01_s0011
 # text_en = For it has been reported to me concerning you, my brothers, by those who are from Chloe's household, that there are contentions among you.
-# text = ⲁⲩⲧⲁⲙⲟⲓ ⲅⲁⲣ ⲉⲧⲃⲉⲧⲏⲩⲧⲛ ⲛⲁⲥⲛⲏⲩ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲟⲩ ⲛⲛⲁⲭⲗⲟⲏ ϫⲉⲟⲩⲛ ϩⲉⲛϯⲧⲱⲛ ⲛϩⲏⲧⲧⲏⲩⲧⲛ .
+# text = ⲁⲩⲧⲁⲙⲟⲓ ⲅⲁⲣ ⲉⲧⲃⲉⲧⲏⲩⲧⲛ ⲛⲁⲥⲛⲏⲩ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲟⲩ ⲛⲛⲁⲭⲗⲟⲏ ϫⲉⲟⲩⲛϩⲉⲛϯⲧⲱⲛ ⲛϩⲏⲧⲧⲏⲩⲧⲛ .
 1-4	ⲁⲩⲧⲁⲙⲟⲓ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
@@ -430,10 +430,9 @@
 13	ⲛ	ⲛ	ADP	PREP	_	14	case	_	_
 14	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	12	nmod	_	Entity=(person
 15	ⲭⲗⲟⲏ	ⲭⲗⲟⲏ	PROPN	NPROP	Foreign=Yes	14	nmod	_	Entity=(person)person)|OrigLang=grc
-16-17	ϫⲉⲟⲩⲛ	_	_	_	_	_	_	_	_
+16-19	ϫⲉⲟⲩⲛϩⲉⲛϯⲧⲱⲛ	_	_	_	_	_	_	_	_
 16	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	17	mark	_	_
 17	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	Foreign=Yes	3	ccomp	_	OrigLang=grc
-18-19	ϩⲉⲛϯⲧⲱⲛ	_	_	_	_	_	_	_	_
 18	ϩⲉⲛ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	19	det	_	Entity=(event
 19	ϯⲧⲱⲛ	ϯⲧⲱⲛ	NOUN	N	_	17	nsubj	_	Entity=event)|Morphs=ϯ-ⲧⲱⲛ
 20-21	ⲛϩⲏⲧⲧⲏⲩⲧⲛ	_	_	_	_	_	_	_	_
@@ -842,8 +841,8 @@
 # text = ⲉⲡⲉⲓⲇⲏ ⲛⲓⲟⲩⲇⲁⲓ ϩⲉⲛⲙⲁⲉⲓⲛ ⲛⲉⲧⲟⲩⲁⲓⲧⲉⲓ ⲙⲙⲟⲟⲩ . ⲛϩⲉⲗⲗⲏⲛ ⲇⲉ ⲉⲩϣⲓⲛⲉ ⲛⲥⲁⲟⲩⲥⲟⲫⲓⲁ .
 1	ⲉⲡⲉⲓⲇⲏ	ⲉⲡⲉⲓⲇⲏ	SCONJ	CONJ	Foreign=Yes	5	mark	_	OrigLang=grc
 2-3	ⲛⲓⲟⲩⲇⲁⲓ	_	_	_	_	_	_	_	_
-2	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	3	det	_	Entity=(person
-3	ⲓⲟⲩⲇⲁⲓ	ⲓⲟⲩⲇⲁⲓ	NOUN	N	Foreign=Yes	9	dislocated	_	Entity=person)|OrigLang=he
+2	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	3	det	_	Entity=(person-Jews
+3	ⲓⲟⲩⲇⲁⲓ	ⲓⲟⲩⲇⲁⲓ	PROPN	NPROP	Foreign=Yes	9	dislocated	_	Entity=person-Jews)|OrigLang=he
 4-5	ϩⲉⲛⲙⲁⲉⲓⲛ	_	_	_	_	_	_	_	_
 4	ϩⲉⲛ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	5	det	_	Entity=(abstract
 5	ⲙⲁⲉⲓⲛ	ⲙⲁⲉⲓⲛ	NOUN	N	_	0	root	_	Entity=abstract)
@@ -876,7 +875,7 @@
 1	ⲁⲛⲟⲛ	ⲁⲛⲟⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=1|PronType=Prs	5	dislocated	_	_
 2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	5	advmod	_	OrigLang=grc
 3-5	ⲉⲛⲧⲁϣⲉⲟⲉⲓϣ	_	_	_	_	_	_	_	_
-3	ⲉ	ⲉ	PART	CFOC	_	5	mark	_	_
+3	ⲉ	ⲉⲣⲉ	PART	CFOC	_	5	mark	_	_
 4	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 5	ⲧⲁϣⲉⲟⲉⲓϣ	ⲧⲁϣⲉⲟⲉⲓϣ	VERB	V	VerbForm=Fin	0	root	_	Morphs=ⲧⲁϣⲉ-ⲟⲓϣ|Orig=ⲧⲁϣⲉⲟⲓϣ
 6-8	ⲙⲡⲉⲭⲣⲓⲥⲧⲟⲥ	_	_	_	_	_	_	_	_
@@ -893,8 +892,8 @@
 14	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
 15	.	.	PUNCT	PUNCT	_	5	punct	_	_
 16-17	ⲛⲓⲟⲩⲇⲁⲓ	_	_	_	_	_	_	_	_
-16	ⲛ	ⲛ	ADP	PREP	_	17	case	_	_
-17	ⲓⲟⲩⲇⲁⲓ	ⲓⲟⲩⲇⲁⲓ	NOUN	N	Foreign=Yes	20	dislocated	_	Entity=(person)|OrigLang=he
+16	ⲛ	ⲛ	ADP	PREP	_	17	case	_	Entity=(person-Jews
+17	ⲓⲟⲩⲇⲁⲓ	ⲓⲟⲩⲇⲁⲓ	PROPN	NPROP	Foreign=Yes	20	dislocated	_	Entity=person-Jews)|OrigLang=he
 18	ⲙⲉⲛ	ⲙⲉⲛ	PART	PTC	Foreign=Yes	20	advmod	_	OrigLang=grc
 19-20	ⲟⲩⲥⲕⲁⲛⲇⲁⲗⲟⲛ	_	_	_	_	_	_	_	_
 19	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	20	det	_	Entity=(abstract
@@ -919,12 +918,12 @@
 # text_en = but to those who are called, both Jews and Greeks, Christ is the power of God and the wisdom of God.
 # text = ⲛⲓⲟⲩⲇⲁⲓ ⲇⲉ ⲉⲧⲧⲁϩⲙ ⲙⲛⲛϩⲉⲗⲗⲏⲛ ⲡⲉⲭⲣⲓⲥⲧⲟⲥ ⲟⲩϭⲟⲙ ⲛⲁⲩ ⲛⲧⲉⲡⲛⲟⲩⲧⲉ ⲡⲉ . ⲁⲩⲱ ⲥⲟⲫⲓⲁ ⲛⲧⲉⲡⲛⲟⲩⲧⲉ ⲡⲉ .
 1-2	ⲛⲓⲟⲩⲇⲁⲓ	_	_	_	_	_	_	_	_
-1	ⲛ	ⲛ	ADP	PREP	_	2	case	_	Entity=(person
-2	ⲓⲟⲩⲇⲁⲓ	ⲓⲟⲩⲇⲁⲓ	NOUN	N	Foreign=Yes	12	obl	_	OrigLang=he
+1	ⲛ	ⲛ	ADP	PREP	_	2	case	_	Entity=(person-Jews
+2	ⲓⲟⲩⲇⲁⲓ	ⲓⲟⲩⲇⲁⲓ	PROPN	NPROP	Foreign=Yes	12	obl	_	OrigLang=he
 3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	2	advmod	_	OrigLang=grc
 4-5	ⲉⲧⲧⲁϩⲙ	_	_	_	_	_	_	_	_
 4	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_
-5	ⲧⲁϩⲙ	ⲧⲱϩⲙ	VERB	V	VerbForm=Fin	2	acl:relcl	_	Entity=person)
+5	ⲧⲁϩⲙ	ⲧⲱϩⲙ	VERB	V	VerbForm=Fin	2	acl:relcl	_	Entity=person-Jews)
 6-8	ⲙⲛⲛϩⲉⲗⲗⲏⲛ	_	_	_	_	_	_	_	_
 6	ⲙⲛ	ⲙⲛ	ADP	PREP	_	8	cc	_	_
 7	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	8	det	_	Entity=(person
