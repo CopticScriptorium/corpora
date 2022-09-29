@@ -4,7 +4,7 @@
 # text = ⲉⲙⲁⲧⲉ ϩⲛoⲩϭⲉⲡⲏ ⲁⲩⲱ ϯⲉⲡⲓⲑⲩⲙⲉⲓ ⲉⲛⲁⲩ ⲉⲡⲣⲣⲟ .
 1	ⲉⲙⲁⲧⲉ	ⲉⲙⲁⲧⲉ	ADV	ADV	_	4	advmod	_	_
 2-4	ϩⲛoⲩϭⲉⲡⲏ	_	_	_	_	_	_	_	_
-2	ϩⲛ	ϩⲛ	ADP	PREP	_	4	case	_	_
+2	ϩⲛ	ϩⲛ	ADP	PREP	_	1	fixed	_	_
 3	oⲩ	oⲩ	DET	ART	_	4	det	_	_
 4	ϭⲉⲡⲏ	ϭⲉⲡⲏ	NOUN	N	_	0	root	_	_
 5	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	7	cc	_	Orig=ⲁⲩⲱ̇
@@ -18,14 +18,14 @@
 10	ⲉ	ⲉ	ADP	PREP	_	12	case	_	Orig=ⲉ̇
 11	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	Entity=(person
 12	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	9	obl	_	Entity=person)
-13	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=⳾
+13	.	.	PUNCT	PUNCT	_	4	punct	_	Orig=⳾
 
 # sent_id = apophthegmata_patrum-AP_097_poemen_109_s0002
 # text_en = Take me there.
 # text = ϫⲓⲧ ⲙⲙⲁⲩ
 1-2	ϫⲓⲧ	_	_	_	_	_	_	_	_
 1	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	0	root	_	_
-2	ⲧ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+2	ⲧ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	3	det	_	_
 3	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	1	advmod	_	Orig=ⲉⲙⲁⲩ
 
 # sent_id = apophthegmata_patrum-AP_097_poemen_109_s0003
@@ -54,7 +54,7 @@
 14	ⲛ	ⲛ	ADP	PREP	_	16	case	_	_
 15	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	Entity=(place
 16	ϩⲓⲏ	ϩⲓⲏ	NOUN	N	_	13	nmod	_	Entity=place)place)
-17	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=ⲻ
+17	.	.	PUNCT	PUNCT	_	1	punct	_	Orig=ⲻ
 
 # sent_id = apophthegmata_patrum-AP_097_poemen_109_s0004
 # text_en = And he said to another friend, “Take me to the king.”
@@ -75,7 +75,7 @@
 10	ϣⲁ	ϣⲁ	ADP	PREP	_	12	case	_	_
 11	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	Entity=(person
 12	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	8	obl	_	Entity=person)|Orig=ⲣ̇ⲣⲟ
-13	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=⳾
+13	.	.	PUNCT	PUNCT	_	2	punct	_	Orig=⳾
 
 # sent_id = apophthegmata_patrum-AP_097_poemen_109_s0005
 # text_en = He said to him, “I will come with you to the palace.”
@@ -86,7 +86,7 @@
 3-4	ⲛⲁϥ	_	_	_	_	_	_	_	_
 3	ⲛⲁ	ⲛⲁ	ADP	PREP	_	4	case	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
-5	,	,	PUNCT	PUNCT	_	0	punct	_	Orig=⳾
+5	,	,	PUNCT	PUNCT	_	8	punct	_	Orig=⳾
 6-8	ϫⲉϯⲛⲏⲩ	_	_	_	_	_	_	_	_
 6	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	8	mark	_	_
 7	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
@@ -98,7 +98,7 @@
 11	ϣⲁ	ϣⲁ	ADP	PREP	_	13	case	_	_
 12	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Entity=(place|Orig=ⲡ̇
 13	ⲡⲁⲗⲁⲧⲓⲟⲛ	ⲡⲁⲗⲁⲧⲓⲟⲛ	NOUN	N	Foreign=Yes	8	obl	_	Entity=place)|Orig=ⲡⲁⲗⲗⲁⲧⲓ̇ⲟⲛ|OrigLang=grc
-14	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·ⲻ
+14	.	.	PUNCT	PUNCT	_	1	punct	_	Orig=·ⲻ
 
 # sent_id = apophthegmata_patrum-AP_097_poemen_109_s0006
 # text_en = He said to another friend, “Take me to the king.”
@@ -118,7 +118,7 @@
 9	ϣⲁ	ϣⲁ	ADP	PREP	_	11	case	_	_
 10	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(person
 11	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	8	obl	_	Entity=person)|Orig=ⲣ̇ⲣⲟ
-12	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=⳾
+12	.	.	PUNCT	PUNCT	_	1	punct	_	Orig=⳾
 
 # sent_id = apophthegmata_patrum-AP_097_poemen_109_s0007
 # text_en = He said to him, “I will take you to the king boldly,
@@ -129,7 +129,7 @@
 3-4	ⲛⲁϥ	_	_	_	_	_	_	_	_
 3	ⲛⲁ	ⲛⲁ	ADP	PREP	_	4	case	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
-5	,	,	PUNCT	PUNCT	_	0	punct	_	Orig=⳾
+5	,	,	PUNCT	PUNCT	_	10	punct	_	Orig=⳾
 6-7	ϫⲉⲁⲛⲟⲕ	_	_	_	_	_	_	_	_
 6	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	10	mark	_	_
 7	ⲁⲛⲟⲕ	ⲁⲛⲟⲕ	PRON	PPERI	Definite=Def|Number=Sing|Person=1|PronType=Prs	10	dislocated	_	_
@@ -146,7 +146,7 @@
 15	ϩⲛ	ϩⲛ	ADP	PREP	_	17	case	_	Orig=ϩⲛ̇
 16	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	17	det	_	Entity=(abstract
 17	ⲡⲁⲣⲣⲏⲥⲓⲁ	ⲡⲁⲣⲣⲏⲥⲓⲁ	NOUN	N	Foreign=Yes	10	obl	_	Entity=abstract)|Orig=ⲡⲁⲣⲣⲏⲥⲓⲁ̇|OrigLang=grc
-18	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
+18	.	.	PUNCT	PUNCT	_	1	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_097_poemen_109_s0008
 # text_en = and I will speak concerning you.”
@@ -159,7 +159,7 @@
 5-6	ϩⲁⲣⲟⲕ	_	_	_	_	_	_	_	_
 5	ϩⲁⲣⲟ	ϩⲁ	ADP	PREP	_	6	case	_	_
 6	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	obl	_	_
-7	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=⳾
+7	.	.	PUNCT	PUNCT	_	4	punct	_	Orig=⳾
 
 # sent_id = apophthegmata_patrum-AP_097_poemen_109_s0009
 # text_en = They said to him, “Explain this parable to us.”
@@ -180,8 +180,8 @@
 10-12	ⲛⲧⲉⲓⲡⲁⲣⲁⲃⲟⲗⲏ	_	_	_	_	_	_	_	_
 10	ⲛ	ⲛ	ADP	PREP	_	12	case	_	_
 11	ⲧⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	Entity=(abstract|Orig=ⲧⲉⲓ̇
-12	ⲡⲁⲣⲁⲃⲟⲗⲏ	ⲡⲁⲣⲁⲃⲟⲗⲏ	NOUN	N	Foreign=Yes	7	obl	_	Entity=abstract)|OrigLang=grc
-13	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
+12	ⲡⲁⲣⲁⲃⲟⲗⲏ	ⲡⲁⲣⲁⲃⲟⲗⲏ	NOUN	N	Foreign=Yes	7	obj	_	Entity=abstract)|OrigLang=grc
+13	.	.	PUNCT	PUNCT	_	1	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_097_poemen_109_s0010
 # text_en = And he said, “The first is ascesis, which takes the road up to half of the way.
@@ -202,7 +202,7 @@
 10	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	13	mark	_	Orig=ⲉ̇
 11	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	13	aux	_	_
 12	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
-13	ϫⲓⲙⲟⲉⲓⲧ	ϫⲓⲙⲟⲉⲓⲧ	VERB	V	VerbForm=Fin	6	acl:relcl	_	Morphs=ϫⲓ-ⲙⲟⲉⲓⲧ|Orig=ϫⲓ̇ⲙⲟⲉⲓ̇ⲧ
+13	ϫⲓⲙⲟⲉⲓⲧ	ϫⲓⲙⲟⲉⲓⲧ	VERB	V	VerbForm=Fin	9	acl:relcl	_	Morphs=ϫⲓ-ⲙⲟⲉⲓⲧ|Orig=ϫⲓ̇ⲙⲟⲉⲓ̇ⲧ
 14-16	ϣⲁⲧⲡⲁϣⲉ	_	_	_	_	_	_	_	_
 14	ϣⲁ	ϣⲁ	ADP	PREP	_	16	case	_	_
 15	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	Entity=(place|Orig=ⲧ̇
@@ -211,7 +211,7 @@
 17	ⲛ	ⲛ	ADP	PREP	_	19	case	_	Orig=ⲛ̇
 18	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	Entity=(place
 19	ϩⲓⲏ	ϩⲓⲏ	NOUN	N	_	16	nmod	_	Entity=place)place)abstract)
-20	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·ⲻ
+20	.	.	PUNCT	PUNCT	_	2	punct	_	Orig=·ⲻ
 
 # sent_id = apophthegmata_patrum-AP_097_poemen_109_s0011
 # text_en = The second is sobriety, that which reaches up to heaven.
@@ -232,7 +232,7 @@
 10	ⲉ	ⲉ	ADP	PREP	_	12	case	_	_
 11	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	Entity=(place
 12	ⲡⲉ	ⲡⲉ	NOUN	N	_	8	obl	_	Entity=place)abstract)
-13	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·ⲻ
+13	.	.	PUNCT	PUNCT	_	2	punct	_	Orig=·ⲻ
 
 # sent_id = apophthegmata_patrum-AP_097_poemen_109_s0012
 # text_en = The third is charity, that which takes them up to God boldly.”
@@ -260,5 +260,5 @@
 16	ϩⲛ	ϩⲛ	ADP	PREP	_	18	case	_	Orig=ϩⲛ̇
 17	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	18	det	_	Entity=(abstract
 18	ⲡⲁⲣⲣⲏⲥⲓⲁ	ⲡⲁⲣⲣⲏⲥⲓⲁ	NOUN	N	Foreign=Yes	10	obl	_	Entity=abstract)abstract)|Orig=ⲡⲁⲣⲣⲏⲥⲓ̇ⲁ̇|OrigLang=grc
-19	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·ⲻ
+19	.	.	PUNCT	PUNCT	_	2	punct	_	Orig=·ⲻ
 

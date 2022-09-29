@@ -60,7 +60,7 @@
 2-3	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 2	ⲉⲣⲟ	ⲉ	ADP	PREP	_	3	case	_	Orig=ⲉ̇ⲣⲟ
 3	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
-4	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
+4	.	.	PUNCT	PUNCT	_	1	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0005
 # text_en = And they struck me.
@@ -73,7 +73,7 @@
 5-6	ⲉⲣⲟⲓ	_	_	_	_	_	_	_	_
 5	ⲉⲣⲟ	ⲉ	ADP	PREP	_	6	case	_	_
 6	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
-7	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
+7	.	.	PUNCT	PUNCT	_	4	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0006
 # text_en = And I was almost going to die.
@@ -89,7 +89,7 @@
 7	ⲛⲁ	ⲛⲁ	AUX	FUT	_	8	aux	_	_
 8	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	0	root	_	_
 9	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	8	cop	_	_
-10	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=ⲻ
+10	.	.	PUNCT	PUNCT	_	8	punct	_	Orig=ⲻ
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0007
 # text_en = And someone, having compassion, said,
@@ -101,7 +101,7 @@
 4-6	ⲉϥⲟ	_	_	_	_	_	_	_	_
 4	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	6	mark	_	Orig=ⲉ̇
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-6	ⲟ	ⲉⲓⲣⲉ	VERB	VSTAT	VerbForm=Fin	3	acl:relcl	_	_
+6	ⲟ	ⲉⲓⲣⲉ	VERB	VSTAT	VerbForm=Fin	2	advcl	_	_
 7-8	ⲛⲛⲁⲏⲧ	_	_	_	_	_	_	_	_
 7	ⲛ	ⲛ	ADP	PREP	_	8	case	_	_
 8	ⲛⲁⲏⲧ	ⲛⲁⲏⲧ	NOUN	N	_	6	obl	_	Entity=person)|Morphs=ⲛⲁ-ⲏⲧ
@@ -111,7 +111,7 @@
 # text = ϫⲉϣⲁⲧⲛⲁⲩ ⲧⲉⲧⲛϩⲓⲟⲩⲉ ⲉⲡⲉⲓⲙⲟⲛⲁⲭⲟⲥ ⲛϣⲙⲙⲟ .
 1-3	ϫⲉϣⲁⲧⲛⲁⲩ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	5	mark	_	_
-2	ϣⲁ	ϣⲁ	ADP	PREP	_	3	case	_	_
+2	ϣⲁ	ϣⲁ	AUX	PREP	_	5	aux	_	_
 3	ⲧⲛⲁⲩ	ⲧⲛⲁⲩ	PRON	PINT	PronType=Int	5	obl	_	Entity=(time)
 4-5	ⲧⲉⲧⲛϩⲓⲟⲩⲉ	_	_	_	_	_	_	_	_
 4	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	Orig=ⲧⲉⲧⲛ̇
@@ -122,8 +122,8 @@
 8	ⲙⲟⲛⲁⲭⲟⲥ	ⲙⲟⲛⲁⲭⲟⲥ	NOUN	N	Foreign=Yes	5	obl	_	OrigLang=grc
 9-10	ⲛϣⲙⲙⲟ	_	_	_	_	_	_	_	_
 9	ⲛ	ⲛ	ADP	PREP	_	10	case	_	_
-10	ϣⲙⲙⲟ	ϣⲙⲙⲟ	NOUN	N	_	8	nmod	_	Entity=person)
-11	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
+10	ϣⲙⲙⲟ	ϣⲙⲙⲟ	NOUN	N	_	5	obl	_	Entity=person)
+11	.	.	PUNCT	PUNCT	_	5	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0009
 # text_en = The one who served me was following after me, ashamed.
@@ -174,14 +174,14 @@
 4-5	ⲙⲙⲟⲥ	_	_	_	_	_	_	_	_
 4	ⲙⲙⲟ	ⲛ	ADP	PREP	_	5	case	_	Orig=ⲙ̇ⲙⲟ
 5	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
-6	,	,	PUNCT	PUNCT	_	0	punct	_	Orig=·
+6	,	,	PUNCT	PUNCT	_	3	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0012
 # text_en = “Is this the anchorite to whom you bear witness?
 # text = ϫⲉⲉⲛⲉⲡⲁⲓ ⲡⲉ ⲡⲁⲛⲁⲭⲱⲣⲏⲧⲏⲥ ⲉⲧⲉⲕⲣⲙⲛⲧⲣⲉ ϩⲁⲣⲟϥ .
 1-3	ϫⲉⲉⲛⲉⲡⲁⲓ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	3	mark	_	_
-2	ⲉⲛⲉ	ⲉⲛⲉ	PART	PTC	_	3	advmod	_	_
+2	ⲉⲛⲉ	ⲉⲛⲉ	PART	PTC	_	3	mark	_	_
 3	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	0	root	_	Entity=(person)|Orig=ⲡ̇ⲁⲓ̇
 4	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	3	cop	_	_
 5-6	ⲡⲁⲛⲁⲭⲱⲣⲏⲧⲏⲥ	_	_	_	_	_	_	_	_
@@ -194,7 +194,7 @@
 10-11	ϩⲁⲣⲟϥ	_	_	_	_	_	_	_	_
 10	ϩⲁⲣⲟ	ϩⲁ	ADP	PREP	_	11	case	_	_
 11	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	Entity=person)
-12	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
+12	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0013
 # text_en = Look at what he did.”
@@ -210,7 +210,7 @@
 7	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	ⲁⲁ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	3	csubj	_	_
 9	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
-10	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=ⲻ
+10	.	.	PUNCT	PUNCT	_	1	punct	_	Orig=ⲻ
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0014
 # text_en = Then her parents said,
@@ -222,7 +222,7 @@
 4	ϭⲉ	ϭⲉ	ADV	ADV	_	3	advmod	_	_
 5-6	ⲙⲙⲟⲥ	_	_	_	_	_	_	_	_
 5	ⲙⲙⲟ	ⲛ	ADP	PREP	_	6	case	_	Orig=ⲙ̇ⲙⲟ
-6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
 7-9	ⲛϭⲓⲛⲉⲥⲉⲓⲟⲧⲉ	_	_	_	_	_	_	_	_
 7	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	9	case	_	_
 8	ⲛⲉⲥ	ⲡⲉⲥ	DET	PPOS	Definite=Def|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	Entity=(person
@@ -256,12 +256,12 @@
 # text_en = [that he will] support her.”
 # text = ..ⲥⲁⲛϣ ⲙⲙⲟⲥ .
 1-2	..ⲥⲁⲛϣ	_	_	_	_	_	_	_	_
-1	..	UNKNOWN	X	UNKNOWN	_	2	dep	_	Orig=[..]
+1	..	UNKNOWN	X	UNKNOWN	_	2	nsubj	_	Orig=[..]
 2	ⲥⲁⲛϣ	ⲥⲁⲁⲛϣ	VERB	V	VerbForm=Fin	0	root	_	Orig=[ⲥⲁ]ⲛϣ
 3-4	ⲙⲙⲟⲥ	_	_	_	_	_	_	_	_
 3	ⲙⲙⲟ	ⲛ	ADP	PREP	_	4	case	_	_
 4	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
-5	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=ⲻ
+5	.	.	PUNCT	PUNCT	_	2	punct	_	Orig=ⲻ
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0018
 # text_en = So I spoke to the one who served me
@@ -274,7 +274,7 @@
 5	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
 6-9	ⲙⲡⲉⲧⲇⲓⲁⲕⲟⲛⲉⲓ	_	_	_	_	_	_	_	_
 6	ⲙ	ⲛ	ADP	PREP	_	7	case	_	_
-7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	obl	_	Entity=(person|Orig=ⲡ̣
+7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	obj	_	Entity=(person|Orig=ⲡ̣
 8	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	9	mark	_	Orig=ⲉ̣ⲧ̣
 9	ⲇⲓⲁⲕⲟⲛⲉⲓ	ⲇⲓⲁⲕⲟⲛⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	7	acl:relcl	_	Orig=ⲇⲓⲁⲕ̣ⲟ̣ⲛ̣ⲓ̣|OrigLang=grc
 10-11	ⲛⲁⲓ	_	_	_	_	_	_	_	_
@@ -303,44 +303,44 @@
 4	ⲉ	ⲉ	ADP	PREP	_	6	case	_	Orig=ⲉ̣
 5	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	Entity=(place
 6	ⲣⲓ	ⲣⲓ	NOUN	N	_	3	obl	_	Entity=place)
-7	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=[·]
+7	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=[·]
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0021
 # text_en = …
 # text = ⲃⲓⲣ ⲛ … ⲧⲁⲓ .......... ⲛ ............. .............. .............. ........ ⲉⲃⲟⲗ
 1	ⲃⲓⲣ	ⲃⲓⲣ	NOUN	N	_	0	root	_	Entity=(object)|Orig=ⲃⲓⲣ̣
-2	ⲛ	UNKNOWN	X	UNKNOWN	_	4	det	_	_
-3	…	UNKNOWN	X	UNKNOWN	_	1	dep	_	Orig=[…]
+2	ⲛ	UNKNOWN	X	UNKNOWN	_	3	case	_	_
+3	…	UNKNOWN	X	UNKNOWN	_	1	nmod	_	Orig=[…]
 4	ⲧⲁⲓ	UNKNOWN	X	UNKNOWN	_	1	dep	_	Entity=(abstract)
 5	..........	UNKNOWN	X	UNKNOWN	_	1	dep	_	Orig=[..........]
-6	ⲛ	UNKNOWN	X	UNKNOWN	_	1	det	_	_
+6	ⲛ	UNKNOWN	X	UNKNOWN	_	7	case	_	_
 7	.............	UNKNOWN	X	UNKNOWN	_	1	dep	_	Orig=[.............]
 8	..............	UNKNOWN	X	UNKNOWN	_	1	dep	_	Orig=[..............]
 9	..............	UNKNOWN	X	UNKNOWN	_	1	dep	_	Orig=[..............]
 10	........	UNKNOWN	X	UNKNOWN	_	1	dep	_	Orig=[........]
-11	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	1	advmod	_	_
+11	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	10	advmod	_	_
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0022
 # text_en = “… necessity,
 # text = .. …….. …  … ……. …. . ⲡⲁ ……. ……. …… … ϭⲛⲟⲩⲥ …… … ⲧⲉⲭⲣⲉⲓⲁ
-1	..	UNKNOWN	X	UNKNOWN	_	15	dep	_	Orig=[..]
-2	……..	UNKNOWN	X	UNKNOWN	_	15	dep	_	Orig=[……..]
-3	… 	UNKNOWN	X	UNKNOWN	_	15	dep	_	Orig=[…]
-4	…	UNKNOWN	X	UNKNOWN	_	15	dep	_	Orig=[…]
-5	…….	UNKNOWN	X	UNKNOWN	_	15	dep	_	Orig=[…….]
-6	….	UNKNOWN	X	UNKNOWN	_	15	dep	_	Orig=[….]
-7	.	UNKNOWN	X	UNKNOWN	_	15	advmod	_	Orig=[.]
+1	..	UNKNOWN	X	UNKNOWN	_	2	dep	_	Orig=[..]
+2	……..	UNKNOWN	X	UNKNOWN	_	0	root	_	Orig=[……..]
+3	… 	UNKNOWN	X	UNKNOWN	_	2	dep	_	Orig=[…]
+4	…	UNKNOWN	X	UNKNOWN	_	3	dep	_	Orig=[…]
+5	…….	UNKNOWN	X	UNKNOWN	_	6	conj	_	Orig=[…….]
+6	….	UNKNOWN	X	UNKNOWN	_	3	conj	_	Orig=[….]
+7	.	UNKNOWN	X	UNKNOWN	_	2	advmod	_	Orig=[.]
 8	ⲡⲁ	UNKNOWN	X	UNKNOWN	_	9	det	_	_
-9	…….	UNKNOWN	X	UNKNOWN	_	15	dep	_	Orig=[…….]
-10	…….	UNKNOWN	X	UNKNOWN	_	15	dep	_	Orig=[…….]
-11	……	UNKNOWN	X	UNKNOWN	_	15	dep	_	Orig=[……]
-12	…	UNKNOWN	X	UNKNOWN	_	15	dep	_	Orig=[…]
-13	ϭⲛⲟⲩⲥ	UNKNOWN	X	UNKNOWN	_	15	dep	_	Orig=ϭ̣ⲛⲟ̣ⲩⲥ
-14	……	UNKNOWN	X	UNKNOWN	_	15	dep	_	Orig=[……]
-15	…	UNKNOWN	X	UNKNOWN	_	0	root	_	Orig=[…]
+9	…….	UNKNOWN	X	UNKNOWN	_	2	conj	_	Orig=[…….]
+10	…….	UNKNOWN	X	UNKNOWN	_	6	conj	_	Orig=[…….]
+11	……	UNKNOWN	X	UNKNOWN	_	6	conj	_	Orig=[……]
+12	…	UNKNOWN	X	UNKNOWN	_	3	dep	_	Orig=[…]
+13	ϭⲛⲟⲩⲥ	UNKNOWN	X	UNKNOWN	_	3	conj	_	Orig=ϭ̣ⲛⲟ̣ⲩⲥ
+14	……	UNKNOWN	X	UNKNOWN	_	15	cc	_	Orig=[……]
+15	…	UNKNOWN	X	UNKNOWN	_	17	case	_	Orig=[…]
 16-17	ⲧⲉⲭⲣⲉⲓⲁ	_	_	_	_	_	_	_	_
 16	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Entity=(abstract|Orig=ⲧⲉ̣
-17	ⲭⲣⲉⲓⲁ	ⲭⲣⲉⲓⲁ	NOUN	N	Foreign=Yes	15	nsubj	_	Entity=abstract)|Orig=ⲭⲣ̣ⲓ̣ⲁ̣|OrigLang=grc
+17	ⲭⲣⲉⲓⲁ	ⲭⲣⲉⲓⲁ	NOUN	N	Foreign=Yes	13	dep	_	Entity=abstract)|Orig=ⲭⲣ̣ⲓ̣ⲁ̣|OrigLang=grc
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0023
 # text_en = and you must do a little more work
@@ -356,8 +356,8 @@
 7	ϩⲱⲃ	ϩⲱⲃ	NOUN	N	_	5	nmod	_	Entity=abstract)
 8-9	ⲛϩⲟⲩⲟ	_	_	_	_	_	_	_	_
 8	ⲛ	ⲛ	ADP	PREP	_	9	case	_	_
-9	ϩⲟⲩⲟ	ϩⲟⲩⲟ	NOUN	N	_	7	nmod	_	_
-10	,	,	PUNCT	PUNCT	_	0	punct	_	Orig=·
+9	ϩⲟⲩⲟ	ϩⲟⲩⲟ	NOUN	N	_	5	nmod	_	_
+10	,	,	PUNCT	PUNCT	_	3	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0024
 # text_en = so that you can support her.”
@@ -389,7 +389,7 @@
 12-13	ⲛⲁⲥ	_	_	_	_	_	_	_	_
 12	ⲛⲁ	ⲛⲁ	ADP	PREP	_	13	case	_	_
 13	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
-14	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
+14	.	.	PUNCT	PUNCT	_	4	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0026
 # text_en = But when the wretched woman came to give birth,
@@ -397,17 +397,17 @@
 1-3	ⲛⲧⲉⲣⲉⲥⲉⲓ	_	_	_	_	_	_	_	_
 1	ⲛⲧⲉⲣⲉ	ⲛⲧⲉⲣⲉ	AUX	APREC	_	3	aux	_	_
 2	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-3	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	0	root	_	_
-4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
+3	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	8	advcl	_	_
+4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	8	advmod	_	OrigLang=grc
 5-8	ⲉⲥⲛⲁⲙⲓⲥⲉ	_	_	_	_	_	_	_	_
 5	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	8	mark	_	_
 6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 7	ⲛⲁ	ⲛⲁ	AUX	FUT	_	8	aux	_	_
-8	ⲙⲓⲥⲉ	ⲙⲓⲥⲉ	VERB	V	VerbForm=Fin	3	advcl	_	_
+8	ⲙⲓⲥⲉ	ⲙⲓⲥⲉ	VERB	V	VerbForm=Fin	0	root	_	_
 9-11	ⲛϭⲓⲧⲉⲃⲓⲏⲛ	_	_	_	_	_	_	_	_
 9	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	11	case	_	Orig=ⲛ̇ϭⲓ̇
 10	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	Entity=(person
-11	ⲉⲃⲓⲏⲛ	ⲉⲃⲓⲏⲛ	NOUN	N	_	8	dislocated	_	Entity=person)
+11	ⲉⲃⲓⲏⲛ	ⲉⲃⲓⲏⲛ	NOUN	N	_	3	dislocated	_	Entity=person)
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0027
 # text_en = she continued laboring.
@@ -420,7 +420,7 @@
 4	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	6	mark	_	_
 5	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	ϩⲟⲥⲉ	ϩⲓⲥⲉ	VERB	VSTAT	VerbForm=Fin	3	advcl	_	_
-7	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
+7	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0028
 # text_en = And she did not give birth.
@@ -430,7 +430,7 @@
 2	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	4	aux	_	_
 3	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	ⲙⲓⲥⲉ	ⲙⲓⲥⲉ	VERB	V	VerbForm=Fin	0	root	_	_
-5	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
+5	.	.	PUNCT	PUNCT	_	4	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0029
 # text_en = They said to her,
@@ -442,7 +442,7 @@
 4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
 5-6	ⲙⲙⲟⲥ	_	_	_	_	_	_	_	_
 5	ⲙⲙⲟ	ⲛ	ADP	PREP	_	6	case	_	Orig=ⲙ̇ⲙⲟ
-6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0030
 # text_en = “What is this?”
@@ -452,7 +452,7 @@
 2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	_
 3	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	2	cop	_	_
 4	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	Entity=(event)
-5	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
+5	.	.	PUNCT	PUNCT	_	2	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0031
 # text_en = And she said,
@@ -486,7 +486,7 @@
 6	ⲉ	ⲉ	ADP	PREP	_	8	case	_	_
 7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(person
 8	ⲁⲛⲁⲭⲱⲣⲏⲧⲏⲥ	ⲁⲛⲁⲭⲱⲣⲏⲧⲏⲥ	NOUN	N	Foreign=Yes	5	obl	_	Entity=person)|Orig=ⲁⲛⲁⲭⲱⲣⲓⲧⲏⲥ|OrigLang=grc
-9	,	,	PUNCT	PUNCT	_	0	punct	_	Orig=·
+9	,	,	PUNCT	PUNCT	_	5	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0034
 # text_en = and I lied about him.
@@ -499,7 +499,7 @@
 5-6	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 5	ⲉⲣⲟ	ⲉ	ADP	PREP	_	6	case	_	_
 6	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
-7	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
+7	.	.	PUNCT	PUNCT	_	4	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0035
 # text_en = And he did not do anything to me.
@@ -513,21 +513,21 @@
 6-7	ⲛⲁⲓ	_	_	_	_	_	_	_	_
 6	ⲛⲁ	ⲛⲁ	ADP	PREP	_	7	case	_	_
 7	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
-8	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
+8	.	.	PUNCT	PUNCT	_	4	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0036
 # text_en = But it was some other youth.”
 # text = ⲁⲗⲗⲁ ⲙⲉϣⲉⲛⲓⲙ ⲡⲉ ⲛϣⲏⲣⲉϣⲏⲙ .
-1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	2	cc	_	OrigLang=grc
+1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	3	cc	_	OrigLang=grc
 2-3	ⲙⲉϣⲉⲛⲓⲙ	_	_	_	_	_	_	_	_
-2	ⲙⲉϣⲉ	ⲙⲉϣⲉ	NOUN	N	_	0	root	_	Entity=(person
-3	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	2	det	_	_
-4	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	2	cop	_	_
+2	ⲙⲉϣⲉ	ⲙⲉϣⲉ	NOUN	N	_	3	nsubj	_	Entity=(person
+3	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Int	0	root	_	_
+4	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	3	cop	_	_
 5-7	ⲛϣⲏⲣⲉϣⲏⲙ	_	_	_	_	_	_	_	_
-5	ⲛ	ⲛ	ADP	PREP	_	6	case	_	_
-6	ϣⲏⲣⲉ	ϣⲏⲣⲉ	NOUN	N	_	3	nmod	_	_
+5	ⲛ	ⲛ	ADP	PREP	_	6	det	_	_
+6	ϣⲏⲣⲉ	ϣⲏⲣⲉ	NOUN	N	_	3	nsubj	_	_
 7	ϣⲏⲙ	ϣⲏⲙ	ADJ	N	_	6	amod	_	Entity=person)
-8	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·ⲻ
+8	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=·ⲻ
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0037
 # text_en = My servant came to me, saying,
@@ -552,7 +552,7 @@
 14-15	ⲙⲙⲟⲥ	_	_	_	_	_	_	_	_
 14	ⲙⲙⲟ	ⲛ	ADP	PREP	_	15	case	_	_
 15	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
-16	,	,	PUNCT	PUNCT	_	0	punct	_	Orig=·
+16	,	,	PUNCT	PUNCT	_	3	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0038
 # text_en = “The woman was not able to give birth,
@@ -566,7 +566,7 @@
 6-7	ⲉⲙⲓⲥⲉ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉ	PART	PREP	_	7	mark	_	_
 7	ⲙⲓⲥⲉ	ⲙⲓⲥⲉ	VERB	V	VerbForm=Inf	5	xcomp	_	_
-8	,	,	PUNCT	PUNCT	_	0	punct	_	Orig=·
+8	,	,	PUNCT	PUNCT	_	5	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0039
 # text_en = until she confessed,
@@ -589,8 +589,8 @@
 7	ϩⲱⲃ	ϩⲱⲃ	VERB	V	VerbForm=Fin	3	acl:relcl	_	Entity=abstract)
 8-9	ⲛⲙⲙⲁⲓ	_	_	_	_	_	_	_	_
 8	ⲛⲙⲙⲁ	ⲙⲛ	ADP	PREP	_	9	case	_	_
-9	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	7	obl	_	_
-10	,	,	PUNCT	PUNCT	_	0	punct	_	Orig=·
+9	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	7	nmod	_	_
+10	,	,	PUNCT	PUNCT	_	2	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0041
 # text_en = but I lied about him.”
@@ -604,16 +604,16 @@
 6-7	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 6	ⲉⲣⲟ	ⲉ	ADP	PREP	_	7	case	_	_
 7	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
-8	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·ⲻ
+8	.	.	PUNCT	PUNCT	_	5	punct	_	Orig=·ⲻ
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0042
 # text_en = And look, the whole village wants to come here in order to repent.”
 # text = ⲁⲩⲱ ⲉⲓⲥϩⲏⲏⲧⲉ ⲡϯⲙⲉ ⲧⲏⲣϥ ⲟⲩⲱϣ ⲉⲉⲓ ⲉⲡⲉⲓⲙⲁ ⲉⲧⲣⲉⲩⲙⲉⲧⲁⲛⲟⲉⲓ .
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	7	cc	_	_
-2	ⲉⲓⲥϩⲏⲏⲧⲉ	ⲉⲓⲥϩⲏⲏⲧⲉ	PART	PTC	_	7	advmod	_	Orig=ⲉⲓ̇ⲥϩⲏⲏ̇ⲧⲉ
+2	ⲉⲓⲥϩⲏⲏⲧⲉ	ⲉⲓⲥϩⲏⲏⲧⲉ	AUX	PTC	_	7	aux	_	Orig=ⲉⲓ̇ⲥϩⲏⲏ̇ⲧⲉ
 3-4	ⲡϯⲙⲉ	_	_	_	_	_	_	_	_
 3	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Entity=(place
-4	ϯⲙⲉ	ϯⲙⲉ	NOUN	N	_	7	dislocated	_	_
+4	ϯⲙⲉ	ϯⲙⲉ	NOUN	N	_	7	nsubj	_	_
 5-6	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
 5	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	4	advmod	_	Orig=ⲧ[ⲏⲣ]
 6	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	5	det	_	Entity=place)
@@ -630,7 +630,7 @@
 14	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	9	xcomp	_	_
 15	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
 16	ⲙⲉⲧⲁⲛⲟⲉⲓ	ⲙⲉⲧⲁⲛⲟⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	14	xcomp	_	Orig=ⲙⲉⲧⲁⲛⲟⲓ|OrigLang=grc
-17	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
+17	.	.	PUNCT	PUNCT	_	7	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0043
 # text_en = When I heard these things,
@@ -665,10 +665,10 @@
 # text_en = …
 # text = ⲁ…..ⲛ
 1-4	ⲁ…..ⲛ	_	_	_	_	_	_	_	_
-1	ⲁ	UNKNOWN	X	UNKNOWN	_	2	root	_	_
-2	…	UNKNOWN	X	UNKNOWN	_	0	root	_	Orig=[…]
-3	..	UNKNOWN	X	UNKNOWN	_	2	dep	_	Orig=[..]
-4	ⲛ	UNKNOWN	X	UNKNOWN	_	2	det	_	_
+1	ⲁ	UNKNOWN	AUX	UNKNOWN	_	3	aux	_	_
+2	…	UNKNOWN	X	UNKNOWN	_	3	nsubj	_	Orig=[…]
+3	..	UNKNOWN	X	UNKNOWN	_	0	root	_	Orig=[..]
+4	ⲛ	UNKNOWN	X	UNKNOWN	_	3	obj	_	_
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0046
 # text_en = I came to this place, to Scetis.
@@ -684,7 +684,7 @@
 7-8	ⲉϣⲓⲏⲧ	_	_	_	_	_	_	_	_
 7	ⲉ	ⲉ	ADP	PREP	_	8	case	_	_
 8	ϣⲓⲏⲧ	ϣⲓⲏⲧ	PROPN	NPROP	_	3	obl	_	Entity=(place-Wadi_El_Natrun)|Orig=ϣⲓⲏ[ⲧ]
-9	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·
+9	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0047
 # text_en = This is the reason why I came here.
@@ -707,5 +707,5 @@
 13-14	ⲉⲧⲃⲏⲏⲧⲥ	_	_	_	_	_	_	_	_
 13	ⲉⲧⲃⲏⲏⲧ	ⲉⲧⲃⲉ	ADP	PREP	_	14	case	_	_
 14	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	Entity=abstract)
-15	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·ⲻ
+15	.	.	PUNCT	PUNCT	_	1	punct	_	Orig=·ⲻ
 

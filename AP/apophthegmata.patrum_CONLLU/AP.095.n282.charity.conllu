@@ -18,7 +18,7 @@
 11-13	ⲉϥⲉⲓⲣⲉ	_	_	_	_	_	_	_	_
 11	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	13	mark	_	_
 12	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
-13	ⲉⲓⲣⲉ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	10	acl:relcl	_	_
+13	ⲉⲓⲣⲉ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	9	advcl	_	_
 14-15	ⲛϩⲁϩ	_	_	_	_	_	_	_	_
 14	ⲛ	ⲛ	ADP	PREP	_	15	case	_	_
 15	ϩⲁϩ	ϩⲁϩ	NOUN	N	_	13	obj	_	Entity=(abstract
@@ -28,7 +28,7 @@
 18	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	19	mark	_	_
 19	ⲛⲁⲛⲟⲩ	ⲛⲁⲛⲟⲩ	VERB	VBD	VerbForm=Fin	17	acl:relcl	_	_
 20	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	Entity=abstract)person)
-21	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	24	cc	_	_
+21	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	13	cc	_	_
 22-24	ϣⲁⲣⲉⲡⲡⲟⲛⲏⲣⲟⲥ	_	_	_	_	_	_	_	_
 22	ϣⲁⲣⲉ	ϣⲁⲣⲉ	AUX	AAOR	_	24	aux	_	_
 23	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Entity=(person
@@ -37,22 +37,22 @@
 # sent_id = apophthegmata_patrum-AP_095_n282_charity_s0002
 # text_en = …
 # text = ............ ⲕⲟⲩⲓ ............ ϥⲓⲱⲡ ............ ⲛⲗⲁⲁ .........
-1	............	UNKNOWN	X	UNKNOWN	_	2	dep	_	Orig=[............]
-2	ⲕⲟⲩⲓ	ⲕⲟⲩⲓ	NOUN	N	_	0	root	_	Entity=(abstract)
+1	............	UNKNOWN	X	UNKNOWN	_	0	root	_	Orig=[............]
+2	ⲕⲟⲩⲓ	ⲕⲟⲩⲓ	NOUN	N	_	1	dep	_	Entity=(abstract)
 3	............	UNKNOWN	X	UNKNOWN	_	2	dep	_	Orig=[............]
 4	ϥⲓⲱⲡ	UNKNOWN	X	UNKNOWN	_	2	dep	_	Orig=ϥⲓⲱ̇ⲡ
-5	............	UNKNOWN	X	UNKNOWN	_	2	dep	_	Orig=[............]
-6	ⲛⲗⲁⲁ	UNKNOWN	X	UNKNOWN	_	2	dep	_	Orig=ⲛⲗ̣ⲁ̣ⲁ
-7	.........	UNKNOWN	X	UNKNOWN	_	2	dep	_	Orig=[.........]
+5	............	UNKNOWN	X	UNKNOWN	_	4	dep	_	Orig=[............]
+6	ⲛⲗⲁⲁ	UNKNOWN	X	UNKNOWN	_	4	dep	_	Orig=ⲛⲗ̣ⲁ̣ⲁ
+7	.........	UNKNOWN	X	UNKNOWN	_	1	advmod	_	Orig=[.........]
 
 # sent_id = apophthegmata_patrum-AP_095_n282_charity_s0003
 # text_en = so that he might…
 # text = ϫⲉ ⲉϥⲉⲧⲁ ....
-1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	3	mark	_	_
+1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	2	mark	_	_
 2-3	ⲉϥⲉⲧⲁ	_	_	_	_	_	_	_	_
-2	ⲉϥⲉ	ⲉⲣⲉ_ⲛⲧⲟϥ	PRON	AOPT_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-3	ⲧⲁ	UNKNOWN	VERB	V	VerbForm=Fin	0	root	_	_
-4	....	UNKNOWN	X	UNKNOWN	_	3	advcl	_	Orig=[....]
+2	ⲉϥⲉ	ⲉⲣⲉ_ⲛⲧⲟϥ	PRON	AOPT_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+3	ⲧⲁ	UNKNOWN	VERB	V	VerbForm=Fin	4	det	_	_
+4	....	UNKNOWN	X	UNKNOWN	_	2	advmod	_	Orig=[....]
 
 # sent_id = apophthegmata_patrum-AP_095_n282_charity_s0004
 # text_en = the reward for the great good things that he did.
@@ -74,9 +74,9 @@
 11	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	14	mark	_	Orig=̇ⲉ̇
 12	ⲁ	ⲁ	AUX	APST	_	14	aux	_	Orig=ⲁ̇
 13	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
-14	ⲁⲁ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	2	advcl	_	Orig=[ⲁⲁ]
+14	ⲁⲁ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	7	acl:relcl	_	Orig=[ⲁⲁ]
 15	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
-16	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=⳾
+16	.	.	PUNCT	PUNCT	_	2	punct	_	Orig=⳾
 
 # sent_id = apophthegmata_patrum-AP_095_n282_charity_s0005
 # text_en = For when I lived a while in Pemje (Oxyrhynchus) near an elder who performed charity, a widow came to him asking him for a little grain.
@@ -98,11 +98,11 @@
 11-13	ϩⲁϩⲧⲛⲟⲩⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ	_	_	_	_	_	_	_	_
 11	ϩⲁϩⲧⲛ	ϩⲁϩⲧⲛ	ADP	PREP	_	13	case	_	Orig=ϩⲁϩⲧⲛ̇
 12	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	13	det	_	Entity=(person
-13	ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ	ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ	NOUN	N	Foreign=Yes	5	obl	_	OrigLang=grc
+13	ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ	ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ	NOUN	N	Foreign=Yes	10	nmod	_	OrigLang=grc
 14-16	ⲉϥⲉⲓⲣⲉ	_	_	_	_	_	_	_	_
 14	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	16	mark	_	Orig=ⲉ̇
 15	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
-16	ⲉⲓⲣⲉ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	3	advcl	_	_
+16	ⲉⲓⲣⲉ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	13	acl:relcl	_	_
 17-19	ⲛϩⲉⲛⲙⲛⲧⲛⲁ	_	_	_	_	_	_	_	_
 17	ⲛ	ⲛ	ADP	PREP	_	19	case	_	Orig=ⲛ̇
 18	ϩⲉⲛ	ϩⲉⲛ	DET	ART	Definite=Ind|Number=Plur|PronType=Art	19	det	_	Entity=(abstract|Orig=ϩⲛ̇
@@ -110,7 +110,7 @@
 20-22	ⲁⲥⲉⲓ	_	_	_	_	_	_	_	_
 20	ⲁ	ⲁ	AUX	APST	_	22	aux	_	Orig=ⲁ̇
 21	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
-22	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	5	parataxis	_	Orig=ⲉⲓ̇
+22	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	16	parataxis	_	Orig=ⲉⲓ̇
 23-24	ϣⲁⲣⲟϥ	_	_	_	_	_	_	_	_
 23	ϣⲁⲣⲟ	ϣⲁ	ADP	PREP	_	24	case	_	_
 24	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obl	_	_
@@ -121,7 +121,7 @@
 28-30	ⲉⲥⲁⲓⲧⲉⲓ	_	_	_	_	_	_	_	_
 28	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	30	mark	_	Orig=ⲉ̇
 29	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
-30	ⲁⲓⲧⲉⲓ	ⲁⲓⲧⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	27	acl:relcl	_	Orig=ⲁⲓ̇ⲧⲉⲓ|OrigLang=grc
+30	ⲁⲓⲧⲉⲓ	ⲁⲓⲧⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	22	advcl	_	Orig=ⲁⲓ̇ⲧⲉⲓ|OrigLang=grc
 31-32	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 31	ⲙⲙⲟ	ⲛ	ADP	PREP	_	32	case	_	Orig=ⲙ̇ⲙⲟ
 32	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
@@ -132,7 +132,7 @@
 36-37	ⲛⲥⲟⲩⲟ	_	_	_	_	_	_	_	_
 36	ⲛ	ⲛ	ADP	PREP	_	37	case	_	_
 37	ⲥⲟⲩⲟ	ⲥⲟⲩⲟ	NOUN	N	_	35	nmod	_	Entity=plant)|Orig=ⲥ̇ⲟⲩⲟ
-38	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=⳾
+38	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=⳾
 
 # sent_id = apophthegmata_patrum-AP_095_n282_charity_s0006
 # text_en = He said to her, “Go and bring a measure and I will measure it for you.”
@@ -147,17 +147,17 @@
 5	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	6	mark	_	_
 6	ⲃⲱⲕ	ⲃⲱⲕ	VERB	VIMP	VerbForm=Fin	1	ccomp	_	_
 7-9	ⲁⲛⲓⲟⲩⲟⲓⲡⲉ	_	_	_	_	_	_	_	_
-7	ⲁⲛⲓ	ⲉⲓⲛⲉ	VERB	VIMP	VerbForm=Fin	6	parataxis	_	Orig=ⲁ̇ⲛ̇ⲓ̇
+7	ⲁⲛⲓ	ⲉⲓⲛⲉ	VERB	VIMP	VerbForm=Fin	9	case	_	Orig=ⲁ̇ⲛ̇ⲓ̇
 8	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	9	det	_	Entity=(object
-9	ⲟⲓⲡⲉ	ⲟⲓⲡⲉ	NOUN	N	_	7	obj	_	Entity=object)
+9	ⲟⲓⲡⲉ	ⲟⲓⲡⲉ	NOUN	N	_	6	vocative	_	Entity=object)
 10-12	ⲧⲁϣⲓⲧϥ	_	_	_	_	_	_	_	_
 10	ⲧⲁ	ⲛⲧⲉ_ⲁⲛⲟⲕ	PRON	ACONJ_PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
-11	ϣⲓⲧ	ϣⲓ	VERB	V	VerbForm=Fin	7	advcl	_	_
+11	ϣⲓⲧ	ϣⲓ	VERB	V	VerbForm=Fin	6	parataxis	_	_
 12	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	Orig=ϥ̇
 13-14	ⲛⲉ	_	_	_	_	_	_	_	_
 13	ⲛ	ⲛⲁ	ADP	PREP	_	14	case	_	_
 14	ⲉ	ⲛⲧⲟ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=2|PronType=Prs	11	obl	_	_
-15	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=⳾
+15	.	.	PUNCT	PUNCT	_	1	punct	_	Orig=⳾
 
 # sent_id = apophthegmata_patrum-AP_095_n282_charity_s0007
 # text_en = So she brought it
@@ -169,7 +169,7 @@
 4	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	ⲛⲧ	ⲉⲓⲛⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲛ̇ⲧ
 6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	Orig=ⲥ̇
-7	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=⳾
+7	.	.	PUNCT	PUNCT	_	5	punct	_	Orig=⳾
 
 # sent_id = apophthegmata_patrum-AP_095_n282_charity_s0008
 # text_en = and he assessed (it)
@@ -189,7 +189,7 @@
 4-5	ⲙⲙⲟⲥ	_	_	_	_	_	_	_	_
 4	ⲙⲙⲟ	ⲛ	ADP	PREP	_	5	case	_	_
 5	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
-6	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=⳾
+6	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=⳾
 7-9	ϫⲉⲟⲩⲛⲟϭ	_	_	_	_	_	_	_	_
 7	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	9	mark	_	_
 8	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	9	det	_	Entity=(object
@@ -220,7 +220,7 @@
 4	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Entity=(person
 5	ⲭⲏⲣⲁ	ⲭⲏⲣⲁ	NOUN	N	Foreign=Yes	3	obj	_	Entity=person)|Orig=ⲭⲩⲣⲁ|OrigLang=grc
 6	ϣⲓⲡⲉ	ϣⲓⲡⲉ	VERB	V	VerbForm=Fin	3	xcomp	_	Orig=ϣⲓ̇ⲡⲉ
-7	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=⳾
+7	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=⳾
 
 # sent_id = apophthegmata_patrum-AP_095_n282_charity_s0011
 # text_en = But after the widow left, I said to him, “My father and elder, Did you give grain to the widow?”
@@ -245,7 +245,7 @@
 14	ⲉⲓⲱⲧ	ⲉⲓⲱⲧ	NOUN	N	_	19	vocative	_	Orig=ⲓ̇ⲱⲧ
 15-16	ⲡⲉⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ	_	_	_	_	_	_	_	_
 15	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ	ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ	NOUN	N	Foreign=Yes	14	appos	_	Entity=person)|OrigLang=grc
+16	ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ	ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ	NOUN	N	Foreign=Yes	14	vocative	_	Entity=person)|OrigLang=grc
 17-19	ⲁⲕϯⲥⲟⲩⲟ	_	_	_	_	_	_	_	_
 17	ⲁ	ⲁ	AUX	APST	_	19	aux	_	Orig=ⲁ̇
 18	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	19	nsubj	_	_
@@ -267,7 +267,7 @@
 5-6	ϫⲉⲙⲙⲟⲛ	_	_	_	_	_	_	_	_
 5	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	6	mark	_	Orig=ϫ
 6	ⲙⲙⲟⲛ	ⲙⲙⲟⲛ	ADV	NEG	Polarity=Neg	3	ccomp	_	Orig=ⲙ̇ⲙⲟⲛ
-7	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=⳾
+7	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=⳾
 
 # sent_id = apophthegmata_patrum-AP_095_n282_charity_s0013
 # text_en = I said to him, “If you were giving it to her in charity, why did you assess the measure and make the widow ashamed?”
@@ -294,7 +294,7 @@
 14-15	ⲛⲁⲅⲁⲡⲏ	_	_	_	_	_	_	_	_
 14	ⲛ	ⲛ	ADP	PREP	_	15	case	_	Orig=[ⲛ]
 15	ⲁⲅⲁⲡⲏ	ⲁⲅⲁⲡⲏ	NOUN	N	Foreign=Yes	9	obl	_	Entity=(abstract)|Orig=ⲁ̣ⲅⲁⲡⲏ|OrigLang=grc
-16	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=⳾
+16	.	.	PUNCT	PUNCT	_	9	punct	_	Orig=⳾
 17-18	ⲉⲧⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
 17	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	18	case	_	_
 18	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	21	obl	_	_
@@ -313,5 +313,5 @@
 28	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	Entity=(person
 29	ⲭⲏⲣⲁ	ⲭⲏⲣⲁ	NOUN	N	Foreign=Yes	27	obj	_	Entity=person)|OrigLang=grc
 30	ϣⲓⲡⲉ	ϣⲓⲡⲉ	VERB	V	VerbForm=Fin	27	xcomp	_	Orig=ϣⲓ̇ⲡⲉ
-31	.	.	PUNCT	PUNCT	_	0	punct	_	Orig=·ⲻ
+31	.	.	PUNCT	PUNCT	_	1	punct	_	Orig=·ⲻ
 

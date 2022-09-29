@@ -6,7 +6,7 @@
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	3	case	_	_
 2	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	ϣⲱⲱⲧ	ϣⲱⲱⲧ	VERB	V	VerbForm=Fin	9	obl	_	_
-4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
+4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	9	advmod	_	OrigLang=grc
 5-7	ⲛⲛⲉⲓⲇⲱⲗⲟⲛ	_	_	_	_	_	_	_	_
 5	ⲛ	ⲛ	ADP	PREP	_	7	case	_	_
 6	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	7	det	_	Entity=(object
@@ -25,8 +25,8 @@
 16-18	ⲛⲟⲩⲥⲟⲟⲩⲛ	_	_	_	_	_	_	_	_
 16	ⲛ	ⲛ	ADP	PREP	_	18	case	_	_
 17	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	18	det	_	Entity=(abstract
-18	ⲥⲟⲟⲩⲛ	ⲥⲟⲟⲩⲛ	NOUN	N	_	11	obl	_	Entity=abstract)
-19	.	.	PUNCT	PUNCT	_	0	punct	_	_
+18	ⲥⲟⲟⲩⲛ	ⲥⲟⲟⲩⲛ	NOUN	N	_	11	obj	_	Entity=abstract)
+19	.	.	PUNCT	PUNCT	_	9	punct	_	_
 20-21	ⲡⲥⲟⲟⲩⲛ	_	_	_	_	_	_	_	_
 20	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	Entity=(abstract
 21	ⲥⲟⲟⲩⲛ	ⲥⲟⲟⲩⲛ	NOUN	N	_	24	dislocated	_	Entity=abstract)
@@ -34,7 +34,7 @@
 22	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	24	aux	_	_
 23	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 24	ϫⲓⲥⲉ	ϫⲓⲥⲉ	VERB	V	VerbForm=Fin	9	parataxis	_	_
-25	.	.	PUNCT	PUNCT	_	0	punct	_	_
+25	.	.	PUNCT	PUNCT	_	24	punct	_	_
 26-27	ⲧⲁⲅⲁⲡⲏ	_	_	_	_	_	_	_	_
 26	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	Entity=(abstract
 27	ⲁⲅⲁⲡⲏ	ⲁⲅⲁⲡⲏ	NOUN	N	Foreign=Yes	31	dislocated	_	Entity=abstract)|OrigLang=grc
@@ -43,7 +43,7 @@
 29	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	31	aux	_	_
 30	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
 31	ⲕⲱⲧ	ⲕⲱⲧ	VERB	V	VerbForm=Fin	24	parataxis	_	_
-32	.	.	PUNCT	PUNCT	_	0	punct	_	_
+32	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = sahidica_1corinthians-1Cor_08_s0002
 # text_en = But if anyone thinks that he knows anything, he doesn't yet know as he ought to know.
@@ -51,7 +51,7 @@
 1-3	ⲡⲉⲧϫⲱ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	root	_	Entity=(person
 2	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	3	mark	_	_
-3	ϫⲱ	ϫⲱ	VERB	V	VerbForm=Fin	1	acl	_	_
+3	ϫⲱ	ϫⲱ	VERB	V	VerbForm=Fin	1	acl:relcl	_	_
 4-5	ⲙⲙⲟⲥ	_	_	_	_	_	_	_	_
 4	ⲙⲙⲟ	ⲛ	ADP	PREP	_	5	case	_	_
 5	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	Entity=person)
@@ -67,14 +67,14 @@
 13	ⲥⲟοⲩⲛ	ⲥⲟοⲩⲛ	VERB	V	VerbForm=Fin	9	advcl	_	Orig=ⲥⲟⲩⲛ
 14-15	ⲧϩⲉ	_	_	_	_	_	_	_	_
 14	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	ϩⲉ	ϩⲉ	NOUN	N	_	13	obj	_	_
+15	ϩⲉ	ϩⲉ	NOUN	N	_	9	obj	_	_
 16-17	ⲉⲧϣϣⲉ	_	_	_	_	_	_	_	_
 16	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	17	mark	_	_
-17	ϣϣⲉ	ϣϣⲉ	VERB	V	VerbForm=Fin	15	acl	_	_
+17	ϣϣⲉ	ϣϣⲉ	VERB	V	VerbForm=Fin	15	acl:relcl	_	_
 18-19	ⲉⲥⲟⲟⲩⲛ	_	_	_	_	_	_	_	_
-18	ⲉ	ⲉ	ADP	PREP	_	19	case	_	_
-19	ⲥⲟⲟⲩⲛ	ⲥⲟⲟⲩⲛ	NOUN	N	_	17	obl	_	Entity=(abstract)
-20	.	.	PUNCT	PUNCT	_	0	punct	_	_
+18	ⲉ	ⲉ	PART	PREP	_	19	mark	_	_
+19	ⲥⲟⲟⲩⲛ	ⲥⲟⲟⲩⲛ	NOUN	N	_	17	xcomp	_	Entity=(abstract)
+20	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = sahidica_1corinthians-1Cor_08_s0003
 # text_en = But if anyone loves God, the same is known by him.
@@ -89,7 +89,7 @@
 6	ⲙ	ⲛ	ADP	PREP	_	8	case	_	_
 7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(person
 8	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	5	obl	_	Entity=person)
-9	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	parataxis	_	Entity=(person)
+9	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	12	dislocated	_	Entity=(person)
 10-13	ⲁⲩⲥⲟⲩⲱⲛϥ	_	_	_	_	_	_	_	_
 10	ⲁ	ⲁ	AUX	APST	_	12	aux	_	_
 11	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
@@ -99,7 +99,7 @@
 15-16	ϩⲓⲧⲟⲟⲧϥ	_	_	_	_	_	_	_	_
 15	ϩⲓⲧⲟⲟⲧ	ϩⲓⲧⲛ	ADP	PREP	_	14	fixed	_	_
 16	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
-17	.	.	PUNCT	PUNCT	_	0	punct	_	_
+17	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = sahidica_1corinthians-1Cor_08_s0004
 # text_en = Therefore concerning the eating of things sacrificed to idols, we know that no idol is anything in the world, and that there is no other God but one.
@@ -108,7 +108,7 @@
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	3	case	_	_
 2	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(abstract
 3	ⲟⲩⲱⲙ	ⲟⲩⲱⲙ	NOUN	N	_	12	obl	_	Entity=abstract)
-4	ϭⲉ	ϭⲉ	CCONJ	CONJ	_	12	advmod	_	_
+4	ϭⲉ	ϭⲉ	CCONJ	CONJ	_	7	advmod	_	_
 5-7	ⲛⲛϣⲱⲱⲧ	_	_	_	_	_	_	_	_
 5	ⲛ	ⲛ	ADP	PREP	_	7	case	_	_
 6	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -130,32 +130,32 @@
 18-20	ϩⲙⲡⲕⲟⲥⲙⲟⲥ	_	_	_	_	_	_	_	_
 18	ϩⲙ	ϩⲛ	ADP	PREP	_	20	case	_	_
 19	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	Entity=(place
-20	ⲕⲟⲥⲙⲟⲥ	ⲕⲟⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	17	nmod	_	Entity=place)|OrigLang=grc
-21	.	.	PUNCT	PUNCT	_	0	punct	_	_
+20	ⲕⲟⲥⲙⲟⲥ	ⲕⲟⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	14	obl	_	Entity=place)|OrigLang=grc
+21	.	.	PUNCT	PUNCT	_	12	punct	_	_
 22	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	24	cc	_	_
 23-25	ϫⲉⲙⲛⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 23	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	24	mark	_	_
-24	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	14	conj	_	_
+24	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	12	ccomp	_	_
 25	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	24	nsubj	_	Entity=(person)
 26-27	ⲛⲥⲁⲟⲩⲁ	_	_	_	_	_	_	_	_
 26	ⲛⲥⲁ	ⲛⲥⲁ	ADP	PREP	_	27	case	_	_
 27	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	24	obl	_	Entity=(person)
-28	.	.	PUNCT	PUNCT	_	0	punct	_	_
+28	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = sahidica_1corinthians-1Cor_08_s0005
 # text_en = For though there are things that are called 'gods,' whether in the heavens or on earth; as there are many 'gods' and many 'lords;'
 # text = ⲕⲁⲓ ⲅⲁⲣ ⲉϣϫⲉⲟⲩⲛϩⲟⲓⲛⲉ ⲉϣⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟⲟⲩ ϫⲉⲛⲟⲩⲧⲉ ⲉⲓⲧⲉ ϩⲛⲧⲡⲉ . ⲉⲓⲧⲉ ϩⲓϫⲙⲡⲕⲁϩ . ⲛⲧϩⲉ ⲉⲧⲉⲟⲩⲛϩⲁϩ ⲛⲛⲟⲩⲧⲉ ϩⲓϩⲁϩ ⲛϫⲟⲉⲓⲥ .
-1	ⲕⲁⲓ	ⲕⲁⲓ	SCONJ	CONJ	Foreign=Yes	4	mark	_	OrigLang=grc
-2	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	9	advmod	_	OrigLang=grc
+1	ⲕⲁⲓ	ⲕⲁⲓ	CCONJ	CONJ	Foreign=Yes	4	cc	_	OrigLang=grc
+2	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	4	advmod	_	OrigLang=grc
 3-5	ⲉϣϫⲉⲟⲩⲛϩⲟⲓⲛⲉ	_	_	_	_	_	_	_	_
 3	ⲉϣϫⲉ	ⲉϣϫⲉ	SCONJ	CONJ	_	4	mark	_	_
-4	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	9	advcl	_	_
+4	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	0	root	_	_
 5	ϩⲟⲓⲛⲉ	ϩⲟⲓⲛⲉ	NOUN	N	_	4	nsubj	_	Entity=(person
 6-9	ⲉϣⲁⲩⲙⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	9	mark	_	_
 7	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	9	aux	_	_
 8	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
-9	ⲙⲟⲩⲧⲉ	ⲙⲟⲩⲧⲉ	VERB	V	VerbForm=Fin	0	root	_	_
+9	ⲙⲟⲩⲧⲉ	ⲙⲟⲩⲧⲉ	VERB	V	VerbForm=Fin	4	advcl	_	_
 10-11	ⲉⲣⲟⲟⲩ	_	_	_	_	_	_	_	_
 10	ⲉⲣⲟ	ⲉ	ADP	PREP	_	11	case	_	_
 11	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	9	obl	_	Entity=person)
@@ -167,31 +167,31 @@
 15	ϩⲛ	ϩⲛ	ADP	PREP	_	17	case	_	_
 16	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Entity=(place
 17	ⲡⲉ	ⲡⲉ	NOUN	N	_	13	conj	_	Entity=place)
-18	.	.	PUNCT	PUNCT	_	0	punct	_	_
+18	.	.	PUNCT	PUNCT	_	17	punct	_	_
 19	ⲉⲓⲧⲉ	ⲉⲓⲧⲉ	CCONJ	CONJ	Foreign=Yes	22	cc	_	OrigLang=grc
 20-22	ϩⲓϫⲙⲡⲕⲁϩ	_	_	_	_	_	_	_	_
 20	ϩⲓϫⲙ	ϩⲓϫⲛ	ADP	PREP	_	22	case	_	_
 21	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	Entity=(place
-22	ⲕⲁϩ	ⲕⲁϩ	NOUN	N	_	13	conj	_	Entity=place)
-23	.	.	PUNCT	PUNCT	_	0	punct	_	_
+22	ⲕⲁϩ	ⲕⲁϩ	NOUN	N	_	17	conj	_	Entity=place)
+23	.	.	PUNCT	PUNCT	_	9	punct	_	_
 24-26	ⲛⲧϩⲉ	_	_	_	_	_	_	_	_
 24	ⲛ	ⲛ	ADP	PREP	_	26	case	_	_
 25	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	ϩⲉ	ϩⲉ	NOUN	N	_	9	obl	_	_
 27-29	ⲉⲧⲉⲟⲩⲛϩⲁϩ	_	_	_	_	_	_	_	_
 27	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	28	mark	_	_
-28	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	26	acl	_	_
+28	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	26	acl:relcl	_	_
 29	ϩⲁϩ	ϩⲁϩ	NOUN	N	_	28	nsubj	_	Entity=(person
 30-31	ⲛⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 30	ⲛ	ⲛ	ADP	PREP	_	31	case	_	_
 31	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	29	nmod	_	Entity=person)
 32-33	ϩⲓϩⲁϩ	_	_	_	_	_	_	_	_
 32	ϩⲓ	ϩⲓ	ADP	PREP	_	33	cc	_	_
-33	ϩⲁϩ	ϩⲁϩ	NOUN	N	_	31	conj	_	Entity=(person
+33	ϩⲁϩ	ϩⲁϩ	NOUN	N	_	28	obl	_	Entity=(person
 34-35	ⲛϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 34	ⲛ	ⲛ	ADP	PREP	_	35	case	_	_
 35	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	33	nmod	_	Entity=person)
-36	.	.	PUNCT	PUNCT	_	0	punct	_	_
+36	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = sahidica_1corinthians-1Cor_08_s0006
 # text_en = yet to us there is one God, the Father, of whom are all things, and we for him; and one Lord, Jesus Christ, through whom are all things, and we live through him.
@@ -206,30 +206,30 @@
 6-8	ⲡⲉⲧϣⲟⲟⲡ	_	_	_	_	_	_	_	_
 6	ⲡ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	3	cop	_	_
 7	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	8	mark	_	_
-8	ϣⲟⲟⲡ	ϣⲱⲡⲉ	VERB	VSTAT	VerbForm=Fin	3	csubj	_	_
+8	ϣⲟⲟⲡ	ϣⲱⲡⲉ	VERB	VSTAT	VerbForm=Fin	3	acl:relcl	_	_
 9-10	ⲛⲁⲛ	_	_	_	_	_	_	_	_
-9	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	8	obj	_	_
-10	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	12	det	_	Entity=(person
+9	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	10	case	_	_
+10	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	8	obl	_	Entity=(person
 11-12	ⲡⲉⲓⲱⲧ	_	_	_	_	_	_	_	_
 11	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	ⲉⲓⲱⲧ	ⲉⲓⲱⲧ	NOUN	N	_	9	nmod	_	_
+12	ⲉⲓⲱⲧ	ⲉⲓⲱⲧ	NOUN	N	_	3	vocative	_	_
 13-17	ⲡⲉⲛⲧⲁⲡⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-13	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	nmod	_	_
+13	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	appos	_	_
 14	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	18	mark	_	_
 15	ⲁ	ⲁ	AUX	APST	_	18	aux	_	_
 16	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Entity=(abstract
 17	ⲧⲏⲣϥ	ⲧⲏⲣϥ	NOUN	N	_	18	nsubj	_	Entity=abstract)
-18	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	13	acl	_	_
+18	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	13	acl:relcl	_	_
 19	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	18	advmod	_	_
 20-21	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 20	ⲙⲙⲟ	ⲛ	ADP	PREP	_	19	fixed	_	_
 21	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
 22	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	23	cc	_	_
-23	ⲁⲛⲟⲛ	ⲁⲛⲟⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=1|PronType=Prs	18	dislocated	_	_
-24	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	23	advmod	_	_
+23	ⲁⲛⲟⲛ	ⲁⲛⲟⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=1|PronType=Prs	12	conj	_	_
+24	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	26	case	_	_
 25-26	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
-25	ⲉⲣⲟ	ⲉ	ADP	PREP	_	26	case	_	_
-26	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	conj	_	Entity=person)
+25	ⲉⲣⲟ	ⲉ	ADP	PREP	_	24	fixed	_	_
+26	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obl	_	Entity=person)
 27-29	ⲙⲛⲟⲩϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 27	ⲙⲛ	ⲙⲛ	ADP	PREP	_	29	cc	_	_
 28	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	29	det	_	Entity=(person
@@ -246,24 +246,24 @@
 36	ⲉⲧⲉⲣⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	39	mark	_	_
 37	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	Entity=(abstract
 38	ⲧⲏⲣϥ	ⲧⲏⲣϥ	NOUN	N	_	39	nsubj	_	Entity=abstract)
-39	ϣⲟⲟⲡ	ϣⲱⲡⲉ	VERB	VSTAT	VerbForm=Fin	35	acl	_	_
+39	ϣⲟⲟⲡ	ϣⲱⲡⲉ	VERB	VSTAT	VerbForm=Fin	35	acl:relcl	_	_
 40-41	ⲉⲧⲃⲏⲏⲧϥ	_	_	_	_	_	_	_	_
 40	ⲉⲧⲃⲏⲏⲧ	ⲉⲧⲃⲉ	ADP	PREP	_	41	case	_	_
 41	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	obl	_	_
 42	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	46	cc	_	_
-43	ⲁⲛⲟⲛ	ⲁⲛⲟⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=1|PronType=Prs	46	nsubj	_	_
+43	ⲁⲛⲟⲛ	ⲁⲛⲟⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=1|PronType=Prs	46	dislocated	_	_
 44	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	46	case	_	_
 45-46	ϩⲓⲧⲟⲟⲧϥ	_	_	_	_	_	_	_	_
 45	ϩⲓⲧⲟⲟⲧ	ϩⲓⲧⲛ	ADP	PREP	_	44	fixed	_	_
-46	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	conj	_	Entity=person)
-47	.	.	PUNCT	PUNCT	_	0	punct	_	_
+46	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	conj	_	Entity=person)
+47	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = sahidica_1corinthians-1Cor_08_s0007
 # text_en = However, that knowledge isn't in all men. But some, with consciousness of the idol until now, eat as of a thing sacrificed to an idol, and their conscience, being weak, is defiled.
 # text = ⲁⲗⲗⲁ ⲙⲡⲥⲟⲟⲩⲛ ϩⲛⲟⲩⲟⲛ ⲛⲓⲙ ⲁⲛ . ϩⲟⲓⲛⲉ ⲅⲁⲣ ϩⲙⲡⲧⲱⲡ ⲙⲡⲉⲓⲇⲱⲗⲟⲛ ϣⲁϩⲟⲩⲛ ⲉⲧⲉⲛⲟⲩ ⲥⲉⲟⲩⲱⲙ ϩⲱⲥ ϣⲱⲱⲧ ⲛⲉⲓⲇⲱⲗⲟⲛ ⲁⲩⲱ ⲧⲉⲩⲥⲩⲛⲉⲓⲇⲏⲥⲓⲥ ⲉⲥϭⲟⲟⲃ ⲥⲧⲱⲗⲙ .
 1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	4	cc	_	OrigLang=grc
 2-4	ⲙⲡⲥⲟⲟⲩⲛ	_	_	_	_	_	_	_	_
-2	ⲙ	ⲙ	ADV	NEG	Polarity=Neg	4	advmod	_	_
+2	ⲙ	ⲙ	ADV	NEG	Polarity=Neg	4	case	_	_
 3	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Entity=(abstract
 4	ⲥⲟⲟⲩⲛ	ⲥⲟⲟⲩⲛ	NOUN	N	_	0	root	_	Entity=abstract)
 5-6	ϩⲛⲟⲩⲟⲛ	_	_	_	_	_	_	_	_
@@ -271,26 +271,26 @@
 6	ⲟⲩⲟⲛ	ⲟⲩⲟⲛ	NOUN	N	_	4	nmod	_	Entity=(person
 7	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	6	det	_	Entity=person)
 8	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	4	advmod	_	_
-9	.	.	PUNCT	PUNCT	_	0	punct	_	_
-10	ϩⲟⲓⲛⲉ	ϩⲟⲓⲛⲉ	NOUN	N	_	4	parataxis	_	Entity=(person)
+9	.	.	PUNCT	PUNCT	_	4	punct	_	_
+10	ϩⲟⲓⲛⲉ	ϩⲟⲓⲛⲉ	NOUN	N	_	23	dislocated	_	Entity=(person)
 11	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	10	advmod	_	OrigLang=grc
 12-14	ϩⲙⲡⲧⲱⲡ	_	_	_	_	_	_	_	_
 12	ϩⲙ	ϩⲛ	ADP	PREP	_	14	case	_	_
 13	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Entity=(abstract
-14	ⲧⲱⲡ	ⲧⲱⲡ	NOUN	N	_	10	orphan	_	_
+14	ⲧⲱⲡ	ⲧⲱⲡ	NOUN	N	_	10	obl	_	_
 15-17	ⲙⲡⲉⲓⲇⲱⲗⲟⲛ	_	_	_	_	_	_	_	_
 15	ⲙ	ⲛ	ADP	PREP	_	17	case	_	_
 16	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Entity=(object
 17	ⲉⲓⲇⲱⲗⲟⲛ	ⲉⲓⲇⲱⲗⲟⲛ	NOUN	N	Foreign=Yes	14	nmod	_	Entity=object)abstract)|OrigLang=grc
 18-19	ϣⲁϩⲟⲩⲛ	_	_	_	_	_	_	_	_
 18	ϣⲁ	ϣⲁ	ADP	PREP	_	19	case	_	_
-19	ϩⲟⲩⲛ	ϩⲟⲩⲛ	NOUN	N	_	10	obl	_	_
+19	ϩⲟⲩⲛ	ϩⲟⲩⲛ	NOUN	N	_	23	obl	_	_
 20-21	ⲉⲧⲉⲛⲟⲩ	_	_	_	_	_	_	_	_
-20	ⲉ	ⲉ	ADP	PREP	_	21	case	_	_
-21	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	23	obl	_	_
+20	ⲉ	ⲉ	PART	PREP	_	21	mark	_	_
+21	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	23	advmod	_	_
 22-23	ⲥⲉⲟⲩⲱⲙ	_	_	_	_	_	_	_	_
 22	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
-23	ⲟⲩⲱⲙ	ⲟⲩⲱⲙ	VERB	V	VerbForm=Fin	10	acl	_	_
+23	ⲟⲩⲱⲙ	ⲟⲩⲱⲙ	VERB	V	VerbForm=Fin	4	parataxis	_	_
 24	ϩⲱⲥ	ϩⲱⲥ	SCONJ	CONJ	Foreign=Yes	25	mark	_	OrigLang=grc
 25	ϣⲱⲱⲧ	ϣⲱⲱⲧ	NOUN	N	_	23	advcl	_	Entity=(object
 26-27	ⲛⲉⲓⲇⲱⲗⲟⲛ	_	_	_	_	_	_	_	_
@@ -303,11 +303,11 @@
 31-33	ⲉⲥϭⲟⲟⲃ	_	_	_	_	_	_	_	_
 31	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	33	mark	_	_
 32	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
-33	ϭⲟⲟⲃ	ϭⲃⲃⲉ	VERB	VSTAT	VerbForm=Fin	30	acl	_	_
+33	ϭⲟⲟⲃ	ϭⲃⲃⲉ	VERB	VSTAT	VerbForm=Fin	30	acl:relcl	_	_
 34-35	ⲥⲧⲱⲗⲙ	_	_	_	_	_	_	_	_
-34	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
-35	ⲧⲱⲗⲙ	ⲧⲱⲗⲙ	VERB	V	VerbForm=Fin	23	conj	_	_
-36	.	.	PUNCT	PUNCT	_	0	punct	_	_
+34	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
+35	ⲧⲱⲗⲙ	ⲧⲱⲗⲙ	VERB	V	VerbForm=Fin	33	xcomp	_	_
+36	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = sahidica_1corinthians-1Cor_08_s0008
 # text_en = But food will not commend us to God. For neither, if we don't eat, are we the worse; nor, if we eat, are we the better.
@@ -326,7 +326,7 @@
 8	ⲙ	ⲛ	ADP	PREP	_	10	case	_	_
 9	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(person
 10	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	5	obl	_	Entity=person)
-11	.	.	PUNCT	PUNCT	_	0	punct	_	_
+11	.	.	PUNCT	PUNCT	_	5	punct	_	_
 12	ⲟⲩⲇⲉ	ⲟⲩⲇⲉ	CCONJ	CONJ	Foreign=Yes|Polarity=Neg	19	cc	_	OrigLang=grc
 13-15	ⲉⲛϣⲁⲛⲧⲙⲟⲩⲱⲙ	_	_	_	_	_	_	_	_
 13	ⲉⲛϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲁⲛⲟⲛ	PRON	ACOND_PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
@@ -338,7 +338,7 @@
 18	ⲛⲁ	ⲛⲁ	AUX	FUT	_	19	aux	_	_
 19	ϣⲱⲱⲧ	ϣⲱⲱⲧ	VERB	V	VerbForm=Fin	5	conj	_	_
 20	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	19	advmod	_	_
-21	.	.	PUNCT	PUNCT	_	0	punct	_	_
+21	.	.	PUNCT	PUNCT	_	19	punct	_	_
 22	ⲟⲩⲇⲉ	ⲟⲩⲇⲉ	CCONJ	CONJ	Foreign=Yes|Polarity=Neg	28	cc	_	OrigLang=grc
 23-24	ⲉⲛϣⲁⲛⲟⲩⲱⲙ	_	_	_	_	_	_	_	_
 23	ⲉⲛϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲁⲛⲟⲛ	PRON	ACOND_PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
@@ -349,21 +349,21 @@
 27	ⲛⲁ	ⲛⲁ	AUX	FUT	_	28	aux	_	_
 28	ⲣϩⲟⲩⲟ	ⲣϩⲟⲩⲟ	VERB	V	VerbForm=Fin	19	conj	_	Morphs=ⲣ-ϩⲟⲩⲟ
 29	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	28	advmod	_	_
-30	.	.	PUNCT	PUNCT	_	0	punct	_	_
+30	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = sahidica_1corinthians-1Cor_08_s0009
 # text_en = But be careful that by no means does this liberty of yours become a stumbling block to the weak.
 # text = ϭⲱϣⲧ ⲇⲉ ⲙⲏⲡⲱⲥ ⲛⲧⲉⲧⲉⲓⲉⲝⲟⲩⲥⲓⲁ ⲛⲧⲉⲧⲏⲩⲧⲛ ϣⲱⲡⲉ ⲛϫⲣⲟⲡ ⲛⲛⲉⲧϭⲟⲟⲃ .
 1	ϭⲱϣⲧ	ϭⲱϣⲧ	VERB	V	VerbForm=Fin	0	root	_	_
 2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	1	advmod	_	OrigLang=grc
-3	ⲙⲏⲡⲱⲥ	ⲙⲏⲡⲱⲥ	ADV	ADV	Foreign=Yes	9	advmod	_	OrigLang=grc
+3	ⲙⲏⲡⲱⲥ	ⲙⲏⲡⲱⲥ	ADV	ADV	Foreign=Yes	1	advmod	_	OrigLang=grc
 4-6	ⲛⲧⲉⲧⲉⲓⲉⲝⲟⲩⲥⲓⲁ	_	_	_	_	_	_	_	_
 4	ⲛⲧⲉ	ⲛⲧⲉ	CCONJ	CONJ	_	6	case	_	_
 5	ⲧⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	Entity=(abstract
-6	ⲉⲝⲟⲩⲥⲓⲁ	ⲉⲝⲟⲩⲥⲓⲁ	NOUN	N	Foreign=Yes	9	nsubj	_	OrigLang=grc
+6	ⲉⲝⲟⲩⲥⲓⲁ	ⲉⲝⲟⲩⲥⲓⲁ	NOUN	N	Foreign=Yes	1	obl	_	OrigLang=grc
 7-8	ⲛⲧⲉⲧⲏⲩⲧⲛ	_	_	_	_	_	_	_	_
-7	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	8	case	_	_
-8	ⲧⲏⲩⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	6	nmod	_	Entity=abstract)
+7	ⲛⲧⲉ	ⲛⲧⲉ	AUX	PREP	_	9	aux	_	_
+8	ⲧⲏⲩⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	9	nsubj	_	Entity=abstract)
 9	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	1	advcl	_	_
 10-11	ⲛϫⲣⲟⲡ	_	_	_	_	_	_	_	_
 10	ⲛ	ⲛ	ADP	PREP	_	11	case	_	_
@@ -372,8 +372,8 @@
 12	ⲛ	ⲛ	ADP	PREP	_	13	case	_	_
 13	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	9	obl	_	Entity=(person
 14	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	15	mark	_	_
-15	ϭⲟⲟⲃ	ϭⲃⲃⲉ	VERB	VSTAT	VerbForm=Fin	13	acl	_	Entity=person)abstract)
-16	.	.	PUNCT	PUNCT	_	0	punct	_	_
+15	ϭⲟⲟⲃ	ϭⲃⲃⲉ	VERB	VSTAT	VerbForm=Fin	13	acl:relcl	_	Entity=person)abstract)
+16	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = sahidica_1corinthians-1Cor_08_s0010
 # text_en = For if a man sees you who have knowledge sitting in an idol's temple, won't his conscience, if he is weak, be emboldened to eat things sacrificed to idols?
@@ -387,9 +387,9 @@
 5	ⲉⲣⲟ	ⲉ	ADP	PREP	_	6	case	_	_
 6	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	obl	_	_
 7-10	ⲡⲉⲧⲉⲟⲩⲛⲧⲁϥ	_	_	_	_	_	_	_	_
-7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	dislocated	_	Entity=(person
+7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	dislocated	_	Entity=(person
 8	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	9	mark	_	_
-9	ⲟⲩⲛⲧⲁ	ⲟⲩⲛⲧⲉ	VERB	EXIST	_	7	acl	_	_
+9	ⲟⲩⲛⲧⲁ	ⲟⲩⲛⲧⲉ	VERB	EXIST	_	7	acl:relcl	_	_
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	_
 11	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	9	advmod	_	_
 12-14	ⲙⲡⲥⲟⲟⲩⲛ	_	_	_	_	_	_	_	_
@@ -408,11 +408,11 @@
 21	ⲛ	ⲛ	ADP	PREP	_	22	case	_	_
 22	ⲉⲓⲇⲱⲗⲟⲛ	ⲉⲓⲇⲱⲗⲟⲛ	NOUN	N	Foreign=Yes	20	nmod	_	Entity=(object)place)|OrigLang=grc
 23-25	ⲉⲟⲩϭⲱⲃ	_	_	_	_	_	_	_	_
-23	ⲉ	ⲉ	ADP	PREP	_	25	case	_	_
+23	ⲉ	ⲉ	PART	PREP	_	25	mark	_	_
 24	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	25	det	_	Entity=(person|Orig=ⲩ
-25	ϭⲱⲃ	ϭⲱⲃ	NOUN	N	_	17	obl	_	Entity=person)
+25	ϭⲱⲃ	ϭⲱⲃ	NOUN	N	_	20	acl:relcl	_	Entity=person)
 26	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	25	cop	_	_
-27	.	.	PUNCT	PUNCT	_	0	punct	_	_
+27	.	.	PUNCT	PUNCT	_	4	punct	_	_
 28	ⲙⲏ	ⲙⲏ	CCONJ	CONJ	Foreign=Yes	33	advmod	_	OrigLang=grc
 29-31	ⲛⲧⲉϥⲥⲩⲛⲉⲓⲇⲏⲥⲓⲥ	_	_	_	_	_	_	_	_
 29	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	33	advmod	_	_
@@ -433,7 +433,7 @@
 40	ⲛ	ⲛ	ADP	PREP	_	42	case	_	_
 41	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	42	det	_	Entity=(object
 42	ⲉⲓⲇⲱⲗⲟⲛ	ⲉⲓⲇⲱⲗⲟⲛ	NOUN	N	Foreign=Yes	39	nmod	_	Entity=object)object)|OrigLang=grc
-43	.	.	PUNCT	PUNCT	_	0	punct	_	_
+43	.	.	PUNCT	PUNCT	_	33	punct	_	_
 
 # sent_id = sahidica_1corinthians-1Cor_08_s0011
 # text_en = And through your knowledge, he who is weak perishes, the brother for whose sake Christ died.
@@ -443,30 +443,30 @@
 2	ⲛⲁ	ⲛⲁ	AUX	FUT	_	3	aux	_	_
 3	ϩⲉ	ϩⲉ	VERB	V	VerbForm=Fin	0	root	_	_
 4	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
-5	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	3	advmod	_	_
+5	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	7	case	_	_
 6-9	ⲛϭⲓⲡⲉⲧϭⲟⲟⲃ	_	_	_	_	_	_	_	_
 6	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	7	case	_	_
 7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	dislocated	_	Entity=(person
 8	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	9	mark	_	_
-9	ϭⲟⲟⲃ	ϭⲃⲃⲉ	VERB	VSTAT	VerbForm=Fin	7	acl	_	_
+9	ϭⲟⲟⲃ	ϭⲃⲃⲉ	VERB	VSTAT	VerbForm=Fin	7	acl:relcl	_	_
 10-12	ϩⲙⲡⲉⲕⲥⲟⲟⲩⲛ	_	_	_	_	_	_	_	_
 10	ϩⲙ	ϩⲛ	ADP	PREP	_	12	case	_	_
 11	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	12	det	_	Entity=(abstract
 12	ⲥⲟⲟⲩⲛ	ⲥⲟⲟⲩⲛ	NOUN	N	_	9	obl	_	Entity=abstract)person)
-13	.	.	PUNCT	PUNCT	_	0	punct	_	_
+13	.	.	PUNCT	PUNCT	_	3	punct	_	_
 14-15	ⲡⲥⲟⲛ	_	_	_	_	_	_	_	_
 14	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(person
-15	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	7	appos	_	_
+15	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	3	parataxis	_	_
 16-19	ⲉⲛⲧⲁⲡⲉⲭⲣⲓⲥⲧⲟⲥ	_	_	_	_	_	_	_	_
 16	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	20	mark	_	_
 17	ⲁ	ⲁ	AUX	APST	_	20	aux	_	_
 18	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Entity=(person
 19	ⲭⲣⲓⲥⲧⲟⲥ	ⲭⲣⲓⲥⲧⲟⲥ	NOUN	N	Foreign=Yes	20	nsubj	_	Entity=person)|OrigLang=grc
-20	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	15	acl	_	_
+20	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	15	acl:relcl	_	_
 21-22	ϩⲁⲣⲟϥ	_	_	_	_	_	_	_	_
 21	ϩⲁⲣⲟ	ϩⲁ	ADP	PREP	_	22	case	_	_
 22	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl	_	Entity=person)
-23	.	.	PUNCT	PUNCT	_	0	punct	_	_
+23	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = sahidica_1corinthians-1Cor_08_s0012
 # text_en = Thus, sinning against the brothers, and wounding their conscience when it is weak, you sin against Christ.
@@ -480,12 +480,12 @@
 6-8	ⲉⲧⲉⲧⲛⲣⲛⲟⲃⲉ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	8	mark	_	_
 7	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	8	nsubj	_	_
-8	ⲣⲛⲟⲃⲉ	ⲣⲛⲟⲃⲉ	VERB	V	VerbForm=Fin	5	acl	_	Morphs=ⲣ-ⲛⲟⲃⲉ
+8	ⲣⲛⲟⲃⲉ	ⲣⲛⲟⲃⲉ	VERB	V	VerbForm=Fin	5	acl:relcl	_	Morphs=ⲣ-ⲛⲟⲃⲉ
 9-11	ⲉⲛⲉⲥⲛⲏⲩ	_	_	_	_	_	_	_	_
 9	ⲉ	ⲉ	ADP	PREP	_	11	case	_	_
 10	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	11	det	_	Entity=(person
 11	ⲥⲛⲏⲩ	ⲥⲟⲛ	NOUN	N	_	8	obl	_	Entity=person)
-12	.	.	PUNCT	PUNCT	_	0	punct	_	_
+12	.	.	PUNCT	PUNCT	_	8	punct	_	_
 13-15	ⲉⲧⲉⲧⲛⲣⲱϩⲧ	_	_	_	_	_	_	_	_
 13	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	15	mark	_	_
 14	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	15	nsubj	_	_
@@ -497,26 +497,26 @@
 19-21	ⲉⲥϭⲟⲟⲃ	_	_	_	_	_	_	_	_
 19	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	21	mark	_	_
 20	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
-21	ϭⲟⲟⲃ	ϭⲃⲃⲉ	VERB	VSTAT	VerbForm=Fin	18	acl	_	_
+21	ϭⲟⲟⲃ	ϭⲃⲃⲉ	VERB	VSTAT	VerbForm=Fin	18	acl:relcl	_	_
 22-23	ⲧⲉⲧⲛⲣⲛⲟⲃⲉ	_	_	_	_	_	_	_	_
 22	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	23	nsubj	_	_
-23	ⲣⲛⲟⲃⲉ	ⲣⲛⲟⲃⲉ	VERB	V	VerbForm=Fin	1	parataxis	_	Morphs=ⲣ-ⲛⲟⲃⲉ
+23	ⲣⲛⲟⲃⲉ	ⲣⲛⲟⲃⲉ	VERB	V	VerbForm=Fin	15	advcl	_	Morphs=ⲣ-ⲛⲟⲃⲉ
 24-26	ⲉⲡⲉⲭⲣⲓⲥⲧⲟⲥ	_	_	_	_	_	_	_	_
 24	ⲉ	ⲉ	ADP	PREP	_	26	case	_	_
 25	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	Entity=(person
 26	ⲭⲣⲓⲥⲧⲟⲥ	ⲭⲣⲓⲥⲧⲟⲥ	NOUN	N	Foreign=Yes	23	obl	_	Entity=person)|OrigLang=grc
-27	.	.	PUNCT	PUNCT	_	0	punct	_	_
+27	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = sahidica_1corinthians-1Cor_08_s0013
 # text_en = Therefore, if food causes my brother to stumble, I will eat no meat forevermore, that I don't cause my brother to stumble.
 # text = ⲉⲧⲃⲉⲡⲁⲓ ⲉϣϫⲉⲟⲩϩⲣⲉ ⲧⲉⲧⲛⲁⲥⲕⲁⲛⲇⲁⲗⲓⲍⲉ ⲙⲡⲁⲥⲟⲛ ⲛⲛⲁⲟⲩⲉⲙⲁϥ ϣⲁⲉⲛⲉϩ ϫⲉⲛⲛⲉⲓⲥⲕⲁⲛⲇⲁⲗⲓⲍⲉ ⲙⲡⲁⲥⲟⲛ .
 1-2	ⲉⲧⲃⲉⲡⲁⲓ	_	_	_	_	_	_	_	_
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	2	case	_	_
-2	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	Entity=(abstract)
+2	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	15	obl	_	Entity=(abstract)
 3-5	ⲉϣϫⲉⲟⲩϩⲣⲉ	_	_	_	_	_	_	_	_
 3	ⲉϣϫⲉ	ⲉϣϫⲉ	SCONJ	CONJ	_	5	mark	_	_
 4	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	5	det	_	Entity=(object
-5	ϩⲣⲉ	ϩⲣⲉ	NOUN	N	_	0	root	_	Entity=object)
+5	ϩⲣⲉ	ϩⲣⲉ	NOUN	N	_	15	advcl	_	Entity=object)
 6-9	ⲧⲉⲧⲛⲁⲥⲕⲁⲛⲇⲁⲗⲓⲍⲉ	_	_	_	_	_	_	_	_
 6	ⲧ	ⲡⲉ	PRON	COP	Gender=Fem|Number=Sing	5	cop	_	_
 7	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	9	mark	_	_
@@ -525,11 +525,11 @@
 10-12	ⲙⲡⲁⲥⲟⲛ	_	_	_	_	_	_	_	_
 10	ⲙ	ⲙ	ADV	NEG	Polarity=Neg	12	case	_	_
 11	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det	_	Entity=(person
-12	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	9	obl	_	Entity=person)
+12	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	9	obj	_	Entity=person)
 13-15	ⲛⲛⲁⲟⲩⲉⲙⲁϥ	_	_	_	_	_	_	_	_
 13	ⲛⲛ	ⲛⲛⲉ	AUX	ANEGOPT	Polarity=Neg	15	aux	_	_
 14	ⲁ	ⲁ	PRON	PPERS	_	15	nsubj	_	_
-15	ⲟⲩⲉⲙⲁϥ	ⲟⲩⲉⲙⲁϥ	VERB	V	VerbForm=Fin	9	parataxis	_	Morphs=ⲟⲩⲉⲙ-ⲁϥ
+15	ⲟⲩⲉⲙⲁϥ	ⲟⲩⲉⲙⲁϥ	VERB	V	VerbForm=Fin	0	root	_	Morphs=ⲟⲩⲉⲙ-ⲁϥ
 16-17	ϣⲁⲉⲛⲉϩ	_	_	_	_	_	_	_	_
 16	ϣⲁ	ϣⲁ	ADP	PREP	_	17	case	_	_
 17	ⲉⲛⲉϩ	ⲉⲛⲉϩ	NOUN	N	_	15	obl	_	Entity=(time)
@@ -542,5 +542,5 @@
 22	ⲙ	ⲛ	ADP	PREP	_	24	case	_	_
 23	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	24	det	_	Entity=(person
 24	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	21	obj	_	Entity=person)
-25	.	.	PUNCT	PUNCT	_	0	punct	_	_
+25	.	.	PUNCT	PUNCT	_	15	punct	_	_
 
