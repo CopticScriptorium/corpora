@@ -173,7 +173,7 @@
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0004
 # text_en = ...
-# text = ⲁⲧⲙⲉ ϯⲟⲩⲱ ⲉⲃⲟⲗ ϩⲙⲡⲕⲁϩ · ⲁⲩⲱ ⲁⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ ϭⲱϣⲧ ⲉⲃⲟⲗ ϩⲛⲧⲡⲉ ⲁϥⲟⲩⲱϣⲃ ⲇⲉ ⲛϭⲓⲓⲱϩⲁⲛⲛⲏⲥ ·
+# text = ⲁⲧⲙⲉ ϯⲟⲩⲱ ⲉⲃⲟⲗ ϩⲙⲡⲕⲁϩ · ⲁⲩⲱ ⲁⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ ϭⲱϣⲧ ⲉⲃⲟⲗ ϩⲛⲧⲡⲉ
 1-3	ⲁⲧⲙⲉ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
 2	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Entity=(abstract
@@ -191,22 +191,26 @@
 12	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	Entity=(abstract
 13	ⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ	ⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ	NOUN	N	Foreign=Yes	14	nsubj	_	Entity=abstract)|OrigLang=grc
 14	ϭⲱϣⲧ	ϭⲱϣⲧ	VERB	V	VerbForm=Fin	4	conj	_	Orig=ϭⲱϣⲧ̅
-15	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	18	case	_	_
+15	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	14	advmod	_	_
 16-18	ϩⲛⲧⲡⲉ	_	_	_	_	_	_	_	_
 16	ϩⲛ	ϩⲛ	ADP	PREP	_	18	case	_	Orig=ϩⲛ̅
 17	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	Entity=(place
 18	ⲡⲉ	ⲡⲉ	NOUN	N	_	14	obl	_	Entity=place)
-19-21	ⲁϥⲟⲩⲱϣⲃ	_	_	_	_	_	_	_	_
-19	ⲁ	ⲁ	AUX	APST	_	21	aux	_	_
-20	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
-21	ⲟⲩⲱϣⲃ	ⲟⲩⲱϣⲃ	VERB	V	VerbForm=Fin	14	parataxis	_	Orig=ⲟⲩⲱϣⲃ̅
-22	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	21	advmod	_	OrigLang=grc
-23-24	ⲛϭⲓⲓⲱϩⲁⲛⲛⲏⲥ	_	_	_	_	_	_	_	_
-23	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	24	case	_	Orig=ⲛ̅ϭⲓ
-24	ⲓⲱϩⲁⲛⲛⲏⲥ	ⲓⲱϩⲁⲛⲛⲏⲥ	PROPN	NPROP	Foreign=Yes	21	dislocated	_	Entity=(person-John_the_Apostle)|Orig=ⲓ̈ⲱϩⲁⲛⲛⲏⲥ|OrigLang=he
-25	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0005
+# text_en = ...
+# text = ⲁϥⲟⲩⲱϣⲃ ⲇⲉ ⲛϭⲓⲓⲱϩⲁⲛⲛⲏⲥ ·
+1-3	ⲁϥⲟⲩⲱϣⲃ	_	_	_	_	_	_	_	_
+1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
+2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	ⲟⲩⲱϣⲃ	ⲟⲩⲱϣⲃ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲟⲩⲱϣⲃ̅
+4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
+5-6	ⲛϭⲓⲓⲱϩⲁⲛⲛⲏⲥ	_	_	_	_	_	_	_	_
+5	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	6	case	_	Orig=ⲛ̅ϭⲓ
+6	ⲓⲱϩⲁⲛⲛⲏⲥ	ⲓⲱϩⲁⲛⲛⲏⲥ	PROPN	NPROP	Foreign=Yes	3	dislocated	_	Entity=(person-John_the_Apostle)|Orig=ⲓ̈ⲱϩⲁⲛⲛⲏⲥ|OrigLang=he
+7	·	·	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0006
 # text_en = ...
 # text = ⲡⲉϫⲁϥ ϫⲉⲡⲁⲓ ⲡⲉ ⲡϣⲁϫⲉ ⲉⲛⲧⲁⲕϫⲟⲟϥ ⲉⲣⲟⲛ ⲙⲡⲓⲟⲩⲟⲉⲓϣ ϫⲉⲁⲓⲉⲓ ⲉⲃⲟⲗ ϩⲙⲡϫⲓⲥⲉ ⲁⲓⲃⲱⲕ ⲉϩⲟⲩⲛ ⲉⲥⲁⲃⲁⲱⲑ · ⲡⲁⲅⲁⲑⲟⲥ · ⲁⲓϩⲱⲗϭ ⲉϯϭⲟⲙ ⲛⲟⲩⲟⲉⲓⲛ ⲉⲧⲛϩⲏⲧϥ ·
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
@@ -272,7 +276,7 @@
 46	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	acl:relcl	_	Entity=abstract)|Orig=ϥ̅
 47	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0006
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0007
 # text_en = ...
 # text = ⲧⲉⲛⲟⲩ ϭⲉ ⲡⲛⲉⲩⲙⲁ ⲙⲛⲧⲙⲉ ⲉⲛⲧⲁⲩⲧⲱⲙⲛⲧ ⲉⲛⲉⲩⲉⲣⲏⲩ .
 1	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	4	advmod	_	_
@@ -295,7 +299,7 @@
 14	ⲉⲣⲏⲩ	ⲉⲣⲏⲩ	NOUN	N	PronType=Rcp	11	obl	_	Entity=abstract)
 15	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0007
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0008
 # text_en = ...
 # text = ⲛⲧⲟⲕ ⲡⲉ ⲡⲛⲉⲩⲙⲁ ⲛⲧⲁⲩⲧⲛⲛⲟⲟⲩⲕ ⲉⲃⲟⲗ ϩⲛⲛⲧⲟⲡⲟⲥ ⲙⲡϫⲓⲥⲉ ϩⲓⲧⲙⲡⲉⲕⲉⲓⲱⲧ · ⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧϭⲱϣⲧ ⲉϩⲟⲩⲛ · ⲉⲁϥⲧⲛⲛⲟⲟⲩⲕ ⲉⲧⲣⲉⲕⲛⲁ ⲙⲡⲕⲟⲥⲙⲟⲥ ⲧⲏⲣϥ ·
 1	ⲛⲧⲟⲕ	ⲛⲧⲟⲕ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	0	root	_	Orig=ⲛ̅ⲧⲟⲕ
@@ -354,7 +358,7 @@
 42	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	41	det	_	Entity=place)|Orig=ϥ̅
 43	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0008
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0009
 # text_en = ...
 # text = ⲧⲙⲉ ϩⲱⲱϥ ⲧⲉ ϯϭⲟⲙ ⲛⲧⲉⲥⲁⲃⲁⲱⲑ ⲡⲁⲅⲁⲑⲟⲥ · ⲧⲁⲓ ⲉⲛⲧⲁⲥⲧⲟϭⲥ ⲉⲣⲟⲕ · ⲧⲁⲓ ⲉⲛⲧⲁⲥⲛⲟϫⲥ ⲉϩⲃⲟⲩⲣ · ⲛⲧⲟⲕ ⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧϭⲱϣⲧ ⲉⲃⲟⲗ · ⲁⲩⲱ ⲁϥϫⲓⲧⲥ ⲛϭⲓⲡⲕⲟⲩⲓ ⲛⲥⲁⲃⲁⲱⲑ ⲡⲁⲅⲁⲑⲟⲥ ·
 1-2	ⲧⲙⲉ	_	_	_	_	_	_	_	_
@@ -426,7 +430,7 @@
 51	ⲁⲅⲁⲑⲟⲥ	ⲁⲅⲁⲑⲟⲥ	NOUN	N	Foreign=Yes	49	appos	_	Entity=person-Heavenly_host)|OrigLang=grc
 52	·	·	PUNCT	PUNCT	_	6	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0009
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0010
 # text_en = ...
 # text = ⲁϥⲛⲟϫⲥ ⲉϩⲟⲩⲛ ⲉⲧϩⲩⲗⲏ ⲙⲛⲃⲁⲣⲃⲏⲗⲱ ⲁⲩⲱ ⲁϥⲕⲏⲣⲩⲥⲥⲉ ϩⲁⲡⲧⲟⲡⲟⲥ ⲛⲧⲙⲉ ⲛⲧⲉⲧⲁⲗⲏⲑⲉⲓⲁ ϩⲣⲁⲓ ϩⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲛⲧⲉⲛⲁϩⲃⲟⲩⲣ ·
 1-4	ⲁϥⲛⲟϫⲥ	_	_	_	_	_	_	_	_
@@ -473,7 +477,7 @@
 32	ϩⲃⲟⲩⲣ	ϩⲃⲟⲩⲣ	NOUN	N	_	27	nmod	_	Entity=object)place)
 33	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0010
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0011
 # text_en = ...
 # text = ⲧϩⲩⲗⲏ ϭⲉ ⲉⲧⲙⲙⲁⲩ ⲛⲧⲉⲧⲃⲁⲣⲃⲏⲗⲱ ⲛⲧⲟⲥ ⲧⲉⲧϣⲟⲟⲡ ⲛⲁⲕ ⲛⲥⲱⲙⲁ ⲙⲡϩⲟⲟⲩ · ⲁⲩⲱ ⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ ⲙⲛϯⲉⲓⲣⲏⲛⲏ ⲉⲛⲧⲁⲩϯⲡⲓ ⲉⲣⲛⲛⲉⲩⲉⲣⲏⲩ ·
 1-2	ⲧϩⲩⲗⲏ	_	_	_	_	_	_	_	_
@@ -522,7 +526,7 @@
 33	ⲉⲣⲏⲩ	ⲉⲣⲏⲩ	NOUN	N	PronType=Rcp	30	obl	_	Entity=abstract)
 34	·	·	PUNCT	PUNCT	_	9	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0011
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0012
 # text_en = ...
 # text = ⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ ⲡⲉ ⲛⲧⲟⲕ ⲛⲧⲁⲕⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲧⲏⲣⲟⲩ ϩⲓⲧⲙⲡⲉⲕⲉⲓⲱⲧ ⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧϭⲱϣⲧ ⲉϩⲟⲩⲛ ⲁⲩⲱ ⲁⲕⲃⲁⲡⲧⲓⲍⲉ ⲛϯϭⲟⲙ ⲛⲧⲉⲥⲁⲃⲁⲱⲑ ⲡⲁⲅⲁⲑⲟⲥ · ⲁⲩⲱ ⲁⲕⲉⲓ ⲉⲡⲧⲟⲡⲟⲥ ⲛⲛⲁⲣⲭⲱⲛ ⲁⲕϯ ⲛⲁⲩ ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡϫⲓⲥⲉ · ⲁⲩⲱ ⲁⲩⲣⲇⲓⲕⲁⲓⲟⲥ · ⲁⲩⲱ ⲁⲩⲣⲁⲅⲁⲑⲟⲥ · ϯⲉⲓⲣⲏⲛⲏ ϩⲱⲱϥ ⲧⲉ ϯϭⲟⲙ ⲛⲧⲉⲥⲁⲃⲁⲱⲑ · ⲧⲁⲓ ⲉⲧⲉⲛⲧⲟⲥ ⲧⲉ ⲧⲉⲕⲯⲩⲭⲏ · ⲧⲁⲓ ⲉⲛⲧⲁⲥⲃⲱⲕ ⲉϩⲟⲩⲛ ⲉⲧϩⲩⲗⲏ ⲛⲧⲃⲁⲣⲃⲏⲗⲱ · ⲁⲩⲱ ⲛⲁⲣⲭⲱⲛ ⲧⲏⲣⲟⲩ ⲙⲡⲥⲟⲟⲩⲛ ⲛⲁⲓⲱⲛ ⲛⲧⲉⲓⲁⲃⲣⲁⲱⲑ ⲁⲩⲁⲁⲩ ⲛⲉⲓⲣⲏⲛⲏ ⲙⲛⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡⲟⲩⲟⲉⲓⲛ · ⲁⲩⲱ ⲧⲙⲉ ⲉⲛⲧⲁⲥϯⲟⲩⲱ ⲉⲃⲟⲗ ϩⲙⲡⲕⲁϩ . ⲛⲧⲟⲥ ⲇⲉ ϯϭⲟⲙ ⲛⲧⲉⲥⲁⲃⲁⲱⲑ . ⲡⲁⲅⲁⲑⲟⲥ · ⲧⲁⲓ ⲉⲛⲧⲁⲥⲉⲓ ⲉⲃⲟⲗ ϩⲙⲡⲧⲟⲡⲟⲥ ⲛⲧⲟⲩⲛⲁⲙ · ⲡⲁⲓ ⲉⲧⲙⲡⲥⲁ ⲛⲃⲟⲗ ⲙⲡⲉⲑⲏⲥⲁⲩⲣⲟⲥ ⲙⲡⲟⲩⲟⲉⲓⲛ · ⲁⲩⲱ ⲁⲥⲃⲱⲕ ⲉⲡⲧⲟⲡⲟⲥ ⲛⲛⲁϩⲃⲟⲩⲣ · ⲁⲥⲃⲱⲕ ⲉϩⲟⲩⲛ ⲉⲧϩⲩⲗⲏ ⲛⲧⲃⲁⲣⲃⲏⲗⲱ · ⲁⲩⲱ ⲁⲥⲕⲏⲣⲩⲥⲥⲉ ⲛⲁⲩ ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡⲧⲟⲡⲟⲥ ⲛⲧⲁⲗⲏⲑⲉⲓⲁ ·
 1-2	ⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ	_	_	_	_	_	_	_	_
@@ -797,7 +801,7 @@
 208	ⲁⲗⲏⲑⲉⲓⲁ	ⲁⲗⲏⲑⲉⲓⲁ	NOUN	N	Foreign=Yes	205	nmod	_	Entity=abstract)place)abstract)|Orig=ⲁⲗⲏⲑⲓⲁ|OrigLang=grc
 209	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0012
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0013
 # text_en = ...
 # text = ⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ ϩⲱⲱⲥ ⲉⲛⲧⲁⲥϭⲱϣⲧ ⲉⲃⲟⲗ ϩⲛⲧⲡⲉ ⲛⲧⲟⲕ ⲡⲉ ⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧϭⲱϣⲧ ⲉⲃⲟⲗ ⲉⲁⲕⲉⲓ ⲉⲃⲟⲗ ϩⲛⲛⲉⲭⲱⲣⲏⲙⲁ ⲙⲡϫⲓⲥⲉ · ⲙⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲙⲛⲧⲣⲣⲟ ⲙⲡⲟⲩⲟⲉⲓⲛ · ⲁⲩⲱ ⲁⲕⲉⲓ ⲉϩⲣⲁⲓ ⲉϫⲛⲡⲉⲛⲇⲩⲙⲁ ⲙⲡⲟⲩⲟⲉⲓⲛ ⲡⲁⲓ · ⲉⲛⲧⲁⲕϫⲓⲧϥ ⲛⲧⲟⲟⲧⲥ ⲛⲧⲃⲁⲣⲃⲏⲗⲱ ⲉⲧⲉⲓⲥ ⲡⲉ ⲡⲉⲛⲥⲱⲧⲏⲣ · ⲉⲁⲕⲉⲓ ⲉϩⲣⲁⲓ ⲉϫⲱϥ ⲛⲧϩⲉ ⲛⲟⲩϭⲣⲟⲟⲙⲡⲉ :
 1-2	ⲧⲇⲓⲕⲁⲓⲟⲥⲩⲛⲏ	_	_	_	_	_	_	_	_
@@ -912,7 +916,7 @@
 85	ϭⲣⲟⲟⲙⲡⲉ	ϭⲣⲟⲟⲙⲡⲉ	NOUN	N	_	82	nmod	_	Entity=animal)
 86	:	:	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0013
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0014
 # text_en = ...
 # text = ⲍ ⲁⲥϣⲱⲡⲉ ϭⲉ ⲛⲧⲉⲣⲉⲓⲱϩⲁⲛⲛⲏⲥ ⲧⲁⲩⲉⲛⲉⲓϣⲁϫⲉ · ⲡⲉϫⲁϥ ⲛⲁϥ ⲛϭⲓⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧϭⲱϣⲧ ⲉⲃⲟⲗ ϫⲉⲉⲩⲅⲉ ⲓⲱϩⲁⲛⲛⲏⲥ ⲡⲥⲟⲛ ⲙⲡⲙⲉⲣⲓⲧ · ⲁϥⲟⲩⲱϩ ⲟⲛ ⲉⲧⲟⲟⲧϥ ⲛϭⲓⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉϥϫⲱ ⲙⲙⲟⲥ · ϫⲉⲁⲥϣⲱⲡⲉ ϭⲉ ⲁϯϭⲟⲙ ⲉⲛⲧⲁⲥⲉⲓ ⲉⲃⲟⲗ ϩⲙⲡϫⲓⲥⲉ ⲉⲧⲉⲁⲛⲟⲕ ⲡⲉ ⲉⲁⲡⲁⲉⲓⲱ ⲧⲛⲛⲟⲟⲩⲧ ⲉⲧⲣⲁⲛⲟⲩϩⲙ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ϩⲙⲡⲉⲭⲁⲟⲥ · ⲁⲛⲟⲕ ϭⲉ ⲙⲛⲧⲕⲉϭⲟⲙ ⲉⲛⲧⲁⲥⲉⲓ ⲉⲃⲟⲗ ⲙⲙⲟⲓ ⲁⲩⲱ ⲧⲉⲯⲩⲭⲏ ⲛⲧⲁⲓϫⲓⲧⲥ ⲛⲧⲟⲟⲧϥ ⲛⲥⲁⲃⲁⲱⲑ ⲡⲁⲅⲁⲑⲟⲥ ⲁⲩⲉⲓ ⲉⲧⲟⲩⲛ ⲛⲉⲩⲉⲣⲏⲩ · ⲁⲩⲣⲟⲩⲁⲡⲟⲣⲣⲟⲓⲁ ⲛⲟⲩⲱⲧ ⲛⲟⲩⲟⲉⲓⲛ · ⲉⲥⲟ ⲛⲟⲩⲟⲉⲓⲛ ⲉⲙⲁϣⲟ ⲉⲙⲁϣⲟ · ⲁⲓⲙⲟⲩⲧⲉ ⲉⲅⲁⲃⲣⲓⲏⲗ ⲉⲡⲉⲥⲏⲧ ⲉⲃⲟⲗ ϩⲛⲛⲁⲓⲱⲛ ⲁⲩⲱ ⲙⲛⲙⲓⲭⲁⲏⲗ ⲉⲃⲟⲗ ϩⲓⲧⲛⲧⲕⲉⲗⲉⲩⲥⲓⲥ ⲙⲡⲁⲉⲓⲱⲧ ·
 1	ⲍ	ⲍ	PUNCT	PUNCT	_	4	punct	_	Orig=Ⲍ
@@ -1130,7 +1134,7 @@
 163	ⲉⲓⲱⲧ	ⲉⲓⲱⲧ	NOUN	N	_	160	nmod	_	Entity=person)abstract)|Orig=ⲓ̈ⲱⲧ
 164	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0014
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0015
 # text_en = ...
 # text = ⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧϭⲱϣⲧ ⲉϩⲟⲩⲛ ⲁⲓϯ ⲛⲁⲩ ⲛⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲁⲓⲧⲣⲉⲩⲃⲱⲕ ⲉⲡⲉⲥⲏⲧ ⲉⲡⲉⲭⲁⲟⲥ ⲉⲧⲣⲉⲩⲃⲟⲏⲑⲉⲓ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲩⲱ ⲛⲥⲉϥⲓ ⲛⲛϭⲟⲙ ⲛⲟⲩⲟⲉⲓⲛ ⲛⲁⲓ ⲛⲧⲁⲩϥⲓⲧⲟⲩ ⲛⲧⲟⲟⲧⲥ ⲛϭⲓⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲇⲏⲥ ⲛⲥⲉϥⲓⲧⲟⲩ ⲛⲧⲟⲟⲧⲟⲩ · ⲁⲩⲱ ⲛⲥⲉⲧⲁⲁⲩ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲩⲱ ⲛⲧⲉⲩⲛⲟⲩ ⲛⲧⲁⲩϫⲓⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲉⲡⲉⲥⲏⲧ ⲉⲡⲉⲭⲁⲟⲥ .
 1-2	ⲡⲓϣⲟⲣⲡ	_	_	_	_	_	_	_	_
@@ -1258,7 +1262,7 @@
 94	ⲭⲁⲟⲥ	ⲭⲁⲟⲥ	NOUN	N	Foreign=Yes	86	obl	_	Entity=abstract)abstract)|OrigLang=grc
 95	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0015
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0016
 # text_en = ...
 # text = ⲁⲥⲣⲟⲩⲟⲓⲛ ⲉⲙⲁϣⲟ ⲉⲙⲁϣⲟ ϩⲙⲡⲉⲭⲁⲟⲥ ⲧⲏⲣϥ ·
 1-3	ⲁⲥⲣⲟⲩⲟⲓⲛ	_	_	_	_	_	_	_	_
@@ -1276,7 +1280,7 @@
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	9	det	_	Entity=abstract)|Orig=ϥ̅
 11	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0016
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0017
 # text_en = ...
 # text = ⲁⲩⲱ ⲁⲥⲟⲩⲱϣⲥ ⲉⲃⲟⲗ ϩⲛⲛⲉⲩⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲛⲧⲉⲣⲟⲩⲛⲁⲩ ⲉⲡⲛⲟϭ ⲛⲟⲩⲟⲉⲓⲛ ⲛⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲉⲧⲙⲙⲁⲩ · ⲛϭⲓⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲧⲏⲥ ⲁⲩⲣϩⲟⲧⲉ ⲉϫⲛⲛⲉⲩⲉⲣⲏⲩ · ⲁⲩⲱ ⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲉⲧⲙⲙⲁⲩ ⲁⲥⲧⲱⲕⲙ ⲉⲃⲟⲗ ⲛϩⲏⲧⲟⲩ ⲛϭⲟⲙ ⲛⲓⲙ ⲛⲟⲩⲟⲉⲓⲛ ⲛⲁⲓ ⲛⲧⲁⲩϥⲓⲧⲟⲩ ⲛⲧⲟⲟⲧⲥ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
@@ -1367,7 +1371,7 @@
 65	ⲥⲟⲫⲓⲁ	ⲥⲟⲫⲓⲁ	ADJ	N	Foreign=Yes	64	amod	_	Entity=abstract)abstract)|OrigLang=grc
 66	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0017
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0018
 # text_en = ...
 # text = ⲁⲩⲱ ⲙⲡⲟⲩϣⲧⲟⲗⲙⲁ ⲛϭⲓⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲧⲏⲥ ⲉⲁⲙⲁϩⲧⲉ ⲛⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲉⲧⲙⲙⲁⲩ ϩⲙⲡⲉⲭⲁⲟⲥ ⲛⲕⲁⲕⲉ · ⲟⲩⲇⲉ ⲙⲡⲟⲩϣⲁⲙⲁϩⲧⲉ ⲙⲙⲟⲥ ϩⲛⲧⲧⲉⲭⲛⲏ ⲙⲡⲁⲩⲑⲁⲧⲏⲥ ⲡⲁⲓ ⲉⲧⲁⲙⲁϩⲧⲉ ⲉϫⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ · ⲁⲩⲱ ⲅⲁⲃⲣⲓⲏⲗ ⲙⲛⲙⲓⲭⲁⲏⲗ · ⲁⲩⲉⲓⲛⲉ ⲛⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲉϫⲙⲡⲥⲱⲙⲁ ⲛⲧϩⲩⲗⲏ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲩⲱ ⲁⲩⲛⲟⲩϫⲉ ⲉϩⲟⲩⲛ ⲉⲣⲟⲥ ⲛⲛⲉⲥⲟⲩⲟⲉⲓⲛ ⲧⲏⲣⲟⲩ ⲉⲛⲧⲁⲩϥⲓⲧⲟⲩ ⲛⲧⲟⲟⲧⲥ · ⲁⲩⲱ ⲁϥϫⲓ ⲟⲩⲟⲉⲓⲛ ⲧⲏⲣϥ ⲛϭⲓⲡⲥⲱⲙⲁ ⲛⲧⲉⲥϩⲩⲗⲏ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	5	cc	_	_
@@ -1505,7 +1509,7 @@
 101	ϩⲩⲗⲏ	ϩⲩⲗⲏ	NOUN	N	Foreign=Yes	98	nmod	_	Entity=object)object)|OrigLang=grc
 102	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0018
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0019
 # text_en = ...
 # text = ⲁⲩⲱ ⲟⲛ ⲁⲩϫⲓ ⲟⲩⲟⲉⲓⲛ ⲛϭⲓⲛⲉⲥϭⲟⲙ ⲧⲏⲣⲟⲩ ⲉⲧⲛϩⲏⲧⲥ ⲛⲁⲓ ⲉⲛⲧⲁⲩϥⲓⲡⲉⲩⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲁⲩⲗⲟ ⲉⲩϣⲁⲁⲧ ⲛⲟⲩⲟⲉⲓⲛ ϫⲉⲁⲩϥⲓ ⲡⲉⲩⲟⲩⲟⲉⲓⲛ ⲉⲛⲧⲁⲩϥⲓⲧϥ ⲛⲧⲟⲟⲧⲟⲩ ⲉⲃⲟⲗ ϫⲉⲛⲧⲁⲩϯ ⲡⲟⲩⲟⲉⲓⲛ ⲛⲁⲩ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧ · ⲁⲩⲱ ⲙⲓⲭⲁⲏⲗ · ⲙⲛⲅⲁⲃⲣⲓⲏⲗ · ⲛⲁⲓ ⲉⲛⲧⲁⲩⲇⲓⲁⲕⲟⲛⲓ ⲛⲁⲓ ⲉⲛⲧⲁⲩϫⲓⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲉⲡⲉⲭⲁⲟⲥ .
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	5	cc	_	_
@@ -1608,7 +1612,7 @@
 77	ⲭⲁⲟⲥ	ⲭⲁⲟⲥ	NOUN	N	Foreign=Yes	72	obl	_	Entity=abstract)abstract)|OrigLang=grc
 78	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0019
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0020
 # text_en = ...
 # text = ⲉⲥⲛⲁϯ ⲛⲁⲩ ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡⲟⲩⲟⲉⲓⲛ ⲛⲧⲟⲟⲩ ⲛⲉ ⲛⲧⲁⲩⲧⲁⲛϩⲟⲩⲧⲟⲩ ⲉⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ · ⲧⲁⲓ ⲉⲛⲧⲁⲓⲧⲁⲁⲥ ⲛⲁⲩ ⲁⲓϫⲓⲧⲥ ⲉⲡⲉⲭⲁⲟⲥ · ⲁⲩⲱ ⲙⲓⲭⲁⲏⲗ ⲅⲁⲃⲣⲓⲏⲗ · ⲙⲡⲟⲩϥⲓ ⲗⲁⲁⲩ ⲛⲟⲩⲟⲉⲓⲛ ⲛⲁⲩ ϩⲛⲛⲟⲩⲟⲉⲓⲛ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲛⲁⲓ ⲉⲛⲧⲁⲩϥⲓⲧⲟⲩ ⲛⲧⲟⲟⲧⲟⲩ ⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲇⲏⲥ · ⲁⲥϣⲱⲡⲉ ϭⲉ ⲛⲧⲉⲣⲉⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲛⲧⲉⲣⲉⲥⲛⲟⲩϫⲉ ⲉϩⲟⲩⲛ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ⲛⲛⲉⲥϭⲟⲙ ⲧⲏⲣⲟⲩ ⲛⲟⲩⲟⲉⲓⲛ . ⲛⲁⲓ ⲛⲧⲁⲥϥⲓⲧⲟⲩ ⲛⲧⲟⲟⲧⲟⲩ ⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲧⲏⲥ ·
 1-4	ⲉⲥⲛⲁϯ	_	_	_	_	_	_	_	_
@@ -1757,7 +1761,7 @@
 112	ⲡⲁⲩⲑⲁⲧⲏⲥ	ⲡⲁⲩⲑⲁⲧⲏⲥ	DET	PPOS	_	110	nmod	_	Entity=abstract)abstract)
 113	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0020
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0021
 # text_en = ...
 # text = ⲁⲥⲣⲟⲩⲟⲓⲛ ⲧⲏⲣⲥ · ⲁⲩⲱ ⲛⲕⲉϭⲟⲙ ⲛⲟⲩⲟⲉⲓⲛ ⲛⲁⲓ ⲉⲧϣⲟⲟⲡ ϩⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲛⲁⲓ ⲉⲧⲉⲙⲡⲟⲩϥⲓⲧⲟⲩ ⲛϭⲓⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲇⲏⲥ ⲁⲩⲟⲩⲣⲟⲧ ⲟⲛ · ⲁⲩⲱ ⲁⲩⲙⲟⲩϩ ⲛⲟⲩⲟⲉⲓⲛ · ⲁⲩⲱ ⲛⲟⲩⲟⲉⲓⲛ ⲉⲛⲧⲁⲩⲛⲟϫⲟⲩ ⲉϩⲟⲩⲛ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲩⲧⲁⲛϩⲉ ⲡⲥⲱⲙⲁ ⲛⲧⲉⲥϩⲩⲗⲏ · ⲧⲁⲓ ⲉⲧⲉⲙⲛⲟⲩⲟⲉⲓⲛ ⲛϩⲏⲧⲥ . ⲧⲁⲓ ⲉⲛⲉⲥⲛⲁⲧⲁⲕⲟ ⲡⲉ · ⲏ ⲧⲁⲓ ⲉϣⲁⲥⲧⲁⲕⲟ · ⲁⲩⲱ ⲁⲩⲧⲁϩⲉ ⲉⲣⲁⲧⲟⲩ ⲛⲛⲉⲥϭⲟⲙ ⲧⲏⲣⲟⲩ ⲛⲁⲓ ⲉⲛⲉⲩⲛⲁⲃⲱⲗ ⲉⲃⲟⲗ · ⲁⲩⲱ ⲁⲩϫⲓ ⲛⲁⲩ ⲛⲟⲩϭⲟⲙ ⲛⲟⲩⲟⲉⲓⲛ · ⲁⲩⲣⲧϩⲉ ⲟⲛ ⲉⲛⲉⲩⲟ ⲙⲙⲟⲥ ⲛϣⲟⲣⲡ · ⲁⲩⲱ ⲟⲛ ⲁⲩϫⲓⲥⲉ ϩⲛⲧⲁⲓⲥⲑⲏⲥⲓⲥ ⲛⲟⲩⲟⲉⲓⲛ · ⲁⲩⲱ ⲛϭⲟⲙ ⲧⲏⲣⲟⲩ ⲛⲟⲩⲟⲉⲓⲛ ⲛⲧⲉⲧⲥⲟⲫⲓⲁ ·
 1-3	ⲁⲥⲣⲟⲩⲟⲓⲛ	_	_	_	_	_	_	_	_
@@ -1958,7 +1962,7 @@
 154	ⲥⲟⲫⲓⲁ	ⲥⲟⲫⲓⲁ	NOUN	N	Foreign=Yes	151	nmod	_	Entity=abstract)abstract)abstract)abstract)|OrigLang=grc
 155	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0021
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0022
 # text_en = ...
 # text = ⲁⲩⲥⲟⲩⲛ ⲛⲉⲩⲉⲣⲏⲩ ⲉⲃⲟⲗ ϩⲓⲧⲛⲧⲁⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ · ⲁⲩⲱ ⲁⲩⲛⲟⲩϩⲙ ϩⲓⲧⲙⲡⲟⲩⲟⲉⲓⲛ ⲛⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲉⲧⲙⲙⲁⲩ · ⲁⲩⲱ ⲧⲁⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲛⲧⲉⲣⲉⲥϥⲓ ⲛⲛⲟⲩⲟⲉⲓⲛ ⲛⲧⲟⲟⲧⲟⲩ ⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲧⲏⲥ ⲛⲁⲓ ⲉⲛⲧⲁⲩϥⲓⲧⲟⲩ ⲛⲧⲟⲟⲧⲥ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲥⲛⲟϫⲟⲩ ⲉϩⲟⲩⲛ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲩⲱ ⲁⲥⲕⲟⲧⲥ ⲁⲥⲉⲓ ⲉϩⲣⲁⲓ ϩⲙⲡⲉⲭⲁⲟⲥ :
 1-3	ⲁⲩⲥⲟⲩⲛ	_	_	_	_	_	_	_	_
@@ -2062,7 +2066,7 @@
 77	ⲭⲁⲟⲥ	ⲭⲁⲟⲥ	NOUN	N	Foreign=Yes	73	obl	_	Entity=abstract)|OrigLang=grc
 78	:	:	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0022
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0023
 # text_en = ...
 # text = ⲛⲁⲓ ϭⲉ ⲉⲣⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϫⲱ ⲙⲙⲟⲟⲩ ⲉⲙⲙⲁⲑⲏⲧⲏⲥ ϫⲉⲁⲩϣⲱⲡⲉ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ϩⲙⲡⲉⲭⲁⲟⲥ · ⲁϥⲟⲩⲱϣⲃ ⲡⲉϫⲁϥ ⲛⲁⲩ ϫⲉⲧⲉⲧⲛⲛⲟⲉⲓ ϫⲉⲉⲓϣⲁϫⲉ ⲛⲙⲙⲏⲧⲛ ⲛⲁϣ ⲛϩⲉ .
 1	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	8	dislocated	_	Entity=(abstract)|Orig=ⲛⲁⲓ̈
@@ -2127,7 +2131,7 @@
 45	ϩⲉ	ϩⲉ	NOUN	N	_	43	nmod	_	_
 46	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0023
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0024
 # text_en = ...
 # text = ⲍ ⲁϥⲉⲓ ⲉⲧϩⲏ ⲛϭⲓⲡⲉⲧⲣⲟⲥ ⲡⲉϫⲁϥ ϫⲉⲡⲁϫⲟⲉⲓⲥ · ⲉⲧⲃⲉⲡⲃⲱⲗ ⲛⲛϣⲁϫⲉ ⲉⲛⲧⲁⲕϫⲟⲟⲩ ·
 1	ⲍ	ⲍ	PUNCT	PUNCT	_	4	punct	_	Orig=Ⲍ
@@ -2165,7 +2169,7 @@
 25	ϫⲟⲟⲩ	ϫⲟⲟⲩ	VERB	V	VerbForm=Fin	21	acl:relcl	_	Entity=abstract)abstract)
 26	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0024
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0025
 # text_en = ...
 # text = ⲁⲧⲉⲕϭⲟⲙ ⲛⲟⲩⲟⲉⲓⲛ ⲡⲣⲟⲫⲏⲧⲉⲩⲉ ϩⲁⲣⲟⲟⲩ ⲙⲡⲓⲟⲩⲟⲉⲓϣ ϩⲓⲧⲛⲥⲟⲗⲟⲙⲱⲛ ϩⲛⲛⲉϥⲱⲇⲏ · ϫⲉⲁⲥⲉⲓ ⲉⲃⲟⲗ ⲛϭⲓⲟⲩ ⲁⲡⲟϩⲣⲟⲓⲁⲁⲥⲣⲟⲩⲛⲟϭ ⲛⲓⲉⲣⲟⲉϥⲟⲩⲟϣⲥ ·
 1-3	ⲁⲧⲉⲕϭⲟⲙ	_	_	_	_	_	_	_	_
@@ -2208,7 +2212,7 @@
 28	ⲟⲩⲟϣⲥ	ⲟⲩⲟϣⲥ	NOUN	N	_	26	nmod	_	Entity=abstract)|Orig=ⲟⲩⲟϣⲥ̅
 29	·	·	PUNCT	PUNCT	_	6	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0025
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0026
 # text_en = ...
 # text = ⲁⲥⲥⲟⲕⲟⲩ ⲧⲏⲣⲟⲩ · ⲁⲩⲱ ⲁⲥⲕⲟⲧⲥ ⲉϫⲙⲡⲉⲣⲡⲉ ⲙⲡⲟⲩϣⲁⲙⲁϩⲧⲉ ⲙⲙⲟⲥ · ϩⲛϩⲉⲛⲱⲣϫ · ⲙⲛϩⲉⲛⲙⲁ ⲉⲩⲕⲏⲧ · ⲟⲩⲇⲉ ⲙⲡⲟⲩϣⲁⲙⲁϩⲧⲉ ⲙⲙⲟⲥ ⲛϭⲓⲛⲧⲉⲭⲛⲏ ⲛⲛⲉⲧⲁⲙⲁϩⲧⲉ ⲙⲙⲟⲟⲩ · ⲁⲩⲛⲧⲥ ⲉϫⲙⲡⲕⲁϩ ⲧⲏⲣϥ · ⲁⲩⲱ ⲁⲥⲁⲙⲁϩⲧⲉ ⲙⲙⲟⲟⲩ ⲧⲏⲣⲟⲩ · ⲁⲩⲥⲱ ⲛϭⲓⲛⲉⲧϣⲟⲟⲡ ϩⲓϫⲙⲡϣⲱ ⲉⲧϣⲟⲩⲱⲟⲩ ·
 1-4	ⲁⲥⲥⲟⲕⲟⲩ	_	_	_	_	_	_	_	_
@@ -2318,7 +2322,7 @@
 81	ϣⲟⲩⲱⲟⲩ	ϣⲟⲩⲱⲟⲩ	VERB	VSTAT	VerbForm=Fin	79	acl:relcl	_	Entity=substance)
 82	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0026
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0027
 # text_en = ...
 # text = ⲁⲡⲉⲩⲉⲓⲃⲉ ⲃⲱⲗ ⲉⲃⲟⲗ ⲁⲩⲱ ⲁϥⲱϣⲙ ⲛⲧⲉⲣⲟⲩϯ ⲛⲁⲩ ⲙⲡⲥⲱ ⲛⲧⲟⲟⲧϥ ⲙⲡⲉⲧϫⲟⲥⲉ · ϩⲉⲛⲙⲁⲕⲁⲣⲓⲟⲥ ⲛⲉ ⲛⲇⲓⲁⲕⲱⲛ ⲙⲡⲥⲱ ⲉⲧⲙⲙⲁⲩ ⲛⲏ ⲉⲛⲧⲁⲩⲧⲁⲛϩⲟⲩⲧⲟⲩ · ⲉⲡⲙⲟⲟⲩ ⲙⲡϫⲟⲉⲓⲥ · ⲁⲩⲕⲧⲟ ⲛϩⲉⲛⲥⲡⲟⲧⲟⲩ ⲉⲁⲩϣⲟⲟⲩⲉ ·
 1-3	ⲁⲡⲉⲩⲉⲓⲃⲉ	_	_	_	_	_	_	_	_
@@ -2398,7 +2402,7 @@
 58	ϣⲟⲟⲩⲉ	ϣⲟⲟⲩⲉ	VERB	V	VerbForm=Fin	54	acl:relcl	_	Entity=abstract)
 59	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0027
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0028
 # text_en = ...
 # text = ⲁⲩϫⲓ ⲛⲟⲩⲟⲩⲣⲟⲧ ⲛϩⲏⲧ .
 1-3	ⲁⲩϫⲓ	_	_	_	_	_	_	_	_
@@ -2414,7 +2418,7 @@
 8	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	6	nmod	_	Entity=abstract)
 9	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0028
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0029
 # text_en = ...
 # text = ⲛϭⲓⲛⲏ ⲉⲧⲃⲏⲗ ⲉⲃⲟⲗ ⲁⲩⲁⲙⲁϩⲧⲉ ⲛϩⲉⲛⲯⲩⲭⲏ ⲉⲩⲛⲟⲩϫⲉ ⲙⲡⲧⲏⲩ ϫⲉⲛⲛⲉⲩⲙⲟⲩ · ⲁⲩⲧⲁϩⲟ ⲛϩⲉⲛⲙⲉⲗⲟⲥ ⲉⲣⲁⲧⲟⲩ ⲉⲁⲩϩⲉ · ⲁⲩϯϭⲟⲙ ⲛⲧⲉⲩⲡⲁⲣϩⲏⲥⲓⲁ · ⲁⲩⲱ ⲁⲩϯⲟⲩⲟⲓⲛ ⲛⲛⲉⲩⲃⲁⲗ ϫⲉⲛⲧⲟⲟⲩ ⲧⲏⲣⲟⲩ ⲁⲩⲥⲟⲩⲱⲛⲟⲩ ϩⲙⲡϫⲟⲉⲓⲥ · ⲁⲩⲱ ⲁⲩⲛⲟⲩϩⲙ ϩⲓⲧⲛⲟⲩⲙⲟⲟⲩ ⲛⲱⲛϩ ⲛϣⲁⲉⲛⲉϩ .
 1-2	ⲛϭⲓⲛⲏ	_	_	_	_	_	_	_	_
@@ -2517,7 +2521,7 @@
 75	ⲉⲛⲉϩ	ⲉⲛⲉϩ	ADV	ADV	_	72	nmod	_	Entity=abstract)substance)
 76	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0029
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0030
 # text_en = ...
 # text = ⲥⲱⲧⲙ ϭⲉ ⲡⲁϫⲟⲉⲓⲥ ⲧⲁⲧⲁⲩⲉⲡϣⲁϫⲉ ϩⲛⲟⲩⲡⲁⲣϩⲏⲥⲓⲁ · ⲕⲁⲧⲁⲧϩⲉ ⲛⲧⲁⲧⲉⲕϭⲟⲙ ⲡⲣⲟⲫⲏⲧⲉⲩⲉ ϩⲡⲛⲥⲟⲗⲟⲙⲱⲛ · ϫⲉⲟⲩ ⲁⲡⲟϩⲣⲟⲓⲁ ⲁⲥⲉⲓ ⲉⲃⲟⲗ ⲁⲥⲣⲟⲩⲛⲟϭ ⲛⲓⲉⲣⲟⲉϥⲟⲩⲟϣⲥ · ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲁϯⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲟⲩⲱϣⲥ ⲉⲃⲟⲗ ϩⲙⲡⲉⲭⲁⲟⲥ · ϩⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲧⲏⲥ · ⲁⲩⲱ ⲡϣⲁϫⲉ ⲟⲛ ⲉⲛⲧⲁⲧⲉⲕϭⲟⲙ ϫⲟⲟϥ ϩⲓⲧⲛⲥⲟⲗⲟⲙⲱⲛ · ϫⲉⲁⲥⲥⲟⲕⲟⲩ ⲧⲏⲣⲟⲩ ·
 1	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲥⲱⲧⲙ̅
@@ -2629,7 +2633,7 @@
 83	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	82	det	_	_
 84	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0030
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0031
 # text_en = ...
 # text = ⲁⲥⲛⲧⲟⲩ ⲉϫⲙⲡⲉⲣⲡⲉ ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲁⲥⲥⲱⲕ ⲛⲛϭⲟⲙ ⲧⲏⲣⲟⲩ ⲛⲟⲩⲟⲉⲓⲛ ⲉⲃⲟⲗ ϩⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲇⲏⲥ ⲛⲁⲓ ⲉⲛⲧⲁⲩϥⲓⲧⲟⲩ ϩⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲩⲱ ⲁⲥⲛⲟϫⲟⲩ ⲉϩⲟⲩⲛ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ⲛⲕⲉⲥⲟⲡ · ⲁⲩⲱ ⲡϣⲁϫⲉ ⲟⲛ ⲉⲛⲧⲁⲧⲉⲕϭⲟⲙ ϫⲟⲟϥ ϫⲉⲙⲡⲟⲩϣⲁⲙⲁϩⲧⲉ ⲙⲙⲟⲥ ⲛϭⲓϩⲉⲛⲱⲣϫ · ⲙⲛϩⲉⲛⲙⲁ ⲉⲩⲕⲏⲧ · ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲙⲡⲉⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲧⲏⲥ ⲙⲡⲟⲩϣⲁⲙⲁϩⲧⲉ ⲛϯ ⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ϩⲣⲁⲓ ϩⲛⲛⲥⲟⲃⲧ ⲙⲡⲕⲁⲕⲉ ⲛⲧⲉⲡⲉⲭⲁⲟⲥ · ⲁⲩⲱ ⲡϣⲁϫⲉ ⲟⲛ ⲉⲛⲧⲁⲥϫⲟⲟϥ ϫⲉⲛⲧⲁⲩⲛⲧⲥ ⲉϫⲙⲡⲕⲁϩ ⲧⲏⲣϥ · ⲁⲩⲱ ⲁⲥⲙⲉϩⲛⲕⲁ ⲛⲓⲙ · ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲛⲧⲉⲣⲉⲅⲁⲃⲣⲓⲏⲗ ⲙⲛⲙⲓⲭⲁⲏⲗ ·
 1-3	ⲁⲥⲛⲧⲟⲩ	_	_	_	_	_	_	_	_
@@ -2820,7 +2824,7 @@
 145	ⲙⲓⲭⲁⲏⲗ	ⲙⲓⲭⲁⲏⲗ	PROPN	NPROP	Foreign=Yes	143	conj	_	Entity=(person-Michael_%28archangel%29)|OrigLang=he
 146	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0031
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0032
 # text_en = ...
 # text = ⲛⲧⲉⲣⲟⲩⲛⲧⲥ ⲉϫⲙⲡⲥⲱⲙⲁ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ⲁⲥⲛⲟⲩϫⲉ ⲉϩⲟⲩⲛ ⲉⲣⲟⲥ ⲛⲛⲟⲩⲟⲉⲓⲛ ⲧⲏⲣⲟⲩ ⲛⲁⲓ ⲉⲛⲧⲁⲩϥⲓⲧⲟⲩ ⲛϩⲏⲧⲥ ⲛϭⲓⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲉⲙⲡⲁⲩⲑⲁⲧⲏⲥ ⲁⲩⲱ ⲁϥⲣⲟⲩⲟⲉⲓⲛ ⲛϭⲓⲡⲥⲱⲙⲁ ⲛⲧⲉⲥϩⲩⲗⲏ · ⲁⲩⲱ ⲡϣⲁϫⲉ ⲉⲛⲧⲁⲥϫⲟⲟϥ ϫⲉⲁⲩⲥⲱ ⲛϭⲓⲛⲉⲧϣⲟⲟⲡ ϩⲓϫⲙⲡϣⲱ ⲉⲧϣⲟⲩⲱⲟⲩ ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲁⲩϫⲓ ⲟⲩⲟⲉⲓⲛ ⲛϭⲓⲛⲉⲧϣⲟⲟⲡ ⲧⲏⲣⲟⲩ · ϩⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲛⲁⲓ ⲉⲛⲧⲁⲩϥⲓⲡⲉⲩⲟⲩⲟⲉⲓⲛ ⲛϣⲟⲣⲡ . ⲁⲩⲱ ⲡϣⲁϫⲉ ⲉⲛⲧⲁⲥϫⲟⲟϥ ϫⲉⲁⲡⲉⲩⲉⲓⲃⲉ ⲃⲱⲗ ⲉⲃⲟⲗ ⲁⲩⲱ ⲁϥⲱϣⲙ . ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲁⲛⲉⲥϭⲟⲙ ⲗⲟ ⲉⲩϣⲁⲁⲧ ⲛⲟⲩⲟⲉⲓⲛ ϫⲉⲁⲩϯ ⲛⲁⲩ ⲙⲡⲉⲩⲟⲩⲟⲉⲓⲛ ⲉⲛⲧⲁⲩϥⲓⲧϥ ⲛⲧⲟⲟⲧⲟⲩ · ⲁⲩⲱ ⲟⲛ ⲕⲁⲧⲁⲧϩⲉ ⲟⲛ ⲉⲛⲧⲁⲥϫⲟⲟⲥ ⲛϭⲓⲧⲉⲕϭⲟⲙ · ϫⲉⲛⲧⲁⲩϯ ⲛⲁⲩ ⲙⲡⲥⲱ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧϥ ⲙⲡⲉⲧϫⲟⲥⲉ ·
 1-4	ⲛⲧⲉⲣⲟⲩⲛⲧⲥ	_	_	_	_	_	_	_	_
@@ -3051,7 +3055,7 @@
 178	ϫⲟⲥⲉ	ϫⲓⲥⲉ	VERB	VSTAT	VerbForm=Fin	176	acl:relcl	_	Entity=person)abstract)
 179	·	·	PUNCT	PUNCT	_	14	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0032
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0033
 # text_en = ...
 # text = ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲛⲧⲁⲩϯ ⲡⲟⲩⲟⲉⲓⲛ ⲛⲁⲩ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲥ ⲛϯ ⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ · ⲧⲁⲓ ⲉⲛⲧⲁⲥⲉⲓ ⲉⲃⲟⲗ ⲛϩⲏⲧ ⲁⲛⲟⲕ ⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲁⲩⲱ ⲕⲁⲧⲁⲧϩⲉ ⲉⲛⲧⲁⲥϫⲟⲟⲥ ⲛϭⲓⲧⲉⲕϭⲟⲙ ϫⲉϩⲉⲛⲙⲁⲕⲁⲣⲓⲟⲥ ⲛⲉ ⲛⲇⲓⲁⲕⲱ ⲙⲡⲥⲱ ⲉⲧⲙⲙⲁⲩ · ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϣⲁϫⲉ ⲉⲛⲧⲁⲕϫⲟⲟϥ ϫⲉⲙⲓⲭⲁⲏⲗ · ⲙⲛⲅⲁⲃⲣⲓⲏⲗ · ⲛⲁⲓ ⲛⲧⲁⲩⲇⲓⲁⲕⲟⲛⲓ · ⲁⲩϫⲓ ⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲉⲡⲉⲭⲁⲟⲥ · ⲁⲩⲱ ⲟⲛ ⲁⲩⲛⲧⲥ ⲉϩⲣⲁⲓ . ⲥⲉⲛⲁϯ ⲛⲁⲩ ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡⲟⲩⲟⲉⲓⲛ ⲙⲡϫⲓⲥⲉ . ⲛⲁⲓ ⲛⲧⲁⲩⲧⲁⲛϩⲟⲩⲧⲟⲩ ⲉⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲙⲡⲟⲩⲟⲉⲓⲛ · ⲁⲩⲱ ⲟⲛ ⲕⲁⲧⲁⲧϩⲉ ⲉⲛⲧⲁⲥϫⲟⲟⲥ ⲛϭⲓⲧⲉⲕϭⲟⲙ ϫⲉⲁⲩⲕⲧⲟ ⲛϩⲉⲛⲥⲡⲟⲧⲟⲩ ⲉⲁⲩϣⲟⲟⲩⲉ · ⲉⲧⲉⲡⲁⲓ ⲡⲉ ⲅⲁⲃⲣⲓⲏⲗ · ⲙⲛⲙⲓⲭⲁⲏⲗ ·
 1-2	ⲉⲧⲉⲡⲁⲓ	_	_	_	_	_	_	_	_
@@ -3252,7 +3256,7 @@
 155	ⲙⲓⲭⲁⲏⲗ	ⲙⲓⲭⲁⲏⲗ	PROPN	NPROP	Foreign=Yes	152	conj	_	Entity=(person-Michael_%28archangel%29)|OrigLang=he
 156	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0033
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0034
 # text_en = ...
 # text = ⲙⲡⲟⲩϥⲓ ⲛⲁⲩ ⲉⲃⲟⲗ ϩⲛⲛⲟⲩⲟⲉⲓⲛ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲛⲁⲓ ⲛⲧⲁⲩⲧⲟⲣⲡⲟⲩ ⲛⲧⲟⲟⲧⲟⲩ ⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲇⲏⲥ · ⲁⲗⲗⲁ ⲁⲩⲛⲟϫⲟⲩ ⲉϩⲟⲩⲛ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ⲁⲩⲱ ⲟⲛ ⲡϣⲁϫⲉ ⲉⲛⲧⲁⲥϫⲟⲟϥ ϫⲉⲁⲩϫⲓ ⲛⲟⲩⲟⲩⲣⲟⲧ ⲛϩⲏⲧ · ⲛϭⲓⲛⲏ ⲉⲧⲃⲏⲗ ⲉⲃⲟⲗ . ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲛϭⲉϭⲟⲙ ⲧⲏⲣⲟⲩ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲛⲁⲓ ⲉⲧⲉⲙⲡⲟⲩϥⲓⲧⲟⲩ ⲛϭⲓⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲇⲏⲥ ⲁⲩⲟⲩⲣⲟⲧⲧⲟⲛⲱ . ⲁⲩⲱ ⲁⲩⲙⲟⲩϩ ⲛⲟⲩⲟⲉⲓⲛ ⲉⲃⲟⲗ ϩⲙⲡⲉⲩϣⲃⲣⲟⲩⲟⲓⲛ · ϫⲉⲁⲩⲛⲟϫⲟⲩ ⲉϩⲟⲩⲛ ⲉⲣⲟⲟⲩ . ⲁⲩⲱ ⲡϣⲁϫⲉ ⲉⲛⲧⲁⲧⲉⲕϭⲟⲙ ϫⲟⲟϥ ϫⲉⲁⲩⲧⲁⲛϩⲟ ⲛϩⲉⲛⲯⲩⲭⲏ ⲉⲩⲛⲟⲩϫⲉ ⲙⲡⲧⲏⲩ · ϫⲉⲛⲛⲉⲩⲙⲟⲩ . ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲛⲧⲉⲣⲟⲩⲛⲟⲩϫⲉ ⲛⲛⲟⲩⲟⲉⲓⲛ ⲉϩⲟⲩⲛ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲩⲧⲁⲛϩⲟ ⲙⲡⲥⲱⲙⲁ ⲛⲧⲉⲥϩⲩⲗⲏ · ⲡⲁⲓ ⲉⲛⲧⲁⲩϥⲓⲛⲉϥⲟⲩⲟⲉⲓⲛ ⲛϩⲏⲧϥ ⲛϣⲟⲣⲡ · ⲡⲁⲓ ⲉⲛⲉϥⲛⲁⲧⲁⲕⲟ ⲡⲉ : ⲁⲩⲱ ⲟⲛ ⲡϣⲁϫⲉ ⲉⲛⲧⲁⲧⲉⲕϭⲟⲙ ϫⲟⲟϥ ϫⲉⲁⲩⲧⲁϩⲟ ⲛϩⲉⲛⲙⲉⲗⲟⲥ ⲉⲣⲁⲧⲟⲩ ⲉⲁⲩϩⲉ · ⲏ ϫⲉⲛⲛⲉⲩϩⲉ · ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲛⲧⲉⲣⲟⲩⲛⲟⲩϫⲉ ⲉϩⲟⲩⲛ ⲉⲣⲟⲥ ⲛⲛⲉⲥⲟⲩⲟⲉⲓⲛ ⲁⲩⲧⲁϩⲟ ⲉⲣⲁⲧⲟⲩ ⲛⲛⲉⲥϭⲟⲙ ⲧⲏⲣⲟⲩ · ⲛⲁⲓ ⲉⲛⲉⲩⲛⲁⲃⲱⲗ ⲉⲃⲟⲗ ·
 1-3	ⲙⲡⲟⲩϥⲓ	_	_	_	_	_	_	_	_
@@ -3568,7 +3572,7 @@
 245	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	244	advmod	_	_
 246	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0034
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0035
 # text_en = ...
 # text = ⲁⲩⲱ ⲟⲛ ⲕⲁⲧⲁⲧϩⲉ ⲉⲛⲧⲁⲧⲉⲕϭⲟⲙ ⲛⲟⲩⲟⲉⲓⲛ ϫⲟⲟⲥ ϫⲉⲁⲩϯ ⲛⲟⲩϭⲟⲙ ⲛⲧⲉⲩⲡⲁⲣϩⲏⲥⲓⲁ · ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲁⲩϫⲓ ⲟⲛ ⲙⲡⲉⲩⲟⲩⲟⲉⲓⲛ · ⲁⲩⲱ ⲁⲩⲣⲧϩⲉ ⲉⲛⲉⲩⲟ ⲙ ⲙⲙⲟⲥ ⲛϣⲟⲣⲡ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	5	cc	_	_
@@ -3638,7 +3642,7 @@
 51	ϣⲟⲣⲡ	ϣⲟⲣⲡ	NOUN	N	_	46	obl	_	Orig=ϣⲟⲣⲡ̅
 52	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0035
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0036
 # text_en = ...
 # text = ⲁⲩⲱ ⲟⲛ ⲡϣⲁϫⲉ ⲉⲛⲧⲁⲥϫⲟⲟϥ ϫⲉⲁⲩϯ ⲟⲩⲟⲩⲟⲉⲓⲛ ⲉⲛⲉⲩⲃⲁⲗ ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲁⲩϫⲓ ⲁⲓⲥⲑⲏⲥⲓⲥ ϩⲙⲡⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲁⲩⲥⲟⲩⲛⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ϫⲉⲉⲥⲏⲡ ⲉⲡϫⲓⲥⲉ . ⲁⲩⲱ ⲟⲛ ⲡϣⲁϫⲉ ⲉⲛⲧⲁⲥϫⲟⲟϥ · ϫⲉⲛⲧⲟⲟⲩ ⲧⲏⲣⲟⲩ ⲁⲩⲥⲟⲩⲱⲛⲟⲩ ϩⲙⲡϫⲟⲉⲓⲥ · ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉ□□ϭⲟⲙ ⲧⲏⲣⲟⲩ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲩⲥⲟⲩⲛ ⲛⲉⲩⲉⲣⲏⲩ ϩⲓⲧⲛϯⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
@@ -3755,11 +3759,11 @@
 87	ⲟⲩⲟⲉⲓⲛ	ⲟⲩⲟⲉⲓⲛ	NOUN	N	_	85	nmod	_	Entity=(abstract)abstract)|Orig=ⲟⲩⲟⲓ̈ⲛ
 88	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0036
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0037
 # text_en = ...
-# text = ⲁⲩⲱ ⲟⲛ ⲡϣⲁϫⲉ ⲉⲛⲧⲁⲥϫⲟⲟϥ ϫⲉⲁⲩⲛⲟⲩϩⲙ ϩⲓⲧⲛⲟⲩⲙⲟⲟⲩ ⲛⲱⲛϩ ⲛϣⲁⲉⲛⲉϩ · ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲁⲩⲛⲟⲩϩⲙ ϩⲓⲧⲛϯⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲧⲏⲣⲥ · ⲁⲩⲱ ⲡϣⲁϫⲉ ⲉⲛⲧⲁⲥϫⲟⲟϥ ϫⲉⲁⲥⲥⲟⲕⲟⲩ ⲧⲏⲣⲟⲩ ⲛϭⲓϯⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲁⲥⲥⲟⲕⲟⲩ ⲉϫⲙⲡⲣⲡⲉ · ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲛⲧⲉⲣⲉⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲛⲧⲉⲣⲉⲥϥⲓ ⲛⲛⲟⲩⲟⲉⲓⲛ ⲧⲏⲣⲟⲩ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲩⲱ ⲛⲧⲉⲣⲉⲥⲧⲟⲣⲡⲟⲩ ⲛⲧⲟⲟⲧⲟⲩ ⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲧⲏⲥ . ⲁⲥⲛⲟϫⲟⲩ ⲉϩⲟⲩⲛ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲩⲱ ⲁⲥⲕⲟⲧⲥ ⲁⲥⲉⲓ ⲉⲃⲟⲗ ϩⲙⲡⲉⲭⲁⲟⲥ · ⲁⲥⲉⲓ ⲉϩⲣⲁⲓ ⲉϫⲱⲕ · ⲉⲧⲉⲛⲧⲟⲕ ⲡⲉ ⲡⲉⲣⲡⲉ ⲡⲁⲓ ⲡⲉ ⲡⲃⲱⲗ ⲛⲛϣⲁϫⲉ ⲧⲏⲣⲟⲩ ⲛⲁⲓ ⲛⲧⲁⲥϫⲟⲟⲩ ⲛϭⲓⲧⲉⲕϭⲟⲙ ⲛⲟⲩⲟⲉⲓⲛ ϩⲓⲧⲛⲧⲱⲇⲏ ⲛⲥⲟⲗⲟⲙⲱⲛ · ⲁⲥϣⲱⲡⲉ ϭⲉ ⲛⲧⲉⲣⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲥⲱⲧⲙ ⲉⲛⲉⲓϣⲁϫⲉ ⲉϥϫⲱ ⲙⲙⲟⲟⲩ ⲛϭⲓⲡⲉⲧⲣⲟⲥ ⲡⲉϫⲁϥ ⲛⲁϥ · ϫⲉⲉⲩⲅⲉ ⲡⲙⲁⲕⲁⲣⲓⲟⲥ ⲡⲉⲧⲣⲉ ⲡⲁⲓ ⲡⲉ ⲡⲃⲱⲗ ⲛⲛϣⲁϫⲉ ⲉⲛⲧⲁⲩϫⲟⲟⲩ ·
+# text = ⲁⲩⲱ ⲟⲛ ⲡϣⲁϫⲉ ⲉⲛⲧⲁⲥϫⲟⲟϥ ϫⲉⲁⲩⲛⲟⲩϩⲙ ϩⲓⲧⲛⲟⲩⲙⲟⲟⲩ ⲛⲱⲛϩ ⲛϣⲁⲉⲛⲉϩ · ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲁⲩⲛⲟⲩϩⲙ ϩⲓⲧⲛϯⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲧⲏⲣⲥ · ⲁⲩⲱ ⲡϣⲁϫⲉ ⲉⲛⲧⲁⲥϫⲟⲟϥ ϫⲉⲁⲥⲥⲟⲕⲟⲩ ⲧⲏⲣⲟⲩ ⲛϭⲓϯⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲁⲥⲥⲟⲕⲟⲩ ⲉϫⲙⲡⲣⲡⲉ · ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲛⲧⲉⲣⲉⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲛⲧⲉⲣⲉⲥϥⲓ ⲛⲛⲟⲩⲟⲉⲓⲛ ⲧⲏⲣⲟⲩ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲩⲱ ⲛⲧⲉⲣⲉⲥⲧⲟⲣⲡⲟⲩ ⲛⲧⲟⲟⲧⲟⲩ ⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲧⲏⲥ . ⲁⲥⲛⲟϫⲟⲩ ⲉϩⲟⲩⲛ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲩⲱ ⲁⲥⲕⲟⲧⲥ ⲁⲥⲉⲓ ⲉⲃⲟⲗ ϩⲙⲡⲉⲭⲁⲟⲥ · ⲁⲥⲉⲓ ⲉϩⲣⲁⲓ ⲉϫⲱⲕ · ⲉⲧⲉⲛⲧⲟⲕ ⲡⲉ ⲡⲉⲣⲡⲉ ⲡⲁⲓ ⲡⲉ ⲡⲃⲱⲗ ⲛⲛϣⲁϫⲉ ⲧⲏⲣⲟⲩ ⲛⲁⲓ ⲛⲧⲁⲥϫⲟⲟⲩ ⲛϭⲓⲧⲉⲕϭⲟⲙ ⲛⲟⲩⲟⲉⲓⲛ ϩⲓⲧⲛⲧⲱⲇⲏ ⲛⲥⲟⲗⲟⲙⲱⲛ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
-2	ⲟⲛ	ⲟⲛ	ADV	ADV	_	163	advmod	_	_
+2	ⲟⲛ	ⲟⲛ	ADV	ADV	_	4	advmod	_	_
 3-4	ⲡϣⲁϫⲉ	_	_	_	_	_	_	_	_
 3	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Entity=(abstract
 4	ϣⲁϫⲉ	ϣⲁϫⲉ	NOUN	N	_	102	dislocated	_	_
@@ -3886,7 +3890,7 @@
 96	ⲙ	ⲛ	ADP	PREP	_	98	case	_	Orig=ⲙ̅
 97	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	98	det	_	Entity=(person
 98	ⲁⲩⲑⲁⲧⲏⲥ	ⲁⲩⲑⲁⲇⲏⲥ	NOUN	N	Foreign=Yes	95	nmod	_	Entity=person)|OrigLang=grc
-99	.	.	PUNCT	PUNCT	_	95	punct	_	_
+99	.	.	PUNCT	PUNCT	_	75	punct	_	_
 100-103	ⲁⲥⲛⲟϫⲟⲩ	_	_	_	_	_	_	_	_
 100	ⲁ	ⲁ	AUX	APST	_	102	aux	_	_
 101	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	102	nsubj	_	_
@@ -3913,24 +3917,24 @@
 119-121	ϩⲙⲡⲉⲭⲁⲟⲥ	_	_	_	_	_	_	_	_
 119	ϩⲙ	ϩⲛ	ADP	PREP	_	118	fixed	_	Orig=ϩⲙ̅
 120	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	121	det	_	Entity=(abstract
-121	ⲭⲁⲟⲥ	ⲭⲁⲟⲥ	NOUN	N	Foreign=Yes	89	obl	_	Entity=abstract)|OrigLang=grc
-122	·	·	PUNCT	PUNCT	_	121	punct	_	_
+121	ⲭⲁⲟⲥ	ⲭⲁⲟⲥ	NOUN	N	Foreign=Yes	117	obl	_	Entity=abstract)|OrigLang=grc
+122	·	·	PUNCT	PUNCT	_	125	punct	_	_
 123-125	ⲁⲥⲉⲓ	_	_	_	_	_	_	_	_
 123	ⲁ	ⲁ	AUX	APST	_	125	aux	_	_
 124	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	125	nsubj	_	_
-125	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	13	parataxis	_	Orig=ⲉⲓ̅
+125	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	102	parataxis	_	Orig=ⲉⲓ̅
 126	ⲉϩⲣⲁⲓ	ⲉϩⲣⲁⲓ	ADV	ADV	_	125	advmod	_	Orig=ⲉϩⲣⲁⲓ̈
 127-128	ⲉϫⲱⲕ	_	_	_	_	_	_	_	_
 127	ⲉϫⲱ	ⲉϫⲛ	ADP	PREP	_	128	case	_	_
 128	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	125	obl	_	_
-129	·	·	PUNCT	PUNCT	_	125	punct	_	_
+129	·	·	PUNCT	PUNCT	_	131	punct	_	_
 130-131	ⲉⲧⲉⲛⲧⲟⲕ	_	_	_	_	_	_	_	_
-130	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	66	mark	_	_
+130	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	131	mark	_	_
 131	ⲛⲧⲟⲕ	ⲛⲧⲟⲕ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	63	acl:relcl	_	Orig=ⲛ̅ⲧⲟⲕ
 132	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	135	cop	_	_
 133-134	ⲡⲉⲣⲡⲉ	_	_	_	_	_	_	_	_
 133	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	134	det	_	Entity=(place
-134	ⲣⲡⲉ	ⲣⲡⲉ	NOUN	N	_	66	nsubj	_	Entity=place)
+134	ⲣⲡⲉ	ⲣⲡⲉ	NOUN	N	_	131	nsubj	_	Entity=place)
 135	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	24	parataxis	_	Entity=(abstract)|Orig=ⲡⲁⲓ̈
 136	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	135	cop	_	_
 137-138	ⲡⲃⲱⲗ	_	_	_	_	_	_	_	_
@@ -3939,7 +3943,7 @@
 139-141	ⲛⲛϣⲁϫⲉ	_	_	_	_	_	_	_	_
 139	ⲛ	ⲛ	ADP	PREP	_	141	case	_	Orig=ⲛ̅
 140	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	141	det	_	Entity=(abstract|Orig=ⲛ̅
-141	ϣⲁϫⲉ	ϣⲁϫⲉ	NOUN	N	_	95	nmod	_	_
+141	ϣⲁϫⲉ	ϣⲁϫⲉ	NOUN	N	_	138	nmod	_	_
 142-143	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
 142	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	141	advmod	_	_
 143	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	142	det	_	Entity=abstract)
@@ -3953,7 +3957,7 @@
 150-152	ⲛϭⲓⲧⲉⲕϭⲟⲙ	_	_	_	_	_	_	_	_
 150	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	152	case	_	Orig=ⲛ̅ϭⲓ
 151	ⲧⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	152	det	_	Entity=(abstract
-152	ϭⲟⲙ	ϭⲟⲙ	NOUN	N	_	89	dislocated	_	_
+152	ϭⲟⲙ	ϭⲟⲙ	NOUN	N	_	148	dislocated	_	_
 153-154	ⲛⲟⲩⲟⲉⲓⲛ	_	_	_	_	_	_	_	_
 153	ⲛ	ⲛ	ADP	PREP	_	154	case	_	Orig=ⲛ̅
 154	ⲟⲩⲟⲉⲓⲛ	ⲟⲩⲟⲉⲓⲛ	NOUN	N	_	152	nmod	_	Entity=(abstract)abstract)
@@ -3964,65 +3968,69 @@
 158-159	ⲛⲥⲟⲗⲟⲙⲱⲛ	_	_	_	_	_	_	_	_
 158	ⲛ	ⲛ	ADP	PREP	_	159	case	_	Orig=ⲛ̅
 159	ⲥⲟⲗⲟⲙⲱⲛ	ⲥⲟⲗⲟⲙⲱⲛ	PROPN	NPROP	Foreign=Yes	157	nmod	_	Entity=(person-Solomon)abstract)|OrigLang=he
-160	·	·	PUNCT	PUNCT	_	163	punct	_	_
-161-163	ⲁⲥϣⲱⲡⲉ	_	_	_	_	_	_	_	_
-161	ⲁ	ⲁ	AUX	APST	_	163	aux	_	_
-162	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	163	nsubj	_	_
-163	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	102	parataxis	_	_
-164	ϭⲉ	ϭⲉ	PART	PTC	_	163	advmod	_	_
-165-167	ⲛⲧⲉⲣⲉⲡⲓϣⲟⲣⲡ	_	_	_	_	_	_	_	_
-165	ⲛⲧⲉⲣⲉ	ⲛⲧⲉⲣⲉ	AUX	APREC	_	170	aux	_	Orig=ⲛ̅ⲧⲉⲣⲉ
-166	ⲡⲓ	ⲡⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	167	det	_	Entity=(abstract
-167	ϣⲟⲣⲡ	ϣⲟⲣⲡ	NOUN	N	_	170	nsubj	_	Orig=ϣⲟⲣⲡ̅
-168-169	ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
-168	ⲙ	ⲛ	ADP	PREP	_	169	case	_	Orig=ⲙ̅
-169	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	167	nmod	_	Entity=(abstract)abstract)|OrigLang=grc
-170	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	163	advcl	_	Orig=ⲥⲱⲧⲙ̅
-171-173	ⲉⲛⲉⲓϣⲁϫⲉ	_	_	_	_	_	_	_	_
-171	ⲉ	ⲉ	ADP	PREP	_	173	case	_	_
-172	ⲛⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	173	det	_	Entity=(abstract|Orig=ⲛⲉⲓ̈
-173	ϣⲁϫⲉ	ϣⲁϫⲉ	NOUN	N	_	170	obl	_	Entity=abstract)
-174-176	ⲉϥϫⲱ	_	_	_	_	_	_	_	_
-174	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	176	mark	_	_
-175	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	176	nsubj	_	_
-176	ϫⲱ	ϫⲱ	VERB	V	VerbForm=Fin	163	advcl	_	_
-177-178	ⲙⲙⲟⲟⲩ	_	_	_	_	_	_	_	_
-177	ⲙⲙⲟ	ⲛ	ADP	PREP	_	178	case	_	Orig=ⲙ̅ⲙⲟ
-178	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	176	obj	_	_
-179-180	ⲛϭⲓⲡⲉⲧⲣⲟⲥ	_	_	_	_	_	_	_	_
-179	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	180	case	_	Orig=ⲛ̅ϭⲓ
-180	ⲡⲉⲧⲣⲟⲥ	ⲡⲉⲧⲣⲟⲥ	PROPN	NPROP	Foreign=Yes	176	dislocated	_	Entity=(person-Saint_Peter)|OrigLang=grc
-181-182	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
-181	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	163	parataxis	_	_
-182	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	181	nsubj	_	_
-183-184	ⲛⲁϥ	_	_	_	_	_	_	_	_
-183	ⲛⲁ	ⲛⲁ	ADP	PREP	_	184	case	_	_
-184	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	181	obl	_	_
-185	·	·	PUNCT	PUNCT	_	186	punct	_	_
-186-187	ϫⲉⲉⲩⲅⲉ	_	_	_	_	_	_	_	_
-186	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	191	mark	_	_
-187	ⲉⲩⲅⲉ	ⲉⲩⲅⲉ	ADV	ADV	Foreign=Yes	181	ccomp	_	OrigLang=grc
-188-189	ⲡⲙⲁⲕⲁⲣⲓⲟⲥ	_	_	_	_	_	_	_	_
-188	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	189	det	_	Entity=(person
-189	ⲙⲁⲕⲁⲣⲓⲟⲥ	ⲙⲁⲕⲁⲣⲓⲟⲥ	NOUN	N	Foreign=Yes	191	vocative	_	Entity=person)|OrigLang=grc
-190	ⲡⲉⲧⲣⲉ	ⲡⲉⲧⲣⲟⲥ	DET	ART	Foreign=Yes	191	mark	_	Entity=(person)|OrigLang=grc
-191	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	181	ccomp	_	Entity=(abstract)|Orig=ⲡⲁⲓ̈
-192	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	191	cop	_	_
-193-194	ⲡⲃⲱⲗ	_	_	_	_	_	_	_	_
-193	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	194	det	_	Entity=(abstract
-194	ⲃⲱⲗ	ⲃⲱⲗ	NOUN	N	_	191	nsubj	_	_
-195-197	ⲛⲛϣⲁϫⲉ	_	_	_	_	_	_	_	_
-195	ⲛ	ⲛ	ADP	PREP	_	197	case	_	Orig=ⲛ̅
-196	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	197	det	_	Entity=(abstract|Orig=ⲛ̅
-197	ϣⲁϫⲉ	ϣⲁϫⲉ	NOUN	N	_	194	nmod	_	_
-198-201	ⲉⲛⲧⲁⲩϫⲟⲟⲩ	_	_	_	_	_	_	_	_
-198	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	201	mark	_	_
-199	ⲁ	ⲁ	AUX	APST	_	201	aux	_	_
-200	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	201	nsubj	_	_
-201	ϫⲟⲟⲩ	ϫⲟⲟⲩ	VERB	V	VerbForm=Fin	197	acl:relcl	_	Entity=abstract)abstract)
-202	·	·	PUNCT	PUNCT	_	102	punct	_	_
+160	·	·	PUNCT	PUNCT	_	102	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0037
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0038
+# text_en = ...
+# text = ⲁⲥϣⲱⲡⲉ ϭⲉ ⲛⲧⲉⲣⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲥⲱⲧⲙ ⲉⲛⲉⲓϣⲁϫⲉ ⲉϥϫⲱ ⲙⲙⲟⲟⲩ ⲛϭⲓⲡⲉⲧⲣⲟⲥ ⲡⲉϫⲁϥ ⲛⲁϥ · ϫⲉⲉⲩⲅⲉ ⲡⲙⲁⲕⲁⲣⲓⲟⲥ ⲡⲉⲧⲣⲉ ⲡⲁⲓ ⲡⲉ ⲡⲃⲱⲗ ⲛⲛϣⲁϫⲉ ⲉⲛⲧⲁⲩϫⲟⲟⲩ ·
+1-3	ⲁⲥϣⲱⲡⲉ	_	_	_	_	_	_	_	_
+1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
+2	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	0	root	_	_
+4	ϭⲉ	ϭⲉ	PART	PTC	_	3	advmod	_	_
+5-7	ⲛⲧⲉⲣⲉⲡⲓϣⲟⲣⲡ	_	_	_	_	_	_	_	_
+5	ⲛⲧⲉⲣⲉ	ⲛⲧⲉⲣⲉ	AUX	APREC	_	10	aux	_	Orig=ⲛ̅ⲧⲉⲣⲉ
+6	ⲡⲓ	ⲡⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	Entity=(abstract
+7	ϣⲟⲣⲡ	ϣⲟⲣⲡ	NOUN	N	_	10	nsubj	_	Orig=ϣⲟⲣⲡ̅
+8-9	ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
+8	ⲙ	ⲛ	ADP	PREP	_	9	case	_	Orig=ⲙ̅
+9	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	7	nmod	_	Entity=(abstract)abstract)|OrigLang=grc
+10	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	3	advcl	_	Orig=ⲥⲱⲧⲙ̅
+11-13	ⲉⲛⲉⲓϣⲁϫⲉ	_	_	_	_	_	_	_	_
+11	ⲉ	ⲉ	ADP	PREP	_	13	case	_	_
+12	ⲛⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	13	det	_	Entity=(abstract|Orig=ⲛⲉⲓ̈
+13	ϣⲁϫⲉ	ϣⲁϫⲉ	NOUN	N	_	10	obl	_	Entity=abstract)
+14-16	ⲉϥϫⲱ	_	_	_	_	_	_	_	_
+14	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	16	mark	_	_
+15	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	ϫⲱ	ϫⲱ	VERB	V	VerbForm=Fin	10	advcl	_	_
+17-18	ⲙⲙⲟⲟⲩ	_	_	_	_	_	_	_	_
+17	ⲙⲙⲟ	ⲛ	ADP	PREP	_	18	case	_	Orig=ⲙ̅ⲙⲟ
+18	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+19-20	ⲛϭⲓⲡⲉⲧⲣⲟⲥ	_	_	_	_	_	_	_	_
+19	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	20	case	_	Orig=ⲛ̅ϭⲓ
+20	ⲡⲉⲧⲣⲟⲥ	ⲡⲉⲧⲣⲟⲥ	PROPN	NPROP	Foreign=Yes	16	dislocated	_	Entity=(person-Saint_Peter)|OrigLang=grc
+21-22	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
+21	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	3	parataxis	_	_
+22	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+23-24	ⲛⲁϥ	_	_	_	_	_	_	_	_
+23	ⲛⲁ	ⲛⲁ	ADP	PREP	_	24	case	_	_
+24	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+25	·	·	PUNCT	PUNCT	_	31	punct	_	_
+26-27	ϫⲉⲉⲩⲅⲉ	_	_	_	_	_	_	_	_
+26	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	31	mark	_	_
+27	ⲉⲩⲅⲉ	ⲉⲩⲅⲉ	ADV	ADV	Foreign=Yes	31	mark	_	OrigLang=grc
+28-29	ⲡⲙⲁⲕⲁⲣⲓⲟⲥ	_	_	_	_	_	_	_	_
+28	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	Entity=(person-Saint_Peter
+29	ⲙⲁⲕⲁⲣⲓⲟⲥ	ⲙⲁⲕⲁⲣⲓⲟⲥ	NOUN	N	Foreign=Yes	31	vocative	_	OrigLang=grc
+30	ⲡⲉⲧⲣⲉ	ⲡⲉⲧⲣⲟⲥ	PROPN	NPROP	Foreign=Yes	31	mark	_	Entity=person-Saint_Peter)|OrigLang=grc
+31	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	21	ccomp	_	Entity=(abstract)|Orig=ⲡⲁⲓ̈
+32	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	31	cop	_	_
+33-34	ⲡⲃⲱⲗ	_	_	_	_	_	_	_	_
+33	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	Entity=(abstract
+34	ⲃⲱⲗ	ⲃⲱⲗ	NOUN	N	_	31	nsubj	_	_
+35-37	ⲛⲛϣⲁϫⲉ	_	_	_	_	_	_	_	_
+35	ⲛ	ⲛ	ADP	PREP	_	37	case	_	Orig=ⲛ̅
+36	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	37	det	_	Entity=(abstract|Orig=ⲛ̅
+37	ϣⲁϫⲉ	ϣⲁϫⲉ	NOUN	N	_	34	nmod	_	_
+38-41	ⲉⲛⲧⲁⲩϫⲟⲟⲩ	_	_	_	_	_	_	_	_
+38	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	41	mark	_	_
+39	ⲁ	ⲁ	AUX	APST	_	41	aux	_	_
+40	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	41	nsubj	_	_
+41	ϫⲟⲟⲩ	ϫⲟⲟⲩ	VERB	V	VerbForm=Fin	37	acl:relcl	_	Entity=abstract)abstract)
+42	·	·	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0039
 # text_en = ...
 # text = ⲁϥⲟⲩⲱϩ ⲇⲉ ⲟⲛ ⲉⲧⲟⲟⲧϥ ϩⲙⲡϣⲁϫⲉ ⲛϭⲓⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲡⲉϫⲁϥ ϫⲉⲁⲥϣⲱⲡⲉ ϭⲉ ⲉⲙⲡⲁⲧϯ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ⲉϩⲣⲁⲓ ϩⲙⲡⲉⲭⲁⲟⲥ · ⲉⲃⲟⲗ ϫⲉⲙⲡⲁⲧⲟⲩⲕⲉⲗⲉⲩⲉ ⲛⲁⲓ ϩⲓⲧⲙⲡⲁⲉⲓⲱⲧ · ⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧϭⲱϣⲧ ⲉϩⲟⲩⲛ · ⲧⲟⲧⲉ ϭⲉ ⲙⲛⲛⲥⲁⲓ ⲛⲧⲉⲣⲟⲩⲉⲓⲙⲉ ⲛϭⲓⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲧⲏⲥ ϫⲉⲁⲧⲁⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ϥⲓ ⲛϭⲟⲙ ⲛⲟⲩⲟⲉⲓⲛ ⲛϩⲏⲧⲟⲩ ⲛⲁⲓ ⲛⲧⲁⲩϥⲓⲧⲟⲩ ϩⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲩⲱ ⲁⲥⲛⲟϫⲟⲩ ⲉϩⲟⲩⲛ ⲛϭⲓϯⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ · ⲁⲥⲛⲟϫⲟⲩ ⲉϩⲟⲩⲛ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ·
 1-3	ⲁϥⲟⲩⲱϩ	_	_	_	_	_	_	_	_
@@ -4169,7 +4177,7 @@
 109	ⲥⲟⲫⲓⲁ	ⲥⲟⲫⲓⲁ	ADJ	N	Foreign=Yes	108	amod	_	Entity=abstract)|OrigLang=grc
 110	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0038
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0040
 # text_en = ...
 # text = ⲁⲩⲱ ⲟⲛ ⲁⲩⲛⲁⲩ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ⲉⲥⲟ ⲛⲟⲩⲟⲉⲓⲛ ⲛⲧϩⲉ ⲉⲛⲉⲥⲟ ⲙⲙⲟⲥ ϫⲓⲛⲛϣⲟⲣⲡ ⲁⲩϭⲱⲛⲧ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	5	cc	_	_
@@ -4215,7 +4223,7 @@
 31	ⲥⲟⲫⲓⲁ	ⲥⲟⲫⲓⲁ	ADJ	N	Foreign=Yes	30	amod	_	Entity=abstract)|OrigLang=grc
 32	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0039
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0041
 # text_en = ...
 # text = ⲁⲩⲱ ⲟⲛ ⲁⲩⲱϣ ⲉϩⲣⲁⲓ ⲟⲩⲃⲉⲡⲉⲩⲁⲩⲑⲁⲧⲏⲥ ⲉⲧⲣⲉϥ ⲉⲓ ⲛϥⲃⲟⲏⲑⲉⲓ ⲉⲣⲟⲟⲩ ⲛⲥⲉϥⲓ ⲛⲛϭⲟⲙ ⲉⲧϩⲛⲧⲥⲟⲫⲓⲁ ⲛⲕⲉⲥⲟⲡ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	5	cc	_	_
@@ -4259,7 +4267,7 @@
 30	ⲥⲟⲡ	ⲥⲟⲡ	NOUN	N	_	27	nmod	_	Entity=time)abstract)abstract)
 31	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0040
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0042
 # text_en = ...
 # text = ⲁⲩⲱ ⲁⲡⲁⲩⲑⲁⲇⲏⲥ ⲧⲛⲛⲟⲟⲩ ⲉⲃⲟⲗ ϩⲙⲡϫⲓⲥⲉ ϩⲙⲡⲙⲉϩⲙⲛⲧϣⲟⲙⲧⲉ ⲛⲁⲓⲱⲛ ⲁϥⲧⲛⲛⲟⲟⲩ ⲛⲕⲉⲛⲟϭ ⲛϭⲟⲙ ⲛⲟⲩⲟⲉⲓⲛ ⲁⲥⲉⲓ ⲉⲡⲉⲥⲏⲧ ⲉⲡⲉⲭⲁⲟⲥ ⲛⲧϩⲉ ⲛⲟⲩⲥⲟⲧⲉ ⲉϥϩⲏⲗ · ϫⲉⲉϥⲉⲃⲟⲏⲑⲉⲓ ⲉⲛⲉϥⲡⲣⲃⲟⲗⲟⲟⲩⲉ ⲛⲥⲉϥⲓ ⲛⲟⲩⲟⲉⲓⲛ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ⲛⲕⲉⲥⲟⲡ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	5	cc	_	_
@@ -4345,7 +4353,7 @@
 61	ⲥⲟⲡ	ⲥⲟⲡ	NOUN	N	_	57	nmod	_	Entity=time)abstract)
 62	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0041
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0043
 # text_en = ...
 # text = ⲁⲩⲱ ⲛⲧⲉⲣⲉⲥⲉⲓ ⲉⲡⲉⲥⲏⲧ ⲛϭⲓⲧϭⲟⲙ ⲛⲟⲩⲟⲉⲓⲛ ⲉⲧⲙⲙⲁⲩ · ⲁⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲧⲏⲥ ⲛⲁⲓ ⲉⲧϣⲟⲟⲡ ϩⲙⲡⲉⲭⲁⲟⲥ ⲉⲧⲑⲗⲓⲃⲉ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ⲁⲩⲧⲱⲕ ⲛϩⲏⲧ ⲉⲙⲁϣⲟ · ⲁⲩⲱ ⲁⲩⲡⲱⲧ ⲟⲛ ⲛⲥⲁⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ϩⲛⲟⲩⲛⲟϭ ⲛϩⲟⲧⲉ ⲁⲩⲱ ϩⲛⲟⲩⲛⲟϭ ⲛϣⲧⲟⲣⲧⲣ · ⲁⲩⲱ ⲁⲩⲑⲗⲓⲃⲉ ⲙⲙⲟⲥ ⲛϭⲓϩⲟⲓⲛⲉ ϩⲛⲡⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲧⲏⲥ ⲟⲩⲁ ⲙⲉⲛ ⲛϩⲏⲧⲟⲩ ⲁϥϣⲧϥ ⲉⲩⲙⲟⲣⲫⲏ ⲛⲛⲟϭ ⲛϩⲟϥ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	80	cc	_	_
@@ -4466,7 +4474,7 @@
 87	ϩⲟϥ	ϩⲟϥ	NOUN	N	_	85	nmod	_	Entity=animal)abstract)
 88	·	·	PUNCT	PUNCT	_	80	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0042
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0044
 # text_en = ...
 # text = ⲕⲉⲟⲩⲁ ⲟⲛ ⲁϥϣⲃⲧϥ ⲉⲩⲙⲟⲣⲫⲏ ⲛϩⲟϥ ⲛⲥⲓⲧⲉⲩⲛⲥⲁϣϥⲉ ⲛⲁⲡⲉ ⲙⲙⲟϥ · ⲕⲉⲟⲩⲁ ⲟⲛ ⲁϥϣⲃⲧϥ ⲉⲩⲙⲟⲣⲫⲏ ⲛⲇⲣⲁⲕⲱⲛ · ⲁⲩⲱ ⲙⲛⲧⲕⲉϣⲟⲣⲡ ⲛⲇⲩⲛⲁⲙⲓⲥ ⲛⲧⲉⲡⲁⲩⲑⲁⲧⲏⲥ ⲉⲧⲟ ⲛϩⲟ ⲙⲙⲟⲩⲓ · ⲁⲩⲱ ⲙⲛⲛⲉϥⲕⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ ⲉⲛⲁϣⲱⲟⲩ ⲉⲙⲁⲧⲉ · ⲁⲩⲱ ⲁⲩⲉⲓ ⲉϩⲉⲛ ⲛⲉⲩⲉⲣⲏⲩ ⲁⲩϩⲱϫ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲩⲱ ⲟⲛ ⲁⲩⲛⲧⲥ ⲉⲛⲧⲟⲡⲟⲥ ⲉⲧⲙⲡⲉⲥⲏⲧ ⲙⲡⲉⲭⲁⲟⲥ · ⲁⲩⲱ ⲟⲛ ⲁⲩϣⲧⲣⲧⲱⲣⲥ ⲉⲙⲁⲧⲉ · ⲁⲥϣⲱⲡⲉ ϭⲉ ⲛⲧⲉⲣⲟⲩϣⲧⲣⲧⲱⲣⲥ · ⲁⲥⲡⲱⲧ ⲛⲧⲟⲟⲧⲟⲩ ⲁⲥⲉⲓ ⲉⲛⲧⲟⲡⲟⲥ ⲉⲧⲙⲡⲥⲁ ⲛⲧⲡⲉ ⲙⲡⲉⲭⲁⲟⲥ · ⲁⲩⲱ ⲁⲩⲡⲱⲧ ⲛⲥⲱⲥ ⲛϭⲓⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲇⲏⲥ · ⲁⲩϣⲧⲣⲧⲱⲣⲥ ⲉⲙⲁⲧⲉ · ⲁⲥϣⲱⲡⲉ ϭⲉ ⲙⲛⲛⲥⲁⲛⲁⲓ ⲁϥϭⲱϣⲧ ⲉⲃⲟⲗ ϩⲙⲡⲙⲛⲧⲥⲛⲟⲟⲩⲥ ⲛⲁⲓⲱⲛ ⲛϭⲓⲡⲁⲇⲁⲙⲁⲥ ⲡⲧⲩⲣⲁⲛⲛⲟⲥ ⲡⲁⲓ ⲟⲛ ⲉⲛⲉϥϭⲟⲛⲧ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲉⲃⲟⲗ ϫⲉⲛⲉⲥⲟⲩⲉϣⲃⲱⲕ ⲉⲡⲟⲩⲟⲉⲓⲛ ⲛⲧⲉⲛⲓⲟⲩⲟⲉⲓⲛ · ⲡⲁⲓ ⲛⲉϥ ⲛⲧⲡⲉ ⲙⲙⲟⲟⲩ ⲧⲏⲣⲟⲩ · ⲉⲧⲃⲉⲡⲁⲓ ⲛⲉϥϭⲟⲛⲧ ⲉⲣⲟⲥ ⲡⲉ · ⲁⲥϣⲱⲡⲉ ϭⲉ ⲛⲧⲉⲣⲉⲡⲁⲇⲁⲙⲁⲥ ⲡⲧⲩⲣⲁⲛⲛⲟⲥ ⲛⲧⲉⲣⲉϥϭⲱϣⲧ ⲉⲃⲟⲗ ϩⲙⲡⲙⲛⲧⲥⲛⲟⲟⲩⲥ ⲛⲁⲓⲱⲛ .
 1-2	ⲕⲉⲟⲩⲁ	_	_	_	_	_	_	_	_
@@ -4772,7 +4780,7 @@
 233	ⲁⲓⲱⲛ	ⲁⲓⲱⲛ	NOUN	N	Foreign=Yes	227	obl	_	Entity=time)|OrigLang=grc
 234	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0043
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0045
 # text_en = ...
 # text = ⲁϥⲛⲁⲩ ⲉⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲇⲏⲥ ⲉⲩϩⲱϫ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ϣⲁⲛⲧⲟⲩϥⲓ ⲛⲟⲩⲟⲉⲓⲛ ⲧⲏⲣⲟⲩ ⲛϩⲏⲧⲥ ·
 1-3	ⲁϥⲛⲁⲩ	_	_	_	_	_	_	_	_
@@ -4812,7 +4820,7 @@
 26	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obl	_	Orig=ⲥ̅
 27	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0044
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0046
 # text_en = ...
 # text = ⲁⲥϣⲱⲡⲉ ⲇⲉ ⲛⲧⲉⲣⲉⲧⲇⲩⲛⲁⲙⲓⲥ ⲙⲡⲁⲇⲁⲙⲁⲥ ⲉⲓ ⲉⲡⲉⲥⲏⲧ ⲉⲡⲉⲭⲁⲟⲥ ⲉⲣⲁⲧⲟⲩ ⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ ⲙⲡⲁⲩⲑⲁⲇⲏⲥ · ⲁⲥϣⲱⲡⲉ ϭⲉ ⲛⲧⲉⲣⲉⲡⲇⲁⲓⲙⲟⲛⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ ⲉⲓ ⲉⲡⲉⲥⲏⲧ ⲉⲡⲉⲭⲁⲟⲥ ⲁϥⲧⲁⲩⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ⲉⲡⲉⲥⲏⲧ · ⲁⲩⲱ ϯϭⲟⲙ ⲛϩⲟ ⲙⲙⲟⲩⲓ · ⲙⲛⲡⲓϩⲁⲛϩⲟϥ · ⲁⲩⲱ ⲙⲛⲡⲓϩⲁⲛⲥⲓⲧ ⲛϩⲟϥ · ⲁⲩⲱ ⲙⲛⲡⲓϩⲉⲛⲇⲣⲁⲕⲱⲛ · ⲁⲩⲱ ⲙⲛⲛⲕⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ ⲛⲧⲉⲡⲁⲩⲑⲁⲇⲏⲥ ⲉⲛⲁϣⲱⲟⲩ ⲉⲙⲁⲧⲉ · ⲁⲩⲕⲱⲧⲉ ⲧⲏⲣⲟⲩ ⲉⲧⲡⲓⲥⲧⲓⲥⲟⲫⲓⲁ ϩⲓⲟⲩⲥⲟⲡ ·
 1-3	ⲁⲥϣⲱⲡⲉ	_	_	_	_	_	_	_	_
@@ -4951,7 +4959,7 @@
 103	ⲥⲟⲡ	ⲥⲟⲡ	NOUN	N	_	95	obl	_	_
 104	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0045
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0047
 # text_en = ...
 # text = ⲁⲩⲟⲩⲉϣϥⲓ ⲛⲉⲥϭⲟⲙ ⲉⲧⲛϩⲏⲧⲥ ⲛⲉ ⲕⲉⲥⲟⲡ · ⲁⲩⲱ ⲁⲩϩⲱϫ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ⲉⲙⲁϣⲟ · ⲁⲩⲱ ⲁⲩⲁⲡⲉⲓⲗⲉⲓ ⲉⲣⲟⲥ ⲁⲥϣⲱⲡⲉ ϭⲉ ⲛⲧⲉⲣⲟⲩϩⲱϫ ⲙⲙⲟⲥ ⲁⲩⲱ ⲛⲧⲉⲣⲟⲩϣⲧⲣⲧⲱⲣⲥ ⲉⲙⲁⲧⲉ ·
 1-4	ⲁⲩⲟⲩⲉϣϥⲓ	_	_	_	_	_	_	_	_
@@ -5013,7 +5021,7 @@
 45	ⲉⲙⲁⲧⲉ	ⲉⲙⲁⲧⲉ	ADV	ADV	_	43	advmod	_	_
 46	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0046
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0048
 # text_en = ...
 # text = ⲁⲥⲱϣ ⲟⲛ ⲉϩⲣⲁⲓ ⲟⲩⲃⲉⲡⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲁⲥϩⲩⲙⲛⲉⲩⲉ ⲉⲥϫⲱ ⲙⲙⲟⲥ ϫⲉⲡⲟⲩⲟⲉⲓⲛ ⲛⲧⲟⲕ ⲡⲉⲛⲧⲁⲕⲃⲟⲏⲑⲉⲓ ⲉⲣⲟⲓ ⲙⲁⲣⲉⲡⲉⲕⲟⲩⲟⲉⲓⲛ ⲉⲓ ⲉϩⲣⲁⲓ ⲉϫⲱⲓ ϫⲉⲛⲧⲟⲕ ⲡⲉ ⲡⲁⲣⲉϥϣⲟⲡⲧ ⲉⲣⲟⲕ ⲁⲩⲱ ⲉⲓⲛⲏⲩ ⲉⲣⲁⲧⲕ ⲡⲟⲩⲟⲉⲓⲛ · ⲉⲓⲡⲓⲥⲧⲉⲩⲉ ⲉⲣⲟⲕ ⲡⲟⲩⲟⲉⲓⲛ ϫⲉⲛⲧⲟⲕ ⲡⲉ ⲡⲁⲣⲉϥⲛⲟⲩϩⲙ ⲙⲙⲟⲓ ⲉⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲧⲏⲥ · ⲁⲩⲱ ⲙⲛⲡⲁⲇⲁⲙⲁⲥ ⲡⲧⲩⲣⲁⲛⲛⲟⲥ ⲁⲩⲱ ⲛⲧⲟⲕ ⲡⲉⲧⲛⲁⲛⲁϩⲙⲉⲧ ⲉⲛⲉϥⲁⲡⲉⲓⲗⲏ ⲧⲏⲣⲟⲩ ⲉⲧⲛⲁϣⲧ .
 1-3	ⲁⲥⲱϣ	_	_	_	_	_	_	_	_
@@ -5138,7 +5146,7 @@
 90	ⲛⲁϣⲧ	ⲛϣⲟⲧ	VERB	VSTAT	VerbForm=Fin	86	acl:relcl	_	Entity=object)|Orig=ⲛⲁϣⲧ̅
 91	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0047
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0049
 # text_en = ...
 # text = ⲛⲁⲓ ⲇⲉ ⲛⲧⲉⲣⲉⲥϫⲟⲟⲩ ⲛϭⲓⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ·
 1	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	5	dislocated	_	Entity=(abstract)|Orig=ⲛⲁⲓ̈
@@ -5154,7 +5162,7 @@
 9	ⲥⲟⲫⲓⲁ	ⲥⲟⲫⲓⲁ	NOUN	N	Foreign=Yes	8	appos	_	Entity=abstract)|OrigLang=grc
 10	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0048
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0050
 # text_en = ...
 # text = ⲧⲟⲧⲉ ⲟⲛ ϩⲓⲧⲛⲧⲕⲉⲗⲉⲩⲥⲓⲥ ⲙⲡⲁⲉⲓⲱⲧ ⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧϭⲱϣⲧ ⲉϩⲟⲩⲛ ⲁⲓϫⲟⲟⲩ ⲟⲛ ⲛⲅⲁⲃⲣⲓⲏⲗ · ⲙⲛⲙⲓⲭⲁⲏⲗ ⲙⲛⲧⲓⲛⲟϭ ⲛⲛⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ϫⲉⲉⲩⲉⲃⲟⲏⲑⲉⲓ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲩⲱ ⲁⲓϩⲱⲛ ⲉⲧⲟⲟⲧϥ ⲛⲅⲁⲃⲣⲓⲏⲗ ⲙⲛⲙⲓⲭⲁⲏⲗ · ϫⲉⲉⲩⲉϥⲓⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ϩⲓϫⲛⲛⲉⲩϭⲓϫ ϫⲉⲛⲛⲉⲛⲉⲥⲟⲩⲉⲣⲏⲧⲉ ϫⲓ ⲉⲡⲕⲁⲕⲉ ⲙⲡⲉⲥⲏⲧ ·
 1	ⲧⲟⲧⲉ	ⲧⲟⲧⲉ	ADV	ADV	Foreign=Yes	18	advmod	_	OrigLang=grc
@@ -5251,7 +5259,7 @@
 70	ⲉⲥⲏⲧ	ⲉⲥⲏⲧ	NOUN	N	_	67	nmod	_	Entity=place)abstract)
 71	·	·	PUNCT	PUNCT	_	18	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0049
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0051
 # text_en = ...
 # text = ⲁⲩⲱ ⲟⲛ ⲁⲓϩⲱⲛ ⲉⲧⲟⲟⲧⲟⲩ ⲉⲧⲣⲉⲩⲣϩⲙⲙⲉ ⲙⲙⲟⲥ ϩⲛⲛⲧⲟⲡⲟⲥ ⲙⲡⲉⲭⲁⲟⲥ ⲛⲁⲓ ⲉⲧⲟⲩⲛⲁⲛⲧⲥ ⲉϩⲣⲁⲓ ⲛϩⲏⲧⲟⲩ · ⲁⲥϣⲱⲡⲉ ϭⲉ ⲛⲧⲉⲣⲉⲛⲁⲅⲅⲉⲗⲟⲥ ⲃⲱⲕ ⲉⲡⲉⲥⲏⲧ ⲉⲡⲉⲭⲁⲟⲥ ⲛⲧⲟⲟⲩ ⲙⲛⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ · ⲁⲩⲱ ⲟⲛ ⲁⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ ⲙⲡⲁⲩⲑⲁⲇⲏⲥ ⲉⲙⲛⲧⲉⲡⲣⲟⲃⲟⲗⲏ ⲙⲡⲁⲇⲁⲙⲁⲥ · ⲁⲩⲛⲁⲩ ⲉⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲉⲥⲟ ⲛⲟⲩⲟⲉⲓⲛ ⲉⲙⲁϣⲟ ⲉⲙⲁϣⲟ · ⲉⲙⲛϣⲓ ⲉⲡⲟⲩⲟⲉⲓⲛ ⲉⲧϣⲟⲟⲡ ⲙⲙⲟⲥ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	5	cc	_	_
@@ -5375,7 +5383,7 @@
 91	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	89	obl	_	Entity=abstract)
 92	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0050
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0052
 # text_en = ...
 # text = ⲁⲩⲣϩⲟⲧⲉ · ⲁⲩⲱ ⲁⲩⲕⲱ ⲉⲃⲟⲗ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲩⲱ ⲁⲧⲛⲟϭ ⲛⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲁⲥⲕⲱⲧⲉ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ϩⲓⲥⲁ ⲛⲓⲙ ⲙⲙⲟⲥ · ϩⲓϩⲃⲟⲩⲣ ⲙⲙⲟⲥ · ⲁⲩⲱ ϩⲓⲟⲩⲛⲁⲙ ⲙⲙⲟⲥ · ⲁⲩⲱ ϩⲓⲥⲁ ⲛⲓⲙ ⲙⲙⲟⲥ ⲁⲩⲱ ⲁⲥⲣⲟⲩ ⲕⲗⲟⲙ ⲛⲟⲩⲟⲉⲓⲛ ⲉⲧⲉⲥⲁⲡⲉ · ⲁⲥϣⲱⲡⲉ ϭⲉ ⲛⲧⲉⲣⲉⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲕⲱⲧⲉ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲁⲥⲧⲱⲕ ⲛϩⲏⲧ ⲉⲙⲁϣⲟ ⲉⲙⲁϣⲟ · ⲁⲩⲱ ⲙⲡⲥⲗⲉⲉⲥⲕⲱⲧⲉ ⲉⲣⲟⲥ ϩⲓⲥⲁ ⲛⲓⲙ ⲙⲙⲟⲥ · ⲁⲩⲱ ⲙⲡⲥⲣϩⲟⲧⲉ ϩⲏⲧⲟⲩ ⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲁⲩⲑⲁⲧⲏⲥ ⲛⲁⲓ ⲉⲧϣⲟⲟⲡ ϩⲙⲡⲉⲭⲁⲟⲥ ·
 1-3	ⲁⲩⲣϩⲟⲧⲉ	_	_	_	_	_	_	_	_
@@ -5530,7 +5538,7 @@
 116	ⲭⲁⲟⲥ	ⲭⲁⲟⲥ	NOUN	N	Foreign=Yes	113	obl	_	Entity=abstract)abstract)|OrigLang=grc
 117	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0051
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0053
 # text_en = ...
 # text = ⲟⲩⲇⲉ ⲟⲛ ⲙⲡⲥⲣϩⲟⲧⲉ ϩⲏⲧⲥ ⲛϯⲕⲉϭⲟⲙ ⲛⲃⲣⲣⲉ ⲛⲧⲉⲡⲁⲩⲑⲁⲇⲏⲥ ⲧⲁⲓ ⲉⲛⲧⲁϥⲛⲟϫⲥ ⲉⲡⲉⲥⲏⲧ ⲉⲡⲉⲭⲁⲟⲥ · ⲛⲧϩⲉ ⲛⲟⲩⲥⲟⲧⲉ ⲉϥϩⲏⲗ ·
 1	ⲟⲩⲇⲉ	ⲟⲩⲇⲉ	CCONJ	CONJ	Foreign=Yes|Polarity=Neg	5	cc	_	OrigLang=grc
@@ -5584,7 +5592,7 @@
 38	ϩⲏⲗ	ϩⲏⲗ	VERB	V	VerbForm=Fin	35	acl:relcl	_	Entity=abstract)abstract)
 39	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0052
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0054
 # text_en = ...
 # text = ⲟⲩⲇⲉ ⲟⲛ ⲙⲡⲥⲥⲧⲱⲧ ϩⲏⲧⲥ ⲛⲧϭⲟⲙ ⲛⲇⲁⲓⲙⲟⲛⲓⲟⲛ ⲏⲛⲇⲉ ⲡⲁⲇⲁⲙⲁⲥ ⲧⲁⲓ ⲉⲛⲧⲁⲥⲉⲓ ⲉⲃⲟⲗ ϩⲛⲛⲁⲓⲱⲛ · ⲁⲩⲱ ⲟⲛ ϩⲓⲧⲛⲧⲁⲕⲉⲗⲉⲩⲥⲓⲥ ⲁⲛⲟⲕ ⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧϭⲱϣⲧ ⲉⲃⲟⲗ · ⲁⲥⲣⲟⲩⲟⲉⲓⲛ ⲉⲙⲁϣⲟ ⲉⲙⲁϣⲟ ⲛϭⲓⲧⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲧⲁⲓ ⲉⲛⲧⲁⲥⲕⲱⲧⲉ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ϩⲓⲥⲁ ⲛⲓⲙ ⲙⲙⲟⲥ · ⲁⲩⲱ ⲁⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ϭⲱ ⲛⲧⲙⲏⲧⲉ ⲙⲡⲟⲩⲟⲉⲓⲛ · ⲉⲣⲉⲟⲩⲛⲟϭ ⲛⲟⲩⲟⲉⲓⲛ ϩⲓϩⲃⲟⲩⲣ ⲙⲙⲟⲥ ⲁⲩⲱ ϩⲓⲟⲩⲛⲁⲙ ⲙⲙⲟⲥ · ⲁⲩⲱ ϩⲓⲥⲁ ⲛⲓⲙ ⲙⲙⲟⲥ · ⲁⲩⲱ ⲉϥⲟ ⲛⲟⲩⲕⲗⲟⲙ ⲉⲧⲉⲥⲁⲡⲉ · ⲁⲩⲱ ⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ ⲙⲡⲁⲩⲑⲁⲇⲏⲥ ⲙⲡⲟⲩϣⲓⲃⲉ ⲟⲛ ⲙⲡⲉⲩϩⲟ ⲟⲩⲇⲉ ⲙⲡⲟⲩⲉϣⲧⲱⲟⲩⲛ ϩⲁⲧϩⲟⲣⲙⲏ ⲙⲡⲛⲟϭ ⲛⲟⲩⲟⲉⲓⲛ ⲛⲧⲁⲡⲟϩⲣⲟⲓⲁ · ⲧⲁⲓ ⲉⲧⲟ ⲛⲟⲩⲕⲗⲟⲙ ⲉⲧⲉⲥⲁⲡⲉ · ⲁⲩⲱ ⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ ⲙⲡⲁⲩⲑⲁⲇⲏⲥ ⲁⲟⲩⲙⲏⲏϣⲉ ⲛϩⲏⲧⲟⲩ ϩⲉ ϩⲓⲟⲩⲛⲁⲙ ⲙⲙⲟⲥ ⲉⲃⲟⲗ ϫⲉⲛⲉⲥⲟ ⲛⲟⲩⲟⲉⲓⲛ ⲡⲉ ⲉⲙⲁϣⲟ ⲉⲙⲁϣⲟ · ⲁⲩⲱ ⲁϩⲉⲛⲕⲉⲙⲏⲏϣⲉ ϩⲉ ϩⲓϩⲃⲟⲩⲣ ⲙⲙⲟⲥ · ⲁⲩⲱ ⲛⲉⲙⲡⲟⲩⲉϣϩⲱⲛ ⲉϩⲟⲩⲛ ⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲉⲡⲧⲏⲣϥ · ⲉⲃⲟⲗ ⲙⲡⲛⲟϭ ⲛⲟⲩⲟⲉⲓⲛ · ⲡⲗⲏⲛ ⲁⲩϩⲉ ⲧⲏⲣⲟⲩ ⲉϫⲛⲛⲉⲩⲉⲣⲏⲩ · ⲏ ⲁⲩⲉⲓ ⲧⲏⲣⲟⲩ ⲉⲧⲟⲩⲛ ⲛⲉⲩⲉⲣⲏⲩ · ⲁⲩⲱ ⲡⲟⲩϣⲣⲗⲁⲁⲩ ⲙⲡⲉⲧϩⲟⲟⲩ ⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ · ⲉⲃⲟⲗ ϫⲉⲛⲉⲥⲛⲁϩⲧⲉ ⲡⲉ ⲉⲡⲟⲩⲟⲉⲓⲛ · ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲓⲧⲛⲧⲕⲉⲗⲉⲩⲥⲓⲥ ⲙⲡⲁⲉⲓⲱⲧ ⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧϭⲱϣⲧ ⲉϩⲟⲩⲛ · ⲁⲛⲟⲕ ϩⲱ ⲁⲓⲉⲓ ⲉⲡⲉⲥⲏⲧ ⲉⲡⲉⲭⲁⲟⲥ ⲉⲓⲟ ⲛⲟⲩⲟⲉⲓⲛ ⲉⲙⲁϣⲟ · ⲉⲙⲁϣⲟ · ⲁⲓϯⲡⲁⲟⲩⲟⲓ ⲉϯϭⲟⲙ ⲛϩⲟ ⲙⲙⲟⲩⲓ ⲧⲁⲓ ⲉⲥⲟ ⲛⲟⲩⲟⲉⲓⲛ ⲉⲙⲁϣⲟ ⲁⲩⲱ ⲁⲓϥⲓⲡⲉⲥⲟⲩⲟⲩⲟⲓⲛ ⲧⲏⲣϥ ⲉⲧⲛϩⲏⲧⲥ ·
 1	ⲟⲩⲇⲉ	ⲟⲩⲇⲉ	CCONJ	CONJ	Foreign=Yes|Polarity=Neg	5	cc	_	OrigLang=grc
@@ -6003,7 +6011,7 @@
 321	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	316	advcl	_	Orig=ⲥ̅
 322	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0053
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0055
 # text_en = ...
 # text = ⲁⲩⲱ ⲁⲓⲕⲁⲧⲉⲭⲉ ⲉⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ ⲙⲡⲁⲩⲑⲁⲇⲏⲥ ⲉⲧⲙⲧⲣⲉⲩⲃⲱⲕ ⲉⲡⲉⲩⲧⲟⲡⲟⲥ ϫⲓⲛⲙⲡⲉⲓⲛⲁⲩ · ⲉⲧⲉⲡⲙⲉϩⲙⲛⲧϣⲟⲙⲧⲉ ⲡⲉ ⲛⲁⲓⲱⲛ · ⲁⲩⲁⲩⲱ ⲁⲓϥⲓ ⲧϭⲟⲙ ϩⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ ⲙⲡⲁⲩⲑⲁⲇⲏⲥ · ⲁⲩⲱ ⲁⲩϩⲉ ⲧⲏⲣⲟⲩ ϩⲙⲡⲉⲭⲁⲟⲥ ⲉⲩⲟ ⲛⲁⲧϭⲟⲙ · ⲁⲩⲱ ⲁⲓⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ⲉⲃⲟⲗ ⲉⲥϩⲓⲟⲩⲛⲁⲙ ⲛⲅⲁⲃⲣⲓⲏⲗ · ⲙⲛⲙⲓⲭⲁⲏⲗ · ⲁⲩⲱ ϯⲛⲟϭ ⲛⲁⲡⲟϩⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ ⲁⲥⲃⲱⲕ ⲟⲛ ⲉϩⲟⲩⲛ ⲉⲣⲟⲟⲩ · ⲁⲩⲱ ⲁⲥⲙⲉϩⲉⲓⲁⲧⲥ ⲛⲛⲉⲥϫⲁϫⲉ ⲛϭⲓⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ϫⲉⲁⲓϥⲓ ⲧⲉⲩϭⲟⲙ ⲛⲟⲩⲟⲉⲓⲛ ⲛϩⲏⲧⲟⲩ · ⲁⲩⲱ ⲁⲓⲛⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ⲉⲃⲟⲗ ϩⲙⲡⲉⲭⲁⲟⲥ · ⲉⲁⲥϩⲱⲙ ⲉϩⲣⲁⲓ ⲉϫⲛⲧⲉ ⲡⲣⲟⲃⲟⲗⲏ ⲙⲡⲁⲩⲑⲁⲇⲏⲥ ϯϩⲟ ⲛϩⲟϥ ⲁⲩⲱ ⲟⲛ ⲛⲉⲥϩⲱⲙⲉ ⲉϫⲛⲧⲉ ⲡⲣⲟⲃⲟⲗⲏ ⲛⲥⲓⲧ ⲛϩⲟϥ ⲉⲣⲉⲥⲁϣϥⲉ ⲛⲁⲡⲉ ⲉⲣⲟϥ · ⲁⲩⲱ ⲉⲥϩⲱⲙⲉ ⲉϫⲛϯϭⲟⲙ ⲛϩⲟ ⲙⲙⲟⲩⲓ · ⲙⲛϯϩⲟ ⲛⲇⲣⲁⲕⲱⲛ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
@@ -6241,7 +6249,7 @@
 178	ⲇⲣⲁⲕⲱⲛ	ⲇⲣⲁⲕⲱⲛ	NOUN	N	Foreign=Yes	176	nmod	_	Entity=(animal)object)|OrigLang=grc
 179	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0054
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0056
 # text_en = ...
 # text = ⲁⲓⲧⲣⲉⲧⲡⲓⲥⲧⲓⲥ ⲥⲟⲫⲓⲁ ϭⲱ ⲉⲥⲁϩⲉⲣⲁⲧⲥ ⲉϫⲛⲧⲉⲡⲣⲟⲃⲟⲗⲏ ⲙⲡⲁⲩⲑⲁⲇⲏⲥ ⲧⲁⲓ ⲉⲧⲟ ⲛϩⲁ ⲛⲥⲓⲧ ⲛϩⲟϥ ⲉⲣⲉⲥⲁϣϥⲉ ⲛⲁⲡⲉ ⲙⲙⲟϥ ⲛⲧⲟⲥ ⲇⲉ ⲛⲉⲥϫⲟⲟⲣ ⲉⲣⲟⲟⲩ ⲧⲏⲣⲟⲩ ϩⲛⲛⲉⲥⲡⲉⲧϩⲟⲟⲩ · ⲁⲩⲱ ⲁⲛⲟⲕ ⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲁⲓⲁϩⲉⲣⲁⲧ ϩⲓϫⲱⲥ · ⲁⲩⲱ ⲁⲓϥⲓ ⲛⲛϭⲟⲙ ⲧⲏⲣⲟⲩ ⲉⲧⲛϩⲏⲧⲥ · ⲁⲩⲱ ⲁⲓⲧⲁⲕⲉⲧⲉⲥϩⲩⲗⲏ ⲧⲏⲣⲥ ϫⲉⲛⲛⲉⲥⲡⲉⲣⲙⲁ ⲛϩⲏⲧⲥ ⲧⲱⲟⲩⲛ ϫⲓⲛⲙⲡⲉⲓⲛⲁⲩ :
 1-5	ⲁⲓⲧⲣⲉⲧⲡⲓⲥⲧⲓⲥ	_	_	_	_	_	_	_	_
@@ -6365,7 +6373,7 @@
 91	ⲛⲁⲩ	ⲛⲁⲩ	NOUN	N	_	87	obl	_	Entity=time)
 92	:	:	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0055
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0057
 # text_en = ...
 # text = ⲛⲁⲓ ⲇⲉ ⲉⲣⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϫⲱ ⲙⲙⲟⲟⲩ ⲉⲙⲙⲁⲑⲏⲧⲏⲥ · ⲁϥⲟⲩⲱϣⲃ ⲉϥϫⲱ ⲙⲙⲟⲥ ϫⲉⲧⲉⲧⲛⲛⲟⲉⲓ ϫⲉⲉⲓϣⲁϫⲉ ⲛⲙⲙⲏⲧⲛ ⲛⲁϣ ⲛϩⲉ ·
 1	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	8	dislocated	_	Entity=(abstract)|Orig=ⲛⲁⲓ̈
@@ -6417,7 +6425,7 @@
 35	ϩⲉ	ϩⲉ	NOUN	N	_	33	nmod	_	_
 36	·	·	PUNCT	PUNCT	_	8	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0056
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0058
 # text_en = ...
 # text = ⲁϥⲉⲓ ⲉⲧϩⲏ ⲛϭⲓⲓⲁⲕⲱⲃⲟⲥ ⲡⲉϫⲁϥ ϫⲉⲡⲁϫⲟⲉⲓⲥ ⲉⲧⲃⲉⲡⲃⲱⲗ ϭⲉ ⲛⲛϣⲁϫⲉ ⲉⲛⲧⲁⲕϫⲟⲟⲩ ·
 1-3	ⲁϥⲉⲓ	_	_	_	_	_	_	_	_
@@ -6454,7 +6462,7 @@
 24	ϫⲟⲟⲩ	ϫⲟⲟⲩ	VERB	V	VerbForm=Fin	20	acl:relcl	_	Entity=abstract)abstract)
 25	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0057
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0059
 # text_en = ...
 # text = ⲁⲥⲡⲣⲟⲫⲏⲧⲉⲩⲉ ϩⲁⲣⲟⲟⲩ ⲙⲡⲓⲟⲩⲟⲉⲓϣ ⲛϭⲓⲧⲉⲕϭⲟⲙ ⲛⲟⲩⲟⲉⲓⲛ ϩⲓⲧⲛⲇⲁⲩⲉⲓⲇ · ϩⲙⲡⲙⲉϩⲡⲥⲧⲁⲓⲟⲩ ⲙⲯⲁⲗⲙⲟⲥ ϫⲉⲡⲉⲧⲟⲩⲏϩ ϩⲁⲧⲃⲟⲏⲑⲓⲁ ⲙⲡⲉⲧϫⲟⲥⲉ ϥⲛⲁϣⲱⲡⲉ ϩⲁⲧϩⲁⲓⲃⲉⲥ ⲙⲡⲛⲟⲩⲧⲉ ⲛⲧⲡⲉ · ϥⲛⲁϫⲟⲟⲥ ⲙⲡϫⲟⲉⲓⲥ ϫⲉⲛⲧⲟⲕ ⲡⲉ ⲡⲁⲣⲉϥϣⲟⲡⲧ ⲉⲣⲟⲕ · ⲁⲩⲱ ⲡⲁⲙⲁ ⲙⲡⲱⲧ ⲡⲁⲛⲟⲩⲧⲉ ⲉⲓⲛⲁϩⲧⲉ ⲉⲣⲟϥ · ϫⲉⲛⲧⲟϥ ⲡⲉⲧⲛⲁⲧⲟⲩϫⲟⲓ ⲉⲧϭⲟⲣϭⲥ ⲛⲛϭⲉⲣⲏϭ . ⲁⲩⲱ ⲉⲩϣⲁϫⲉ ⲉϥⲛⲁϣⲧ · ϥⲛⲁⲣϩⲁⲓⲃⲉⲥ ⲉⲣⲟⲕ ϩⲁⲧⲉⲕⲙⲉⲥⲧⲛϩⲏⲧ ⲁⲩⲱ ⲕⲛⲁⲛⲁϩⲧⲉ ϩⲁⲛⲉϥⲧⲛϩ ·
 1-3	ⲁⲥⲡⲣⲟⲫⲏⲧⲉⲩⲉ	_	_	_	_	_	_	_	_
@@ -6605,7 +6613,7 @@
 110	ⲧⲛϩ	ⲧⲛϩ	NOUN	N	_	107	obl	_	Entity=object)|Orig=ⲧⲛ̅ϩ
 111	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0058
+# sent_id = pistis_sophia-pistis_sophia_book_2_part1_s0060
 # text_en = ...
 # text = ⲧⲉϥⲙⲉ ⲛⲁⲕⲱⲧⲉ ⲉⲣⲟⲕ ⲛⲧϩⲉ ⲛⲟⲩϩⲟⲡⲗⲟⲛ ⲛⲅⲛⲁⲣϩⲟⲧⲉ ⲁⲛ ϩⲏⲧⲥ ⲛⲟⲩϩⲟⲧⲉ ⲛϭⲱⲣϩ · ⲁⲩⲱ ϩⲏⲧϥ ⲛⲟⲩⲥⲟⲧⲉ ⲉϥϩⲏⲗ ⲙⲡⲉϩⲟⲟⲩ · ϩⲏⲧϥ ⲛⲟⲩϩⲱⲃ · ⲉϥⲙⲟⲟϣⲉ ϩⲙⲡⲕⲁⲕⲉ · ⲉⲃⲟⲗ ϩⲛⲟⲩϩⲧⲟⲡ ⲛⲇⲁⲓⲙⲟⲛⲓⲟⲛ ⲙⲡⲛⲟⲩ ⲙⲙⲉⲉⲣⲉ · ⲟⲩⲛϣⲟ ⲛⲁϩⲉ ϩⲓ
 1-2	ⲧⲉϥⲙⲉ	_	_	_	_	_	_	_	_
