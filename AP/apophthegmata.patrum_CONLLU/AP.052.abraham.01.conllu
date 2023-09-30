@@ -43,7 +43,7 @@
 15-17	ⲙⲡⲡⲁⲑⲟⲥ	_	_	_	_	_	_	_	_
 15	ⲙ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲙ̇
 16	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Entity=(abstract|Orig=ⲡ̇
-17	ⲡⲁⲑⲟⲥ	ⲡⲁⲑⲟⲥ	NOUN	N	Foreign=Yes	14	obj	_	Entity=abstract)|OrigLang=grc
+17	ⲡⲁⲑⲟⲥ	ⲡⲁⲑⲟⲥ	NOUN	N	Foreign=Yes	14	obl	_	Entity=abstract)|OrigLang=grc
 18	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0003
@@ -51,7 +51,7 @@
 # text = ⲁⲗⲗⲁ ⲉⲧⲓϥⲟⲛϩ · ϥⲙⲏⲣ ⲇⲉ ⲻ
 1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	7	cc	_	Orig=ⲁ̇ⲗⲗⲁ|OrigLang=grc
 2-4	ⲉⲧⲓϥⲟⲛϩ	_	_	_	_	_	_	_	_
-2	ⲉⲧⲓ	ⲉⲧⲓ	ADV	ADV	Foreign=Yes	4	advmod	_	Orig=ⲉ̇ⲧⲓ̇|OrigLang=grc
+2	ⲉⲧⲓ	ⲉⲧⲓ	ADV	ADV	Foreign=Yes	4	mark	_	Orig=ⲉ̇ⲧⲓ̇|OrigLang=grc
 3	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	ⲟⲛϩ	ⲱⲛϩ	VERB	VSTAT	VerbForm=Fin	7	advcl	_	Orig=ⲟⲛⲁϩ
 5	·	·	PUNCT	PUNCT	_	4	punct	_	_
@@ -94,7 +94,7 @@
 22	ⲉⲣⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	28	mark	_	Orig=ⲉ̇ⲣⲉ
 23	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	24	det	_	Entity=(substance
 24	ⲛⲟⲩⲃ	ⲛⲟⲩⲃ	NOUN	N	_	28	nsubj	_	Entity=substance)
-25	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	24	advmod	_	OrigLang=grc
+25	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	28	advmod	_	OrigLang=grc
 26-28	ϩⲛⲧⲉⲩⲙⲏⲧⲉ	_	_	_	_	_	_	_	_
 26	ϩⲛ	ϩⲛ	ADP	PREP	_	28	case	_	Orig=ϩⲛ̇
 27	ⲧⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	28	det	_	Entity=(place
@@ -110,7 +110,7 @@
 3-5	ⲙⲡⲉⲕϩⲏⲧ	_	_	_	_	_	_	_	_
 3	ⲙ	ⲛ	ADP	PREP	_	5	case	_	Orig=ⲙ̇
 4	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	5	det	_	Entity=(abstract
-5	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	1	obl	_	Entity=abstract)
+5	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	2	nmod	_	Entity=abstract)
 6-8	ⲉⲉⲡⲡⲁⲓ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	7	mark	_	Orig=ⲉ̇
 7	ⲉⲡ	ⲱⲡ	VERB	V	VerbForm=Fin	1	xcomp	_	Orig=ⲉ̇ⲡ
@@ -246,14 +246,14 @@
 5	ⲙⲟⲥⲧⲉ	ⲙⲟⲥⲧⲉ	VERB	V	VerbForm=Fin	0	root	_	_
 6-7	ⲙⲙⲟⲕ	_	_	_	_	_	_	_	_
 6	ⲙⲙⲟ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲙ̇ⲙⲟ
-7	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	obl	_	_
+7	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
 8	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	10	cc	_	Orig=ⲁⲩⲱ̇
 9-10	ϥⲕⲁⲧⲁⲗⲁⲗⲉⲓ	_	_	_	_	_	_	_	_
 9	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Orig=ϥ̇
 10	ⲕⲁⲧⲁⲗⲁⲗⲉⲓ	ⲕⲁⲧⲁⲗⲁⲗⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	5	conj	_	Orig=ⲕⲁⲧⲁⲗⲁⲗⲓ̈|OrigLang=grc
 11-12	ⲙⲙⲟⲕ	_	_	_	_	_	_	_	_
 11	ⲙⲙⲟ	ⲛ	ADP	PREP	_	12	case	_	Orig=ⲙ̇ⲙⲟ
-12	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	10	obj	_	_
+12	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	10	obl	_	_
 13	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0014
@@ -322,8 +322,8 @@
 5	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(abstract
 6	ⲡⲉⲧⲛⲁⲛⲟⲩϥ	ⲡⲉⲧⲛⲁⲛⲟⲩϥ	NOUN	N	_	4	obj	_	Entity=abstract)|Morphs=ⲡ-ⲉⲧ-ⲛⲁⲛⲟⲩ-ϥ|Orig=ⲡ̇ⲉⲧⲛⲁⲛⲟⲩϥ
 7-10	ⲙⲛⲡⲉⲧⲙⲟⲥⲧⲉ	_	_	_	_	_	_	_	_
-7	ⲙⲛ	ⲙⲛ	ADP	PREP	_	8	cc	_	Orig=ⲙⲛ̇
-8	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	nmod	_	Entity=(person
+7	ⲙⲛ	ⲙⲛ	ADP	PREP	_	8	case	_	Orig=ⲙⲛ̇
+8	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	obl	_	Entity=(person
 9	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	10	mark	_	_
 10	ⲙⲟⲥⲧⲉ	ⲙⲟⲥⲧⲉ	VERB	V	VerbForm=Fin	8	acl:relcl	_	_
 11-12	ⲙⲙⲟⲓ	_	_	_	_	_	_	_	_
@@ -335,7 +335,7 @@
 15	ϩⲉ	ϩⲉ	NOUN	N	_	4	obl	_	Orig=ⲉ
 16-19	ⲙⲡⲉⲧⲙⲉ	_	_	_	_	_	_	_	_
 16	ⲙ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲙ̇
-17	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	nmod	_	Entity=(person
+17	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	nmod	_	Entity=(person
 18	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	19	mark	_	_
 19	ⲙⲉ	ⲙⲉ	VERB	V	VerbForm=Fin	17	acl:relcl	_	_
 20-21	ⲙⲙⲟⲓ	_	_	_	_	_	_	_	_

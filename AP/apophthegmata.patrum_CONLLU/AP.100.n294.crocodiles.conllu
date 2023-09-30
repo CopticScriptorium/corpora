@@ -79,17 +79,17 @@
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0006
 # text_en = …
 # text = .. ⲟⲩⲱⲙ … ⲛϣⲱⲣⲡ ϣⲁϥ ............. .............
-1	..	UNKNOWN	X	UNKNOWN	_	2	dep	_	Orig=[..]
+1	..	UNKNOWN	X	UNKNOWN	_	2	nsubj	_	Orig=[..]
 2	ⲟⲩⲱⲙ	ⲟⲩⲱⲙ	VERB	V	VerbForm=Fin	0	root	_	Orig=[ⲟⲩ]ⲱⲙ
-3	…	UNKNOWN	X	UNKNOWN	_	5	nummod	_	Orig=[…]
+3	…	UNKNOWN	X	UNKNOWN	_	8	dislocated	_	Orig=[…]
 4-5	ⲛϣⲱⲣⲡ	_	_	_	_	_	_	_	_
-4	ⲛ	ⲛ	ADP	PREP	_	5	case	_	_
-5	ϣⲱⲣⲡ	ϣⲱⲣⲡ	NOUN	N	_	2	obl	_	Entity=(time)
+4	ⲛ	ⲛ	ADP	PREP	_	5	det	_	_
+5	ϣⲱⲣⲡ	ϣⲱⲣⲡ	NOUN	N	_	3	nmod	_	Entity=(time)
 6-7	ϣⲁϥ	_	_	_	_	_	_	_	_
 6	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	8	aux	_	_
 7	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	.............	UNKNOWN	X	UNKNOWN	_	2	parataxis	_	Orig=[.............]
-9	.............	UNKNOWN	X	UNKNOWN	_	2	advmod	_	Orig=[.............]
+9	.............	UNKNOWN	X	UNKNOWN	_	8	advmod	_	Orig=[.............]
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0007
 # text_en = because of his obedience.
@@ -141,7 +141,7 @@
 4	ⲇⲟⲕⲓⲙⲁⲍⲉ	ⲇⲟⲕⲓⲙⲁⲍⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	OrigLang=grc
 5-6	ⲙⲡⲁⲓ	_	_	_	_	_	_	_	_
 5	ⲙ	ⲛ	ADP	PREP	_	6	case	_	_
-6	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	Entity=(person)
+6	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	Entity=(person)
 
 # sent_id = apophthegmata_patrum-AP_100_n294_crocodiles_s0011
 # text_en = and I will see if he is obedient.”
@@ -415,7 +415,7 @@
 7	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	9	mark	_	_
 8	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	ⲛⲏϫ	ⲛⲟⲩϫⲉ	VERB	VSTAT	VerbForm=Fin	6	acl:relcl	_	_
-10	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	13	case	_	_
+10	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	9	advmod	_	_
 11-13	ϩⲙⲡϩⲟⲟⲩⲧⲛ	_	_	_	_	_	_	_	_
 11	ϩⲙ	ϩⲛ	ADP	PREP	_	13	case	_	Orig=ϩⲙ̇
 12	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Entity=(place

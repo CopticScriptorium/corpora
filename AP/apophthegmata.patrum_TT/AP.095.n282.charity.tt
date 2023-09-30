@@ -91,7 +91,7 @@
 </orig>
 <multiword multiword="ⲉⲓⲣⲉ ⲛ">
 <orig orig="ⲉⲓⲣⲉ">
-<norm xml:id="u13" func="advcl" head="#u9" pos="V" lemma="ⲉⲓⲣⲉ" norm="ⲉⲓⲣⲉ">
+<norm xml:id="u13" func="acl:relcl" head="#u10" pos="V" lemma="ⲉⲓⲣⲉ" norm="ⲉⲓⲣⲉ">
 ⲉⲓⲣⲉ
 </norm>
 </orig>
@@ -153,7 +153,7 @@
 <orig_group orig_group="ⲁⲩⲱ">
 <norm_group norm_group="ⲁⲩⲱ">
 <orig orig="ⲁⲩⲱ">
-<norm xml:id="u21" func="cc" head="#u13" pos="CONJ" lemma="ⲁⲩⲱ" norm="ⲁⲩⲱ">
+<norm xml:id="u21" func="cc" head="#u24" pos="CONJ" lemma="ⲁⲩⲱ" norm="ⲁⲩⲱ">
 ⲁⲩⲱ
 </norm>
 </orig>
@@ -193,7 +193,7 @@
 <orig_group orig_group="[............]">
 <norm_group norm_group="............">
 <orig orig="[............]">
-<norm xml:id="u25" func="root" new_sent="true" pos="UNKNOWN" lemma="UNKNOWN" norm="............">
+<norm xml:id="u25" func="dep" head="#u28" new_sent="true" pos="UNKNOWN" lemma="UNKNOWN" norm="............">
 <gap_reason gap_reason="lost">
 <note note="The upper left corner is missing.">
 [............]
@@ -207,7 +207,7 @@
 <norm_group norm_group="ⲕⲟⲩⲓ">
 <entity head_tok="#u26" text="ⲕⲟⲩⲓ" entity="abstract">
 <orig orig="ⲕⲟⲩⲓ">
-<norm xml:id="u26" func="dep" head="#u25" pos="N" lemma="ⲕⲟⲩⲓ" norm="ⲕⲟⲩⲓ">
+<norm xml:id="u26" func="dep" head="#u28" pos="N" lemma="ⲕⲟⲩⲓ" norm="ⲕⲟⲩⲓ">
 ⲕⲟ
 <hi_rend hi_rend="large tall">
 ⲩ
@@ -223,7 +223,7 @@
 <orig_group orig_group="[............]">
 <norm_group norm_group="............">
 <orig orig="[............]">
-<norm xml:id="u27" func="dep" head="#u26" pos="UNKNOWN" lemma="UNKNOWN" norm="............">
+<norm xml:id="u27" func="dep" head="#u28" pos="UNKNOWN" lemma="UNKNOWN" norm="............">
 <gap_reason gap_reason="lost">
 [............]
 </gap_reason>
@@ -234,7 +234,7 @@
 <orig_group orig_group="ϥⲓⲱ̇ⲡ">
 <norm_group norm_group="ϥⲓⲱⲡ">
 <orig orig="ϥⲓⲱ̇ⲡ">
-<norm xml:id="u28" func="dep" head="#u26" pos="UNKNOWN" lemma="UNKNOWN" norm="ϥⲓⲱⲡ">
+<norm xml:id="u28" func="root" pos="UNKNOWN" lemma="UNKNOWN" norm="ϥⲓⲱⲡ">
 ϥⲓⲱ̇ⲡ
 </norm>
 </orig>
@@ -267,7 +267,7 @@
 <orig_group orig_group="[.........]">
 <norm_group norm_group=".........">
 <orig orig="[.........]">
-<norm xml:id="u31" func="advmod" head="#u25" pos="UNKNOWN" lemma="UNKNOWN" norm=".........">
+<norm xml:id="u31" func="dep" head="#u28" pos="UNKNOWN" lemma="UNKNOWN" norm=".........">
 <gap_reason gap_reason="lost">
 [.........]
 </gap_reason>
@@ -280,7 +280,7 @@
 <orig_group orig_group="ϫⲉ">
 <norm_group norm_group="ϫⲉ">
 <orig orig="ϫⲉ">
-<norm xml:id="u32" func="mark" head="#u33" new_sent="true" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
+<norm xml:id="u32" func="mark" head="#u34" new_sent="true" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
 ϫⲉ
 </norm>
 </orig>
@@ -289,12 +289,12 @@
 <orig_group orig_group="ⲉϥⲉⲧⲁ">
 <norm_group norm_group="ⲉϥⲉⲧⲁ">
 <orig orig="ⲉϥⲉ">
-<norm xml:id="u33" func="root" pos="AOPT_PPERS" lemma="ⲉⲣⲉ_ⲛⲧⲟϥ" norm="ⲉϥⲉ">
+<norm xml:id="u33" func="nsubj" head="#u34" pos="AOPT_PPERS" lemma="ⲉⲣⲉ_ⲛⲧⲟϥ" norm="ⲉϥⲉ">
 ⲉϥⲉ
 </norm>
 </orig>
 <orig orig="ⲧⲁ">
-<norm xml:id="u34" func="det" head="#u35" pos="V" lemma="UNKNOWN" norm="ⲧⲁ">
+<norm xml:id="u34" func="root" pos="V" lemma="UNKNOWN" norm="ⲧⲁ">
 ⲧⲁ
 </norm>
 </orig>
@@ -305,7 +305,7 @@
 <orig_group orig_group="[....]">
 <norm_group norm_group="....">
 <orig orig="[....]">
-<norm xml:id="u35" func="advmod" head="#u33" pos="UNKNOWN" lemma="UNKNOWN" norm="....">
+<norm xml:id="u35" func="advmod" head="#u34" pos="UNKNOWN" lemma="UNKNOWN" norm="....">
 <gap_reason gap_reason="lost">
 [....]
 </gap_reason>
@@ -413,7 +413,7 @@
 </lb_n>
 <lb_n lb_n="7">
 <orig orig="[ⲁⲁ]">
-<norm xml:id="u49" func="acl:relcl" head="#u42" pos="V" lemma="ⲉⲓⲣⲉ" norm="ⲁⲁ">
+<norm xml:id="u49" func="acl:relcl" head="#u40" pos="V" lemma="ⲉⲓⲣⲉ" norm="ⲁⲁ">
 <supplied_reason supplied_reason="lost">
 <gap_reason gap_reason="lost">
 [ⲁⲁ]
@@ -506,7 +506,7 @@
 </orig>
 <entity head_tok="#u59" text="ⲟⲩⲟⲉⲓϣ" entity="time">
 <orig orig="ⲟⲩⲟⲉⲓ̇ϣ">
-<norm xml:id="u59" func="obl" head="#u56" pos="N" lemma="ⲟⲩⲟⲉⲓϣ" norm="ⲟⲩⲟⲉⲓϣ">
+<norm xml:id="u59" func="obl" head="#u54" pos="N" lemma="ⲟⲩⲟⲉⲓϣ" norm="ⲟⲩⲟⲉⲓϣ">
 ⲟⲩⲟⲉⲓ̇ϣ
 </norm>
 </orig>
@@ -524,7 +524,7 @@
 <lb_n lb_n="9">
 <entity identity="Oxyrhynchus" head_tok="#u61" text="ⲡⲙϫⲏ" entity="place">
 <orig orig="ⲡⲙ̇ϫⲏ">
-<norm xml:id="u61" func="obl" head="#u56" pos="NPROP" lemma="ⲡⲙϫⲏ" norm="ⲡⲙϫⲏ">
+<norm xml:id="u61" func="obl" head="#u54" pos="NPROP" lemma="ⲡⲙϫⲏ" norm="ⲡⲙϫⲏ">
 ⲡⲙ̇ϫⲏ
 </norm>
 </orig>
@@ -545,7 +545,7 @@
 </norm>
 </orig>
 <orig orig="ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ">
-<norm xml:id="u64" func="nmod" head="#u61" pos="N" lemma="ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ" norm="ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ">
+<norm xml:id="u64" func="obl" head="#u54" pos="N" lemma="ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ" norm="ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ">
 <lang lang="Greek">
 ⲡ
 </lb_n>
@@ -572,7 +572,7 @@
 </orig>
 <multiword multiword="ⲉⲓⲣⲉ ⲛ">
 <orig orig="ⲉⲓⲣⲉ">
-<norm xml:id="u67" func="acl:relcl" head="#u64" pos="V" lemma="ⲉⲓⲣⲉ" norm="ⲉⲓⲣⲉ">
+<norm xml:id="u67" func="advcl" head="#u54" pos="V" lemma="ⲉⲓⲣⲉ" norm="ⲉⲓⲣⲉ">
 ⲉⲓⲣⲉ
 </norm>
 </orig>
@@ -623,7 +623,7 @@
 </norm>
 </orig>
 <orig orig="ⲉⲓ̇">
-<norm xml:id="u73" func="parataxis" head="#u67" pos="V" lemma="ⲉⲓ" norm="ⲉⲓ">
+<norm xml:id="u73" func="parataxis" head="#u54" pos="V" lemma="ⲉⲓ" norm="ⲉⲓ">
 ⲉⲓ̇
 </norm>
 </orig>
@@ -702,7 +702,7 @@
 </norm>
 </orig>
 <orig orig="ϥ">
-<norm xml:id="u83" func="obj" head="#u81" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
+<norm xml:id="u83" func="obl" head="#u81" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
 ϥ
 </norm>
 </orig>
@@ -810,7 +810,7 @@
 <orig_group orig_group="ⲁ̇ⲛ̇ⲓ̇ⲟⲩⲟⲓⲡⲉ">
 <norm_group norm_group="ⲁⲛⲓⲟⲩⲟⲓⲡⲉ">
 <orig orig="ⲁ̇ⲛ̇ⲓ̇">
-<norm xml:id="u96" func="case" head="#u98" pos="VIMP" lemma="ⲉⲓⲛⲉ" norm="ⲁⲛⲓ">
+<norm xml:id="u96" func="parataxis" head="#u95" pos="VIMP" lemma="ⲉⲓⲛⲉ" norm="ⲁⲛⲓ">
 ⲁ̇ⲛ̇ⲓ̇
 </norm>
 </orig>
@@ -823,7 +823,7 @@
 </norm>
 </orig>
 <orig orig="ⲟⲓⲡⲉ">
-<norm xml:id="u98" func="vocative" head="#u95" pos="N" lemma="ⲟⲓⲡⲉ" norm="ⲟⲓⲡⲉ">
+<norm xml:id="u98" func="obj" head="#u96" pos="N" lemma="ⲟⲓⲡⲉ" norm="ⲟⲓⲡⲉ">
 ⲟⲓⲡⲉ
 </norm>
 </orig>
@@ -838,7 +838,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲓⲧ">
-<norm xml:id="u100" func="parataxis" head="#u95" pos="V" lemma="ϣⲓ" norm="ϣⲓⲧ">
+<norm xml:id="u100" func="advcl" head="#u96" pos="V" lemma="ϣⲓ" norm="ϣⲓⲧ">
 ϣⲓⲧ
 </norm>
 </orig>
@@ -1074,7 +1074,7 @@
 </norm>
 </orig>
 <orig orig="ⲕⲓ̇ⲙ">
-<norm xml:id="u129" func="acl:relcl" head="#u126" pos="V" lemma="ⲕⲓⲙ" norm="ⲕⲓⲙ">
+<norm xml:id="u129" func="acl:relcl" head="#u123" pos="V" lemma="ⲕⲓⲙ" norm="ⲕⲓⲙ">
 ⲕⲓ̇ⲙ
 </norm>
 </orig>
@@ -1300,7 +1300,7 @@
 </norm>
 </orig>
 <orig orig="ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ">
-<norm xml:id="u157" func="vocative" head="#u155" pos="N" lemma="ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ" norm="ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ">
+<norm xml:id="u157" func="appos" head="#u155" pos="N" lemma="ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ" norm="ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ">
 <lang lang="Greek">
 ⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ
 </lang>
@@ -1358,7 +1358,7 @@
 </norm>
 </orig>
 <orig orig="ⲭⲏⲣⲁ">
-<norm xml:id="u164" func="obl" head="#u160" pos="N" lemma="ⲭⲏⲣⲁ" norm="ⲭⲏⲣⲁ">
+<norm xml:id="u164" func="obj" head="#u160" pos="N" lemma="ⲭⲏⲣⲁ" norm="ⲭⲏⲣⲁ">
 <lang lang="Greek">
 ⲭⲏⲣⲁ
 </lang>
@@ -1476,7 +1476,7 @@
 <orig_group orig_group="ϫⲉⲉϣϫⲉ">
 <norm_group norm_group="ϫⲉⲉϣϫⲉ">
 <orig orig="ϫⲉ">
-<norm xml:id="u176" func="mark" head="#u192" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
+<norm xml:id="u176" func="mark" head="#u180" pos="CONJ" lemma="ϫⲉ" norm="ϫⲉ">
 ϫⲉ
 </norm>
 </orig>
@@ -1500,7 +1500,7 @@
 </norm>
 </orig>
 <orig orig="ϯ">
-<norm xml:id="u180" func="advcl" head="#u192" pos="V" lemma="ϯ" norm="ϯ">
+<norm xml:id="u180" func="ccomp" head="#u172" pos="V" lemma="ϯ" norm="ϯ">
 ϯ
 </norm>
 </orig>

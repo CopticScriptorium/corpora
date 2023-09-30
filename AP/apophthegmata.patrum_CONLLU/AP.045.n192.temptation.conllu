@@ -71,27 +71,27 @@
 # text_en = There was a brother at Kellia in whom a temptation arose.
 # text = ϫⲉⲛⲉ ⲟⲩⲛⲟⲩⲥⲟⲛ ϫⲛⲛⲣⲓ ⲉⲁⲩⲡⲉⲓⲣⲁⲥⲙⲟⲥ ⲧⲱⲟⲩⲛ ⲉϩⲣⲁⲓ ⲉϫⲱϥ ⲻ
 1-2	ϫⲉⲛⲉ	_	_	_	_	_	_	_	_
-1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	3	mark	_	_
-2	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	3	aux	_	_
+1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	6	mark	_	_
+2	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	6	aux	_	_
 3-5	ⲟⲩⲛⲟⲩⲥⲟⲛ	_	_	_	_	_	_	_	_
-3	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	0	root	_	_
+3	ⲟⲩⲛ	ⲟⲩⲛ	AUX	EXIST	_	6	aux	_	_
 4	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	5	det	_	Entity=(person
-5	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	3	nsubj	_	Entity=person)
+5	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	6	nsubj	_	Entity=person)
 6-8	ϫⲛⲛⲣⲓ	_	_	_	_	_	_	_	_
-6	ϫⲛ	ϫⲛ	CCONJ	CONJ	_	3	advmod	_	Orig=ϫⲛ̇
+6	ϫⲛ	ϫⲛ	CCONJ	CONJ	_	0	root	_	Orig=ϫⲛ̇
 7	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	8	det	_	Entity=(place|Orig=ⲛ̇
-8	ⲣⲓ	ⲣⲓ	NOUN	N	_	6	nmod	_	Entity=place)|Orig=ⲣⲓ̈
+8	ⲣⲓ	ⲣⲓ	NOUN	N	_	6	obl	_	Entity=place)|Orig=ⲣⲓ̈
 9-12	ⲉⲁⲩⲡⲉⲓⲣⲁⲥⲙⲟⲥ	_	_	_	_	_	_	_	_
 9	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	13	mark	_	Orig=ⲉ̇
 10	ⲁ	ⲁ	AUX	APST	_	13	aux	_	Orig=ⲁ̇
 11	ⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	12	det	_	Entity=(abstract
 12	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	13	nsubj	_	Entity=abstract)|Orig=ⲡⲓ̇ⲣⲁⲥⲙⲟⲥ|OrigLang=grc
-13	ⲧⲱⲟⲩⲛ	ⲧⲱⲟⲩⲛ	VERB	V	VerbForm=Fin	6	acl:relcl	_	Orig=ⲧ̇ⲱⲟⲩⲛ̇
+13	ⲧⲱⲟⲩⲛ	ⲧⲱⲟⲩⲛ	VERB	V	VerbForm=Fin	6	advcl	_	Orig=ⲧ̇ⲱⲟⲩⲛ̇
 14	ⲉϩⲣⲁⲓ	ⲉϩⲣⲁⲓ	ADV	ADV	_	13	advmod	_	Orig=ⲉ̇ϩⲣⲁⲓ̇
 15-16	ⲉϫⲱϥ	_	_	_	_	_	_	_	_
 15	ⲉϫⲱ	ⲉϫⲛ	ADP	PREP	_	16	case	_	Orig=ⲉ̇ϫⲱ
 16	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
-17	ⲻ	ⲻ	PUNCT	PUNCT	_	3	punct	_	_
+17	ⲻ	ⲻ	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_045_n192_temptation_s0004
 # text_en = And if anyone saw him, he did not speak to him or receive him in his cell.
@@ -130,10 +130,10 @@
 # sent_id = apophthegmata_patrum-AP_045_n192_temptation_s0005
 # text_en = And if he needed bread, no one would give him any.
 # text = ⲁⲩⲱ ⲉϥⲉⲣⲭⲣⲉⲓⲁ ⲛⲟⲩⲟⲉⲓⲕ ⲙⲉⲣⲉⲗⲁⲁⲩ ϯ ⲛⲁϥ ⲉⲡⲉⲩϣⲁⲡ ⲻ
-1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	9	cc	_	_
+1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	3	cc	_	_
 2-3	ⲉϥⲉⲣⲭⲣⲉⲓⲁ	_	_	_	_	_	_	_	_
 2	ⲉϥⲉ	ⲉⲣⲉ_ⲛⲧⲟϥ	PRON	AOPT_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Orig=ⲉ̇ϥⲉ
-3	ⲣⲭⲣⲉⲓⲁ	ⲣⲭⲣⲉⲓⲁ	VERB	V	Foreign=Yes|VerbForm=Fin	9	advcl	_	Morphs=ⲣ-ⲭⲣⲉⲓⲁ|Orig=ⲣⲭ̇ⲣⲓ̇ⲁ̇|OrigLang=grc
+3	ⲣⲭⲣⲉⲓⲁ	ⲣⲭⲣⲉⲓⲁ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	Morphs=ⲣ-ⲭⲣⲉⲓⲁ|Orig=ⲣⲭ̇ⲣⲓ̇ⲁ̇|OrigLang=grc
 4-6	ⲛⲟⲩⲟⲉⲓⲕ	_	_	_	_	_	_	_	_
 4	ⲛ	ⲛ	ADP	PREP	_	6	case	_	_
 5	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	6	det	_	Entity=(object
@@ -141,7 +141,7 @@
 7-8	ⲙⲉⲣⲉⲗⲁⲁⲩ	_	_	_	_	_	_	_	_
 7	ⲙⲉⲣⲉ	ⲙⲉⲣⲉ	AUX	ANEGAOR	Polarity=Neg	9	aux	_	_
 8	ⲗⲁⲁⲩ	ⲗⲁⲁⲩ	NOUN	N	_	9	nsubj	_	Entity=(person)|Orig=ⲗⲁⲁ̇ⲩ
-9	ϯ	ϯ	VERB	V	VerbForm=Fin	0	root	_	_
+9	ϯ	ϯ	VERB	V	VerbForm=Fin	3	parataxis	_	_
 10-11	ⲛⲁϥ	_	_	_	_	_	_	_	_
 10	ⲛⲁ	ⲛⲁ	ADP	PREP	_	11	case	_	_
 11	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
@@ -149,7 +149,7 @@
 12	ⲉ	ⲉ	ADP	PREP	_	14	case	_	Orig=ⲉ̇
 13	ⲡⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	14	det	_	Entity=(object
 14	ϣⲁⲡ	ϣⲁⲡ	NOUN	N	_	9	obl	_	Entity=object)
-15	ⲻ	ⲻ	PUNCT	PUNCT	_	9	punct	_	_
+15	ⲻ	ⲻ	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_045_n192_temptation_s0006
 # text_en = And if he came to the harvest, he was not invited nor to the other meeting as was the custom to invite for the agape meal.
@@ -178,13 +178,13 @@
 18	·	·	PUNCT	PUNCT	_	22	punct	_	_
 19	ϩⲱⲥ	ϩⲱⲥ	SCONJ	CONJ	Foreign=Yes	22	mark	_	OrigLang=grc
 20-22	ⲉⲡⲥⲱⲛⲧ	_	_	_	_	_	_	_	_
-20	ⲉ	ⲉ	PART	PREP	_	22	mark	_	Orig=ⲉ̇
+20	ⲉ	ⲉ	AUX	PREP	_	22	aux	_	Orig=ⲉ̇
 21	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	Entity=(abstract
 22	ⲥⲱⲛⲧ	ⲥⲱⲛⲧ	NOUN	N	_	11	advcl	_	Entity=abstract)|Orig=ⲥⲱⲛⲧ̇
 23	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	22	cop	_	_
 24-26	ⲉⲧⲁϩⲙⲟⲩ	_	_	_	_	_	_	_	_
 24	ⲉ	ⲉ	PART	PREP	_	25	mark	_	Orig=ⲉ̇
-25	ⲧⲁϩⲙ	ⲧⲱϩⲙ	VERB	V	VerbForm=Inf	22	csubj	_	_
+25	ⲧⲁϩⲙ	ⲧⲱϩⲙ	VERB	V	VerbForm=Inf	22	xcomp	_	_
 26	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	25	obj	_	_
 27-29	ⲉⲧⲁⲅⲁⲡⲏ	_	_	_	_	_	_	_	_
 27	ⲉ	ⲉ	ADP	PREP	_	29	case	_	Orig=ⲉ̇
@@ -265,7 +265,7 @@
 9	ⲁ	ⲁ	AUX	APST	_	11	aux	_	_
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	ϥⲓ	ϥⲓ	VERB	V	VerbForm=Fin	5	parataxis	_	Orig=ϥⲓ̇
-12	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	11	advmod	_	Orig=ⲉ̇ⲃⲟⲗ
+12	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	14	case	_	Orig=ⲉ̇ⲃⲟⲗ
 13-14	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 13	ⲙⲙⲟ	ⲛ	ADP	PREP	_	12	fixed	_	Orig=ⲙⲙⲟ̇
 14	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_

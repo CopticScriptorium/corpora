@@ -132,7 +132,7 @@
 1-3	ϫⲉⲟⲩⲛϣⲟⲙⲛⲧ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	6	mark	_	_
 2	ⲟⲩⲛ	ⲟⲩⲛ	AUX	EXIST	_	6	aux	_	Orig=ⲟⲩⲛ̇
-3	ϣⲟⲙⲛⲧ	ϣⲟⲙⲛⲧ	NUM	NUM	NumType=Card	6	nsubj	_	Entity=(abstract|Orig=ϣⲟⲙⲛⲧ̇
+3	ϣⲟⲙⲛⲧ	ϣⲟⲙⲛⲧ	NUM	NUM	NumType=Card	5	nummod	_	Entity=(abstract|Orig=ϣⲟⲙⲛⲧ̇
 4-5	ⲙⲙⲉⲉⲩⲉ	_	_	_	_	_	_	_	_
 4	ⲙ	ⲛ	ADP	PREP	_	5	case	_	Orig=ⲙ̇
 5	ⲙⲉⲉⲩⲉ	ⲙⲉⲉⲩⲉ	NOUN	N	_	6	nsubj	_	Entity=abstract)|Orig=ⲙⲉⲉⲩⲉ̇
@@ -147,24 +147,24 @@
 # text = ⲏ ⲧⲁⲥⲟⲣⲙⲉⲧ ⲉⲃⲟⲗ ϩⲓⲡϫⲁⲓⲉ · ⲏ ⲧⲁⲃⲱⲕ ⲉⲡϣⲙⲙⲟ · ⲡⲙⲁ ⲉⲧⲉⲙⲛⲗⲁⲁⲩ ⲛⲁⲥⲟⲩⲱⲛⲧ ⲏ ⲧⲁⲟⲧⲡ ⲉϩⲟⲩⲛ ⲉⲩⲣⲓ ⲧⲁⲧⲙⲁⲡⲁⲛⲧⲁ ⲉⲗⲁⲁⲩ · ⲧⲁⲟⲩⲱⲙ ⲙⲡⲁⲥⲛⲁⲩ .
 1	ⲏ	ⲏ	CCONJ	CONJ	_	3	cc	_	Orig=ⲏ̇
 2-4	ⲧⲁⲥⲟⲣⲙⲉⲧ	_	_	_	_	_	_	_	_
-2	ⲧⲁ	ⲛⲧⲉ_ⲁⲛⲟⲕ	PRON	ACONJ_PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ⲧⲁ	ⲛⲧⲉ_ⲁⲛⲟⲕ	PRON	ACONJ_PPERS	_	3	det	_	_
 3	ⲥⲟⲣⲙ	ⲥⲟⲣⲙ	VERB	V	VerbForm=Fin	0	root	_	_
-4	ⲉⲧ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	5	mark	_	_
+4	ⲉⲧ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	8	mark	_	_
 5	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	8	case	_	Orig=ⲉ̇ⲃⲟⲗ
 6-8	ϩⲓⲡϫⲁⲓⲉ	_	_	_	_	_	_	_	_
-6	ϩⲓ	ϩⲓ	ADP	PREP	_	5	fixed	_	Orig=ϩⲓ̇
+6	ϩⲓ	ϩⲓ	ADP	PREP	_	8	case	_	Orig=ϩⲓ̇
 7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(place
-8	ϫⲁⲓⲉ	ϫⲁⲓⲉ	NOUN	N	_	3	obl	_	Entity=place)|Orig=ϫⲁⲓ̇ⲉ̇
+8	ϫⲁⲓⲉ	ϫⲁⲓⲉ	NOUN	N	_	3	acl:relcl	_	Entity=place)|Orig=ϫⲁⲓ̇ⲉ̇
 9	·	·	PUNCT	PUNCT	_	12	punct	_	_
 10	ⲏ	ⲏ	CCONJ	CONJ	_	12	cc	_	Orig=ⲏ̇
 11-12	ⲧⲁⲃⲱⲕ	_	_	_	_	_	_	_	_
 11	ⲧⲁ	ⲛⲧⲉ_ⲁⲛⲟⲕ	PRON	ACONJ_PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
-12	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	3	conj	_	_
+12	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	8	conj	_	_
 13-15	ⲉⲡϣⲙⲙⲟ	_	_	_	_	_	_	_	_
 13	ⲉ	ⲉ	ADP	PREP	_	15	case	_	Orig=ⲉ̇
 14	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(place
 15	ϣⲙⲙⲟ	ϣⲙⲙⲟ	NOUN	N	_	12	obl	_	Orig=ϣⲙ̇ⲙⲟ
-16	·	·	PUNCT	PUNCT	_	15	punct	_	_
+16	·	·	PUNCT	PUNCT	_	18	punct	_	_
 17-18	ⲡⲙⲁ	_	_	_	_	_	_	_	_
 17	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	Orig=ⲡ̇
 18	ⲙⲁ	ⲙⲁ	NOUN	N	_	3	conj	_	_
@@ -179,7 +179,7 @@
 25	ⲏ	ⲏ	CCONJ	CONJ	_	27	cc	_	Orig=ⲏ̇
 26-27	ⲧⲁⲟⲧⲡ	_	_	_	_	_	_	_	_
 26	ⲧⲁ	ⲛⲧⲉ_ⲁⲛⲟⲕ	PRON	ACONJ_PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
-27	ⲟⲧⲡ	ⲱⲧⲡ	VERB	VSTAT	VerbForm=Fin	15	conj	_	Orig=ⲟ̇ⲧⲡ̇
+27	ⲟⲧⲡ	ⲱⲧⲡ	VERB	VSTAT	VerbForm=Fin	23	conj	_	Orig=ⲟ̇ⲧⲡ̇
 28	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	27	advmod	_	Orig=ⲉ̇ϩⲟⲩⲛ
 29-31	ⲉⲩⲣⲓ	_	_	_	_	_	_	_	_
 29	ⲉ	ⲉ	ADP	PREP	_	31	case	_	Orig=ⲉ̇
@@ -199,7 +199,7 @@
 40-42	ⲙⲡⲁⲥⲛⲁⲩ	_	_	_	_	_	_	_	_
 40	ⲙ	ⲛ	ADP	PREP	_	42	case	_	Orig=ⲙ̇
 41	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	42	det	_	Entity=(time
-42	ⲥⲛⲁⲩ	ⲥⲛⲁⲩ	NUM	NUM	NumType=Card	39	obj	_	Entity=time)|Orig=ⲥ̇ⲛⲁⲩ
+42	ⲥⲛⲁⲩ	ⲥⲛⲁⲩ	NUM	NUM	NumType=Card	39	obl	_	Entity=time)|Orig=ⲥ̇ⲛⲁⲩ
 43	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=·ⲻ
 
 # sent_id = apophthegmata_patrum-AP_053_unid_ammona_s0012
@@ -246,7 +246,7 @@
 10-12	ⲛⲟⲩⲕⲟⲩⲓ	_	_	_	_	_	_	_	_
 10	ⲛ	ⲛ	ADP	PREP	_	12	case	_	_
 11	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	12	det	_	_
-12	ⲕⲟⲩⲓ	ⲕⲟⲩⲓ	NOUN	N	_	9	obj	_	Orig=ⲕⲟⲩⲓ̇
+12	ⲕⲟⲩⲓ	ⲕⲟⲩⲓ	NOUN	N	_	9	obl	_	Orig=ⲕⲟⲩⲓ̇
 13-14	ⲙⲙⲏⲛⲉ	_	_	_	_	_	_	_	_
 13	ⲙ	ⲛ	ADP	PREP	_	14	case	_	Orig=ⲙ̇
 14	ⲙⲏⲛⲉ	ⲙⲏⲛⲉ	NOUN	N	_	12	nmod	_	_
