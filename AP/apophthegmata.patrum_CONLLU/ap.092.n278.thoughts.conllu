@@ -36,7 +36,7 @@
 11	ϩⲙⲟⲟⲥ	ϩⲙⲟⲟⲥ	VERB	V	VerbForm=Fin	7	acl:relcl	_	Orig=ϩ̇ⲙⲟⲟⲥ
 12-13	ⲉⲛⲟⲩϥⲧ	_	_	_	_	_	_	_	_
 12	ⲉ	ⲉ	ADP	PREP	_	13	case	_	Orig=ⲉ̇
-13	ⲛⲟⲩϥⲧ	ⲛⲟⲩϥⲧ	VERB	V	VerbForm=Inf	11	obl	_	Entity=time)|Orig=ⲛⲟⲩϥ̇ⲧ̇
+13	ⲛⲟⲩϥⲧ	ⲛⲟⲩϥⲧ	VERB	V	VerbForm=Inf	11	xcomp	_	Entity=time)|Orig=ⲛⲟⲩϥ̇ⲧ̇
 14-16	ϣⲁⲣⲉⲛⲉϥⲙⲉⲉⲩⲉ	_	_	_	_	_	_	_	_
 14	ϣⲁⲣⲉ	ϣⲁⲣⲉ	AUX	AAOR	_	17	aux	_	_
 15	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	Entity=(abstract
@@ -100,7 +100,7 @@
 7-9	ϫⲉⲉϥϣⲁⲛⲙⲟⲩ	_	_	_	_	_	_	_	_
 7	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	9	mark	_	_
 8	ⲉϥϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟϥ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Orig=ⲉ̇ϥϣⲁⲛ
-9	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	5	advcl	_	_
+9	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	10	advcl	_	_
 10	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	5	ccomp	_	_
 11-16	ⲡⲉⲧⲉⲕⲛⲁⲁⲁϥ	_	_	_	_	_	_	_	_
 11	ⲡ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	10	cop	_	Entity=(person
@@ -144,7 +144,7 @@
 9	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	13	mark	_	_
 10	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	13	cc	_	Orig=ⲁ̇ⲗⲗⲁ|OrigLang=grc
 11-13	ⲙⲡⲉⲟⲩⲟⲉⲓϣ	_	_	_	_	_	_	_	_
-11	ⲙ	ⲛ	ADV	NEG	Polarity=Neg	13	case	_	Orig=ⲙ̇
+11	ⲙ	ⲛ	ADV	NEG	Polarity=Neg	13	advmod	_	Orig=ⲙ̇
 12	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Entity=(time
 13	ⲟⲩⲟⲉⲓϣ	ⲟⲩⲟⲉⲓϣ	NOUN	N	_	3	ccomp	_	Entity=time)|Orig=ⲟⲩⲟ̇ⲉⲓ̇ϣ
 14	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	13	advmod	_	Orig=ⲁ̇ⲛ
@@ -166,21 +166,21 @@
 8	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	Orig=ϥ̇
 9-10	ϫⲉϩⲟⲥⲟⲛ	_	_	_	_	_	_	_	_
 9	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	12	mark	_	_
-10	ϩⲟⲥⲟⲛ	ϩⲟⲥⲟⲛ	SCONJ	CONJ	Foreign=Yes	12	mark	_	Orig=ϩⲱⲥⲟ|OrigLang=grc
+10	ϩⲟⲥⲟⲛ	ϩⲟⲥⲟⲛ	AUX	CONJ	Foreign=Yes	12	aux	_	Orig=ϩⲱⲥⲟ|OrigLang=grc
 11-12	ⲕϫⲁϫϩ	_	_	_	_	_	_	_	_
 11	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	Orig=ⲕ̇
 12	ϫⲁϫϩ	ϫⲁϫϩ	VERB	V	VerbForm=Fin	5	ccomp	_	Orig=ϫⲁϫϩ̇
 13-15	ⲛⲛⲥⲱ	_	_	_	_	_	_	_	_
 13	ⲛ	ⲛ	ADP	PREP	_	15	case	_	Orig=ⲛ̇
 14	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	15	det	_	Entity=(plant|Orig=ⲛ̇
-15	ⲥⲱ	ⲥⲱ	NOUN	N	_	12	obj	_	Entity=plant)
+15	ⲥⲱ	ⲥⲱ	NOUN	N	_	12	obl	_	Entity=plant)
 16	·	·	PUNCT	PUNCT	_	20	punct	_	_
 17-18	ⲡⲥⲏⲩ	_	_	_	_	_	_	_	_
 17	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	Entity=(time|Orig=ⲡ̇
 18	ⲥⲏⲩ	ⲥⲏⲩ	NOUN	N	_	20	nsubj	_	Entity=time)
 19-20	ⲛⲁϣⲱⲡⲉ	_	_	_	_	_	_	_	_
 19	ⲛⲁ	ⲛⲁ	AUX	FUT	_	20	aux	_	_
-20	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	12	parataxis	_	_
+20	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	12	conj	_	_
 21	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = apophthegmata_patrum-ap_092_n278_thoughts_s0008
@@ -199,15 +199,15 @@
 9	ϫⲉⲕ	ϫⲱⲕ	VERB	V	VerbForm=Fin	5	ccomp	_	Orig=ϫⲉ
 10	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	11	det	_	Entity=(plant|Orig=ⲛ̇
 11	ⲃⲏⲧ	ⲃⲏⲧ	NOUN	N	_	9	obj	_	Entity=plant)
-12	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	11	advmod	_	Orig=[ⲉⲃⲟ]ⲗ
+12	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	9	advmod	_	Orig=[ⲉⲃⲟ]ⲗ
 13-15	ⲛⲧⲉⲓϩⲉ	_	_	_	_	_	_	_	_
 13	ⲛ	ⲛ	ADP	PREP	_	15	case	_	Orig=ⲛ̇
 14	ⲧⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	Orig=ⲧⲉⲓ̇
-15	ϩⲉ	ϩⲉ	NOUN	N	_	9	obl	_	_
+15	ϩⲉ	ϩⲉ	NOUN	N	_	11	obl	_	_
 16-18	ϯⲛⲁⲃⲱⲕ	_	_	_	_	_	_	_	_
 16	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	Orig=ϯ̇
 17	ⲛⲁ	ⲛⲁ	AUX	FUT	_	18	aux	_	_
-18	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	5	ccomp	_	Orig=[ⲃⲱ]ⲕ
+18	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	9	parataxis	_	Orig=[ⲃⲱ]ⲕ
 19	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = apophthegmata_patrum-ap_092_n278_thoughts_s0009
@@ -258,7 +258,7 @@
 11	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	12	det	_	Entity=(plant|Orig=ⲛ̇
 12	ⲃⲏⲧ	ⲃⲏⲧ	NOUN	N	_	10	obj	_	Entity=plant)|Orig=ⲃⲏ̇ⲧ
 13-15	ⲉⲩϩⲟⲣⲡ	_	_	_	_	_	_	_	_
-13	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	15	mark	_	Orig=ⲉ̇
+13	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	15	case	_	Orig=ⲉ̇
 14	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
 15	ϩⲟⲣⲡ	ϩⲟⲣⲡ	VERB	V	VerbForm=Fin	10	obl	_	Orig=ϩⲟⲣⲡ̇
 16	·	·	PUNCT	PUNCT	_	7	punct	_	_
@@ -506,7 +506,7 @@
 # sent_id = apophthegmata_patrum-ap_092_n278_thoughts_s0019
 # text_en = And they became smoke and left.
 # text = ϫ.. ⲁⲩⲱ ⲟⲛ ⲁⲩⲣⲟⲩⲕⲁⲡⲛⲟⲥ ⲁⲩⲃⲱⲕ
-1	ϫ..	ϫ..	X	UNKNOWN	_	6	advmod	_	Orig=ϫ[..]
+1	ϫ..	ϫ..	X	UNKNOWN	_	6	cc	_	Orig=ϫ[..]
 2	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	6	cc	_	_
 3	ⲟⲛ	ⲟⲛ	ADV	ADV	_	6	advmod	_	_
 4-8	ⲁⲩⲣⲟⲩⲕⲁⲡⲛⲟⲥ	_	_	_	_	_	_	_	_
@@ -531,7 +531,7 @@
 5	ⲉⲣ.....ⲛⲁϩ	ⲉⲣ.....ⲛⲁϩ	X	UNKNOWN	_	2	dep	_	Orig=ⲉⲣ[.....]ⲛⲁϩ
 6-7	.....ⲟⲩ	_	_	_	_	_	_	_	_
 6	.....	UNKNOWN	X	UNKNOWN	_	2	dep	_	Orig=[.....]
-7	ⲟⲩ	UNKNOWN	X	UNKNOWN	_	4	det	_	_
+7	ⲟⲩ	UNKNOWN	X	UNKNOWN	_	2	parataxis	_	_
 8	....	UNKNOWN	X	UNKNOWN	_	2	advmod	_	Orig=[....]
 
 # sent_id = apophthegmata_patrum-ap_092_n278_thoughts_s0021
