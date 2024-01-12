@@ -20,6 +20,8 @@ Values for these metadata are:
   * checked - checked for accuracy by an expert in Coptic
   * gold - closely reviewed for accuracy, usually as a result of treebanking
 
+Metadata for all documents in this repository is aggregated in [meta.json](meta.json).
+
 ## Notes on duplicates and redundancies
 
 Some of the data in this repository contains **duplicate information**. In particular, the `coptic-treebank` corpus is a convenient collection of all gold-standard treebanked data (manual syntactic analyses), all of which is included in other source corpora (which are often not 100% gold parsed). The documents in the treebank are **identical** to the same documents in the source corpora (e.g. XH204-216 is included in both its source corpus folder `shenoute-fox` and the treebank).
