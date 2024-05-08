@@ -21,7 +21,7 @@
 13	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 14-16	ⲙⲡⲉϥⲙⲁⲑⲏⲧⲏⲥ	_	_	_	_	_	_	_	_
 14	ⲙ	ⲛ	ADP	PREP	_	16	case	_	Orig=ⲙ̇
-15	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	Entity=(person
+15	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	Entity=(person
 16	ⲙⲁⲑⲏⲧⲏⲥ	ⲙⲁⲑⲏⲧⲏⲥ	NOUN	N	Foreign=Yes	12	obl	_	Entity=person)|OrigLang=grc
 17-18	ϫⲉⲧⲁⲙⲓⲟ	_	_	_	_	_	_	_	_
 17	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	18	mark	_	_
@@ -72,7 +72,7 @@
 
 # sent_id = apophthegmata_patrum-AP_021_n149_lentils_s0004
 # text_en = But they continued to talk about spiritual things all day and all night.
-# text = ⲛⲧⲟⲟⲩ ⲇⲉ ⲁⲩⲙⲟⲩⲛ ⲉⲃⲟⲗ ⲉⲩϣⲁϫⲉ ⲉⲛⲉⲡⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ ⲙⲡⲉϩⲟⲟⲩ ⲧⲏⲣϥ ⲙⲛⲧⲟⲩϣⲏ ⲧⲏⲣⲥ
+# text = ⲛⲧⲟⲟⲩ ⲇⲉ ⲁⲩⲙⲟⲩⲛ ⲉⲃⲟⲗ ⲉⲩϣⲁϫⲉ ⲉⲛⲉⲡⲛⲉⲩⲙⲁⲧⲓⲕⲟⲛ ⲙⲡⲉϩⲟⲟⲩ ⲧⲏⲣϥ ⲙⲛⲧⲉⲟⲩϣⲏ ⲧⲏⲣⲥ
 1	ⲛⲧⲟⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERI	Definite=Def|Number=Plur|Person=3|PronType=Prs	5	dislocated	_	Orig=ⲛ̄ⲧⲟⲟⲩ
 2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	5	advmod	_	OrigLang=grc
 3-5	ⲁⲩⲙⲟⲩⲛ	_	_	_	_	_	_	_	_
@@ -93,13 +93,13 @@
 14	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(time
 15	ϩⲟⲟⲩ	ϩⲟⲟⲩ	NOUN	N	_	12	nmod	_	_
 16-17	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-16	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	15	advmod	_	Orig=ⲧⲏⲣ̇
-17	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	16	det	_	Entity=time)
-18-20	ⲙⲛⲧⲟⲩϣⲏ	_	_	_	_	_	_	_	_
+16	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	15	obl:npmod	_	Orig=ⲧⲏⲣ̇
+17	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	16	nmod:poss	_	Entity=time)
+18-20	ⲙⲛⲧⲉⲟⲩϣⲏ	_	_	_	_	_	_	_	_
 18	ⲙⲛ	ⲙⲛ	ADP	PREP	_	20	cc	_	Orig=ⲙⲛ̇
-19	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Entity=(time
+19	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	Entity=(time|Orig=ⲧ
 20	ⲟⲩϣⲏ	ⲟⲩϣⲏ	NOUN	N	_	15	conj	_	Orig=ⲉⲩϣⲏ
 21-22	ⲧⲏⲣⲥ	_	_	_	_	_	_	_	_
-21	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	20	advmod	_	Orig=ⲧⲏⲣ̇
-22	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	21	det	_	Entity=time)|Orig=ⲥ︤
+21	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	20	obl:npmod	_	Orig=ⲧⲏⲣ̇
+22	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	21	nmod:poss	_	Entity=time)|Orig=ⲥ︤
 

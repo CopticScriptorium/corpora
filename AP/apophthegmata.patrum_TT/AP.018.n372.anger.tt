@@ -1,4 +1,4 @@
-<meta annotation="Saskia Franck, Amir Zeldes, Elizabeth Davidson, Caroline T. Schroeder" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960), § 18 (Fragments de Naples),p. 4" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.18.monbeg" entities="gold" Greek_source="Anonymous Collection Nau 372" identities="gold" idno="IB 17 484 f. 20v" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="32" pages_to="32" parsing="gold" paths_manuscripts="&lt;a href='http://paths.uniroma1.it/atlas/manuscripts/360'&gt;360&lt;/a&gt;" paths_works="&lt;a href='http://paths.uniroma1.it/atlas/works/443'&gt;443&lt;/a&gt;" people="none" placeName="Atripe" places="none" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" segmentation="gold" tagging="gold" title="Apophthegmata Patrum Sahidic 018: Anonymous" translation="Saskia Franck, Amir Zeldes" Trismegistos="none" version_date="2020-08-31" version_n="4.0.0">
+<meta annotation="Saskia Franck, Amir Zeldes, Elizabeth Davidson, Caroline T. Schroeder" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960) § 18 (Fragments de Naples) p. 4" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.18.monbeg" entities="gold" Greek_source="Anonymous Collection Nau 372" identities="gold" idno="IB 17 484 f. 20v" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msName="MONB.EG" note="manuscript originally transcribed from digital photo; collation by Schroeder in Naples in 2024" objectType="codex" origPlace="White Monastery" pages_from="32" pages_to="32" parsing="gold" paths_manuscripts="&lt;a href='http://paths.uniroma1.it/atlas/manuscripts/360'&gt;360&lt;/a&gt;" paths_works="&lt;a href='http://paths.uniroma1.it/atlas/works/443'&gt;443&lt;/a&gt;" people="none" placeName="Atripe" places="none" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" segmentation="gold" tagging="gold" title="Apophthegmata Patrum Sahidic 018: Anonymous" translation="Saskia Franck, Amir Zeldes" Trismegistos="none" version_date="2024-04-01" version_n="5.0.0">
 <pb_xml_id pb_xml_id="EG32">
 <ch_n ch_n="1">
 <verse_n verse_n="1">
@@ -46,7 +46,7 @@
 </orig>
 <entity head_tok="#u7" text="ⲡⲉϥ ϭⲱⲛⲧ" entity="abstract">
 <orig orig="ⲡⲉϥ">
-<norm xml:id="u6" func="det" head="#u7" pos="PPOS" lemma="ⲡⲉϥ" norm="ⲡⲉϥ">
+<norm xml:id="u6" func="nmod:poss" head="#u7" pos="PPOS" lemma="ⲡⲉϥ" norm="ⲡⲉϥ">
 ⲡⲉϥ
 </norm>
 </orig>
@@ -116,7 +116,7 @@
 </norm>
 </orig>
 <orig orig="ϥ̇">
-<norm xml:id="u15" func="det" head="#u14" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
+<norm xml:id="u15" func="nmod:poss" head="#u14" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
 ϥ̇
 </norm>
 </orig>
@@ -180,7 +180,7 @@
 </orig>
 </norm_group>
 </orig_group>
-<orig_group orig_group="ⲛⲟⲩⲙⲛⲧ̇ϩⲁⲣϣϩⲏ̇ⲧ">
+<orig_group orig_group="ⲛⲟⲩⲙⲛⲧ̇[ϩ]ⲁⲣϣϩⲏ̇ⲧ">
 <norm_group norm_group="ⲛⲟⲩⲙⲛⲧϩⲁⲣϣϩⲏⲧ">
 <orig orig="ⲛ">
 <norm xml:id="u24" func="case" head="#u26" pos="PREP" lemma="ⲛ" norm="ⲛ">
@@ -193,18 +193,20 @@
 ⲟⲩ
 </norm>
 </orig>
-<orig orig="ⲙⲛⲧ̇ϩⲁⲣϣϩⲏ̇ⲧ">
+<orig orig="ⲙⲛⲧ̇[ϩ]ⲁⲣϣϩⲏ̇ⲧ">
 <norm xml:id="u26" func="obj" head="#u23" pos="N" lemma="ⲙⲛⲧϩⲁⲣϣϩⲏⲧ" norm="ⲙⲛⲧϩⲁⲣϣϩⲏⲧ">
-<morph morph="ⲙⲛ̄ⲧ">
+<morph morph="ⲙⲛⲧ">
 ⲙⲛⲧ̇
 </morph>
 </lb_n>
 <lb_n lb_n="16">
 <morph morph="ϩⲁⲣϣ">
-<supplied_reason supplied_reason="hole">
-ϩⲁ
+<note note="hole in manuscript">
+<supplied_reason supplied_reason="lost">
+[ϩ]
+</note>
 </supplied_reason>
-ⲣϣ
+ⲁⲣϣ
 </morph>
 <morph morph="ϩⲏⲧ">
 ϩⲏ̇ⲧ
@@ -226,7 +228,7 @@
 <norm_group norm_group="ⲡⲉϥⲥⲟⲛ">
 <entity head_tok="#u29" text="ⲡⲉϥ ⲥⲟⲛ" entity="person">
 <orig orig="ⲡⲉϥ">
-<norm xml:id="u28" func="det" head="#u29" pos="PPOS" lemma="ⲡⲉϥ" norm="ⲡⲉϥ">
+<norm xml:id="u28" func="nmod:poss" head="#u29" pos="PPOS" lemma="ⲡⲉϥ" norm="ⲡⲉϥ">
 ⲡⲉϥ
 </norm>
 </orig>
@@ -315,10 +317,10 @@
 </lb_n>
 <lb_n lb_n="19">
 <orig_group orig_group="ⲡⲱⲗⲁϩ">
-<norm_group norm_group="ⲡⲱⲗⲁϩ">
-<entity head_tok="#u38" text="ⲡⲱⲗⲁϩ" entity="abstract">
+<norm_group norm_group="ⲡⲱⲗϩ">
+<entity head_tok="#u38" text="ⲡⲱⲗϩ" entity="abstract">
 <orig orig="ⲡⲱⲗⲁϩ">
-<norm xml:id="u38" func="obl" head="#u33" pos="N" lemma="ⲡⲱⲗⲁϩ" norm="ⲡⲱⲗⲁϩ">
+<norm xml:id="u38" func="obl" head="#u33" pos="N" lemma="ⲡⲱⲗϩ" norm="ⲡⲱⲗϩ">
 ⲡⲱⲗⲁϩ
 </norm>
 </orig>
@@ -456,7 +458,7 @@
 <norm_group norm_group="ⲧⲉϥⲧⲁⲡⲣⲟ">
 <entity head_tok="#u56" text="ⲧⲉϥ ⲧⲁⲡⲣⲟ" entity="object">
 <orig orig="ⲧⲉϥ">
-<norm xml:id="u55" func="det" head="#u56" pos="PPOS" lemma="ⲡⲉϥ" norm="ⲧⲉϥ">
+<norm xml:id="u55" func="nmod:poss" head="#u56" pos="PPOS" lemma="ⲡⲉϥ" norm="ⲧⲉϥ">
 ⲧⲉϥ
 </norm>
 </orig>
@@ -486,8 +488,8 @@
 <verse_n verse_n="4">
 <translation translation="After that happened, he stopped being angry.">
 <vid_n vid_n="urn:cts:copticLit:ap.18.monbeg:1.4">
-<orig_group orig_group="ⲛ̇ⲧⲉⲣⲉ">
-<norm_group norm_group="ⲛⲧⲉⲣⲉ">
+<orig_group orig_group="ⲛ̇ⲧⲉⲣⲉⲡⲁⲓ̇">
+<norm_group norm_group="ⲛⲧⲉⲣⲉⲡⲁⲓ">
 <orig orig="ⲛ̇ⲧⲉⲣⲉ">
 <norm xml:id="u58" func="aux" head="#u61" new_sent="true" pos="APREC" lemma="ⲛⲧⲉⲣⲉ" norm="ⲛⲧⲉⲣⲉ">
 ⲛ̇ⲧⲉ
@@ -496,10 +498,6 @@
 ⲣⲉ
 </norm>
 </orig>
-</norm_group>
-</orig_group>
-<orig_group orig_group="ⲡⲁⲓ̇">
-<norm_group norm_group="ⲡⲁⲓ">
 <entity head_tok="#u59" text="ⲡⲁⲓ" entity="abstract">
 <orig orig="ⲡⲁⲓ̇">
 <norm xml:id="u59" func="nsubj" head="#u61" pos="PDEM" lemma="ⲡⲁⲓ" norm="ⲡⲁⲓ">

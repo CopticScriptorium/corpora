@@ -42,7 +42,7 @@
 9	ⲁ	ⲁ	AUX	APST	_	11	aux	_	Orig=ⲁ̇
 10	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
 11	ϫⲛⲟⲩ	ϫⲛⲟⲩ	VERB	V	VerbForm=Fin	0	root	_	_
-12	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+12	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
 13-15	ⲛϭⲓⲛⲉⲥⲛⲏⲩ	_	_	_	_	_	_	_	_
 13	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	15	case	_	Orig=ⲛ̇ϭⲓ
 14	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	15	det	_	Entity=(person
@@ -69,9 +69,9 @@
 6	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	obl	_	_
 7-8	ϫⲉⲫⲩⲥⲓ	_	_	_	_	_	_	_	_
 7	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	14	mark	_	_
-8	ⲫⲩⲥⲓ	ⲫⲩⲥⲓ	ADV	ADV	Foreign=Yes	14	advmod	_	Orig=Ⲫⲩⲥⲓ̇|OrigLang=grc
+8	ⲫⲩⲥⲓ	ⲫⲩⲥⲓ	ADV	ADV	Foreign=Yes	14	advmod	_	Orig=ⲫⲩⲥⲓ̇|OrigLang=grc
 9-10	ⲛⲁⲥⲛⲏⲩ	_	_	_	_	_	_	_	_
-9	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det	_	Entity=(person
+9	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	Entity=(person
 10	ⲥⲛⲏⲩ	ⲥⲟⲛ	NOUN	N	_	14	vocative	_	Entity=person)
 11	ⲁⲛⲟⲕ	ⲁⲛⲟⲕ	PRON	PPERI	Definite=Def|Number=Sing|Person=1|PronType=Prs	14	dislocated	_	Orig=ⲁ̇ⲛⲟⲕ
 12-14	ⲙⲡⲓⲛⲁⲩ	_	_	_	_	_	_	_	_
@@ -93,8 +93,8 @@
 23	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Entity=(person
 24	ⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ	ⲁⲣⲭⲏⲉⲡⲓⲥⲕⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	14	obl	_	Orig=ⲁⲣⲭⲏⲉ̇ⲡⲓ̇ⲥⲕⲟⲡⲟⲥ|OrigLang=grc
 25-26	ⲙⲁⲩⲁⲁϥ	_	_	_	_	_	_	_	_
-25	ⲙⲁⲩⲁⲁ	ⲙⲁⲩⲁⲁ	ADV	IMOD	_	24	advmod	_	Orig=ⲙⲁⲩⲁⲁ̇
-26	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	25	det	_	Entity=person)
+25	ⲙⲁⲩⲁⲁ	ⲙⲁⲩⲁⲁ	NOUN	IMOD	_	24	obl:npmod	_	Orig=ⲙⲁⲩⲁⲁ̇
+26	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	25	nmod:poss	_	Entity=person)
 
 # sent_id = apophthegmata_patrum-AP_019_n161_presbyter_s0004
 # text_en = After hearing him they became strengthened thanks to his story, that they should guard themselves against raising their eyes.
