@@ -2,9 +2,9 @@
 # sent_id = shenoute_a22-a22_YA517-518_s0001
 # text_en = ... pain ... very ...
 # text = […..]ⲉⲁ ⲙⲕⲁϩ [.....] ⲉⲙⲁⲧⲉ [.....]ⲩⲟ
-1	[…..]ⲉⲁ	[…..]ⲉⲁ	X	UNKNOWN	_	2	dep	_	Orig=[…..]ⲉ̣ⲁ
+1	[…..]ⲉⲁ	[…..]ⲉⲁ	X	UNKNOWN	_	2	nsubj	_	Orig=[…..]ⲉ̣ⲁ
 2	ⲙⲕⲁϩ	ⲙⲕⲁϩ	VERB	V	VerbForm=Fin	0	root	_	_
-3	[.....]	[.....]	X	UNKNOWN	_	2	dep	_	_
+3	[.....]	[.....]	X	UNKNOWN	_	2	parataxis	_	_
 4	ⲉⲙⲁⲧⲉ	ⲉⲙⲁⲧⲉ	ADV	ADV	_	2	advmod	_	Orig=ⲉⲙⲁⲧⲉ⳿
 5	[.....]ⲩⲟ	[.....]ⲩⲟ	X	UNKNOWN	_	2	advmod	_	_
 
@@ -17,7 +17,7 @@
 3	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	2	det	_	Orig=[ⲛⲓ]ⲙ
 4-6	ⲉϥϩⲣⲁⲓ	_	_	_	_	_	_	_	_
 4	ⲉ	ⲉ	PART	PREP	_	6	mark	_	_
-5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	ϩⲣⲁⲓ	ϩⲣⲁⲓ	ADV	ADV	_	2	acl:relcl	_	Orig=ϩⲣⲁⲓ̈
 7-8	ϩⲓϫⲱⲓ	_	_	_	_	_	_	_	_
 7	ϩⲓϫⲱ	ϩⲓϫⲛ	ADP	PREP	_	8	case	_	_
@@ -54,7 +54,7 @@
 5	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	4	advmod	_	Orig=ⲉϩⲟⲩ⳯
 6-8	ⲉⲛⲉⲩⲉⲣⲏⲩ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉ	ADP	PREP	_	8	case	_	_
-7	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
+7	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
 8	ⲉⲣⲏⲩ	ⲉⲣⲏⲩ	NOUN	N	PronType=Rcp	4	obl	_	Orig=ⲉⲣⲏⲩ⳿
 9-10	ϩⲛⲟⲩⲱϣ	_	_	_	_	_	_	_	_
 9	ϩⲛ	ϩⲛ	ADP	PREP	_	10	case	_	Orig=ϩ︤ⲛ︥
@@ -91,7 +91,7 @@
 2	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	ⲛⲁ	ⲛⲁ	AUX	FUT	_	4	aux	_	_
 4	ⲧⲁⲙⲱ	ⲧⲁⲙⲟ	VERB	V	VerbForm=Fin	0	root	_	_
-5	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	4	obj	_	Orig=ⲧ︤ⲛ︥
+5	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	4	expl	_	Orig=ⲧ︤ⲛ︥
 6-11	ϫⲉⲉⲧⲉⲧⲛⲛⲁⲣⲟⲩ	_	_	_	_	_	_	_	_
 6	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	10	mark	_	_
 7	ⲉ	ⲉⲣⲉ	PART	CFOC	_	10	mark	_	_
@@ -151,7 +151,7 @@
 2	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	0	root	_	_
 3	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 4	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	2	xcomp	_	Orig=ⲣ̄
-5	ⲡⲉⲥ	ⲡⲉⲥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	Entity=(abstract
+5	ⲡⲉⲥ	ⲡⲉⲥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	Entity=(abstract
 6	ϩⲱⲃ	ϩⲱⲃ	NOUN	N	_	4	obj	_	Entity=abstract)|Orig=ϩⲱⲃ⳿
 7-8	ⲛϩⲏⲧϥ	_	_	_	_	_	_	_	_
 7	ⲛϩⲏⲧ	ϩⲛ	ADP	PREP	_	8	case	_	Orig=ⲛ̄ϩⲏⲧ︤
@@ -175,7 +175,7 @@
 3	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	Orig=ⲧⲉⲧ
 4	ⲛⲁ	ⲛⲁ	AUX	FUT	_	5	aux	_	_
 5	ⲛⲧ	ⲉⲓⲛⲉ_ⲁⲛⲟⲕ	PRON	V_PPERO	VerbForm=Fin	0	root	_	Orig=ⲛ︤ⲧ︥
-6	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	9	case	_	_
+6	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	5	advmod	_	_
 7-9	ϩⲙⲡⲉⲓⲙⲁ	_	_	_	_	_	_	_	_
 7	ϩⲙ	ϩⲛ	ADP	PREP	_	6	fixed	_	Orig=ϩ︤ⲙ︥
 8	ⲡⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	Entity=(place|Orig=ⲡⲉⲓ̈
@@ -216,7 +216,7 @@
 4	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Orig=ⲥ︥
 5	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲣ̄
 6	ϩⲛⲁ	ϩⲛⲉ	NOUN	N	_	5	obj	_	_
-7	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	6	det	_	Orig=ⲥ⳿
+7	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	6	nmod:poss	_	Orig=ⲥ⳿
 8	ⲛⲁⲙⲉ	ⲛⲁⲙⲉ	ADV	ADV	_	5	advmod	_	Orig=ⲛⲁⲙⲉ⳿
 9	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
@@ -255,8 +255,8 @@
 1	ⲛⲧⲱⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=2|PronType=Prs	6	dislocated	_	Orig=ⲛ̄ⲧⲱⲧ︤ⲛ︥
 2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	6	advmod	_	OrigLang=grc
 3-4	ⲧⲏⲣⲧⲛ	_	_	_	_	_	_	_	_
-3	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	1	advmod	_	_
-4	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	3	det	_	Orig=ⲧ︤ⲛ︥
+3	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	1	obl:npmod	_	_
+4	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	3	nmod:poss	_	Orig=ⲧ︤ⲛ︥
 5-6	ⲉⲧⲉⲧⲛϣⲁⲛϩⲱⲡ	_	_	_	_	_	_	_	_
 5	ⲉⲧⲉⲧⲛϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲱⲧⲛ	PRON	ACOND_PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	6	nsubj	_	Orig=ⲉⲧⲉⲧ︤ⲛ︥ϣⲁⲛ
 6	ϩⲱⲡ	ϩⲱⲡ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϩⲱⲡ⳿
@@ -302,7 +302,7 @@
 8	ⲉϫⲱ	ⲉϫⲛ	ADP	PREP	_	9	case	_	_
 9	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	3	obl	_	Orig=ⲧ︤ⲛ︥
 10-11	ⲙⲙⲓⲛⲙⲙⲱⲧⲛ	_	_	_	_	_	_	_	_
-10	ⲙⲙⲓⲛⲙⲙⲱ	ⲙⲙⲓⲛⲙⲙⲟ	ADV	IMOD	Definite=Def|PronType=Prs|Reflex=Yes	11	case	_	Orig=ⲙ̄ⲙⲓⲛ⳿ⲙ̄ⲙⲱ
+10	ⲙⲙⲓⲛⲙⲙⲱ	ⲙⲙⲓⲛⲙⲙⲟ	NOUN	IMOD	Definite=Def|PronType=Prs|Reflex=Yes	11	case	_	Orig=ⲙ̄ⲙⲓⲛ⳿ⲙ̄ⲙⲱ
 11	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	3	obl	_	Orig=ⲧ︤ⲛ︥
 12	·	·	PUNCT	PUNCT	_	3	punct	_	_
 

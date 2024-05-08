@@ -6,7 +6,7 @@
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	ϫⲟⲟ	ϫⲱ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϫⲟⲟ̇
-4	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+4	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 5-7	ⲛϭⲓⲟⲩϩⲗⲗⲟ	_	_	_	_	_	_	_	_
 5	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	7	case	_	Orig=ⲛ̇ϭⲓ̇
 6	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	7	det	_	Entity=(person
@@ -71,12 +71,12 @@
 # text_en = There was a brother at Kellia in whom a temptation arose.
 # text = ϫⲉⲛⲉ ⲟⲩⲛⲟⲩⲥⲟⲛ ϫⲛⲛⲣⲓ ⲉⲁⲩⲡⲉⲓⲣⲁⲥⲙⲟⲥ ⲧⲱⲟⲩⲛ ⲉϩⲣⲁⲓ ⲉϫⲱϥ ⲻ
 1-2	ϫⲉⲛⲉ	_	_	_	_	_	_	_	_
-1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	6	mark	_	_
+1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	3	mark	_	_
 2	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	6	aux	_	_
 3-5	ⲟⲩⲛⲟⲩⲥⲟⲛ	_	_	_	_	_	_	_	_
 3	ⲟⲩⲛ	ⲟⲩⲛ	AUX	EXIST	_	6	aux	_	_
 4	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	5	det	_	Entity=(person
-5	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	6	nsubj	_	Entity=person)
+5	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	3	nsubj	_	Entity=person)
 6-8	ϫⲛⲛⲣⲓ	_	_	_	_	_	_	_	_
 6	ϫⲛ	ϫⲛ	CCONJ	CONJ	_	0	root	_	Orig=ϫⲛ̇
 7	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	8	det	_	Entity=(place|Orig=ⲛ̇
@@ -124,7 +124,7 @@
 20	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	18	advmod	_	Orig=ⲉ̇ϩⲟⲩⲛ
 21-23	ⲉⲧⲉϥⲣⲓ	_	_	_	_	_	_	_	_
 21	ⲉ	ⲉ	ADP	PREP	_	23	case	_	Orig=ⲉ̇
-22	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	Entity=(place
+22	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	Entity=(place
 23	ⲣⲓ	ⲣⲓ	NOUN	N	_	18	obl	_	Entity=place)|Orig=ⲣⲓ̇
 
 # sent_id = apophthegmata_patrum-AP_045_n192_temptation_s0005
@@ -147,7 +147,7 @@
 11	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
 12-14	ⲉⲡⲉⲩϣⲁⲡ	_	_	_	_	_	_	_	_
 12	ⲉ	ⲉ	ADP	PREP	_	14	case	_	Orig=ⲉ̇
-13	ⲡⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	14	det	_	Entity=(object
+13	ⲡⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	Entity=(object
 14	ϣⲁⲡ	ϣⲁⲡ	NOUN	N	_	9	obl	_	Entity=object)
 15	ⲻ	ⲻ	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -222,7 +222,7 @@
 5	ⲟⲉⲓⲕ	ⲟⲉⲓⲕ	NOUN	N	_	3	nsubj	_	Entity=(object)|Orig=ⲟ̇ⲉⲓ̇ⲕ
 6-8	ϩⲛⲧⲉϥⲣⲓ	_	_	_	_	_	_	_	_
 6	ϩⲛ	ϩⲛ	ADP	PREP	_	8	case	_	Orig=ϩⲛ̇
-7	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	Entity=(place
+7	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	Entity=(place
 8	ⲣⲓ	ⲣⲓ	NOUN	N	_	3	obl	_	Entity=place)|Orig=ⲣⲓ̇
 9	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -234,8 +234,8 @@
 2	ϩⲛ	ϩⲛ	ADP	PREP	_	3	case	_	Orig=ϩⲉⲛ
 3	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	8	obl	_	Entity=(abstract|Orig=ⲛⲁⲓ̇
 4-5	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-4	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	3	advmod	_	_
-5	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	det	_	Entity=abstract)
+4	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	3	obl:npmod	_	_
+5	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	nmod:poss	_	Entity=abstract)
 6-8	ⲛⲉϥϣⲡϩⲙⲟⲧ	_	_	_	_	_	_	_	_
 6	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	8	aux	_	_
 7	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
@@ -259,7 +259,7 @@
 5	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	VerbForm=Fin	0	root	_	_
 6-8	ⲉⲧⲉϥϩⲩⲡⲟⲙⲟⲛⲏ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉ	ADP	PREP	_	8	case	_	_
-7	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	Entity=(abstract
+7	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	Entity=(abstract
 8	ϩⲩⲡⲟⲙⲟⲛⲏ	ϩⲩⲡⲟⲙⲟⲛⲏ	NOUN	N	Foreign=Yes	5	obl	_	Entity=abstract)|OrigLang=grc
 9-11	ⲁϥϥⲓ	_	_	_	_	_	_	_	_
 9	ⲁ	ⲁ	AUX	APST	_	11	aux	_	_

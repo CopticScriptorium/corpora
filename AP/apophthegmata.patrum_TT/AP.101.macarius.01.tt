@@ -1,4 +1,4 @@
-<meta annotation="Dana Robinson, Caroline T. Schroeder, Amir Zeldes" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960), p. 23-24" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.101.monbeg" entities="gold" Greek_source="Alphabetical Collection Macarius 1" identities="gold" idno="IB 17 484 f. 22r" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msName="MONB.EG" objectType="codex" origPlace="White Monastery" pages_from="197" pages_to="197" parsing="automatic" paths_manuscripts="&lt;a href='http://paths.uniroma1.it/atlas/manuscripts/360'&gt;360&lt;/a&gt;" paths_works="&lt;a href='http://paths.uniroma1.it/atlas/works/443'&gt;443&lt;/a&gt;" people="none" placeName="Atripe" places="Wadi El Natrun" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" segmentation="checked" tagging="checked" title="Apophthegmata Patrum Sahidic 101: Macarius 1" translation="Dana Robinson" Trismegistos="none" version_date="2020-08-31" version_n="4.0.0">
+<meta annotation="Dana Robinson, Caroline T. Schroeder, Amir Zeldes" author="anonymous" collection="Borgia Collection" Coptic_edition="Chaîne (1960) p. 23-24" corpus="apophthegmata.patrum" country="Egypt" document_cts_urn="urn:cts:copticLit:ap.101.monbeg" entities="gold" Greek_source="Alphabetical Collection Macarius 1" identities="gold" idno="IB 17 484 f. 22r" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msName="MONB.EG" note="manuscript originally transcribed from digital photo; collation by Schroeder in Naples in 2024" objectType="codex" origPlace="White Monastery" pages_from="197" pages_to="197" parsing="automatic" paths_manuscripts="&lt;a href='http://paths.uniroma1.it/atlas/manuscripts/360'&gt;360&lt;/a&gt;" paths_works="&lt;a href='http://paths.uniroma1.it/atlas/works/443'&gt;443&lt;/a&gt;" people="none" placeName="Atripe" places="Wadi El Natrun" project="Coptic SCRIPTORIUM" redundant="no" repository="Biblioteca Nazionale di Napoli" segmentation="checked" tagging="checked" title="Apophthegmata Patrum Sahidic 101: Macarius 1" translation="Dana Robinson" Trismegistos="none" version_date="2024-04-01" version_n="5.0.0">
 <pb_xml_id pb_xml_id="EG197">
 <cb_n cb_n="1">
 <chapter_n chapter_n="1">
@@ -238,7 +238,7 @@
 </orig>
 <entity head_tok="#u31" text="ⲧⲉⲛ ϣⲉⲉⲣⲉ" entity="person">
 <orig orig="ⲧⲛ̇">
-<norm xml:id="u30" func="det" head="#u31" pos="PPOS" lemma="ⲡⲉⲛ" norm="ⲧⲉⲛ">
+<norm xml:id="u30" func="nmod:poss" head="#u31" pos="PPOS" lemma="ⲡⲉⲛ" norm="ⲧⲉⲛ">
 ⲧⲛ̇
 </norm>
 </orig>
@@ -523,7 +523,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲁ">
-<norm xml:id="u62" func="case" head="#u63" pos="PREP" lemma="ϣⲁ" norm="ϣⲁ">
+<norm xml:id="u62" func="aux" head="#u65" pos="PREP" lemma="ϣⲁ" norm="ϣⲁ">
 ϣⲁ
 </norm>
 </orig>
@@ -1091,7 +1091,7 @@
 <lb_n lb_n="24">
 <entity head_tok="#u132" text="ⲛⲉⲥ ⲉⲓⲟⲧⲉ" entity="person">
 <orig orig="ⲛⲉⲥ">
-<norm xml:id="u131" func="det" head="#u132" pos="PPOS" lemma="ⲡⲉⲥ" norm="ⲛⲉⲥ">
+<norm xml:id="u131" func="nmod:poss" head="#u132" pos="PPOS" lemma="ⲡⲉⲥ" norm="ⲛⲉⲥ">
 ⲛⲉⲥ
 </norm>
 </orig>
@@ -1131,11 +1131,9 @@
 <lb_n lb_n="25">
 <orig orig="[ⲕ]ⲁⲁ">
 <norm xml:id="u137" func="root" pos="V" lemma="ⲕⲱ" norm="ⲕⲁⲁ">
-<supplied_reason supplied_reason="missing">
-<gap_reason gap_reason="missing">
+<supplied_reason supplied_reason="lost">
 [ⲕ]
 </supplied_reason>
-</gap_reason>
 ⲁⲁ
 </norm>
 </orig>
@@ -1173,11 +1171,9 @@
 ϣⲁⲛ
 </lb_n>
 <lb_n lb_n="26">
-<supplied_reason supplied_reason="missing">
-<gap_reason gap_reason="missing">
+<supplied_reason supplied_reason="lost">
 [ⲧ]
 </supplied_reason>
-</gap_reason>
 </norm>
 </orig>
 <orig orig="ϥ">
@@ -1221,19 +1217,21 @@
 <orig_group orig_group="[..ⲥⲁ]ⲛϣ">
 <norm_group norm_group="..ⲥⲁⲛϣ">
 <orig orig="[..]">
-<norm xml:id="u146" func="advmod" head="#u147" new_sent="true" pos="UNKNOWN" lemma="UNKNOWN" norm="..">
-<gap_reason gap_reason="missing">
+<norm xml:id="u146" func="nsubj" head="#u147" new_sent="true" pos="UNKNOWN" lemma="UNKNOWN" norm="..">
+<gap_reason gap_reason="lost">
+<note note="tear in manuscript">
 [..]
 </gap_reason>
+</note>
 </norm>
 </orig>
 <orig orig="[ⲥⲁ]ⲛϣ">
 <norm xml:id="u147" func="root" pos="V" lemma="ⲥⲁⲁⲛϣ" norm="ⲥⲁⲛϣ">
 <supplied_reason supplied_reason="illegible">
-<gap_reason gap_reason="illegible">
+<note note="damage around tear in manuscript">
 [ⲥⲁ]
 </supplied_reason>
-</gap_reason>
+</note>
 ⲛϣ
 </norm>
 </orig>
@@ -1281,20 +1279,20 @@
 </orig>
 <orig orig="[ⲓ]">
 <norm xml:id="u152" func="nsubj" head="#u153" pos="PPERS" lemma="ⲁⲛⲟⲕ" norm="ⲓ">
-<supplied_reason supplied_reason="missing">
-<gap_reason gap_reason="missing">
+<supplied_reason supplied_reason="lost">
+<note note="tear in manuscript">
 [ⲓ]
 </supplied_reason>
-</gap_reason>
+</note>
 </norm>
 </orig>
 <orig orig="[ϫ]ⲟ̣ⲟ̣">
 <norm xml:id="u153" func="root" pos="V" lemma="ϫⲱ" norm="ϫⲟⲟ">
-<supplied_reason supplied_reason="missing">
-<gap_reason gap_reason="missing">
+<supplied_reason supplied_reason="lost">
+<note note="tear in manuscript">
 [ϫ]
 </supplied_reason>
-</gap_reason>
+</note>
 ⲟ̣ⲟ̣
 </norm>
 </orig>
@@ -1323,6 +1321,7 @@
 ⲙ
 </norm>
 </orig>
+<note note="damage around tear in manuscript">
 <entity head_tok="#u157" text="ⲡ ⲉⲧ ⲇⲓⲁⲕⲟⲛⲉⲓ ⲛⲁ ⲓ" entity="person">
 <orig orig="ⲡ̣">
 <norm xml:id="u157" func="obj" head="#u153" pos="ART" lemma="ⲡ" norm="ⲡ">
@@ -1398,11 +1397,9 @@
 </orig>
 <orig orig="[ⲓ]">
 <norm xml:id="u166" func="obj" head="#u164" pos="PPERO" lemma="ⲁⲛⲟⲕ" norm="ⲓ">
-<supplied_reason supplied_reason="illegible">
-<gap_reason gap_reason="illegible">
+<supplied_reason supplied_reason="lost">
 [ⲓ]
 </supplied_reason>
-</gap_reason>
 </norm>
 </orig>
 </norm_group>
@@ -1445,7 +1442,7 @@
 </multiword>
 <entity head_tok="#u172" text="ⲧⲁ ⲣⲓ" entity="place">
 <orig orig="ⲧⲁ">
-<norm xml:id="u171" func="det" head="#u172" pos="PPOS" lemma="ⲡⲁ" norm="ⲧⲁ">
+<norm xml:id="u171" func="nmod:poss" head="#u172" pos="PPOS" lemma="ⲡⲁ" norm="ⲧⲁ">
 ⲧⲁ
 </norm>
 </orig>
@@ -1461,12 +1458,10 @@
 <norm_group norm_group=".">
 <orig orig="[·]">
 <norm xml:id="u173" func="punct" pos="PUNCT" lemma="." norm=".">
-<supplied_reason supplied_reason="illegible">
-<gap_reason gap_reason="illegible">
+<supplied_reason supplied_reason="lost">
 <hi_rend hi_rend="3_space_right">
 [·]
 </supplied_reason>
-</gap_reason>
 </hi_rend>
 </norm>
 </orig>
@@ -1485,6 +1480,7 @@
 </entity>
 </norm_group>
 </orig_group>
+</note>
 <orig_group orig_group="ⲛ">
 <norm_group norm_group="ⲛ">
 <orig orig="ⲛ">
@@ -1498,9 +1494,11 @@
 <norm_group norm_group="…">
 <orig orig="[…]">
 <norm xml:id="u176" func="nmod" head="#u174" pos="UNKNOWN" lemma="UNKNOWN" norm="…">
-<gap_reason gap_reason="missing">
+<gap_reason gap_reason="lost">
+<note note="tear in manuscript">
 […]
 </gap_reason>
+</note>
 </norm>
 </orig>
 </norm_group>
@@ -1511,7 +1509,7 @@
 <norm_group norm_group="ⲧⲁⲓ">
 <entity head_tok="#u177" text="ⲧⲁⲓ" entity="abstract">
 <orig orig="ⲧⲁⲓ">
-<norm xml:id="u177" func="vocative" head="#u174" pos="UNKNOWN" lemma="UNKNOWN" norm="ⲧⲁⲓ">
+<norm xml:id="u177" func="det" head="#u178" pos="UNKNOWN" lemma="UNKNOWN" norm="ⲧⲁⲓ">
 ⲧⲁⲓ
 </norm>
 </orig>
@@ -1521,10 +1519,12 @@
 <orig_group orig_group="[..........]">
 <norm_group norm_group="..........">
 <orig orig="[..........]">
-<norm xml:id="u178" func="dep" head="#u174" pos="UNKNOWN" lemma="UNKNOWN" norm="..........">
-<gap_reason gap_reason="missing">
+<norm xml:id="u178" func="conj" head="#u174" pos="UNKNOWN" lemma="UNKNOWN" norm="..........">
+<gap_reason gap_reason="lost">
+<note note="tear in manuscript">
 [..........]
 </gap_reason>
+</note>
 </norm>
 </orig>
 </norm_group>
@@ -1540,11 +1540,12 @@
 </orig>
 </norm_group>
 </orig_group>
+<note note="tear in manuscript">
 <orig_group orig_group="[.............]">
 <norm_group norm_group=".............">
 <orig orig="[.............]">
-<norm xml:id="u180" func="nmod" head="#u174" pos="UNKNOWN" lemma="UNKNOWN" norm=".............">
-<gap_reason gap_reason="missing">
+<norm xml:id="u180" func="nmod" head="#u178" pos="UNKNOWN" lemma="UNKNOWN" norm=".............">
+<gap_reason gap_reason="lost">
 [.............]
 </gap_reason>
 </norm>
@@ -1556,8 +1557,8 @@
 <orig_group orig_group="[..............]">
 <norm_group norm_group="..............">
 <orig orig="[..............]">
-<norm xml:id="u181" func="dep" head="#u174" pos="UNKNOWN" lemma="UNKNOWN" norm="..............">
-<gap_reason gap_reason="missing">
+<norm xml:id="u181" func="dep" head="#u178" pos="UNKNOWN" lemma="UNKNOWN" norm="..............">
+<gap_reason gap_reason="lost">
 [..............]
 </gap_reason>
 </norm>
@@ -1569,8 +1570,8 @@
 <orig_group orig_group="[..............]">
 <norm_group norm_group="..............">
 <orig orig="[..............]">
-<norm xml:id="u182" func="advmod" head="#u174" pos="UNKNOWN" lemma="UNKNOWN" norm="..............">
-<gap_reason gap_reason="missing">
+<norm xml:id="u182" func="dep" head="#u183" pos="UNKNOWN" lemma="UNKNOWN" norm="..............">
+<gap_reason gap_reason="lost">
 [..............]
 </gap_reason>
 </norm>
@@ -1582,14 +1583,15 @@
 <orig_group orig_group="[........]">
 <norm_group norm_group="........">
 <orig orig="[........]">
-<norm xml:id="u183" func="advmod" head="#u174" pos="UNKNOWN" lemma="UNKNOWN" norm="........">
-<gap_reason gap_reason="missing">
+<norm xml:id="u183" func="parataxis" head="#u174" pos="UNKNOWN" lemma="UNKNOWN" norm="........">
+<gap_reason gap_reason="lost">
 [........]
 </gap_reason>
 </norm>
 </orig>
 </norm_group>
 </orig_group>
+</note>
 <orig_group orig_group="ⲉⲃⲟⲗ">
 <norm_group norm_group="ⲉⲃⲟⲗ">
 <orig orig="ⲉⲃⲟⲗ">
@@ -1601,11 +1603,12 @@
 </orig_group>
 </translation>
 <translation translation="“… necessity,">
+<note note="tear in manuscript and damage around it">
 <orig_group orig_group="[..]">
 <norm_group norm_group="..">
 <orig orig="[..]">
-<norm xml:id="u185" func="advmod" head="#u186" new_sent="true" pos="UNKNOWN" lemma="UNKNOWN" norm="..">
-<gap_reason gap_reason="missing">
+<norm xml:id="u185" func="discourse" head="#u186" new_sent="true" pos="UNKNOWN" lemma="UNKNOWN" norm="..">
+<gap_reason gap_reason="lost">
 [..]
 </gap_reason>
 </norm>
@@ -1618,7 +1621,7 @@
 <norm_group norm_group="……..">
 <orig orig="[……..]">
 <norm xml:id="u186" func="root" pos="UNKNOWN" lemma="UNKNOWN" norm="……..">
-<gap_reason gap_reason="missing">
+<gap_reason gap_reason="lost">
 [……..]
 </gap_reason>
 </norm>
@@ -1640,7 +1643,7 @@
 <norm_group norm_group="…">
 <orig orig="[…]">
 <norm xml:id="u188" func="dep" head="#u186" pos="UNKNOWN" lemma="UNKNOWN" norm="…">
-<gap_reason gap_reason="missing">
+<gap_reason gap_reason="lost">
 […]
 </gap_reason>
 </norm>
@@ -1653,7 +1656,7 @@
 <norm_group norm_group="…….">
 <orig orig="[…….]">
 <norm xml:id="u189" func="dep" head="#u186" pos="UNKNOWN" lemma="UNKNOWN" norm="…….">
-<gap_reason gap_reason="missing">
+<gap_reason gap_reason="lost">
 […….]
 </gap_reason>
 </norm>
@@ -1663,7 +1666,7 @@
 <orig_group orig_group="[….]">
 <norm_group norm_group="….">
 <orig orig="[….]">
-<norm xml:id="u190" func="dep" head="#u186" pos="UNKNOWN" lemma="UNKNOWN" norm="….">
+<norm xml:id="u190" func="conj" head="#u186" pos="UNKNOWN" lemma="UNKNOWN" norm="….">
 <gap_reason gap_reason="illegible">
 [….]
 </gap_reason>
@@ -1675,7 +1678,7 @@
 <norm_group norm_group=".">
 <orig orig="[.]">
 <norm xml:id="u191" func="advmod" head="#u186" pos="UNKNOWN" lemma="UNKNOWN" norm=".">
-<gap_reason gap_reason="missing">
+<gap_reason gap_reason="lost">
 [.]
 </gap_reason>
 </norm>
@@ -1696,8 +1699,8 @@
 <orig_group orig_group="[…….]">
 <norm_group norm_group="…….">
 <orig orig="[…….]">
-<norm xml:id="u193" func="conj" head="#u190" pos="UNKNOWN" lemma="UNKNOWN" norm="…….">
-<gap_reason gap_reason="missing">
+<norm xml:id="u193" func="conj" head="#u186" pos="UNKNOWN" lemma="UNKNOWN" norm="…….">
+<gap_reason gap_reason="lost">
 […….]
 </gap_reason>
 </norm>
@@ -1707,7 +1710,7 @@
 <orig_group orig_group="[…….]">
 <norm_group norm_group="…….">
 <orig orig="[…….]">
-<norm xml:id="u194" func="appos" head="#u193" pos="UNKNOWN" lemma="UNKNOWN" norm="…….">
+<norm xml:id="u194" func="conj" head="#u193" pos="UNKNOWN" lemma="UNKNOWN" norm="…….">
 <gap_reason gap_reason="illegible">
 […….]
 </gap_reason>
@@ -1720,8 +1723,8 @@
 <orig_group orig_group="[……]">
 <norm_group norm_group="……">
 <orig orig="[……]">
-<norm xml:id="u195" func="conj" head="#u193" pos="UNKNOWN" lemma="UNKNOWN" norm="……">
-<gap_reason gap_reason="missing">
+<norm xml:id="u195" func="conj" head="#u186" pos="UNKNOWN" lemma="UNKNOWN" norm="……">
+<gap_reason gap_reason="lost">
 [……]
 </gap_reason>
 </norm>
@@ -1731,7 +1734,7 @@
 <orig_group orig_group="[…]">
 <norm_group norm_group="…">
 <orig orig="[…]">
-<norm xml:id="u196" func="dep" head="#u197" pos="UNKNOWN" lemma="UNKNOWN" norm="…">
+<norm xml:id="u196" func="conj" head="#u186" pos="UNKNOWN" lemma="UNKNOWN" norm="…">
 <gap_reason gap_reason="illegible">
 […]
 </gap_reason>
@@ -1742,7 +1745,7 @@
 <orig_group orig_group="ϭ̣ⲛⲟ̣ⲳⲩⲥ">
 <norm_group norm_group="ϭⲛⲟⲩⲥ">
 <orig orig="ϭ̣ⲛⲟ̣ⲩⲥ">
-<norm xml:id="u197" func="conj" head="#u190" pos="UNKNOWN" lemma="UNKNOWN" norm="ϭⲛⲟⲩⲥ">
+<norm xml:id="u197" func="conj" head="#u186" pos="UNKNOWN" lemma="UNKNOWN" norm="ϭⲛⲟⲩⲥ">
 ϭ̣ⲛⲟ̣ⲩⲥ
 </norm>
 </orig>
@@ -1753,8 +1756,8 @@
 <orig_group orig_group="[……]">
 <norm_group norm_group="……">
 <orig orig="[……]">
-<norm xml:id="u198" func="dep" head="#u197" pos="UNKNOWN" lemma="UNKNOWN" norm="……">
-<gap_reason gap_reason="missing">
+<norm xml:id="u198" func="conj" head="#u186" pos="UNKNOWN" lemma="UNKNOWN" norm="……">
+<gap_reason gap_reason="lost">
 [……]
 </gap_reason>
 </norm>
@@ -1764,7 +1767,7 @@
 <orig_group orig_group="[…]">
 <norm_group norm_group="…">
 <orig orig="[…]">
-<norm xml:id="u199" func="conj" head="#u198" pos="UNKNOWN" lemma="UNKNOWN" norm="…">
+<norm xml:id="u199" func="case" head="#u201" pos="UNKNOWN" lemma="UNKNOWN" norm="…">
 <gap_reason gap_reason="illegible">
 […]
 </gap_reason>
@@ -1772,6 +1775,7 @@
 </orig>
 </norm_group>
 </orig_group>
+</note>
 <orig_group orig_group="ⲧⲉ̣ⲵⲭⲣ̣ⲓ̣ⲁ̣">
 <norm_group norm_group="ⲧⲉⲭⲣⲉⲓⲁ">
 <entity head_tok="#u201" text="ⲧⲉ ⲭⲣⲉⲓⲁ" entity="abstract">
@@ -2926,7 +2930,7 @@
 </norm>
 </orig>
 <orig orig="ⲁⲛⲁⲭⲱⲣⲓⲧⲏⲥ">
-<norm xml:id="u336" func="nsubj" head="#u339" pos="N" lemma="ⲁⲛⲁⲭⲱⲣⲏⲧⲏⲥ" norm="ⲁⲛⲁⲭⲱⲣⲏⲧⲏⲥ">
+<norm xml:id="u336" func="nsubj" head="#u337" pos="N" lemma="ⲁⲛⲁⲭⲱⲣⲏⲧⲏⲥ" norm="ⲁⲛⲁⲭⲱⲣⲏⲧⲏⲥ">
 <lang lang="Greek">
 ⲁⲛⲁ
 </lb_n>
@@ -2941,7 +2945,7 @@
 <orig_group orig_group="ϩⲱⲃ">
 <norm_group norm_group="ϩⲱⲃ">
 <orig orig="ϩⲱⲃ">
-<norm xml:id="u337" func="amod" head="#u336" pos="V" lemma="ϩⲱⲃ" norm="ϩⲱⲃ">
+<norm xml:id="u337" func="acl:relcl" head="#u333" pos="V" lemma="ϩⲱⲃ" norm="ϩⲱⲃ">
 ϩⲱⲃ
 </norm>
 </orig>
@@ -2959,7 +2963,7 @@
 </norm>
 </orig>
 <orig orig="ⲓ">
-<norm xml:id="u339" func="obl" head="#u332" pos="PPERO" lemma="ⲁⲛⲟⲕ" norm="ⲓ">
+<norm xml:id="u339" func="obl" head="#u337" pos="PPERO" lemma="ⲁⲛⲟⲕ" norm="ⲓ">
 ⲓ
 </norm>
 </orig>
@@ -3097,17 +3101,17 @@
 <orig_group orig_group="ⲧ[ⲏⲣ]ϥ">
 <norm_group norm_group="ⲧⲏⲣϥ">
 <orig orig="ⲧ[ⲏⲣ]">
-<norm xml:id="u353" func="advmod" head="#u352" pos="IMOD" lemma="ⲧⲏⲣ" norm="ⲧⲏⲣ">
+<norm xml:id="u353" func="obl:npmod" head="#u352" pos="IMOD" lemma="ⲧⲏⲣ" norm="ⲧⲏⲣ">
 ⲧ
-<supplied_reason supplied_reason="missing">
-<gap_reason gap_reason="missing">
+<supplied_reason supplied_reason="lost">
+<note note="hole in manuscript">
 [ⲏⲣ]
 </supplied_reason>
-</gap_reason>
+</note>
 </norm>
 </orig>
 <orig orig="ϥ">
-<norm xml:id="u354" func="det" head="#u353" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
+<norm xml:id="u354" func="nmod:poss" head="#u353" pos="PPERO" lemma="ⲛⲧⲟϥ" norm="ϥ">
 ϥ
 </norm>
 </orig>
@@ -3157,11 +3161,10 @@
 <orig orig="ⲙ[ⲁ]">
 <norm xml:id="u360" func="obl" head="#u357" pos="N" lemma="ⲙⲁ" norm="ⲙⲁ">
 ⲙ
-<supplied_reason supplied_reason="missing">
-<gap_reason gap_reason="missing">
+<note note="hole in manuscript">
+<supplied_reason supplied_reason="lost">
 [ⲁ]
 </supplied_reason>
-</gap_reason>
 </norm>
 </orig>
 </entity>
@@ -3171,13 +3174,12 @@
 <norm_group norm_group="ⲉⲧⲣⲉⲩⲙⲉⲧⲁⲛⲟⲉⲓ">
 <orig orig="[ⲉ]">
 <norm xml:id="u361" func="mark" head="#u362" pos="PREP" lemma="ⲉ" norm="ⲉ">
-<supplied_reason supplied_reason="missing">
-<gap_reason gap_reason="missing">
+<supplied_reason supplied_reason="lost">
 [ⲉ]
 </supplied_reason>
-</gap_reason>
 </norm>
 </orig>
+</note>
 <orig orig="ⲧⲣⲉ">
 <norm xml:id="u362" func="xcomp" head="#u357" pos="ACAUS" lemma="ⲧⲣⲉ" norm="ⲧⲣⲉ">
 ⲧⲣⲉ
@@ -3284,11 +3286,10 @@
 ϫⲉ
 </lb_n>
 <lb_n lb_n="32">
-<supplied_reason supplied_reason="missing">
-<gap_reason gap_reason="missing">
+<note note="tear in manuscript and damage around it">
+<supplied_reason supplied_reason="lost">
 [ⲕⲁⲥ]
 </supplied_reason>
-</gap_reason>
 </norm>
 </orig>
 </norm_group>
@@ -3298,10 +3299,9 @@
 <orig orig="[ⲛ]ⲛⲉ">
 <norm xml:id="u374" func="aux" head="#u376" pos="ANEGOPT" lemma="ⲛⲛⲉ" norm="ⲛⲛⲉ">
 <supplied_reason supplied_reason="illegible">
-<gap_reason gap_reason="illegible">
 [ⲛ]
 </supplied_reason>
-</gap_reason>
+</note>
 ⲛⲉ
 </norm>
 </orig>
@@ -3326,11 +3326,11 @@
 ⲙ
 </lb_n>
 <lb_n lb_n="33">
-<supplied_reason supplied_reason="missing">
-<gap_reason gap_reason="missing">
+<supplied_reason supplied_reason="lost">
+<note note="tear in manuscript and damage around it">
 [ⲙⲟ]
 </supplied_reason>
-</gap_reason>
+</note>
 </norm>
 </orig>
 <orig orig="ⲓ">
@@ -3365,8 +3365,9 @@
 </translation>
 <lb_n lb_n="34">
 <translation translation="…">
-<orig_group orig_group="ⲁ......ⲛ">
+<orig_group orig_group="ⲁ......ⲛ̣">
 <norm_group norm_group="ⲁ......ⲛ">
+<note note="tear in manuscript and damage around it">
 <orig orig="ⲁ">
 <norm xml:id="u382" func="aux" head="#u384" new_sent="true" pos="UNKNOWN" lemma="UNKNOWN" norm="ⲁ">
 <hi_rend hi_rend="ekthetic large">
@@ -3383,16 +3384,17 @@
 </orig>
 <orig orig="[..]">
 <norm xml:id="u384" func="root" pos="UNKNOWN" lemma="UNKNOWN" norm="..">
-<gap_reason gap_reason="missing">
+<gap_reason gap_reason="lost">
 [..]
 </gap_reason>
 </norm>
 </orig>
-<orig orig="ⲛ">
+<orig orig="ⲛ̣">
 <norm xml:id="u385" func="obj" head="#u384" pos="UNKNOWN" lemma="UNKNOWN" norm="ⲛ">
-ⲛ
+ⲛ̣
 </norm>
 </orig>
+</note>
 </norm_group>
 </orig_group>
 </translation>
@@ -3448,14 +3450,19 @@
 <orig_group orig_group="ⲉϣⲓⲏ[ⲧ]">
 <norm_group norm_group="ⲉϣⲓⲏⲧ">
 <orig orig="ⲉ">
-<norm xml:id="u392" func="mark" head="#u393" pos="PREP" lemma="ⲉ" norm="ⲉ">
+<norm xml:id="u392" func="case" head="#u393" pos="PREP" lemma="ⲉ" norm="ⲉ">
 ⲉ
 </norm>
 </orig>
 <entity identity="Wadi El Natrun" head_tok="#u393" text="ϣⲓⲏⲧ" entity="place">
 <orig orig="ϣⲓⲏ[ⲧ]">
 <norm xml:id="u393" func="obl" head="#u388" pos="NPROP" lemma="ϣⲓⲏⲧ" norm="ϣⲓⲏⲧ">
-ϣⲓⲏ[ⲧ]
+ϣⲓⲏ
+<supplied_reason supplied_reason="lost">
+<note note="hole in manuscript">
+[ⲧ]
+</supplied_reason>
+</note>
 </norm>
 </orig>
 </entity>
