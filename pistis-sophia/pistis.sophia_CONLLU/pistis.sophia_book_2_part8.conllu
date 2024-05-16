@@ -1,10 +1,10 @@
 # newdoc id = pistis.sophia:pistis.sophia_book_2_part8
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0001
-# text_en = ...
+# text_en = “of my kingdom, being in a great light immeasurable for the gods and all the invisibles, and he will be in great joy and great jubilation. But now, therefore, hearken, that I may discourse with you concerning the grandeur of those who shall receive the mysteries of the First Mystery.”
 # text = ⲛⲧⲁⲙⲛⲧⲣⲣⲟ · ⲉϥϣⲟⲟⲡ ϩⲛⲟⲩⲛⲟϭ ⲛⲟⲩⲟⲉⲓⲛ ⲉⲙⲛϣⲓ ⲉⲣⲟϥ · ϩⲓⲧⲛⲛⲛⲟⲩⲧⲉ ⲙⲛⲛⲁϩⲟⲣⲁⲧⲟⲥ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲛϥϣⲱⲡⲉ ϩⲛⲟⲩⲛⲟϭ ⲛⲣⲁϣⲉ ⲙⲛⲟⲩⲛⲟϭ ⲛⲧⲉⲗⲏⲗ : ⲧⲉⲛⲟⲩ ϭⲉ ϩⲱⲱϥ ⲥⲱⲧⲙ ⲧⲁϣⲁϫⲉ ⲛⲙⲙⲏⲧⲛ ⲉⲧⲃⲉⲡⲉⲟⲟⲩ ⲛⲛⲉⲧⲛⲁϫⲓϩⲱⲟⲩ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ·
 1-3	ⲛⲧⲁⲙⲛⲧⲣⲣⲟ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲛ	ADP	PREP	_	3	case	_	Orig=ⲛ̅
-2	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	Entity=(place
+2	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	Entity=(place
 3	ⲙⲛⲧⲣⲣⲟ	ⲙⲛⲧⲣⲣⲟ	NOUN	N	_	7	obl	_	Entity=place)|Morphs=ⲙⲛⲧ-ⲣⲣⲟ|Orig=ⲙⲛ̅ⲧⲉⲣⲟ
 4	·	·	PUNCT	PUNCT	_	3	punct	_	_
 5-7	ⲉϥϣⲟⲟⲡ	_	_	_	_	_	_	_	_
@@ -35,8 +35,8 @@
 23	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	24	det	_	Entity=(person
 24	ⲁϩⲟⲣⲁⲧⲟⲥ	ⲁϩⲟⲣⲁⲧⲟⲥ	NOUN	N	Foreign=Yes	21	conj	_	OrigLang=grc
 25-26	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-25	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	24	advmod	_	_
-26	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	25	det	_	Entity=person)
+25	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	24	obl:npmod	_	_
+26	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	25	nmod:poss	_	Entity=person)
 27	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	30	cc	_	_
 28-30	ⲛϥϣⲱⲡⲉ	_	_	_	_	_	_	_	_
 28	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	30	aux	_	_
@@ -60,11 +60,11 @@
 42	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	46	advmod	_	_
 43	ϭⲉ	ϭⲉ	PART	PTC	_	46	advmod	_	_
 44-45	ϩⲱⲱϥ	_	_	_	_	_	_	_	_
-44	ϩⲱⲱ	ϩⲱⲱ	ADV	IMOD	_	46	advmod	_	_
-45	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	44	det	_	_
+44	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	46	obl:npmod	_	_
+45	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	44	nmod:poss	_	_
 46	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	7	parataxis	_	Orig=ⲥⲱⲧⲙ̅
 47-48	ⲧⲁϣⲁϫⲉ	_	_	_	_	_	_	_	_
-47	ⲧⲁ	ⲛⲧⲉ_ⲁⲛⲟⲕ	PRON	ACONJ_PPERS	_	48	det	_	_
+47	ⲧⲁ	ⲛⲧⲉ_ⲁⲛⲟⲕ	PRON	ACONJ_PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	48	nsubj	_	_
 48	ϣⲁϫⲉ	ϣⲁϫⲉ	VERB	V	VerbForm=Fin	46	parataxis	_	_
 49-50	ⲛⲙⲙⲏⲧⲛ	_	_	_	_	_	_	_	_
 49	ⲛⲙⲙⲏ	ⲙⲛ	ADP	PREP	_	50	case	_	Orig=ⲛⲙ̅ⲙⲏ
@@ -94,14 +94,14 @@
 68	·	·	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0002
-# text_en = ...
+# text_en = “He, therefore, who shall receive the [first] mystery of that First Mystery, and it shall be at the time that he cometh out of the body of the matter of the rulers,”
 # text = ⲡⲉⲧⲛⲁϫⲓ ⲟⲩⲛ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ · ϥⲛⲁϣⲱⲡⲉ ϩⲙⲡⲉⲟⲩⲟⲉⲓϣ ⲉⲧϥⲛⲏⲩ ⲉⲃⲟⲗ ϩⲙⲡⲥⲱⲙⲁ ⲛⲧϩⲩⲗⲏ ⲛⲛⲁⲣⲭⲱⲛ ·
 1-4	ⲡⲉⲧⲛⲁϫⲓ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	dislocated	_	Entity=(person
 2	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	4	mark	_	_
 3	ⲛⲁ	ⲛⲁ	AUX	FUT	_	4	aux	_	_
 4	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	1	acl:relcl	_	_
-5	ⲟⲩⲛ	ⲟⲩⲛ	PART	PTC	_	19	advmod	_	_
+5	ⲟⲩⲛ	ⲟⲩⲛ	PART	PTC	_	4	advmod	_	_
 6-8	ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 6	ⲙ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲙ̅
 7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(abstract
@@ -112,11 +112,11 @@
 11	ϣⲟⲣⲡ	ϣⲟⲣⲡ	NOUN	N	_	4	obl	_	Entity=abstract)abstract)|Orig=ϣⲟⲣⲡ̅
 12-13	ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 12	ⲙ	ⲛ	ADP	PREP	_	13	case	_	Orig=ⲙ̅
-13	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	11	nmod	_	Entity=(abstract|OrigLang=grc
+13	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	4	obl	_	Entity=(abstract|OrigLang=grc
 14-15	ⲉⲧⲙⲙⲁⲩ	_	_	_	_	_	_	_	_
 14	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	15	mark	_	_
 15	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	13	acl:relcl	_	Entity=abstract)person)|Orig=ⲙ̅ⲙⲁⲩ
-16	·	·	PUNCT	PUNCT	_	11	punct	_	_
+16	·	·	PUNCT	PUNCT	_	1	punct	_	_
 17-19	ϥⲛⲁϣⲱⲡⲉ	_	_	_	_	_	_	_	_
 17	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 18	ⲛⲁ	ⲛⲁ	AUX	FUT	_	19	aux	_	_
@@ -145,7 +145,7 @@
 36	·	·	PUNCT	PUNCT	_	19	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0003
-# text_en = ...
+# text_en = --then the retributive receivers come and lead the soul of that man out of the body.
 # text = ⲥⲉⲛⲏⲩ ⲛϭⲓⲡⲁⲣⲁⲗⲏⲙⲡⲧⲱⲣ ⲛⲉⲣⲓⲛⲁⲓⲟⲥ ⲛⲥⲉⲉⲓⲛⲉ ⲛⲧⲉⲯⲩⲭⲏ ⲙⲡⲣⲱⲙⲉ ⲉⲧⲙⲙⲁⲩ ⲉⲃⲟⲗ ϩⲙⲡⲥⲱⲙⲁ ·
 1-2	ⲥⲉⲛⲏⲩ	_	_	_	_	_	_	_	_
 1	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
@@ -179,7 +179,7 @@
 22	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0004
-# text_en = ...
+# text_en = And that soul will become a great light-stream in the hands of the retributive receivers; and those receivers will be afraid of the light of that soul.
 # text = ⲁⲩⲱ ⲧⲉⲯⲩⲭⲏ ⲉⲧⲙⲙⲁⲩ ⲛⲁⲣⲟⲩⲛⲟϭ ⲛϣⲗⲓϭ ⲛⲟⲩⲟⲉⲓⲛ ⲛⲧⲟⲟⲧⲟⲩ ⲛⲙⲡⲁⲣⲁⲗⲏⲙⲡⲧⲱⲣ ⲛⲉⲣⲓⲛⲁⲓⲟⲥ ⲁⲩⲱ ⲙⲡⲁⲣⲁⲗⲏⲙⲡⲧⲏⲥ ⲉⲧⲙⲙⲁⲩ ⲛⲁⲣϩⲟⲧⲉ ϩⲏⲧϥ ⲙⲡⲟⲩⲟⲉⲓⲛ ⲛⲧⲉⲯⲩⲭⲏ ⲉⲧⲙⲙⲁⲩ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	7	cc	_	_
 2-3	ⲧⲉⲯⲩⲭⲏ	_	_	_	_	_	_	_	_
@@ -221,7 +221,7 @@
 27	ⲣϩⲟⲧⲉ	ⲣϩⲟⲧⲉ	VERB	V	VerbForm=Fin	7	conj	_	Morphs=ⲣ-ϩⲟⲧⲉ|Orig=ⲣ̅ϩⲟⲧⲉ
 28-29	ϩⲏⲧϥ	_	_	_	_	_	_	_	_
 28	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	27	obl:npmod	_	_
-29	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	28	det	_	Orig=ϥ̅
+29	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	28	nmod:poss	_	Orig=ϥ̅
 30-32	ⲙⲡⲟⲩⲟⲉⲓⲛ	_	_	_	_	_	_	_	_
 30	ⲙ	ⲛ	ADP	PREP	_	32	case	_	Orig=ⲙ̅
 31	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	Entity=(abstract
@@ -236,7 +236,7 @@
 38	·	·	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0005
-# text_en = ...
+# text_en = And that soul will go upwards and pass through all the regions of the rulers
 # text = ⲁⲩⲱ ⲧⲉⲯⲩⲭⲏ ⲉⲧⲙⲙⲁⲩ ⲥⲛⲁⲃⲱⲕ ⲉⲡϫⲓⲥⲉ ⲛⲥϫⲱⲧⲉ ⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲛⲧⲉⲛⲁⲣⲭⲱⲛ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	8	cc	_	_
 2-3	ⲧⲉⲯⲩⲭⲏ	_	_	_	_	_	_	_	_
@@ -262,8 +262,8 @@
 16	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	17	det	_	Entity=(place|Orig=ⲛ̅
 17	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	14	obj	_	OrigLang=grc
 18-19	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-18	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	17	advmod	_	_
-19	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	18	det	_	_
+18	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	17	obl:npmod	_	_
+19	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
 20-22	ⲛⲧⲉⲛⲁⲣⲭⲱⲛ	_	_	_	_	_	_	_	_
 20	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	22	case	_	Orig=ⲛ̅ⲧⲉ
 21	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	22	det	_	Entity=(person|Orig=ⲛ̅
@@ -271,15 +271,15 @@
 23	·	·	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0006
-# text_en = ...
+# text_en = and all the regions of the emanations of the Light. And it will not give answers nor apologies nor tokens in any single region of the Light nor in any single region of the rulers; but it will pass through all the regions and cross over them all, so that it goeth and ruleth over all the regions of the first saviour.
 # text = ⲙⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲛⲧⲉⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲛⲥⲛⲁϯⲁⲡⲟⲫⲁⲥⲓⲥ ⲁⲛ ⲟⲩⲇⲉ ⲁⲡⲟⲗⲟⲅⲓⲁ ⲟⲩⲇⲉ ⲥⲩⲙⲃⲟⲗⲟⲛ ϩⲛⲗⲁⲁⲩ ⲛⲧⲟⲡⲟⲥ ⲛⲧⲉⲡⲟⲩⲟⲉⲓⲛ · ⲟⲩⲇⲉ ϩⲛⲗⲁⲁⲩ ⲛⲧⲟⲡⲟⲥ ⲛⲧⲉⲛⲁⲣⲭⲱⲛ · ⲁⲗⲗⲁ ⲥⲛⲁϫⲱⲧⲉ ϩⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲁⲩⲱ ⲥⲛⲁⲟⲩⲟⲧⲃⲟⲩ ⲧⲏⲣⲟⲩ · ⲛⲥⲃⲱⲕ ⲛⲥⲣⲣⲣⲟ ⲉϩⲣⲁⲓ ⲉϫⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲙⲡϣⲟⲣⲡ ⲛⲥⲱⲧⲏⲣ ·
 1-3	ⲙⲛⲛⲧⲟⲡⲟⲥ	_	_	_	_	_	_	_	_
-1	ⲙⲛ	ⲙⲛ	ADP	PREP	_	3	case	_	Orig=ⲙⲛ̅
+1	ⲙⲛ	ⲙⲛ	ADP	PREP	_	3	cc	_	Orig=ⲙⲛ̅
 2	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	3	det	_	Entity=(place|Orig=ⲛ̅
 3	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	0	root	_	OrigLang=grc
 4-5	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-4	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	3	advmod	_	_
-5	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	det	_	_
+4	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	3	obl:npmod	_	_
+5	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 6-8	ⲛⲧⲉⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ	_	_	_	_	_	_	_	_
 6	ⲛⲧⲉ	ⲛⲧⲉ	AUX	ACONJ	_	8	case	_	Orig=ⲛ̅ⲧⲉ
 7	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	8	det	_	Entity=(abstract
@@ -332,8 +332,8 @@
 44	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	45	det	_	Entity=(place|Orig=ⲛ̅
 45	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	51	obl	_	OrigLang=grc
 46-47	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-46	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	45	advmod	_	_
-47	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	46	det	_	Entity=place)
+46	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	45	obl:npmod	_	_
+47	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	46	nmod:poss	_	Entity=place)
 48	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	51	cc	_	_
 49-52	ⲥⲛⲁⲟⲩⲟⲧⲃⲟⲩ	_	_	_	_	_	_	_	_
 49	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	51	nsubj	_	_
@@ -341,8 +341,8 @@
 51	ⲟⲩⲟⲧⲃ	ⲟⲩⲟⲧⲃ	VERB	V	VerbForm=Fin	42	conj	_	_
 52	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	51	obj	_	_
 53-54	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-53	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	51	advmod	_	_
-54	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	53	det	_	_
+53	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	51	obl:npmod	_	_
+54	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	53	nmod:poss	_	_
 55	·	·	PUNCT	PUNCT	_	58	punct	_	_
 56-58	ⲛⲥⲃⲱⲕ	_	_	_	_	_	_	_	_
 56	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	58	aux	_	_
@@ -358,8 +358,8 @@
 64	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	65	det	_	Entity=(place|Orig=ⲛ̅
 65	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	61	obl	_	OrigLang=grc
 66-67	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-66	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	65	advmod	_	_
-67	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	66	det	_	_
+66	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	65	obl:npmod	_	_
+67	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	66	nmod:poss	_	_
 68-70	ⲙⲡϣⲟⲣⲡ	_	_	_	_	_	_	_	_
 68	ⲙ	ⲛ	ADP	PREP	_	70	case	_	Orig=ⲙ̅
 69	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	Entity=(time
@@ -370,7 +370,7 @@
 73	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0007
-# text_en = ...
+# text_en = “In like manner also he who shall receive the second mystery of the First Mystery and the third and fourth, until he shall receive the twelfth mystery of the First Mystery,”
 # text = ϩⲟⲙⲟⲓⲱⲥ ⲟⲛ ⲡⲉⲧⲛⲁϫⲓ ⲙⲡⲙⲉϩⲥⲛⲁⲩ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ · ⲙⲛⲡⲙⲉϩϣⲟⲙⲛⲧ ⲙⲛⲡⲙⲉϩϥⲧⲟⲟⲩ ϩⲉⲱⲥ ϣⲁⲛⲧϥϫⲓ ⲙⲡⲙⲉϩⲙⲛⲧⲥⲛⲟⲟⲩⲥ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ·
 1	ϩⲟⲙⲟⲓⲱⲥ	ϩⲟⲙⲟⲓⲱⲥ	ADV	ADV	_	3	advmod	_	_
 2	ⲟⲛ	ⲟⲛ	ADV	ADV	_	3	advmod	_	_
@@ -385,7 +385,7 @@
 9	ⲙⲉϩⲥⲛⲁⲩ	ⲙⲉϩⲥⲛⲁⲩ	NUM	NUM	NumType=Card	6	obj	_	Morphs=ⲙⲉϩ-ⲥⲛⲁⲩ
 10-11	ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 10	ⲙ	ⲛ	ADP	PREP	_	11	case	_	Orig=ⲙ̅
-11	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	9	nmod	_	Entity=(abstract|OrigLang=grc
+11	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	6	obj	_	Entity=(abstract|OrigLang=grc
 12-14	ⲛⲧⲉⲡⲓϣⲟⲣⲡ	_	_	_	_	_	_	_	_
 12	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	14	case	_	Orig=ⲛ̅ⲧⲉ
 13	ⲡⲓ	ⲡⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	Entity=(abstract
@@ -424,7 +424,7 @@
 38	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0008
-# text_en = ...
+# text_en = if it shall be at the time | that he cometh out of the body of the matter of the rulers,--then the retributive receivers come and lead the soul of that man out of the body of matter.
 # text = ⲉϥϣⲁⲛϣⲱⲡⲉ ϩⲙⲡⲉⲟⲩⲟⲉⲓϣ ⲉⲧⲟⲩⲛⲏⲩ ⲉⲃⲟⲗ ϩⲙⲡⲥⲱⲙⲁ ⲛⲧϩⲩⲗⲏ ⲛⲧⲉⲛⲁⲣⲭⲱⲛ ⲥⲉⲛⲏⲩ ⲛϭⲓⲙⲡⲁⲣⲁⲗⲏⲙⲡⲧⲱⲣ ⲛⲉⲣⲓⲛⲁⲓⲟⲥ · ⲛⲥⲉⲉⲓⲛⲉ ⲛⲧⲉⲯⲩⲭⲏ ⲙⲡⲣⲱⲙⲉ ⲉⲧⲙⲙⲁⲩ ⲉⲃⲟⲗ ϩⲙⲡⲥⲱⲙⲁ ⲛⲧϩⲩⲗⲏ ·
 1-2	ⲉϥϣⲁⲛϣⲱⲡⲉ	_	_	_	_	_	_	_	_
 1	ⲉϥϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟϥ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -448,7 +448,7 @@
 15	ϩⲩⲗⲏ	ϩⲩⲗⲏ	NOUN	N	Foreign=Yes	12	nmod	_	Orig=ⲩⲗⲏ|OrigLang=grc
 16-18	ⲛⲧⲉⲛⲁⲣⲭⲱⲛ	_	_	_	_	_	_	_	_
 16	ⲛ	ⲛ	ADP	PREP	_	18	case	_	Orig=ⲛ̅
-17	ⲧⲉⲛ	ⲡⲉⲛ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	18	det	_	Entity=(person
+17	ⲧⲉⲛ	ⲡⲉⲛ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	Entity=(person
 18	ⲁⲣⲭⲱⲛ	ⲁⲣⲭⲱⲛ	NOUN	N	Foreign=Yes	15	nmod	_	Entity=person)object)object)time)|OrigLang=grc
 19-20	ⲥⲉⲛⲏⲩ	_	_	_	_	_	_	_	_
 19	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
@@ -488,7 +488,7 @@
 45	·	·	PUNCT	PUNCT	_	20	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0009
-# text_en = ...
+# text_en = And those souls will become a great light-stream in the hands of the retributive receivers; and those receivers will be afraid of the light of those souls and will become powerless and fall on their faces.
 # text = ⲁⲩⲱ ⲛⲉⲯⲩⲭⲟⲟⲩⲉ ⲉⲧⲙⲙⲁⲩ ⲥⲉⲛⲁⲣⲟⲩⲛⲟϭ ⲛϣⲗⲓϭ ⲛⲟⲩⲟⲉⲓⲛ ⲛⲧⲟⲟⲧⲟⲩ ⲛⲙⲡⲁⲣⲁⲗⲏⲙⲡⲧⲱⲣ ⲛⲉⲣⲓⲛⲁⲓⲟⲥ · ⲁⲩⲱ ⲙⲡⲁⲣⲁⲗⲏⲙⲡⲧⲏⲥ ⲉⲧⲙⲙⲁⲩ ⲥⲉⲛⲁⲣϩⲟⲧⲉ ϩⲏⲧϥ ⲙⲡⲟⲩⲟⲉⲓⲛ ⲛⲧⲉⲯⲩⲭⲏ ⲉⲧⲙⲙⲁⲩ · ⲁⲩⲱ ⲥⲉⲛⲁⲥⲱϣⲙ ⲛⲥⲉϩⲉ ⲉϫⲙⲡⲉⲩϩⲟ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	8	cc	_	_
 2-3	ⲛⲉⲯⲩⲭⲟⲟⲩⲉ	_	_	_	_	_	_	_	_
@@ -515,7 +515,7 @@
 17-19	ⲛⲙⲡⲁⲣⲁⲗⲏⲙⲡⲧⲱⲣ	_	_	_	_	_	_	_	_
 17	ⲛ	ⲛ	ADP	PREP	_	19	case	_	Orig=ⲛ̅
 18	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	19	det	_	Entity=(object|Orig=ⲙ̅
-19	ⲡⲁⲣⲁⲗⲏⲙⲡⲧⲱⲣ	ⲡⲁⲣⲁⲗⲏⲙⲡⲧⲱⲣ	NOUN	N	Foreign=Yes	10	nmod	_	OrigLang=grc
+19	ⲡⲁⲣⲁⲗⲏⲙⲡⲧⲱⲣ	ⲡⲁⲣⲁⲗⲏⲙⲡⲧⲱⲣ	NOUN	N	Foreign=Yes	8	obl	_	OrigLang=grc
 20-21	ⲛⲉⲣⲓⲛⲁⲓⲟⲥ	_	_	_	_	_	_	_	_
 20	ⲛ	ⲛ	ADP	PREP	_	21	case	_	Orig=ⲛ̅
 21	ⲉⲣⲓⲛⲁⲓⲟⲥ	ⲉⲣⲓⲛⲁⲓⲟⲥ	NOUN	N	_	19	nmod	_	Entity=(person)object)
@@ -533,7 +533,7 @@
 30	ⲣϩⲟⲧⲉ	ⲣϩⲟⲧⲉ	VERB	V	VerbForm=Fin	8	conj	_	Morphs=ⲣ-ϩⲟⲧⲉ|Orig=ⲣ̅ϩⲟⲧⲉ
 31-32	ϩⲏⲧϥ	_	_	_	_	_	_	_	_
 31	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	30	obl:npmod	_	_
-32	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	31	det	_	Orig=ϥ̅
+32	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	31	nmod:poss	_	Orig=ϥ̅
 33-35	ⲙⲡⲟⲩⲟⲉⲓⲛ	_	_	_	_	_	_	_	_
 33	ⲙ	ⲛ	ADP	PREP	_	35	case	_	Orig=ⲙ̅
 34	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	Entity=(abstract
@@ -557,12 +557,12 @@
 48	ϩⲉ	ϩⲉ	VERB	V	VerbForm=Fin	45	advcl	_	_
 49-51	ⲉϫⲙⲡⲉⲩϩⲟ	_	_	_	_	_	_	_	_
 49	ⲉϫⲙ	ⲉϫⲛ	ADP	PREP	_	51	case	_	Orig=ⲉϫⲙ̅
-50	ⲡⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	51	det	_	Entity=(object
+50	ⲡⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	51	nmod:poss	_	Entity=(object
 51	ϩⲟ	ϩⲟ	NOUN	N	_	48	obl	_	Entity=object)
 52	·	·	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0010
-# text_en = ...
+# text_en = And those souls will straightway soar upwards and cross over all the regions of the rulers and all the regions of the emanations of the Light. They will not give answers nor apologies nor tokens in any single region;
 # text = ⲁⲩⲱ ⲛⲉⲯⲩⲭⲟⲟⲩⲉ ⲉⲧⲙⲙⲁⲩ ⲥⲉⲛⲁϩⲱⲗ ⲉⲡϫⲓⲥⲉ ⲛⲧⲉⲩⲛⲟⲩ · ⲛⲥⲉⲟⲩⲱⲧⲃ ⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲛⲧⲉⲛⲁⲣⲭⲱⲛ · ⲁⲩⲱ ϩⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲛⲧⲉⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲟⲩⲟⲉⲓⲛ · ⲁⲩⲱ ⲛⲥⲉⲛⲁϯⲁⲡⲟⲫⲁⲥⲓⲥ ⲁⲛ ⲟⲩⲇⲉ ⲁⲡⲟⲗⲟⲅⲓⲁ ϩⲛⲗⲁⲁⲩ ⲛⲧⲟⲡⲟⲥ ⲟⲩⲇⲉ ⲥⲩⲙⲃⲟⲗⲟⲛ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	8	cc	_	_
 2-3	ⲛⲉⲯⲩⲭⲟⲟⲩⲉ	_	_	_	_	_	_	_	_
@@ -581,7 +581,7 @@
 11	ϫⲓⲥⲉ	ϫⲓⲥⲉ	NOUN	N	_	8	obl	_	_
 12-14	ⲛⲧⲉⲩⲛⲟⲩ	_	_	_	_	_	_	_	_
 12	ⲛ	ⲛ	ADP	PREP	_	14	case	_	Orig=ⲛ̅
-13	ⲧⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	14	det	_	Entity=(abstract
+13	ⲧⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	Entity=(abstract
 14	ⲛⲟⲩ	ⲛⲟⲩ	NOUN	N	_	11	nmod	_	Entity=abstract)abstract)
 15	·	·	PUNCT	PUNCT	_	18	punct	_	_
 16-18	ⲛⲥⲉⲟⲩⲱⲧⲃ	_	_	_	_	_	_	_	_
@@ -593,8 +593,8 @@
 20	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	21	det	_	Entity=(place|Orig=ⲛ̅
 21	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	18	obj	_	OrigLang=grc
 22-23	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-22	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	21	advmod	_	_
-23	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	22	det	_	_
+22	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	21	obl:npmod	_	_
+23	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
 24-26	ⲛⲧⲉⲛⲁⲣⲭⲱⲛ	_	_	_	_	_	_	_	_
 24	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	26	case	_	Orig=ⲛ̅ⲧⲉ
 25	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	26	det	_	Entity=(person|Orig=ⲛ̅
@@ -606,8 +606,8 @@
 30	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	31	det	_	Entity=(place|Orig=ⲛ̅
 31	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	21	conj	_	OrigLang=grc
 32-33	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-32	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	31	advmod	_	_
-33	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	32	det	_	_
+32	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	31	obl:npmod	_	_
+33	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
 34-36	ⲛⲧⲉⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ	_	_	_	_	_	_	_	_
 34	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	36	case	_	Orig=ⲛ̅ⲧⲉ
 35	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	36	det	_	Entity=(abstract
@@ -637,7 +637,7 @@
 55	·	·	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0011
-# text_en = ...
+# text_en = but they will pass through all the regions and will cross over them all
 # text = ⲁⲗⲗⲁ ⲥⲉⲛⲁϫⲱⲧⲉ ϩⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ · ⲁⲩⲱ ⲛⲥⲉⲟⲩⲟⲧⲃⲟⲩ ⲧⲏⲣⲟⲩ ⲉϩⲟⲩⲛ ·
 1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	4	cc	_	OrigLang=grc
 2-4	ⲥⲉⲛⲁϫⲱⲧⲉ	_	_	_	_	_	_	_	_
@@ -649,8 +649,8 @@
 6	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	7	det	_	Entity=(place|Orig=ⲛ̅
 7	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	4	obl	_	OrigLang=grc
 8-9	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-8	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	7	advmod	_	_
-9	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	8	det	_	_
+8	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	7	obl:npmod	_	_
+9	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
 10	·	·	PUNCT	PUNCT	_	14	punct	_	_
 11	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	14	cc	_	_
 12-15	ⲛⲥⲉⲟⲩⲟⲧⲃⲟⲩ	_	_	_	_	_	_	_	_
@@ -659,13 +659,13 @@
 14	ⲟⲩⲟⲧⲃ	ⲟⲩⲱⲧⲃ	VERB	VSTAT	VerbForm=Fin	4	conj	_	_
 15	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
 16-17	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-16	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	14	advmod	_	_
-17	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	16	det	_	Entity=place)
+16	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	14	obl:npmod	_	_
+17	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	16	nmod:poss	_	Entity=place)
 18	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	14	advmod	_	_
 19	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0012
-# text_en = ...
+# text_en = and rule over all the regions of the twelve saviours, so that they who receive the second mystery of the First Mystery, will rule over all the regions of the second saviour in the inheritances of the Light.
 # text = ⲁⲩⲱ ⲥⲉⲛⲁⲣⲣⲣⲟ ⲉϩⲣⲁⲓ ⲉϫⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲙⲡⲙⲛⲧⲥⲛⲟⲟⲩⲥ ⲛⲥⲱⲧⲏⲣ · ϩⲱⲥⲧⲉ ⲛⲉⲧϫⲓ ⲙⲡⲙⲉϩⲥⲛⲁⲩ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲥⲉⲛⲁⲣⲣⲣⲟ ⲉϩⲣⲁⲓ ⲉϫⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲙⲡⲙⲉϩⲥⲛⲁⲩ ⲛⲥⲱⲧⲏⲣ ϩⲣⲁⲓ ϩⲛⲛⲉⲕⲗⲏⲣⲟⲛⲟⲙⲓⲁ ⲙⲡⲟⲩⲟⲉⲓⲛ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2-4	ⲥⲉⲛⲁⲣⲣⲣⲟ	_	_	_	_	_	_	_	_
@@ -678,8 +678,8 @@
 7	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	8	det	_	Entity=(place|Orig=ⲛ̅
 8	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	4	obl	_	OrigLang=grc
 9-10	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-9	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	8	advmod	_	_
-10	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	9	det	_	_
+9	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	8	obl:npmod	_	_
+10	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
 11-13	ⲙⲡⲙⲛⲧⲥⲛⲟⲟⲩⲥ	_	_	_	_	_	_	_	_
 11	ⲙ	ⲛ	ADP	PREP	_	13	case	_	Orig=ⲙ̅
 12	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Entity=(person
@@ -703,7 +703,7 @@
 26-28	ⲛⲧⲉⲡⲓϣⲟⲣⲡ	_	_	_	_	_	_	_	_
 26	ⲛⲧⲉ	ⲛⲧⲉ	AUX	ACONJ	_	28	case	_	Orig=ⲛ̅ⲧⲉ
 27	ⲡⲓ	ⲡⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	28	det	_	Entity=(abstract
-28	ϣⲟⲣⲡ	ϣⲟⲣⲡ	NOUN	N	_	20	obl	_	Orig=ϣⲟⲣⲡ̅
+28	ϣⲟⲣⲡ	ϣⲟⲣⲡ	NOUN	N	_	25	nmod	_	Orig=ϣⲟⲣⲡ̅
 29-30	ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 29	ⲙ	ⲛ	ADP	PREP	_	30	case	_	Orig=ⲙ̅
 30	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	28	nmod	_	Entity=(abstract)abstract)abstract)person)|OrigLang=grc
@@ -717,8 +717,8 @@
 36	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	37	det	_	Entity=(place|Orig=ⲛ̅
 37	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	33	obl	_	OrigLang=grc
 38-39	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-38	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	37	advmod	_	_
-39	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	38	det	_	_
+38	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	37	obl:npmod	_	_
+39	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	38	nmod:poss	_	_
 40-42	ⲙⲡⲙⲉϩⲥⲛⲁⲩ	_	_	_	_	_	_	_	_
 40	ⲙ	ⲛ	ADP	PREP	_	42	case	_	Orig=ⲙ̅
 41	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	Entity=(time
@@ -738,7 +738,7 @@
 52	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0013
-# text_en = ...
+# text_en = “In like manner also those who receive the third mystery of the First Mystery and the fourth and fifth and sixth up to the twelfth,--every one will rule over all the regions of the saviour up to whom he hath received the mystery.”
 # text = ϩⲟⲙⲟⲓⲱⲥ ⲟⲛ ⲛⲉⲧϫⲓ ⲙⲧⲙⲉϩϣⲟⲙⲛⲧ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲛⲡⲙⲉϩϥⲧⲟⲟⲩ ⲙⲛⲡⲙⲉϩϯⲟⲩ ⲙⲛⲡⲙⲉϩⲥⲟⲟⲩ ϩⲉⲱⲥ ϣⲁⲡⲙⲉϩⲙⲛⲧⲥⲛⲟⲟⲩⲥ ⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛⲁⲣⲣⲣⲟ ⲉϩⲣⲁⲓ ⲉϫⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲙⲡⲥⲱⲧⲏⲣ ⲛⲧⲁϥϫⲓ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϣⲁⲣⲟϥ ·
 1	ϩⲟⲙⲟⲓⲱⲥ	ϩⲟⲙⲟⲓⲱⲥ	ADV	ADV	_	34	advmod	_	_
 2	ⲟⲛ	ⲟⲛ	ADV	ADV	_	34	advmod	_	_
@@ -792,8 +792,8 @@
 37	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	38	det	_	Entity=(place|Orig=ⲛ̅
 38	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	34	obl	_	OrigLang=grc
 39-40	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-39	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	38	advmod	_	_
-40	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	39	det	_	_
+39	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	38	obl:npmod	_	_
+40	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
 41-43	ⲙⲡⲥⲱⲧⲏⲣ	_	_	_	_	_	_	_	_
 41	ⲙ	ⲛ	ADP	PREP	_	43	case	_	Orig=ⲙ̅
 42	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	Entity=(person
@@ -813,7 +813,7 @@
 53	·	·	PUNCT	PUNCT	_	34	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0014
-# text_en = ...
+# text_en = “And he who shall receive in sequence the twelfth mystery of the First Mystery, that is the master-mystery concerning which I discourse with you,”
 # text = ⲁⲩⲱ ⲡⲉⲧⲛⲁϫⲓ ⲙⲡⲙⲉϩⲙⲛⲧⲥⲛⲟⲟⲩⲥ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϩⲓⲛⲉⲩⲉⲣⲏⲩ ⲛⲧⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲉⲛⲧⲟϥ ⲡⲉ ⲡⲁⲩⲑⲉⲛⲧⲏⲥ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ · ⲡⲁⲓ ⲉϯϣⲁϫⲉ ⲛⲙⲙⲏⲧⲛ ⲉⲧⲃⲏⲏⲧϥ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	2	cc	_	_
 2-5	ⲡⲉⲧⲛⲁϫⲓ	_	_	_	_	_	_	_	_
@@ -827,10 +827,10 @@
 8	ⲙⲉϩⲙⲛⲧⲥⲛⲟⲟⲩⲥ	ⲙⲉϩⲙⲛⲧⲥⲛⲟⲟⲩⲥ	NOUN	N	_	5	obj	_	Morphs=ⲙⲉϩ-ⲙⲛⲧ-ⲥⲛⲟⲟⲩⲥ|Orig=ⲙⲉϩⲙⲛ̅ⲧ̅ⲥⲛⲟⲟⲩⲥ
 9-10	ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 9	ⲙ	ⲛ	ADP	PREP	_	10	case	_	Orig=ⲙ̅
-10	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	8	nmod	_	Entity=(abstract|OrigLang=grc
+10	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	5	obl	_	Entity=(abstract|OrigLang=grc
 11-13	ϩⲓⲛⲉⲩⲉⲣⲏⲩ	_	_	_	_	_	_	_	_
 11	ϩⲓ	ϩⲓ	ADP	PREP	_	13	case	_	_
-12	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+12	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
 13	ⲉⲣⲏⲩ	ⲉⲣⲏⲩ	NOUN	N	PronType=Rcp	5	obl	_	_
 14-16	ⲛⲧⲉⲡⲓϣⲟⲣⲡ	_	_	_	_	_	_	_	_
 14	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	16	case	_	Orig=ⲛ̅ⲧⲉ
@@ -864,7 +864,7 @@
 35	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0015
-# text_en = ...
+# text_en = -- | and he who, therefore, shall receive those twelve mysteries which belong to the First Mystery,
 # text = ⲁⲩⲱ ⲡⲉⲧⲛⲁϫⲓ ⲟⲩⲛ ⲙⲡⲙⲛⲧⲥⲛⲟⲟⲩⲥ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ ⲛⲁⲓ ⲉⲧⲏⲡ ⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	2	cc	_	_
 2-5	ⲡⲉⲧⲛⲁϫⲓ	_	_	_	_	_	_	_	_
@@ -875,8 +875,8 @@
 6	ⲟⲩⲛ	ⲟⲩⲛ	PART	PTC	_	5	advmod	_	_
 7-9	ⲙⲡⲙⲛⲧⲥⲛⲟⲟⲩⲥ	_	_	_	_	_	_	_	_
 7	ⲙ	ⲛ	ADP	PREP	_	11	case	_	Orig=ⲙ̅
-8	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Entity=(person
-9	ⲙⲛⲧⲥⲛⲟⲟⲩⲥ	ⲙⲛⲧⲥⲛⲟⲟⲩⲥ	NUM	NUM	NumType=Card	5	obj	_	Entity=person)|Morphs=ⲙⲛⲧ-ⲥⲛⲟⲟⲩⲥ|Orig=ⲙⲛ̅ⲧ̅ⲥⲛⲟⲟⲩⲥ
+8	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(person
+9	ⲙⲛⲧⲥⲛⲟⲟⲩⲥ	ⲙⲛⲧⲥⲛⲟⲟⲩⲥ	NUM	NUM	NumType=Card	11	nummod	_	Entity=person)|Morphs=ⲙⲛⲧ-ⲥⲛⲟⲟⲩⲥ|Orig=ⲙⲛ̅ⲧ̅ⲥⲛⲟⲟⲩⲥ
 10-11	ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 10	ⲙ	ⲛ	ADP	PREP	_	11	case	_	Orig=ⲙ̅
 11	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	5	obj	_	Entity=(abstract|OrigLang=grc
@@ -897,12 +897,12 @@
 22	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0016
-# text_en = ...
+# text_en = if he goeth forth out of the world, will pass through all the regions of the rulers and all the regions of the Light, being a great light-stream,
 # text = ⲉϥϣⲁⲛⲉⲓ ⲉⲃⲟⲗ ϩⲙⲡⲕⲟⲥⲙⲟⲥ ϥⲛⲁϫⲱⲧⲉ ⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲛⲧⲉⲛⲁⲣⲭⲱⲛ ⲙⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲛⲧⲉⲡⲟⲩⲟⲉⲓⲛ ⲉϥⲟ ⲛⲟⲩⲛⲟϭ ⲛⲁⲡⲟⲣⲣⲟⲓⲁ ⲛⲧⲉⲡⲟⲩⲟⲉⲓⲛ ·
 1-2	ⲉϥϣⲁⲛⲉⲓ	_	_	_	_	_	_	_	_
 1	ⲉϥϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟϥ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	9	advcl	_	_
-3	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	2	advmod	_	_
+3	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	6	case	_	_
 4-6	ϩⲙⲡⲕⲟⲥⲙⲟⲥ	_	_	_	_	_	_	_	_
 4	ϩⲙ	ϩⲛ	ADP	PREP	_	6	case	_	Orig=ϩⲙ̅
 5	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(place
@@ -916,8 +916,8 @@
 11	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	12	det	_	Entity=(place|Orig=ⲛ̅
 12	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	9	obj	_	OrigLang=grc
 13-14	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-13	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	12	advmod	_	_
-14	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	13	det	_	_
+13	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	12	obl:npmod	_	_
+14	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
 15-17	ⲛⲧⲉⲛⲁⲣⲭⲱⲛ	_	_	_	_	_	_	_	_
 15	ⲛⲧⲉ	ⲛⲧⲉ	AUX	ACONJ	_	17	case	_	Orig=ⲛ̅ⲧⲉ
 16	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	17	det	_	Entity=(person
@@ -927,8 +927,8 @@
 19	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	20	det	_	Entity=(place|Orig=ⲛ̅
 20	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	12	conj	_	OrigLang=grc
 21-22	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-21	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	20	advmod	_	_
-22	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	21	det	_	Entity=place)
+21	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	20	obl:npmod	_	_
+22	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	21	nmod:poss	_	Entity=place)
 23-25	ⲛⲧⲉⲡⲟⲩⲟⲉⲓⲛ	_	_	_	_	_	_	_	_
 23	ⲛⲧⲉ	ⲛⲧⲉ	AUX	ACONJ	_	25	case	_	Orig=ⲛ̅ⲧⲉ
 24	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	Entity=(abstract
@@ -951,7 +951,7 @@
 37	·	·	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0017
-# text_en = ...
+# text_en = “and he will moreover rule over all the regions of the twelve saviours; but they will not be able to be like unto those who receive the one and only mystery of the Ineffable. But he who shall receive those mysteries will abide in those orders, because they are exalted, and he will abide in the orders of the twelve saviours.”
 # text = ⲁⲩⲱ ⲟⲛ ϥⲛⲁⲣⲣⲣⲟ ⲉϩⲣⲁⲓ ⲉϫⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲙⲡⲙⲛⲧⲥⲛⲟⲟⲩⲥ ⲛⲥⲱⲧⲏⲣ · ⲁⲗⲗⲁ ⲛⲥⲉⲛⲁϣϣⲱϣ ⲁⲛ ⲙⲛⲛⲉⲧϫⲓ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲟⲩⲱⲧ ⲙⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ · ⲁⲗⲗⲁ ⲡⲉⲧⲛⲁϫⲓ ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ ϥⲛⲁϭⲱ ϩⲛⲛⲧⲁⲝⲓⲥ ⲉⲧⲙⲙⲁⲩ ⲉⲃⲟⲗ ϫⲉⲥⲉⲟⲩⲟⲧⲃ · ⲁⲩⲱ ϥⲛⲁϭⲱ ϩⲛⲛⲧⲁⲝⲓⲥ ⲙⲡⲙⲛⲧⲥⲛⲟⲟⲩⲥ ⲛⲥⲱⲧⲏⲣ :
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	5	cc	_	_
 2	ⲟⲛ	ⲟⲛ	ADV	ADV	_	5	advmod	_	_
@@ -965,8 +965,8 @@
 8	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	9	det	_	Entity=(place|Orig=ⲛ̅
 9	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	5	obl	_	OrigLang=grc
 10-11	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-10	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	9	advmod	_	_
-11	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	10	det	_	_
+10	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	9	obl:npmod	_	_
+11	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
 12-14	ⲙⲡⲙⲛⲧⲥⲛⲟⲟⲩⲥ	_	_	_	_	_	_	_	_
 12	ⲙ	ⲛ	ADP	PREP	_	14	case	_	Orig=ⲙ̅
 13	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Entity=(person
@@ -1048,11 +1048,11 @@
 72	ⲙⲛⲧⲥⲛⲟⲟⲩⲥ	ⲙⲛⲧⲥⲛⲟⲟⲩⲥ	NUM	NUM	NumType=Card	69	nmod	_	Morphs=ⲙⲛⲧ-ⲥⲛⲟⲟⲩⲥ|Orig=ⲙⲛ̅ⲧ̅ⲥⲛⲟⲟⲩⲥ
 73-74	ⲛⲥⲱⲧⲏⲣ	_	_	_	_	_	_	_	_
 73	ⲛ	ⲛ	ADP	PREP	_	74	case	_	Orig=ⲛ̅
-74	ⲥⲱⲧⲏⲣ	ⲥⲱⲧⲏⲣ	NOUN	N	Foreign=Yes	72	nmod	_	Entity=person)abstract)|OrigLang=grc
+74	ⲥⲱⲧⲏⲣ	ⲥⲱⲧⲏⲣ	NOUN	N	Foreign=Yes	69	nmod	_	Entity=person)abstract)|OrigLang=grc
 75	:	:	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0018
-# text_en = ...
+# text_en = “It came to pass, when Jesus had finished speaking these words unto his disciples, that Mary Magdalene came forward, kissed the feet of Jesus and said unto him: My Lord, bear with me and be not wroth with me, if I question thee;”
 # text = ⲁⲥϣⲱⲡⲉ ⲛⲧⲉⲣⲉⲓⲏⲥⲟⲩⲥ ⲟⲩⲱ ⲉϥϫⲱ ⲛⲛⲉⲓϣⲁϫⲉ ⲉⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲁⲥⲉⲓ ⲉⲧϩⲏ ⲛϭⲓⲙⲁⲣⲓⲁ ⲧⲙⲁⲅⲇⲁⲗⲏⲛⲏ ⲁⲥϯⲡⲓ ⲉⲛⲟⲩⲉⲣⲏⲧⲉ ⲛⲓⲏⲥⲟⲩⲥ ⲡⲉϫⲁⲥ ϫⲉⲡⲁϫⲟⲉⲓⲥ ϥⲓ ϩⲁⲣⲟⲓ ⲁⲩⲱ ⲙⲡⲣϭⲱⲛⲧ ⲉⲣⲟⲓ ⲉⲓϣⲓⲛⲉ ⲙⲙⲟⲕ ·
 1-3	ⲁⲥϣⲱⲡⲉ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
@@ -1072,7 +1072,7 @@
 12	ϣⲁϫⲉ	ϣⲁϫⲉ	NOUN	N	_	9	obj	_	Entity=abstract)
 13-15	ⲉⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ	_	_	_	_	_	_	_	_
 13	ⲉ	ⲉ	ADP	PREP	_	15	case	_	_
-14	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	Entity=(person
+14	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	Entity=(person
 15	ⲙⲁⲑⲏⲧⲏⲥ	ⲙⲁⲑⲏⲧⲏⲥ	NOUN	N	Foreign=Yes	9	obl	_	Entity=person)|OrigLang=grc
 16-18	ⲁⲥⲉⲓ	_	_	_	_	_	_	_	_
 16	ⲁ	ⲁ	AUX	APST	_	18	aux	_	_
@@ -1104,7 +1104,7 @@
 35	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
 36-38	ϫⲉⲡⲁϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 36	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	39	mark	_	_
-37	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	38	det	_	Entity=(person
+37	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	38	nmod:poss	_	Entity=(person
 38	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	39	vocative	_	Entity=person)
 39	ϥⲓ	ϥⲓ	VERB	V	VerbForm=Fin	34	ccomp	_	_
 40-41	ϩⲁⲣⲟⲓ	_	_	_	_	_	_	_	_
@@ -1127,28 +1127,28 @@
 52	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0019
-# text_en = ...
+# text_en = but have mercy upon us, my Lord, and reveal unto us all things on which we shall question thee.
 # text = ⲁⲗⲗⲁ ⲛⲁ ⲛⲁⲛ ⲡⲁϫⲟⲉⲓⲥ ⲁⲩⲱ ⲛⲅϭⲱⲗⲡ ⲛⲁⲛ ⲉⲃⲟⲗ ⲛϩⲱⲃ ⲛⲓⲙ ⲉⲧⲛⲛⲁϣⲓⲛⲉ ⲛⲥⲱⲟⲩ ·
 1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	3	cc	_	OrigLang=grc
-2	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	0	root	_	_
+2	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 3-4	ⲛⲁⲛ	_	_	_	_	_	_	_	_
-3	ⲛⲁ	ⲛⲁ	ADP	PREP	_	4	case	_	_
-4	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=1|PronType=Prs	2	obl	_	Entity=(person
+3	ⲛⲁ	ⲛⲁ	ADP	PREP	_	0	root	_	_
+4	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=1|PronType=Prs	6	obj	_	Entity=(person
 5-6	ⲡⲁϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
-5	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
+5	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 6	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	3	vocative	_	Entity=person)
 7	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	10	cc	_	_
 8-10	ⲛⲅϭⲱⲗⲡ	_	_	_	_	_	_	_	_
 8	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	10	aux	_	Orig=ⲛ̅
 9	ⲅ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	Orig=ⲅ̅
-10	ϭⲱⲗⲡ	ϭⲱⲗⲡ	VERB	V	VerbForm=Fin	2	advcl	_	Orig=ϭⲱⲗⲡ̅
+10	ϭⲱⲗⲡ	ϭⲱⲗⲡ	VERB	V	VerbForm=Fin	3	advcl	_	Orig=ϭⲱⲗⲡ̅
 11-12	ⲛⲁⲛ	_	_	_	_	_	_	_	_
 11	ⲛⲁ	ⲛⲁ	ADP	PREP	_	12	case	_	_
 12	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=1|PronType=Prs	10	obl	_	_
 13	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	10	advmod	_	_
 14-15	ⲛϩⲱⲃ	_	_	_	_	_	_	_	_
 14	ⲛ	ⲛ	ADP	PREP	_	15	case	_	Orig=ⲛ̅
-15	ϩⲱⲃ	ϩⲱⲃ	NOUN	N	_	10	obj	_	Entity=(abstract
+15	ϩⲱⲃ	ϩⲱⲃ	NOUN	N	_	10	obl	_	Entity=(abstract
 16	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	15	det	_	_
 17-20	ⲉⲧⲛⲛⲁϣⲓⲛⲉ	_	_	_	_	_	_	_	_
 17	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	20	mark	_	_
@@ -1158,17 +1158,17 @@
 21-22	ⲛⲥⲱⲟⲩ	_	_	_	_	_	_	_	_
 21	ⲛⲥⲱ	ⲛⲥⲁ	ADP	PREP	_	22	case	_	Orig=ⲛ̅ⲥⲱ
 22	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	20	obl	_	Entity=abstract)
-23	·	·	PUNCT	PUNCT	_	2	punct	_	_
+23	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0020
-# text_en = ...
+# text_en = Now, therefore, my Lord, how doth the First Mystery possess twelve mysteries,
 # text = ⲧⲉⲛⲟⲩ ϭⲉ ⲡⲁϫⲟⲉⲓⲥ ⲡⲱⲥ ⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲟⲩⲛⲧⲁϥ ⲙⲙⲁⲩ ⲙⲙⲛⲧⲥⲛⲟⲟⲩⲥ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲡ ·
 1	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	10	advmod	_	_
 2	ϭⲉ	ϭⲉ	PART	PTC	_	10	advmod	_	_
 3-4	ⲡⲁϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
-3	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	Entity=(person
+3	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	Entity=(person
 4	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	10	vocative	_	Entity=person)
-5	ⲡⲱⲥ	ⲡⲱⲥ	ADV	ADV	Foreign=Yes	7	case	_	OrigLang=grc
+5	ⲡⲱⲥ	ⲡⲱⲥ	ADV	ADV	Foreign=Yes	10	advmod	_	OrigLang=grc
 6-7	ⲡⲓϣⲟⲣⲡ	_	_	_	_	_	_	_	_
 6	ⲡⲓ	ⲡⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	Entity=(abstract
 7	ϣⲟⲣⲡ	ϣⲟⲣⲡ	NOUN	N	_	10	obl	_	Orig=ϣⲟⲣⲡ̅
@@ -1188,7 +1188,7 @@
 17	·	·	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0021
-# text_en = ...
+# text_en = “[and] the Ineffable possess a one and only mystery?”
 # text = ⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ⲟⲩⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲟⲩⲱⲧ ⲡⲉⲧⲛⲧⲁϥ ·
 1-2	ⲡⲓⲁⲧϣⲁϫⲉ	_	_	_	_	_	_	_	_
 1	ⲡⲓ	ⲡⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	Entity=(abstract
@@ -1210,7 +1210,7 @@
 13	·	·	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0022
-# text_en = ...
+# text_en = “Jesus answered and said unto her: Indeed it possesseth a one and only mystery, yet that mystery constituteth three mysteries, although it is the one and only mystery; but the type of every one of them is different.”
 # text = ⲁϥⲟⲩⲱϣⲃ ⲛϭⲓⲓⲏⲥⲟⲩⲥ ⲡⲉϫⲁϥ ⲛⲁⲥ · ϫⲉⲟⲩ ⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲟⲩⲱⲧ ⲙⲉⲛ ⲧⲟⲓ ⲅⲉ ⲡⲉⲧⲛⲧⲁϥ · ⲁⲗⲗⲁ ⲛⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ ϥⲉⲓⲣⲉ ⲛϣⲟⲙⲛⲧ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲡⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲟⲩⲱⲧ ⲡⲉ · ⲁⲗⲗⲁ ⲟⲩⲉⲧⲡⲧⲩⲡⲟⲥ ⲙⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲙⲙⲟⲟⲩ ·
 1-3	ⲁϥⲟⲩⲱϣⲃ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
@@ -1237,7 +1237,7 @@
 17	ⲧⲟⲓ	ⲧⲟⲓ	PART	PTC	Foreign=Yes	13	cop	_	OrigLang=grc
 18	ⲅⲉ	ⲅⲉ	PART	PTC	Foreign=Yes	17	cop	_	OrigLang=grc
 19-22	ⲡⲉⲧⲛⲧⲁϥ	_	_	_	_	_	_	_	_
-19	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	cop	_	Entity=(person
+19	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	vocative	_	Entity=(person
 20	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	22	mark	_	_
 21	ⲛⲧⲁ	ⲛⲧⲉ	ADP	PREP	_	22	case	_	Orig=ⲛ̅ⲧⲁ
 22	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	acl:relcl	_	Entity=person)
@@ -1251,7 +1251,7 @@
 28	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	26	acl:relcl	_	Entity=abstract)|Orig=ⲙ̅ⲙⲁⲩ
 29-30	ϥⲉⲓⲣⲉ	_	_	_	_	_	_	_	_
 29	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
-30	ⲉⲓⲣⲉ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	13	parataxis	_	_
+30	ⲉⲓⲣⲉ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	17	parataxis	_	_
 31-32	ⲛϣⲟⲙⲛⲧ	_	_	_	_	_	_	_	_
 31	ⲛ	ⲛ	ADP	PREP	_	34	case	_	Orig=ⲛ̅
 32	ϣⲟⲙⲛⲧ	ϣⲟⲙⲛⲧ	NUM	NUM	NumType=Card	34	nummod	_	Entity=(abstract|Orig=ϣⲟⲙⲛ̅ⲧ
@@ -1285,7 +1285,7 @@
 53	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0023
-# text_en = ...
+# text_en = And moreover it constituteth five mysteries, although it is a one and only [one]; but the type of every one is different. So that these five mysteries are alike with one another in the mystery | of the kingdom in the inheritances of the Light; but the type of each of them is different. And their kingdom is higher and more exalted than the whole kingdom of the twelve mysteries together of the First Mystery;
 # text = ⲁⲩⲱ ⲟⲛ ϣⲁϥⲣϯⲟⲩ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲟⲩⲁ ⲛⲟⲩⲱⲧ ⲟⲛ ⲡⲉ · ⲁⲗⲗⲁ ⲟⲩⲉⲧⲡⲧⲩⲡⲟⲥ ⲙⲡⲟⲩⲁ ⲡⲟⲩⲁ · ϩⲱⲥⲧⲉ ⲡⲉⲓϯⲟⲩ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲩϣⲏϣ ⲙⲛⲛⲉⲩⲉⲣⲏⲩ ϩⲣⲁⲓ ϩⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲙⲛⲧⲣⲣⲟ ϩⲣⲁⲓ ϩⲛⲛⲉⲕⲗⲏⲣⲟⲛⲟⲙⲓⲁ ⲙⲡⲟⲩⲟⲉⲓⲛ · ⲁⲗⲗⲁ ⲟⲩⲉⲧⲡⲧⲩⲡⲟⲥ ⲙⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲙⲙⲟⲟⲩ · ⲁⲩⲱ ⲧⲉⲩⲙⲛⲧⲣⲣⲟ ⲥⲟⲩⲟⲧⲃ ⲁⲩⲱ ⲥϫⲟⲥⲉ ⲉⲧⲙⲛⲧⲣⲣⲟ ⲧⲏⲣⲥ ⲙⲡⲙⲛⲧⲥⲛⲟⲟⲩⲥ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϩⲓⲛⲉⲩⲉⲣⲏⲩ ⲛⲧⲉⲡϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	5	cc	_	_
 2	ⲟⲛ	ⲟⲛ	ADV	ADV	_	5	advmod	_	_
@@ -1310,7 +1310,7 @@
 17-19	ⲟⲩⲉⲧⲡⲧⲩⲡⲟⲥ	_	_	_	_	_	_	_	_
 17	ⲟⲩⲉⲧ	ⲟⲩⲉⲧ	ADP	PREP	_	10	conj	_	_
 18	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Entity=(abstract
-19	ⲧⲩⲡⲟⲥ	ⲧⲩⲡⲟⲥ	NOUN	N	Foreign=Yes	17	nsubj	_	OrigLang=grc
+19	ⲧⲩⲡⲟⲥ	ⲧⲩⲡⲟⲥ	NOUN	N	Foreign=Yes	10	conj	_	OrigLang=grc
 20-22	ⲙⲡⲟⲩⲁ	_	_	_	_	_	_	_	_
 20	ⲙ	ⲛ	ADP	PREP	_	22	case	_	Orig=ⲙ̅
 21	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	Entity=(person
@@ -1318,11 +1318,11 @@
 23-24	ⲡⲟⲩⲁ	_	_	_	_	_	_	_	_
 23	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Entity=(person
 24	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	22	appos	_	Entity=person)abstract)
-25	·	·	PUNCT	PUNCT	_	28	punct	_	_
-26	ϩⲱⲥⲧⲉ	ϩⲱⲥⲧⲉ	SCONJ	CONJ	Foreign=Yes	28	mark	_	OrigLang=grc
+25	·	·	PUNCT	PUNCT	_	26	punct	_	_
+26	ϩⲱⲥⲧⲉ	ϩⲱⲥⲧⲉ	SCONJ	CONJ	Foreign=Yes	55	mark	_	OrigLang=grc
 27-28	ⲡⲉⲓϯⲟⲩ	_	_	_	_	_	_	_	_
 27	ⲡⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	28	det	_	Entity=(abstract|Orig=ⲡⲉⲓ̈
-28	ϯⲟⲩ	ϯⲟⲩ	NUM	NUM	NumType=Card	55	nsubj	_	_
+28	ϯⲟⲩ	ϯⲟⲩ	NUM	NUM	NumType=Card	55	compound	_	_
 29-30	ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 29	ⲙ	ⲛ	ADP	PREP	_	30	case	_	Orig=ⲙ̅
 30	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	28	nmod	_	Entity=abstract)|OrigLang=grc
@@ -1332,7 +1332,7 @@
 33	ϣⲏϣ	ϣⲱϣ	VERB	VSTAT	VerbForm=Fin	30	acl:relcl	_	_
 34-36	ⲙⲛⲛⲉⲩⲉⲣⲏⲩ	_	_	_	_	_	_	_	_
 34	ⲙⲛ	ⲙⲛ	ADP	PREP	_	36	case	_	Orig=ⲙⲛ̅
-35	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	36	det	_	_
+35	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
 36	ⲉⲣⲏⲩ	ⲉⲣⲏⲩ	NOUN	N	PronType=Rcp	33	obl	_	_
 37	ϩⲣⲁⲓ	ϩⲣⲁⲓ	ADV	ADV	_	33	advmod	_	Orig=ϩⲣⲁⲓ̈
 38-40	ϩⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
@@ -1357,7 +1357,7 @@
 53-55	ⲟⲩⲉⲧⲡⲧⲩⲡⲟⲥ	_	_	_	_	_	_	_	_
 53	ⲟⲩⲉⲧ	ⲟⲩⲱⲱⲧⲉ	VERB	V	VerbForm=Fin	5	conj	_	_
 54	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	Entity=(abstract
-55	ⲧⲩⲡⲟⲥ	ⲧⲩⲡⲟⲥ	NOUN	N	Foreign=Yes	68	conj	_	OrigLang=grc
+55	ⲧⲩⲡⲟⲥ	ⲧⲩⲡⲟⲥ	NOUN	N	Foreign=Yes	53	nsubj	_	OrigLang=grc
 56-58	ⲙⲡⲟⲩⲁ	_	_	_	_	_	_	_	_
 56	ⲙ	ⲛ	ADP	PREP	_	58	case	_	Orig=ⲙ̅
 57	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	Entity=(person
@@ -1368,13 +1368,13 @@
 61-62	ⲙⲙⲟⲟⲩ	_	_	_	_	_	_	_	_
 61	ⲙⲙⲟ	ⲛ	ADP	PREP	_	62	case	_	Orig=ⲙ̅ⲙⲟ
 62	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	58	nmod	_	Entity=person)abstract)
-63	·	·	PUNCT	PUNCT	_	55	punct	_	_
-64	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	66	cc	_	_
+63	·	·	PUNCT	PUNCT	_	53	punct	_	_
+64	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	68	cc	_	_
 65-66	ⲧⲉⲩⲙⲛⲧⲣⲣⲟ	_	_	_	_	_	_	_	_
-65	ⲧⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	66	det	_	Entity=(abstract
+65	ⲧⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	66	nmod:poss	_	Entity=(abstract
 66	ⲙⲛⲧⲣⲣⲟ	ⲙⲛⲧⲣⲣⲟ	NOUN	N	_	68	dislocated	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲉⲣⲟ|Orig=ⲙⲛ̅ⲧ̅ⲉⲣⲟ
 67-68	ⲥⲟⲩⲟⲧⲃ	_	_	_	_	_	_	_	_
-67	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	_	66	det	_	_
+67	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	68	nsubj	_	_
 68	ⲟⲩⲟⲧⲃ	ⲟⲩⲱⲧⲃ	VERB	VSTAT	VerbForm=Fin	5	conj	_	Orig=ⲟⲩⲟⲧⲃ̅
 69	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	71	cc	_	_
 70-71	ⲥϫⲟⲥⲉ	_	_	_	_	_	_	_	_
@@ -1385,8 +1385,8 @@
 73	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	74	det	_	Entity=(place
 74	ⲙⲛⲧⲣⲣⲟ	ⲙⲛⲧⲣⲣⲟ	NOUN	N	_	71	obl	_	Morphs=ⲙⲛⲧ-ⲉⲣⲟ|Orig=ⲙⲛ̅ⲧ̅ⲉⲣⲟ
 75-76	ⲧⲏⲣⲥ	_	_	_	_	_	_	_	_
-75	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	74	advmod	_	_
-76	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	75	det	_	Orig=ⲥ̅
+75	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	74	obl:npmod	_	_
+76	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	75	nmod:poss	_	Orig=ⲥ̅
 77-79	ⲙⲡⲙⲛⲧⲥⲛⲟⲟⲩⲥ	_	_	_	_	_	_	_	_
 77	ⲙ	ⲛ	ADP	PREP	_	79	case	_	Orig=ⲙ̅
 78	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	79	det	_	Entity=(abstract
@@ -1396,7 +1396,7 @@
 81	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	79	nmod	_	Entity=(abstract)abstract)place)|OrigLang=grc
 82-84	ϩⲓⲛⲉⲩⲉⲣⲏⲩ	_	_	_	_	_	_	_	_
 82	ϩⲓ	ϩⲓ	ADP	PREP	_	84	case	_	_
-83	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	84	det	_	_
+83	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	84	nmod:poss	_	_
 84	ⲉⲣⲏⲩ	ⲉⲣⲏⲩ	NOUN	N	PronType=Rcp	71	obl	_	_
 85-87	ⲛⲧⲉⲡϣⲟⲣⲡ	_	_	_	_	_	_	_	_
 85	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	87	case	_	Orig=ⲛ̅ⲧⲉ
@@ -1408,7 +1408,7 @@
 90	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0024
-# text_en = ...
+# text_en = but they are not alike in the kingdom [with the one and only mystery] of the First Mystery in the Light-kingdom.
 # text = ⲁⲗⲗⲁ ⲛⲥⲉⲥⲏϣ ⲁⲛ ϩⲛⲧⲙⲛⲧⲣⲣⲟ ⲙⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϩⲛⲧⲙⲛⲧⲣⲣⲟ ⲙⲡⲟⲩⲟⲉⲓⲛ ·
 1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	4	cc	_	OrigLang=grc
 2-4	ⲛⲥⲉⲥⲏϣ	_	_	_	_	_	_	_	_
@@ -1445,7 +1445,7 @@
 25	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0025
-# text_en = ...
+# text_en = “In like manner also the three mysteries are not [?] alike in the Light-kingdom; but the type of every one of them is different. And they themselves also are not alike in the kingdom with the one and only mystery of the First Mystery in the Light-kingdom;”
 # text = ϩⲟⲙⲟⲓⲱⲥ ⲟⲛ ⲡϣⲟⲙⲛⲧ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ · ⲛⲥⲉϣⲏϣ ⲁⲛ ϩⲱⲟⲩ ϩⲣⲁⲓ ϩⲛⲧⲙⲛⲧⲣⲣⲟ ⲉⲧϩⲙⲡⲟⲩⲟⲉⲓⲛ ⲁⲗⲗⲁ ⲟⲩⲉⲧⲡⲧⲩⲡⲟⲥ ⲙⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲙⲙⲟⲟⲩ · ⲁⲩⲱ ⲛⲧⲟⲟⲩ ϩⲱⲟⲩ ⲟⲛ ⲛⲥⲉϣⲏϣ ⲁⲛ ϩⲛⲧⲙⲛⲧⲣⲣⲟ ⲙⲛⲡⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲟⲩⲱⲧ · ⲛⲧⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϩⲣⲁⲓ ϩⲛⲧⲙⲛⲧⲣⲣⲟ ⲙⲡⲟⲩⲟⲉⲓⲛ ·
 1	ϩⲟⲙⲟⲓⲱⲥ	ϩⲟⲙⲟⲓⲱⲥ	ADV	ADV	_	10	advmod	_	_
 2	ⲟⲛ	ⲟⲛ	ADV	ADV	_	10	advmod	_	_
@@ -1462,8 +1462,8 @@
 10	ϣⲏϣ	ϣⲱϣ	VERB	VSTAT	VerbForm=Fin	0	root	_	_
 11	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	10	advmod	_	_
 12-13	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-12	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	10	obl:npmod	_	_
-13	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	12	det	_	_
+12	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	10	obl:npmod	_	_
+13	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
 14	ϩⲣⲁⲓ	ϩⲣⲁⲓ	ADV	ADV	_	10	advmod	_	Orig=ϩⲣⲁⲓ̈
 15-17	ϩⲛⲧⲙⲛⲧⲣⲣⲟ	_	_	_	_	_	_	_	_
 15	ϩⲛ	ϩⲛ	ADP	PREP	_	17	case	_	Orig=ϩⲛ̅
@@ -1493,8 +1493,8 @@
 34	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	41	cc	_	_
 35	ⲛⲧⲟⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERI	Definite=Def|Number=Plur|Person=3|PronType=Prs	41	dislocated	_	Orig=ⲛ̅ⲧⲟⲟⲩ
 36-37	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-36	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	35	advmod	_	_
-37	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	36	det	_	_
+36	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	35	obl:npmod	_	_
+37	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
 38	ⲟⲛ	ⲟⲛ	ADV	ADV	_	41	advmod	_	_
 39-41	ⲛⲥⲉϣⲏϣ	_	_	_	_	_	_	_	_
 39	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	41	advmod	_	Orig=ⲛ̅
@@ -1514,7 +1514,7 @@
 50	ⲟⲩⲱⲧ	ⲟⲩⲱⲧ	NOUN	N	_	48	nmod	_	_
 51	·	·	PUNCT	PUNCT	_	57	punct	_	_
 52-54	ⲛⲧⲉⲡⲓϣⲟⲣⲡ	_	_	_	_	_	_	_	_
-52	ⲛⲧⲉ	ⲛⲧⲉ	AUX	ACONJ	_	54	aux	_	Orig=ⲛ̅ⲧⲉ
+52	ⲛⲧⲉ	ⲛⲧⲉ	AUX	ACONJ	_	54	case	_	Orig=ⲛ̅ⲧⲉ
 53	ⲡⲓ	ⲡⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	54	det	_	Entity=(abstract
 54	ϣⲟⲣⲡ	ϣⲟⲣⲡ	NOUN	N	_	57	nsubj	_	Entity=abstract)|Orig=ϣⲟⲣⲡ̅
 55-56	ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
@@ -1532,7 +1532,7 @@
 64	·	·	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0026
-# text_en = ...
+# text_en = and the type of every one of the three of them, and the type of the configuration of each of them, is different from one another.
 # text = ⲁⲩⲱ ⲟⲩⲉⲧⲡⲧⲩⲡⲟⲥ ⲟⲛ ⲙⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲙⲙⲟⲟⲩ ⲙⲡϣⲟⲙⲛⲧ ⲁⲩⲱ ⲡⲧⲩⲡⲟⲥ ⲙⲡⲉⲥⲭⲏⲙⲁ ⲙⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲙⲙⲟⲟⲩ ⲥⲉϣⲃⲉⲓⲁⲉⲓⲧ ⲉⲛⲉⲩⲉⲣⲏⲩ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	2	cc	_	_
 2-4	ⲟⲩⲉⲧⲡⲧⲩⲡⲟⲥ	_	_	_	_	_	_	_	_
@@ -1577,12 +1577,12 @@
 30	ϣⲃⲉⲓⲁⲉⲓⲧ	ϣⲃⲉⲓⲁⲉⲓⲧ	VERB	V	VerbForm=Fin	2	parataxis	_	Orig=ϣⲃ̅ⲉⲓⲁⲉⲓⲧ
 31-33	ⲉⲛⲉⲩⲉⲣⲏⲩ	_	_	_	_	_	_	_	_
 31	ⲉ	ⲉ	ADP	PREP	_	33	case	_	_
-32	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	33	det	_	_
+32	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
 33	ⲉⲣⲏⲩ	ⲉⲣⲏⲩ	NOUN	N	PronType=Rcp	30	obl	_	_
 34	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0027
-# text_en = ...
+# text_en = “The first [mystery of the First Mystery],--if thou accomplishest its mystery altogether and standest and accomplishest it finely in all its figures, then dost thou come straightway out of thy body, become a great light-stream and pass through all the regions of the rulers and all the regions of the Light, while all are in fear of that soul, until it cometh to the region of its kingdom.”
 # text = ⲡϣⲟⲣⲡ ⲙⲉⲛ ⲉⲕϣⲁⲛϫⲱⲕ ⲉⲃⲟⲗ ⲙⲡⲉϥⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϩⲓⲛⲉϥⲉⲣⲏⲩ ⲁⲩⲱ ⲛⲅⲁϩⲉⲣⲁⲧⲕ ⲛⲅϫⲟⲕϥ ⲉⲃⲟⲗ ⲕⲁⲗⲱⲥ ϩⲛⲛⲉϥⲥⲭⲏⲙⲁ ⲧⲏⲣⲟⲩ ϣⲁⲕⲉⲓ ⲉⲃⲟⲗ ϩⲙⲡⲉⲕⲥⲱⲙⲁ ⲛⲧⲉⲩⲛⲟⲩ · ⲛⲅⲣⲟⲩⲛⲟϭ ⲛϣⲗⲓϭ ⲛⲟⲩⲟⲉⲓⲛ ⲛⲁⲡⲟⲣⲣⲟⲓⲁ · ⲛⲅϫⲱⲧⲉ ⲛⲧⲟⲡⲟⲥ ⲛⲓⲙ ⲛⲧⲉⲛⲁⲣⲭⲱⲛ ⲙⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲛⲧⲉⲡⲟⲩⲟⲉⲓⲛ ⲉⲩⲟ ⲛϩⲟⲧⲉ ⲧⲏⲣⲟⲩ ϩⲏⲧϥ ⲙⲡⲟⲩⲟⲉⲓⲛ ⲛⲧⲉⲯⲩⲭⲏ ⲉⲧⲙⲙⲁⲩ · ϩⲉⲱⲥ ϣⲁⲛⲧⲥⲃⲱⲕ ⲉⲡⲧⲟⲡⲟⲥ ⲛⲧⲉⲥⲙⲛⲧⲣⲣⲟ ·
 1-2	ⲡϣⲟⲣⲡ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(time
@@ -1594,11 +1594,11 @@
 6	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	5	advmod	_	_
 7-9	ⲙⲡⲉϥⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 7	ⲙ	ⲛ	ADP	PREP	_	9	case	_	Orig=ⲙ̅
-8	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	Entity=(abstract
+8	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	Entity=(abstract
 9	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	5	obj	_	Entity=abstract)|OrigLang=grc
 10-12	ϩⲓⲛⲉϥⲉⲣⲏⲩ	_	_	_	_	_	_	_	_
 10	ϩⲓ	ϩⲓ	ADP	PREP	_	12	case	_	_
-11	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+11	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
 12	ⲉⲣⲏⲩ	ⲉⲣⲏⲩ	NOUN	N	PronType=Rcp	5	obl	_	_
 13	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	16	cc	_	_
 14-18	ⲛⲅⲁϩⲉⲣⲁⲧⲕ	_	_	_	_	_	_	_	_
@@ -1606,7 +1606,7 @@
 15	ⲅ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	16	nsubj	_	Orig=ⲅ̅
 16	ⲁϩⲉ	ⲱϩⲉ	VERB	V	VerbForm=Fin	5	conj	_	_
 17	ⲣⲁⲧ	ⲣⲁⲧ	NOUN	N	_	16	obj	_	_
-18	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	17	det	_	Orig=ⲕ̅
+18	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	17	nmod:poss	_	Orig=ⲕ̅
 19-22	ⲛⲅϫⲟⲕϥ	_	_	_	_	_	_	_	_
 19	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	21	aux	_	Orig=ⲛ̅
 20	ⲅ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	21	nsubj	_	Orig=ⲅ̅
@@ -1616,11 +1616,11 @@
 24	ⲕⲁⲗⲱⲥ	ⲕⲁⲗⲱⲥ	ADV	ADV	Foreign=Yes	21	advmod	_	OrigLang=grc
 25-27	ϩⲛⲛⲉϥⲥⲭⲏⲙⲁ	_	_	_	_	_	_	_	_
 25	ϩⲛ	ϩⲛ	ADP	PREP	_	27	case	_	Orig=ϩⲛ̅
-26	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	Entity=(abstract
+26	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	Entity=(abstract
 27	ⲥⲭⲏⲙⲁ	ⲥⲭⲏⲙⲁ	NOUN	N	Foreign=Yes	21	obl	_	OrigLang=grc
 28-29	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-28	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	27	advmod	_	_
-29	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	28	det	_	Entity=abstract)
+28	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	27	obl:npmod	_	_
+29	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	28	nmod:poss	_	Entity=abstract)
 30-32	ϣⲁⲕⲉⲓ	_	_	_	_	_	_	_	_
 30	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	32	aux	_	_
 31	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	32	nsubj	_	_
@@ -1628,7 +1628,7 @@
 33	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	36	case	_	_
 34-36	ϩⲙⲡⲉⲕⲥⲱⲙⲁ	_	_	_	_	_	_	_	_
 34	ϩⲙ	ϩⲛ	ADP	PREP	_	33	fixed	_	Orig=ϩⲙ̅
-35	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	36	det	_	Entity=(object
+35	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	36	nmod:poss	_	Entity=(object
 36	ⲥⲱⲙⲁ	ⲥⲱⲙⲁ	NOUN	N	Foreign=Yes	32	obl	_	OrigLang=grc
 37-39	ⲛⲧⲉⲩⲛⲟⲩ	_	_	_	_	_	_	_	_
 37	ⲛ	ⲛ	ADP	PREP	_	39	case	_	Orig=ⲛ̅
@@ -1668,8 +1668,8 @@
 63	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	64	det	_	Entity=(place|Orig=ⲛ̅
 64	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	57	conj	_	OrigLang=grc
 65-66	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-65	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	64	advmod	_	_
-66	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	65	det	_	Entity=place)
+65	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	64	obl:npmod	_	_
+66	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	65	nmod:poss	_	Entity=place)
 67-69	ⲛⲧⲉⲡⲟⲩⲟⲉⲓⲛ	_	_	_	_	_	_	_	_
 67	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	69	case	_	Orig=ⲛ̅ⲧⲉ
 68	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	69	det	_	Entity=(abstract
@@ -1682,11 +1682,11 @@
 73	ⲛ	ⲛ	ADP	PREP	_	74	case	_	Orig=ⲛ̅
 74	ϩⲟⲧⲉ	ϩⲟⲧⲉ	NOUN	N	_	72	obl	_	Entity=(abstract
 75-76	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-75	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	74	advmod	_	_
-76	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	75	det	_	Entity=abstract)
+75	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	74	obl:npmod	_	_
+76	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	75	nmod:poss	_	Entity=abstract)
 77-78	ϩⲏⲧϥ	_	_	_	_	_	_	_	_
 77	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	72	obl:npmod	_	_
-78	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	75	det	_	Entity=place)|Orig=ϥ̅
+78	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	75	nmod:poss	_	Entity=place)|Orig=ϥ̅
 79-81	ⲙⲡⲟⲩⲟⲉⲓⲛ	_	_	_	_	_	_	_	_
 79	ⲙ	ⲛ	ADP	PREP	_	81	case	_	Orig=ⲙ̅
 80	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	81	det	_	Entity=(abstract
@@ -1710,19 +1710,19 @@
 94	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	91	obl	_	OrigLang=grc
 95-97	ⲛⲧⲉⲥⲙⲛⲧⲣⲣⲟ	_	_	_	_	_	_	_	_
 95	ⲛ	ⲛ	ADP	PREP	_	97	case	_	Orig=ⲛ̅
-96	ⲧⲉⲥ	ⲡⲉⲥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	97	det	_	Entity=(abstract
+96	ⲧⲉⲥ	ⲡⲉⲥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	97	nmod:poss	_	Entity=(abstract
 97	ⲙⲛⲧⲣⲣⲟ	ⲙⲛⲧⲣⲣⲟ	NOUN	N	_	94	nmod	_	Entity=abstract)place)|Morphs=ⲙⲛⲧ-ⲉⲣⲟ|Orig=ⲙⲛ̅ⲧ̅ⲉⲣⲟ
 98	·	·	PUNCT	PUNCT	_	32	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0028
-# text_en = ...
+# text_en = “The second mystery of the First Mystery, on the other hand,--| if thou accomplishest it finely in all its figures,--the man, therefore, who shall accomplish its mystery, if he speaketh that mystery over the head of any man who goeth forth out of the body, and he speaketh it into his two ears, if indeed the man who goeth forth out of the body hath received mysteries for the second time and is sharing in the word of truth,”
 # text = ⲡⲙⲉϩⲥⲛⲁⲩ ϩⲱⲱϥ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲕϣⲁⲛϫⲱⲕ ⲉⲃⲟⲗ ⲙⲡⲉϥⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲕⲁⲗⲱⲥ ϩⲛⲛⲉϥⲥⲭⲏⲙⲁ ⲧⲏⲣⲟⲩ ⲡⲣⲱⲙⲉ ϭⲉ ⲉⲧⲛⲁϫⲱⲕ ⲉⲃⲟⲗ ⲙⲡⲉϥⲙⲩⲥⲧⲏⲣⲓⲟⲛ · ⲉϥϣⲁϫⲱ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ ⲉϩⲣⲁⲓ ⲉϫⲛⲧⲁⲡⲉ ⲛⲣⲱⲙⲉ ⲛⲓⲙ ⲉⲧⲛⲏⲩ ⲉⲃⲟⲗ ϩⲙⲡⲥⲱⲙⲁ · ⲁⲩⲱ ⲛϥϫⲟⲟϥ ⲉϩⲣⲁⲓ ⲉⲡⲉϥⲙⲁⲁϫⲉ ⲥⲛⲁⲩ ⲉϣⲱⲡⲉ ⲙⲉⲛ ⲡⲣⲱⲙⲉ ⲉⲧⲛⲏⲩ ⲉⲃⲟⲗ ϩⲙⲡⲥⲱⲙⲁ ⲉⲁϥϫⲓ ⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲕⲉⲥⲟⲡ · ⲁⲩⲱ ϥⲟ ⲙⲙⲉⲧⲟⲭⲟⲥ ⲉϩⲟⲩⲛ ⲉⲡϣⲁϫⲉ ⲛⲧⲁⲗⲏⲑⲉⲓⲁ ·
 1-2	ⲡⲙⲉϩⲥⲛⲁⲩ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(abstract
 2	ⲙⲉϩⲥⲛⲁⲩ	ⲙⲉϩⲥⲛⲁⲩ	NUM	NUM	NumType=Card	14	dislocated	_	Morphs=ⲙⲉϩ-ⲥⲛⲁⲩ
 3-4	ϩⲱⲱϥ	_	_	_	_	_	_	_	_
-3	ϩⲱⲱ	ϩⲱⲱ	ADV	IMOD	_	2	advmod	_	_
-4	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	3	det	_	_
+3	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	2	obl:npmod	_	_
+4	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 5-7	ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 5	ⲙ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲙ̅
 6	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(abstract
@@ -1740,19 +1740,19 @@
 15	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	14	advmod	_	_
 16-18	ⲙⲡⲉϥⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 16	ⲙ	ⲛ	ADP	PREP	_	18	case	_	Orig=ⲙ̅
-17	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	Entity=(abstract
+17	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	Entity=(abstract
 18	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	14	obj	_	Entity=abstract)|OrigLang=grc
 19	ⲕⲁⲗⲱⲥ	ⲕⲁⲗⲱⲥ	ADV	ADV	Foreign=Yes	14	advmod	_	OrigLang=grc
 20-22	ϩⲛⲛⲉϥⲥⲭⲏⲙⲁ	_	_	_	_	_	_	_	_
 20	ϩⲛ	ϩⲛ	ADP	PREP	_	22	case	_	Orig=ϩⲛ̅
-21	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det	_	Entity=(abstract
+21	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	Entity=(abstract
 22	ⲥⲭⲏⲙⲁ	ⲥⲭⲏⲙⲁ	NOUN	N	Foreign=Yes	14	obl	_	OrigLang=grc
 23-24	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-23	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	22	advmod	_	_
-24	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	23	det	_	Entity=abstract)
+23	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	22	obl:npmod	_	_
+24	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	23	nmod:poss	_	Entity=abstract)
 25-26	ⲡⲣⲱⲙⲉ	_	_	_	_	_	_	_	_
 25	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	ⲣⲱⲙⲉ	ⲣⲱⲙⲉ	NOUN	N	_	22	appos	_	_
+26	ⲣⲱⲙⲉ	ⲣⲱⲙⲉ	NOUN	N	_	37	vocative	_	_
 27	ϭⲉ	ϭⲉ	PART	PTC	_	37	advmod	_	_
 28-30	ⲉⲧⲛⲁϫⲱⲕ	_	_	_	_	_	_	_	_
 28	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	30	mark	_	_
@@ -1761,7 +1761,7 @@
 31	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	30	advmod	_	_
 32-34	ⲙⲡⲉϥⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 32	ⲙ	ⲛ	ADP	PREP	_	34	case	_	Orig=ⲙ̅
-33	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	34	det	_	Entity=(abstract
+33	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	Entity=(abstract
 34	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	30	obj	_	Entity=abstract)|OrigLang=grc
 35	·	·	PUNCT	PUNCT	_	30	punct	_	_
 36-37	ⲉϥϣⲁϫⲱ	_	_	_	_	_	_	_	_
@@ -1801,7 +1801,7 @@
 62	ⲉϩⲣⲁⲓ	ⲉϩⲣⲁⲓ	ADV	ADV	_	60	advmod	_	Orig=ⲉϩⲣⲁⲓ̈
 63-65	ⲉⲡⲉϥⲙⲁⲁϫⲉ	_	_	_	_	_	_	_	_
 63	ⲉ	ⲉ	ADP	PREP	_	65	case	_	_
-64	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	65	det	_	Entity=(object
+64	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	65	nmod:poss	_	Entity=(object
 65	ⲙⲁⲁϫⲉ	ⲙⲁⲁϫⲉ	NOUN	N	_	60	obl	_	_
 66	ⲥⲛⲁⲩ	ⲥⲛⲁⲩ	NUM	NUM	NumType=Card	65	nummod	_	Entity=object)
 67	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	70	mark	_	_
@@ -1849,7 +1849,7 @@
 99	·	·	PUNCT	PUNCT	_	37	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0029
-# text_en = ...
+# text_en = amēn, I say unto you: That man, if he goeth forth out of the body of matter, then will his soul become a great light-stream and pass through all the regions, until it cometh to the kingdom of that mystery.
 # text = ϩⲁⲙⲏⲛ ϯϫⲱ ⲙⲙⲟⲥ ⲉⲣⲱⲧⲛ ϫⲉⲡⲣⲱⲙⲉ ⲉⲧⲙⲙⲁⲩ ⲉϥϣⲁⲛⲉⲓ ⲉⲃⲟⲗ ϩⲙⲡⲥⲱⲙⲁ ⲛⲧϩⲩⲗⲏ · ⲧⲉϥⲯⲩⲭⲏ ⲛⲁⲣⲟⲩⲛⲟϭ ⲛⲁⲡⲟⲣⲣⲟⲓⲁ ⲛⲟⲩⲟⲉⲓⲛ · ⲛⲥϫⲱⲧⲉ ⲛⲧⲟⲡⲟⲥ ⲛⲓⲙ ϩⲉⲱⲥ ϣⲁⲛⲧⲥⲃⲱⲕ ⲉⲧⲙⲛⲧⲣⲣⲟ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ ·
 1	ϩⲁⲙⲏⲛ	ϩⲁⲙⲏⲛ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=he
 2-3	ϯϫⲱ	_	_	_	_	_	_	_	_
@@ -1857,7 +1857,7 @@
 3	ϫⲱ	ϫⲱ	VERB	V	VerbForm=Fin	0	root	_	_
 4-5	ⲙⲙⲟⲥ	_	_	_	_	_	_	_	_
 4	ⲙⲙⲟ	ⲛ	ADP	PREP	_	5	case	_	Orig=ⲙ̅ⲙⲟ
-5	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 6-7	ⲉⲣⲱⲧⲛ	_	_	_	_	_	_	_	_
 6	ⲉⲣⲱ	ⲉ	ADP	PREP	_	7	case	_	_
 7	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	3	obl	_	Orig=ⲧⲛ̅
@@ -1882,7 +1882,7 @@
 21	ϩⲩⲗⲏ	ϩⲩⲗⲏ	NOUN	N	Foreign=Yes	18	nmod	_	Entity=object)object)|Orig=ⲩⲗⲏ|OrigLang=grc
 22	·	·	PUNCT	PUNCT	_	14	punct	_	_
 23-24	ⲧⲉϥⲯⲩⲭⲏ	_	_	_	_	_	_	_	_
-23	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	Entity=(abstract
+23	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	Entity=(abstract
 24	ⲯⲩⲭⲏ	ⲯⲩⲭⲏ	NOUN	N	Foreign=Yes	26	nsubj	_	Entity=abstract)|OrigLang=grc
 25-28	ⲛⲁⲣⲟⲩⲛⲟϭ	_	_	_	_	_	_	_	_
 25	ⲛⲁ	ⲛⲁ	AUX	FUT	_	26	aux	_	_
@@ -1923,7 +1923,7 @@
 52	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0030
-# text_en = ...
+# text_en = “But if that man hath received no mysteries and is not sharing in the words of truth,--if he who accomplisheth that mystery, speaketh that mystery over the head of a man who cometh forth out of the body and who hath received no mysteries of the Light, and shareth not in the words of truth,”
 # text = ⲉϣⲱⲡⲉ ⲇⲉ ⲛⲧⲟϥ ⲡⲣⲱⲙⲉ ⲉⲧⲙⲙⲁⲩ ⲙⲡϥϫⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ · ⲁⲩⲱ ⲛϥⲟ ⲙⲙⲉⲧⲟⲭⲟⲥ ⲁⲛ ⲉⲛϣⲁϫⲉ ⲛⲧⲁⲗⲏⲑⲉⲓⲁ · ϣⲁⲣⲉⲡⲉⲧϫⲱⲕ ⲉⲃⲟⲗ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ · ⲉϥϣⲁⲛϫⲱ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ ⲉϩⲣⲁⲓ ⲉϫⲛⲧⲁⲡⲉ ⲙⲡⲣⲱⲙⲉ ⲉⲧⲛⲏⲩ ⲉⲃⲟⲗ ϩⲙⲡⲥⲱⲙⲁ · ⲡⲁⲓ ⲉⲧⲉⲙⲡϥϫⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲉⲛϥⲕⲟⲓⲛⲱⲛⲓ ⲁⲛ ⲉⲛϣⲁϫⲉ ⲛⲧⲁⲗⲏⲑⲉⲓⲁ ·
 1	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	10	mark	_	_
 2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	10	advmod	_	OrigLang=grc
@@ -1992,13 +1992,13 @@
 50	ⲣⲱⲙⲉ	ⲣⲱⲙⲉ	NOUN	N	_	47	nmod	_	_
 51-52	ⲉⲧⲛⲏⲩ	_	_	_	_	_	_	_	_
 51	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	52	mark	_	_
-52	ⲛⲏⲩ	ⲉⲓ	VERB	VSTAT	VerbForm=Fin	50	acl:relcl	_	_
+52	ⲛⲏⲩ	ⲉⲓ	VERB	VSTAT	VerbForm=Fin	47	acl:relcl	_	_
 53	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	56	case	_	_
 54-56	ϩⲙⲡⲥⲱⲙⲁ	_	_	_	_	_	_	_	_
 54	ϩⲙ	ϩⲛ	ADP	PREP	_	53	fixed	_	Orig=ϩⲙ̅
 55	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	Entity=(object
 56	ⲥⲱⲙⲁ	ⲥⲱⲙⲁ	NOUN	N	Foreign=Yes	52	obl	_	Entity=object)|OrigLang=grc
-57	·	·	PUNCT	PUNCT	_	58	punct	_	_
+57	·	·	PUNCT	PUNCT	_	52	punct	_	_
 58	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	50	appos	_	Orig=ⲡⲁⲓ̈
 59-62	ⲉⲧⲉⲙⲡϥϫⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 59	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	62	mark	_	_
@@ -2014,7 +2014,7 @@
 67	ⲉ	ⲉⲣⲉ	PART	CFOC	_	70	mark	_	_
 68	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	70	advmod	_	_
 69	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	70	nsubj	_	Orig=ϥ̅
-70	ⲕⲟⲓⲛⲱⲛⲓ	ⲕⲟⲓⲛⲱⲛⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	62	conj	_	OrigLang=grc
+70	ⲕⲟⲓⲛⲱⲛⲓ	ⲕⲟⲓⲛⲱⲛⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	10	conj	_	OrigLang=grc
 71	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	70	advmod	_	_
 72-74	ⲉⲛϣⲁϫⲉ	_	_	_	_	_	_	_	_
 72	ⲉ	ⲉ	ADP	PREP	_	74	case	_	_
@@ -2027,7 +2027,7 @@
 78	·	·	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0031
-# text_en = ...
+# text_en = --amēn, I say unto you: That man, if he cometh forth out of the body, will be judged in no region of the rulers, nor can he be chastized in any region at all, nor will the fire touch him, because of the great mystery of the Ineffable which is with him.
 # text = ϩⲁⲙⲏⲛ ϯϫⲱ ⲙⲙⲟⲥ ⲉⲣⲱⲧⲛ ϫⲉⲡⲣⲱⲙⲉ ⲉⲧⲙⲙⲁⲩ ⲉϥϣⲁⲛⲉⲓ ⲉⲃⲟⲗ ϩⲙⲡⲥⲱⲙⲁ · ⲙⲉⲩⲕⲣⲓⲛⲉ ⲙⲙⲟϥ ϩⲛⲗⲁⲁⲩ ⲛⲧⲟⲡⲟⲥ ⲛⲧⲉⲛⲁⲣⲭⲱⲛ · ⲟⲩⲇⲉ ⲛⲥⲉⲛⲁϣⲕⲟⲗⲁⲍⲉ ⲙⲙⲟϥ ⲁⲛ ϩⲛⲗⲁⲁⲩ ⲛⲧⲟⲡⲟⲥ · ⲟⲩⲇⲉ ⲙⲡⲕⲱϩⲧ ⲛⲁϫⲱϩ ⲉⲣⲟϥ ⲁⲛ ⲉⲃⲟⲗ ϩⲙⲡⲛⲟϭ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ⲉⲧϣⲟⲟⲡ ⲛⲙⲙⲁϥ ·
 1	ϩⲁⲙⲏⲛ	ϩⲁⲙⲏⲛ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=he
 2-3	ϯϫⲱ	_	_	_	_	_	_	_	_
@@ -2035,7 +2035,7 @@
 3	ϫⲱ	ϫⲱ	VERB	V	VerbForm=Fin	0	root	_	_
 4-5	ⲙⲙⲟⲥ	_	_	_	_	_	_	_	_
 4	ⲙⲙⲟ	ⲛ	ADP	PREP	_	5	case	_	Orig=ⲙ̅ⲙⲟ
-5	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 6-7	ⲉⲣⲱⲧⲛ	_	_	_	_	_	_	_	_
 6	ⲉⲣⲱ	ⲉ	ADP	PREP	_	7	case	_	_
 7	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	3	obl	_	Orig=ⲧⲛ̅
@@ -2051,7 +2051,7 @@
 14	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	22	advcl	_	Orig=ⲉⲓ̅
 15	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	18	case	_	_
 16-18	ϩⲙⲡⲥⲱⲙⲁ	_	_	_	_	_	_	_	_
-16	ϩⲙ	ϩⲛ	ADP	PREP	_	18	case	_	Orig=ϩⲙ̅
+16	ϩⲙ	ϩⲛ	ADP	PREP	_	15	fixed	_	Orig=ϩⲙ̅
 17	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	Entity=(object
 18	ⲥⲱⲙⲁ	ⲥⲱⲙⲁ	NOUN	N	Foreign=Yes	14	obl	_	Entity=object)|OrigLang=grc
 19	·	·	PUNCT	PUNCT	_	14	punct	_	_
@@ -2071,7 +2071,7 @@
 29-31	ⲛⲧⲉⲛⲁⲣⲭⲱⲛ	_	_	_	_	_	_	_	_
 29	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	31	case	_	Orig=ⲛ̅ⲧⲉ
 30	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	31	det	_	Entity=(person
-31	ⲁⲣⲭⲱⲛ	ⲁⲣⲭⲱⲛ	NOUN	N	Foreign=Yes	28	nmod	_	Entity=person)place)abstract)|OrigLang=grc
+31	ⲁⲣⲭⲱⲛ	ⲁⲣⲭⲱⲛ	NOUN	N	Foreign=Yes	26	nmod	_	Entity=person)place)abstract)|OrigLang=grc
 32	·	·	PUNCT	PUNCT	_	38	punct	_	_
 33	ⲟⲩⲇⲉ	ⲟⲩⲇⲉ	CCONJ	CONJ	Foreign=Yes|Polarity=Neg	38	cc	_	OrigLang=grc
 34-38	ⲛⲥⲉⲛⲁϣⲕⲟⲗⲁⲍⲉ	_	_	_	_	_	_	_	_
@@ -2098,7 +2098,7 @@
 50	ⲕⲱϩⲧ	ⲕⲱϩⲧ	NOUN	N	_	52	nsubj	_	Entity=object)|Orig=ⲕⲱϩⲧ̅
 51-52	ⲛⲁϫⲱϩ	_	_	_	_	_	_	_	_
 51	ⲛⲁ	ⲛⲁ	AUX	FUT	_	52	aux	_	_
-52	ϫⲱϩ	ϫⲱϩ	VERB	V	VerbForm=Fin	38	conj	_	_
+52	ϫⲱϩ	ϫⲱϩ	VERB	V	VerbForm=Fin	22	conj	_	_
 53-54	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 53	ⲉⲣⲟ	ⲉ	ADP	PREP	_	54	case	_	_
 54	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	52	obl	_	_
@@ -2127,7 +2127,7 @@
 71	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0032
-# text_en = ...
+# text_en = “And they will hasten quickly and hand him over one to another in turn and lead him from region to region and | from order to order, until they bring him before the Virgin of Light, while all the regions are in fear of the mystery and the sign of the kingdom of the Ineffable which is with him. And if they bring him before the Virgin of Light,”
 # text = ⲁⲩⲱ ⲥⲉⲛⲁⲥⲡⲟⲩⲇⲁⲍⲉ ϩⲛⲟⲩϭⲉⲡⲏ ⲛⲥⲉⲧⲁⲁϥ ⲉⲧⲟⲟⲧⲟⲩ ⲛⲛⲉⲩⲉⲣⲏⲩ ⲛⲥⲉⲣϩⲙⲙⲉ ⲙⲙⲟϥ ⲕⲁⲧⲁⲧⲟⲡⲟⲥ ⲁⲩⲱ ⲕⲁⲧⲁⲧⲁⲝⲓⲥ ϩⲉⲱⲥ ϣⲁⲛⲧⲟⲩϫⲓⲧϥ ⲉⲣⲁⲧⲥ ⲛⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲙⲡⲟⲩⲟⲉⲓⲛ · ⲉⲣⲉⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲟ ⲛϩⲟⲧⲉ ϩⲏⲧϥ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲛⲡⲙⲁⲉⲓⲛ ⲛⲧⲙⲛⲧⲣⲣⲟ ⲙⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ⲡⲁⲓ ⲉⲧϣⲟⲟⲡ ⲛⲙⲙⲁϥ · ⲁⲩⲱ ⲉⲩϣⲁⲛϫⲓⲧⲥ ⲉⲣⲁⲧⲥ ⲛⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲙⲡⲟⲩⲟⲉⲓⲛ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2-4	ⲥⲉⲛⲁⲥⲡⲟⲩⲇⲁⲍⲉ	_	_	_	_	_	_	_	_
@@ -2148,7 +2148,7 @@
 13	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	10	obl	_	_
 14-16	ⲛⲛⲉⲩⲉⲣⲏⲩ	_	_	_	_	_	_	_	_
 14	ⲛ	ⲛ	ADP	PREP	_	16	case	_	Orig=ⲛ̅
-15	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
+15	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
 16	ⲉⲣⲏⲩ	ⲉⲣⲏⲩ	NOUN	N	PronType=Rcp	10	obl	_	_
 17-19	ⲛⲥⲉⲣϩⲙⲙⲉ	_	_	_	_	_	_	_	_
 17	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	19	aux	_	Orig=ⲛ̅
@@ -2160,7 +2160,7 @@
 22-23	ⲕⲁⲧⲁⲧⲟⲡⲟⲥ	_	_	_	_	_	_	_	_
 22	ⲕⲁⲧⲁ	ⲕⲁⲧⲁ	ADP	PREP	Foreign=Yes	23	case	_	OrigLang=grc
 23	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	19	obl	_	Entity=(place)|OrigLang=grc
-24	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	26	cc	_	_
+24	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	27	cc	_	_
 25-26	ⲕⲁⲧⲁⲧⲁⲝⲓⲥ	_	_	_	_	_	_	_	_
 25	ⲕⲁⲧⲁ	ⲕⲁⲧⲁ	ADP	PREP	Foreign=Yes	26	case	_	OrigLang=grc
 26	ⲧⲁⲝⲓⲥ	ⲧⲁⲝⲓⲥ	NOUN	N	Foreign=Yes	23	conj	_	Entity=(abstract)|OrigLang=grc
@@ -2187,15 +2187,15 @@
 42	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	43	det	_	Entity=(place|Orig=ⲛ̅
 43	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	46	nsubj	_	OrigLang=grc
 44-45	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-44	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	43	advmod	_	_
-45	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	44	det	_	Entity=place)
+44	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	43	obl:npmod	_	_
+45	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	44	nmod:poss	_	Entity=place)
 46	ⲟ	ⲉⲓⲣⲉ	VERB	VSTAT	VerbForm=Fin	30	advcl	_	_
 47-48	ⲛϩⲟⲧⲉ	_	_	_	_	_	_	_	_
 47	ⲛ	ⲛ	ADP	PREP	_	48	case	_	Orig=ⲛ̅
 48	ϩⲟⲧⲉ	ϩⲟⲧⲉ	NOUN	N	_	46	obl	_	Entity=(abstract)
 49-50	ϩⲏⲧϥ	_	_	_	_	_	_	_	_
 49	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	46	obl:npmod	_	_
-50	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	49	det	_	Orig=ϥ̅
+50	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	49	nmod:poss	_	Orig=ϥ̅
 51-53	ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 51	ⲙ	ⲛ	ADP	PREP	_	53	case	_	Orig=ⲙ̅
 52	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	Entity=(abstract
@@ -2226,7 +2226,7 @@
 71	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	73	cc	_	_
 72-74	ⲉⲩϣⲁⲛϫⲓⲧⲥ	_	_	_	_	_	_	_	_
 72	ⲉⲩϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟⲟⲩ	PRON	ACOND_PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	73	nsubj	_	_
-73	ϫⲓⲧ	ϫⲓ	VERB	V	VerbForm=Fin	46	conj	_	_
+73	ϫⲓⲧ	ϫⲓ	VERB	V	VerbForm=Fin	65	advcl	_	_
 74	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	73	obj	_	Orig=ⲥ̅
 75-76	ⲉⲣⲁⲧⲥ	_	_	_	_	_	_	_	_
 75	ⲉⲣⲁⲧ	ⲉⲣⲁⲧ	ADP	PREP	_	76	case	_	_
@@ -2242,7 +2242,7 @@
 83	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0033
-# text_en = ...
+# text_en = then the Virgin of Light will see the sign of the mystery of the kingdom of the Ineffable which is with him; the Virgin of Light marvelleth and proveth him,
 # text = ⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲙⲡⲟⲩⲟⲉⲓⲛ ⲛⲁⲛⲁⲩ ⲉⲡⲙⲁⲉⲓⲛ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲙⲛⲧⲣⲣⲟ · ⲙⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ⲉϥϣⲟⲟⲡ ⲛⲙⲙⲁϥ · ϣⲁⲥⲣϣⲡⲏⲣⲉ ⲛϭⲓⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲙⲡⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ϣⲁⲥⲇⲟⲕⲓⲙⲁⲍⲉ ⲙⲙⲟϥ ·
 1-2	ⲧⲡⲁⲣⲑⲉⲛⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(person
@@ -2305,7 +2305,7 @@
 44	·	·	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0034
-# text_en = ...
+# text_en = but suffereth them not to bring him to the Light, until he accomplisheth the total citizenship of the light of that mystery, that is the purities of the renunciation of the world and also of the total matter therein. The Virgin of Light sealeth him with a higher seal, which is this [ . . .? ], and letteth him in that month in which he hath come out of the body of matter, light down into a body which will be righteous and find the godhead in truth and the higher mysteries, so that he may inherit them and inherit the Light eternal, which is the gift of the second mystery of the First Mystery of the Ineffable.
 # text = ⲁⲗⲗⲁ ⲙⲉⲥⲧⲣⲉⲩϫⲓⲧϥ ⲉⲡⲟⲩⲟⲉⲓⲛ ϣⲁⲛⲧϥϫⲱⲕ ⲉⲃⲟⲗ ⲛⲧⲡⲟⲗⲓⲧⲓⲁ ⲧⲏⲣⲥ ⲙⲡⲟⲩⲟⲉⲓⲛ ⲛⲧⲉⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ ⲉⲧⲉⲛⲁⲓ ⲛⲉ ⲛϩⲁⲅⲛⲉⲓⲁ ⲛⲧⲁⲡⲟⲧⲁⲅⲏ ⲙⲡⲕⲟⲥⲙⲟⲥ · ⲁⲩⲱ ⲙⲛⲧϩⲩⲗⲏ ⲧⲏⲣⲥ ⲉⲧⲛϩⲏⲧϥ ϣⲁⲣⲉⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲙⲡⲟⲩⲟⲉⲓⲛ ϣⲁⲥⲫⲣⲁⲅⲓⲍⲉ ⲙⲙⲟϥ ϩⲛⲟⲩⲥⲫⲣⲁⲅⲓⲥ ⲉⲥⲟⲩⲟⲧⲃ ⲉⲧⲉⲧⲁⲓ ⲧⲉ · ⲛⲥⲧⲣⲉⲩⲛⲟϫϥ ϩⲙⲡⲓⲉⲃⲟⲧ ⲡⲓⲉⲃⲟⲧ ⲉⲛⲧⲁϥⲉⲓ ⲉⲃⲟⲗ ϩⲙⲡⲥⲱⲙⲁ ⲛⲧϩⲩⲗⲏ ⲛϩⲏⲧϥ ⲉⲩⲥⲱⲙⲁ ⲉϥⲛⲁⲣⲇⲓⲕⲁⲓⲟⲥ ⲡⲁⲓ ⲉϥⲛⲁϭⲓⲛⲉ ⲛⲧⲙⲛⲧⲛⲟⲩⲧⲉ ⲛⲧⲁⲗⲏⲑⲉⲓⲁ ⲙⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧϫⲟⲥⲉ ⲛϥⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲙⲙⲟⲟⲩ ⲁⲩⲱ ⲛϥⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲙⲡⲟⲩⲟⲉⲓⲛ ⲛϣⲁⲉⲛⲉϩ · ⲉⲧⲉⲧⲁⲓ ⲧⲉ ⲧⲇⲱⲣⲉⲁ ⲙⲡⲙⲉϩⲥⲛⲁⲩ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ·
 1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	4	cc	_	OrigLang=grc
 2-7	ⲙⲉⲥⲧⲣⲉⲩϫⲓⲧϥ	_	_	_	_	_	_	_	_
@@ -2329,8 +2329,8 @@
 16	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Entity=(abstract
 17	ⲡⲟⲗⲓⲧⲓⲁ	ⲡⲟⲗⲓⲧⲓⲁ	NOUN	N	_	13	obj	_	_
 18-19	ⲧⲏⲣⲥ	_	_	_	_	_	_	_	_
-18	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	17	advmod	_	_
-19	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	18	det	_	Orig=ⲥ̅
+18	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	17	obl:npmod	_	_
+19	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	18	nmod:poss	_	Orig=ⲥ̅
 20-22	ⲙⲡⲟⲩⲟⲉⲓⲛ	_	_	_	_	_	_	_	_
 20	ⲙ	ⲛ	ADP	PREP	_	22	case	_	Orig=ⲙ̅
 21	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	Entity=(abstract
@@ -2364,8 +2364,8 @@
 42	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	Entity=(abstract|Orig=ⲑ
 43	ϩⲩⲗⲏ	ϩⲩⲗⲏ	NOUN	N	Foreign=Yes	35	conj	_	Orig=ⲩⲗⲏ|OrigLang=grc
 44-45	ⲧⲏⲣⲥ	_	_	_	_	_	_	_	_
-44	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	43	advmod	_	_
-45	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	44	det	_	Orig=ⲥ̅
+44	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	43	obl:npmod	_	_
+45	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	44	nmod:poss	_	Orig=ⲥ̅
 46-48	ⲉⲧⲛϩⲏⲧϥ	_	_	_	_	_	_	_	_
 46	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	48	mark	_	_
 47	ⲛϩⲏⲧ	ϩⲛ	ADP	PREP	_	48	case	_	Orig=ⲛ̅ϩⲏⲧ
@@ -2432,7 +2432,7 @@
 94-96	ⲉⲩⲥⲱⲙⲁ	_	_	_	_	_	_	_	_
 94	ⲉ	ⲉ	ADP	PREP	_	96	case	_	_
 95	ⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	96	det	_	Entity=(object
-96	ⲥⲱⲙⲁ	ⲥⲱⲙⲁ	NOUN	N	Foreign=Yes	84	obl	_	Entity=object)object)time)|OrigLang=grc
+96	ⲥⲱⲙⲁ	ⲥⲱⲙⲁ	NOUN	N	Foreign=Yes	105	obl	_	Entity=object)object)time)|OrigLang=grc
 97-100	ⲉϥⲛⲁⲣⲇⲓⲕⲁⲓⲟⲥ	_	_	_	_	_	_	_	_
 97	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	100	mark	_	_
 98	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	100	nsubj	_	_
@@ -2462,7 +2462,7 @@
 117-119	ⲛϥⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ	_	_	_	_	_	_	_	_
 117	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	119	aux	_	_
 118	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	119	nsubj	_	Orig=ϥ̅
-119	ⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ	ⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	84	advcl	_	Orig=ⲕⲗⲏⲣⲟⲛⲟⲙⲓ|OrigLang=grc
+119	ⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ	ⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	100	advcl	_	Orig=ⲕⲗⲏⲣⲟⲛⲟⲙⲓ|OrigLang=grc
 120-121	ⲙⲙⲟⲟⲩ	_	_	_	_	_	_	_	_
 120	ⲙⲙⲟ	ⲛ	ADP	PREP	_	121	case	_	Orig=ⲙ̅ⲙⲟ
 121	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	119	obj	_	_
@@ -2500,25 +2500,25 @@
 145	ϣⲟⲣⲡ	ϣⲟⲣⲡ	NOUN	N	_	137	nmod	_	Orig=ϣⲟⲣⲡ̅
 146-147	ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 146	ⲙ	ⲛ	ADP	PREP	_	147	case	_	Orig=ⲙ̅
-147	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	140	nmod	_	Entity=(abstract)|OrigLang=grc
+147	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	145	nmod	_	Entity=(abstract)|OrigLang=grc
 148-150	ⲛⲧⲉⲡⲓⲁⲧϣⲁϫⲉ	_	_	_	_	_	_	_	_
 148	ⲛⲧⲉ	ⲛⲧⲉ	AUX	ACONJ	_	150	case	_	Orig=ⲛ̅ⲧⲉ
 149	ⲡⲓ	ⲡⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	150	det	_	Entity=(abstract
 150	ⲁⲧϣⲁϫⲉ	ⲁⲧϣⲁϫⲉ	NOUN	N	_	145	nmod	_	Morphs=ⲁⲧ-ϣⲁϫⲉ
 151-152	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 151	ⲉⲣⲟ	ⲉ	ADP	PREP	_	152	case	_	_
-152	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	150	nmod	_	Entity=abstract)abstract)time)abstract)
+152	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	147	nmod	_	Entity=abstract)abstract)time)abstract)
 153	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0035
-# text_en = ...
+# text_en = “The third mystery of that Ineffable on the other hand,”
 # text = ⲡⲙⲉϩϣⲟⲙⲛⲧ ϩⲱⲱϥ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ⲉⲧⲙⲙⲁⲩ ·
 1-2	ⲡⲙⲉϩϣⲟⲙⲛⲧ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(person
 2	ⲙⲉϩϣⲟⲙⲛⲧ	ⲙⲉϩϣⲟⲙⲛⲧ	NOUN	N	_	0	root	_	Morphs=ⲙⲉϩ-ϣⲟⲙⲛⲧ|Orig=ⲙⲉϩϣⲟⲙⲛ̅ⲧ
 3-4	ϩⲱⲱϥ	_	_	_	_	_	_	_	_
-3	ϩⲱⲱ	ϩⲱⲱ	ADV	IMOD	_	2	advmod	_	_
-4	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	3	det	_	_
+3	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	2	obl:npmod	_	_
+4	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 5-6	ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 5	ⲙ	ⲛ	ADP	PREP	_	6	case	_	Orig=ⲙ̅
 6	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	2	nmod	_	Entity=(abstract)|OrigLang=grc
@@ -2528,14 +2528,14 @@
 9	ⲁⲧϣⲁϫⲉ	ⲁⲧϣⲁϫⲉ	NOUN	N	_	2	nmod	_	Morphs=ⲁⲧ-ϣⲁϫⲉ
 10-11	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 10	ⲉⲣⲟ	ⲉ	ADP	PREP	_	11	case	_	_
-11	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nmod	_	_
+11	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
 12-13	ⲉⲧⲙⲙⲁⲩ	_	_	_	_	_	_	_	_
 12	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	13	mark	_	_
-13	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	9	acl:relcl	_	Entity=abstract)person)|Orig=ⲙ̅ⲙⲁⲩ
+13	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	11	acl:relcl	_	Entity=abstract)person)|Orig=ⲙ̅ⲙⲁⲩ
 14	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0036
-# text_en = ...
+# text_en = --the man indeed who shall accomplish that mystery,
 # text = ⲡⲣⲱⲙⲉ ⲙⲉⲛ ⲉⲧⲛⲁϫⲱⲕ ⲉⲃⲟⲗ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ .
 1-2	ⲡⲣⲱⲙⲉ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(person
@@ -2556,7 +2556,7 @@
 13	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0037
-# text_en = ...
+# text_en = not only if he [himself] cometh forth out of the body, will he inherit the kingdom of the mystery, but if he complete that mystery and accomplish it with | all its figures, that is if he go through with that mystery and accomplish it finely and pronounce the name of that mystery over a man who cometh forth out of the body and hath known that mystery,--let the former have delayed or rather not have delayed,--one who is in the dire chastisements of the rulers and in their dire judgments and their manifold fires,
 # text = ⲟⲩ ⲙⲟⲛⲟⲛ ϫⲉⲉϥϣⲁⲛⲉⲓ ⲉⲃⲟⲗ ϩⲙⲡⲥⲱⲙⲁ ⲉϥⲛⲁⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲛⲧⲙⲛⲧⲣⲟ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ · ⲁⲗⲗⲁ ⲉϥϣⲁⲛⲧⲁⲙⲓⲟ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛϥϫⲟⲕϥ ⲉⲃⲟⲗ ⲙⲛⲛⲉϥⲥⲭⲏⲙⲁ ⲧⲏⲣⲟⲩ ⲉⲧⲉⲡⲁⲓ ⲡⲉ ϫⲉⲉϥϣⲁⲛⲉⲓⲣⲉ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ ⲛϥϫⲟⲕϥ ⲉⲃⲟⲗ ⲕⲁⲗⲱⲥ · ⲁⲩⲱ ⲛϥⲟⲛⲟⲙⲁⲍⲉ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ ⲉϫⲛⲟⲩⲣⲱⲙⲉ ⲉϥⲛⲏⲩ ⲉⲃⲟⲗ ϩⲙⲡⲥⲱⲙⲁ ⲉⲁϥⲥⲟⲩⲛⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ · ⲡⲁⲓ ⲉⲁϥⲱⲥⲕ ⲏ ⲙⲙⲟⲛ ⲛⲧⲟϥ ⲙⲡϥⲱⲥⲕ · ⲡⲁⲓ ⲉⲧϣⲟⲟⲡ' ϩⲛⲛⲕⲟⲗⲁⲥⲓⲥ ⲉⲧⲛⲁϣⲧ ⲛⲧⲉⲛⲁⲣⲭⲱⲛ · ⲁⲩⲱ ⲙⲛⲛⲉⲩⲕⲣⲓⲥⲓⲥ ⲉⲧⲛⲁϣⲧ ⲙⲛⲛⲉⲩⲕⲱϩⲧ ⲉⲩϣⲟⲃⲉ ·
 1	ⲟⲩ	ⲟⲩ	ADV	PINT	PronType=Int	5	advmod	_	_
 2	ⲙⲟⲛⲟⲛ	ⲙⲟⲛⲟⲛ	X	FM	Foreign=Yes	1	fixed	_	OrigLang=grc
@@ -2599,11 +2599,11 @@
 31	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	29	advmod	_	_
 32-34	ⲙⲛⲛⲉϥⲥⲭⲏⲙⲁ	_	_	_	_	_	_	_	_
 32	ⲙⲛ	ⲙⲛ	ADP	PREP	_	34	case	_	Orig=ⲙⲛ̅
-33	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	34	det	_	Entity=(abstract
+33	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	Entity=(abstract
 34	ⲥⲭⲏⲙⲁ	ⲥⲭⲏⲙⲁ	NOUN	N	Foreign=Yes	29	obl	_	OrigLang=grc
 35-36	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-35	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	34	advmod	_	_
-36	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	35	det	_	Entity=abstract)
+35	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	34	obl:npmod	_	_
+36	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	35	nmod:poss	_	Entity=abstract)
 37-38	ⲉⲧⲉⲡⲁⲓ	_	_	_	_	_	_	_	_
 37	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	38	mark	_	_
 38	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	34	acl:relcl	_	Entity=(abstract)|Orig=ⲡⲁⲓ̈
@@ -2622,7 +2622,7 @@
 48-51	ⲛϥϫⲟⲕϥ	_	_	_	_	_	_	_	_
 48	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	50	aux	_	_
 49	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	nsubj	_	Orig=ϥ̅
-50	ϫⲟⲕ	ϫⲱⲕ	VERB	V	VerbForm=Fin	42	advcl	_	_
+50	ϫⲟⲕ	ϫⲱⲕ	VERB	V	VerbForm=Fin	77	advcl	_	_
 51	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	obj	_	Orig=ϥ̅
 52	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	50	advmod	_	_
 53	ⲕⲁⲗⲱⲥ	ⲕⲁⲗⲱⲥ	ADV	ADV	Foreign=Yes	50	advmod	_	OrigLang=grc
@@ -2662,7 +2662,7 @@
 80-81	ⲉⲧⲙⲙⲁⲩ	_	_	_	_	_	_	_	_
 80	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	81	mark	_	_
 81	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	79	acl:relcl	_	Entity=abstract)|Orig=ⲙ̅ⲙⲁⲩ
-82	·	·	PUNCT	PUNCT	_	83	punct	_	_
+82	·	·	PUNCT	PUNCT	_	77	punct	_	_
 83	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	34	appos	_	Orig=ⲡⲁⲓ̈
 84-87	ⲉⲁϥⲱⲥⲕ	_	_	_	_	_	_	_	_
 84	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	87	mark	_	_
@@ -2696,14 +2696,14 @@
 107	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	110	cc	_	_
 108-110	ⲙⲛⲛⲉⲩⲕⲣⲓⲥⲓⲥ	_	_	_	_	_	_	_	_
 108	ⲙⲛ	ⲙⲛ	ADP	PREP	_	110	cc	_	Orig=ⲙⲛ̅
-109	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	110	det	_	Entity=(abstract
+109	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	110	nmod:poss	_	Entity=(abstract
 110	ⲕⲣⲓⲥⲓⲥ	ⲕⲣⲓⲥⲓⲥ	NOUN	N	Foreign=Yes	105	conj	_	OrigLang=grc
 111-112	ⲉⲧⲛⲁϣⲧ	_	_	_	_	_	_	_	_
 111	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	112	mark	_	_
 112	ⲛⲁϣⲧ	ⲛϣⲟⲧ	VERB	VSTAT	VerbForm=Fin	110	acl:relcl	_	Orig=ⲛⲁϣⲧ̅
 113-115	ⲙⲛⲛⲉⲩⲕⲱϩⲧ	_	_	_	_	_	_	_	_
 113	ⲙⲛ	ⲙⲛ	ADP	PREP	_	115	cc	_	Orig=ⲙⲛ̅
-114	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	115	det	_	Entity=(object
+114	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	115	nmod:poss	_	Entity=(object
 115	ⲕⲱϩⲧ	ⲕⲱϩⲧ	NOUN	N	_	112	obl	_	Orig=ⲕⲱϩⲧ̅
 116-118	ⲉⲩϣⲟⲃⲉ	_	_	_	_	_	_	_	_
 116	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	118	mark	_	_
@@ -2712,7 +2712,7 @@
 119	·	·	PUNCT	PUNCT	_	13	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0038
-# text_en = ...
+# text_en = --amēn, I say unto you: The man who hath come forth out of the body,--if the name of this mystery is pronounced on his behalf, they will hasten quickly to bring him over
 # text = ϩⲁⲙⲏⲛ ϯϫⲱ ⲙⲙⲟⲥ ⲛⲏⲧⲛ ϫⲉⲡⲣⲱⲙⲉ ⲉⲛⲧⲁϥⲉⲓ ⲉⲃⲟⲗ ϩⲙⲡⲥⲱⲙⲁ ⲉⲩϣⲁⲛⲟⲛⲟⲙⲁⲍⲉ ⲙⲡⲉⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲃⲏⲏⲧϥ · ⲥⲉⲛⲁⲥⲡⲟⲩⲇⲁⲍⲉ ⲧⲁⲭⲩ ⲛⲥⲉⲡⲟⲟⲛⲉϥ ⲉⲃⲟⲗ ·
 1	ϩⲁⲙⲏⲛ	ϩⲁⲙⲏⲛ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=he
 2-3	ϯϫⲱ	_	_	_	_	_	_	_	_
@@ -2720,7 +2720,7 @@
 3	ϫⲱ	ϫⲱ	VERB	V	VerbForm=Fin	0	root	_	_
 4-5	ⲙⲙⲟⲥ	_	_	_	_	_	_	_	_
 4	ⲙⲙⲟ	ⲛ	ADP	PREP	_	5	case	_	Orig=ⲙ̅ⲙⲟ
-5	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 6-7	ⲛⲏⲧⲛ	_	_	_	_	_	_	_	_
 6	ⲛⲏ	ⲛⲁ	ADP	PREP	_	7	case	_	_
 7	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	3	obl	_	Orig=ⲧⲛ̅
@@ -2735,7 +2735,7 @@
 14	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	10	acl:relcl	_	_
 15	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	18	case	_	_
 16-18	ϩⲙⲡⲥⲱⲙⲁ	_	_	_	_	_	_	_	_
-16	ϩⲙ	ϩⲛ	ADP	PREP	_	18	case	_	Orig=ϩⲙ̅
+16	ϩⲙ	ϩⲛ	ADP	PREP	_	15	fixed	_	Orig=ϩⲙ̅
 17	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	Entity=(object
 18	ⲥⲱⲙⲁ	ⲥⲱⲙⲁ	NOUN	N	Foreign=Yes	14	obl	_	Entity=object)person)|OrigLang=grc
 19-20	ⲉⲩϣⲁⲛⲟⲛⲟⲙⲁⲍⲉ	_	_	_	_	_	_	_	_
@@ -2763,7 +2763,7 @@
 36	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0039
-# text_en = ...
+# text_en = and hand him over one to another, until they bring him before the Virgin of Light. And the Virgin of Light will seal him with a higher. seal, which is this [ . . .?], and in that month will she let him light down into the righteous body which will find the godhead in truth and the higher mystery, so that he inherit the Light-kingdom.
 # text = ⲛⲥⲉⲧⲁⲁϥ ⲉⲧⲟⲟⲧⲟⲩ ⲛⲛⲉⲩⲉⲣⲏⲩ ϩⲉⲱⲥ ϣⲁⲛⲧⲟⲩϫⲓⲧϥ ⲉⲣⲁⲧⲥ ⲛⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲙⲡⲟⲩⲟⲉⲓⲛ ⲁⲩⲱ ⲧⲡⲁⲣⲑⲉⲛⲟⲥ ⲙⲡⲟⲩⲟⲉⲓⲛ ⲛⲁⲥⲫⲣⲁⲅⲓⲍⲉ ⲙⲙⲟϥ ϩⲛⲟⲩⲥⲫⲣⲁⲅⲓⲥ ⲉⲥⲟⲩⲟⲧⲃ ⲉⲧⲉⲧⲁⲓ ⲧⲉ · ⲁⲩⲱ ϩⲙⲡⲓⲉⲃⲟⲧ ⲡⲓⲉⲃⲟⲧ ⲥⲛⲁⲧⲣⲉⲩⲛⲟϫϥ ⲉⲡⲥⲱⲙⲁ ⲛⲇⲓⲕⲁⲓⲟⲥ ⲡⲁⲓ ⲉⲧⲛⲁϭⲓⲛⲉ ⲛⲧⲙⲛⲧⲛⲟⲩⲧⲉ ⲛⲧⲁⲗⲏⲑⲉⲓⲁ ⲙⲛⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲟⲩⲟⲧⲃ ⲛϥⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲛⲧⲙⲛⲧⲣⲣⲟ ⲙⲡⲟⲩⲟⲉⲓⲛ ·
 1-4	ⲛⲥⲉⲧⲁⲁϥ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	3	aux	_	Orig=ⲛ̅
@@ -2775,7 +2775,7 @@
 6	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	obl	_	_
 7-9	ⲛⲛⲉⲩⲉⲣⲏⲩ	_	_	_	_	_	_	_	_
 7	ⲛ	ⲛ	ADP	PREP	_	9	case	_	Orig=ⲛ̅
-8	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+8	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
 9	ⲉⲣⲏⲩ	ⲉⲣⲏⲩ	NOUN	N	PronType=Rcp	3	obl	_	_
 10	ϩⲉⲱⲥ	ϩⲉⲱⲥ	VERB	V	Foreign=Yes|VerbForm=Fin	3	advmod	_	OrigLang=grc
 11-14	ϣⲁⲛⲧⲟⲩϫⲓⲧϥ	_	_	_	_	_	_	_	_
@@ -2878,7 +2878,7 @@
 84	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0040
-# text_en = ...
+# text_en = This, therefore, is the gift of the third mystery of the Ineffable.
 # text = ⲧⲁⲓ ϭⲉ ⲟⲩⲛ ⲧⲉ ⲧⲇⲱⲣⲉⲁ ⲙⲡⲙⲉϩϣⲟⲙⲛⲧ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ·
 1	ⲧⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	0	root	_	Entity=(abstract
 2	ϭⲉ	ϭⲉ	PART	PTC	_	1	advmod	_	_
@@ -2904,9 +2904,9 @@
 17	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0041
-# text_en = ...
+# text_en = “Now, therefore, every one who shall receive one of the five mysteries of the Ineffable,”
 # text = ⲧⲉⲛⲟⲩ ϭⲉ ⲟⲩⲟⲛ ⲛⲓⲙ ⲡⲉⲧⲛⲁϫⲓ ⲉⲃⲟⲗ ϩⲙⲡϯⲟⲩ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ·
-1	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	4	advmod	_	_
+1	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	3	advmod	_	_
 2	ϭⲉ	ϭⲉ	PART	PTC	_	3	advmod	_	_
 3	ⲟⲩⲟⲛ	ⲟⲩⲟⲛ	NOUN	N	_	0	root	_	Entity=(person
 4	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	3	det	_	Entity=person)
@@ -2915,11 +2915,11 @@
 6	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	8	mark	_	_
 7	ⲛⲁ	ⲛⲁ	AUX	FUT	_	8	aux	_	_
 8	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	3	acl:relcl	_	_
-9	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	12	case	_	_
+9	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	14	case	_	_
 10-12	ϩⲙⲡϯⲟⲩ	_	_	_	_	_	_	_	_
 10	ϩⲙ	ϩⲛ	ADP	PREP	_	9	fixed	_	Orig=ϩⲙ̅
 11	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	Entity=(object|Orig=ⲡ̅
-12	ϯⲟⲩ	ϯⲟⲩ	NUM	NUM	NumType=Card	8	obl	_	Entity=object)
+12	ϯⲟⲩ	ϯⲟⲩ	NUM	NUM	NumType=Card	14	nummod	_	Entity=object)
 13-14	ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 13	ⲙ	ⲛ	ADP	PREP	_	14	case	_	Orig=ⲙ̅
 14	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	8	obl	_	Entity=(abstract|OrigLang=grc
@@ -2933,7 +2933,7 @@
 20	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0042
-# text_en = ...
+# text_en = --if he cometh forth out of the body and inheriteth up to the region of that mystery,
 # text = ⲡⲁⲓ ⲉϥϣⲁⲛⲉⲓ ⲉⲃⲟⲗ ϩⲙⲡⲥⲱⲙⲁ ⲛϥⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ϣⲁⲡⲧⲟⲡⲟⲥ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ ⁛
 1	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	10	dislocated	_	Entity=(person)|Orig=ⲡⲁⲓ̈
 2-3	ⲉϥϣⲁⲛⲉⲓ	_	_	_	_	_	_	_	_
@@ -2962,7 +2962,7 @@
 19	⁛	⁛	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0043
-# text_en = ...
+# text_en = then is the kingdom of those five mysteries higher than the kingdom of the twelve mysteries of the First Mystery, and it is higher than all the mysteries | which are below them. But those five mysteries of the Ineffable are alike with one another in their kingdom,
 # text = ⲥⲟⲩⲟⲧⲃ ⲉⲧⲙⲛⲧⲣⲣⲟ ⲙⲡⲓⲙⲛⲧⲥⲛⲟⲟⲩⲥ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲁⲩⲱ ϥⲟⲩⲟⲧⲃ ⲉⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲓⲙ ⲉⲧⲡⲉⲩⲉⲥⲏⲧ · ⲁⲗⲗⲁ ⲡϯⲟⲩ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ ⲛⲧⲉⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ · ⲥⲉϣⲏϣ ⲙⲛⲛⲉⲩⲉⲣⲏⲩ ϩⲣⲁⲓ ϩⲛⲧⲉⲩⲙⲛⲧⲣⲣⲟ ·
 1-2	ⲥⲟⲩⲟⲧⲃ	_	_	_	_	_	_	_	_
 1	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -2995,7 +2995,7 @@
 21	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	20	det	_	_
 22-24	ⲉⲧⲡⲉⲩⲉⲥⲏⲧ	_	_	_	_	_	_	_	_
 22	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	24	mark	_	_
-23	ⲡⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	24	det	_	Entity=(place
+23	ⲡⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	Entity=(place
 24	ⲉⲥⲏⲧ	ⲉⲥⲏⲧ	NOUN	N	_	20	acl:relcl	_	Entity=place)abstract)
 25	·	·	PUNCT	PUNCT	_	28	punct	_	_
 26	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	28	cc	_	OrigLang=grc
@@ -3021,17 +3021,17 @@
 40	ϣⲏϣ	ϣⲱϣ	VERB	VSTAT	VerbForm=Fin	2	parataxis	_	_
 41-43	ⲙⲛⲛⲉⲩⲉⲣⲏⲩ	_	_	_	_	_	_	_	_
 41	ⲙⲛ	ⲙⲛ	ADP	PREP	_	43	case	_	Orig=ⲙⲛ̅
-42	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	43	det	_	_
+42	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	43	nmod:poss	_	_
 43	ⲉⲣⲏⲩ	ⲉⲣⲏⲩ	NOUN	N	PronType=Rcp	40	obl	_	_
 44	ϩⲣⲁⲓ	ϩⲣⲁⲓ	ADV	ADV	_	40	advmod	_	Orig=ϩⲣⲁⲓ̈
 45-47	ϩⲛⲧⲉⲩⲙⲛⲧⲣⲣⲟ	_	_	_	_	_	_	_	_
 45	ϩⲛ	ϩⲛ	ADP	PREP	_	47	case	_	Orig=ϩⲛ̅
-46	ⲧⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	47	det	_	Entity=(abstract
+46	ⲧⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	47	nmod:poss	_	Entity=(abstract
 47	ⲙⲛⲧⲣⲣⲟ	ⲙⲛⲧⲣⲣⲟ	NOUN	N	_	40	obl	_	Entity=abstract)|Morphs=ⲙⲛⲧ-ⲉⲣⲟ|Orig=ⲙⲛ̅ⲧⲉⲣⲟ
 48	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0044
-# text_en = ...
+# text_en = “yet are they not alike with the three mysteries of the Ineffable. He on the other hand who receiveth of the three mysteries of the Ineffable,”
 # text = ⲁⲗⲗⲁ ⲛⲥⲉϣⲏϣ ⲁⲛ ⲙⲛⲡϣⲟⲙⲛⲧ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ · ⲡⲉⲧϫⲓ ϩⲱⲱϥ ⲉⲃⲟⲗ ϩⲙⲡϣⲟⲙⲛⲧ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ·
 1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	4	cc	_	OrigLang=grc
 2-4	ⲛⲥⲉϣⲏϣ	_	_	_	_	_	_	_	_
@@ -3059,8 +3059,8 @@
 18	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	19	mark	_	_
 19	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	17	acl:relcl	_	_
 20-21	ϩⲱⲱϥ	_	_	_	_	_	_	_	_
-20	ϩⲱⲱ	ϩⲱⲱ	ADV	IMOD	_	19	advmod	_	_
-21	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	20	det	_	_
+20	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	19	obl:npmod	_	_
+21	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
 22	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	27	case	_	_
 23-25	ϩⲙⲡϣⲟⲙⲛⲧ	_	_	_	_	_	_	_	_
 23	ϩⲙ	ϩⲛ	ADP	PREP	_	22	fixed	_	Orig=ϩⲙ̅
@@ -3079,7 +3079,7 @@
 33	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0045
-# text_en = ...
+# text_en = if he cometh forth out of the body, will inherit up to the kingdom of that mystery. And those three mysteries are alike with one another in the kingdom and they are higher and more exalted than the five mysteries of the Ineffable in the kingdom,
 # text = ⲉϥϣⲁⲛⲉⲓ ⲟⲛ ⲉⲃⲟⲗ ϩⲛⲥⲱⲙⲁ ϥⲛⲁⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ϣⲁⲧⲙⲛⲧⲣⲣⲟ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ · ⲁⲩⲱ ⲡϣⲟⲙⲛⲧ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ ⲥⲉϣⲏϣ ⲙⲛⲛⲉⲩⲉⲣⲏⲩ ϩⲣⲁⲓ ϩⲛⲧⲙⲛⲧⲣⲣⲟ · ⲁⲩⲱ ⲥⲉⲟⲩⲟⲧⲃ ⲁⲩⲱ ⲥⲉϫⲟⲥⲉ ⲉⲡϯⲟⲩ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ · ⲛⲧⲉⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ϩⲣⲁⲓ ϩⲛⲧⲙⲛⲧⲣⲣⲟ ·
 1-2	ⲉϥϣⲁⲛⲉⲓ	_	_	_	_	_	_	_	_
 1	ⲉϥϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟϥ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -3105,7 +3105,7 @@
 16	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	17	mark	_	_
 17	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	15	acl:relcl	_	Entity=abstract)abstract)|Orig=ⲙ̅ⲙⲁⲩ
 18	·	·	PUNCT	PUNCT	_	27	punct	_	_
-19	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	23	cc	_	_
+19	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	27	cc	_	_
 20-21	ⲡϣⲟⲙⲛⲧ	_	_	_	_	_	_	_	_
 20	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	Entity=(abstract
 21	ϣⲟⲙⲛⲧ	ϣⲟⲙⲛⲧ	NUM	NUM	NumType=Card	23	nummod	_	Orig=ϣⲟⲙ̅ⲛ̅ⲧ̅
@@ -3120,7 +3120,7 @@
 27	ϣⲏϣ	ϣⲱϣ	VERB	VSTAT	VerbForm=Fin	9	conj	_	_
 28-30	ⲙⲛⲛⲉⲩⲉⲣⲏⲩ	_	_	_	_	_	_	_	_
 28	ⲙⲛ	ⲙⲛ	ADP	PREP	_	30	case	_	Orig=ⲙⲛ̅
-29	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	30	det	_	_
+29	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
 30	ⲉⲣⲏⲩ	ⲉⲣⲏⲩ	NOUN	N	PronType=Rcp	27	obl	_	_
 31	ϩⲣⲁⲓ	ϩⲣⲁⲓ	ADV	ADV	_	27	advmod	_	Orig=ϩⲣⲁⲓ̈
 32-34	ϩⲛⲧⲙⲛⲧⲣⲣⲟ	_	_	_	_	_	_	_	_
@@ -3159,7 +3159,7 @@
 57	·	·	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0046
-# text_en = ...
+# text_en = but they are not alike with the one and only mystery of the Ineffable.
 # text = ⲁⲗⲗⲁ ⲛⲥⲉϣⲏϣ ⲁⲛ ⲙⲛⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲟⲩⲱⲧ ⲛⲧⲉⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ·
 1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	4	cc	_	OrigLang=grc
 2-4	ⲛⲥⲉϣⲏϣ	_	_	_	_	_	_	_	_
@@ -3180,19 +3180,19 @@
 13	ⲁⲧϣⲁϫⲉ	ⲁⲧϣⲁϫⲉ	NOUN	N	_	8	nmod	_	Morphs=ⲁⲧ-ϣⲁϫⲉ
 14-15	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 14	ⲉⲣⲟ	ⲉ	ADP	PREP	_	15	case	_	_
-15	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nmod	_	Entity=abstract)abstract)
+15	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nmod	_	Entity=abstract)abstract)
 16	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0047
-# text_en = ...
+# text_en = “He on the other hand who receiveth the one and only mystery of the Ineffable, will inherit the region of the whole kingdom according to its whole glory, as I have already told you at another time.”
 # text = ⲡⲉⲧϫⲓ ϩⲱⲱϥ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲟⲩⲱⲧ ⲛⲧⲉⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ · ϥⲛⲁⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲙⲡⲧⲟⲡⲟⲥ ⲛⲧⲙⲛⲧⲣⲣⲟ ⲧⲏⲣⲥ ⲕⲁⲧⲁⲧϩⲉ ⲛⲧⲁⲓⲟⲩⲱ ⲉⲓϫⲱ ⲉⲣⲱⲧⲛ ⲙⲡⲉϥⲉⲟⲟⲩ ⲧⲏⲣϥ ⲛⲕⲉⲥⲟⲡ ·
 1-3	ⲡⲉⲧϫⲓ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	dislocated	_	Entity=(person
 2	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	3	mark	_	_
 3	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	1	acl:relcl	_	_
 4-5	ϩⲱⲱϥ	_	_	_	_	_	_	_	_
-4	ϩⲱⲱ	ϩⲱⲱ	ADV	IMOD	_	3	advmod	_	_
-5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	det	_	_
+4	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	3	obl:npmod	_	_
+5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 6-8	ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 6	ⲙ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲙ̅
 7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	Entity=(abstract
@@ -3221,8 +3221,8 @@
 24	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	Entity=(place
 25	ⲙⲛⲧⲣⲣⲟ	ⲙⲛⲧⲣⲣⲟ	NOUN	N	_	22	nmod	_	Morphs=ⲙⲛⲧ-ⲉⲣⲟ|Orig=ⲙⲛ̅ⲧⲉⲣⲟ
 26-27	ⲧⲏⲣⲥ	_	_	_	_	_	_	_	_
-26	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	25	advmod	_	_
-27	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	26	det	_	Entity=place)place)|Orig=ⲥ̅
+26	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	25	obl:npmod	_	_
+27	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	26	nmod:poss	_	Entity=place)place)|Orig=ⲥ̅
 28-30	ⲕⲁⲧⲁⲧϩⲉ	_	_	_	_	_	_	_	_
 28	ⲕⲁⲧⲁ	ⲕⲁⲧⲁ	ADP	PREP	Foreign=Yes	30	case	_	OrigLang=grc
 29	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	Orig=ⲑ
@@ -3241,11 +3241,11 @@
 39	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	37	obl	_	Orig=ⲧⲛ̅
 40-42	ⲙⲡⲉϥⲉⲟⲟⲩ	_	_	_	_	_	_	_	_
 40	ⲙ	ⲛ	ADP	PREP	_	42	case	_	Orig=ⲙ̅
-41	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	42	det	_	Entity=(abstract
+41	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	_	Entity=(abstract
 42	ⲉⲟⲟⲩ	ⲉⲟⲟⲩ	NOUN	N	_	37	obj	_	_
 43-44	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-43	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	42	advmod	_	_
-44	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	43	det	_	Orig=ϥ̅
+43	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	42	obl:npmod	_	_
+44	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	43	nmod:poss	_	Orig=ϥ̅
 45-47	ⲛⲕⲉⲥⲟⲡ	_	_	_	_	_	_	_	_
 45	ⲛ	ⲛ	ADP	PREP	_	47	case	_	Orig=ⲛ̅
 46	ⲕⲉ	ⲕⲉ	DET	ART	PronType=Art	47	det	_	Entity=(time
@@ -3253,10 +3253,10 @@
 48	·	·	PUNCT	PUNCT	_	19	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0048
-# text_en = ...
+# text_en = And every one who shall receive the mystery which is in the space of the universe of the Ineffable, and all the other mysteries which are united in the Limbs of the Ineffable, concerning which I have not yet spoken unto you, and concerning their expansion and the manner of their setting-up and the type of every one, how it is and wherefor it is named the Ineffable
 # text = ⲁⲩⲱ ⲟⲩⲟⲛ ⲛⲓⲙ ⲉⲧⲛⲁϫⲓ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧϩⲛⲡⲉⲭⲱⲣⲏⲙⲁ ⲙⲡⲧⲏⲣϥ ⲙⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ · ⲙⲛⲛⲕⲉⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲧⲏⲣⲟⲩ ⲉⲧϩⲟⲗϭ ϩⲛⲙⲙⲉⲗⲟⲥ ⲙⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ · ⲛⲁⲓ ⲉⲧⲉⲙⲡⲁⲧϯϣⲁϫⲉ ⲛⲙⲙⲏⲧⲛ ⲉⲧⲃⲏⲏⲧⲟⲩ ⲙⲛⲡⲉⲩⲥⲱⲣ ⲉⲃⲟⲗ ⲙⲛⲧϩⲉ ⲉⲧⲟⲩⲁϩⲉⲣⲁⲧⲟⲩ ⲙⲙⲟⲥ ⲁⲩⲱ ⲙⲛⲡⲧⲩⲡⲟⲥ ⲙⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛⲧϩⲉ ⲉⲧϥⲟ ⲙⲙⲟⲥ ⲁⲩⲱ ϫⲉⲉⲧⲃⲉⲟⲩ ⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	87	cc	_	_
-2	ⲟⲩⲟⲛ	ⲟⲩⲟⲛ	NOUN	N	_	87	dislocated	_	Entity=(person
+2	ⲟⲩⲟⲛ	ⲟⲩⲟⲛ	NOUN	N	_	0	root	_	Entity=(person
 3	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	2	det	_	_
 4-6	ⲉⲧⲛⲁϫⲓ	_	_	_	_	_	_	_	_
 4	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	6	mark	_	_
@@ -3274,27 +3274,27 @@
 14-16	ⲙⲡⲧⲏⲣϥ	_	_	_	_	_	_	_	_
 14	ⲙ	ⲛ	ADP	PREP	_	16	case	_	Orig=ⲙ̅
 15	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	Entity=(abstract
-16	ⲧⲏⲣϥ	ⲧⲏⲣϥ	NOUN	N	_	13	obl	_	Entity=abstract)|Morphs=ⲧⲏⲣ-ϥ|Orig=ⲧⲏⲣϥ̅
+16	ⲧⲏⲣϥ	ⲧⲏⲣϥ	NOUN	N	_	13	nmod	_	Entity=abstract)|Morphs=ⲧⲏⲣ-ϥ|Orig=ⲧⲏⲣϥ̅
 17-19	ⲙⲡⲓⲁⲧϣⲁϫⲉ	_	_	_	_	_	_	_	_
 17	ⲙ	ⲛ	ADP	PREP	_	19	case	_	Orig=ⲙ̅
 18	ⲡⲓ	ⲡⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	Entity=(abstract
 19	ⲁⲧϣⲁϫⲉ	ⲁⲧϣⲁϫⲉ	NOUN	N	_	16	nmod	_	Morphs=ⲁⲧ-ϣⲁϫⲉ
 20-21	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 20	ⲉⲣⲟ	ⲉ	ADP	PREP	_	21	case	_	_
-21	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nmod	_	_
+21	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
 22	·	·	PUNCT	PUNCT	_	26	punct	_	_
 23-26	ⲙⲛⲛⲕⲉⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
-23	ⲙⲛ	ⲙⲛ	ADP	PREP	_	26	cc	_	Orig=ⲙⲛ̅
+23	ⲙⲛ	ⲙⲛ	ADP	PREP	_	26	case	_	Orig=ⲙⲛ̅
 24	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	26	det	_	Entity=(abstract|Orig=ⲛ̅
 25	ⲕⲉ	ⲕⲉ	DET	ART	PronType=Art	26	det	_	_
 26	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	19	conj	_	OrigLang=grc
 27-28	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-27	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	26	advmod	_	_
-28	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	27	det	_	_
+27	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	26	obl:npmod	_	_
+28	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
 29-31	ⲉⲧϩⲟⲗϭ	_	_	_	_	_	_	_	_
 29	ⲉ	ⲉ	ADP	PREP	_	31	case	_	_
 30	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	Entity=(abstract
-31	ϩⲟⲗϭ	ϩⲟⲗϭ	NOUN	N	_	6	obl	_	Entity=abstract)abstract)|Orig=ϩⲟⲗϭ̅
+31	ϩⲟⲗϭ	ϩⲟⲗϭ	NOUN	N	_	13	nmod	_	Entity=abstract)abstract)|Orig=ϩⲟⲗϭ̅
 32-34	ϩⲛⲙⲙⲉⲗⲟⲥ	_	_	_	_	_	_	_	_
 32	ϩⲛ	ϩⲛ	ADP	PREP	_	34	case	_	Orig=ϩⲛ̅
 33	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	34	det	_	Entity=(abstract|Orig=ⲙ̅
@@ -3306,7 +3306,7 @@
 38-39	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 38	ⲉⲣⲟ	ⲉ	ADP	PREP	_	39	case	_	_
 39	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nmod	_	Entity=abstract)abstract)abstract)person)
-40	·	·	PUNCT	PUNCT	_	34	punct	_	_
+40	·	·	PUNCT	PUNCT	_	41	punct	_	_
 41	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	26	appos	_	Orig=ⲛⲁⲓ̈
 42-45	ⲉⲧⲉⲙⲡⲁⲧϯϣⲁϫⲉ	_	_	_	_	_	_	_	_
 42	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	45	mark	_	_
@@ -3321,7 +3321,7 @@
 49	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	45	obl	_	_
 50-52	ⲙⲛⲡⲉⲩⲥⲱⲣ	_	_	_	_	_	_	_	_
 50	ⲙⲛ	ⲙⲛ	ADP	PREP	_	52	cc	_	Orig=ⲙⲛ̅
-51	ⲡⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	52	det	_	Entity=(object
+51	ⲡⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	52	nmod:poss	_	Entity=(object
 52	ⲥⲱⲣ	ⲥⲱⲣ	NOUN	N	_	49	conj	_	Entity=object)
 53	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	67	advmod	_	_
 54-56	ⲙⲛⲧϩⲉ	_	_	_	_	_	_	_	_
@@ -3333,7 +3333,7 @@
 58	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	59	nsubj	_	_
 59	ⲁϩⲉ	ⲱϩⲉ	VERB	V	VerbForm=Fin	56	acl:relcl	_	_
 60	ⲣⲁⲧ	ⲣⲁⲧ	NOUN	N	_	59	obj	_	_
-61	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	60	det	_	_
+61	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	60	nmod:poss	_	_
 62-63	ⲙⲙⲟⲥ	_	_	_	_	_	_	_	_
 62	ⲙⲙⲟ	ⲛ	ADP	PREP	_	63	case	_	Orig=ⲙ̅ⲙⲟ
 63	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	59	obl	_	Entity=abstract)
@@ -3355,7 +3355,7 @@
 75	ϩⲉ	ϩⲉ	NOUN	N	_	67	nmod	_	Orig=ⲉ
 76-78	ⲉⲧϥⲟ	_	_	_	_	_	_	_	_
 76	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	59	mark	_	_
-77	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	78	nsubj	_	Orig=ϥ̅
+77	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	59	nsubj	_	Orig=ϥ̅
 78	ⲟ	ⲉⲓⲣⲉ	VERB	VSTAT	VerbForm=Fin	75	acl:relcl	_	_
 79-80	ⲙⲙⲟⲥ	_	_	_	_	_	_	_	_
 79	ⲙⲙⲟ	ⲛ	ADP	PREP	_	80	case	_	Orig=ⲙ̅ⲙⲟ
@@ -3368,7 +3368,7 @@
 85-87	ⲁⲩⲙⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 85	ⲁ	ⲁ	AUX	APST	_	87	aux	_	_
 86	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	87	nsubj	_	_
-87	ⲙⲟⲩⲧⲉ	ⲙⲟⲩⲧⲉ	VERB	V	VerbForm=Fin	0	root	_	_
+87	ⲙⲟⲩⲧⲉ	ⲙⲟⲩⲧⲉ	VERB	V	VerbForm=Fin	45	conj	_	_
 88-89	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 88	ⲉⲣⲟ	ⲉ	ADP	PREP	_	89	case	_	_
 89	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	87	obl	_	_
@@ -3379,10 +3379,10 @@
 93-94	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 93	ⲉⲣⲟ	ⲉ	ADP	PREP	_	94	case	_	_
 94	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	92	nmod	_	_
-95	·	·	PUNCT	PUNCT	_	87	punct	_	_
+95	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0049
-# text_en = ...
+# text_en = or wherefor it standeth expanded with all its Limbs and how many Limbs are in it and all its economies, | of which I will not tell you now, but when I come to the expansion of the universe I will tell you all severally,--to wit, its expansions and its description, how it is, and the aggregation [?] of all its Limbs, which belong to the economy of the One and Only, the unapproachable God in truth,
 # text = ⲏ ⲉⲧⲃⲉⲟⲩ ⲁϥⲁϩⲉⲣⲁⲧϥ ⲉϥⲡⲟⲣϣ ⲉⲃⲟⲗ ⲙⲛⲛⲉϥⲙⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ · ⲁⲩⲱ ϫⲉⲟⲩⲛⲟⲩⲏⲣ ⲙⲙⲉⲗⲟⲥ ϣⲟⲟⲡ ϩⲣⲁⲓ ⲛϩⲏⲧϥ ⲙⲛⲛⲉϥⲟⲓⲕⲟⲛⲟⲙⲓⲁ ⲧⲏⲣⲟⲩ ⲛⲁⲓ ⲛϯⲛⲁϫⲟⲟⲩ ⲉⲣⲱⲧⲛ ⲁⲛ ⲧⲉⲛⲟⲩ ⲁⲗⲗⲁ ⲉⲓϣⲁⲛⲛⲟⲩ ⲉⲣⲱⲧⲛ ⲙⲡⲥⲱⲣ ⲉⲃⲟⲗ ⲙⲡⲧⲏⲣϥ ϯⲛⲁϫⲟⲟⲩ ⲉⲣⲱⲧⲛ ⲧⲏⲣⲟⲩ ⲕⲁⲧⲁⲟⲩⲁ ⲟⲩⲁ · ϫⲉⲛⲉϥⲥⲱⲣ ⲅⲁⲣ ⲉⲃⲟⲗ ⲙⲛⲧⲉϥϭⲓⲛϣⲁϫⲉ ⲉⲣⲟϥ ⲛⲧϩⲉ ⲉⲧϥⲟ ⲙⲙⲟⲥ ⲙⲛⲡϩⲱⲣϫ ⲛⲛⲉϥⲙⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ ⲉⲩⲏⲡ ⲉⲧⲟⲓⲕⲟⲛⲟⲙⲓⲁ ⲙⲡⲓⲟⲩⲁ ⲛⲟⲩⲱⲧ ⲡⲛⲟⲩⲧⲉ ⲛⲧⲁⲗⲏⲑⲉⲓⲁ ⲛⲁⲧⲛⲣⲁⲧϥ ·
 1	ⲏ	ⲏ	CCONJ	CONJ	Foreign=Yes	6	cc	_	Orig=ⲏ̅|OrigLang=grc
 2-3	ⲉⲧⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
@@ -3393,7 +3393,7 @@
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	ⲁϩⲉ	ⲱϩⲉ	VERB	V	VerbForm=Fin	0	root	_	_
 7	ⲣⲁⲧ	ⲣⲁⲧ	NOUN	N	_	6	obj	_	_
-8	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	7	det	_	Orig=ϥ̅
+8	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	7	nmod:poss	_	Orig=ϥ̅
 9-11	ⲉϥⲡⲟⲣϣ	_	_	_	_	_	_	_	_
 9	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	11	mark	_	_
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
@@ -3401,11 +3401,11 @@
 12	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	11	advmod	_	_
 13-15	ⲙⲛⲛⲉϥⲙⲉⲗⲟⲥ	_	_	_	_	_	_	_	_
 13	ⲙⲛ	ⲙⲛ	ADP	PREP	_	15	case	_	Orig=ⲙⲛ̅
-14	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	Entity=(abstract
+14	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	Entity=(abstract
 15	ⲙⲉⲗⲟⲥ	ⲙⲉⲗⲟⲥ	NOUN	N	Foreign=Yes	11	obl	_	OrigLang=grc
 16-17	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-16	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	15	advmod	_	_
-17	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	16	det	_	Entity=abstract)
+16	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	15	obl:npmod	_	_
+17	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	16	nmod:poss	_	Entity=abstract)
 18	·	·	PUNCT	PUNCT	_	25	punct	_	_
 19	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	25	cc	_	_
 20-22	ϫⲉⲟⲩⲛⲟⲩⲏⲣ	_	_	_	_	_	_	_	_
@@ -3422,11 +3422,11 @@
 28	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obl	_	Orig=ϥ̅
 29-31	ⲙⲛⲛⲉϥⲟⲓⲕⲟⲛⲟⲙⲓⲁ	_	_	_	_	_	_	_	_
 29	ⲙⲛ	ⲙⲛ	ADP	PREP	_	31	cc	_	Orig=ⲙⲛ̅
-30	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	31	det	_	Entity=(abstract
+30	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	Entity=(abstract
 31	ⲟⲓⲕⲟⲛⲟⲙⲓⲁ	ⲟⲓⲕⲟⲛⲟⲙⲓⲁ	NOUN	N	Foreign=Yes	25	obl	_	OrigLang=grc
 32-33	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-32	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	31	advmod	_	_
-33	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	32	det	_	Entity=abstract)
+32	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	31	obl:npmod	_	_
+33	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	32	nmod:poss	_	Entity=abstract)
 34	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	25	dislocated	_	Entity=(abstract|Orig=ⲛⲁⲓ̈
 35-39	ⲛϯⲛⲁϫⲟⲟⲩ	_	_	_	_	_	_	_	_
 35	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	38	advmod	_	Orig=ⲛ̅
@@ -3464,8 +3464,8 @@
 60	ⲉⲣⲱ	ⲉ	ADP	PREP	_	61	case	_	_
 61	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	58	obl	_	Orig=ⲧⲛ̅
 62-63	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-62	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	58	advmod	_	_
-63	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	62	det	_	_
+62	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	58	obl:npmod	_	_
+63	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	62	nmod:poss	_	_
 64-65	ⲕⲁⲧⲁⲟⲩⲁ	_	_	_	_	_	_	_	_
 64	ⲕⲁⲧⲁ	ⲕⲁⲧⲁ	ADP	PREP	Foreign=Yes	65	case	_	OrigLang=grc
 65	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	58	obl	_	Entity=(abstract
@@ -3480,7 +3480,7 @@
 73	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	71	advmod	_	_
 74-76	ⲙⲛⲧⲉϥϭⲓⲛϣⲁϫⲉ	_	_	_	_	_	_	_	_
 74	ⲙⲛ	ⲙⲛ	ADP	PREP	_	76	case	_	Orig=ⲙⲛ̅
-75	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	76	det	_	Entity=(abstract
+75	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	76	nmod:poss	_	Entity=(abstract
 76	ϭⲓⲛϣⲁϫⲉ	ϭⲓⲛϣⲁϫⲉ	NOUN	N	_	71	obl	_	Entity=abstract)|Morphs=ϭⲓⲛ-ϣⲁϫⲉ
 77-78	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 77	ⲉⲣⲟ	ⲉ	ADP	PREP	_	78	case	_	_
@@ -3502,11 +3502,11 @@
 89	ϩⲱⲣϫ	ϩⲱⲣϫ	NOUN	N	_	71	obl	_	Orig=ϩⲱⲣϫ̅
 90-92	ⲛⲛⲉϥⲙⲉⲗⲟⲥ	_	_	_	_	_	_	_	_
 90	ⲛ	ⲛ	ADP	PREP	_	92	case	_	Orig=ⲛ̅
-91	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	92	det	_	Entity=(abstract
+91	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	92	nmod:poss	_	Entity=(abstract
 92	ⲙⲉⲗⲟⲥ	ⲙⲉⲗⲟⲥ	NOUN	N	Foreign=Yes	89	nmod	_	OrigLang=grc
 93-94	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-93	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	92	advmod	_	_
-94	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	93	det	_	_
+93	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	92	obl:npmod	_	_
+94	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	93	nmod:poss	_	_
 95-97	ⲉⲩⲏⲡ	_	_	_	_	_	_	_	_
 95	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	97	mark	_	_
 96	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	97	nsubj	_	_
@@ -3533,11 +3533,11 @@
 111	ⲛ	ⲛ	ADP	PREP	_	112	case	_	Orig=ⲛ̅
 112	ⲁⲧⲛ	ⲁⲧⲛ	DET	PPOS	_	110	nmod	_	Orig=ⲁⲧⲛ̅
 113	ⲣⲁⲧ	ⲣⲁⲧ	NOUN	N	_	112	obl:npmod	_	Entity=(object
-114	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	113	det	_	Entity=object)abstract)person)abstract)abstract)object)|Orig=ϥ̅
+114	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	113	nmod:poss	_	Entity=object)abstract)person)abstract)abstract)object)|Orig=ϥ̅
 115	·	·	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0050
-# text_en = ...
+# text_en = --up to what region, therefore, every one shall receive the mysteries in the space of the Ineffable, up to that region will he inherit up to which he hath received. And those of the whole region of the space of that Ineffable
 # text = ⲡⲧⲟⲡⲟⲥ ϭⲉ ⲉⲧⲉⲣⲉⲡⲟⲩⲁ ⲡⲟⲩⲁⲛⲁϫⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϣⲁⲣⲟϥ ϩⲣⲁⲓ ϩⲙⲡⲉⲭⲱⲣⲏⲙⲁ ⲙⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ · ϥⲛⲁⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ϣⲁⲡⲧⲟⲡⲟⲥ ⲛⲧⲁϥⲁⲣϫⲓ ϣⲁⲣⲟϥ · ⲁⲩⲱ ⲛⲁⲡⲧⲟⲡⲟⲥ ⲧⲏⲣϥ ⲙⲡⲉⲭⲱⲣⲏⲙⲁ ⲙⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ·
 1-2	ⲡⲧⲟⲡⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(place
@@ -3578,7 +3578,7 @@
 28-32	ⲛⲧⲁϥⲁⲣϫⲓ	_	_	_	_	_	_	_	_
 28	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	32	mark	_	Orig=ⲛ̅ⲧ
 29	ⲁ	ⲁ	AUX	APST	_	32	aux	_	_
-30	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+30	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
 31	ⲁⲣ	ⲁⲣ	AUX	FUT	_	32	nsubj	_	_
 32	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	27	acl:relcl	_	_
 33-34	ϣⲁⲣⲟϥ	_	_	_	_	_	_	_	_
@@ -3591,8 +3591,8 @@
 38	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	Entity=(place
 39	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	37	nsubj	_	OrigLang=grc
 40-41	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-40	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	39	advmod	_	_
-41	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	40	det	_	Orig=ϥ̅
+40	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	39	obl:npmod	_	_
+41	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	40	nmod:poss	_	Orig=ϥ̅
 42-44	ⲙⲡⲉⲭⲱⲣⲏⲙⲁ	_	_	_	_	_	_	_	_
 42	ⲙ	ⲛ	ADP	PREP	_	44	case	_	Orig=ⲙ̅
 43	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	Entity=(abstract
@@ -3607,7 +3607,7 @@
 50	·	·	PUNCT	PUNCT	_	24	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0051
-# text_en = ...
+# text_en = give no answers in that region, nor give they apologies, nor give they tokens, for they are without tokens and they have no receivers, but they pass through all the regions, until they come to the region of the kingdom of the mystery which they have received.
 # text = ⲙⲉⲩϯⲁⲡⲟⲫⲁⲥⲓⲥ ⲕⲁⲧⲁⲧⲟⲡⲟⲥ ⲟⲩⲇⲉ ⲙⲉⲩϯⲁⲡⲟⲗⲟⲅⲓⲁ ⲟⲩⲇⲉ ⲙⲉⲩϯⲥⲩⲙⲃⲟⲩⲗⲟⲛ · ϩⲉⲛⲁⲧⲥⲩⲙⲃⲟⲗⲟⲛ ⲅⲁⲣ ⲛⲉ ⲁⲩⲱ ⲙⲛⲧⲟⲩⲡⲁⲣⲁⲗⲏⲙⲡⲧⲱⲣ ⲙⲙⲁⲩ · ⲁⲗⲗⲁ ϣⲁⲩϫⲱⲧⲉ ⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ϣⲁⲛⲧⲟⲩⲃⲱⲕ ⲉⲡⲧⲟⲡⲟⲥ ⲛⲧⲙⲛⲧⲣⲣⲟ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲁⲩϫⲓⲧϥ ·
 1-3	ⲙⲉⲩϯⲁⲡⲟⲫⲁⲥⲓⲥ	_	_	_	_	_	_	_	_
 1	ⲙⲉ	ⲙⲉⲣⲉ	AUX	ANEGAOR	Polarity=Neg	3	aux	_	_
@@ -3649,8 +3649,8 @@
 30	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	31	det	_	Entity=(place|Orig=ⲛ̅
 31	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	28	obj	_	OrigLang=grc
 32-33	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-32	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	31	advmod	_	_
-33	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	32	det	_	Entity=place)
+32	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	31	obl:npmod	_	_
+33	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	32	nmod:poss	_	Entity=place)
 34-36	ϣⲁⲛⲧⲟⲩⲃⲱⲕ	_	_	_	_	_	_	_	_
 34	ϣⲁⲛⲧ	ϣⲁⲛⲧⲉ	AUX	ALIM	_	36	aux	_	_
 35	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	36	nsubj	_	_
@@ -3676,7 +3676,7 @@
 51	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0052
-# text_en = ...
+# text_en = “In like manner also those who shall receive mysteries in the second space, they have no answers nor apologies, for they are without tokens in that world,”
 # text = ϩⲟⲙⲟⲓⲱⲥ ⲟⲛ ⲛⲉⲧⲛⲁϫⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϩⲙⲡⲙⲉϩⲥⲛⲁⲩ ⲛⲭⲱⲣⲏⲙⲁ ⲙⲛⲧⲟⲩⲁⲡⲟⲫⲁⲥⲓⲥ ⲙⲙⲁⲩ ⲟⲩⲇⲉ ⲁⲡⲟⲗⲟⲅⲓⲁ ϩⲉⲛⲁⲧⲥⲩⲙⲃⲟⲩⲗⲟⲛ ⲅⲁⲣ ⲛⲉ ϩⲙⲡⲕⲟⲥⲙⲟⲥ ⲉⲧⲙⲙⲁⲩ ·
 1	ϩⲟⲙⲟⲓⲱⲥ	ϩⲟⲙⲟⲓⲱⲥ	ADV	ADV	_	3	advmod	_	_
 2	ⲟⲛ	ⲟⲛ	ADV	ADV	_	3	advmod	_	_
@@ -3694,7 +3694,7 @@
 11	ⲭⲱⲣⲏⲙⲁ	ⲭⲱⲣⲏⲙⲁ	NOUN	N	_	6	obl	_	Entity=(abstract)
 12-14	ⲙⲛⲧⲟⲩⲁⲡⲟⲫⲁⲥⲓⲥ	_	_	_	_	_	_	_	_
 12	ⲙⲛ	ⲙⲛ	ADP	PREP	_	14	cc	_	Orig=ⲙⲛ̅
-13	ⲧⲟⲩ	ⲡⲟⲩ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	14	det	_	Entity=(abstract
+13	ⲧⲟⲩ	ⲡⲟⲩ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	Entity=(abstract
 14	ⲁⲡⲟⲫⲁⲥⲓⲥ	ⲁⲡⲟⲫⲁⲥⲓⲥ	NOUN	N	Foreign=Yes	11	conj	_	Entity=abstract)|OrigLang=grc
 15	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	6	advmod	_	Orig=ⲙ̅ⲙⲁⲩ
 16	ⲟⲩⲇⲉ	ⲟⲩⲇⲉ	CCONJ	CONJ	Foreign=Yes|Polarity=Neg	17	cc	_	OrigLang=grc
@@ -3714,7 +3714,7 @@
 27	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0053
-# text_en = ...
+# text_en = “which is the space of the first mystery of the First Mystery. And those of the third space, which is without, which is the third space from without [? within],--every region in that space hath | its receivers and its explanations and its apologies and its tokens, which I will one day tell you when I come to speak of that mystery, that is when I shall have told you of the expansion of the universe.”
 # text = ⲛⲧⲟϥ ⲡⲉ ⲡⲉⲭⲱⲣⲏⲙⲁ ⲙⲡⲓϣϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ · ⲁⲩⲱ ⲛⲁⲡⲙⲉϩϣⲟⲙⲛⲧ ϩⲱⲱϥ ⲛⲭⲱⲣⲏⲙⲁ ⲉⲧϩⲓⲡⲥⲁ ⲛⲃⲟⲗ ⲉⲧⲉⲛⲧⲟϥ ⲡⲉ ⲡⲙⲉϩϣⲟⲙⲛⲧ ϩⲱⲱϥ ⲛⲭⲱⲣⲏⲙⲁ ϫⲓⲛⲡⲥⲁ ⲛⲃⲟⲗ' ⲟⲩⲛ ⲛⲧⲉⲡⲧⲟⲡⲟⲥ ⲡⲧⲟⲡⲟⲥ ϩⲙⲡⲉⲭⲱⲣⲏⲙⲁ ⲉⲧⲙⲙⲁⲩ ⲛⲉϥⲡⲁⲣⲁⲗⲏⲙⲡⲧⲏⲥ ⲙⲛⲛⲉϥⲁⲡⲟⲫⲁⲥⲓⲥ · ⲙⲛⲛⲉϥⲁⲡⲟⲗⲟⲅⲓⲁ ⲙⲛⲛⲉϥⲥⲩⲙⲃⲟⲗⲟⲛ ⲛⲁⲓ ⲉϯⲛⲁϫⲟⲟⲩ ⲉⲣⲱⲧⲛ ϩⲙⲡⲉⲟⲩⲟⲉⲓϣ ⲉϯⲛⲁϫⲱ ⲉⲣⲱⲧⲛ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲙⲙⲁⲩ · ⲉⲧⲉⲡⲁⲓ ⲡⲉ ⲉⲓϣⲁⲛⲟⲩⲱ ⲉⲓϫⲱ ⲉⲣⲱⲧⲛ ⲙⲡⲥⲱⲣ ⲉⲃⲟⲗ ⲙⲡⲧⲏⲣϥ ·
 1	ⲛⲧⲟϥ	ⲛⲧⲟϥ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	Orig=ⲛ̅ⲧⲟϥ
 2	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	1	cop	_	_
@@ -3735,8 +3735,8 @@
 13	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Entity=(person
 14	ⲙⲉϩϣⲟⲙⲛⲧ	ⲙⲉϩϣⲟⲙⲛⲧ	NOUN	N	_	7	conj	_	Morphs=ⲙⲉϩ-ϣⲟⲙⲛⲧ|Orig=ⲙⲉϩϣⲟⲙⲛ̅ⲧ
 15-16	ϩⲱⲱϥ	_	_	_	_	_	_	_	_
-15	ϩⲱⲱ	ϩⲱⲱ	ADV	IMOD	_	14	advmod	_	_
-16	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	15	det	_	_
+15	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	14	obl:npmod	_	_
+16	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
 17-18	ⲛⲭⲱⲣⲏⲙⲁ	_	_	_	_	_	_	_	_
 17	ⲛ	ⲛ	ADP	PREP	_	18	case	_	Orig=ⲛ̅
 18	ⲭⲱⲣⲏⲙⲁ	ⲭⲱⲣⲏⲙⲁ	NOUN	N	_	14	nmod	_	Entity=(abstract)
@@ -3756,8 +3756,8 @@
 28	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	Entity=(person
 29	ⲙⲉϩϣⲟⲙⲛⲧ	ⲙⲉϩϣⲟⲙⲛⲧ	NUM	NUM	NumType=Card	26	nsubj	_	Morphs=ⲙⲉϩ-ϣⲟⲙⲛⲧ|Orig=ⲙⲉϩϣⲟⲙⲛ̅ⲧ
 30-31	ϩⲱⲱϥ	_	_	_	_	_	_	_	_
-30	ϩⲱⲱ	ϩⲱⲱ	ADV	IMOD	_	29	advmod	_	_
-31	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	30	det	_	Entity=person)
+30	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	29	obl:npmod	_	_
+31	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	30	nmod:poss	_	Entity=person)
 32-33	ⲛⲭⲱⲣⲏⲙⲁ	_	_	_	_	_	_	_	_
 32	ⲛ	ⲛ	ADP	PREP	_	33	case	_	Orig=ⲛ̅
 33	ⲭⲱⲣⲏⲙⲁ	ⲭⲱⲣⲏⲙⲁ	NOUN	N	_	29	nmod	_	Entity=(abstract)
@@ -3768,7 +3768,7 @@
 37-38	ⲛⲃⲟⲗ'	_	_	_	_	_	_	_	_
 37	ⲛ	ⲛ	ADP	PREP	_	38	case	_	_
 38	ⲃⲟⲗ'	ⲃⲟⲗ'	NOUN	N	_	36	nmod	_	Entity=(abstract)place)
-39	ⲟⲩⲛ	ⲟⲩⲛ	PART	PTC	_	76	advmod	_	_
+39	ⲟⲩⲛ	ⲟⲩⲛ	PART	PTC	_	47	advmod	_	_
 40-42	ⲛⲧⲉⲡⲧⲟⲡⲟⲥ	_	_	_	_	_	_	_	_
 40	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	42	case	_	Orig=ⲛ̅ⲧⲉ
 41	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	Entity=(place
@@ -3784,20 +3784,20 @@
 48	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	49	mark	_	_
 49	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	47	acl:relcl	_	Entity=place)|Orig=ⲙ̅ⲙⲁⲩ
 50-51	ⲛⲉϥⲡⲁⲣⲁⲗⲏⲙⲡⲧⲏⲥ	_	_	_	_	_	_	_	_
-50	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	51	det	_	_
+50	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	51	nmod:poss	_	_
 51	ⲡⲁⲣⲁⲗⲏⲙⲡⲧⲏⲥ	ⲡⲁⲣⲁⲗⲏⲙⲡⲧⲏⲥ	NOUN	N	Foreign=Yes	29	appos	_	OrigLang=grc
 52-54	ⲙⲛⲛⲉϥⲁⲡⲟⲫⲁⲥⲓⲥ	_	_	_	_	_	_	_	_
 52	ⲙⲛ	ⲙⲛ	ADP	PREP	_	54	cc	_	Orig=ⲙⲛ̅
-53	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	54	det	_	_
+53	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	54	nmod:poss	_	_
 54	ⲁⲡⲟⲫⲁⲥⲓⲥ	ⲁⲡⲟⲫⲁⲥⲓⲥ	NOUN	N	Foreign=Yes	29	conj	_	OrigLang=grc
-55	·	·	PUNCT	PUNCT	_	54	punct	_	_
+55	·	·	PUNCT	PUNCT	_	58	punct	_	_
 56-58	ⲙⲛⲛⲉϥⲁⲡⲟⲗⲟⲅⲓⲁ	_	_	_	_	_	_	_	_
 56	ⲙⲛ	ⲙⲛ	ADP	PREP	_	58	cc	_	Orig=ⲙⲛ̅
-57	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	58	det	_	Entity=(abstract
+57	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	58	nmod:poss	_	Entity=(abstract
 58	ⲁⲡⲟⲗⲟⲅⲓⲁ	ⲁⲡⲟⲗⲟⲅⲓⲁ	NOUN	N	Foreign=Yes	29	conj	_	Entity=abstract)|OrigLang=grc
 59-61	ⲙⲛⲛⲉϥⲥⲩⲙⲃⲟⲗⲟⲛ	_	_	_	_	_	_	_	_
 59	ⲙⲛ	ⲙⲛ	ADP	PREP	_	61	cc	_	Orig=ⲙⲛ̅
-60	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	61	det	_	Entity=(object
+60	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	61	nmod:poss	_	Entity=(object
 61	ⲥⲩⲙⲃⲟⲗⲟⲛ	ⲥⲩⲙⲃⲟⲗⲟⲛ	NOUN	N	Foreign=Yes	29	conj	_	Entity=object)|Orig=ⲥ̇ⲩⲙⲃⲟⲗⲟⲛ|OrigLang=grc
 62	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	81	appos	_	Orig=ⲛⲁⲓ̈
 63-67	ⲉϯⲛⲁϫⲟⲟⲩ	_	_	_	_	_	_	_	_
@@ -3817,7 +3817,7 @@
 73	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	76	mark	_	_
 74	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	76	nsubj	_	_
 75	ⲛⲁ	ⲛⲁ	AUX	FUT	_	76	aux	_	_
-76	ϫⲱ	ϫⲱ	VERB	V	VerbForm=Fin	1	parataxis	_	_
+76	ϫⲱ	ϫⲱ	VERB	V	VerbForm=Fin	1	advcl	_	_
 77-78	ⲉⲣⲱⲧⲛ	_	_	_	_	_	_	_	_
 77	ⲉⲣⲱ	ⲉ	ADP	PREP	_	78	case	_	_
 78	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	76	obl	_	Orig=ⲧⲛ̅
@@ -3855,7 +3855,7 @@
 102	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0054
-# text_en = ...
+# text_en = “Albeit at the dissolution of the universe, that is when the number of the perfect souls is completed and the mystery [through] which the universe altogether hath risen, is completed, I will pass a thousand years according to the years of the Light, being king over all the emanations of the Light and over the whole number of the perfect souls who have received all mysteries.”
 # text = ⲡⲗⲏⲛ ϩⲣⲁⲓ ϩⲙⲡⲃⲱⲗ ⲉⲃⲟⲗ ⲙⲡⲧⲏⲣϥ ⲉⲧⲉⲡⲁⲓ ⲡⲉ ⲉϥϣⲁⲛϫⲱⲕ' ⲉⲃⲟⲗ ⲛϭⲓⲡⲁⲣⲓⲑⲙⲟⲥ ⲛⲛⲉⲯⲩⲭⲟⲟⲩⲉ ⲛⲧⲉⲗⲓⲟⲥ · ⲁⲩⲱ ⲛϥϫⲱⲕ ⲉⲃⲟⲗ ⲛϭⲓⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲡⲁⲓ ⲛⲧⲁⲡⲧⲏⲣϥ ϣⲱⲡⲉ ⲉⲡⲧⲏⲣϥ ϯⲛⲁⲣϣⲟ ⲛⲣⲟⲙⲡⲉ ⲕⲁⲧⲁ ⲛⲣⲟⲙⲡⲉ ⲙⲡⲟⲩⲟⲉⲓⲛ ⲉⲓⲟ ⲛⲣⲣⲟ ⲉϩⲣⲁⲓ ⲉϫⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲙⲡⲟⲩⲟⲉⲓⲛ ⲧⲏⲣⲟⲩ ⲙⲛⲡⲁⲣⲓⲑⲙⲟⲥ ⲧⲏⲣϥ ⲛⲛⲉⲯⲩⲭⲟⲟⲩⲉ ⲛⲧⲉⲗⲓⲟⲥ ⲛⲁⲓ ⲛⲧⲁⲩϫⲓ ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲧⲏⲣⲟⲩ .
 1	ⲡⲗⲏⲛ	ⲡⲗⲏⲛ	CCONJ	CONJ	Foreign=Yes	5	advmod	_	OrigLang=grc
 2	ϩⲣⲁⲓ	ϩⲣⲁⲓ	ADV	ADV	_	5	advmod	_	Orig=ϩⲣⲁⲓ̈
@@ -3874,7 +3874,7 @@
 12	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	11	cop	_	Entity=abstract)
 13-14	ⲉϥϣⲁⲛϫⲱⲕ'	_	_	_	_	_	_	_	_
 13	ⲉϥϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟϥ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
-14	ϫⲱⲕ'	ϫⲱⲕ'	VERB	V	VerbForm=Fin	11	advcl	_	_
+14	ϫⲱⲕ'	ϫⲱⲕ'	VERB	V	VerbForm=Fin	5	advcl	_	_
 15	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	14	advmod	_	_
 16-18	ⲛϭⲓⲡⲁⲣⲓⲑⲙⲟⲥ	_	_	_	_	_	_	_	_
 16	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	18	case	_	Orig=ⲛ̅ϭⲓ
@@ -3936,21 +3936,21 @@
 60-62	ⲉϫⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ	_	_	_	_	_	_	_	_
 60	ⲉϫⲛ	ⲉϫⲛ	ADP	PREP	_	59	fixed	_	Orig=ⲉϫⲛ̅
 61	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	62	det	_	Entity=(abstract
-62	ⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ	ⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ	NOUN	N	Foreign=Yes	58	obl	_	OrigLang=grc
+62	ⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ	ⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ	NOUN	N	Foreign=Yes	56	obl	_	OrigLang=grc
 63-65	ⲙⲡⲟⲩⲟⲉⲓⲛ	_	_	_	_	_	_	_	_
 63	ⲙ	ⲛ	ADP	PREP	_	65	case	_	Orig=ⲙ̅
 64	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	Entity=(abstract
 65	ⲟⲩⲟⲉⲓⲛ	ⲟⲩⲟⲉⲓⲛ	NOUN	N	_	62	nmod	_	_
 66-67	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-66	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	65	advmod	_	_
-67	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	66	det	_	_
+66	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	65	obl:npmod	_	_
+67	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	66	nmod:poss	_	_
 68-70	ⲙⲛⲡⲁⲣⲓⲑⲙⲟⲥ	_	_	_	_	_	_	_	_
 68	ⲙⲛ	ⲙⲛ	ADP	PREP	_	70	cc	_	Orig=ⲙⲛ̅
 69	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	Entity=(place
 70	ⲁⲣⲓⲑⲙⲟⲥ	ⲁⲣⲓⲑⲙⲟⲥ	NOUN	N	Foreign=Yes	62	conj	_	OrigLang=grc
 71-72	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-71	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	70	advmod	_	_
-72	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	71	det	_	Entity=place)|Orig=ϥ̅
+71	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	70	obl:npmod	_	_
+72	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	71	nmod:poss	_	Entity=place)|Orig=ϥ̅
 73-75	ⲛⲛⲉⲯⲩⲭⲟⲟⲩⲉ	_	_	_	_	_	_	_	_
 73	ⲛ	ⲛ	ADP	PREP	_	75	case	_	Orig=ⲛ̅
 74	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	75	det	_	Entity=(abstract
@@ -3969,12 +3969,12 @@
 84	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	85	det	_	Entity=(abstract|Orig=ⲙ̅
 85	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	82	obj	_	OrigLang=grc
 86-87	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-86	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	85	advmod	_	_
-87	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	86	det	_	Entity=abstract)abstract)abstract)
+86	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	85	obl:npmod	_	_
+87	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	86	nmod:poss	_	Entity=abstract)abstract)abstract)
 88	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0055
-# text_en = ...
+# text_en = “It came to pass, when Jesus had finished speaking these words unto his disciples, that Mary Magdalene came forward and said: My Lord, how many years of the years of the world is a year of the Light?”
 # text = ⲁⲥϣⲱⲡⲉ ⲛⲧⲉⲣⲉⲓⲏⲥⲟⲩⲥ ⲟⲩⲱ ⲉϥϫⲱ ⲛⲛⲉⲓϣⲁϫⲉ ⲉⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲁⲥⲉⲓ ⲉⲧϩⲏ ⲛϭⲓⲙⲁⲣⲓⲁ ⲧⲙⲁⲅⲇⲁⲗⲏⲛⲏ ⲡⲉϫⲁⲥ ϫⲉⲡⲁϫⲟⲉⲓⲥ ⲟⲩⲏⲣ ⲛⲣⲟⲙⲡⲉ ϩⲛⲣⲣⲟⲙⲡⲉ ⲛⲧⲉⲡⲕⲟⲥⲙⲟⲥ ⲡⲉ ⲟⲩⲣⲟⲙⲡⲉ ⲛⲧⲉⲡⲟⲩⲟⲉⲓⲛ ·
 1-3	ⲁⲥϣⲱⲡⲉ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
@@ -3994,7 +3994,7 @@
 12	ϣⲁϫⲉ	ϣⲁϫⲉ	NOUN	N	_	9	obj	_	Entity=abstract)
 13-15	ⲉⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ	_	_	_	_	_	_	_	_
 13	ⲉ	ⲉ	ADP	PREP	_	15	case	_	_
-14	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	Entity=(person
+14	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	Entity=(person
 15	ⲙⲁⲑⲏⲧⲏⲥ	ⲙⲁⲑⲏⲧⲏⲥ	NOUN	N	Foreign=Yes	9	obl	_	Entity=person)|OrigLang=grc
 16-18	ⲁⲥⲉⲓ	_	_	_	_	_	_	_	_
 16	ⲁ	ⲁ	AUX	APST	_	18	aux	_	_
@@ -4015,7 +4015,7 @@
 27	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 28-30	ϫⲉⲡⲁϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 28	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	36	mark	_	_
-29	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	30	det	_	Entity=(person
+29	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	30	nmod:poss	_	Entity=(person
 30	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	36	vocative	_	_
 31	ⲟⲩⲏⲣ	ⲟⲩⲏⲣ	PRON	PINT	PronType=Int	36	nsubj	_	_
 32-33	ⲛⲣⲟⲙⲡⲉ	_	_	_	_	_	_	_	_
@@ -4040,7 +4040,7 @@
 46	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0056
-# text_en = ...
+# text_en = “Jesus answered and said unto Mary: A day of the Light is a thousand years in the world, so that thirty-six-myriads of years and a half-myriad of years of the world are a single year of the Light.”
 # text = ⲁϥⲟⲩⲱϣⲃ ⲛϭⲓⲓⲏⲥⲟⲩⲥ ⲡⲉϫⲁϥ ⲙⲙⲁⲣⲓⲁ ϫⲉⲟⲩϩⲟⲟⲩ ⲛⲧⲉⲡⲟⲩⲟⲉⲓⲛ ⲡⲉ ⲙⲏⲧ ⲛϣⲉ ⲛⲣⲟⲙⲡⲉ ϩⲙⲡⲕⲟⲥⲙⲟⲥ · ϩⲱⲥⲧⲉ ⲙⲁⲃⲧⲁⲥⲉ ⲛⲧⲃⲁ ⲛⲣⲟⲙⲡⲉ ⲙⲛⲕⲉϭⲉⲥⲧⲃⲁ ⲛⲣⲟⲙⲡⲉ ⲛⲧⲉⲡⲕⲟⲥⲙⲟⲥ ⲡⲉ ⲟⲩⲣⲟⲙⲡⲉ ⲛⲟⲩⲱⲧ ⲛⲧⲉⲡⲟⲩⲟⲉⲓⲛ ·
 1-3	ⲁϥⲟⲩⲱϣⲃ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
@@ -4077,7 +4077,7 @@
 24	ⲕⲟⲥⲙⲟⲥ	ⲕⲟⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	21	nmod	_	Entity=place)time)|OrigLang=grc
 25	·	·	PUNCT	PUNCT	_	31	punct	_	_
 26	ϩⲱⲥⲧⲉ	ϩⲱⲥⲧⲉ	SCONJ	CONJ	Foreign=Yes	31	mark	_	OrigLang=grc
-27	ⲙⲁⲃⲧⲁⲥⲉ	ⲙⲁⲃⲧⲁⲥⲉ	NOUN	N	_	31	nummod	_	Entity=(time|Morphs=ⲙⲁⲃ-ⲧⲁⲥⲉ
+27	ⲙⲁⲃⲧⲁⲥⲉ	ⲙⲁⲃⲧⲁⲥⲉ	NOUN	N	_	29	compound	_	Entity=(time|Morphs=ⲙⲁⲃ-ⲧⲁⲥⲉ
 28-29	ⲛⲧⲃⲁ	_	_	_	_	_	_	_	_
 28	ⲛ	ⲛ	ADP	PREP	_	29	case	_	Orig=ⲛ̅
 29	ⲧⲃⲁ	ⲧⲃⲁ	NUM	NUM	NumType=Card	31	nummod	_	_
@@ -4109,7 +4109,7 @@
 48	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0057
-# text_en = ...
+# text_en = “I shall, therefore, pass a thousand years of the Light being king in the midst of the last Helper, and being king over all the emanations of the Light and over the whole number of the perfect souls who have received the mysteries of the Light.”
 # text = ϯⲛⲁⲣⲙⲛⲧ' ⲛϣⲉ ⲟⲩⲛ ⲛⲣⲟⲙⲡⲉ ⲛⲧⲉⲡⲟⲩⲟⲉⲓⲛ ⲉⲓⲟ ⲛⲣⲣⲟ ϩⲛⲧⲙⲏⲧⲉ ⲙⲡϩⲁⲉ ⲡⲁⲣⲁⲥⲧⲁⲧⲏⲥ · ⲉⲓⲟ ⲛⲣⲣⲟ ϩⲣⲁⲓ ⲉϫⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲧⲏⲣⲟⲩ ⲙⲡⲟⲩⲟⲉⲓⲛ · ⲁⲩⲱ ⲉϫⲛⲡⲁⲣⲓⲑⲙⲟⲥ ⲧⲏⲣϥ ⲛⲛⲉⲯⲩⲭⲟⲟⲩⲉ ⲛⲧⲉⲗⲓⲟⲥ ⲛⲁⲓ ⲉⲛⲧⲁⲩϫⲓ ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲟⲩⲟⲉⲓⲛ ·
 1-4	ϯⲛⲁⲣⲙⲛⲧ'	_	_	_	_	_	_	_	_
 1	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -4157,8 +4157,8 @@
 33	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	34	det	_	Entity=(abstract
 34	ⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ	ⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ	NOUN	N	Foreign=Yes	28	obl	_	OrigLang=grc
 35-36	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-35	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	34	advmod	_	_
-36	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	35	det	_	_
+35	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	34	obl:npmod	_	_
+36	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
 37-39	ⲙⲡⲟⲩⲟⲉⲓⲛ	_	_	_	_	_	_	_	_
 37	ⲙ	ⲛ	ADP	PREP	_	39	case	_	Orig=ⲙ̅
 38	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	Entity=(abstract
@@ -4170,8 +4170,8 @@
 43	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	Entity=(place
 44	ⲁⲣⲓⲑⲙⲟⲥ	ⲁⲣⲓⲑⲙⲟⲥ	NOUN	N	Foreign=Yes	34	conj	_	OrigLang=grc
 45-46	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-45	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	44	advmod	_	_
-46	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	45	det	_	Orig=ϥ̅
+45	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	44	obl:npmod	_	_
+46	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	45	nmod:poss	_	Orig=ϥ̅
 47-49	ⲛⲛⲉⲯⲩⲭⲟⲟⲩⲉ	_	_	_	_	_	_	_	_
 47	ⲛ	ⲛ	ADP	PREP	_	49	case	_	Orig=ⲛ̅
 48	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	49	det	_	Entity=(abstract
@@ -4196,12 +4196,12 @@
 63	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0058
-# text_en = ...
+# text_en = “And ye, my disciples, and every one who shall receive the mystery of the Ineffable, will | abide with me on my right and on my left, being kings with me in my kingdom.”
 # text = ⲁⲩⲱ ⲛⲧⲱⲧⲛ ⲛⲁⲙⲁⲑⲏⲧⲏⲥ ⲙⲛⲟⲩⲟⲛ ⲛⲓⲙ ⲉⲧⲛⲁϫⲓ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ · ϥⲛⲁϭⲱ ⲛⲙⲙⲁⲓ ⲛⲥⲁⲟⲩⲛⲁⲙ ⲙⲙⲟⲓ ⲁⲩⲱ ⲛⲥⲁϩⲃⲟⲩⲣ ⲙⲙⲟⲓ ⲉⲧⲉⲧⲛⲟ ⲛⲣⲣⲟ ⲛⲙⲙⲁⲓ ϩⲛⲧⲁⲙⲛⲧⲣⲣⲟ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	22	cc	_	_
 2	ⲛⲧⲱⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=2|PronType=Prs	22	dislocated	_	Orig=ⲛ̅ⲧⲱⲧⲛ̅
 3-4	ⲛⲁⲙⲁⲑⲏⲧⲏⲥ	_	_	_	_	_	_	_	_
-3	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	Entity=(person
+3	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	Entity=(person
 4	ⲙⲁⲑⲏⲧⲏⲥ	ⲙⲁⲑⲏⲧⲏⲥ	NOUN	N	Foreign=Yes	22	dislocated	_	Entity=person)|OrigLang=grc
 5-6	ⲙⲛⲟⲩⲟⲛ	_	_	_	_	_	_	_	_
 5	ⲙⲛ	ⲙⲛ	ADP	PREP	_	6	case	_	Orig=ⲙⲛ̅
@@ -4255,12 +4255,12 @@
 40	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	36	obl	_	Entity=person)|Orig=ⲓ̈
 41-43	ϩⲛⲧⲁⲙⲛⲧⲣⲣⲟ	_	_	_	_	_	_	_	_
 41	ϩⲛ	ϩⲛ	ADP	PREP	_	43	case	_	Orig=ϩⲛ̅
-42	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	43	det	_	Entity=(place
+42	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	43	nmod:poss	_	Entity=(place
 43	ⲙⲛⲧⲣⲣⲟ	ⲙⲛⲧⲣⲣⲟ	NOUN	N	_	36	obl	_	Entity=place)object)|Morphs=ⲙⲛⲧ-ⲉⲣⲟ|Orig=ⲙⲛ̅ⲧⲉⲣⲟ
 44	·	·	PUNCT	PUNCT	_	22	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0059
-# text_en = ...
+# text_en = “And they who shall receive the three mysteries of that Ineffable, will be fellow-kings with you in the Light-kingdom; but they will not be alike with you and with those who receive the mystery of the Ineffable, but they will rather abide behind you, being kings.”
 # text = ⲁⲩⲱ ⲛⲉⲧϫⲓ ϩⲱⲟⲩ ⲙⲡϣⲟⲙⲛⲧ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡϯⲟⲩ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ⲉⲧⲙⲙⲁⲩ · ⲥⲉⲛⲁⲣϣⲃⲣ‐ⲣⲣⲟ ⲛⲙⲙⲏⲧⲛ ϩⲣⲁⲓ ϩⲛⲧⲙⲛⲧⲣⲣⲟ ⲙⲡⲟⲩⲟⲉⲓⲛ · ⲁⲩⲱ ⲛⲥⲉⲛⲁϣⲱϣ ⲛⲙⲙⲏⲧⲛ ⲁⲛ · ⲛⲧⲱⲧⲛ ⲙⲛⲛⲉⲧϫⲓ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ⲉⲩⲛⲁϭⲱ ϩⲱⲟⲩ ⲙⲛⲛⲥⲱⲧⲛ ⲉⲩⲟ ⲛⲣⲣⲟ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	27	cc	_	_
 2-4	ⲛⲉⲧϫⲓ	_	_	_	_	_	_	_	_
@@ -4268,8 +4268,8 @@
 3	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	4	mark	_	_
 4	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	2	acl:relcl	_	_
 5-6	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-5	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	4	advmod	_	_
-6	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	5	det	_	_
+5	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	4	obl:npmod	_	_
+6	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
 7-9	ⲙⲡϣⲟⲙⲛⲧ	_	_	_	_	_	_	_	_
 7	ⲙ	ⲛ	ADP	PREP	_	11	case	_	Orig=ⲙ̅
 8	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(abstract
@@ -4293,7 +4293,7 @@
 21	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
 22-23	ⲉⲧⲙⲙⲁⲩ	_	_	_	_	_	_	_	_
 22	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	23	mark	_	_
-23	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	19	acl:relcl	_	Entity=abstract)abstract)abstract)person)|Orig=ⲙ̅ⲙⲁⲩ
+23	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	21	acl:relcl	_	Entity=abstract)abstract)abstract)person)|Orig=ⲙ̅ⲙⲁⲩ
 24	·	·	PUNCT	PUNCT	_	2	punct	_	_
 25-27	ⲥⲉⲛⲁⲣϣⲃⲣ‐ⲣⲣⲟ	_	_	_	_	_	_	_	_
 25	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	27	nsubj	_	_
@@ -4346,8 +4346,8 @@
 62	ⲛⲁ	ⲛⲁ	AUX	FUT	_	63	aux	_	_
 63	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	27	advcl	_	_
 64-65	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-64	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	63	advmod	_	_
-65	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	64	det	_	_
+64	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	63	obl:npmod	_	_
+65	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	64	nmod:poss	_	_
 66-67	ⲙⲛⲛⲥⲱⲧⲛ	_	_	_	_	_	_	_	_
 66	ⲙⲛⲛⲥⲱ	ⲙⲛⲛⲥⲁ	ADP	PREP	_	67	case	_	Orig=ⲙⲛ̅ⲛ̅ⲥⲱ
 67	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	63	obl	_	Orig=ⲧⲛ̅
@@ -4361,7 +4361,7 @@
 73	·	·	PUNCT	PUNCT	_	27	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0060
-# text_en = ...
+# text_en = “And they who receive the five mysteries of the Ineffable, will also abide behind the three mysteries, being also kings. And moreover they who receive the twelfth mystery of the First Mystery, will also again abide behind the five mysteries of the Ineffable, being also kings according to the order of every one of them. And all who receive of the mysteries in all the regions of the space of the Ineffable,”
 # text = ⲁⲩⲱ ⲛⲉⲧϫⲓ ⲙⲡϯⲟⲩ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ · ⲉⲩⲛⲁϭⲱ ϩⲱⲟⲩ ⲙⲛⲛⲥⲁⲡϣⲟⲙⲛⲧ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲩⲟ ϩⲱⲟⲩ ⲛⲣⲣⲟ ⲁⲩⲱ ⲟⲛ ⲛⲉⲧϫⲓ ⲙⲡⲙⲉϩⲙⲛⲧⲥⲛⲟⲟⲩⲥ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲩⲛⲁϭⲱ ϩⲱⲟⲩ ⲟⲛ ⲙⲛⲛⲥⲁⲡϯⲟⲩ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ · ⲁⲩⲱ ⲉⲩⲟ ϩⲱⲟⲩ ⲛⲣⲣⲟ ⲕⲁⲧⲁⲧⲧⲁⲝⲓⲥ ⲙⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲙⲙⲟⲟⲩ ⲁⲩⲱ ⲛⲉⲧϫⲓ ⲧⲏⲣⲟⲩ ϩⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϩⲛⲛⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲙⲡⲉⲭⲱⲣⲏⲙⲁ ⲙⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	19	cc	_	_
 2-4	ⲛⲉⲧϫⲓ	_	_	_	_	_	_	_	_
@@ -4389,8 +4389,8 @@
 18	ⲛⲁ	ⲛⲁ	AUX	FUT	_	19	aux	_	_
 19	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	0	root	_	_
 20-21	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-20	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	19	advmod	_	_
-21	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	20	det	_	_
+20	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	19	obl:npmod	_	_
+21	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
 22-24	ⲙⲛⲛⲥⲁⲡϣⲟⲙⲛⲧ	_	_	_	_	_	_	_	_
 22	ⲙⲛⲛⲥⲁ	ⲙⲛⲛⲥⲁ	ADP	PREP	_	26	case	_	Orig=ⲙⲛ̅ⲛ̅ⲥⲁ
 23	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	Entity=(abstract
@@ -4403,8 +4403,8 @@
 28	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	_
 29	ⲟ	ⲉⲓⲣⲉ	VERB	VSTAT	VerbForm=Fin	26	acl:relcl	_	_
 30-31	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-30	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	29	advmod	_	_
-31	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	30	det	_	_
+30	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	29	obl:npmod	_	_
+31	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
 32-33	ⲛⲣⲣⲟ	_	_	_	_	_	_	_	_
 32	ⲛ	ⲛ	ADP	PREP	_	33	case	_	Orig=ⲛ̅
 33	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	29	obl	_	Entity=(person)abstract)|Orig=ⲣ̅ⲣⲟ
@@ -4420,7 +4420,7 @@
 41	ⲙⲉϩⲙⲛⲧⲥⲛⲟⲟⲩⲥ	ⲙⲉϩⲙⲛⲧⲥⲛⲟⲟⲩⲥ	NOUN	N	_	38	obj	_	Morphs=ⲙⲉϩ-ⲙⲛⲧ-ⲥⲛⲟⲟⲩⲥ|Orig=ⲙⲉϩⲙⲛ̅ⲧⲥⲛⲟⲟⲩⲥ
 42-43	ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 42	ⲙ	ⲛ	ADP	PREP	_	43	case	_	Orig=ⲙ̅
-43	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	41	nmod	_	Entity=(abstract|OrigLang=grc
+43	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	38	obj	_	Entity=(abstract|OrigLang=grc
 44-46	ⲛⲧⲉⲡϣⲟⲣⲡ	_	_	_	_	_	_	_	_
 44	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	46	case	_	Orig=ⲛ̅ⲧⲉ
 45	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	Entity=(abstract
@@ -4434,12 +4434,12 @@
 51	ⲛⲁ	ⲛⲁ	AUX	FUT	_	52	aux	_	_
 52	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	19	advcl	_	_
 53-54	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-53	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	52	advmod	_	_
-54	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	53	det	_	_
+53	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	52	obl:npmod	_	_
+54	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	53	nmod:poss	_	_
 55	ⲟⲛ	ⲟⲛ	ADV	ADV	_	52	advmod	_	_
 56-58	ⲙⲛⲛⲥⲁⲡϯⲟⲩ	_	_	_	_	_	_	_	_
-56	ⲙⲛⲛⲥⲁ	ⲙⲛⲛⲥⲁ	ADP	PREP	_	58	case	_	Orig=ⲙⲛ̅ⲛ̅ⲥⲁ
-57	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	Entity=(object|Orig=ⲡ̅
+56	ⲙⲛⲛⲥⲁ	ⲙⲛⲛⲥⲁ	ADP	PREP	_	60	case	_	Orig=ⲙⲛ̅ⲛ̅ⲥⲁ
+57	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	Entity=(object|Orig=ⲡ̅
 58	ϯⲟⲩ	ϯⲟⲩ	NUM	NUM	NumType=Card	60	nummod	_	_
 59-60	ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 59	ⲙ	ⲛ	ADP	PREP	_	60	case	_	Orig=ⲙ̅
@@ -4458,8 +4458,8 @@
 69	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	70	nsubj	_	_
 70	ⲟ	ⲉⲓⲣⲉ	VERB	VSTAT	VerbForm=Fin	52	conj	_	_
 71-72	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-71	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	70	advmod	_	_
-72	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	71	det	_	_
+71	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	70	obl:npmod	_	_
+72	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	71	nmod:poss	_	_
 73-74	ⲛⲣⲣⲟ	_	_	_	_	_	_	_	_
 73	ⲛ	ⲛ	ADP	PREP	_	74	case	_	Orig=ⲛ̅
 74	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	70	obl	_	Entity=(person)|Orig=ⲣ̅ⲣⲟ
@@ -4483,8 +4483,8 @@
 87	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	88	mark	_	_
 88	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	86	acl:relcl	_	_
 89-90	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-89	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	86	advmod	_	_
-90	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	89	det	_	_
+89	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	86	obl:npmod	_	_
+90	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	89	nmod:poss	_	_
 91-93	ϩⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 91	ϩⲛ	ϩⲛ	ADP	PREP	_	93	case	_	Orig=ϩⲛ̅
 92	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	93	det	_	Entity=(abstract|Orig=ⲙ̅
@@ -4494,8 +4494,8 @@
 95	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	96	det	_	Entity=(place|Orig=ⲛ̅
 96	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	88	obl	_	OrigLang=grc
 97-98	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-97	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	86	advmod	_	_
-98	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	97	det	_	_
+97	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	86	obl:npmod	_	_
+98	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	97	nmod:poss	_	_
 99-101	ⲙⲡⲉⲭⲱⲣⲏⲙⲁ	_	_	_	_	_	_	_	_
 99	ⲙ	ⲛ	ADP	PREP	_	101	case	_	Orig=ⲙ̅
 100	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	101	det	_	Entity=(abstract
@@ -4510,30 +4510,30 @@
 107	·	·	PUNCT	PUNCT	_	19	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0061
-# text_en = ...
+# text_en = will also be kings and abide before those who receive the mystery of the First Mystery, expanded according to the glory of every one of them, so that those who receive the higher mysteries, will abide in the higher regions, and those who receive the lower mysteries, will abide in the lower regions, being kings in the light of my kingdom.
 # text = ⲥⲉⲛⲁⲣⲣⲣⲟ ϩⲱⲟⲩ ⲛⲥⲉϭⲱ ϩⲱⲟⲩ ⲙⲛⲛⲥⲁⲛⲉⲧϫⲓ ϩⲱⲟⲩ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ · ⲉⲩⲥⲱⲧⲏⲣ ⲉⲃⲟⲗ ⲕⲁⲧⲁⲡⲉⲟⲟⲩ ⲙⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲙⲙⲟⲟⲩ · ϩⲱⲥⲧⲉ ⲛⲉⲧϫⲓ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲟⲩⲟⲧⲃ ⲥⲉⲛⲁϭⲱ ϩⲛⲛⲧⲟⲡⲟⲥ ⲉⲧⲟⲩⲟⲧⲃ · ⲛⲉⲧϫⲓ ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲥⲟⲃⲕ · ⲥⲉⲛⲁϭⲱ ϩⲛⲛⲧⲟⲡⲟⲥ ⲉⲧⲥⲟⲃⲕ ⲉⲩⲟ ⲛⲣⲣⲟ ⲉⲩⲟ ⲛⲣⲣⲟ ϩⲣⲁⲓ ϩⲙⲡⲟⲩⲟⲉⲓⲛ ⲛⲧⲁⲙⲛⲧⲣⲣⲟ :
 1-3	ⲥⲉⲛⲁⲣⲣⲣⲟ	_	_	_	_	_	_	_	_
 1	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	ⲛⲁ	ⲛⲁ	AUX	FUT	_	3	aux	_	_
 3	ⲣⲣⲣⲟ	ⲣⲣⲣⲟ	VERB	V	VerbForm=Fin	0	root	_	Morphs=ⲣ-ⲣⲣⲟ|Orig=ⲣ̅ⲣ̅ⲣⲟ
 4-5	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-4	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	3	advmod	_	_
-5	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	det	_	_
+4	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	3	obl:npmod	_	_
+5	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 6-8	ⲛⲥⲉϭⲱ	_	_	_	_	_	_	_	_
 6	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	8	aux	_	Orig=ⲛ̅
 7	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
 8	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	3	advcl	_	_
 9-10	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-9	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	8	advmod	_	_
-10	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	9	det	_	_
+9	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	8	obl:npmod	_	_
+10	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
 11-14	ⲙⲛⲛⲥⲁⲛⲉⲧϫⲓ	_	_	_	_	_	_	_	_
 11	ⲙⲛⲛⲥⲁ	ⲙⲛⲛⲥⲁ	ADP	PREP	_	12	case	_	Orig=ⲙⲛ̅ⲛ̅ⲥⲁ
 12	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	8	obl	_	Entity=(abstract
 13	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	14	mark	_	_
 14	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	12	acl:relcl	_	_
 15-16	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-15	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	14	advmod	_	_
-16	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	15	det	_	_
+15	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	14	obl:npmod	_	_
+16	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
 17-19	ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 17	ⲙ	ⲛ	ADP	PREP	_	19	case	_	Orig=ⲙ̅
 18	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Entity=(abstract
@@ -4581,7 +4581,7 @@
 50-52	ⲥⲉⲛⲁϭⲱ	_	_	_	_	_	_	_	_
 50	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	52	nsubj	_	_
 51	ⲛⲁ	ⲛⲁ	AUX	FUT	_	52	aux	_	_
-52	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	8	advcl	_	_
+52	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	3	parataxis	_	_
 53-55	ϩⲛⲛⲧⲟⲡⲟⲥ	_	_	_	_	_	_	_	_
 53	ϩⲛ	ϩⲛ	ADP	PREP	_	55	case	_	Orig=ϩⲛ̅
 54	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	55	det	_	Entity=(place|Orig=ⲛ̅
@@ -4634,12 +4634,12 @@
 89	ⲟⲩⲟⲉⲓⲛ	ⲟⲩⲟⲉⲓⲛ	NOUN	N	_	83	obl	_	_
 90-92	ⲛⲧⲁⲙⲛⲧⲣⲣⲟ	_	_	_	_	_	_	_	_
 90	ⲛ	ⲛ	ADP	PREP	_	92	case	_	Orig=ⲛ̅
-91	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	92	det	_	Entity=(place
+91	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	92	nmod:poss	_	Entity=(place
 92	ⲙⲛⲧⲣⲣⲟ	ⲙⲛⲧⲣⲣⲟ	NOUN	N	_	89	nmod	_	Entity=place)abstract)|Morphs=ⲙⲛⲧ-ⲉⲣⲟ|Orig=ⲙⲛ̅ⲧⲉⲣⲟ
 93	:	:	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0062
-# text_en = ...
+# text_en = “These alone are the allotment of the kingdom of the first space of the Ineffable. |”
 # text = ⲛⲁⲓ ⲙⲙⲁⲧⲉ ⲛⲉ ⲡⲉⲕⲗⲏⲣⲟⲥ ⲛⲧⲙⲛⲧⲣⲣⲟ ⲛⲧⲉⲡⲓϣⲟⲣⲡ ⲛⲭⲱⲣⲏⲙⲁ ⲛⲧⲉⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ·
 1	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	0	root	_	Entity=(abstract|Orig=ⲛⲁⲓ̈
 2	ⲙⲙⲁⲧⲉ	ⲙⲙⲁⲧⲉ	ADV	ADV	_	1	advmod	_	Entity=abstract)|Orig=ⲙ̅ⲙⲁⲧⲉ
@@ -4668,22 +4668,22 @@
 19	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0063
-# text_en = ...
+# text_en = “They on the other hand who receive all the mysteries of the second space, that is of the space of the First Mystery,”
 # text = ⲛⲉⲧϫⲓ ϩⲱⲱϥ ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲧⲏⲣⲟⲩ ⲙⲡⲙⲉϩⲥⲛⲁⲩ ⲛⲭⲱⲣⲏⲙⲁ ⲉⲧⲉⲛⲧⲟϥ ⲡⲉ ⲡⲉⲭⲱⲣⲏⲙⲁ ⲛⲧⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ·
 1-3	ⲛⲉⲧϫⲓ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	0	root	_	Entity=(person
 2	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	3	mark	_	_
 3	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	1	acl:relcl	_	_
 4-5	ϩⲱⲱϥ	_	_	_	_	_	_	_	_
-4	ϩⲱⲱ	ϩⲱⲱ	ADV	IMOD	_	3	advmod	_	_
-5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	det	_	Entity=(abstract
+4	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	3	obl:npmod	_	_
+5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	nmod:poss	_	Entity=(abstract
 6-8	ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 6	ⲛ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲛ̅
 7	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	8	det	_	Orig=ⲙ̅
 8	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	ⲙⲩⲥⲧⲏⲣⲓⲟⲛ	NOUN	N	Foreign=Yes	3	obl	_	OrigLang=grc
 9-10	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-9	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	8	advmod	_	_
-10	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	9	det	_	_
+9	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	8	obl:npmod	_	_
+10	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
 11-13	ⲙⲡⲙⲉϩⲥⲛⲁⲩ	_	_	_	_	_	_	_	_
 11	ⲙ	ⲛ	ADP	PREP	_	13	case	_	Orig=ⲙ̅
 12	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Entity=(time
@@ -4708,15 +4708,15 @@
 26	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0064
-# text_en = ...
+# text_en = will again abide in the light of my kingdom, expanded according to the glory of every one of them, and every one of them being in the mystery up to which he hath received. And those who receive the higher mysteries, will also abide in the higher regions, and those who receive the lower mysteries, will abide in the lower regions in the light of my kingdom.
 # text = ⲥⲉⲛⲁϭⲱ ϩⲱⲟⲩ ⲟⲛ ϩⲣⲁⲓ ϩⲙⲡⲟⲩⲟⲉⲓⲛ ⲛⲧⲁⲙⲛⲧⲣⲣⲟ ⲉⲩⲥⲱⲧⲏⲣ ⲉⲃⲟⲗ ⲕⲁⲧⲁⲡⲉⲟⲟⲩ ⲙⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲙⲙⲟⲟⲩ · ⲉⲣⲉⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲙⲙⲟⲟⲩ ϣⲟⲟⲡ' ϩⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲁϥϫⲓ ϣⲁⲣⲟϥ · ⲁⲩⲱ ⲛⲉⲧϫⲓ ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲟⲩⲟⲧⲃⲥⲉⲛⲁϭⲱ ϩⲱⲟⲩ ϩⲛⲛⲧⲟⲡⲟⲥ ⲉⲧϫⲟⲥⲉ ⲁⲩⲱ ⲛⲉⲧϫⲓ ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲥⲟⲃⲕ · ⲉⲩⲛⲁϭⲱ ϩⲛⲛⲧⲟⲡⲟⲥ ⲉⲧⲥⲟⲃⲕ ϩⲣⲁⲓ ϩⲙⲡⲟⲩⲟⲉⲓⲛ ⲛⲧⲁⲙⲛⲧⲣⲣⲟ ·
 1-3	ⲥⲉⲛⲁϭⲱ	_	_	_	_	_	_	_	_
 1	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	ⲛⲁ	ⲛⲁ	AUX	FUT	_	3	aux	_	_
 3	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	0	root	_	_
 4-5	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-4	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	3	advmod	_	_
-5	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	det	_	_
+4	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	3	obl:npmod	_	_
+5	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 6	ⲟⲛ	ⲟⲛ	ADV	ADV	_	3	advmod	_	_
 7	ϩⲣⲁⲓ	ϩⲣⲁⲓ	ADV	ADV	_	3	advmod	_	Orig=ϩⲣⲁⲓ̈
 8-10	ϩⲙⲡⲟⲩⲟⲉⲓⲛ	_	_	_	_	_	_	_	_
@@ -4725,7 +4725,7 @@
 10	ⲟⲩⲟⲉⲓⲛ	ⲟⲩⲟⲉⲓⲛ	NOUN	N	_	3	obl	_	_
 11-13	ⲛⲧⲁⲙⲛⲧⲣⲣⲟ	_	_	_	_	_	_	_	_
 11	ⲛ	ⲛ	ADP	PREP	_	13	case	_	Orig=ⲛ̅
-12	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	13	det	_	Entity=(place
+12	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	Entity=(place
 13	ⲙⲛⲧⲣⲣⲟ	ⲙⲛⲧⲣⲣⲟ	NOUN	N	_	10	nmod	_	Entity=place)abstract)|Morphs=ⲙⲛⲧ-ⲉⲣⲟ|Orig=ⲙⲛ̅ⲧⲉⲣⲟ
 14-16	ⲉⲩⲥⲱⲧⲏⲣ	_	_	_	_	_	_	_	_
 14	ⲉ	ⲉ	ADP	PREP	_	16	case	_	_
@@ -4783,11 +4783,11 @@
 54-57	ⲉⲧⲟⲩⲟⲧⲃⲥⲉⲛⲁϭⲱ	_	_	_	_	_	_	_	_
 54	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	55	mark	_	_
 55	ⲟⲩⲟⲧⲃ	ⲟⲩⲱⲧⲃ	VERB	VSTAT	VerbForm=Fin	53	acl:relcl	_	Entity=abstract)abstract)|Orig=ⲟⲩⲟⲧⲃ̅
-56	ⲥⲉⲛⲁ	ⲥⲉⲛⲁ	NOUN	N	_	57	obl:npmod	_	Entity=(abstract)
-57	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	36	conj	_	_
+56	ⲥⲉⲛⲁ	ⲥⲉⲛⲁ	NOUN	N	_	57	nsubj	_	Entity=(abstract)
+57	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	3	parataxis	_	_
 58-59	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-58	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	57	advmod	_	_
-59	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	58	det	_	_
+58	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	57	obl:npmod	_	_
+59	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	58	nmod:poss	_	_
 60-62	ϩⲛⲛⲧⲟⲡⲟⲥ	_	_	_	_	_	_	_	_
 60	ϩⲛ	ϩⲛ	ADP	PREP	_	62	case	_	Orig=ϩⲛ̅
 61	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	62	det	_	Entity=(place|Orig=ⲛ̅
@@ -4827,12 +4827,12 @@
 87	ⲟⲩⲟⲉⲓⲛ	ⲟⲩⲟⲉⲓⲛ	NOUN	N	_	78	obl	_	_
 88-90	ⲛⲧⲁⲙⲛⲧⲣⲣⲟ	_	_	_	_	_	_	_	_
 88	ⲛ	ⲛ	ADP	PREP	_	90	case	_	Orig=ⲛ̅
-89	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	90	det	_	Entity=(place
+89	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	90	nmod:poss	_	Entity=(place
 90	ⲙⲛⲧⲣⲣⲟ	ⲙⲛⲧⲣⲣⲟ	NOUN	N	_	87	nmod	_	Entity=place)abstract)place)|Morphs=ⲙⲛⲧ-ⲉⲣⲟ|Orig=ⲙⲛ̅ⲧⲉⲣⲟ
 91	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0065
-# text_en = ...
+# text_en = “This is the allotment of the second king for those who receive the mystery of the second space of the First Mystery.”
 # text = ⲡⲁⲓ ⲡⲉ ⲡⲉⲕⲗⲏⲣⲟⲥ ⲙⲡⲙⲉϩⲥⲛⲁⲩ ⲛⲣⲣⲟ ⲛⲛⲉⲧϫⲓ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡⲙⲉϩⲥⲛⲁⲩ ⲛⲭⲱⲣⲏⲙⲁ ⲛⲧⲉⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ :
 1	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	0	root	_	Entity=(person)|Orig=ⲡⲁⲓ̈
 2	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	1	cop	_	_
@@ -4872,15 +4872,15 @@
 27	:	:	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0066
-# text_en = ...
+# text_en = “Those on the other hand who receive the mysteries of the third space, that is of the first space from without, those again will abide behind the second king, expanded in the light of my kingdom, according to the glory of every one of them, every one abiding in the region up to which he hath received mysteries, so that those who receive the higher mysteries, will abide in the higher regions, and those who receive the lower mysteries, will abide in the lower regions.”
 # text = ⲛⲉⲧϫⲓ ϩⲱⲟⲩ ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡⲙⲉϩⲥⲛⲁⲩ ⲛⲭⲱⲣⲏⲙⲁ ⲉⲧⲉⲛⲧⲟϥ ⲡⲉ ⲡϣⲟⲣⲡ ⲛⲭⲱⲣⲏⲙⲁ ϫⲓⲛⲡⲥⲁ ⲛⲃⲟⲗ . ⲛⲉⲧⲙⲙⲁⲩ ϩⲱⲟⲩ ⲟⲛ ⲥⲉⲛⲁϭⲱ ⲙⲛⲛⲥⲁⲡⲙⲉϩⲥⲛⲁⲩ ⲙⲣⲣⲟ ⲉⲩⲥⲱⲧⲏⲣ ⲉⲃⲟⲗ ϩⲱⲟⲩ ϩⲙⲡⲟⲩⲟⲉⲓⲛ ⲛⲧⲁⲙⲛⲧⲣⲣⲟ ⲕⲁⲧⲁⲡⲉⲟⲟⲩ ⲙⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲙⲙⲟⲟⲩ · ⲉⲣⲉⲡⲟⲩⲁ ⲡⲟⲩⲁ ⲛⲁϭⲱ ϩⲙⲡⲧⲟⲡⲟⲥ ⲛⲧⲁϥϫⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϣⲁⲣⲟϥ ϩⲱⲥⲧⲉ ⲛⲉⲧϫⲓ ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧϫⲟⲥⲉ ⲥⲉⲛⲁϭⲱ ϩⲱⲟⲩ ϩⲛⲛⲧⲟⲡⲟⲥ ⲉⲧϫⲟⲥⲉ · ⲁⲩⲱ ⲛⲉⲧϫⲓ ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲥⲟⲃⲕ' ⲥⲉⲛⲁϭⲱ ϩⲱⲟⲩ ϩⲛⲛⲧⲟⲡⲟⲥ ⲉⲧⲥⲟⲃⲕ ·
 1-3	ⲛⲉⲧϫⲓ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	35	dislocated	_	Entity=(person
 2	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	3	mark	_	_
 3	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	1	acl:relcl	_	_
 4-5	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-4	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	3	advmod	_	_
-5	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	det	_	_
+4	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	3	obl:npmod	_	_
+5	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 6-8	ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ	_	_	_	_	_	_	_	_
 6	ⲛ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲛ̅
 7	ⲙ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	8	det	_	Entity=(abstract|Orig=ⲙ̅
@@ -4898,7 +4898,7 @@
 16	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	15	cop	_	_
 17-18	ⲡϣⲟⲣⲡ	_	_	_	_	_	_	_	_
 17	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	Entity=(abstract
-18	ϣⲟⲣⲡ	ϣⲟⲣⲡ	NOUN	N	_	15	appos	_	Orig=ϣⲟⲣⲡ̅
+18	ϣⲟⲣⲡ	ϣⲟⲣⲡ	NOUN	N	_	15	nsubj	_	Orig=ϣⲟⲣⲡ̅
 19-20	ⲛⲭⲱⲣⲏⲙⲁ	_	_	_	_	_	_	_	_
 19	ⲛ	ⲛ	ADP	PREP	_	20	case	_	Orig=ⲛ̅
 20	ⲭⲱⲣⲏⲙⲁ	ⲭⲱⲣⲏⲙⲁ	NOUN	N	_	18	nmod	_	Entity=(abstract)abstract)
@@ -4911,12 +4911,12 @@
 25	ⲃⲟⲗ	ⲃⲟⲗ	NOUN	N	_	23	nmod	_	Entity=place)person)
 26	.	.	PUNCT	PUNCT	_	3	punct	_	_
 27-29	ⲛⲉⲧⲙⲙⲁⲩ	_	_	_	_	_	_	_	_
-27	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	91	dislocated	_	Entity=(person
+27	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	35	dislocated	_	Entity=(person
 28	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	29	mark	_	_
 29	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	27	acl:relcl	_	_
 30-31	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-30	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	70	advmod	_	_
-31	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	30	det	_	Entity=person)
+30	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	70	obl:npmod	_	_
+31	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	30	nmod:poss	_	Entity=person)
 32	ⲟⲛ	ⲟⲛ	ADV	ADV	_	35	advmod	_	_
 33-35	ⲥⲉⲛⲁϭⲱ	_	_	_	_	_	_	_	_
 33	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	35	nsubj	_	_
@@ -4932,18 +4932,18 @@
 41-43	ⲉⲩⲥⲱⲧⲏⲣ	_	_	_	_	_	_	_	_
 41	ⲉ	ⲉ	ADP	PREP	_	43	case	_	_
 42	ⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	43	det	_	Entity=(person
-43	ⲥⲱⲧⲏⲣ	ⲥⲱⲧⲏⲣ	NOUN	N	Foreign=Yes	38	nmod	_	Orig=ⲥⲏⲣ|OrigLang=grc
+43	ⲥⲱⲧⲏⲣ	ⲥⲱⲧⲏⲣ	NOUN	N	Foreign=Yes	40	nmod	_	Orig=ⲥⲏⲣ|OrigLang=grc
 44	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	43	advmod	_	_
 45-46	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-45	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	43	advmod	_	_
-46	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	45	det	_	Entity=person)
+45	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	43	obl:npmod	_	_
+46	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	45	nmod:poss	_	Entity=person)
 47-49	ϩⲙⲡⲟⲩⲟⲉⲓⲛ	_	_	_	_	_	_	_	_
 47	ϩⲙ	ϩⲛ	ADP	PREP	_	49	case	_	Orig=ϩⲙ̅
 48	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	Entity=(abstract
 49	ⲟⲩⲟⲉⲓⲛ	ⲟⲩⲟⲉⲓⲛ	NOUN	N	_	43	obl	_	_
 50-52	ⲛⲧⲁⲙⲛⲧⲣⲣⲟ	_	_	_	_	_	_	_	_
 50	ⲛ	ⲛ	ADP	PREP	_	52	case	_	Orig=ⲛ̅
-51	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	52	det	_	Entity=(place
+51	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	52	nmod:poss	_	Entity=(place
 52	ⲙⲛⲧⲣⲣⲟ	ⲙⲛⲧⲣⲣⲟ	NOUN	N	_	49	nmod	_	Entity=place)abstract)|Morphs=ⲙⲛⲧ-ⲉⲣⲟ|Orig=ⲙⲛ̅ⲧⲉⲣⲟ
 53-55	ⲕⲁⲧⲁⲡⲉⲟⲟⲩ	_	_	_	_	_	_	_	_
 53	ⲕⲁⲧⲁ	ⲕⲁⲧⲁ	ADP	PREP	Foreign=Yes	55	case	_	OrigLang=grc
@@ -4997,10 +4997,10 @@
 89-91	ⲥⲉⲛⲁϭⲱ	_	_	_	_	_	_	_	_
 89	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	91	nsubj	_	_
 90	ⲛⲁ	ⲛⲁ	AUX	FUT	_	91	aux	_	_
-91	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	35	conj	_	_
+91	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	35	advcl	_	_
 92-93	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-92	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	91	advmod	_	_
-93	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	92	det	_	_
+92	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	91	obl:npmod	_	_
+93	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	92	nmod:poss	_	_
 94-96	ϩⲛⲛⲧⲟⲡⲟⲥ	_	_	_	_	_	_	_	_
 94	ϩⲛ	ϩⲛ	ADP	PREP	_	96	case	_	Orig=ϩⲛ̅
 95	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	96	det	_	Entity=(place|Orig=ⲛ̅
@@ -5024,10 +5024,10 @@
 109-111	ⲥⲉⲛⲁϭⲱ	_	_	_	_	_	_	_	_
 109	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	111	nsubj	_	_
 110	ⲛⲁ	ⲛⲁ	AUX	FUT	_	111	aux	_	_
-111	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	35	conj	_	_
+111	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	91	conj	_	_
 112-113	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-112	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	111	advmod	_	_
-113	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	112	det	_	_
+112	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	111	obl:npmod	_	_
+113	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	112	nmod:poss	_	_
 114-116	ϩⲛⲛⲧⲟⲡⲟⲥ	_	_	_	_	_	_	_	_
 114	ϩⲛ	ϩⲛ	ADP	PREP	_	116	case	_	Orig=ϩⲛ̅
 115	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	116	det	_	Entity=(place|Orig=ⲛ̅
@@ -5038,7 +5038,7 @@
 119	·	·	PUNCT	PUNCT	_	35	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0067
-# text_en = ...
+# text_en = “These are the three allotments of the Light-kingdom. The mysteries of these three allotments of the Light are exceedingly numerous. Ye shall find them in the two great Books of Yew.”
 # text = ⲛⲁⲓ ⲛⲉ ⲡϣⲟⲙⲛⲧ ⲛⲕⲗⲏⲣⲟⲥ ⲛⲧⲉⲧⲙⲛⲧⲣⲣⲟ ⲙⲡⲟⲩⲟⲉⲓⲛ ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲛⲧⲉⲡⲉⲓϣⲟⲙⲛⲧ ⲛⲕⲗⲏⲣⲟⲥ ⲛⲧⲉⲡⲟⲩⲟⲉⲓⲛ ⲥⲉⲟϣ ⲉⲙⲁϣⲟ ⲉⲙⲁϣⲟ ⲧⲉⲧⲛⲛⲁϩⲉ ⲉⲣⲟⲟⲩ ϩⲙⲡⲛⲟϭ ⲥⲛⲁⲩ ⲛϫⲱⲱⲙⲉ ⲛⲓⲉⲟⲩ ·
 1	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	0	root	_	Entity=(abstract)|Orig=ⲛⲁⲓ̈
 2	ⲛⲉ	ⲡⲉ	PRON	COP	Number=Plur	1	cop	_	_
@@ -5097,7 +5097,7 @@
 41	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0068
-# text_en = ...
+# text_en = “But I will give you and tell you the great mysteries | of every allotment, those which are higher than every region, that is the heads according to every region and according to every order which will lead the whole race of men into the higher regions, according to the space of the Inheritance. Of the rest of the lower mysteries, therefore, ye have no need; but ye will find them in the two Books of Yew, which Enoch hath written whilst I spake with him out of the tree of gnosis and out of the tree of life in the paradise of Adam.”
 # text = ⲁⲗⲗⲁ ϯⲛⲁϯ ⲛⲏⲧⲛ ⲁⲩⲱ ϯⲛⲁϫⲱ ⲉⲣⲱⲧⲛ ⲛⲛⲛⲟϭ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡⲉⲕⲗⲏⲣⲟⲥ ⲡⲉ ⲕⲗⲏⲣⲟⲥ · ⲛⲁⲓ ⲉⲧⲟⲩⲟⲧⲃ ⲉⲡⲧⲟⲡⲟⲥ ⲡⲧⲟⲡⲟⲥ ⲉⲧⲉⲛⲧⲟⲟⲩ ⲡⲉ ⲛⲕⲉⲫⲁⲗⲏ ⲕⲁⲧⲁⲧⲟⲡⲟⲥ ⲁⲩⲱ ⲕⲁⲧⲁⲧⲁⲝⲓⲥ · ⲛⲁⲓ ⲉⲧⲛⲁϫⲓ ⲙⲡⲅⲉⲛⲟⲥ ⲧⲏⲣϥ ⲛⲧⲉⲧⲙⲛⲧⲣⲱⲙⲉ ⲉϩⲟⲩⲛ ⲉⲛⲧⲟⲡⲟⲥ ⲉⲧϫⲟⲥⲉ ⲕⲁⲧⲁⲡⲉⲭⲱⲣⲏⲙⲁ ⲛⲧⲉⲕⲗⲏⲣⲟⲛⲟⲙⲓⲁ ⲛⲧⲉⲡⲕⲉⲥⲉⲉⲡⲉ ⲟⲩⲛ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧⲥⲟⲃⲕ ⲛⲧⲉⲧⲛⲣⲭⲣⲉⲓⲁ ⲙⲙⲟⲟⲩ ⲁⲛ ⲁⲗⲗⲁ ⲧⲉⲧⲛⲛⲁϩⲉ ⲉⲣⲟⲟⲩ ϩⲓⲡϫⲱⲱⲙⲉ ⲥⲛⲁⲩ ⲛⲓⲉⲟⲩ · ⲛⲁⲓ ⲛⲧⲁϥⲥϩⲁⲓⲥⲟⲩ ⲛϭⲓⲉⲛⲱⲭ ⲉⲓϣⲁϫⲉ ⲛⲙⲙⲁϥ ⲉⲃⲟⲗ ϩⲙⲡϣⲏⲛ ⲙⲡⲥⲟⲟⲩⲛ ⲁⲩⲱ ⲉⲃⲟⲗ ϩⲙⲡϣⲏⲛ ⲙⲡⲱⲛϩ ϩⲣⲁⲓ ϩⲙⲡⲡⲁⲣⲁⲇⲓⲥⲟⲥ ⲛⲁⲇⲁⲙ ·
 1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	4	cc	_	OrigLang=grc
 2-4	ϯⲛⲁϯ	_	_	_	_	_	_	_	_
@@ -5165,8 +5165,8 @@
 48	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	Entity=(abstract
 49	ⲅⲉⲛⲟⲥ	ⲅⲉⲛⲟⲥ	NOUN	N	Foreign=Yes	46	obj	_	OrigLang=grc
 50-51	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-50	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	49	advmod	_	_
-51	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	50	det	_	Orig=ϥ̅
+50	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	49	obl:npmod	_	_
+51	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	50	nmod:poss	_	Orig=ϥ̅
 52-54	ⲛⲧⲉⲧⲙⲛⲧⲣⲱⲙⲉ	_	_	_	_	_	_	_	_
 52	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	54	case	_	Orig=ⲛ̅ⲧⲉ
 53	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	Entity=(abstract
@@ -5271,11 +5271,11 @@
 129	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0069
-# text_en = ...
+# text_en = “Now, therefore, when I shall have explained unto you the whole expansion, I will give you and tell you the great mysteries of the three allotments of my kingdom, that is the heads of the mysteries which I will give you and tell you in all their figures and all their types and in their ciphers and the seals of the last space, that is the first space from without.”
 # text = ⲧⲉⲛⲟⲩ ϭⲉ ⲟⲩⲛ ⲉⲓϣⲁⲛⲧⲟⲩⲱⲉⲓ ⲥⲱⲣ ⲛⲏⲧⲛ ⲉⲃⲟⲗ ⲙⲡⲥⲱⲣ ⲉⲃⲟⲗ ⲧⲏⲣϥ ϯⲛⲁϯ ⲛⲏⲧⲛ ⲁⲩⲱ ϯⲛⲁϫⲱ ⲉⲣⲱⲧⲛ ⲛⲛⲛⲟϭ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡϣⲟⲙⲛⲧ ⲛⲕⲗⲏⲣⲟⲥ ⲛⲧⲁⲙⲛⲧⲣⲣⲟ · ⲉⲧⲉⲛⲧⲟⲟⲩ ⲛⲉ ⲛⲕⲉⲫⲁⲗⲏ ⲛⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉϯⲛⲁⲧⲁⲁⲩ ⲛⲏⲧⲛ · ⲁⲩⲱ ⲉϯⲛⲁϫⲟⲟⲩ ⲉⲣⲱⲧⲛ ϩⲛⲛⲉⲩⲥⲭⲏⲙⲁ ⲧⲏⲣⲟⲩ ⲙⲛⲛⲉⲩⲧⲩⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲙⲛⲛⲉⲩⲯⲏⲫⲟⲥ · ⲙⲛⲛⲉⲥⲫⲣⲁⲅⲓⲥ ⲙⲡϩⲁⲉ ⲛⲭⲱⲣⲏⲙⲁ · ⲉⲧⲉⲛⲧⲟϥ ⲡⲉ ⲡϣⲟⲣⲡ ⲛⲭⲱⲣⲏⲙⲁ ϫⲓⲛⲡⲥⲁ ⲛⲃⲟⲗ ·
-1	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	4	advmod	_	_
+1	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	19	advmod	_	_
 2	ϭⲉ	ϭⲉ	PART	PTC	_	19	advmod	_	_
-3	ⲟⲩⲛ	ⲟⲩⲛ	PART	PTC	_	4	advmod	_	_
+3	ⲟⲩⲛ	ⲟⲩⲛ	PART	PTC	_	4	det	_	_
 4-6	ⲉⲓϣⲁⲛⲧⲟⲩⲱⲉⲓ	_	_	_	_	_	_	_	_
 4	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	19	advcl	_	Orig=ⲉⲓ̈
 5	ϣⲁⲛⲧ	ϣⲁⲛⲧⲉ	AUX	ALIM	_	7	aux	_	Orig=ϣⲁⲛ
@@ -5291,8 +5291,8 @@
 13	ⲥⲱⲣ	ⲥⲱⲣ	NOUN	N	_	7	obl	_	_
 14	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	7	advmod	_	_
 15-16	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-15	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	13	advmod	_	_
-16	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	15	det	_	Entity=abstract)|Orig=ϥ̅
+15	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	13	obl:npmod	_	_
+16	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	15	nmod:poss	_	Entity=abstract)|Orig=ϥ̅
 17-19	ϯⲛⲁϯ	_	_	_	_	_	_	_	_
 17	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
 18	ⲛⲁ	ⲛⲁ	AUX	FUT	_	19	aux	_	_
@@ -5321,10 +5321,10 @@
 35	ϣⲟⲙⲛⲧ	ϣⲟⲙⲛⲧ	NUM	NUM	NumType=Card	37	nummod	_	Orig=ϣⲟⲙⲛ̅ⲧ
 36-37	ⲛⲕⲗⲏⲣⲟⲥ	_	_	_	_	_	_	_	_
 36	ⲛ	ⲛ	ADP	PREP	_	37	case	_	Orig=ⲛ̅
-37	ⲕⲗⲏⲣⲟⲥ	ⲕⲗⲏⲣⲟⲥ	NOUN	N	Foreign=Yes	68	nmod	_	OrigLang=grc
+37	ⲕⲗⲏⲣⲟⲥ	ⲕⲗⲏⲣⲟⲥ	NOUN	N	Foreign=Yes	30	nmod	_	OrigLang=grc
 38-40	ⲛⲧⲁⲙⲛⲧⲣⲣⲟ	_	_	_	_	_	_	_	_
 38	ⲛ	ⲛ	ADP	PREP	_	40	case	_	Orig=ⲛ̅
-39	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	40	det	_	Entity=(place
+39	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	40	nmod:poss	_	Entity=(place
 40	ⲙⲛⲧⲣⲣⲟ	ⲙⲛⲧⲣⲣⲟ	NOUN	N	_	37	nmod	_	Entity=place)|Morphs=ⲙⲛⲧ-ⲉⲣⲟ|Orig=ⲙⲛ̅ⲧⲉⲣⲟ
 41	·	·	PUNCT	PUNCT	_	40	punct	_	_
 42-43	ⲉⲧⲉⲛⲧⲟⲟⲩ	_	_	_	_	_	_	_	_
@@ -5360,21 +5360,21 @@
 65	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	62	obl	_	Orig=ⲧⲛ̅
 66-68	ϩⲛⲛⲉⲩⲥⲭⲏⲙⲁ	_	_	_	_	_	_	_	_
 66	ϩⲛ	ϩⲛ	ADP	PREP	_	68	case	_	Orig=ϩⲛ̅
-67	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	68	det	_	Entity=(abstract
+67	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	68	nmod:poss	_	Entity=(abstract
 68	ⲥⲭⲏⲙⲁ	ⲥⲭⲏⲙⲁ	NOUN	N	Foreign=Yes	62	obl	_	OrigLang=grc
 69-70	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-69	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	68	advmod	_	_
-70	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	69	det	_	_
+69	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	68	obl:npmod	_	_
+70	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	69	nmod:poss	_	_
 71-73	ⲙⲛⲛⲉⲩⲧⲩⲡⲟⲥ	_	_	_	_	_	_	_	_
 71	ⲙⲛ	ⲙⲛ	ADP	PREP	_	73	cc	_	Orig=ⲙⲛ̅
-72	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	73	det	_	Entity=(person
+72	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	73	nmod:poss	_	Entity=(person
 73	ⲧⲩⲡⲟⲥ	ⲧⲩⲡⲟⲥ	NOUN	N	Foreign=Yes	68	conj	_	OrigLang=grc
 74-75	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-74	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	73	advmod	_	_
-75	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	74	det	_	Entity=person)abstract)
+74	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	73	obl:npmod	_	_
+75	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	74	nmod:poss	_	Entity=person)abstract)
 76-78	ⲙⲛⲛⲉⲩⲯⲏⲫⲟⲥ	_	_	_	_	_	_	_	_
 76	ⲙⲛ	ⲙⲛ	ADP	PREP	_	78	cc	_	Orig=ⲙⲛ̅
-77	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	78	det	_	Entity=(person
+77	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	78	nmod:poss	_	Entity=(person
 78	ⲯⲏⲫⲟⲥ	ⲯⲏⲫⲟⲥ	NOUN	N	Foreign=Yes	68	conj	_	Entity=person)|OrigLang=grc
 79	·	·	PUNCT	PUNCT	_	82	punct	_	_
 80-82	ⲙⲛⲛⲉⲥⲫⲣⲁⲅⲓⲥ	_	_	_	_	_	_	_	_
@@ -5409,7 +5409,7 @@
 101	·	·	PUNCT	PUNCT	_	19	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0070
-# text_en = ...
+# text_en = “And I will tell you the answers and the apologies and the tokens of that space. The second space which is within, possesseth no answers nor apologies nor tokens nor ciphers nor seals; but it possesseth only types and figures.”
 # text = ⲁⲩⲱ ϯⲛⲁϫⲱ ⲉⲣⲱⲧⲛ ⲛⲛⲁⲡⲟⲫⲁⲥⲓⲥ ⲙⲛⲛⲁⲡⲟⲗⲟⲅⲓⲁ ⲙⲛⲛⲥⲩⲙⲃⲟⲗⲟⲛ ⲙⲡⲉⲭⲱⲣⲏⲙⲁ ⲉⲧⲙⲙⲁⲩ · ⲡⲙⲉϩⲥⲛⲁⲩ ⲛⲧⲟϥ ⲛⲭⲱⲣⲏⲙⲁ ⲉⲡⲥⲁ ⲛϩⲟⲩⲛ · ⲙⲛⲧⲟⲩⲁⲡⲟⲫⲁⲥⲓⲥ ⲙⲙⲁⲩ ⲟⲩⲇⲉ ⲁⲡⲟⲗⲟⲅⲓⲁ ⲟⲩⲇⲉ ⲥⲩⲙⲃⲟⲗⲟⲛ · ⲟⲩⲇⲉ ⲯⲏⲫⲟⲥ ⲟⲩⲇⲉ ⲥⲫⲣⲁⲅⲓⲥ · ⲁⲗⲗⲁ ϩⲉⲛⲧⲩⲡⲟⲥ ⲙⲙⲁⲧⲉ ⲛⲉ ⲙⲛϩⲉⲛⲥⲭⲏⲙⲁ ⲛⲉⲧⲛⲧⲁⲩⲟ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2-4	ϯⲛⲁϫⲱ	_	_	_	_	_	_	_	_
@@ -5454,7 +5454,7 @@
 31	·	·	PUNCT	PUNCT	_	34	punct	_	_
 32-34	ⲙⲛⲧⲟⲩⲁⲡⲟⲫⲁⲥⲓⲥ	_	_	_	_	_	_	_	_
 32	ⲙⲛ	ⲙⲛ	ADP	PREP	_	34	cc	_	Orig=ⲙⲛ̅
-33	ⲧⲟⲩ	ⲡⲟⲩ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	34	det	_	Entity=(abstract
+33	ⲧⲟⲩ	ⲡⲟⲩ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	34	nmod:poss	_	Entity=(abstract
 34	ⲁⲡⲟⲫⲁⲥⲓⲥ	ⲁⲡⲟⲫⲁⲥⲓⲥ	NOUN	N	Foreign=Yes	9	conj	_	Entity=abstract)|OrigLang=grc
 35	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	34	advmod	_	Entity=place)|Orig=ⲙ̅ⲙⲁⲩ
 36	ⲟⲩⲇⲉ	ⲟⲩⲇⲉ	CCONJ	CONJ	Foreign=Yes|Polarity=Neg	37	cc	_	OrigLang=grc
@@ -5485,12 +5485,12 @@
 58	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0071
-# text_en = ...
+# text_en = “When the Saviour had finished saying all this unto his disciples, | Andrew came forward and said: My Lord, be not wroth with me, but have mercy upon me and reveal unto me the mystery of the word concerning which I shall question thee, for it hath been hard for me and I have not understood it.”
 # text = ⲛⲁⲓ ⲧⲏⲣⲟⲩ ⲛⲧⲉⲣⲉϥⲟⲩⲱ ⲉϥϫⲱ ⲙⲙⲟⲟⲩ ⲛϭⲓⲡⲥⲱⲧⲏⲣ ⲉⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲁϥⲉⲓ ⲉⲧϩⲏ ⲛϭⲓⲁⲛⲇⲣⲉⲁⲥ ⲡⲉϫⲁϥ ϫⲉⲡⲁϫⲟⲉⲓⲥ ⲙⲡⲣϭⲱⲛⲧ ⲉⲣⲟⲓ · ⲁⲗⲗⲁ ϣⲛϩⲧⲏⲕ ϩⲁⲣⲟⲓ ⲁⲩⲱ ⲛⲅϭⲱⲗⲡ ⲛⲁⲓ ⲉⲃⲟⲗ ⲙⲡⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲙⲡϣⲁϫⲉ ⲉϯⲛⲁϫⲛⲟⲩⲕ ⲉⲣⲟϥ ⲉⲙⲙⲟⲛ ⲁϥϣⲱⲡⲉ ⲉϥⲛⲁϣⲧ ⲛⲛⲁϩⲣⲁⲓ ⲁⲩⲱ ⲙⲡⲓⲛⲟⲉⲓ ⲙⲙⲟϥ :
 1	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	6	dislocated	_	Entity=(abstract|Orig=ⲛⲁⲓ̈
 2-3	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-2	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	1	advmod	_	_
-3	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	2	det	_	Entity=abstract)
+2	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	1	obl:npmod	_	_
+3	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	2	nmod:poss	_	Entity=abstract)
 4-6	ⲛⲧⲉⲣⲉϥⲟⲩⲱ	_	_	_	_	_	_	_	_
 4	ⲛⲧⲉⲣⲉ	ⲛⲧⲉⲣⲉ	AUX	APREC	_	6	aux	_	Orig=ⲛ̅ⲧⲉⲣⲉ
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -5508,7 +5508,7 @@
 14	ⲥⲱⲧⲏⲣ	ⲥⲱⲧⲏⲣ	NOUN	N	Foreign=Yes	9	dislocated	_	Entity=person)|OrigLang=grc
 15-17	ⲉⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ	_	_	_	_	_	_	_	_
 15	ⲉ	ⲉ	ADP	PREP	_	17	case	_	_
-16	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	Entity=(person
+16	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	Entity=(person
 17	ⲙⲁⲑⲏⲧⲏⲥ	ⲙⲁⲑⲏⲧⲏⲥ	NOUN	N	Foreign=Yes	9	obl	_	Entity=person)|OrigLang=grc
 18-20	ⲁϥⲉⲓ	_	_	_	_	_	_	_	_
 18	ⲁ	ⲁ	AUX	APST	_	20	aux	_	_
@@ -5526,7 +5526,7 @@
 27	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 28-30	ϫⲉⲡⲁϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 28	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	32	mark	_	_
-29	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	30	det	_	Entity=(person
+29	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	30	nmod:poss	_	Entity=(person
 30	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	32	vocative	_	Entity=person)
 31-32	ⲙⲡⲣϭⲱⲛⲧ	_	_	_	_	_	_	_	_
 31	ⲙⲡⲣ	ⲙⲡⲣ	ADV	NEG	Polarity=Neg	32	advmod	_	Orig=ⲙ̅ⲡⲣ̅
@@ -5539,7 +5539,7 @@
 37-39	ϣⲛϩⲧⲏⲕ	_	_	_	_	_	_	_	_
 37	ϣⲛ	ϣⲓⲛⲉ	VERB	V	VerbForm=Fin	32	conj	_	Orig=ϣⲛ̅
 38	ϩⲧⲏ	ϩⲏⲧ	NOUN	N	_	37	obj	_	_
-39	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	38	det	_	_
+39	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	38	nmod:poss	_	_
 40-41	ϩⲁⲣⲟⲓ	_	_	_	_	_	_	_	_
 40	ϩⲁⲣⲟ	ϩⲁ	ADP	PREP	_	41	case	_	_
 41	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	37	obl	_	Orig=ⲓ̈
@@ -5564,7 +5564,7 @@
 55	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	58	mark	_	_
 56	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	58	nsubj	_	_
 57	ⲛⲁ	ⲛⲁ	AUX	FUT	_	58	aux	_	_
-58	ϫⲛⲟⲩ	ϫⲛⲟⲩ	VERB	V	VerbForm=Fin	45	advcl	_	_
+58	ϫⲛⲟⲩ	ϫⲛⲟⲩ	VERB	V	VerbForm=Fin	51	acl:relcl	_	_
 59	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	58	obj	_	_
 60-61	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 60	ⲉⲣⲟ	ⲉ	ADP	PREP	_	61	case	_	Orig=ⲉ̇ⲣⲟ
@@ -5594,7 +5594,7 @@
 78	:	:	PUNCT	PUNCT	_	20	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0072
-# text_en = ...
+# text_en = “The Saviour answered and said unto him: Question concerning that on which thou desirest to question, and I will reveal it unto thee face to face without similitude.”
 # text = ⲁϥⲟⲩⲱϩⲙ ⲛϭⲓⲡⲥⲱⲧⲏⲣ ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉϣⲓⲛⲉ ⲛⲥⲁⲡⲉⲧⲕⲟⲩⲉϣϣⲓⲛⲉ ⲛⲥⲱϥ · ⲁⲩⲱ ϯⲛⲁϭⲟⲗⲡϥ ⲛⲁⲕ ⲉⲃⲟⲗ ⲛϩⲟ ⲟⲩⲃⲉϩⲟ ⲁϫⲛⲡⲁⲣⲁⲡⲟⲗⲏ ·
 1-3	ⲁϥⲟⲩⲱϩⲙ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
@@ -5642,11 +5642,11 @@
 33	ϩⲟ	ϩⲟ	NOUN	N	_	25	obl	_	Entity=(abstract
 34-35	ⲁϫⲛⲡⲁⲣⲁⲡⲟⲗⲏ	_	_	_	_	_	_	_	_
 34	ⲁϫⲛ	ⲁϫⲛ	ADP	PREP	_	35	case	_	Orig=ⲁϫⲛ̅
-35	ⲡⲁⲣⲁⲡⲟⲗⲏ	ⲡⲁⲣⲁⲡⲟⲗⲏ	NOUN	N	Foreign=Yes	25	obl	_	Entity=(abstract)abstract)object)|OrigLang=grc
+35	ⲡⲁⲣⲁⲡⲟⲗⲏ	ⲡⲁⲣⲁⲡⲟⲗⲏ	NOUN	N	Foreign=Yes	33	nmod	_	Entity=(abstract)abstract)object)|OrigLang=grc
 36	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0073
-# text_en = ...
+# text_en = “And Andrew answered and said: My Lord, I am astonished and marvel exceedingly, how the men who are in the world and in the body of this matter, if they come forth out of this world, will pass through these firmaments and all these rulers and all lords and all gods and all these great invisibles and all those of the region of the Midst and those of the whole region of the Right and all the great [ones] of the emanations of the Light, and enter into them all and inherit the Light-kingdom.”
 # text = ⲁϥⲟⲩⲱϩⲙ ⲇⲉ ⲛϭⲓⲁⲛⲇⲣⲉⲁⲥ ⲡⲉϫⲁϥ ϫⲉⲡⲁϫⲟⲉⲓⲥ ⲉⲓⲣϣⲡⲏⲣⲉ ⲁⲩⲱ ⲉⲓⲑⲁⲩⲙⲁⲍⲉ ⲉⲙⲁϣⲟ · ϫⲉⲛⲣⲱⲙⲉ ⲉⲧϩⲛⲡⲕⲟⲥⲙⲟⲥ ⲉⲧϩⲛⲡⲥⲱⲙⲁ ⲛⲧⲉⲓϩⲩⲗⲏ ⲡⲱⲥ ⲉⲩϣⲁⲛⲉⲓ ⲉⲃⲟⲗ ϩⲙⲡⲉⲓⲕⲟⲥⲙⲟⲥ ⲥⲉⲛⲁⲟⲩⲱⲧⲃ ⲛⲛⲉⲓⲥⲧⲉⲣⲉⲱⲙⲁ ⲙⲛⲛⲉⲓⲁⲣⲭⲱⲛ ⲧⲏⲣⲟⲩ . ⲙⲛⲛϫⲟⲉⲓⲥ ⲧⲏⲣⲟⲩ · ⲙⲛⲛⲛⲟⲩⲧⲉ ⲧⲏⲣⲟⲩ · ⲙⲛⲛⲉⲓⲛⲟϭ ⲧⲏⲣⲟⲩ ⲛⲁϩⲟⲣⲁⲧⲟⲥ ⲙⲛⲛⲁⲡⲧⲟⲡⲟⲥ ⲧⲏⲣⲟⲩ ⲛⲛⲁⲧⲙⲉⲥⲟⲥ · ⲁⲩⲱ ⲙⲛⲛⲁⲡⲧⲟⲡⲟⲥ ⲧⲏⲣϥ ⲛⲛⲁⲟⲩⲛⲁⲙ · ⲙⲛⲛⲛⲟϭ ⲧⲏⲣⲟⲩ ⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲛⲧⲉⲛⲁⲟⲩⲛⲁⲙ · ⲛⲥⲉⲣⲡⲉⲩϩⲟⲩⲛ ⲧⲏⲣⲟⲩ ⲛⲥⲉⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ ⲛⲧⲙⲛⲧⲣⲣⲟ ⲙⲡⲟⲩⲟⲉⲓⲛ ·
 1-3	ⲁϥⲟⲩⲱϩⲙ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
@@ -5661,7 +5661,7 @@
 8	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 9-11	ϫⲉⲡⲁϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 9	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	14	mark	_	_
-10	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	11	det	_	Entity=(person
+10	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	Entity=(person
 11	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	14	vocative	_	Entity=person)
 12-14	ⲉⲓⲣϣⲡⲏⲣⲉ	_	_	_	_	_	_	_	_
 12	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	14	mark	_	_
@@ -5675,7 +5675,7 @@
 19	ⲉⲙⲁϣⲟ	ⲉⲙⲁϣⲟ	ADV	ADV	_	18	ccomp	_	_
 20	·	·	PUNCT	PUNCT	_	44	punct	_	_
 21-23	ϫⲉⲛⲣⲱⲙⲉ	_	_	_	_	_	_	_	_
-21	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	44	mark	_	_
+21	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	109	mark	_	_
 22	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	23	det	_	Entity=(person|Orig=ⲛ̅
 23	ⲣⲱⲙⲉ	ⲣⲱⲙⲉ	NOUN	N	_	44	dislocated	_	_
 24-27	ⲉⲧϩⲛⲡⲕⲟⲥⲙⲟⲥ	_	_	_	_	_	_	_	_
@@ -5704,7 +5704,7 @@
 42-44	ⲥⲉⲛⲁⲟⲩⲱⲧⲃ	_	_	_	_	_	_	_	_
 42	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	44	nsubj	_	_
 43	ⲛⲁ	ⲛⲁ	AUX	FUT	_	44	aux	_	_
-44	ⲟⲩⲱⲧⲃ	ⲟⲩⲱⲧⲃ	VERB	V	VerbForm=Fin	14	advcl	_	Orig=ⲟⲩⲱⲧⲃ̅
+44	ⲟⲩⲱⲧⲃ	ⲟⲩⲱⲧⲃ	VERB	V	VerbForm=Fin	14	parataxis	_	Orig=ⲟⲩⲱⲧⲃ̅
 45-47	ⲛⲛⲉⲓⲥⲧⲉⲣⲉⲱⲙⲁ	_	_	_	_	_	_	_	_
 45	ⲛ	ⲛ	ADP	PREP	_	47	case	_	Orig=ⲛ̅
 46	ⲛⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	47	det	_	Entity=(place|Orig=ⲛⲉⲓ̈
@@ -5714,32 +5714,32 @@
 49	ⲛⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	50	det	_	Entity=(person|Orig=ⲛⲉⲓ̈
 50	ⲁⲣⲭⲱⲛ	ⲁⲣⲭⲱⲛ	NOUN	N	Foreign=Yes	47	conj	_	OrigLang=grc
 51-52	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-51	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	50	advmod	_	_
-52	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	51	det	_	Entity=person)
+51	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	50	obl:npmod	_	_
+52	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	51	nmod:poss	_	Entity=person)
 53	.	.	PUNCT	PUNCT	_	47	punct	_	_
 54-56	ⲙⲛⲛϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 54	ⲙⲛ	ⲙⲛ	ADP	PREP	_	68	cc	_	Orig=ⲙⲛ̅
 55	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	56	det	_	Entity=(person|Orig=ⲛ̅
 56	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	47	conj	_	_
 57-58	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-57	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	68	advmod	_	_
-58	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	57	det	_	Entity=person)
+57	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	56	obl:npmod	_	_
+58	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	57	nmod:poss	_	Entity=person)
 59	·	·	PUNCT	PUNCT	_	57	punct	_	_
 60-62	ⲙⲛⲛⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
-60	ⲙⲛ	ⲙⲛ	ADP	PREP	_	76	cc	_	Orig=ⲙⲛ̅
+60	ⲙⲛ	ⲙⲛ	ADP	PREP	_	68	cc	_	Orig=ⲙⲛ̅
 61	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	62	det	_	Entity=(person|Orig=ⲛ̅
 62	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	47	conj	_	_
 63-64	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-63	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	68	advmod	_	_
-64	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	63	det	_	Entity=person)
+63	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	68	obl:npmod	_	_
+64	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	63	nmod:poss	_	Entity=person)
 65	·	·	PUNCT	PUNCT	_	63	punct	_	_
 66-68	ⲙⲛⲛⲉⲓⲛⲟϭ	_	_	_	_	_	_	_	_
 66	ⲙⲛ	ⲙⲛ	ADP	PREP	_	68	cc	_	Orig=ⲙⲛ̅
 67	ⲛⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	68	det	_	Entity=(abstract|Orig=ⲛⲉⲓ̈
 68	ⲛⲟϭ	ⲛⲟϭ	NOUN	N	_	47	conj	_	_
 69-70	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-69	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	68	advmod	_	_
-70	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	57	det	_	_
+69	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	68	obl:npmod	_	_
+70	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	57	nmod:poss	_	_
 71-72	ⲛⲁϩⲟⲣⲁⲧⲟⲥ	_	_	_	_	_	_	_	_
 71	ⲛ	ⲛ	ADP	PREP	_	72	case	_	Orig=ⲛ̅
 72	ⲁϩⲟⲣⲁⲧⲟⲥ	ⲁϩⲟⲣⲁⲧⲟⲥ	NOUN	N	Foreign=Yes	68	nmod	_	Entity=(person)|OrigLang=grc
@@ -5749,8 +5749,8 @@
 75	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	76	det	_	Entity=(place
 76	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	68	nmod	_	OrigLang=grc
 77-78	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-77	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	68	advmod	_	_
-78	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	57	det	_	Entity=place)
+77	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	68	obl:npmod	_	_
+78	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	57	nmod:poss	_	Entity=place)
 79-82	ⲛⲛⲁⲧⲙⲉⲥⲟⲥ	_	_	_	_	_	_	_	_
 79	ⲛ	ⲛ	ADP	PREP	_	80	case	_	Orig=ⲛ̅
 80	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	76	nmod	_	_
@@ -5764,38 +5764,38 @@
 87	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	88	det	_	Entity=(place
 88	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	86	nmod	_	OrigLang=grc
 89-90	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-89	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	86	advmod	_	_
-90	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	98	det	_	Entity=place)person)|Orig=ϥ̅
+89	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	86	obl:npmod	_	_
+90	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	89	nmod:poss	_	Entity=place)person)|Orig=ϥ̅
 91-93	ⲛⲛⲁⲟⲩⲛⲁⲙ	_	_	_	_	_	_	_	_
 91	ⲛ	ⲛ	ADP	PREP	_	93	case	_	Orig=ⲛ̅
-92	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	93	det	_	Entity=(object
+92	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	93	nmod:poss	_	Entity=(object
 93	ⲟⲩⲛⲁⲙ	ⲟⲩⲛⲁⲙ	NOUN	N	_	88	nmod	_	Entity=object)
-94	·	·	PUNCT	PUNCT	_	93	punct	_	_
+94	·	·	PUNCT	PUNCT	_	97	punct	_	_
 95-97	ⲙⲛⲛⲛⲟϭ	_	_	_	_	_	_	_	_
 95	ⲙⲛ	ⲙⲛ	ADP	PREP	_	97	cc	_	Orig=ⲙⲛ̅
 96	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	97	det	_	Entity=(person|Orig=ⲛ̅
 97	ⲛⲟϭ	ⲛⲟϭ	NOUN	N	_	47	conj	_	_
 98-99	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-98	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	97	advmod	_	_
-99	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	98	det	_	_
+98	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	97	obl:npmod	_	_
+99	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	98	nmod:poss	_	_
 100-102	ⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ	_	_	_	_	_	_	_	_
 100	ⲛ	ⲛ	ADP	PREP	_	102	case	_	Orig=ⲛ̅
 101	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	102	det	_	Entity=(place
 102	ⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ	ⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ	NOUN	N	Foreign=Yes	97	nmod	_	OrigLang=grc
 103-105	ⲛⲧⲉⲛⲁⲟⲩⲛⲁⲙ	_	_	_	_	_	_	_	_
 103	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	105	case	_	Orig=ⲛ̅ⲧⲉ
-104	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	105	det	_	Entity=(object
+104	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	105	nmod:poss	_	Entity=(object
 105	ⲟⲩⲛⲁⲙ	ⲟⲩⲛⲁⲙ	NOUN	N	_	102	nmod	_	Entity=object)place)person)
 106	·	·	PUNCT	PUNCT	_	109	punct	_	_
 107-111	ⲛⲥⲉⲣⲡⲉⲩϩⲟⲩⲛ	_	_	_	_	_	_	_	_
 107	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	109	aux	_	Orig=ⲛ̅
 108	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	109	nsubj	_	_
 109	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	44	advcl	_	Orig=ⲣ̅
-110	ⲡⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	111	det	_	Entity=(abstract
+110	ⲡⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	111	nmod:poss	_	Entity=(abstract
 111	ϩⲟⲩⲛ	ϩⲟⲩⲛ	NOUN	N	_	109	obj	_	_
 112-113	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-112	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	111	advmod	_	_
-113	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	112	det	_	Entity=abstract)
+112	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	111	obl:npmod	_	_
+113	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	112	nmod:poss	_	Entity=abstract)
 114-116	ⲛⲥⲉⲕⲗⲏⲣⲟⲛⲟⲙⲉⲓ	_	_	_	_	_	_	_	_
 114	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	116	aux	_	Orig=ⲛ̅
 115	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	116	nsubj	_	_
@@ -5811,14 +5811,14 @@
 123	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0074
-# text_en = ...
+# text_en = “This matter, therefore, is hard for me.”
 # text = ⲛⲉⲓϩⲱⲃ ⲟⲩⲛ ⲡⲁϫⲟⲉⲓⲥ ϥⲙⲟⲕϩ ⲛⲛⲁϩⲣⲁⲓ ·
 1-2	ⲛⲉⲓϩⲱⲃ	_	_	_	_	_	_	_	_
 1	ⲛⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	2	det	_	Entity=(abstract|Orig=ⲛⲉⲓ̈
 2	ϩⲱⲃ	ϩⲱⲃ	NOUN	N	_	7	dislocated	_	_
 3	ⲟⲩⲛ	ⲟⲩⲛ	PART	PTC	_	7	advmod	_	_
 4-5	ⲡⲁϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
-4	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
+4	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
 5	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	7	vocative	_	Entity=abstract)
 6-7	ϥⲙⲟⲕϩ	_	_	_	_	_	_	_	_
 6	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -5829,7 +5829,7 @@
 10	·	·	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0075
-# text_en = ...
+# text_en = “When then Andrew had said this, the spirit of the Saviour was roused in him; he cried out and said: How long am I to endure you? How long am I to bear with you? Have ye then not even yet understood and are ye ignorant? Know ye then not and do ye not understand that ye and all angels and all archangels and the gods and the lords and all the rulers and all the great invisibles | and all those of the Midst and those of the whole region of the Right and all the great [ones] of the emanations of the Light and their whole glory,”
 # text = ⲛⲁⲓ ϭⲉ ⲛⲧⲉⲣⲉϥϫⲟⲟⲩ ⲛϭⲓⲁⲛⲇⲣⲉⲁⲥ ⲁⲡⲉⲡⲛⲉⲩⲙⲁ ⲙⲡⲥⲱⲣ ⲕⲓⲙ ϩⲣⲁⲓ ⲛϩⲏⲧϥ · ⲁϥⲱϣ ⲉⲃⲟⲗ ⲡⲉϫⲁϥ ϫⲉϩⲉⲱⲥ ϣⲁⲧⲛⲁⲩ ⲉⲓⲛⲁϥⲓ ϩⲁⲣⲱⲧⲛ · ϩⲉⲱⲥ ϣⲁⲧⲛⲁⲩ ⲉⲓⲛⲁⲁⲛⲉⲭⲉ ⲙⲙⲱⲧⲛ · ⲉⲓⲧⲉ ⲁⲕⲙⲏⲛ ⲟⲛ ⲙⲡⲉⲧⲛⲛⲟⲉⲓ ⲁⲩⲱ ⲧⲉⲧⲛⲟ ⲛⲁⲧⲥⲟⲟⲩⲛ ⲉⲓⲉ ⲛⲧⲉⲧⲛⲥⲟⲟⲩⲛ ⲁⲛ ⲛⲧⲱⲧⲛ ⲁⲩⲱ ⲛⲧⲉⲧⲛⲛⲟⲉⲓ ⲁⲛ ϫⲉⲛⲧⲱⲧⲛ ⲙⲛⲛⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ · ⲙⲛⲛⲁⲣⲭⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ · ⲙⲛⲛⲛⲟⲩⲧⲉ ⲙⲛⲛϫⲟⲉⲓⲥ · ⲙⲛⲛⲁⲣⲭⲱⲛ ⲧⲏⲣⲟⲩ · ⲙⲛⲛⲛⲟϭ ⲧⲏⲣⲟⲩ ⲛⲁϩⲟⲣⲁⲧⲟⲥ · ⲙⲛⲛⲁⲧⲙⲉⲥⲟⲥ ⲧⲏⲣⲟⲩ · ⲙⲛⲛⲁⲡⲧⲟⲡⲟⲥ ⲧⲏⲣϥ ⲛⲛⲁⲟⲩⲛⲁⲙ · ⲁⲩⲱ ⲙⲛⲛⲛⲟϭ ⲧⲏⲣⲟⲩ ⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲛⲧⲉⲡⲟⲩⲟⲉⲓⲛ · ⲙⲛⲡⲉⲩⲉⲟⲟⲩ ⲧⲏⲣϥ ·
 1	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	5	dislocated	_	Entity=(abstract)|Orig=ⲛⲁⲓ̈
 2	ϭⲉ	ϭⲉ	PART	PTC	_	22	advmod	_	_
@@ -5903,7 +5903,7 @@
 55	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	57	cc	_	_
 56-57	ⲧⲉⲧⲛⲟ	_	_	_	_	_	_	_	_
 56	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	57	nsubj	_	Orig=ⲧⲉⲧⲛ̅
-57	ⲟ	ⲉⲓⲣⲉ	VERB	VSTAT	VerbForm=Fin	45	conj	_	_
+57	ⲟ	ⲉⲓⲣⲉ	VERB	VSTAT	VerbForm=Fin	54	conj	_	_
 58-59	ⲛⲁⲧⲥⲟⲟⲩⲛ	_	_	_	_	_	_	_	_
 58	ⲛ	ⲛ	ADP	PREP	_	59	case	_	Orig=ⲛ̅
 59	ⲁⲧⲥⲟⲟⲩⲛ	ⲁⲧⲥⲟⲟⲩⲛ	NOUN	N	_	57	obl	_	Entity=(abstract)|Morphs=ⲁⲧ-ⲥⲟⲟⲩⲛ
@@ -5928,16 +5928,16 @@
 74	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	75	det	_	Entity=(person|Orig=ⲛ̅
 75	ⲁⲅⲅⲉⲗⲟⲥ	ⲁⲅⲅⲉⲗⲟⲥ	NOUN	N	Foreign=Yes	72	conj	_	OrigLang=grc
 76-77	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-76	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	75	advmod	_	_
-77	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	76	det	_	Entity=person)
+76	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	75	obl:npmod	_	_
+77	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	76	nmod:poss	_	Entity=person)
 78	·	·	PUNCT	PUNCT	_	76	punct	_	_
 79-81	ⲙⲛⲛⲁⲣⲭⲁⲅⲅⲉⲗⲟⲥ	_	_	_	_	_	_	_	_
-79	ⲙⲛ	ⲙⲛ	ADP	PREP	_	81	cc	_	Orig=ⲙⲛ̅
+79	ⲙⲛ	ⲙⲛ	ADP	PREP	_	100	cc	_	Orig=ⲙⲛ̅
 80	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	81	det	_	Entity=(person|Orig=ⲛ̅
 81	ⲁⲣⲭⲁⲅⲅⲉⲗⲟⲥ	ⲁⲣⲭⲁⲅⲅⲉⲗⲟⲥ	NOUN	N	Foreign=Yes	72	conj	_	OrigLang=grc
 82-83	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-82	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	81	advmod	_	_
-83	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	82	det	_	_
+82	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	81	obl:npmod	_	_
+83	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	82	nmod:poss	_	_
 84	·	·	PUNCT	PUNCT	_	82	punct	_	_
 85-87	ⲙⲛⲛⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 85	ⲙⲛ	ⲙⲛ	ADP	PREP	_	87	cc	_	Orig=ⲙⲛ̅
@@ -5949,20 +5949,20 @@
 90	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	72	conj	_	Entity=person)
 91	·	·	PUNCT	PUNCT	_	90	punct	_	_
 92-94	ⲙⲛⲛⲁⲣⲭⲱⲛ	_	_	_	_	_	_	_	_
-92	ⲙⲛ	ⲙⲛ	ADP	PREP	_	94	cc	_	Orig=ⲙⲛ̅
+92	ⲙⲛ	ⲙⲛ	ADP	PREP	_	100	cc	_	Orig=ⲙⲛ̅
 93	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	94	det	_	Entity=(person|Orig=ⲛ̅
 94	ⲁⲣⲭⲱⲛ	ⲁⲣⲭⲱⲛ	NOUN	N	Foreign=Yes	72	conj	_	OrigLang=grc
 95-96	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-95	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	100	advmod	_	_
-96	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	76	det	_	Entity=person)person)
+95	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	100	obl:npmod	_	_
+96	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	76	nmod:poss	_	Entity=person)person)
 97	·	·	PUNCT	PUNCT	_	96	punct	_	_
 98-100	ⲙⲛⲛⲛⲟϭ	_	_	_	_	_	_	_	_
 98	ⲙⲛ	ⲙⲛ	ADP	PREP	_	100	cc	_	Orig=ⲙⲛ̅
 99	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	100	det	_	Entity=(person|Orig=ⲛ̅
 100	ⲛⲟϭ	ⲛⲟϭ	NOUN	N	_	72	conj	_	_
 101-102	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-101	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	100	advmod	_	_
-102	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	82	det	_	Entity=person)
+101	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	100	obl:npmod	_	_
+102	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	82	nmod:poss	_	Entity=person)
 103-104	ⲛⲁϩⲟⲣⲁⲧⲟⲥ	_	_	_	_	_	_	_	_
 103	ⲛ	ⲛ	ADP	PREP	_	104	case	_	_
 104	ⲁϩⲟⲣⲁⲧⲟⲥ	ⲁϩⲟⲣⲁⲧⲟⲥ	NOUN	N	Foreign=Yes	87	nmod	_	Entity=(person)|OrigLang=grc
@@ -5973,8 +5973,8 @@
 108	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	109	det	_	Entity=(place
 109	ⲙⲉⲥⲟⲥ	ⲙⲉⲥⲟⲥ	NOUN	N	_	72	conj	_	Entity=(place
 110-111	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-110	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	100	advmod	_	_
-111	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	110	det	_	Entity=place)
+110	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	100	obl:npmod	_	_
+111	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	110	nmod:poss	_	Entity=place)
 112	·	·	PUNCT	PUNCT	_	110	punct	_	_
 113-116	ⲙⲛⲛⲁⲡⲧⲟⲡⲟⲥ	_	_	_	_	_	_	_	_
 113	ⲙⲛ	ⲙⲛ	ADP	PREP	_	114	cc	_	Orig=ⲙⲛ̅
@@ -5982,11 +5982,11 @@
 115	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	116	det	_	_
 116	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	114	nmod	_	OrigLang=grc
 117-118	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-117	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	100	advmod	_	_
-118	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	82	det	_	Orig=ϥ̅
+117	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	100	obl:npmod	_	_
+118	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	82	nmod:poss	_	Orig=ϥ̅
 119-121	ⲛⲛⲁⲟⲩⲛⲁⲙ	_	_	_	_	_	_	_	_
 119	ⲛ	ⲛ	ADP	PREP	_	121	case	_	Orig=ⲛ̅
-120	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	121	det	_	Entity=(object
+120	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	121	nmod:poss	_	Entity=(object
 121	ⲟⲩⲛⲁⲙ	ⲟⲩⲛⲁⲙ	NOUN	N	_	116	nmod	_	Entity=object)place)
 122	·	·	PUNCT	PUNCT	_	126	punct	_	_
 123	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	126	cc	_	_
@@ -5995,8 +5995,8 @@
 125	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	126	det	_	Entity=(person|Orig=ⲛ̅
 126	ⲛⲟϭ	ⲛⲟϭ	NOUN	N	_	72	conj	_	_
 127-128	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-127	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	126	advmod	_	_
-128	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	127	det	_	_
+127	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	126	obl:npmod	_	_
+128	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	127	nmod:poss	_	_
 129-131	ⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ	_	_	_	_	_	_	_	_
 129	ⲛ	ⲛ	ADP	PREP	_	131	case	_	Orig=ⲛ̅
 130	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	131	det	_	Entity=(place
@@ -6008,26 +6008,26 @@
 135	·	·	PUNCT	PUNCT	_	138	punct	_	_
 136-138	ⲙⲛⲡⲉⲩⲉⲟⲟⲩ	_	_	_	_	_	_	_	_
 136	ⲙⲛ	ⲙⲛ	ADP	PREP	_	138	cc	_	Orig=ⲙⲛ̅
-137	ⲡⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	138	det	_	Entity=(abstract
+137	ⲡⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	138	nmod:poss	_	Entity=(abstract
 138	ⲉⲟⲟⲩ	ⲉⲟⲟⲩ	NOUN	N	_	72	conj	_	_
 139-140	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-139	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	138	advmod	_	_
-140	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	139	det	_	Entity=abstract)place)person)|Orig=ϥ̅
+139	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	138	obl:npmod	_	_
+140	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	139	nmod:poss	_	Entity=abstract)place)person)|Orig=ϥ̅
 141	·	·	PUNCT	PUNCT	_	22	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0076
-# text_en = ...
+# text_en = “--that ye all one with another are out of one and the same paste and the same matter and the same substance, and that ye all are out of the same Mixture. And at the commandment of the First Mystery the Mixture was constrained, until all the great [ones] of the emanations of the Light and all their glory purified themselves, and until they purified themselves from the Mixture. And they have not purified themselves of themselves,”
 # text = ⲛⲧⲉⲧⲛ ϩⲉⲛⲉⲃⲟⲗ ⲧⲏⲣⲧⲛ ϩⲛⲛⲉⲧⲛⲉⲣⲏⲩ ϩⲙⲡⲓⲟⲩⲱϣⲙ ⲛⲟⲩⲱⲧ ⲙⲛϯϩⲩⲗⲏ ⲛⲟⲩⲱⲧ · ⲙⲛϯⲟⲩⲥⲓⲁ ⲛⲟⲩⲱⲧ : ⲁⲩⲱ ⲛⲧⲉⲧⲛϩⲉ ⲉⲃⲟⲗ ϩⲙⲡⲓⲉⲕⲉⲣⲁⲥⲙⲟⲥ ⲛⲟⲩⲱⲧ ⲧⲏⲣⲧⲛ · ⲁⲩⲱ ϩⲓⲧⲛⲧⲕⲉⲗⲉⲩⲥⲓⲥ ⲙⲡⲓϣⲟⲣⲡ ⲙⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲁⲩⲁⲛⲁⲅⲕⲁⲍⲉ ⲙⲡⲕⲉⲣⲁⲥⲙⲟⲥ ϩⲉⲱⲥ ϣⲁⲛⲧⲟⲩⲥⲱⲧϥ ⲉⲃⲟⲗ ⲛϭⲓⲛⲛⲟϭ ⲧⲏⲣⲟⲩ ⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ ⲛⲧⲉⲡⲟⲩⲟⲉⲓⲛ ⲙⲛⲡⲉⲩⲉⲟⲟⲩ ⲧⲏⲣϥ · ⲁⲩⲱ ϣⲁⲛⲧⲟⲩⲥⲱⲧϥ ⲉⲃⲟⲗ ⲙⲡⲉⲕⲉⲣⲁⲥⲙⲟⲥ ⲁⲩⲱ ⲛⲧⲁⲩⲥⲱⲧϥ ⲁⲛ ⲉⲃⲟⲗ ϩⲓⲧⲟⲟⲧⲟⲩ ⲙⲙⲓⲛⲙⲙⲟⲟⲩ ·
-1	ⲛⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=2|PronType=Prs	50	dislocated	_	Orig=ⲛ̅ⲧⲉⲧⲛ̅
+1	ⲛⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=2|PronType=Prs	50	nsubj	_	Orig=ⲛ̅ⲧⲉⲧⲛ̅
 2-3	ϩⲉⲛⲉⲃⲟⲗ	_	_	_	_	_	_	_	_
 2	ϩⲉⲛ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
 3	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	8	case	_	_
 4-5	ⲧⲏⲣⲧⲛ	_	_	_	_	_	_	_	_
-4	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	1	advmod	_	_
-5	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	det	_	Orig=ⲧⲛ̅
+4	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	3	fixed	_	_
+5	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	nmod:poss	_	Orig=ⲧⲛ̅
 6-8	ϩⲛⲛⲉⲧⲛⲉⲣⲏⲩ	_	_	_	_	_	_	_	_
 6	ϩⲛ	ϩⲛ	ADP	PREP	_	8	case	_	Orig=ϩⲛ̅
-7	ⲛⲉⲧⲛ	ⲡⲉⲧⲛ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	8	det	_	Orig=ⲛⲉⲧⲛ̅
+7	ⲛⲉⲧⲛ	ⲡⲉⲧⲛ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	Orig=ⲛⲉⲧⲛ̅
 8	ⲉⲣⲏⲩ	ⲉⲣⲏⲩ	NOUN	N	PronType=Rcp	11	nmod	_	_
 9-11	ϩⲙⲡⲓⲟⲩⲱϣⲙ	_	_	_	_	_	_	_	_
 9	ϩⲙ	ϩⲛ	ADP	PREP	_	11	case	_	Orig=ϩⲙ̅
@@ -6066,8 +6066,8 @@
 34	ⲛ	ⲛ	ADP	PREP	_	35	case	_	Orig=ⲛ̅
 35	ⲟⲩⲱⲧ	ⲟⲩⲱⲧ	NOUN	N	_	33	nmod	_	_
 36-37	ⲧⲏⲣⲧⲛ	_	_	_	_	_	_	_	_
-36	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	33	advmod	_	_
-37	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	36	det	_	Entity=abstract)|Orig=ⲧⲛ̅
+36	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	33	obl:npmod	_	_
+37	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	36	nmod:poss	_	Entity=abstract)|Orig=ⲧⲛ̅
 38	·	·	PUNCT	PUNCT	_	42	punct	_	_
 39	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	42	cc	_	_
 40-42	ϩⲓⲧⲛⲧⲕⲉⲗⲉⲩⲥⲓⲥ	_	_	_	_	_	_	_	_
@@ -6100,8 +6100,8 @@
 60	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	61	det	_	Entity=(person|Orig=ⲛ̅
 61	ⲛⲟϭ	ⲛⲟϭ	NOUN	N	_	57	dislocated	_	_
 62-63	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-62	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	61	advmod	_	_
-63	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	62	det	_	_
+62	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	61	obl:npmod	_	_
+63	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	62	nmod:poss	_	_
 64-66	ⲛⲛⲉⲡⲣⲟⲃⲟⲗⲟⲟⲩⲉ	_	_	_	_	_	_	_	_
 64	ⲛ	ⲛ	ADP	PREP	_	66	case	_	Orig=ⲛ̅
 65	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	66	det	_	Entity=(place
@@ -6112,11 +6112,11 @@
 69	ⲟⲩⲟⲉⲓⲛ	ⲟⲩⲟⲉⲓⲛ	NOUN	N	_	61	nmod	_	Entity=abstract)place)person)
 70-72	ⲙⲛⲡⲉⲩⲉⲟⲟⲩ	_	_	_	_	_	_	_	_
 70	ⲙⲛ	ⲙⲛ	ADP	PREP	_	72	cc	_	Orig=ⲙⲛ̅
-71	ⲡⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	72	det	_	Entity=(abstract
+71	ⲡⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	72	nmod:poss	_	Entity=(abstract
 72	ⲉⲟⲟⲩ	ⲉⲟⲟⲩ	NOUN	N	_	61	conj	_	_
 73-74	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-73	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	72	advmod	_	_
-74	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	73	det	_	Orig=ϥ̅
+73	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	72	obl:npmod	_	_
+74	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	73	nmod:poss	_	Orig=ϥ̅
 75	·	·	PUNCT	PUNCT	_	79	punct	_	_
 76	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	79	cc	_	_
 77-79	ϣⲁⲛⲧⲟⲩⲥⲱⲧϥ	_	_	_	_	_	_	_	_
@@ -6133,19 +6133,19 @@
 85	ⲛⲧ	ⲉⲣⲉ	PART	CFOC	_	88	mark	_	Orig=ⲛ̅ⲧ
 86	ⲁ	ⲁ	AUX	APST	_	88	aux	_	_
 87	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	88	nsubj	_	_
-88	ⲥⲱⲧϥ	ⲥⲱⲧϥ	VERB	V	VerbForm=Fin	79	conj	_	Orig=ⲥⲱⲧϥ̅
+88	ⲥⲱⲧϥ	ⲥⲱⲧϥ	VERB	V	VerbForm=Fin	83	conj	_	Orig=ⲥⲱⲧϥ̅
 89	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	88	advmod	_	_
 90	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	92	case	_	_
 91-92	ϩⲓⲧⲟⲟⲧⲟⲩ	_	_	_	_	_	_	_	_
 91	ϩⲓⲧⲟⲟⲧ	ϩⲓⲧⲛ	ADP	PREP	_	90	fixed	_	_
 92	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	88	obl	_	_
 93-94	ⲙⲙⲓⲛⲙⲙⲟⲟⲩ	_	_	_	_	_	_	_	_
-93	ⲙⲙⲓⲛⲙⲙⲟ	ⲙⲙⲓⲛⲙⲙⲟ	ADV	IMOD	Definite=Def|PronType=Prs|Reflex=Yes	88	advmod	_	Orig=ⲙ̅ⲙⲓⲛⲙ̅ⲙⲟ
-94	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	93	det	_	Entity=abstract)
+93	ⲙⲙⲓⲛⲙⲙⲟ	ⲙⲙⲓⲛⲙⲙⲟ	NOUN	IMOD	Definite=Def|PronType=Prs|Reflex=Yes	88	obl:npmod	_	Orig=ⲙ̅ⲙⲓⲛⲙ̅ⲙⲟ
+94	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	93	nmod:poss	_	Entity=abstract)
 95	·	·	PUNCT	PUNCT	_	11	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0077
-# text_en = ...
+# text_en = “but they have purified themselves by necessity according to the economy of the One and Only, the Ineffable. They indeed have not at all suffered”
 # text = ⲁⲗⲗⲁ ⲛⲧⲁⲩⲥⲟⲧϥⲟⲩ ϩⲛⲟⲩⲁⲛⲁⲅⲕⲏ ⲕⲁⲧⲁⲧⲟⲓⲕⲟⲛⲟⲙⲓⲁ ⲙⲡⲓⲟⲩⲁ ⲛⲟⲩⲱⲧ' ⲡⲓⲁⲧϣⲁϫⲉ ⲉⲣⲟϥ ⲁⲩⲱ ⲛⲅⲟⲟⲩ ⲙⲡⲟⲩϣⲡϩⲓⲥⲉ ⲉⲡⲧⲏⲣϥ ·
 1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	5	cc	_	OrigLang=grc
 2-6	ⲛⲧⲁⲩⲥⲟⲧϥⲟⲩ	_	_	_	_	_	_	_	_
@@ -6188,7 +6188,7 @@
 30	·	·	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0078
-# text_en = ...
+# text_en = “and have not at all changed themselves in the regions, nor at all torn themselves asunder nor poured themselves into bodies of different kinds and from one into another, nor have they been in any affliction at all. Ye then in particular are the refuse of the Treasury”
 # text = ⲁⲩⲱ ⲙⲡⲟⲩⲙⲉⲧⲁⲃⲁⲗⲉ ⲙⲙⲟⲟⲩ ϩⲛⲛⲧⲟⲡⲟⲥ · ⲟⲩⲇⲉ ⲙⲡⲟⲩⲥⲕⲩⲗⲗⲉ ⲙⲙⲟⲟⲩ ⲉⲡⲧⲏⲣϥ · ⲟⲩⲇⲉ ⲙⲡⲟⲩⲙⲉⲧⲁⲅⲅⲓⲍⲉ ⲙⲙⲟⲟⲩ ϩⲛϩⲉⲛⲥⲱⲙⲁ ⲉⲩϣⲃⲉⲓⲁⲉⲓⲧ · ⲟⲩⲇⲉ ⲙⲡⲟⲩϣⲱⲡⲉ ϩⲛⲗⲁⲁⲩ ⲛⲑⲗⲓⲯⲓⲥ · ⲙⲁⲗⲓⲥⲧⲁ ϭⲉ ⲛⲧⲱⲧⲛ ⲉⲛⲧⲉⲧⲛ ⲡⲓⲥⲟⲣⲙ ⲙⲡⲉⲑⲏⲥⲁⲩⲣⲟⲥ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2-4	ⲙⲡⲟⲩⲙⲉⲧⲁⲃⲁⲗⲉ	_	_	_	_	_	_	_	_
@@ -6261,7 +6261,7 @@
 53	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0079
-# text_en = ...
+# text_en = and ye are the refuse of the region of the Right and ye are the refuse of the region of those of the Midst and ye are the refuse of all the invisibles and of all the rulers; in a word, ye are the refuse of all these.
 # text = ⲁⲩⲱ ⲛⲧⲉⲧⲛ ⲡⲥⲟⲣⲙ ⲙⲡⲧⲟⲡⲟⲥ ⲛⲛⲁⲟⲩⲛⲁⲙ ⲁⲩⲱ ⲛⲧⲉⲧⲛ ⲡⲥⲟⲣⲙ ⲙⲡⲧⲟⲡⲟⲥ ⲛⲛⲁⲧⲙⲉⲥⲟⲥ · ⲁⲩⲱ ⲛⲧⲉⲧⲛ ⲡⲥⲟⲣⲙ ⲛⲛⲁϩⲟⲣⲁⲧⲟⲥ ⲧⲏⲣⲟⲩ ⲙⲛⲛⲁⲣⲭⲱⲛ ⲧⲏⲣⲟⲩ ϩⲁⲡⲁⲝ ϩⲁⲡⲗⲱⲥ ⲛⲧⲉⲧⲛ ⲡⲥⲟⲣⲙ ⲛⲛⲁⲓ ⲧⲏⲣⲟⲩ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2	ⲛⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	Orig=ⲛ̅ⲧⲉⲧⲛ̅
@@ -6274,7 +6274,7 @@
 7	ⲧⲟⲡⲟⲥ	ⲧⲟⲡⲟⲥ	NOUN	N	Foreign=Yes	4	nmod	_	OrigLang=grc
 8-10	ⲛⲛⲁⲟⲩⲛⲁⲙ	_	_	_	_	_	_	_	_
 8	ⲛ	ⲛ	ADP	PREP	_	10	case	_	Orig=ⲛ̅
-9	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det	_	Entity=(object
+9	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	Entity=(object
 10	ⲟⲩⲛⲁⲙ	ⲟⲩⲛⲁⲙ	NOUN	N	_	7	nmod	_	Entity=object)place)time)
 11	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	14	cc	_	_
 12	ⲛⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=2|PronType=Prs	14	nsubj	_	Orig=ⲛ̅ⲧⲉⲧⲛ̅
@@ -6303,17 +6303,17 @@
 29	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	30	det	_	Entity=(person|Orig=ⲛ̅
 30	ⲁϩⲟⲣⲁⲧⲟⲥ	ⲁϩⲟⲣⲁⲧⲟⲥ	NOUN	N	Foreign=Yes	27	obj	_	OrigLang=grc
 31-32	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-31	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	30	advmod	_	_
-32	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	31	det	_	Entity=person)
+31	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	30	obl:npmod	_	_
+32	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	31	nmod:poss	_	Entity=person)
 33-35	ⲙⲛⲛⲁⲣⲭⲱⲛ	_	_	_	_	_	_	_	_
 33	ⲙⲛ	ⲙⲛ	ADP	PREP	_	35	cc	_	Orig=ⲙⲛ̅
 34	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	35	det	_	Entity=(person|Orig=ⲛ̅
 35	ⲁⲣⲭⲱⲛ	ⲁⲣⲭⲱⲛ	NOUN	N	Foreign=Yes	30	conj	_	OrigLang=grc
 36-37	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-36	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	30	advmod	_	_
-37	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	36	det	_	Entity=person)
+36	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	30	obl:npmod	_	_
+37	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	36	nmod:poss	_	Entity=person)
 38	ϩⲁⲡⲁⲝ	ϩⲁⲡⲁⲝ	ADV	ADV	Foreign=Yes	35	advmod	_	OrigLang=grc
-39	ϩⲁⲡⲗⲱⲥ	ϩⲁⲡⲗⲱⲥ	ADV	ADV	Foreign=Yes	38	advmod	_	Entity=(time)|OrigLang=grc
+39	ϩⲁⲡⲗⲱⲥ	ϩⲁⲡⲗⲱⲥ	ADV	ADV	Foreign=Yes	42	advmod	_	Entity=(time)|OrigLang=grc
 40	ⲛⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=2|PronType=Prs	42	nsubj	_	Orig=ⲛ̅ⲧⲉⲧⲛ̅
 41-42	ⲡⲥⲟⲣⲙ	_	_	_	_	_	_	_	_
 41	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
@@ -6322,12 +6322,12 @@
 43	ⲛ	ⲛ	ADP	PREP	_	44	case	_	Orig=ⲛ̅
 44	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	42	nmod	_	Entity=(abstract|Orig=ⲛⲁⲓ̈
 45-46	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-45	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	44	advmod	_	_
-46	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	45	det	_	Entity=abstract)time)
+45	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	44	obl:npmod	_	_
+46	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	45	nmod:poss	_	Entity=abstract)time)
 47	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = pistis_sophia-pistis_sophia_book_2_part8_s0080
-# text_en = ...
+# text_en = And ye are in great sufferings and great afflictions in your being poured from one into another of different kinds of bodies |
 # text = ⲁⲩⲱ ⲁⲧⲉⲧⲛϣⲱⲡⲉ ϩⲛϩⲉⲛⲛⲟϭ ⲛϩⲓⲥⲉ ⲙⲛϩⲉⲛⲛⲟϭ ⲛⲑⲗⲓⲯⲓⲥ ϩⲣⲁⲓ ϩⲛⲙⲙⲉⲧⲁⲅⲅⲓⲥⲙⲟⲥ ϩⲛϩⲉⲛⲥⲱⲙⲁ ⲉⲩϣⲃⲉⲓⲁⲉⲓⲧ
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2-4	ⲁⲧⲉⲧⲛϣⲱⲡⲉ	_	_	_	_	_	_	_	_
