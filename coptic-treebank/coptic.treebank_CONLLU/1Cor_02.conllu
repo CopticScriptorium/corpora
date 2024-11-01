@@ -4,7 +4,7 @@
 # text = ⲁⲛⲟⲕ ⲇⲉ ϩⲱ ⲛⲧⲉⲣⲓⲉⲓ ϣⲁⲣⲱⲧⲛ ⲛⲁⲥⲛⲏⲩ ⲛⲧⲁⲓⲉⲓ ϩⲛⲟⲩϫⲓⲥⲉ ⲁⲛ ⲛϣⲁϫⲉ ⲏ ⲛⲥⲟⲫⲓⲁ ⲉⲓϫⲱ ⲉⲣⲱⲧⲛ ⲛⲧⲙⲛⲧⲙⲛⲧⲣⲉ ⲙⲡⲛⲟⲩⲧⲉ .
 1	ⲁⲛⲟⲕ	ⲁⲛⲟⲕ	PRON	PPERI	Definite=Def|Number=Sing|Person=1|PronType=Prs	6	dislocated	_	_
 2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	6	advmod	_	OrigLang=grc
-3	ϩⲱ	ϩⲱⲱ_ⲁⲛⲟⲕ	PRON	IMOD_PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	6	obl:npmod	_	_
+3	ϩⲱ	ϩⲱⲱ_ⲁⲛⲟⲕ	PRON	IMOD_PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	6	obl:unmarked	_	_
 4-6	ⲛⲧⲉⲣⲓⲉⲓ	_	_	_	_	_	_	_	_
 4	ⲛⲧⲉⲣ	ⲛⲧⲉⲣⲉ	AUX	APREC	_	6	aux	_	_
 5	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
@@ -87,9 +87,9 @@
 
 # sent_id = coptic_treebank-1Cor_02_s0003
 # text_en = I was with you in weakness, in fear, and in much trembling.
-# text = ⲁⲛⲟⲕ ϩⲱ ⲛⲧⲁⲓⲉⲓ ϣⲁⲣⲱⲧⲛ ϩⲛ ⲟⲩⲙⲛⲧϭⲱⲃ . ⲙⲛⲟⲩϩⲟⲧⲉ . ⲙⲛⲟⲩⲥⲧⲱⲧ ⲉⲛⲁϣⲱϥ .
+# text = ⲁⲛⲟⲕ ϩⲱ ⲛⲧⲁⲓⲉⲓ ϣⲁⲣⲱⲧⲛ ϩⲛⲟⲩⲙⲛⲧϭⲱⲃ . ⲙⲛⲟⲩϩⲟⲧⲉ . ⲙⲛⲟⲩⲥⲧⲱⲧ ⲉⲛⲁϣⲱϥ .
 1	ⲁⲛⲟⲕ	ⲁⲛⲟⲕ	PRON	PPERI	Definite=Def|Number=Sing|Person=1|PronType=Prs	6	dislocated	_	_
-2	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	6	obl:npmod	_	_
+2	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	6	obl:unmarked	_	_
 3-6	ⲛⲧⲁⲓⲉⲓ	_	_	_	_	_	_	_	_
 3	ⲛⲧ	ⲉⲣⲉ	PART	CFOC	_	6	mark	_	_
 4	ⲁ	ⲁ	AUX	APST	_	6	aux	_	_
@@ -98,8 +98,8 @@
 7-8	ϣⲁⲣⲱⲧⲛ	_	_	_	_	_	_	_	_
 7	ϣⲁⲣⲱ	ϣⲁ	ADP	PREP	_	8	case	_	_
 8	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	6	obl	_	_
+9-11	ϩⲛⲟⲩⲙⲛⲧϭⲱⲃ	_	_	_	_	_	_	_	_
 9	ϩⲛ	ϩⲛ	ADP	PREP	_	11	case	_	_
-10-11	ⲟⲩⲙⲛⲧϭⲱⲃ	_	_	_	_	_	_	_	_
 10	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	11	det	_	Entity=(abstract|Morphs=ⲙⲛⲧ
 11	ⲙⲛⲧϭⲱⲃ	ⲙⲛⲧϭⲱⲃ	NOUN	N	_	6	obl	_	Entity=abstract)|Morphs=ϭⲱⲃ
 12	.	.	PUNCT	PUNCT	_	11	punct	_	_
@@ -310,14 +310,14 @@
 14	ⲛⲧ	ⲉⲣⲉ	PART	CFOC	_	17	mark	_	_
 15	ⲁ	ⲁ	AUX	APST	_	17	aux	_	_
 16	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
-17	ⲥⲟⲩⲱⲛ	ⲥⲟⲟⲩⲛ	VERB	V	VerbForm=Fin	23	advcl	_	_
+17	ⲥⲟⲩⲱⲛ	ⲥⲟⲟⲩⲛ	VERB	V	VerbForm=Fin	23	advcl	_	CxnElt=ⲉⲛⲉ:Conditional-UnspecifiedEpistemic.Protasis
 18	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
 19	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	17	advmod	_	OrigLang=grc
 20-23	ⲛⲉⲩⲛⲁⲥⲧⲁⲩⲣⲟⲩ	_	_	_	_	_	_	_	_
 20	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	23	aux	_	_
 21	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
 22	ⲛⲁ	ⲛⲁ	AUX	FUT	_	23	aux	_	_
-23	ⲥⲧⲁⲩⲣⲟⲩ	ⲥⲧⲁⲩⲣⲟⲩ	VERB	V	Foreign=Yes|VerbForm=Fin	10	parataxis	_	OrigLang=grc
+23	ⲥⲧⲁⲩⲣⲟⲩ	ⲥⲧⲁⲩⲣⲟⲩ	VERB	V	Foreign=Yes|VerbForm=Fin	10	parataxis	_	Cxn=Conditional-NegativeEpistemic|CxnElt=ⲉⲛⲉ:Conditional-UnspecifiedEpistemic.Apodosis|OrigLang=grc
 24	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	23	advmod	_	_
 25	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	23	cop	_	_
 26-28	ⲙⲡϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
@@ -343,7 +343,7 @@
 6	ⲥⲏϩ	ⲥϩⲁⲓ	VERB	VSTAT	VerbForm=Fin	4	acl:relcl	_	_
 7-11	ϫⲉⲛⲉⲧⲉⲙⲡⲉⲃⲁⲗ	_	_	_	_	_	_	_	_
 7	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	8	mark	_	_
-8	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	6	ccomp	_	Entity=(abstract
+8	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	6	csubj	_	Entity=(abstract
 9	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	12	mark	_	_
 10	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	12	aux	_	_
 11	ⲃⲁⲗ	ⲃⲁⲗ	NOUN	N	_	12	nsubj	_	Entity=(object)
@@ -437,7 +437,7 @@
 # sent_id = coptic_treebank-1Cor_02_s0011
 # text_en = For who among men knows the things of a man, except the spirit of the man, which is in him? Even so, no one knows the things of God, except God's Spirit.
 # text = ⲛⲓⲙ ⲅⲁⲣ ⲛⲣⲱⲙⲉ ⲡⲉⲧⲥⲟⲟⲩⲛ ⲛⲛⲁⲡⲣⲱⲙⲉ ⲉⲓⲙⲏⲧⲓ ⲡⲉⲡⲛⲉⲩⲙⲁ ⲙⲡⲣⲱⲙⲉ ⲉⲧⲛϩⲏⲧϥ . ⲧⲁⲓ ⲟⲛ ⲧⲉ ⲧϩⲉ ⲛⲛⲁⲡⲛⲟⲩⲧⲉ ⲙⲡⲉⲗⲁⲁⲩ ⲥⲟⲩⲱⲛⲟⲩ ⲛⲥⲁⲡⲉⲡⲛⲉⲩⲙⲁ ⲙⲡⲛⲟⲩⲧⲉ .
-1	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Int	0	root	_	Entity=(person
+1	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=1:Interrogative-Polar-Direct.WHWord|Entity=(person
 2	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	1	advmod	_	OrigLang=grc
 3-4	ⲛⲣⲱⲙⲉ	_	_	_	_	_	_	_	_
 3	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
@@ -631,8 +631,8 @@
 25	.	.	PUNCT	PUNCT	_	20	punct	_	_
 26	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	27	cc	_	_
 27-28	ⲙⲛϭⲟⲙ	_	_	_	_	_	_	_	_
-27	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	20	conj	_	_
-28	ϭⲟⲙ	ϭⲟⲙ	NOUN	N	_	27	nsubj	_	Entity=(abstract)
+27	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	20	conj	_	Cxn=Existential-ExistPred-Negative
+28	ϭⲟⲙ	ϭⲟⲙ	NOUN	N	_	27	nsubj	_	CxnElt=27:Conditional-UnspecifiedEpistemic.Pivot
 29-30	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 29	ⲙⲙⲟ	ⲛ	ADP	PREP	_	30	case	_	_
 30	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	iobj	_	_
@@ -680,7 +680,7 @@
 # sent_id = coptic_treebank-1Cor_02_s0016
 # text_en = For who has known the mind of the Lord, that he should instruct him?' But we have Christ's mind.
 # text = ⲛⲓⲙ ⲅⲁⲣ ⲡⲉⲛⲧⲁϥⲥⲟⲩⲛ ⲡϩⲏⲧ ⲙⲡϫⲟⲉⲓⲥ ⲡⲁⲓ ⲉⲧⲛⲁⲧⲥⲉⲃⲉⲉⲓⲁⲧϥ ⲉⲃⲟⲗ . ⲁⲛⲟⲛ ⲇⲉ ⲟⲩⲛⲧⲁⲛ ⲙⲙⲁⲩ ⲙⲡⲙⲉⲉⲩⲉ ⲙⲡⲉⲭⲣⲓⲥⲧⲟⲥ .
-1	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Int	0	root	_	_
+1	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=1:Interrogative-Polar-Direct.WHWord
 2	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	1	advmod	_	OrigLang=grc
 3-7	ⲡⲉⲛⲧⲁϥⲥⲟⲩⲛ	_	_	_	_	_	_	_	_
 3	ⲡ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	1	cop	_	_

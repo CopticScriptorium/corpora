@@ -95,13 +95,13 @@
 3-6	ϣⲁⲩϫⲟⲟⲥ	_	_	_	_	_	_	_	_
 3	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	5	aux	_	_
 4	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
-5	ϫⲟⲟ	ϫⲱ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϫⲟⲟ̇
+5	ϫⲟⲟ	ϫⲱ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct,Interrogative-WHInfo-Indirect|CxnElt=Clause|Orig=ϫⲟⲟ̇
 6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
 7-9	ϫⲉⲉϥϣⲁⲛⲙⲟⲩ	_	_	_	_	_	_	_	_
 7	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	9	mark	_	_
 8	ⲉϥϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟϥ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Orig=ⲉ̇ϥϣⲁⲛ
-9	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	10	advcl	_	_
-10	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	5	ccomp	_	_
+9	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	10	advcl	_	CxnElt=Protasis
+10	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	5	ccomp	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=Apodosis,WHWord
 11-16	ⲡⲉⲧⲉⲕⲛⲁⲁⲁϥ	_	_	_	_	_	_	_	_
 11	ⲡ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	10	cop	_	Entity=(person
 12	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	15	mark	_	_
@@ -224,7 +224,7 @@
 7	ⲛϩⲏⲧ	ϩⲛ	ADP	PREP	_	8	case	_	Orig=ⲛ̇ϩⲏⲧ
 8	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	Orig=ϥ̇
 9-10	ⲙⲙⲓⲛⲙⲙⲟϥ	_	_	_	_	_	_	_	_
-9	ⲙⲙⲓⲛⲙⲙⲟ	ⲙⲙⲓⲛⲙⲙⲟ	NOUN	IMOD	Definite=Def|PronType=Prs|Reflex=Yes	3	obl:npmod	_	Orig=ⲙ̇ⲙⲓⲛⲙ̇ⲙⲟ
+9	ⲙⲙⲓⲛⲙⲙⲟ	ⲙⲙⲓⲛⲙⲙⲟ	NOUN	IMOD	Definite=Def|PronType=Prs|Reflex=Yes	3	obl:unmarked	_	Orig=ⲙ̇ⲙⲓⲛⲙ̇ⲙⲟ
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
 11-12	ϫⲉⲁⲗⲗⲁ	_	_	_	_	_	_	_	_
 11	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	13	mark	_	_
@@ -285,9 +285,9 @@
 # text = ⲛⲉⲩⲛⲟⲩϩⲗⲗⲟ ⲇⲉ ⲟⲛ ϩⲓⲧⲟⲩⲱϥ ⲉϥⲛⲁⲩ ⲉⲃⲟⲗ ⲕⲁⲗⲱⲥ
 1-4	ⲛⲉⲩⲛⲟⲩϩⲗⲗⲟ	_	_	_	_	_	_	_	_
 1	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	2	aux	_	Orig=ⲛ̇ⲉ
-2	ⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	0	root	_	_
+2	ⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	0	root	_	Cxn=Existential-ExistPred-Positive
 3	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	4	det	_	Entity=(person
-4	ϩⲗⲗⲟ	ϩⲗⲗⲟ	NOUN	N	_	2	nsubj	_	Orig=ϩⲗ̇ⲗⲟ
+4	ϩⲗⲗⲟ	ϩⲗⲗⲟ	NOUN	N	_	2	nsubj	_	CxnElt=Pivot|Orig=ϩⲗ̇ⲗⲟ
 5	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	2	advmod	_	OrigLang=grc
 6	ⲟⲛ	ⲟⲛ	ADV	ADV	_	2	advmod	_	Orig=ⲟ̇ⲛ
 7-8	ϩⲓⲧⲟⲩⲱϥ	_	_	_	_	_	_	_	_
@@ -403,7 +403,7 @@
 15	ⲛⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	16	det	_	Entity=(abstract|Orig=ⲛⲉⲓ̈
 16	ⲙⲉⲉⲩⲉ	ⲙⲉⲉⲩⲉ	NOUN	N	_	13	nmod	_	Orig=ⲙⲉⲉⲩⲉ̇
 17-18	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-17	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	16	obl:npmod	_	_
+17	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	16	nmod:unmarked	_	_
 18	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
 19-22	ⲛⲧⲁⲩⲉⲓ	_	_	_	_	_	_	_	_
 19	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	22	mark	_	Orig=ⲛ̇ⲧ

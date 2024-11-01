@@ -11,8 +11,8 @@
 1	ϩⲉⲛ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	2	det	_	Entity=(person
 2	ⲡⲣⲟⲇⲟⲧⲏⲥ	ⲡⲣⲟⲇⲟⲧⲏⲥ	NOUN	N	Foreign=Yes	0	root	_	OrigLang=grc
 3-4	ϩⲱⲟⲩ	_	_	_	_	_	_	_	_
-3	ϩⲱ	ϩⲱⲱ	ADV	IMOD	_	2	advmod	_	_
-4	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	3	det	_	Entity=person)
+3	ϩⲱ	ϩⲱⲱ	NOUN	IMOD	_	2	nmod:unmarked	_	_
+4	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	3	nmod:poss	_	Entity=person)
 5	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = shenoute_eagerness-GL29-30_par_XJ33-34_s0003
@@ -25,9 +25,9 @@
 4-5	ⲛⲁⲡⲟⲥⲧⲁⲧⲏⲥ	_	_	_	_	_	_	_	_
 4	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	5	det	_	Entity=(person
 5	ⲁⲡⲟⲥⲧⲁⲧⲏⲥ	ⲁⲡⲟⲥⲧⲁⲧⲏⲥ	NOUN	N	Foreign=Yes	2	conj	_	Entity=person)|OrigLang=grc
-6	ⲛⲉ	ⲡⲉ	PRON	COP	Number=Plur	7	cop	_	_
+6	ⲛⲉ	ⲡⲉ	PRON	COP	Number=Plur	2	cop	_	_
 7-9	ⲛⲉⲧⲉⲓⲣⲉ	_	_	_	_	_	_	_	_
-7	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	2	nsubj	_	Entity=(person
+7	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	2	conj	_	Entity=(person
 8	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	9	mark	_	_
 9	ⲉⲓⲣⲉ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	7	acl:relcl	_	_
 10-12	ⲛⲛⲉⲓϩⲃⲏⲩⲉ	_	_	_	_	_	_	_	_
@@ -40,7 +40,7 @@
 15	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = shenoute_eagerness-GL29-30_par_XJ33-34_s0004
-# text_en = The abominations in the holy places.
+# text_en = The abominations in the holy places
 # text = ⲛⲃⲟⲧⲉ ϩⲛⲛⲧⲟⲡⲟⲥ ⲉⲧⲟⲩⲁⲁⲃ
 1-2	ⲛⲃⲟⲧⲉ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(abstract
@@ -56,7 +56,7 @@
 # sent_id = shenoute_eagerness-GL29-30_par_XJ33-34_s0005
 # text_en = What is the matter with a multitude of lamps that are left upon the lamp stands?
 # text = ⲟⲩ ⲡⲉ ⲡϩⲱⲃ ⲛⲟⲩⲁϣⲏ ⲛϩⲏⲃⲥ · ⲉⲩⲕⲏ ϩⲓϫⲛⲛⲗⲩⲭⲛⲓⲁ
-1	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	Orig=[ⲟⲩ
+1	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=WHWord|Orig=[ⲟⲩ
 2	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	1	cop	_	_
 3-4	ⲡϩⲱⲃ	_	_	_	_	_	_	_	_
 3	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Entity=(abstract|Orig=ⲡ]
@@ -72,14 +72,14 @@
 11-13	ⲉⲩⲕⲏ	_	_	_	_	_	_	_	_
 11	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	13	mark	_	_
 12	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
-13	ⲕⲏ	ⲕⲱ	VERB	VSTAT	VerbForm=Fin	1	advcl	_	Orig=[ⲕⲏ
+13	ⲕⲏ	ⲕⲱ	VERB	VSTAT	VerbForm=Fin	4	acl:relcl	_	Orig=[ⲕⲏ
 14-16	ϩⲓϫⲛⲛⲗⲩⲭⲛⲓⲁ	_	_	_	_	_	_	_	_
 14	ϩⲓϫⲛ	ϩⲓϫⲛ	ADP	PREP	_	16	case	_	Orig=ϩⲓ]ϫⲛ
 15	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	16	det	_	Entity=(object
 16	ⲗⲩⲭⲛⲓⲁ	ⲗⲩⲭⲛⲓⲁ	NOUN	N	Foreign=Yes	13	obl	_	Entity=object)|Orig=ⲗⲩⲭ[ⲛⲓⲁ|OrigLang=grc
 
 # sent_id = shenoute_eagerness-GL29-30_par_XJ33-34_s0006
-# text_en = They do not burn because they are not good.
+# text_en = They do not burn because they are not good...
 # text = ⲛⲥⲉϫⲉⲣⲟ ⲁⲛ ϫⲉⲛⲁⲛⲟⲩⲟⲩ ⲁⲛ
 1-3	ⲛⲥⲉϫⲉⲣⲟ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	3	advmod	_	_
@@ -88,21 +88,21 @@
 4	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	3	advmod	_	_
 5-7	ϫⲉⲛⲁⲛⲟⲩⲟⲩ	_	_	_	_	_	_	_	_
 5	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	6	mark	_	Orig=[ϫⲉ
-6	ⲛⲁⲛⲟⲩ	ⲛⲁⲛⲟⲩ	VERB	VBD	VerbForm=Fin	3	advcl	_	_
+6	ⲛⲁⲛⲟⲩ	ⲛⲁⲛⲟⲩ	VERB	VBD	VerbForm=Fin	3	ccomp	_	_
 7	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	Orig=ⲟⲩ]
 8	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	6	advmod	_	Orig=ⲁ̣ⲛ
 
 # sent_id = shenoute_eagerness-GL29-30_par_XJ33-34_s0007
 # text_en = …
 # text = ---- ---- ---- ---- ---- ---- ---- ---- ---- ⲧⲉ ·
-1	----	----	X	UNKNOWN	_	9	advmod	_	Orig=[----]
-2	----	----	X	UNKNOWN	_	9	advmod	_	Orig=[----]
-3	----	----	X	UNKNOWN	_	9	advmod	_	Orig=[----]
-4	----	----	X	UNKNOWN	_	9	discourse	_	Orig=[----]
-5	----	----	X	UNKNOWN	_	9	discourse	_	Orig=[----]
-6	----	----	X	UNKNOWN	_	9	dep	_	Orig=[----]
+1	----	----	X	UNKNOWN	_	9	nsubj	_	Orig=[----]
+2	----	----	X	UNKNOWN	_	9	nsubj	_	Orig=[----]
+3	----	----	X	UNKNOWN	_	2	appos	_	Orig=[----]
+4	----	----	X	UNKNOWN	_	2	appos	_	Orig=[----]
+5	----	----	X	UNKNOWN	_	2	appos	_	Orig=[----]
+6	----	----	X	UNKNOWN	_	2	appos	_	Orig=[----]
 7	----	----	X	UNKNOWN	_	9	nsubj	_	Orig=[----]
-8	----	----	X	UNKNOWN	_	9	nsubj	_	Orig=[----]
+8	----	----	X	UNKNOWN	_	9	conj	_	Orig=[----]
 9	----	----	X	UNKNOWN	_	0	root	_	Orig=[----]
 10	ⲧⲉ	ⲧⲉ	X	UNKNOWN	_	9	cop	_	_
 11	·	·	PUNCT	PUNCT	_	9	punct	_	_
@@ -115,8 +115,8 @@
 2	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	3	det	_	Entity=(person
 3	ⲣⲱⲙⲉ	ⲣⲱⲙⲉ	NOUN	N	_	1	nmod	_	_
 4-5	ϩⲱⲱϥ	_	_	_	_	_	_	_	_
-4	ϩⲱⲱ	ϩⲱⲱ	ADV	IMOD	_	3	advmod	_	_
-5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	det	_	_
+4	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	1	obl:unmarked	_	_
+5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 6-7	ⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 6	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	7	mark	_	_
 7	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	3	acl:relcl	_	_
@@ -131,13 +131,13 @@
 13	ⲛϩⲏⲧ	ϩⲛ	ADP	PREP	_	14	case	_	_
 14	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	Entity=person)abstract)|Orig=ϥ̄
 15-18	ⲡⲉⲧⲣⲉⲩⲛⲁⲩ	_	_	_	_	_	_	_	_
-15	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	1	acl	_	_
+15	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	cop	_	_
+16	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	1	csubj	_	_
 17	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
 18	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	VerbForm=Fin	16	xcomp	_	_
 19-21	ⲉⲛⲉⲩϩⲃⲏⲩⲉ	_	_	_	_	_	_	_	_
 19	ⲉ	ⲉ	ADP	PREP	_	21	case	_	_
-20	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	21	det	_	Entity=(abstract
+20	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	Entity=(abstract
 21	ϩⲃⲏⲩⲉ	ϩⲱⲃ	NOUN	N	_	18	obl	_	_
 22-24	ⲉⲧⲛⲁⲛⲟⲩⲟⲩ	_	_	_	_	_	_	_	_
 22	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	23	mark	_	_
@@ -147,7 +147,7 @@
 26	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	28	cc	_	_
 27-28	ⲉⲧⲣⲟⲩⲟⲉⲓⲛ	_	_	_	_	_	_	_	_
 27	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	28	mark	_	_
-28	ⲣⲟⲩⲟⲉⲓⲛ	ⲣⲟⲩⲟⲉⲓⲛ	VERB	V	VerbForm=Fin	16	advcl	_	Morphs=ⲣ-ⲟⲩⲟⲉⲓⲛ|Orig=ⲣⲟⲩⲟ[ⲉⲓ]ⲛ̣
+28	ⲣⲟⲩⲟⲉⲓⲛ	ⲣⲟⲩⲟⲉⲓⲛ	VERB	V	VerbForm=Fin	23	conj	_	Morphs=ⲣ-ⲟⲩⲟⲉⲓⲛ|Orig=ⲣⲟⲩⲟ[ⲉⲓ]ⲛ̣
 29-31	ϩⲛⲛⲧⲟⲡⲟⲥ	_	_	_	_	_	_	_	_
 29	ϩⲛ	ϩⲛ	ADP	PREP	_	31	case	_	Orig=ϩⲛ̄
 30	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	31	det	_	Entity=(place|Orig=ⲛ̄
@@ -162,16 +162,16 @@
 # text = ⲟⲩⲣⲱⲙⲉ ⲉϥⲣϣⲁⲩ ⲛⲁϥ ⲁⲛ ·
 1-2	ⲟⲩⲣⲱⲙⲉ	_	_	_	_	_	_	_	_
 1	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	2	det	_	Entity=(person|Orig=ⲟⲩ̣
-2	ⲣⲱⲙⲉ	ⲣⲱⲙⲉ	NOUN	N	_	5	dislocated	_	_
+2	ⲣⲱⲙⲉ	ⲣⲱⲙⲉ	NOUN	N	_	0	root	_	_
 3-5	ⲉϥⲣϣⲁⲩ	_	_	_	_	_	_	_	_
 3	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	5	mark	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	ⲣϣⲁⲩ	ⲣϣⲁⲩ	VERB	V	VerbForm=Fin	0	root	_	Morphs=ⲣ-ϣⲁⲩ|Orig=ⲣ̄ϣⲁⲩ
+5	ⲣϣⲁⲩ	ⲣϣⲁⲩ	VERB	V	VerbForm=Fin	2	acl:relcl	_	Morphs=ⲣ-ϣⲁⲩ|Orig=ⲣ̄ϣⲁⲩ
 6-7	ⲛⲁϥ	_	_	_	_	_	_	_	_
 6	ⲛⲁ	ⲛⲁ	ADP	PREP	_	7	case	_	_
 7	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
 8	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	5	advmod	_	Entity=person)
-9	·	·	PUNCT	PUNCT	_	5	punct	_	_
+9	·	·	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = shenoute_eagerness-GL29-30_par_XJ33-34_s0010
 # text_en = And he will not benefit himself.
@@ -186,8 +186,8 @@
 6	ⲉⲣⲟ	ⲉ	ADP	PREP	_	7	case	_	_
 7	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
 8-9	ⲙⲙⲓⲛⲙⲙⲟϥ	_	_	_	_	_	_	_	_
-8	ⲙⲙⲓⲛⲙⲙⲟ	ⲙⲙⲓⲛⲙⲙⲟ	ADV	IMOD	Definite=Def|PronType=Prs|Reflex=Yes	4	advmod	_	Orig=ⲙ̄ⲙⲓ̈ⲛⲙⲙⲟ
-9	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	8	det	_	_
+8	ⲙⲙⲓⲛⲙⲙⲟ	ⲙⲙⲓⲛⲙⲙⲟ	NOUN	IMOD	Definite=Def|PronType=Prs|Reflex=Yes	4	obl:unmarked	_	Orig=ⲙ̄ⲙⲓ̈ⲛⲙⲙⲟ
+9	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
 10	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = shenoute_eagerness-GL29-30_par_XJ33-34_s0011
@@ -195,7 +195,7 @@
 # text = ⲛⲁϣ ⲛϩⲉ ⲉϥⲛⲁⲣϣⲁⲩ ·
 1-2	ⲛⲁϣ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲛ	ADP	PREP	_	2	case	_	_
-2	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	8	obl	_	_
+2	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	8	obl	_	CxnElt=WHWord
 3-4	ⲛϩⲉ	_	_	_	_	_	_	_	_
 3	ⲛ	ⲛ	ADP	PREP	_	4	case	_	_
 4	ϩⲉ	ϩⲉ	NOUN	N	_	2	nmod	_	_
@@ -203,7 +203,7 @@
 5	ⲉ	ⲉⲣⲉ	PART	CFOC	_	8	mark	_	_
 6	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 7	ⲛⲁ	ⲛⲁ	AUX	FUT	_	8	aux	_	_
-8	ⲣϣⲁⲩ	ⲣϣⲁⲩ	VERB	V	VerbForm=Fin	0	root	_	Morphs=ⲣ-ϣⲁⲩ
+8	ⲣϣⲁⲩ	ⲣϣⲁⲩ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=Clause|Morphs=ⲣ-ϣⲁⲩ
 9	·	·	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = shenoute_eagerness-GL29-30_par_XJ33-34_s0012
@@ -219,40 +219,40 @@
 6	ⲏ	ⲏ	CCONJ	CONJ	Foreign=Yes	8	cc	_	OrigLang=grc
 7-10	ⲉⲟⲩⲛⲟⲩⲣⲁⲛ	_	_	_	_	_	_	_	_
 7	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	8	mark	_	Orig=[ⲉ
-8	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	3	conj	_	_
+8	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	3	acl:relcl	_	Cxn=Existential-ExistPred-Positive
 9	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	10	det	_	Entity=(abstract|Orig=ⲟ]ⲩ
-10	ⲣⲁⲛ	ⲣⲁⲛ	NOUN	N	_	8	nsubj	_	_
+10	ⲣⲁⲛ	ⲣⲁⲛ	NOUN	N	_	8	nsubj	_	CxnElt=Pivot
 11-13	ⲉϥⲧⲁⲉⲓⲏⲩ	_	_	_	_	_	_	_	_
 11	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	13	mark	_	_
 12	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	ⲧⲁⲉⲓⲏⲩ	ⲧⲁⲉⲓⲟ	VERB	VSTAT	VerbForm=Fin	10	acl:relcl	_	Entity=abstract)|Orig=ⲧⲁⲉ̣[ⲓⲏⲩ
 14-15	ⲛⲁϯϩⲏⲩ	_	_	_	_	_	_	_	_
 14	ⲛⲁ	ⲛⲁ	AUX	FUT	_	15	aux	_	Orig=ⲛⲁ]
-15	ϯϩⲏⲩ	ϯϩⲏⲩ	VERB	V	VerbForm=Fin	3	csubj	_	Morphs=ϯ-ϩⲏⲩ
+15	ϯϩⲏⲩ	ϯϩⲏⲩ	VERB	V	VerbForm=Fin	3	acl:relcl	_	Morphs=ϯ-ϩⲏⲩ
 16-17	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 16	ⲙⲙⲟ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲙⲙ̣[ⲟ
 17	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	Orig=ϥ]
-18	ⲓⲟⲩⲇⲁⲥ	ⲓⲟⲩⲇⲁⲥ	PROPN	NPROP	Foreign=Yes	21	advmod	_	Entity=(person-Judas_Iscariot)|Orig=ⲓⲟⲩ[ⲇⲁⲥ|OrigLang=he
+18	ⲓⲟⲩⲇⲁⲥ	ⲓⲟⲩⲇⲁⲥ	PROPN	NPROP	Foreign=Yes	21	dislocated	_	Entity=(person-Judas_Iscariot)|Orig=ⲓⲟⲩ[ⲇⲁⲥ|OrigLang=he
 19-21	ⲙⲡϥⲣϣⲁⲩ	_	_	_	_	_	_	_	_
 19	ⲙⲡ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	21	aux	_	Orig=ⲙⲡ]
 20	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
-21	ⲣϣⲁⲩ	ⲣϣⲁⲩ	VERB	V	VerbForm=Fin	15	parataxis	_	Morphs=ⲣ-ϣⲁⲩ|Orig=ⲣ̄ϣ̣[ⲁⲩ
+21	ⲣϣⲁⲩ	ⲣϣⲁⲩ	VERB	V	VerbForm=Fin	3	parataxis	_	Morphs=ⲣ-ϣⲁⲩ|Orig=ⲣ̄ϣ̣[ⲁⲩ
 22-23	ⲛⲁϥ	_	_	_	_	_	_	_	_
 22	ⲛⲁ	ⲛⲁ	ADP	PREP	_	23	case	_	_
 23	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
-24	ⲙⲁⲩⲁ	ⲙⲁⲩⲁ	ADV	IMOD	_	3	advmod	_	Orig=ⲙⲁ]ⲩ̣ⲁ
+24	ⲙⲁⲩⲁ	ⲙⲁⲩⲁ	NOUN	IMOD	_	3	nmod:unmarked	_	Orig=ⲙⲁ]ⲩ̣ⲁ
 
 # sent_id = shenoute_eagerness-GL29-30_par_XJ33-34_s0013
 # text_en = …
 # text = ---- ---- ---- ---- ---- ---- ---- ----
-1	----	----	X	UNKNOWN	_	0	root	_	Orig=[----]
-2	----	----	X	UNKNOWN	_	1	dep	_	Orig=[----]
-3	----	----	X	UNKNOWN	_	1	dep	_	Orig=[----]
+1	----	----	X	UNKNOWN	_	2	dep	_	Orig=[----]
+2	----	----	X	UNKNOWN	_	0	root	_	Orig=[----]
+3	----	----	X	UNKNOWN	_	2	dep	_	Orig=[----]
 4	----	----	X	UNKNOWN	_	3	dep	_	Orig=[----]
 5	----	----	X	UNKNOWN	_	3	conj	_	Orig=[----]
 6	----	----	X	UNKNOWN	_	3	conj	_	Orig=[----]
-7	----	----	X	UNKNOWN	_	1	conj	_	Orig=[----]
-8	----	----	X	UNKNOWN	_	1	advmod	_	Orig=[----]
+7	----	----	X	UNKNOWN	_	2	conj	_	Orig=[----]
+8	----	----	X	UNKNOWN	_	2	advmod	_	Orig=[----]
 
 # sent_id = shenoute_eagerness-GL29-30_par_XJ33-34_s0014
 # text_en = ... that apostate to the Lord, saying: 'if man gains the whole world, he loses his soul'
@@ -272,38 +272,38 @@
 10-12	ⲉϥϫⲱ	_	_	_	_	_	_	_	_
 10	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	12	mark	_	_
 11	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
-12	ϫⲱ	ϫⲱ	VERB	V	VerbForm=Fin	3	acl:relcl	_	_
+12	ϫⲱ	ϫⲱ	VERB	V	VerbForm=Fin	9	advcl	_	_
 13-14	ⲙⲙⲟⲥ	_	_	_	_	_	_	_	_
 13	ⲙⲙⲟ	ⲛ	ADP	PREP	_	14	case	_	_
-14	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
-15	·	·	PUNCT	PUNCT	_	28	punct	_	_
+14	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+15	·	·	PUNCT	PUNCT	_	20	punct	_	_
 16-19	ϫⲉⲉⲣϣⲁⲛⲡⲣⲱⲙⲉ	_	_	_	_	_	_	_	_
-16	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	28	mark	_	_
+16	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	20	mark	_	_
 17	ⲉⲣϣⲁⲛ	ⲉⲣϣⲁⲛ	AUX	ACOND	_	20	aux	_	_
 18	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Entity=(person
 19	ⲣⲱⲙⲉ	ⲣⲱⲙⲉ	NOUN	N	_	20	nsubj	_	Entity=person)
-20	ϯϩⲏⲩ	ϯϩⲏⲩ	VERB	V	VerbForm=Fin	28	advcl	_	Morphs=ϯ-ϩⲏⲩ
+20	ϯϩⲏⲩ	ϯϩⲏⲩ	VERB	V	VerbForm=Fin	12	ccomp	_	Morphs=ϯ-ϩⲏⲩ
 21-23	ⲙⲡⲕⲟⲥⲙⲟⲥ	_	_	_	_	_	_	_	_
 21	ⲙ	ⲛ	ADP	PREP	_	23	case	_	_
 22	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	Entity=(place
-23	ⲕⲟⲥⲙⲟⲥ	ⲕⲟⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	20	obj	_	OrigLang=grc
+23	ⲕⲟⲥⲙⲟⲥ	ⲕⲟⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	20	obl	_	OrigLang=grc
 24-25	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-24	ⲧⲏⲣ	ⲧⲏⲣ	ADV	IMOD	PronType=Tot	23	advmod	_	_
-25	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	24	det	_	Entity=place)
+24	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	23	nmod:unmarked	_	_
+25	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	24	nmod:poss	_	Entity=place)
 26-28	ⲛϥϯⲟⲥⲉ	_	_	_	_	_	_	_	_
 26	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	28	aux	_	_
 27	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
-28	ϯⲟⲥⲉ	ϯⲟⲥⲉ	VERB	V	VerbForm=Fin	12	ccomp	_	Morphs=ϯ-ⲟⲥⲉ
+28	ϯⲟⲥⲉ	ϯⲟⲥⲉ	VERB	V	VerbForm=Fin	20	advcl	_	Morphs=ϯ-ⲟⲥⲉ
 29-31	ⲛⲧⲉϥⲯⲩⲭⲏ	_	_	_	_	_	_	_	_
 29	ⲛ	ⲛ	ADP	PREP	_	31	case	_	Orig=ⲛ ́
-30	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	31	det	_	Entity=(abstract
+30	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	Entity=(abstract
 31	ⲯⲩⲭⲏ	ⲯⲩⲭⲏ	NOUN	N	Foreign=Yes	28	obl	_	Entity=abstract)|OrigLang=grc
 32	·	·	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = shenoute_eagerness-GL29-30_par_XJ33-34_s0015
 # text_en = What will he give him in exchange for this soul?
 # text = ⲟⲩ ⲡⲉⲧϥⲛⲁⲧⲁⲁϥ ⲛϣⲃⲃⲓⲱ ⲛⲧⲉϥⲯⲩⲭⲏ
-1	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	_
+1	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=WHWord
 2-7	ⲡⲉⲧϥⲛⲁⲧⲁⲁϥ	_	_	_	_	_	_	_	_
 2	ⲡ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	1	cop	_	Entity=(person
 3	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	6	mark	_	Orig=[ⲉⲧ]
@@ -316,8 +316,8 @@
 9	ϣⲃⲃⲓⲱ	ϣⲃⲃⲓⲱ	NOUN	N	_	6	obl	_	Entity=(abstract|Orig=ϣ̣[ⲃ]ⲃⲓⲱ
 10-12	ⲛⲧⲉϥⲯⲩⲭⲏ	_	_	_	_	_	_	_	_
 10	ⲛ	ⲛ	ADP	PREP	_	12	case	_	Orig=ⲛ̄
-11	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	Entity=(abstract
-12	ⲯⲩⲭⲏ	ⲯⲩⲭⲏ	NOUN	N	Foreign=Yes	9	nmod	_	Entity=abstract)abstract)person)|OrigLang=grc
+11	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	Entity=(abstract
+12	ⲯⲩⲭⲏ	ⲯⲩⲭⲏ	NOUN	N	Foreign=Yes	6	obl	_	Entity=abstract)abstract)person)|OrigLang=grc
 
 # sent_id = shenoute_eagerness-GL29-30_par_XJ33-34_s0016
 # text_en = But still he listened to him saying 'one of you will betray me'.
@@ -339,9 +339,9 @@
 12	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	14	case	_	_
 13-14	ⲛϩⲏⲧⲧⲏⲩⲧⲛ	_	_	_	_	_	_	_	_
 13	ⲛϩⲏⲧ	ϩⲛ	ADP	PREP	_	12	fixed	_	Orig=ⲛ̄ϩⲏⲧ
-14	ⲧⲏⲩⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	10	acl:relcl	_	Entity=person)|Orig=ⲧⲏⲩⲧⲛ̄
+14	ⲧⲏⲩⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	10	nmod	_	Entity=person)|Orig=ⲧⲏⲩⲧⲛ̄
 15-18	ⲡⲉⲧⲛⲁⲡⲁⲣⲁⲇⲓⲇⲟⲩ	_	_	_	_	_	_	_	_
-15	ⲡ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	10	nsubj	_	_
+15	ⲡ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	10	appos	_	_
 16	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	18	mark	_	_
 17	ⲛⲁ	ⲛⲁ	AUX	FUT	_	18	aux	_	_
 18	ⲡⲁⲣⲁⲇⲓⲇⲟⲩ	ⲡⲁⲣⲁⲇⲓⲇⲟⲩ	VERB	V	Foreign=Yes|VerbForm=Fin	15	acl:relcl	_	OrigLang=grc
@@ -364,17 +364,17 @@
 7	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	ϣⲛ	ϣⲓⲛⲉ	VERB	V	VerbForm=Fin	4	conj	_	Morphs=ϣⲛ|Orig=ϣⲁ]ⲛ̣
 9	ϩⲧⲏ	ϩⲏⲧ	NOUN	N	_	8	obj	_	_
-10	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	9	det	_	_
+10	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
 11-12	ϩⲁⲣⲟϥ	_	_	_	_	_	_	_	_
 11	ϩⲁⲣⲟ	ϩⲁ	ADP	PREP	_	12	case	_	Orig=[ϩⲁⲣⲟ
 12	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	Orig=ϥ]
 13-14	ⲙⲁⲩⲁⲁϥ	_	_	_	_	_	_	_	_
-13	ⲙⲁⲩⲁⲁ	ⲙⲁⲩⲁⲁ	ADV	IMOD	_	8	advmod	_	Orig=ⲙ̣ⲁ̣ⲩ̣ⲁⲁ
-14	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	13	det	_	_
+13	ⲙⲁⲩⲁⲁ	ⲙⲁⲩⲁⲁ	NOUN	IMOD	_	8	obl:unmarked	_	Orig=ⲙ̣ⲁ̣ⲩ̣ⲁⲁ
+14	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
 15-18	ⲁϥⲥⲟⲣⲙⲉϥ	_	_	_	_	_	_	_	_
 15	ⲁ	ⲁ	AUX	APST	_	17	aux	_	Orig=[ⲁ
 16	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
-17	ⲥⲟⲣⲙ	ⲥⲱⲣⲙ	VERB	V	VerbForm=Fin	4	parataxis	_	Orig=ⲥⲟⲣ]ⲙ
+17	ⲥⲟⲣⲙ	ⲥⲱⲣⲙ	VERB	V	VerbForm=Fin	4	conj	_	Orig=ⲥⲟⲣ]ⲙ
 18	ⲉϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
 19	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	22	case	_	Orig=ⲉⲧ̣[ⲃⲉ
 20	ⲙⲁⲁⲃ	ⲙⲁⲁⲃ	NUM	NUM	NumType=Card	22	nummod	_	Entity=(object
@@ -386,14 +386,14 @@
 # sent_id = shenoute_eagerness-GL29-30_par_XJ33-34_s0018
 # text_en = …
 # text = ---- ---- ---- ---- ---- ---- ---- ----
-1	----	----	X	UNKNOWN	_	0	root	_	Orig=[----]
-2	----	----	X	UNKNOWN	_	1	dep	_	Orig=[----]
-3	----	----	X	UNKNOWN	_	1	dep	_	Orig=[----]
+1	----	----	X	UNKNOWN	_	2	dep	_	Orig=[----]
+2	----	----	X	UNKNOWN	_	0	root	_	Orig=[----]
+3	----	----	X	UNKNOWN	_	2	dep	_	Orig=[----]
 4	----	----	X	UNKNOWN	_	3	dep	_	Orig=[----]
 5	----	----	X	UNKNOWN	_	3	conj	_	Orig=[----]
 6	----	----	X	UNKNOWN	_	3	conj	_	Orig=[----]
-7	----	----	X	UNKNOWN	_	1	conj	_	Orig=[----]
-8	----	----	X	UNKNOWN	_	1	advmod	_	Orig=[----]
+7	----	----	X	UNKNOWN	_	2	conj	_	Orig=[----]
+8	----	----	X	UNKNOWN	_	2	advmod	_	Orig=[----]
 
 # sent_id = shenoute_eagerness-GL29-30_par_XJ33-34_s0019
 # text_en = ... gave him alone down to a snare of the devil.
@@ -402,8 +402,8 @@
 1	ⲧⲁⲁ	ϯ	VERB	V	VerbForm=Fin	0	root	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
 3-4	ⲙⲁⲩⲁⲁϥ	_	_	_	_	_	_	_	_
-3	ⲙⲁⲩⲁⲁ	ⲙⲁⲩⲁⲁ	ADV	IMOD	_	1	advmod	_	_
-4	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	3	det	_	_
+3	ⲙⲁⲩⲁⲁ	ⲙⲁⲩⲁⲁ	NOUN	IMOD	_	1	obl:unmarked	_	_
+4	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 5	ⲉϩⲣⲁⲓ	ⲉϩⲣⲁⲓ	ADV	ADV	_	1	advmod	_	_
 6-8	ⲉⲩϭⲟⲣϭⲥ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉ	ADP	PREP	_	8	case	_	_
@@ -419,9 +419,9 @@
 # text_en = For money, oh would that gold did not exist!
 # text = ⲉⲧⲃⲉ ⲭⲣⲏⲙⲁ ϩⲁⲙⲟⲓ ⲛⲧⲟⲟⲩⲛ · ⲉⲛⲉⲙⲡⲉ ⲡⲛⲟⲩⲃ ϣⲱⲡⲉ
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	2	case	_	_
-2	ⲭⲣⲏⲙⲁ	ⲭⲣⲏⲙⲁ	NOUN	N	Foreign=Yes	4	obl	_	Entity=(object)|OrigLang=grc
-3	ϩⲁⲙⲟⲓ	ϩⲁⲙⲟⲓ	CCONJ	CONJ	_	4	advmod	_	_
-4	ⲛⲧⲟⲟⲩⲛ	ⲛⲧⲟⲟⲩⲛ	ADV	ADV	_	0	root	_	_
+2	ⲭⲣⲏⲙⲁ	ⲭⲣⲏⲙⲁ	NOUN	N	Foreign=Yes	3	obl	_	Entity=(object)|OrigLang=grc
+3	ϩⲁⲙⲟⲓ	ϩⲁⲙⲟⲓ	CCONJ	CONJ	_	0	root	_	_
+4	ⲛⲧⲟⲟⲩⲛ	ⲛⲧⲟⲟⲩⲛ	ADV	ADV	_	3	advmod	_	_
 5	·	·	PUNCT	PUNCT	_	11	punct	_	_
 6-8	ⲉⲛⲉⲙⲡⲉ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	11	mark	_	_
@@ -430,7 +430,7 @@
 9-10	ⲡⲛⲟⲩⲃ	_	_	_	_	_	_	_	_
 9	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(substance
 10	ⲛⲟⲩⲃ	ⲛⲟⲩⲃ	NOUN	N	_	11	nsubj	_	Entity=substance)
-11	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	4	advcl	_	_
+11	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	3	advcl	_	_
 
 # sent_id = shenoute_eagerness-GL29-30_par_XJ33-34_s0021
 # text_en = Still again we receive it in plenty in making God give it to us for some purpose.
@@ -497,7 +497,7 @@
 # sent_id = shenoute_eagerness-GL29-30_par_XJ33-34_s0024
 # text_en = Would that gold did not exist and they would not hand over the righteous one for silver and -- ...
 # text = ϩⲁⲙⲟⲓ ⲉⲛⲉⲙⲡⲉ ⲡ ⲛⲟⲩⲃ ϣⲱⲡⲉ ⲁⲩⲱ ⲛⲉⲩⲛⲁϯ ⲡⲇⲓⲕⲁⲓⲟⲥ ⲉⲃⲟⲗ ⲁⲛ ϩⲁⲟⲩϩⲁⲧ ⲁⲩⲱ ⲧ ----
-1	ϩⲁⲙⲟⲓ	ϩⲁⲙⲟⲓ	CCONJ	CONJ	_	7	advmod	_	Orig=ϩⲁⲙ̣[ⲟⲓ
+1	ϩⲁⲙⲟⲓ	ϩⲁⲙⲟⲓ	CCONJ	CONJ	_	7	cc	_	Orig=ϩⲁⲙ̣[ⲟⲓ
 2-4	ⲉⲛⲉⲙⲡⲉ	_	_	_	_	_	_	_	_
 2	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	7	mark	_	_
 3	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	7	aux	_	Orig=ⲛⲉ]
@@ -529,9 +529,9 @@
 # text = ---- ---- ---- ---- ---- ---- ----
 1	----	----	X	UNKNOWN	_	0	root	_	Orig=[----]
 2	----	----	X	UNKNOWN	_	1	dep	_	Orig=[----]
-3	----	----	X	UNKNOWN	_	1	dep	_	Orig=[----]
-4	----	----	X	UNKNOWN	_	3	dep	_	Orig=[----]
-5	----	----	X	UNKNOWN	_	3	conj	_	Orig=[----]
-6	----	----	X	UNKNOWN	_	3	conj	_	Orig=[----]
-7	----	----	X	UNKNOWN	_	1	advmod	_	Orig=[----]
+3	----	----	X	UNKNOWN	_	2	dep	_	Orig=[----]
+4	----	----	X	UNKNOWN	_	2	conj	_	Orig=[----]
+5	----	----	X	UNKNOWN	_	4	conj	_	Orig=[----]
+6	----	----	X	UNKNOWN	_	2	conj	_	Orig=[----]
+7	----	----	X	UNKNOWN	_	2	advmod	_	Orig=[----]
 

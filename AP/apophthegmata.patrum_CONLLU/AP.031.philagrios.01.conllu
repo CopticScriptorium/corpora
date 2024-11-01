@@ -4,8 +4,8 @@
 # text = ⲛⲉⲟⲩⲛⲟⲩⲁ ⲇⲉ ⲛⲧⲉⲛⲉⲧⲟⲩⲁⲁⲃ ⲉϣⲁⲩⲙⲟⲩⲧⲉ ⲉⲣⲟϥ ϫⲉⲫⲓⲗⲁⲅⲣⲓⲟⲥ · ⲉϥⲟⲩⲏϩ ϩⲛⲧϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ · ⲉϥⲣϩⲱⲃ ϩⲛⲟⲩϩⲓⲥⲉ · ϣⲁⲛⲧⲉϥϫⲡⲟ ⲛⲁϥ ⲙⲡⲉϥⲟⲉⲓⲕ ⲙⲙⲓⲛⲙⲙⲟϥ .
 1-3	ⲛⲉⲟⲩⲛⲟⲩⲁ	_	_	_	_	_	_	_	_
 1	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	2	aux	_	Orig=Ⲛⲉ̇
-2	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	0	root	_	Orig=ⲟⲩⲛ̇
-3	ⲟⲩⲁ	ⲟⲩⲁ	NOUN	N	_	2	nsubj	_	Entity=(person
+2	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	0	root	_	Cxn=Existential-ExistPred-Positive|Orig=ⲟⲩⲛ̇
+3	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	2	nsubj	_	CxnElt=Pivot|Entity=(person
 4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	2	advmod	_	OrigLang=grc
 5-8	ⲛⲧⲉⲛⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 5	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	6	case	_	Orig=ⲛ̇ⲧⲉ
@@ -54,7 +54,7 @@
 38	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	Entity=(object
 39	ⲟⲉⲓⲕ	ⲟⲉⲓⲕ	NOUN	N	_	34	obl	_	Entity=object)|Orig=ⲟ̇ⲉⲓ̇ⲕ
 40-41	ⲙⲙⲓⲛⲙⲙⲟϥ	_	_	_	_	_	_	_	_
-40	ⲙⲙⲓⲛⲙⲙⲟ	ⲙⲙⲓⲛⲙⲙⲟ	NOUN	IMOD	Definite=Def|PronType=Prs|Reflex=Yes	34	obl:npmod	_	Orig=ⲙ̇ⲙⲓ̇ⲛⲙⲙⲟ
+40	ⲙⲙⲓⲛⲙⲙⲟ	ⲙⲙⲓⲛⲙⲙⲟ	NOUN	IMOD	Definite=Def|PronType=Prs|Reflex=Yes	34	obl:unmarked	_	Orig=ⲙ̇ⲙⲓ̇ⲛⲙⲙⲟ
 41	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	40	nmod:poss	_	Entity=person)
 42	.	.	PUNCT	PUNCT	_	2	punct	_	Orig=·
 
@@ -103,14 +103,14 @@
 30	ⲃⲁⲗⲗⲁⲧⲓⲟⲛ	ⲃⲁⲗⲗⲁⲧⲓⲟⲛ	NOUN	N	Foreign=Yes	27	obj	_	Orig=ⲃⲁⲗⲗⲁⲧⲓ̇ⲟⲛ|OrigLang=grc
 31-33	ⲉⲩⲛⲙⲏⲧ	_	_	_	_	_	_	_	_
 31	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	32	mark	_	Orig=ⲉ̇
-32	ⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	30	acl:relcl	_	Orig=ⲩⲛ̇
+32	ⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	30	acl:relcl	_	Cxn=Existential-ExistPred-Positive|Orig=ⲩⲛ̇
 33	ⲙⲏⲧ	ⲙⲏⲧ	NUM	NUM	NumType=Card	35	compound	_	Entity=(object
 34-35	ⲛϣⲉ	_	_	_	_	_	_	_	_
 34	ⲛ	ⲛ	ADP	PREP	_	35	case	_	Orig=ⲛ̇
 35	ϣⲉ	ϣⲉ	NUM	NUM	NumType=Card	37	nummod	_	_
 36-37	ⲛϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ	_	_	_	_	_	_	_	_
 36	ⲛ	ⲛ	ADP	PREP	_	37	case	_	Orig=ⲛ̇
-37	ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ	ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ	NOUN	N	Foreign=Yes	32	nsubj	_	Entity=object)|Orig=ϩⲟⲗⲟⲕⲟⲧⲧⲓ̇ⲛⲟⲥ|OrigLang=grc
+37	ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ	ϩⲟⲗⲟⲕⲟⲧⲧⲓⲛⲟⲥ	NOUN	N	Foreign=Yes	32	nsubj	_	CxnElt=Pivot|Entity=object)|Orig=ϩⲟⲗⲟⲕⲟⲧⲧⲓ̇ⲛⲟⲥ|OrigLang=grc
 38-39	ϩⲓⲱⲱⲥ	_	_	_	_	_	_	_	_
 38	ϩⲓⲱⲱ	ϩⲓ	ADP	PREP	_	39	case	_	Orig=ϩⲓ̇ⲱⲱ
 39	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	obl	_	Entity=object)
@@ -289,8 +289,8 @@
 29	ⲛⲧ	ⲉⲣⲉ	PART	CFOC	_	32	mark	_	Orig=ⲛ̇ⲧ
 30	ⲁ	ⲁ	AUX	APST	_	32	aux	_	_
 31	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
-32	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	21	ccomp	_	_
-33	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	32	obj	_	_
+32	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	21	ccomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=Clause
+33	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	32	obj	_	CxnElt=WHWord
 34	.	.	PUNCT	PUNCT	_	4	punct	_	Orig=·ⲻ
 
 # sent_id = apophthegmata_patrum-AP_031_philagrios_01_s0008

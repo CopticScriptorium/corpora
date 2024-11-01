@@ -218,7 +218,7 @@
 12	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Entity=(place
 13	ⲕⲟⲥⲙⲟⲥ	ⲕⲟⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	16	nsubj	_	OrigLang=grc
 14-15	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-14	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	13	obl:npmod	_	_
+14	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	13	nmod:unmarked	_	_
 15	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	14	nmod:poss	_	Entity=place)|Orig=ϥ̅
 16	ⲙⲡϣⲁ	ⲙⲡϣⲁ	VERB	V	VerbForm=Fin	9	acl:relcl	_	Orig=ⲙ̅ⲡϣⲁ
 17	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	16	advmod	_	_
@@ -307,7 +307,7 @@
 50	ⲡⲁⲩⲗⲟⲥ	ⲡⲁⲩⲗⲟⲥ	PROPN	NPROP	Foreign=Yes	49	flat	_	Entity=person-Paul_of_Thebes)|OrigLang=grc
 51-52	ⲡⲙⲉϩⲥⲛⲁⲩ	_	_	_	_	_	_	_	_
 51	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	Entity=(time
-52	ⲙⲉϩⲥⲛⲁⲩ	ⲙⲉϩⲥⲛⲁⲩ	NOUN	N	_	45	obl:npmod	_	Entity=time)|Morphs=ⲙⲉϩ-ⲥⲛⲁⲩ
+52	ⲙⲉϩⲥⲛⲁⲩ	ⲙⲉϩⲥⲛⲁⲩ	NOUN	N	_	45	obl:unmarked	_	Entity=time)|Morphs=ⲙⲉϩ-ⲥⲛⲁⲩ
 53	·	·	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = coptic_treebank-life_cyrus_01_s0007
@@ -632,7 +632,7 @@
 # text_en = ...
 # text = ⲡⲉϫⲁϥ ⲛⲁϥ ⲛϭⲓⲁⲡⲁ ⲡⲁⲙⲃⲱ ϫⲉⲡⲁⲙⲉⲣⲓⲧ ⲛⲥⲟⲛ ⲁⲡⲁ ϩⲓⲉⲣⲁⲝ · ⲉⲓⲥ ⲁⲟⲩⲏⲣ ⲛⲣⲟⲙⲡⲉ · ϫⲓⲛⲛⲧⲁⲕⲉⲓ ⲉϩⲟⲩⲛ ⲉⲡⲉⲓⲙⲁ ·
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
-1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
+1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct,Interrogative-WHInfo-Indirect|CxnElt=1:Interrogative-Polar-Direct.Clause
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
 3-4	ⲛⲁϥ	_	_	_	_	_	_	_	_
 3	ⲛⲁ	ⲛⲁ	ADP	PREP	_	4	case	_	_
@@ -652,7 +652,7 @@
 14	ϩⲓⲉⲣⲁⲝ	ϩⲓⲉⲣⲁⲝ	PROPN	NPROP	Foreign=Yes	13	flat	_	Entity=person)|OrigLang=grc
 15	·	·	PUNCT	PUNCT	_	10	punct	_	_
 16	ⲉⲓⲥ	ⲉⲓⲥ	PART	PTC	_	17	advmod	_	_
-17	ⲁⲟⲩⲏⲣ	ⲁⲟⲩⲏⲣ	PRON	PINT	PronType=Int	1	ccomp	_	Entity=(time
+17	ⲁⲟⲩⲏⲣ	ⲁⲟⲩⲏⲣ	PRON	PINT	PronType=Int	1	ccomp	_	CxnElt=1:Interrogative-Polar-Direct.WHWord|Entity=(time
 18-19	ⲛⲣⲟⲙⲡⲉ	_	_	_	_	_	_	_	_
 18	ⲛ	ⲛ	ADP	PREP	_	19	case	_	Orig=ⲛ̅
 19	ⲣⲟⲙⲡⲉ	ⲣⲟⲙⲡⲉ	NOUN	N	_	17	nmod	_	Entity=time)
@@ -728,7 +728,7 @@
 4	ⲃⲛⲛⲉ	ⲃⲛⲛⲉ	NOUN	N	_	7	nsubj	_	Orig=ⲃⲛ̅ⲛⲉ
 5	·	·	PUNCT	PUNCT	_	4	punct	_	_
 6	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	7	advmod	_	OrigLang=grc
-7	ⲣⲏⲧ	ⲣⲟⲉⲓⲥ	VERB	VSTAT	VerbForm=Fin	0	root	_	_
+7	ⲣⲏⲧ	ⲣⲱⲧ	VERB	VSTAT	VerbForm=Fin	0	root	_	_
 8	·	·	PUNCT	PUNCT	_	10	punct	_	_
 9-10	ⲛⲥⲁⲃⲟⲗ	_	_	_	_	_	_	_	_
 9	ⲛⲥⲁ	ⲛⲥⲁ	ADP	PREP	_	10	case	_	Orig=ⲛ̅ⲥⲁ
@@ -794,8 +794,8 @@
 12	ⲉⲓⲱⲧ	ⲉⲓⲱⲧ	NOUN	N	_	10	nmod	_	Entity=person)
 13	ⲁⲣⲁ	ⲁⲣⲁ	PART	PTC	Foreign=Yes	14	advmod	_	OrigLang=grc
 14-15	ⲟⲩⲛⲥⲟⲛ	_	_	_	_	_	_	_	_
-14	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	4	ccomp	_	Orig=ⲟⲩⲛ̅
-15	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	14	nsubj	_	Entity=(person)
+14	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	4	ccomp	_	Cxn=Existential-ExistPred-Positive|Orig=ⲟⲩⲛ̅
+15	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	14	nsubj	_	CxnElt=14:Conditional-UnspecifiedEpistemic.Pivot|Entity=(person)
 16-18	ⲙⲡⲉⲕϩⲟⲩⲛ	_	_	_	_	_	_	_	_
 16	ⲙ	ⲛ	ADP	PREP	_	18	case	_	Orig=ⲙ̅
 17	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	18	nmod:poss	_	Entity=(place
@@ -813,8 +813,8 @@
 4	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	1	obl	_	_
 5-7	ϫⲉⲟⲩⲛⲟⲩⲟⲛ	_	_	_	_	_	_	_	_
 5	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	6	mark	_	_
-6	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	1	ccomp	_	Orig=ⲟⲩⲛ̅
-7	ⲟⲩⲟⲛ	ⲟⲩⲟⲛ	NOUN	N	_	6	nsubj	_	Entity=(person)
+6	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	1	ccomp	_	Cxn=Existential-ExistPred-Positive|Orig=ⲟⲩⲛ̅
+7	ⲟⲩⲟⲛ	ⲟⲩⲟⲛ	NOUN	N	_	6	nsubj	_	CxnElt=6:Conditional-UnspecifiedEpistemic.Pivot|Entity=(person)
 
 # sent_id = coptic_treebank-life_cyrus_01_s0023
 # text_en = ...
@@ -1071,7 +1071,7 @@
 29-30	ⲛⲁⲩⲁⲛ	_	_	_	_	_	_	_	_
 29	ⲛ	ⲛ	ADP	PREP	_	30	case	_	Orig=ⲛ̅
 30	ⲁⲩⲁⲛ	ⲁⲩⲁⲛ	NOUN	N	_	28	nmod	_	_
-31	ⲁⲩⲁⲛ	ⲁⲩⲁⲛ	NOUN	N	_	30	obl:npmod	_	_
+31	ⲁⲩⲁⲛ	ⲁⲩⲁⲛ	NOUN	N	_	30	nmod:unmarked	_	_
 32-34	ⲛⲧϩⲉ	_	_	_	_	_	_	_	_
 32	ⲛ	ⲛ	ADP	PREP	_	34	case	_	Orig=ⲛ̅
 33	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	Orig=ⲑ
@@ -1424,8 +1424,8 @@
 10	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	12	mark	_	_
 11	ⲁⲣⲁ	ⲁⲣⲁ	PART	PTC	Foreign=Yes	12	advmod	_	OrigLang=grc
 12-13	ⲟⲩⲛⲥⲟⲛ	_	_	_	_	_	_	_	_
-12	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	7	parataxis	_	Orig=ⲟⲩⲛ̅
-13	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	12	nsubj	_	Entity=(person)
+12	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	7	parataxis	_	Cxn=Existential-ExistPred-Positive|Orig=ⲟⲩⲛ̅
+13	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	12	nsubj	_	CxnElt=12:Conditional-UnspecifiedEpistemic.Pivot|Entity=(person)
 14-16	ⲙⲡⲉⲕⲥⲁ	_	_	_	_	_	_	_	_
 14	ⲙ	ⲛ	ADP	PREP	_	16	case	_	Orig=ⲙ̅
 15	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	Entity=(place
@@ -1446,8 +1446,8 @@
 5	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	7	mark	_	_
 6	ⲥⲉ	ⲥⲉ	PART	PTC	_	7	advmod	_	_
 7-8	ⲟⲩⲛⲟⲩⲁ	_	_	_	_	_	_	_	_
-7	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	1	ccomp	_	Orig=ⲟⲩⲛ̅
-8	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	7	nsubj	_	Entity=(person
+7	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	1	ccomp	_	Cxn=Existential-ExistPred-Positive|Orig=ⲟⲩⲛ̅
+8	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	7	nsubj	_	CxnElt=7:Conditional-UnspecifiedEpistemic.Pivot|Entity=(person
 9	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	7	advmod	_	Orig=ⲙ̅ⲙⲁⲩ
 10	·	·	PUNCT	PUNCT	_	9	punct	_	_
 11-13	ⲉⲣⲉⲡⲕⲟⲥⲙⲟⲥ	_	_	_	_	_	_	_	_
@@ -1455,7 +1455,7 @@
 12	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Entity=(place
 13	ⲕⲟⲥⲙⲟⲥ	ⲕⲟⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	16	nsubj	_	OrigLang=grc
 14-15	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-14	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	13	obl:npmod	_	_
+14	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	13	nmod:unmarked	_	_
 15	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	14	nmod:poss	_	Entity=place)|Orig=ϥ̅
 16	ⲙⲡϣⲁ	ⲙⲡϣⲁ	VERB	V	VerbForm=Fin	8	acl:relcl	_	Orig=ⲙ̅ⲡϣⲁ
 17	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	16	advmod	_	_
@@ -1552,8 +1552,8 @@
 # text = ⲉⲡⲉⲓ ⲙⲛϭⲟⲙ ⲛⲣⲙⲛⲥⲁⲣⲝ ⲉⲛⲁⲩ ⲉⲡⲁϩⲟ · ⲉⲓⲙⲏⲧⲓ ⲡⲉⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ ⲛⲧⲉⲕⲕⲗⲏⲥⲓⲁ · ⲛϣⲓⲏⲧ ·
 1	ⲉⲡⲉⲓ	ⲉⲡⲉⲓ	SCONJ	CONJ	Foreign=Yes	2	mark	_	OrigLang=grc
 2-3	ⲙⲛϭⲟⲙ	_	_	_	_	_	_	_	_
-2	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	0	root	_	Orig=ⲙⲛ̅
-3	ϭⲟⲙ	ϭⲟⲙ	NOUN	N	_	2	nsubj	_	_
+2	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	0	root	_	Cxn=Existential-ExistPred-Negative|Orig=ⲙⲛ̅
+3	ϭⲟⲙ	ϭⲟⲙ	NOUN	N	_	2	nsubj	_	CxnElt=2:Conditional-UnspecifiedEpistemic.Pivot
 4-5	ⲛⲣⲙⲛⲥⲁⲣⲝ	_	_	_	_	_	_	_	_
 4	ⲛ	ⲛ	ADP	PREP	_	5	case	_	Orig=ⲛ̅
 5	ⲣⲙⲛⲥⲁⲣⲝ	ⲣⲙⲛⲥⲁⲣⲝ	NOUN	N	Foreign=Yes	2	obl	_	Entity=(person)|Morphs=ⲣⲙ-ⲛ-ⲥⲁⲣⲝ|Orig=ⲣⲙ̅ⲛ̅ⲥⲁⲣⲝ̅|OrigLang=grc
@@ -1672,14 +1672,14 @@
 2-6	ϯⲛⲁⲣⲡⲉⲕⲙⲉⲉⲩⲉ	_	_	_	_	_	_	_	_
 2	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	ⲛⲁ	ⲛⲁ	AUX	FUT	_	4	aux	_	_
-4	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲣ̅
+4	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=10:Conditional-UnspecifiedEpistemic.Apodosis|Orig=ⲣ̅
 5	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 6	ⲙⲉⲉⲩⲉ	ⲙⲉⲉⲩⲉ	NOUN	N	_	4	obj	_	_
 7-9	ⲉⲣϣⲁⲛⲡϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 7	ⲉⲣϣⲁⲛ	ⲉⲣϣⲁⲛ	AUX	ACOND	_	10	aux	_	Orig=ⲣ̅ϣⲁⲛ
 8	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Entity=(person
 9	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	10	nsubj	_	Entity=person)|Orig=ϫⲥ̅
-10	ⲥⲟⲟⲩⲧⲛ	ⲥⲟⲟⲩⲧⲛ	VERB	V	VerbForm=Fin	4	advcl	_	Orig=ⲥⲟⲟⲩⲧⲛ̅
+10	ⲥⲟⲟⲩⲧⲛ	ⲥⲟⲟⲩⲧⲛ	VERB	V	VerbForm=Fin	4	advcl	_	CxnElt=10:Conditional-UnspecifiedEpistemic.Protasis|Orig=ⲥⲟⲟⲩⲧⲛ̅
 11-13	ⲛⲧⲁϩⲓⲏ	_	_	_	_	_	_	_	_
 11	ⲛ	ⲛ	ADP	PREP	_	13	case	_	Orig=ⲛ̅
 12	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	Entity=(place
@@ -2190,7 +2190,7 @@
 12	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	35	mark	_	_
 13	ⲛⲧⲟϥ	ⲛⲧⲟϥ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	dislocated	_	Orig=ⲛ̅ⲧⲟϥ
 14-15	ϩⲱⲱϥ	_	_	_	_	_	_	_	_
-14	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	35	obl:npmod	_	_
+14	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	35	obl:unmarked	_	_
 15	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
 16	ⲟⲛ	ⲟⲛ	ADV	ADV	_	35	advmod	_	_
 17-19	ⲙⲡⲉⲟⲩⲟⲉⲓϣ	_	_	_	_	_	_	_	_
@@ -2248,7 +2248,7 @@
 
 # sent_id = coptic_treebank-life_cyrus_01_s0057
 # text_en = ...
-# text = ⲁϥϯⲡⲉϥⲟⲩⲟⲓ ⲉⲧϣⲱⲧⲉ ⲁϥⲥⲕⲟⲣⲕⲣ ⲡⲱⲛⲉ ⲉⲧϩⲓϫⲛⲣⲱⲥ ⲭⲱⲣⲓⲥ ⲧⲣⲉⲣⲱⲙⲉ ϯⲧⲟⲟⲧϥ · ⲁϥⲧⲥⲟ ⲛⲛⲉⲥⲟⲟⲩ ⲛⲗⲁⲃⲁⲛ ⲁϥⲕⲁⲁⲩ ⲉⲃⲟⲗ ⲁⲩⲙⲟⲟⲛⲉ ·
+# text = ⲁϥϯⲡⲉϥⲟⲩⲟⲓ ⲉⲧϣⲱⲧⲉ ⲁϥⲥⲕⲟⲣⲕⲣ ⲡⲱⲛⲉ ⲉⲧϩⲓϫⲛⲣⲱⲥ ⲭⲱⲣⲓⲥⲧⲣⲉⲣⲱⲙⲉ ϯⲧⲟⲟⲧϥ · ⲁϥⲧⲥⲟ ⲛⲛⲉⲥⲟⲟⲩ ⲛⲗⲁⲃⲁⲛ ⲁϥⲕⲁⲁⲩ ⲉⲃⲟⲗ ⲁⲩⲙⲟⲟⲛⲉ ·
 1-5	ⲁϥϯⲡⲉϥⲟⲩⲟⲓ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -2271,8 +2271,8 @@
 15	ϩⲓϫⲛ	ϩⲓϫⲛ	ADP	PREP	_	16	case	_	Orig=ϩⲓϫⲛ̅
 16	ⲣⲱ	ⲣⲟ	NOUN	N	_	13	acl:relcl	_	Entity=(object
 17	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	16	nmod:poss	_	Entity=object)object)
+18-20	ⲭⲱⲣⲓⲥⲧⲣⲉⲣⲱⲙⲉ	_	_	_	_	_	_	_	_
 18	ⲭⲱⲣⲓⲥ	ⲭⲱⲣⲓⲥ	PART	PREP	Foreign=Yes	19	mark	_	Orig=ⲭⲱⲣⲓ̈ⲥ|OrigLang=grc
-19-20	ⲧⲣⲉⲣⲱⲙⲉ	_	_	_	_	_	_	_	_
 19	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	11	advcl	_	_
 20	ⲣⲱⲙⲉ	ⲣⲱⲙⲉ	NOUN	N	_	19	obj	_	Entity=(person)
 21-23	ϯⲧⲟⲟⲧϥ	_	_	_	_	_	_	_	_
@@ -2621,8 +2621,8 @@
 12	ⲉ	ⲉⲣⲉ	PART	CFOC	_	15	mark	_	_
 13	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	15	aux	_	_
 14	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	_
-15	ϭⲛⲣⲱⲙⲉ	ϭⲛⲣⲱⲙⲉ	VERB	V	VerbForm=Fin	1	ccomp	_	Morphs=ϭⲛ-ⲣⲱⲙⲉ|Orig=ϭⲡ̅ⲣⲱⲙⲉ
-16	ⲧⲱⲛ	ⲧⲱⲛ	ADV	PINT	PronType=Int	15	advmod	_	_
+15	ϭⲛⲣⲱⲙⲉ	ϭⲛⲣⲱⲙⲉ	VERB	V	VerbForm=Fin	1	ccomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=15:Interrogative-Polar-Direct.Clause|Morphs=ϭⲛ-ⲣⲱⲙⲉ|Orig=ϭⲡ̅ⲣⲱⲙⲉ
+16	ⲧⲱⲛ	ⲧⲱⲛ	ADV	PINT	PronType=Int	15	advmod	_	CxnElt=15:Interrogative-Polar-Direct.WHWord
 17-19	ϩⲛⲧⲉⲓⲉⲣⲏⲙⲁ	_	_	_	_	_	_	_	_
 17	ϩⲛ	ϩⲛ	ADP	PREP	_	19	case	_	Orig=ϩⲛ̅
 18	ⲧⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	Entity=(place
@@ -2815,8 +2815,8 @@
 # text = ⲙⲙⲟⲛ ⲙⲛϣϭⲟⲙ ⲛⲣⲙⲛⲥⲁⲣⲝ ⲉⲛⲁⲩ ⲉⲡⲁϩⲟ ⲉⲓⲙⲏⲧⲓ ⲁⲡⲁ ⲡⲁⲙⲃⲱ · ⲡⲉⲡⲣⲉⲥⲃⲩⲧⲉⲣⲟⲥ ⲛⲧⲉⲕⲕⲗⲏⲥⲓⲁ ⲛϣⲓⲏⲧ ⁛—
 1	ⲙⲙⲟⲛ	ⲙⲙⲟⲛ	PART	PTC	Polarity=Neg	2	discourse	_	Orig=ⲙ̅ⲙⲟⲛ
 2-3	ⲙⲛϣϭⲟⲙ	_	_	_	_	_	_	_	_
-2	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	0	root	_	Orig=ⲙⲛ̅
-3	ϣϭⲟⲙ	ϣϭⲟⲙ	NOUN	N	_	2	nsubj	_	_
+2	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	0	root	_	Cxn=Existential-ExistPred-Negative|Orig=ⲙⲛ̅
+3	ϣϭⲟⲙ	ϣϭⲟⲙ	NOUN	N	_	2	nsubj	_	CxnElt=2:Conditional-UnspecifiedEpistemic.Pivot
 4-5	ⲛⲣⲙⲛⲥⲁⲣⲝ	_	_	_	_	_	_	_	_
 4	ⲛ	ⲛ	ADP	PREP	_	5	case	_	Orig=ⲛ̅
 5	ⲣⲙⲛⲥⲁⲣⲝ	ⲣⲙⲛⲥⲁⲣⲝ	NOUN	N	Foreign=Yes	2	obl	_	Entity=(object)|Morphs=ⲣⲙ-ⲛ-ⲥⲁⲣⲝ|Orig=ⲣⲙ̅ⲛ̅ⲥⲁⲣⲝ̅|OrigLang=grc

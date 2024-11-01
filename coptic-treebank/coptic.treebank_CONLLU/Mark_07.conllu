@@ -1,7 +1,7 @@
 # newdoc id = coptic.treebank:Mark_07
 # sent_id = coptic_treebank-Mark_07_s0001
 # text_en = Then the Pharisees, and some of the scribes gathered together to him, having come from Jerusalem.
-# text = ⲁⲩⲥⲱⲟⲩϩ ⲇⲉ ⲉⲣⲟϥ ⲛϭⲓⲛⲉⲫⲁⲣⲓⲥⲥⲁⲓⲟⲥ ⲁⲩⲱ ϩⲟⲓⲛⲉ ⲛⲛⲉⲅⲣⲁⲙⲙⲁⲧⲉⲩⲥ ⲉⲁⲩⲉⲓ ⲉⲃⲟⲗ ϩⲛ ⲧϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ
+# text = ⲁⲩⲥⲱⲟⲩϩ ⲇⲉ ⲉⲣⲟϥ ⲛϭⲓⲛⲉⲫⲁⲣⲓⲥⲥⲁⲓⲟⲥ ⲁⲩⲱ ϩⲟⲓⲛⲉ ⲛⲛⲉⲅⲣⲁⲙⲙⲁⲧⲉⲩⲥ ⲉⲁⲩⲉⲓ ⲉⲃⲟⲗ ϩⲛⲧϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ
 1-3	ⲁⲩⲥⲱⲟⲩϩ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
@@ -26,8 +26,8 @@
 17	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
 18	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	11	acl:relcl	_	_
 19	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	18	advmod	_	_
+20-22	ϩⲛⲧϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ	_	_	_	_	_	_	_	_
 20	ϩⲛ	ϩⲛ	ADP	PREP	_	22	case	_	_
-21-22	ⲧϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ	_	_	_	_	_	_	_	_
 21	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	Entity=(place-Jerusalem
 22	ϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ	ϩⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ	PROPN	NPROP	Foreign=Yes	18	obl	_	Entity=place-Jerusalem)person)|Orig=ϩⲓⲉⲣⲟⲥⲟⲗⲩⲙⲁ|OrigLang=he
 
@@ -74,7 +74,7 @@
 5	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	6	det	_	Entity=(person
 6	ⲓⲟⲩⲇⲁⲓ	ⲓⲟⲩⲇⲁⲓ	NOUN	N	Foreign=Yes	2	conj	_	OrigLang=he
 7-8	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-7	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	6	obl:npmod	_	_
+7	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	6	nmod:unmarked	_	_
 8	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	7	nmod:poss	_	Entity=person)
 9-14	ⲉⲩⲧⲙⲓⲁⲧⲟⲟⲧⲟⲩ	_	_	_	_	_	_	_	_
 9	ⲉ	ⲉⲣⲉ	PART	CFOC	_	12	mark	_	_
@@ -106,7 +106,7 @@
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	14	cc	_	_
 2-3	ⲉⲩϣⲁⲛⲉⲓ	_	_	_	_	_	_	_	_
 2	ⲉⲩϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟⲟⲩ	PRON	ACOND_PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
-3	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	14	advcl	_	_
+3	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	14	advcl	_	CxnElt=3:Conditional-UnspecifiedEpistemic.Protasis
 4-6	ⲛⲧⲁⲅⲟⲣⲁ	_	_	_	_	_	_	_	_
 4	ⲛ	ⲛ	ADP	PREP	_	6	case	_	_
 5	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Entity=(place
@@ -120,7 +120,7 @@
 12-14	ⲙⲉⲩⲟⲩⲱⲙ	_	_	_	_	_	_	_	_
 12	ⲙⲉ	ⲙⲉⲣⲉ	AUX	ANEGAOR	Polarity=Neg	14	aux	_	_
 13	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
-14	ⲟⲩⲱⲙ	ⲟⲩⲱⲙ	VERB	V	VerbForm=Fin	0	root	_	_
+14	ⲟⲩⲱⲙ	ⲟⲩⲱⲙ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=3:Conditional-UnspecifiedEpistemic.Apodosis
 15	.	.	PUNCT	PUNCT	_	14	punct	_	_
 16	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	19	case	_	_
 17-19	ϩⲉⲛⲕⲉⲥⲙⲟⲧ	_	_	_	_	_	_	_	_
@@ -128,7 +128,7 @@
 18	ⲕⲉ	ⲕⲉ	DET	ART	PronType=Art	19	det	_	_
 19	ⲥⲙⲟⲧ	ⲥⲙⲟⲧ	NOUN	N	_	14	conj	_	_
 20-21	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-20	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	19	obl:npmod	_	_
+20	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	19	nmod:unmarked	_	_
 21	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
 22-26	ⲉⲁⲩϫⲓⲧⲟⲩ	_	_	_	_	_	_	_	_
 22	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	25	mark	_	_
@@ -178,14 +178,14 @@
 12-14	ϫⲉⲉⲧⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
 12	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	19	mark	_	_
 13	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	14	case	_	_
-14	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	19	obl	_	_
+14	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	19	obl	_	CxnElt=19:Interrogative-Polar-Direct.WHWord
 15-16	ⲛⲉⲕⲙⲁⲑⲏⲧⲏⲥ	_	_	_	_	_	_	_	_
 15	ⲛⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	Entity=(person
 16	ⲙⲁⲑⲏⲧⲏⲥ	ⲙⲁⲑⲏⲧⲏⲥ	NOUN	N	Foreign=Yes	19	dislocated	_	Entity=person)|OrigLang=grc
 17-19	ⲛⲥⲉⲙⲟⲟϣⲉ	_	_	_	_	_	_	_	_
 17	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	19	advmod	_	_
 18	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
-19	ⲙⲟⲟϣⲉ	ⲙⲟⲟϣⲉ	VERB	V	VerbForm=Fin	3	ccomp	_	_
+19	ⲙⲟⲟϣⲉ	ⲙⲟⲟϣⲉ	VERB	V	VerbForm=Fin	3	ccomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=19:Interrogative-Polar-Direct.Clause
 20	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	19	advmod	_	_
 21-23	ⲕⲁⲧⲁⲧⲡⲁⲣⲁⲇⲟⲥⲓⲥ	_	_	_	_	_	_	_	_
 21	ⲕⲁⲧⲁ	ⲕⲁⲧⲁ	ADP	PREP	Foreign=Yes	23	case	_	OrigLang=grc
@@ -241,13 +241,13 @@
 18	ϩⲉ	ϩⲉ	NOUN	N	_	11	obl	_	_
 19-21	ⲉⲧϥⲥⲏϩ	_	_	_	_	_	_	_	_
 19	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	21	mark	_	_
-20	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+20	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	expl	_	_
 21	ⲥⲏϩ	ⲥϩⲁⲓ	VERB	VSTAT	VerbForm=Fin	18	acl:relcl	_	_
 22-24	ϫⲉⲡⲓⲗⲁⲟⲥ	_	_	_	_	_	_	_	_
 22	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	25	mark	_	_
 23	ⲡⲓ	ⲡⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	24	det	_	Entity=(organization
 24	ⲗⲁⲟⲥ	ⲗⲁⲟⲥ	NOUN	N	Foreign=Yes	25	nsubj	_	Entity=organization)|Orig=ⲗⲁⲧⲟⲥ|OrigLang=grc
-25	ⲧⲙⲁⲓⲟ	ⲧⲙⲁⲓⲟ	VERB	V	VerbForm=Fin	21	ccomp	_	_
+25	ⲧⲙⲁⲓⲟ	ⲧⲙⲁⲓⲟ	VERB	V	VerbForm=Fin	21	csubj	_	_
 26-27	ⲙⲙⲟⲓ	_	_	_	_	_	_	_	_
 26	ⲙⲙⲟ	ⲛ	ADP	PREP	_	27	case	_	_
 27	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	25	obl	_	_
@@ -451,11 +451,11 @@
 25-27	ϫⲉⲟⲩⲇⲱⲣⲟⲛ	_	_	_	_	_	_	_	_
 25	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	27	mark	_	_
 26	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	27	det	_	Entity=(abstract
-27	ⲇⲱⲣⲟⲛ	ⲇⲱⲣⲟⲛ	NOUN	N	_	23	csubj	_	Entity=abstract)
+27	ⲇⲱⲣⲟⲛ	ⲇⲱⲣⲟⲛ	NOUN	N	_	23	csubj	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=30:Conditional-UnspecifiedEpistemic.Apodosis|Entity=abstract)
 28	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	27	cop	_	_
 29-30	ⲉⲕϣⲁⲛϯϩⲏⲩ	_	_	_	_	_	_	_	_
 29	ⲉⲕϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟⲕ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	30	nsubj	_	_
-30	ϯϩⲏⲩ	ϯϩⲏⲩ	VERB	V	VerbForm=Fin	27	advcl	_	Morphs=ϯ-ϩⲏⲩ
+30	ϯϩⲏⲩ	ϯϩⲏⲩ	VERB	V	VerbForm=Fin	27	advcl	_	CxnElt=30:Conditional-UnspecifiedEpistemic.Protasis|Morphs=ϯ-ϩⲏⲩ
 31-32	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 31	ⲙⲙⲟ	ⲛ	ADP	PREP	_	32	case	_	_
 32	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
@@ -489,7 +489,7 @@
 
 # sent_id = coptic_treebank-Mark_07_s0013
 # text_en = making void the word of God by your tradition, which you have handed down. You do many things like this.'
-# text = ⲉⲧⲉⲧⲛⲧⲥⲧⲟ ⲉⲃⲟⲗ ⲙⲡϣⲁϫⲉ ⲙⲡⲛⲟⲩⲧⲉ ϩⲛ ⲧⲉⲧⲛⲡⲁⲣⲁⲇⲟⲥⲓⲥ ⲛⲧⲁⲧⲉⲧⲛⲧⲁⲁⲥ ⲉⲧⲟⲟⲧⲟⲩ ⲁⲩⲱ ϩⲉⲛⲕⲉϩⲃⲏⲩⲉ ⲧⲏⲣⲟⲩ ⲉⲩⲧⲛⲧⲱⲛ ⲉⲛⲁⲓ ⲧⲉⲧⲛⲉⲓⲣⲉ ⲙⲙⲟⲟⲩ .
+# text = ⲉⲧⲉⲧⲛⲧⲥⲧⲟ ⲉⲃⲟⲗ ⲙⲡϣⲁϫⲉ ⲙⲡⲛⲟⲩⲧⲉ ϩⲛⲧⲉⲧⲛⲡⲁⲣⲁⲇⲟⲥⲓⲥ ⲛⲧⲁⲧⲉⲧⲛⲧⲁⲁⲥ ⲉⲧⲟⲟⲧⲟⲩ ⲁⲩⲱ ϩⲉⲛⲕⲉϩⲃⲏⲩⲉ ⲧⲏⲣⲟⲩ ⲉⲩⲧⲛⲧⲱⲛ ⲉⲛⲁⲓ ⲧⲉⲧⲛⲉⲓⲣⲉ ⲙⲙⲟⲟⲩ .
 1-3	ⲉⲧⲉⲧⲛⲧⲥⲧⲟ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	3	mark	_	_
 2	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
@@ -503,8 +503,8 @@
 8	ⲙ	ⲛ	ADP	PREP	_	10	case	_	_
 9	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(person
 10	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	7	nmod	_	Entity=person)abstract)
+11-13	ϩⲛⲧⲉⲧⲛⲡⲁⲣⲁⲇⲟⲥⲓⲥ	_	_	_	_	_	_	_	_
 11	ϩⲛ	ϩⲛ	ADP	PREP	_	13	case	_	_
-12-13	ⲧⲉⲧⲛⲡⲁⲣⲁⲇⲟⲥⲓⲥ	_	_	_	_	_	_	_	_
 12	ⲧⲉⲧⲛ	ⲡⲉⲧⲛ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	13	nmod:poss	_	Entity=(abstract
 13	ⲡⲁⲣⲁⲇⲟⲥⲓⲥ	ⲡⲁⲣⲁⲇⲟⲥⲓⲥ	NOUN	N	Foreign=Yes	3	obl	_	OrigLang=grc
 14-18	ⲛⲧⲁⲧⲉⲧⲛⲧⲁⲁⲥ	_	_	_	_	_	_	_	_
@@ -522,7 +522,7 @@
 23	ⲕⲉ	ⲕⲉ	DET	ART	PronType=Art	24	det	_	_
 24	ϩⲃⲏⲩⲉ	ϩⲱⲃ	NOUN	N	_	33	dislocated	_	_
 25-26	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-25	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	24	obl:npmod	_	_
+25	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	24	nmod:unmarked	_	_
 26	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
 27-29	ⲉⲩⲧⲛⲧⲱⲛ	_	_	_	_	_	_	_	_
 27	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	29	mark	_	_
@@ -541,7 +541,7 @@
 
 # sent_id = coptic_treebank-Mark_07_s0014
 # text_en = He called all the multitude to himself, and said to them, 'Hear me, all of you, and understand.
-# text = ⲁⲩⲱ ⲁϥⲙⲟⲩⲧⲉ ⲟⲛ ⲉⲡⲙⲏⲏϣⲉ ⲡⲉϫⲁϥ ⲛⲁ ⲩ . ϫⲉⲥⲱⲧⲙ ⲉⲣⲟⲓ ⲧⲏⲣⲧⲛ ⲛⲧⲉⲧⲛⲛⲟⲉⲓ
+# text = ⲁⲩⲱ ⲁϥⲙⲟⲩⲧⲉ ⲟⲛ ⲉⲡⲙⲏⲏϣⲉ ⲡⲉϫⲁϥ ⲛⲁⲩ . ϫⲉⲥⲱⲧⲙ ⲉⲣⲟⲓ ⲧⲏⲣⲧⲛ ⲛⲧⲉⲧⲛⲛⲟⲉⲓ
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
 2-4	ⲁϥⲙⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
@@ -555,6 +555,7 @@
 9-10	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 9	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	4	parataxis	_	_
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+11-12	ⲛⲁⲩ	_	_	_	_	_	_	_	_
 11	ⲛⲁ	ⲛⲁ	ADP	PREP	_	12	case	_	_
 12	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	9	obl	_	_
 13	.	.	PUNCT	PUNCT	_	9	punct	_	_
@@ -565,7 +566,7 @@
 16	ⲉⲣⲟ	ⲉ	ADP	PREP	_	17	case	_	_
 17	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	15	obl	_	Orig=ⲉⲓ
 18-19	ⲧⲏⲣⲧⲛ	_	_	_	_	_	_	_	_
-18	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	15	obl:npmod	_	_
+18	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	15	obl:unmarked	_	_
 19	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
 20-22	ⲛⲧⲉⲧⲛⲛⲟⲉⲓ	_	_	_	_	_	_	_	_
 20	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	22	aux	_	_
@@ -576,8 +577,8 @@
 # text_en = There is nothing from outside of the man, that going into him can defile him; but the things which proceed out of the man are those that defile the man.
 # text = ⲙⲙⲛⲗⲁⲁⲩ ⲉϥⲙⲡⲃⲟⲗ ⲙⲡⲣⲱⲙⲉ ⲉϥⲛⲁⲃⲱⲕ ⲉϩⲟⲩⲛ ⲉⲣⲟϥ ⲉϥⲛⲁϣϫⲁϩⲙⲉϥ ⲁⲗⲗⲁ ⲛⲉⲧⲛⲏⲩ ⲉⲃⲟⲗ ⲙⲡⲣⲱⲙⲉ ⲛⲧⲟⲟⲩ ⲛⲉⲧϫⲱϩⲙ ⲙⲡⲣⲱⲙⲉ .
 1-2	ⲙⲙⲛⲗⲁⲁⲩ	_	_	_	_	_	_	_	_
-1	ⲙⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	0	root	_	_
-2	ⲗⲁⲁⲩ	ⲗⲁⲁⲩ	NOUN	N	_	1	nsubj	_	Entity=(object
+1	ⲙⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	0	root	_	Cxn=Existential-ExistPred-Negative
+2	ⲗⲁⲁⲩ	ⲗⲁⲁⲩ	NOUN	N	_	1	nsubj	_	CxnElt=1:Conditional-UnspecifiedEpistemic.Pivot|Entity=(object
 3-7	ⲉϥⲙⲡⲃⲟⲗ	_	_	_	_	_	_	_	_
 3	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	7	mark	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -678,7 +679,7 @@
 7	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	12	mark	_	_
 8	ⲛⲧⲱⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=2|PronType=Prs	12	dislocated	_	_
 9-10	ϩⲱⲧⲧⲏⲩⲧⲛ	_	_	_	_	_	_	_	_
-9	ϩⲱⲧ	ϩⲱⲧ	NOUN	IMOD	_	12	obl:npmod	_	_
+9	ϩⲱⲧ	ϩⲱⲧ	NOUN	IMOD	_	12	obl:unmarked	_	_
 10	ⲧⲏⲩⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
 11-12	ⲧⲉⲧⲛⲟ	_	_	_	_	_	_	_	_
 11	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	12	nsubj	_	_
@@ -771,7 +772,7 @@
 31	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	32	det	_	Entity=(object
 32	ϭⲓⲛⲟⲩⲟⲟⲙ	ϭⲓⲛⲟⲩⲱⲙ	NOUN	N	_	29	obj	_	Morphs=ϭⲓⲛ-ⲟⲩⲟⲟⲙ
 33-34	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-33	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	32	obl:npmod	_	_
+33	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	32	nmod:unmarked	_	_
 34	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	33	nmod:poss	_	Entity=object)
 35	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
@@ -813,13 +814,14 @@
 
 # sent_id = coptic_treebank-Mark_07_s0021
 # text_en = For from within, out of the hearts of men, proceed evil thoughts, adulteries, sexual sins, murders, thefts,
-# text = ⲉϥⲛⲏⲩ ⲅⲁⲣ ⲉⲃⲟⲗ ϩⲓ ϩⲟⲩⲛ ⲙⲡϩⲏⲧ ⲛⲛⲣⲱⲙⲉ ⲛϭⲓⲙⲙⲉⲉⲩⲉ ⲉⲧϩⲟⲟⲩ ϩⲉⲛⲡⲟⲣⲛⲉⲓⲁ ϩⲉⲛϫⲓⲟⲩⲉ .
+# text = ⲉϥⲛⲏⲩ ⲅⲁⲣ ⲉⲃⲟⲗ ϩⲓϩⲟⲩⲛ ⲙⲡϩⲏⲧ ⲛⲛⲣⲱⲙⲉ ⲛϭⲓⲙⲙⲉⲉⲩⲉ ⲉⲧϩⲟⲟⲩ ϩⲉⲛⲡⲟⲣⲛⲉⲓⲁ ϩⲉⲛϫⲓⲟⲩⲉ .
 1-3	ⲉϥⲛⲏⲩ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	PART	CFOC	_	3	mark	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	ⲛⲏⲩ	ⲉⲓ	VERB	VSTAT	VerbForm=Fin	0	root	_	_
 4	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
 5	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	3	advmod	_	_
+6-7	ϩⲓϩⲟⲩⲛ	_	_	_	_	_	_	_	_
 6	ϩⲓ	ϩⲓ	ADP	PREP	_	7	case	_	_
 7	ϩⲟⲩⲛ	ϩⲟⲩⲛ	NOUN	N	_	3	obl	_	_
 8-10	ⲙⲡϩⲏⲧ	_	_	_	_	_	_	_	_
@@ -886,10 +888,10 @@
 
 # sent_id = coptic_treebank-Mark_07_s0023
 # text_en = All these evil things come from within, and defile the man.'
-# text = ⲛⲁⲓ ⲧⲏⲣⲟⲩ ⲉⲧϩⲟⲟⲩ ⲉⲩⲛⲏⲩ ⲉⲃⲟⲗ ϩⲓ ϩⲟⲩⲛ ⲉⲩϫⲱϩⲙ ⲙⲡⲣⲱⲙⲉ .
+# text = ⲛⲁⲓ ⲧⲏⲣⲟⲩ ⲉⲧϩⲟⲟⲩ ⲉⲩⲛⲏⲩ ⲉⲃⲟⲗ ϩⲓϩⲟⲩⲛ ⲉⲩϫⲱϩⲙ ⲙⲡⲣⲱⲙⲉ .
 1	ⲛⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	8	dislocated	_	Entity=(abstract
 2-3	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-2	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	1	obl:npmod	_	_
+2	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	1	obl:unmarked	_	_
 3	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 4-5	ⲉⲧϩⲟⲟⲩ	_	_	_	_	_	_	_	_
 4	ⲉⲧ	ⲉⲧ	SCONJ	CREL	_	5	mark	_	_
@@ -899,6 +901,7 @@
 7	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
 8	ⲛⲏⲩ	ⲉⲓ	VERB	VSTAT	VerbForm=Fin	0	root	_	_
 9	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	8	advmod	_	_
+10-11	ϩⲓϩⲟⲩⲛ	_	_	_	_	_	_	_	_
 10	ϩⲓ	ϩⲓ	ADP	PREP	_	11	case	_	_
 11	ϩⲟⲩⲛ	ϩⲟⲩⲛ	NOUN	N	_	8	obl	_	_
 12-14	ⲉⲩϫⲱϩⲙ	_	_	_	_	_	_	_	_
@@ -1019,7 +1022,7 @@
 
 # sent_id = coptic_treebank-Mark_07_s0026
 # text_en = Now the woman was a Greek, a Syrophoenician by race. She begged him that he would cast the demon out of her daughter.
-# text = ⲧⲉⲥϩⲓⲙⲉ ⲇⲉ ⲛⲉⲩϩⲉⲗⲗⲏⲛ ⲧⲉ ⲛⲣⲙ ⲧⲉ ⲫⲟⲓⲛⲓⲕⲏ ⲛⲧⲥⲩⲣⲓⲁ . ⲁⲩⲱ ⲁⲥⲥⲉⲡⲥⲱⲡϥ ϫⲉⲕⲁⲁⲥ ⲉϥⲉⲛⲉϫⲡⲇⲁⲓⲙⲱⲛⲓⲟⲛ ⲉⲃⲟⲗ ϩⲓ ⲧⲉⲥϣⲉⲉⲣⲉ
+# text = ⲧⲉⲥϩⲓⲙⲉ ⲇⲉ ⲛⲉⲩϩⲉⲗⲗⲏⲛ ⲧⲉ ⲛⲣⲙ ⲧⲉ ⲫⲟⲓⲛⲓⲕⲏ ⲛⲧⲥⲩⲣⲓⲁ . ⲁⲩⲱ ⲁⲥⲥⲉⲡⲥⲱⲡϥ ϫⲉⲕⲁⲁⲥ ⲉϥⲉⲛⲉϫⲡⲇⲁⲓⲙⲱⲛⲓⲟⲛ ⲉⲃⲟⲗ ϩⲓⲧⲉⲥϣⲉⲉⲣⲉ
 1-2	ⲧⲉⲥϩⲓⲙⲉ	_	_	_	_	_	_	_	_
 1	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Entity=(person
 2	ⲥϩⲓⲙⲉ	ⲥϩⲓⲙⲉ	NOUN	N	_	6	dislocated	_	Entity=person)
@@ -1052,8 +1055,8 @@
 24	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	Entity=(person
 25	ⲇⲁⲓⲙⲱⲛⲓⲟⲛ	ⲇⲁⲓⲙⲱⲛⲓⲟⲛ	NOUN	N	Foreign=Yes	23	obj	_	Entity=person)|OrigLang=grc
 26	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	23	advmod	_	_
+27-29	ϩⲓⲧⲉⲥϣⲉⲉⲣⲉ	_	_	_	_	_	_	_	_
 27	ϩⲓ	ϩⲓ	ADP	PREP	_	29	case	_	_
-28-29	ⲧⲉⲥϣⲉⲉⲣⲉ	_	_	_	_	_	_	_	_
 28	ⲧⲉⲥ	ⲡⲉⲥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	Entity=(person
 29	ϣⲉⲉⲣⲉ	ϣⲉⲉⲣⲉ	NOUN	N	_	23	obl	_	Entity=person)
 
@@ -1110,7 +1113,7 @@
 
 # sent_id = coptic_treebank-Mark_07_s0028
 # text_en = But she answered him, 'Yes, Lord. Yet even the dogs under the table eat the children's crumbs.'
-# text = ⲛⲧⲟⲥ ⲇⲉ ⲁⲥⲟⲩⲱϣⲃ ⲉⲥϫⲱ ⲙⲙⲟⲥ ⲛⲁϥ ϫⲉ ⲥⲉ ⲡϫⲟⲉⲓⲥ . ⲛⲕⲉⲟⲩϩⲟⲟⲣ ϣⲁⲩⲟⲩⲱⲙ ⲉⲃⲟⲗ ϩⲛ ⲛⲥⲣⲉϥⲣⲓϥⲉ ϩⲁⲧⲉⲧⲣⲁⲡⲉⲍⲁ ⲛⲛϣⲏⲣⲉ .
+# text = ⲛⲧⲟⲥ ⲇⲉ ⲁⲥⲟⲩⲱϣⲃ ⲉⲥϫⲱ ⲙⲙⲟⲥ ⲛⲁϥ ϫⲉ ⲥⲉ ⲡϫⲟⲉⲓⲥ . ⲛⲕⲉⲟⲩϩⲟⲟⲣ ϣⲁⲩⲟⲩⲱⲙ ⲉⲃⲟⲗ ϩⲛⲛⲥⲣⲉϥⲣⲓϥⲉ ϩⲁⲧⲉⲧⲣⲁⲡⲉⲍⲁ ⲛⲛϣⲏⲣⲉ .
 1	ⲛⲧⲟⲥ	ⲛⲧⲟⲥ	PRON	PPERI	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	dislocated	_	_
 2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	5	advmod	_	OrigLang=grc
 3-5	ⲁⲥⲟⲩⲱϣⲃ	_	_	_	_	_	_	_	_
@@ -1142,8 +1145,8 @@
 22	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
 23	ⲟⲩⲱⲙ	ⲟⲩⲱⲙ	VERB	V	VerbForm=Fin	14	parataxis	_	_
 24	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	27	case	_	_
+25-27	ϩⲛⲛⲥⲣⲉϥⲣⲓϥⲉ	_	_	_	_	_	_	_	_
 25	ϩⲛ	ϩⲛ	ADP	PREP	_	24	fixed	_	_
-26-27	ⲛⲥⲣⲉϥⲣⲓϥⲉ	_	_	_	_	_	_	_	_
 26	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	27	det	_	Entity=(object
 27	ⲥⲣⲉϥⲣⲓϥⲉ	ⲥⲣⲉϥⲣⲓϥⲉ	NOUN	N	_	23	obl	_	Entity=object)
 28-30	ϩⲁⲧⲉⲧⲣⲁⲡⲉⲍⲁ	_	_	_	_	_	_	_	_
@@ -1158,7 +1161,7 @@
 
 # sent_id = coptic_treebank-Mark_07_s0029
 # text_en = He said to her, 'For this saying, go your way. The demon has gone out of your daughter.'
-# text = ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛⲁⲥ ϫⲉⲃⲱⲕ ⲉⲧⲃⲉ ⲡⲉⲓϣⲁϫⲉ ⲁⲡⲇⲁⲓⲙⲱⲛⲓⲟⲛ ⲉⲓ ⲉⲃⲟⲗ ϩⲛ ⲧⲟⲩϣⲉⲉⲣⲉ .
+# text = ⲁⲩⲱ ⲡⲉϫⲁϥ ⲛⲁⲥ ϫⲉⲃⲱⲕ ⲉⲧⲃⲉⲡⲉⲓϣⲁϫⲉ ⲁⲡⲇⲁⲓⲙⲱⲛⲓⲟⲛ ⲉⲓ ⲉⲃⲟⲗ ϩⲛⲧⲟⲩϣⲉⲉⲣⲉ .
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	2	cc	_	_
 2-3	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 2	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
@@ -1169,8 +1172,8 @@
 6-7	ϫⲉⲃⲱⲕ	_	_	_	_	_	_	_	_
 6	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	7	mark	_	_
 7	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	2	ccomp	_	_
+8-10	ⲉⲧⲃⲉⲡⲉⲓϣⲁϫⲉ	_	_	_	_	_	_	_	_
 8	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	10	case	_	_
-9-10	ⲡⲉⲓϣⲁϫⲉ	_	_	_	_	_	_	_	_
 9	ⲡⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	Entity=(abstract|Orig=ⲡⲉⲉⲓ
 10	ϣⲁϫⲉ	ϣⲁϫⲉ	NOUN	N	_	14	obl	_	Entity=abstract)
 11-13	ⲁⲡⲇⲁⲓⲙⲱⲛⲓⲟⲛ	_	_	_	_	_	_	_	_
@@ -1179,8 +1182,8 @@
 13	ⲇⲁⲓⲙⲱⲛⲓⲟⲛ	ⲇⲁⲓⲙⲱⲛⲓⲟⲛ	NOUN	N	Foreign=Yes	14	nsubj	_	Entity=person)|OrigLang=grc
 14	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	7	parataxis	_	_
 15	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	18	case	_	_
+16-18	ϩⲛⲧⲟⲩϣⲉⲉⲣⲉ	_	_	_	_	_	_	_	_
 16	ϩⲛ	ϩⲛ	ADP	PREP	_	15	fixed	_	_
-17-18	ⲧⲟⲩϣⲉⲉⲣⲉ	_	_	_	_	_	_	_	_
 17	ⲧⲟⲩ	ⲡⲟⲩ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	18	nmod:poss	_	Entity=(person
 18	ϣⲉⲉⲣⲉ	ϣⲉⲉⲣⲉ	NOUN	N	_	14	obl	_	Entity=person)
 19	.	.	PUNCT	PUNCT	_	2	punct	_	_
@@ -1226,15 +1229,15 @@
 
 # sent_id = coptic_treebank-Mark_07_s0031
 # text_en = Again he departed from the borders of Tyre and Sidon, and came to the sea of Galilee, through the midst of the region of Decapolis.
-# text = ⲛⲧⲉⲣⲉϥⲉⲓ ⲟⲛ ⲉⲃⲟⲗ ϩⲛ ⲛⲧⲟϣ ⲛⲧⲩⲣⲟⲥ . ⲁϥⲃⲱⲕ ⲉⲃⲟⲗ ϩⲓⲧⲛ ⲥⲓⲇⲱⲛ ⲉⲑⲁⲗⲁⲥⲥⲁ ⲛⲧⲅⲁⲗⲓⲗⲁⲓⲁ ϩⲛⲧⲙⲏⲧⲉ ⲛⲛⲧⲟϣ ⲛⲧⲇⲉⲕⲁⲡⲟⲗⲓⲥ
+# text = ⲛⲧⲉⲣⲉϥⲉⲓ ⲟⲛ ⲉⲃⲟⲗ ϩⲛⲛⲧⲟϣ ⲛⲧⲩⲣⲟⲥ . ⲁϥⲃⲱⲕ ⲉⲃⲟⲗ ϩⲓⲧⲛⲥⲓⲇⲱⲛ ⲉⲑⲁⲗⲁⲥⲥⲁ ⲛⲧⲅⲁⲗⲓⲗⲁⲓⲁ ϩⲛⲧⲙⲏⲧⲉ ⲛⲛⲧⲟϣ ⲛⲧⲇⲉⲕⲁⲡⲟⲗⲓⲥ
 1-3	ⲛⲧⲉⲣⲉϥⲉⲓ	_	_	_	_	_	_	_	_
 1	ⲛⲧⲉⲣⲉ	ⲛⲧⲉⲣⲉ	AUX	APREC	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	14	advcl	_	_
 4	ⲟⲛ	ⲟⲛ	ADV	ADV	_	14	advmod	_	_
 5	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	8	case	_	_
+6-8	ϩⲛⲛⲧⲟϣ	_	_	_	_	_	_	_	_
 6	ϩⲛ	ϩⲛ	ADP	PREP	_	5	fixed	_	_
-7-8	ⲛⲧⲟϣ	_	_	_	_	_	_	_	_
 7	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	8	det	_	Entity=(place
 8	ⲧⲟϣ	ⲧⲱϣ	NOUN	N	_	3	obl	_	_
 9-10	ⲛⲧⲩⲣⲟⲥ	_	_	_	_	_	_	_	_
@@ -1246,6 +1249,7 @@
 13	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 14	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	0	root	_	_
 15	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	14	advmod	_	_
+16-17	ϩⲓⲧⲛⲥⲓⲇⲱⲛ	_	_	_	_	_	_	_	_
 16	ϩⲓⲧⲛ	ϩⲓⲧⲛ	ADP	PREP	_	17	case	_	_
 17	ⲥⲓⲇⲱⲛ	ⲥⲓⲇⲱⲛ	NOUN	N	Foreign=Yes	14	obl	_	Entity=(place)|OrigLang=grc
 18-19	ⲉⲑⲁⲗⲁⲥⲥⲁ	_	_	_	_	_	_	_	_
@@ -1306,7 +1310,7 @@
 
 # sent_id = coptic_treebank-Mark_07_s0033
 # text_en = He took him aside from the multitude, privately, and put his fingers into his ears, and he spat, and touched his tongue.
-# text = ⲛⲧⲉⲣⲉϥⲛⲧϥ ⲇⲉ ⲉⲃⲟⲗ ⲟⲩⲧⲉ ⲡⲙⲏⲏϣⲉ . ⲁϥϫⲓⲧϥ ⲉⲩⲥⲁ ⲁϥⲛⲉϫⲛⲉϥⲧⲏⲏⲃⲉ ⲉϩⲟⲩⲛ ⲉⲛⲉϥⲙⲁⲁϫⲉ . ⲁⲩⲱ ⲛⲧⲉⲣⲉϥⲛⲉϫⲧⲁϥ ⲉϩⲟⲩⲛ ⲉϩⲣⲁϥ ⲁϥϫⲱϩ ⲉⲡⲉϥⲗⲁⲥ
+# text = ⲛⲧⲉⲣⲉϥⲛⲧϥ ⲇⲉ ⲉⲃⲟⲗ ⲟⲩⲧⲉⲡⲙⲏⲏϣⲉ . ⲁϥϫⲓⲧϥ ⲉⲩⲥⲁ ⲁϥⲛⲉϫⲛⲉϥⲧⲏⲏⲃⲉ ⲉϩⲟⲩⲛ ⲉⲛⲉϥⲙⲁⲁϫⲉ . ⲁⲩⲱ ⲛⲧⲉⲣⲉϥⲛⲉϫⲧⲁϥ ⲉϩⲟⲩⲛ ⲉϩⲣⲁϥ ⲁϥϫⲱϩ ⲉⲡⲉϥⲗⲁⲥ
 1-4	ⲛⲧⲉⲣⲉϥⲛⲧϥ	_	_	_	_	_	_	_	_
 1	ⲛⲧⲉⲣⲉ	ⲛⲧⲉⲣⲉ	AUX	APREC	_	3	aux	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -1314,8 +1318,8 @@
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 5	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
 6	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	9	case	_	_
+7-9	ⲟⲩⲧⲉⲡⲙⲏⲏϣⲉ	_	_	_	_	_	_	_	_
 7	ⲟⲩⲧⲉ	ⲟⲩⲧⲉ	ADP	PREP	_	6	fixed	_	_
-8-9	ⲡⲙⲏⲏϣⲉ	_	_	_	_	_	_	_	_
 8	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Entity=(person
 9	ⲙⲏⲏϣⲉ	ⲙⲏⲏϣⲉ	NOUN	N	_	3	obl	_	Entity=person)
 10	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -1444,12 +1448,12 @@
 10	ϫⲟⲟ	ϫⲱ	VERB	V	VerbForm=Fin	4	ccomp	_	_
 11	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
 12	ⲗⲁⲁⲩ	ⲗⲁⲁⲩ	NOUN	N	_	10	iobj	_	Entity=(person)|Orig=ⲗⲗⲁⲁⲩ
-13	ϩⲟⲥⲟⲛ	ϩⲟⲥⲟⲛ	NOUN	N	Foreign=Yes	17	obl:npmod	_	OrigLang=grc
+13	ϩⲟⲥⲟⲛ	ϩⲟⲥⲟⲛ	NOUN	N	Foreign=Yes	17	obl:unmarked	_	OrigLang=grc
 14	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	17	advmod	_	OrigLang=grc
 15-17	ⲁϥϩⲱⲛ	_	_	_	_	_	_	_	_
 15	ⲁ	ⲁ	AUX	APST	_	17	aux	_	_
 16	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
-17	ϩⲱⲛ	ϩⲱⲛ	VERB	V	VerbForm=Fin	26	advcl	_	_
+17	ϩⲱⲛ	ϩⲱⲛ	VERB	V	VerbForm=Fin	26	advcl	_	CxnElt=26:ComparativeCorrelative.Protasis
 18-19	ⲉⲧⲟⲟⲧⲟⲩ	_	_	_	_	_	_	_	_
 18	ⲉⲧⲟⲟⲧ	ⲉⲧⲛ	ADP	PREP	_	19	case	_	_
 19	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	17	obl	_	_
@@ -1461,7 +1465,7 @@
 24-26	ⲉⲩϯ	_	_	_	_	_	_	_	_
 24	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	26	mark	_	_
 25	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
-26	ϯ	ϯ	VERB	V	VerbForm=Fin	4	parataxis	_	_
+26	ϯ	ϯ	VERB	V	VerbForm=Fin	4	parataxis	_	Cxn=ComparativeCorrelative|CxnElt=26:ComparativeCorrelative.Apodosis
 27-29	ⲙⲡⲉϥⲥⲟⲉⲓⲧ	_	_	_	_	_	_	_	_
 27	ⲙ	ⲛ	ADP	PREP	_	29	case	_	_
 28	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	Entity=(abstract

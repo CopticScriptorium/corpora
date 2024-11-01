@@ -70,7 +70,7 @@
 6	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	7	det	_	Entity=(object
 7	ⲭⲣⲉⲓⲁ	ⲭⲣⲉⲓⲁ	NOUN	N	Foreign=Yes	4	obj	_	Orig=ⲭⲣⲓ̇ⲁ|OrigLang=grc
 8-9	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-8	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	7	obl:npmod	_	_
+8	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	7	nmod:unmarked	_	_
 9	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	8	nmod:poss	_	Entity=object)
 10	,	,	PUNCT	PUNCT	_	13	punct	_	Orig=·
 11-13	ⲙⲛⲡϩⲱⲃ	_	_	_	_	_	_	_	_
@@ -101,7 +101,7 @@
 4	ⲑⲗⲓⲃⲉ	ⲑⲗⲓⲃⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	Orig=ⲑⲗⲓ̇ⲃⲉ|OrigLang=grc
 5-8	ϫⲉⲙⲛⲧϥϩⲱⲃ	_	_	_	_	_	_	_	_
 5	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	6	mark	_	_
-6	ⲙⲛⲧ	ⲙⲛⲧⲁ	VERB	EXIST	_	4	ccomp	_	_
+6	ⲙⲛⲧ	ⲙⲛⲧⲁ	VERB	EXIST	Polarity=Neg	4	ccomp	_	_
 7	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
 8	ϩⲱⲃ	ϩⲱⲃ	NOUN	N	_	6	nsubj	_	Entity=(abstract)
 9	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	6	advmod	_	_
@@ -111,7 +111,7 @@
 12	,	,	PUNCT	PUNCT	_	14	punct	_	Orig=·
 13	ⲟⲩⲇⲉ	ⲟⲩⲇⲉ	CCONJ	CONJ	Foreign=Yes|Polarity=Neg	14	cc	_	OrigLang=grc
 14-16	ⲙⲛⲧⲁϥϩⲣⲉ	_	_	_	_	_	_	_	_
-14	ⲙⲛⲧⲁ	ⲙⲛⲧⲁ	VERB	EXIST	_	6	conj	_	_
+14	ⲙⲛⲧⲁ	ⲙⲛⲧⲁ	VERB	EXIST	Polarity=Neg	6	conj	_	_
 15	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
 16	ϩⲣⲉ	ϩⲣⲉ	NOUN	N	_	14	nsubj	_	Entity=(object)
 17	.	.	PUNCT	PUNCT	_	4	punct	_	Orig=ⲻ
@@ -372,8 +372,8 @@
 # text = ϩⲙⲡⲉⲓⲣⲁⲥⲙⲟⲥ ⲛⲓⲙ
 1-2	ϩⲙⲡⲉⲓⲣⲁⲥⲙⲟⲥ	_	_	_	_	_	_	_	_
 1	ϩⲙ	ϩⲛ	ADP	PREP	_	2	case	_	Orig=ϩⲙ̇
-2	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	0	root	_	Entity=(event|Orig=ⲡⲓ̇ⲣⲁⲥⲙⲟⲥ|OrigLang=grc
-3	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	2	det	_	Entity=event)
+2	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=Clause|Entity=(event|Orig=ⲡⲓ̇ⲣⲁⲥⲙⲟⲥ|OrigLang=grc
+3	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	2	det	_	CxnElt=WHWord|Entity=event)
 
 # sent_id = apophthegmata_patrum-AP_099_n293_temptation_s0022
 # text_en = And he prayed and sent him.
@@ -440,7 +440,7 @@
 7	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	Entity=(person
 8	ⲣⲱⲙⲉ	ⲣⲱⲙⲉ	NOUN	N	_	5	conj	_	_
 9-10	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-9	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	8	obl:npmod	_	_
+9	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	8	nmod:unmarked	_	_
 10	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	9	nmod:poss	_	Entity=person)
 
 # sent_id = apophthegmata_patrum-AP_099_n293_temptation_s0026
@@ -703,7 +703,7 @@
 6-8	ⲉϥⲟⲩⲟϫ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	8	mark	_	Orig=ⲉ̇
 7	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-8	ⲟⲩⲟϫ	ⲟⲩⲱϫⲉ	VERB	VSTAT	VerbForm=Fin	4	advcl	_	_
+8	ⲟⲩⲟϫ	ⲟⲩϫⲁⲓ	VERB	VSTAT	VerbForm=Fin	4	advcl	_	_
 9-11	ϣⲁⲡⲉϥⲉⲓⲱⲧ	_	_	_	_	_	_	_	_
 9	ϣⲁ	ϣⲁ	ADP	PREP	_	11	case	_	_
 10	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	Entity=(person

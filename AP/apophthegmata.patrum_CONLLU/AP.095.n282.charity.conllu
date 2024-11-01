@@ -13,8 +13,8 @@
 7	ϩⲗⲗⲟ	ϩⲗⲗⲟ	NOUN	N	_	3	dislocated	_	Entity=person)|Orig=ϩ̇ⲗⲗⲟ
 8-10	ϫⲉⲟⲩⲛⲟⲩⲟⲛ	_	_	_	_	_	_	_	_
 8	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	9	mark	_	_
-9	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	3	ccomp	_	Orig=ⲟⲩⲛ̇
-10	ⲟⲩⲟⲛ	ⲟⲩⲟⲛ	NOUN	N	_	9	nsubj	_	Entity=(person|Orig=ⲟⲩⲟ̇ⲛ
+9	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	3	ccomp	_	Cxn=Existential-ExistPred-Positive|Orig=ⲟⲩⲛ̇
+10	ⲟⲩⲟⲛ	ⲟⲩⲟⲛ	NOUN	N	_	9	nsubj	_	CxnElt=Pivot|Entity=(person|Orig=ⲟⲩⲟ̇ⲛ
 11-13	ⲉϥⲉⲓⲣⲉ	_	_	_	_	_	_	_	_
 11	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	13	mark	_	_
 12	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
@@ -32,7 +32,7 @@
 22-24	ϣⲁⲣⲉⲡⲡⲟⲛⲏⲣⲟⲥ	_	_	_	_	_	_	_	_
 22	ϣⲁⲣⲉ	ϣⲁⲣⲉ	AUX	AAOR	_	24	aux	_	_
 23	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Entity=(person
-24	ⲡⲟⲛⲏⲣⲟⲥ	ⲡⲟⲛⲏⲣⲟⲥ	NOUN	N	Foreign=Yes	9	nsubj	_	Entity=person)|OrigLang=grc
+24	ⲡⲟⲛⲏⲣⲟⲥ	ⲡⲟⲛⲏⲣⲟⲥ	NOUN	N	Foreign=Yes	9	nsubj	_	CxnElt=Pivot|Entity=person)|OrigLang=grc
 
 # sent_id = apophthegmata_patrum-AP_095_n282_charity_s0002
 # text_en = …
@@ -297,11 +297,11 @@
 16	.	.	PUNCT	PUNCT	_	1	punct	_	Orig=⳾
 17-18	ⲉⲧⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
 17	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	18	case	_	_
-18	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	21	obl	_	_
+18	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	21	obl	_	CxnElt=WHWord
 19-21	ⲁⲕⲣⲁⲕⲣⲓⲃⲏⲥ	_	_	_	_	_	_	_	_
 19	ⲁ	ⲁ	AUX	APST	_	21	aux	_	Orig=ⲁ̇
 20	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	21	nsubj	_	_
-21	ⲣⲁⲕⲣⲓⲃⲏⲥ	ⲣⲁⲕⲣⲓⲃⲏⲥ	VERB	V	Foreign=Yes|VerbForm=Fin	1	ccomp	_	Morphs=ⲣ-ⲁⲕⲣⲓⲃⲏⲥ|OrigLang=grc
+21	ⲣⲁⲕⲣⲓⲃⲏⲥ	ⲣⲁⲕⲣⲓⲃⲏⲥ	VERB	V	Foreign=Yes|VerbForm=Fin	1	ccomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=Clause|Morphs=ⲣ-ⲁⲕⲣⲓⲃⲏⲥ|OrigLang=grc
 22-24	ϩⲛⲧⲟⲓⲡⲉ	_	_	_	_	_	_	_	_
 22	ϩⲛ	ϩⲛ	ADP	PREP	_	24	case	_	Orig=ϩⲛ̇
 23	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	Entity=(object

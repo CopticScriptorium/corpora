@@ -68,7 +68,7 @@
 8	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	10	mark	_	_
 9-10	ⲕⲟⲩⲱϣ	_	_	_	_	_	_	_	_
 9	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
-10	ⲟⲩⲱϣ	ⲟⲩⲱϣ	VERB	V	VerbForm=Fin	16	advcl	_	_
+10	ⲟⲩⲱϣ	ⲟⲩⲱϣ	VERB	V	VerbForm=Fin	16	advcl	_	CxnElt=Protasis
 11-12	ⲉⲥⲱⲧⲙ	_	_	_	_	_	_	_	_
 11	ⲉ	ⲉ	PART	PREP	_	12	mark	_	_
 12	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	VerbForm=Inf	10	xcomp	_	_
@@ -77,7 +77,7 @@
 14	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	12	obl	_	_
 15-17	ⲙⲡⲣⲕⲟⲧⲕ	_	_	_	_	_	_	_	_
 15	ⲙⲡⲣ	ⲙⲡⲣ	ADV	NEG	Polarity=Neg	16	advmod	_	Orig=ⲙ̇ⲡ̇ⲣ̇
-16	ⲕⲟⲧ	ⲕⲱⲧ	VERB	V	VerbForm=Fin	1	ccomp	_	_
+16	ⲕⲟⲧ	ⲕⲱⲧ	VERB	V	VerbForm=Fin	1	ccomp	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=Apodosis
 17	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	16	obj	_	_
 18-19	ⲉϯ	_	_	_	_	_	_	_	_
 18	ⲉ	ⲉ	PART	PREP	_	19	mark	_	_
@@ -123,7 +123,7 @@
 # text = ⲛⲧⲟⲕ ϩⲱⲱⲕ ⲡⲉⲧⲉⲕⲛⲁϭⲛⲧϥ ϩⲙⲡⲉⲕϩⲱⲃ ⲁⲛⲓⲧϥ ⲛⲁⲓ .
 1	ⲛⲧⲟⲕ	ⲛⲧⲟⲕ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	0	root	_	Orig=ⲛ̇ⲧⲟⲕ
 2-3	ϩⲱⲱⲕ	_	_	_	_	_	_	_	_
-2	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	1	obl:npmod	_	_
+2	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	1	nmod:unmarked	_	_
 3	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 4-9	ⲡⲉⲧⲉⲕⲛⲁϭⲛⲧϥ	_	_	_	_	_	_	_	_
 4	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	cop	_	Entity=(person
@@ -179,8 +179,8 @@
 8	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	Entity=place)
 9-11	ϫⲉⲟⲩⲛϣⲙⲙⲟ	_	_	_	_	_	_	_	_
 9	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	10	mark	_	_
-10	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	6	ccomp	_	_
-11	ϣⲙⲙⲟ	ϣⲙⲙⲟ	NOUN	N	_	10	nsubj	_	Entity=(person)
+10	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	6	ccomp	_	Cxn=Existential-ExistPred-Positive
+11	ϣⲙⲙⲟ	ϣⲙⲙⲟ	NOUN	N	_	10	nsubj	_	CxnElt=Pivot|Entity=(person)
 12	.	.	PUNCT	PUNCT	_	11	punct	_	Orig=⳾
 13	ⲏ	ⲏ	CCONJ	CONJ	Foreign=Yes	15	cc	_	OrigLang=grc
 14-15	ⲟⲩϩⲏⲕⲉ	_	_	_	_	_	_	_	_
@@ -609,7 +609,7 @@
 2	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(time
 3	ⲛⲁⲩ	ⲛⲁⲩ	NOUN	N	_	8	obl	_	Entity=time)|Orig=ⲛ̇ⲁⲩ
 4-5	ϩⲱⲱϥ	_	_	_	_	_	_	_	_
-4	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	8	obl:npmod	_	_
+4	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	8	obl:unmarked	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
 6-9	ⲉⲓϫⲓⲗⲁⲁⲩ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	8	mark	_	_
@@ -745,7 +745,7 @@
 15	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	Entity=(abstract
 16	ϩⲓⲥⲉ	ϩⲓⲥⲉ	NOUN	N	_	12	obl	_	Entity=abstract)
 17-18	ⲙⲙⲓⲛⲙⲙⲟϥ	_	_	_	_	_	_	_	_
-17	ⲙⲙⲓⲛⲙⲙⲟ	ⲙⲙⲓⲛⲙⲙⲟ	NOUN	IMOD	Definite=Def|PronType=Prs|Reflex=Yes	16	obl:npmod	_	_
+17	ⲙⲙⲓⲛⲙⲙⲟ	ⲙⲙⲓⲛⲙⲙⲟ	NOUN	IMOD	Definite=Def|PronType=Prs|Reflex=Yes	16	nmod:unmarked	_	_
 18	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
 19	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	22	cc	_	_
 20-22	ⲁϥϫⲓ	_	_	_	_	_	_	_	_

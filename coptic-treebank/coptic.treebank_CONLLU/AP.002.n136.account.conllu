@@ -63,7 +63,7 @@
 # sent_id = coptic_treebank-AP_002_n136_account_s0002
 # text_en = For, what would it be like to see the heavens opening, and God revealing himself in anger and threat
 # text = ⲟⲩ ⲅⲁⲣ ⲡⲉ ⲛⲁⲩ ⲉⲙⲡⲏⲩⲉ ⲉⲩⲛⲁⲡⲱϩ . ⲁⲩⲱ ⲡⲛⲟⲩⲧⲉ ⲉϥⲟⲩⲱⲛϩ ⲙⲙⲟϥ ⲉⲃⲟⲗ ϩⲛⲟⲩⲟⲣⲅⲏ . ⲙⲛⲟⲩⲁⲡⲉⲓⲗⲏ
-1	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	_
+1	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=1:Interrogative-Polar-Direct.WHWord
 2	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	1	advmod	_	OrigLang=grc
 3	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	1	cop	_	_
 4	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	VerbForm=Fin	1	csubj	_	_
@@ -112,8 +112,8 @@
 6	ⲁⲅⲅⲉⲗⲟⲥ	ⲁⲅⲅⲉⲗⲟⲥ	NOUN	N	Foreign=Yes	4	nmod	_	Entity=(person|Orig=ⲁ]ⲅⲅⲉⲗⲟⲥ|OrigLang=grc
 7-9	ⲉⲙⲛⲏⲡ	_	_	_	_	_	_	_	_
 7	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	8	mark	_	_
-8	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	2	advcl	_	Orig=ⲙ̇ⲛ
-9	ⲏⲡ	ⲱⲡ	NOUN	N	_	8	nsubj	_	Entity=person)organization)person)|Orig=ⲏⲡ̣
+8	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	2	advcl	_	Cxn=Existential-ExistPred-Negative|Orig=ⲙ̇ⲛ
+9	ⲏⲡ	ⲱⲡ	NOUN	N	_	8	nsubj	_	CxnElt=8:Conditional-UnspecifiedEpistemic.Pivot|Entity=person)organization)person)|Orig=ⲏⲡ̣
 10	.....	.....	X	UNKNOWN	_	2	dep	_	Orig=[.....]
 
 # sent_id = coptic_treebank-AP_002_n136_account_s0004
@@ -125,7 +125,7 @@
 3	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	Entity=(organization
 4	ⲙⲛⲧⲣⲱⲙⲉ	ⲙⲛⲧⲣⲱⲙⲉ	NOUN	N	_	2	obj	_	Morphs=ⲙⲛⲧ-ⲣⲱⲙⲉ|Orig=ⲙⲛⲧⲣⲱ[ⲙⲉ
 5-6	ⲧⲏⲣⲥ	_	_	_	_	_	_	_	_
-5	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	4	obl:npmod	_	Orig=ⲧ]ⲏⲣ
+5	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	4	nmod:unmarked	_	Orig=ⲧ]ⲏⲣ
 6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	5	nmod:poss	_	Entity=organization)
 7	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	VerbForm=Fin	2	xcomp	_	_
 8-12	ⲉⲛⲁⲓϩⲓⲟⲩⲥⲟⲡ	_	_	_	_	_	_	_	_
@@ -137,7 +137,8 @@
 
 # sent_id = coptic_treebank-AP_002_n136_account_s0005
 # text_en = Because of this, it is right for us to think in this way, if we shall give an account to God daily, that we shall be cut off because of what we have done in our daily lives.'
-# text = ⲉⲧⲃⲉ ⲡⲁⲓ ϣϣⲉ ⲉⲣⲟⲛ ⲉⲙⲉⲉⲩⲉ ⲛⲧⲉⲓϩⲉ ϩⲱⲥ ⲉⲛⲛⲁϯⲗⲟⲅⲟⲥ ⲙⲡⲛⲟⲩⲧⲉ ⲙⲙⲏⲛⲉ . ϫⲉⲉⲩⲛⲁϣⲁⲧⲛ ϩⲁⲛⲉⲛⲧⲁⲛⲁⲁⲩ ϩⲛⲧⲉⲛϭⲓⲛⲱⲛⲁϩ .
+# text = ⲉⲧⲃⲉⲡⲁⲓ ϣϣⲉ ⲉⲣⲟⲛ ⲉⲙⲉⲉⲩⲉ ⲛⲧⲉⲓϩⲉ ϩⲱⲥ ⲉⲛⲛⲁϯⲗⲟⲅⲟⲥ ⲙⲡⲛⲟⲩⲧⲉ ⲙⲙⲏⲛⲉ . ϫⲉⲉⲩⲛⲁϣⲁⲧⲛ ϩⲁⲛⲉⲛⲧⲁⲛⲁⲁⲩ ϩⲛⲧⲉⲛϭⲓⲛⲱⲛⲁϩ .
+1-2	ⲉⲧⲃⲉⲡⲁⲓ	_	_	_	_	_	_	_	_
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	2	case	_	Orig=ⲉ̇ⲧⲃⲉ
 2	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	Entity=(abstract)|Orig=ⲡⲁⲓ̇
 3	ϣϣⲉ	ϣϣⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϣ̇ϣⲉ
@@ -177,7 +178,7 @@
 29	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	26	obl	_	Entity=(abstract
 30	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	33	mark	_	_
 31	ⲁ	ⲁ	AUX	APST	_	33	aux	_	_
-32	ⲛ	ⲛ	PRON	PPERS	_	33	nsubj	_	_
+32	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	33	nsubj	_	_
 33	ⲁⲁ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	29	acl:relcl	_	_
 34	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	33	obj	_	_
 35-37	ϩⲛⲧⲉⲛϭⲓⲛⲱⲛⲁϩ	_	_	_	_	_	_	_	_

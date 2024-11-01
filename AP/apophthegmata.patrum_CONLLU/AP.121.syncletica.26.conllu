@@ -1,7 +1,7 @@
 # newdoc id = apophthegmata.patrum:AP.121.syncletica.26
 # sent_id = apophthegmata_patrum-AP_121_syncletica_26_s0001
 # text_en = ...
-# text = ⲁⲥϫⲟⲟⲥ ⲛϭⲓⲧⲙⲁⲕⲁⲣⲓⲁ ⲥⲩⲅⲕⲗⲏⲧⲓⲕⲏ ϫⲉⲛⲧϩⲉ ⲉⲧⲉⲙⲛϭⲟⲙ ⲛϫⲟⲓ ⲉⲧⲁϩⲟⲉⲣⲁⲧϥ ⲁϫⲛⲉⲓϥⲧ . ⲧⲁⲓ ⲧⲉ ⲧϩⲉ ⲟⲩⲁⲧϭⲟⲙ ⲡⲉ ⲟⲩϫⲁⲓ ⲭⲱⲣⲓⲥ ⲡⲉⲑⲃⲃⲓⲟ ⲛϩⲏⲧ .
+# text = ⲁⲥϫⲟⲟⲥ ⲛϭⲓⲧⲙⲁⲕⲁⲣⲓⲁ ⲥⲩⲅⲕⲗⲏⲧⲓⲕⲏ ϫⲉⲛⲧϩⲉ ⲉⲧⲉⲙⲛϭⲟⲙ ⲛϫⲟⲓ ⲉⲧⲁϩⲟⲉⲣⲁⲧϥ ⲁϫⲛⲉⲓϥⲧ . ⲧⲁⲓ ⲧⲉ ⲧϩⲉ ⲟⲩⲁⲧϭⲟⲙ ⲡⲉ ⲟⲩϫⲁⲓ ⲭⲱⲣⲓⲥⲡⲉⲑⲃⲃⲓⲟ ⲛϩⲏⲧ .
 1-4	ⲁⲥϫⲟⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	_
 2	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -19,8 +19,8 @@
 12	ϩⲉ	ϩⲉ	NOUN	N	_	25	obl	_	Orig=ⲉ
 13-15	ⲉⲧⲉⲙⲛϭⲟⲙ	_	_	_	_	_	_	_	_
 13	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	14	mark	_	_
-14	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	12	acl:relcl	_	Orig=ⲙⲛ̇
-15	ϭⲟⲙ	ϭⲟⲙ	VERB	V	VerbForm=Fin	14	nsubj	_	_
+14	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	12	acl:relcl	_	Cxn=Existential-ExistPred-Negative|Orig=ⲙⲛ̇
+15	ϭⲟⲙ	ϭⲟⲙ	VERB	V	VerbForm=Fin	14	nsubj	_	CxnElt=Pivot
 16-17	ⲛϫⲟⲓ	_	_	_	_	_	_	_	_
 16	ⲛ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲛ̇
 17	ϫⲟⲓ	ϫⲟⲓ	NOUN	N	_	14	obl	_	Entity=(object)
@@ -43,12 +43,12 @@
 30	ⲁⲧϭⲟⲙ	ⲁⲧϭⲟⲙ	NOUN	N	_	25	parataxis	_	Entity=abstract)|Morphs=ⲁⲧ-ϭⲟⲙ|Orig=ⲁ̇ⲧϭⲟⲙ
 31	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	30	cop	_	_
 32	ⲟⲩϫⲁⲓ	ⲟⲩϫⲁⲓ	NOUN	N	_	30	nsubj	_	Entity=(abstract|Orig=ⲟⲩϫⲁⲓ̇
+33-35	ⲭⲱⲣⲓⲥⲡⲉⲑⲃⲃⲓⲟ	_	_	_	_	_	_	_	_
 33	ⲭⲱⲣⲓⲥ	ⲭⲱⲣⲓⲥ	ADP	PREP	Foreign=Yes	35	case	_	Orig=ⲭⲱⲣⲓ̇ⲥ|OrigLang=grc
-34-35	ⲡⲉⲑⲃⲃⲓⲟ	_	_	_	_	_	_	_	_
 34	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	Entity=(abstract
 35	ⲑⲃⲃⲓⲟ	ⲑⲃⲃⲓⲟ	NOUN	N	_	32	nmod	_	Orig=ⲑⲃ̇ⲃⲓ̇ⲟ
 36-37	ⲛϩⲏⲧ	_	_	_	_	_	_	_	_
-36	ⲛ	ⲛ	DET	ART	_	37	det	_	_
+36	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
 37	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	35	nmod	_	Entity=abstract)abstract)
 38	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=ⲻ·
 
