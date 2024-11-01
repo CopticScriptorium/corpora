@@ -260,7 +260,7 @@
 18	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Entity=(object
 19	ⲟⲩⲱϣⲙ	ⲟⲩⲱϣⲙ	NOUN	N	_	17	obj	_	_
 20-21	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-20	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	19	obl:npmod	_	_
+20	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	19	nmod:unmarked	_	_
 21	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	20	nmod:poss	_	Entity=object)
 22	ϥⲓ	ϥⲓ	VERB	V	VerbForm=Fin	17	xcomp	_	_
 23	.	.	PUNCT	PUNCT	_	2	punct	_	_
@@ -422,9 +422,9 @@
 24	ⲣⲉϥϣⲙϣⲉⲉⲓⲇⲱⲗⲟⲛ	ⲣⲉϥϣⲙϣⲉⲉⲓⲇⲱⲗⲟⲛ	NOUN	N	Foreign=Yes	10	conj	_	Entity=person)|Morphs=ⲣⲉϥ-ϣⲙϣⲉ-ⲉⲓⲇⲱⲗⲟⲛ|OrigLang=grc
 25-26	ⲉϣϫⲉⲉϩⲉ	_	_	_	_	_	_	_	_
 25	ⲉϣϫⲉ	ⲉϣϫⲉ	SCONJ	CONJ	_	26	mark	_	_
-26	ⲉϩⲉ	ⲉϩⲉ	PART	PTC	_	28	advcl	_	_
+26	ⲉϩⲉ	ⲉϩⲉ	PART	PTC	_	28	advcl	_	CxnElt=26:Conditional-UnspecifiedEpistemic.Protasis
 27	ⲉⲓⲉ	ⲉⲓⲉ	ADV	ADV	_	28	advmod	_	_
-28	ϣϣⲉ	ϣϣⲉ	VERB	V	VerbForm=Fin	5	parataxis	_	_
+28	ϣϣⲉ	ϣϣⲉ	VERB	V	VerbForm=Fin	5	parataxis	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=26:Conditional-UnspecifiedEpistemic.Apodosis
 29-30	ⲉⲣⲱⲧⲛ	_	_	_	_	_	_	_	_
 29	ⲉⲣⲱ	ⲉ	ADP	PREP	_	30	case	_	_
 30	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	28	obl	_	_
@@ -454,7 +454,7 @@
 9-11	ϫⲉⲙⲡⲣⲧⲱϩ	_	_	_	_	_	_	_	_
 9	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	11	mark	_	_
 10	ⲙⲡⲣ	ⲙⲡⲣ	ADV	NEG	Polarity=Neg	11	advmod	_	_
-11	ⲧⲱϩ	ⲧⲱϩ	VERB	V	VerbForm=Fin	6	ccomp	_	_
+11	ⲧⲱϩ	ⲧⲱϩ	VERB	V	VerbForm=Fin	6	ccomp	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=25:Conditional-UnspecifiedEpistemic.Apodosis
 12-13	ⲙⲛⲟⲩⲁ	_	_	_	_	_	_	_	_
 12	ⲙⲛ	ⲙⲛ	ADP	PREP	_	13	case	_	_
 13	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	11	obl	_	Entity=(person
@@ -473,7 +473,7 @@
 23	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	25	mark	_	_
 24-25	ⲟⲩⲡⲟⲣⲛⲟⲥ	_	_	_	_	_	_	_	_
 24	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	25	det	_	Entity=(person
-25	ⲡⲟⲣⲛⲟⲥ	ⲡⲟⲣⲛⲟⲥ	NOUN	N	Foreign=Yes	11	advcl	_	Entity=person)|OrigLang=grc
+25	ⲡⲟⲣⲛⲟⲥ	ⲡⲟⲣⲛⲟⲥ	NOUN	N	Foreign=Yes	11	advcl	_	CxnElt=25:Conditional-UnspecifiedEpistemic.Protasis|Entity=person)|OrigLang=grc
 26	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	25	cop	_	_
 27	ⲏ	ⲏ	CCONJ	CONJ	Foreign=Yes	29	cc	_	OrigLang=grc
 28-29	ⲛⲣⲉϥϣⲙϣⲉⲉⲓⲇⲱⲗⲟⲛ	_	_	_	_	_	_	_	_
@@ -515,7 +515,7 @@
 # sent_id = coptic_treebank-1Cor_05_s0012
 # text_en = For what have I to do with also judging those who are outside? Don't you judge those who are within?
 # text = ⲟⲩ ⲅⲁⲣ ⲉⲣⲟⲓ ⲡⲉ ⲉⲕⲣⲓⲛⲉ ⲛⲛⲉⲧϩⲓⲃⲟⲗ . ⲁⲩⲱ ⲛⲛⲉⲧϩⲓϩⲟⲩⲛ ⲁⲛ . ⲛⲧⲱⲧⲛ ⲕⲣⲓⲛⲉ ⲛⲛⲉⲧϩⲓϩⲟⲩⲛ
-1	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	_
+1	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=1:Interrogative-Polar-Direct.WHWord
 2	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	1	advmod	_	OrigLang=grc
 3-4	ⲉⲣⲟⲓ	_	_	_	_	_	_	_	_
 3	ⲉⲣⲟ	ⲉ	ADP	PREP	_	4	case	_	_

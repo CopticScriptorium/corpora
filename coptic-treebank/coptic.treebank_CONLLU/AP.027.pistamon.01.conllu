@@ -9,12 +9,12 @@
 4	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	5	det	_	Entity=(person
 5	ⲥⲛⲏⲩ	ⲥⲟⲛ	NOUN	N	_	2	nmod	_	Entity=person)person)
 6-7	ϫⲛⲉⲁⲡⲁ	_	_	_	_	_	_	_	_
-6	ϫⲛⲉ	ϫⲛⲟⲩ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϫ̇ⲛⲉ
+6	ϫⲛⲉ	ϫⲛⲟⲩ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct,Interrogative-WHInfo-Indirect|CxnElt=6:Interrogative-Polar-Direct.Clause|Orig=ϫ̇ⲛⲉ
 7	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	6	obj	_	Entity=(person|Orig=ⲁ̇ⲡⲁ|OrigLang=he
 8	ⲡⲁⲥⲧⲁⲙⲱⲛ	ⲡⲁⲥⲧⲁⲙⲱⲛ	PROPN	NPROP	_	7	flat	_	Entity=person)|Orig=ⲡⲁ̇ⲥⲧⲁⲙⲱⲛ
 9-10	ϫⲉⲟⲩ	_	_	_	_	_	_	_	_
 9	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	10	mark	_	_
-10	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	6	ccomp	_	_
+10	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	6	ccomp	_	CxnElt=6:Interrogative-Polar-Direct.WHWord
 11	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	10	cop	_	_
 12-15	ϯⲛⲁⲁⲁϥ	_	_	_	_	_	_	_	_
 12	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Orig=ϯ̇
@@ -59,7 +59,7 @@
 9-11	ϫⲉⲡⲕⲉ	_	_	_	_	_	_	_	_
 9	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	22	mark	_	_
 10	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(person-Sisoes_the_Great|Orig=ⲡ̇
-11	ⲕⲉ	ⲕⲉ	NOUN	N	_	13	obl:npmod	_	_
+11	ⲕⲉ	ⲕⲉ	NOUN	N	_	13	nmod:unmarked	_	_
 12	·	·	PUNCT	PUNCT	_	11	punct	_	_
 13	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	22	dislocated	_	Orig=ⲁ̇ⲡⲁ|OrigLang=he
 14	ϫⲓϫⲱⲓ	ϫⲓϫⲱⲓ	PROPN	NPROP	_	13	flat	_	Entity=person-Sisoes_the_Great)|Orig=ϫⲓ̇ϫⲱⲓ
@@ -94,13 +94,13 @@
 # text = ⲉⲕϣⲁⲛⲛⲟⲩ ⲇⲉ ⲉϯ ⲁϫⲓⲧϯⲙⲏ ⲛⲟⲩⲥⲟⲡ ⲛⲟⲩⲱⲧ ⲛⲧⲉⲡⲉⲓⲇⲟⲥ ⲉⲕϣⲁⲛⲟⲩⲱϣ ⲇⲉ ⲉⲕⲁ ⲟⲩⲕⲟⲩⲓ ⲉⲃⲟⲗ ϩⲛⲥⲟⲩⲛⲧϥ · ⲛⲧⲟⲕ ⲉⲧⲧⲱϣ . ⲧⲁⲓ ⲧⲉ ⲧϩⲉ ⲉⲧⲉⲕⲛⲁϭⲛⲙⲧⲟⲛ .
 1-2	ⲉⲕϣⲁⲛⲛⲟⲩ	_	_	_	_	_	_	_	_
 1	ⲉⲕϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟⲕ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	Orig=Ⲉⲕϣⲁⲛ
-2	ⲛⲟⲩ	ⲛⲟⲩ	VERB	V	VerbForm=Fin	6	advcl	_	_
+2	ⲛⲟⲩ	ⲛⲟⲩ	VERB	V	VerbForm=Fin	6	advcl	_	CxnElt=2:Conditional-UnspecifiedEpistemic.Protasis
 3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	2	advmod	_	OrigLang=grc
 4-5	ⲉϯ	_	_	_	_	_	_	_	_
 4	ⲉ	ⲉ	PART	PREP	_	5	mark	_	Orig=ⲉ̇
 5	ϯ	ϯ	VERB	V	VerbForm=Inf	2	xcomp	_	Orig=ϯ̇
 6-8	ⲁϫⲓⲧϯⲙⲏ	_	_	_	_	_	_	_	_
-6	ⲁϫⲓ	ϫⲱ	VERB	VIMP	VerbForm=Fin	0	root	_	Orig=ⲁ̇ϫⲓ̇̇
+6	ⲁϫⲓ	ϫⲱ	VERB	VIMP	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=2:Conditional-UnspecifiedEpistemic.Apodosis|Orig=ⲁ̇ϫⲓ̇̇
 7	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(abstract|Orig=ⲧ̇
 8	ϯⲙⲏ	ϯⲙⲏ	NOUN	N	_	6	obj	_	Orig=ϯ̇ⲙⲏ
 9-11	ⲛⲟⲩⲥⲟⲡ	_	_	_	_	_	_	_	_
@@ -116,7 +116,7 @@
 16	ⲉⲓⲇⲟⲥ	ⲉⲓⲇⲟⲥ	NOUN	N	Foreign=Yes	8	nmod	_	Entity=object)abstract)|Orig=ⲓ̇ⲇⲟⲥ|OrigLang=grc
 17-18	ⲉⲕϣⲁⲛⲟⲩⲱϣ	_	_	_	_	_	_	_	_
 17	ⲉⲕϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟⲕ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	18	nsubj	_	Orig=Ⲉⲕϣⲁⲛ
-18	ⲟⲩⲱϣ	ⲟⲩⲱϣ	VERB	V	VerbForm=Fin	29	advcl	_	Orig=ⲟⲩⲱ̇ϣ
+18	ⲟⲩⲱϣ	ⲟⲩⲱϣ	VERB	V	VerbForm=Fin	29	advcl	_	CxnElt=18:Conditional-UnspecifiedEpistemic.Protasis|Orig=ⲟⲩⲱ̇ϣ
 19	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	18	advmod	_	OrigLang=grc
 20-21	ⲉⲕⲁ	_	_	_	_	_	_	_	_
 20	ⲉ	ⲉ	PART	PREP	_	21	mark	_	Orig=ⲉ̇
@@ -130,7 +130,7 @@
 26	ⲥⲟⲩⲛⲧ	ⲥⲟⲩⲉⲛ	NOUN	N	_	21	obl	_	Entity=(abstract|Orig=ⲥⲟⲩⲛ̇ⲧ
 27	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	26	nmod:poss	_	Entity=abstract)|Orig=ϥ̇
 28	·	·	PUNCT	PUNCT	_	18	punct	_	_
-29	ⲛⲧⲟⲕ	ⲛⲧⲟⲕ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	parataxis	_	Orig=ⲛ̇ⲧⲟⲕ
+29	ⲛⲧⲟⲕ	ⲛⲧⲟⲕ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	parataxis	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=18:Conditional-UnspecifiedEpistemic.Apodosis|Orig=ⲛ̇ⲧⲟⲕ
 30-31	ⲉⲧⲧⲱϣ	_	_	_	_	_	_	_	_
 30	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	31	mark	_	Orig=ⲉ̇ⲧ
 31	ⲧⲱϣ	ⲧⲱϣ	VERB	V	VerbForm=Fin	29	acl:relcl	_	_
@@ -216,8 +216,8 @@
 20-23	ⲡⲉⲧⲉⲟⲩⲛϭⲟⲙ	_	_	_	_	_	_	_	_
 20	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	dislocated	_	Entity=(abstract
 21	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	22	mark	_	_
-22	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	20	acl:relcl	_	Orig=ⲟⲩⲛ̇
-23	ϭⲟⲙ	ϭⲟⲙ	NOUN	N	_	22	nsubj	_	_
+22	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	20	acl:relcl	_	Cxn=Existential-ExistPred-Positive|Orig=ⲟⲩⲛ̇
+23	ϭⲟⲙ	ϭⲟⲙ	NOUN	N	_	22	nsubj	_	CxnElt=22:Conditional-UnspecifiedEpistemic.Pivot
 24-25	ⲙⲙⲟⲕ	_	_	_	_	_	_	_	_
 24	ⲙⲙⲟ	ⲛ	ADP	PREP	_	25	case	_	Orig=ⲙ̇ⲙⲟ
 25	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	22	obl	_	_

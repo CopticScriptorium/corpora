@@ -48,7 +48,7 @@
 10	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	13	nsubj	_	Orig=ⲟⲩⲁ̇
 11-12	ⲡⲟⲩⲁ	_	_	_	_	_	_	_	_
 11	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	10	obl:npmod	_	Entity=person)|Orig=ⲟⲩⲁ̇
+12	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	10	nmod:unmarked	_	Entity=person)|Orig=ⲟⲩⲁ̇
 13	ⲛⲟⲩϣⲡ	ⲛⲟⲩϣⲡ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲛⲟⲩϣⲡ̇
 14	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	13	advmod	_	Orig=ⲉ̇ⲃⲟⲗ
 15-17	ⲛⲛϩⲁⲗⲁⲧⲉ	_	_	_	_	_	_	_	_
@@ -62,16 +62,16 @@
 # text = ⲛⲉⲩⲛ ⲟⲩϩⲗⲗⲟ ⲇⲉ ⲙⲙⲁⲩ · ⲉϥϣⲁⲛⲣⲟⲉⲓⲥ ⲙⲡⲉϥϩⲟⲟⲩ ϣⲁϥϫⲓϣⲕⲁⲕ ⲉⲃⲟⲗ ϫⲉⲃⲱⲕ ⲛⲏⲧⲛ ⲙⲙⲉⲉⲩⲉ ⲉⲧϩⲓϩⲟⲩⲛ ⲉⲧϩⲟⲟⲩ · ⲁⲩⲱ ⲟⲛ ⲙⲛⲛϩⲁⲗⲁⲁⲧⲉ ⲉⲧϩⲓⲃⲟⲗ ·
 1-2	ⲛⲉⲩⲛ	_	_	_	_	_	_	_	_
 1	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	2	aux	_	Orig=ⲛ︦ⲉ
-2	ⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	0	root	_	_
+2	ⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	0	root	_	Cxn=Existential-ExistPred-Positive
 3-4	ⲟⲩϩⲗⲗⲟ	_	_	_	_	_	_	_	_
 3	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	4	det	_	Entity=(person|Orig=ⲟ̇ⲩ
-4	ϩⲗⲗⲟ	ϩⲗⲗⲟ	NOUN	N	_	2	nsubj	_	Entity=person)|Orig=ϩⲗ̇ⲗⲟ
+4	ϩⲗⲗⲟ	ϩⲗⲗⲟ	NOUN	N	_	2	nsubj	_	CxnElt=Pivot|Entity=person)|Orig=ϩⲗ̇ⲗⲟ
 5	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	2	advmod	_	OrigLang=grc
 6	ⲙⲙⲁⲩ	ⲙⲙⲁⲩ	ADV	ADV	_	2	advmod	_	Orig=ⲙ̇ⲙⲁⲩ
 7	·	·	PUNCT	PUNCT	_	15	punct	_	_
 8-9	ⲉϥϣⲁⲛⲣⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 8	ⲉϥϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟϥ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Orig=ⲉ̇ϥϣⲁⲛ
-9	ⲣⲟⲉⲓⲥ	ⲣⲟⲉⲓⲥ	VERB	V	VerbForm=Fin	15	advcl	_	Orig=ⲣⲟⲉⲓ̈ⲥ
+9	ⲣⲟⲉⲓⲥ	ⲣⲟⲉⲓⲥ	VERB	V	VerbForm=Fin	15	advcl	_	CxnElt=Protasis|Orig=ⲣⲟⲉⲓ̈ⲥ
 10-12	ⲙⲡⲉϥϩⲟⲟⲩ	_	_	_	_	_	_	_	_
 10	ⲙ	ⲛ	ADP	PREP	_	12	case	_	Orig=ⲙ̇
 11	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	Entity=(time
@@ -79,7 +79,7 @@
 13-15	ϣⲁϥϫⲓϣⲕⲁⲕ	_	_	_	_	_	_	_	_
 13	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	15	aux	_	Orig=ϣⲁ̇
 14	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
-15	ϫⲓϣⲕⲁⲕ	ϫⲓϣⲕⲁⲕ	VERB	V	VerbForm=Fin	2	parataxis	_	Morphs=ϫⲓ-ϣⲕⲁⲕ|Orig=ϫⲓ̇ϣⲕⲁⲕ
+15	ϫⲓϣⲕⲁⲕ	ϫⲓϣⲕⲁⲕ	VERB	V	VerbForm=Fin	2	parataxis	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=Apodosis|Morphs=ϫⲓ-ϣⲕⲁⲕ|Orig=ϫⲓ̇ϣⲕⲁⲕ
 16	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	15	advmod	_	_
 17-18	ϫⲉⲃⲱⲕ	_	_	_	_	_	_	_	_
 17	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	18	mark	_	_

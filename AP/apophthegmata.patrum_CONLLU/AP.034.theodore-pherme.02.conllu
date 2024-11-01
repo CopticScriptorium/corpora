@@ -14,7 +14,7 @@
 7	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	8	det	_	Entity=(place|Orig=ⲛ̇
 8	ⲣⲓ	ⲣⲓ	NOUN	N	_	5	obl	_	Entity=place)|Orig=ⲣⲓ̇
 9-10	ⲙⲁⲩⲁⲁϥ	_	_	_	_	_	_	_	_
-9	ⲙⲁⲩⲁⲁ	ⲙⲁⲩⲁⲁ	NOUN	IMOD	_	5	obl:npmod	_	Orig=ⲙⲁⲩⲁ̇ⲁ
+9	ⲙⲁⲩⲁⲁ	ⲙⲁⲩⲁⲁ	NOUN	IMOD	_	5	obl:unmarked	_	Orig=ⲙⲁⲩⲁ̇ⲁ
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	9	nmod:poss	_	Entity=person)
 11-13	ⲁϥϣⲧⲟⲣⲧⲣ	_	_	_	_	_	_	_	_
 11	ⲁ	ⲁ	AUX	APST	_	13	aux	_	Orig=ⲁ̇
@@ -161,9 +161,9 @@
 9-11	ⲙⲡⲉⲕⲙⲧⲟⲛ	_	_	_	_	_	_	_	_
 9	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	11	aux	_	Orig=ⲙ̇ⲡⲉ
 10	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
-11	ⲙⲧⲟⲛ	ⲙⲧⲟⲛ	VERB	V	VerbForm=Fin	26	advcl	_	Orig=ⲙ̇ⲧⲟⲛ
+11	ⲙⲧⲟⲛ	ⲙⲧⲟⲛ	VERB	V	VerbForm=Fin	26	advcl	_	CxnElt=Protasis|Orig=ⲙ̇ⲧⲟⲛ
 12-13	ⲙⲁⲩⲁⲁⲕ	_	_	_	_	_	_	_	_
-12	ⲙⲁⲩⲁⲁ	ⲙⲁⲩⲁⲁ	NOUN	IMOD	_	11	obl:npmod	_	Orig=ⲙⲁⲩⲁ̇ⲁ
+12	ⲙⲁⲩⲁⲁ	ⲙⲁⲩⲁⲁ	NOUN	IMOD	_	11	obl:unmarked	_	Orig=ⲙⲁⲩⲁ̇ⲁ
 13	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
 14	·	·	PUNCT	PUNCT	_	11	punct	_	_
 15	ⲟⲩⲇⲉ	ⲟⲩⲇⲉ	CCONJ	CONJ	Foreign=Yes|Polarity=Neg	26	cc	_	OrigLang=grc
@@ -180,7 +180,7 @@
 23	ⲛ	ⲛ	ADV	NEG	Polarity=Neg	26	advmod	_	_
 24	ⲅ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	26	nsubj	_	Orig=ⲅ̇
 25	ⲛⲁ	ⲛⲁ	AUX	FUT	_	26	aux	_	_
-26	ⲙⲧⲟⲛ	ⲙⲧⲟⲛ	VERB	V	VerbForm=Fin	1	ccomp	_	Orig=ⲙ̇ⲧⲟⲛ
+26	ⲙⲧⲟⲛ	ⲙⲧⲟⲛ	VERB	V	VerbForm=Fin	1	ccomp	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=Apodosis|Orig=ⲙ̇ⲧⲟⲛ
 27	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	26	advmod	_	_
 28	·ⲻ	·ⲻ	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -189,11 +189,11 @@
 # text = ⲉⲧⲃⲉⲟⲩ ⲁⲕⲉⲓ ⲉⲃⲟⲗ ⲉⲣⲙⲟⲛⲁⲭⲟⲥ ·
 1-2	ⲉⲧⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	2	case	_	Orig=Ⲉⲧⲃⲉ
-2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	5	obl	_	_
+2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	5	obl	_	CxnElt=WHWord
 3-5	ⲁⲕⲉⲓ	_	_	_	_	_	_	_	_
 3	ⲁ	ⲁ	AUX	APST	_	5	aux	_	Orig=ⲁ̇
 4	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
-5	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲉⲓ̇
+5	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=Clause|Orig=ⲉⲓ̇
 6	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	5	advmod	_	Orig=ⲉ̇ⲃⲟⲗ
 7-8	ⲉⲣⲙⲟⲛⲁⲭⲟⲥ	_	_	_	_	_	_	_	_
 7	ⲉ	ⲉ	ADP	PREP	_	8	case	_	_

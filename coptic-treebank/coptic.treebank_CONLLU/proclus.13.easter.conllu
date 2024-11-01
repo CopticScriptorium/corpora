@@ -167,7 +167,7 @@
 # sent_id = coptic_treebank-proclus_13_easter_s0004
 # text_en = For what is there which hath ever happened that is like unto that which we now see by faith?
 # text = ⲁϣ ⲅⲁⲣ ⲡⲉ ⲡϩⲱⲃ ⲉⲛⲧⲁϥϣⲱⲡⲉ ⲛⲧⲉⲓϩⲉ ϫⲓⲛⲛⲉⲛⲉϩ · ⲛⲧϩⲉ ⲙⲡⲉⲧⲛⲛⲁⲩ ⲉⲣⲟϥ · ⲧⲉⲛⲟⲩ ϩⲛⲟⲩⲡⲓⲥⲧⲓⲥ ·
-1	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	0	root	_	_
+1	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=1:Interrogative-Polar-Direct.WHWord
 2	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	1	advmod	_	OrigLang=grc
 3	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	1	cop	_	_
 4-5	ⲡϩⲱⲃ	_	_	_	_	_	_	_	_
@@ -214,11 +214,11 @@
 1-3	ⲛⲧⲁⲁϣ	_	_	_	_	_	_	_	_
 1	ⲛⲧ	ⲉⲣⲉ	PART	CFOC	_	6	mark	_	Orig=ⲛ̅ⲧ
 2	ⲁ	ⲁ	AUX	APST	_	6	aux	_	_
-3	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	6	nsubj	_	Entity=(abstract
+3	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	6	nsubj	_	CxnElt=6:Interrogative-Polar-Direct.WHWord|Entity=(abstract
 4-5	ⲛⲛⲟⲩⲥ	_	_	_	_	_	_	_	_
 4	ⲛ	ⲛ	ADP	PREP	_	5	case	_	Orig=ⲛ̅
 5	ⲛⲟⲩⲥ	ⲛⲟⲩⲥ	NOUN	N	Foreign=Yes	3	nmod	_	Entity=abstract)|OrigLang=grc
-6	ⲙⲉⲉⲩⲉ	ⲙⲉⲉⲩⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲙⲉⲉⲩⲉⲉ
+6	ⲙⲉⲉⲩⲉ	ⲙⲉⲉⲩⲉ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=6:Interrogative-Polar-Direct.Clause|Orig=ⲙⲉⲉⲩⲉⲉ
 7	ⲟⲛ	ⲟⲛ	ADV	ADV	_	6	advmod	_	_
 8-10	ⲛⲧⲉⲓϩⲉ	_	_	_	_	_	_	_	_
 8	ⲛ	ⲛ	ADP	PREP	_	10	case	_	Orig=ⲛ̅
@@ -234,11 +234,11 @@
 2-4	ⲛⲧⲁⲁϣ	_	_	_	_	_	_	_	_
 2	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	7	mark	_	Orig=ⲛ̅ⲧ
 3	ⲁ	ⲁ	AUX	APST	_	7	aux	_	_
-4	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	7	nsubj	_	Entity=(abstract
+4	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	7	nsubj	_	CxnElt=7:Interrogative-Polar-Direct.WHWord|Entity=(abstract
 5-6	ⲛⲗⲟⲅⲓⲥⲙⲟⲥ	_	_	_	_	_	_	_	_
 5	ⲛ	ⲛ	ADP	PREP	_	6	case	_	Orig=ⲛ̅
 6	ⲗⲟⲅⲓⲥⲙⲟⲥ	ⲗⲟⲅⲓⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	4	nmod	_	Entity=abstract)|OrigLang=grc
-7	ⲙⲟⲕⲙⲉⲕ	ⲙⲟⲕⲙⲉⲕ	VERB	V	VerbForm=Fin	0	root	_	_
+7	ⲙⲟⲕⲙⲉⲕ	ⲙⲟⲕⲙⲉⲕ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=7:Interrogative-Polar-Direct.Clause
 8-9	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 8	ⲉⲣⲟ	ⲉ	ADP	PREP	_	9	case	_	_
 9	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
@@ -249,7 +249,7 @@
 # text_en = Or what heart hath ever been able to depict it to itself?
 # text = ⲏ ⲁϣ ⲡⲉ ⲡϩⲏⲧ ⲉⲛⲧⲁϥⲡⲗⲁⲥⲥⲉ ⲙⲙⲟϥ ·
 1	ⲏ	ⲏ	CCONJ	CONJ	Foreign=Yes	2	cc	_	Orig=Ⲏ̅|OrigLang=grc
-2	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	0	root	_	_
+2	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=2:Interrogative-Polar-Direct.WHWord
 3	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	2	cop	_	_
 4-5	ⲡϩⲏⲧ	_	_	_	_	_	_	_	_
 4	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(abstract
@@ -268,7 +268,7 @@
 # text_en = Or what power of speech hath ever described it?
 # text = ⲏ ⲁϣ ⲡⲉ ⲡϣⲁϫⲉ ⲉⲛⲧⲁϥϫⲟⲟϥ ·
 1	ⲏ	ⲏ	CCONJ	CONJ	Foreign=Yes	2	cc	_	Orig=ⲏ̅|OrigLang=grc
-2	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	0	root	_	_
+2	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=2:Interrogative-Polar-Direct.WHWord
 3	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	2	cop	_	_
 4-5	ⲡϣⲁϫⲉ	_	_	_	_	_	_	_	_
 4	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(abstract
@@ -451,7 +451,7 @@
 4	·	·	PUNCT	PUNCT	_	6	punct	_	_
 5	ⲏ	ⲏ	CCONJ	CONJ	Foreign=Yes	6	cc	_	Orig=ⲏ̅|OrigLang=grc
 6	ⲙⲟⲩ	ⲙⲟⲩ	NOUN	N	_	3	conj	_	Entity=(event
-7	ⲛⲧⲟϥ	ⲛⲧⲟϥ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl:npmod	_	Orig=ⲛ̅ⲧⲟϥ
+7	ⲛⲧⲟϥ	ⲛⲧⲟϥ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl:unmarked	_	Orig=ⲛ̅ⲧⲟϥ
 8-9	ⲛⲁⲧⲛⲟⲃⲉ	_	_	_	_	_	_	_	_
 8	ⲛ	ⲛ	ADP	PREP	_	9	case	_	Orig=ⲛ̅
 9	ⲁⲧⲛⲟⲃⲉ	ⲁⲧⲛⲟⲃⲉ	NOUN	N	_	3	nmod	_	Entity=event)abstract)|Morphs=ⲁⲧ-ⲛⲟⲃⲉ
@@ -765,7 +765,7 @@
 33	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
 34	ⲡⲗⲁⲥⲥⲉ	ⲡⲗⲁⲥⲥⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	30	acl:relcl	_	OrigLang=grc
 35-36	ⲙⲁⲩⲁⲁϥ	_	_	_	_	_	_	_	_
-35	ⲙⲁⲩⲁⲁ	ⲙⲁⲩⲁⲁ	NOUN	IMOD	_	34	obl:npmod	_	_
+35	ⲙⲁⲩⲁⲁ	ⲙⲁⲩⲁⲁ	NOUN	IMOD	_	34	obl:unmarked	_	_
 36	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
 37-39	ϩⲛϩⲏⲧⲥ	_	_	_	_	_	_	_	_
 37	ϩⲛ	ϩⲛ	ADP	PREP	_	38	case	_	Orig=ϩⲛ̅
@@ -889,7 +889,7 @@
 3	ⲙⲁ	ⲙⲁ	NOUN	N	_	7	obl	_	Entity=place)
 4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	7	advmod	_	OrigLang=grc
 5-6	ϩⲱⲱϥ	_	_	_	_	_	_	_	_
-5	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	7	obl:npmod	_	_
+5	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	7	obl:unmarked	_	_
 6	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
 7-9	ⲡⲉⲧϭⲙϭⲟⲙ	_	_	_	_	_	_	_	_
 7	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	root	_	Entity=(person
@@ -1416,12 +1416,12 @@
 # text = ϩⲛⲁϣ ⲛϩⲟⲟⲩ ⲁϫⲓⲥ ⲉⲣⲟⲛ ⲱ ⲡⲉⲡⲣⲟⲫⲏⲧⲏⲥ ·
 1-2	ϩⲛⲁϣ	_	_	_	_	_	_	_	_
 1	ϩⲛ	ϩⲛ	ADP	PREP	_	2	case	_	Orig=ϩⲛ̅
-2	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	5	obl	_	Entity=(abstract
+2	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	5	obl	_	CxnElt=5:Interrogative-Polar-Direct.WHWord|Entity=(abstract
 3-4	ⲛϩⲟⲟⲩ	_	_	_	_	_	_	_	_
 3	ⲛ	ⲛ	ADP	PREP	_	4	case	_	Orig=ⲛ̅
 4	ϩⲟⲟⲩ	ϩⲟⲟⲩ	NOUN	N	_	2	nmod	_	Entity=abstract)
 5-6	ⲁϫⲓⲥ	_	_	_	_	_	_	_	_
-5	ⲁϫⲓ	ϫⲱ	VERB	VIMP	VerbForm=Fin	0	root	_	_
+5	ⲁϫⲓ	ϫⲱ	VERB	VIMP	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=5:Interrogative-Polar-Direct.Clause
 6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 7-8	ⲉⲣⲟⲛ	_	_	_	_	_	_	_	_
 7	ⲉⲣⲟ	ⲉ	ADP	PREP	_	8	case	_	_
@@ -1471,7 +1471,7 @@
 25	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	27	mark	_	_
 26	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	Orig=ϥ̅
 27	ⲥⲟⲟⲩⲛ	ⲥⲟⲟⲩⲛ	VERB	V	VerbForm=Fin	24	acl:relcl	_	_
-28	ⲛⲧⲟϥ	ⲛⲧⲟϥ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obl:npmod	_	Orig=ⲛ̅ⲧⲟϥ
+28	ⲛⲧⲟϥ	ⲛⲧⲟϥ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obl:unmarked	_	Orig=ⲛ̅ⲧⲟϥ
 29-30	ⲙⲙⲟⲥ	_	_	_	_	_	_	_	_
 29	ⲙⲙⲟ	ⲛ	ADP	PREP	_	30	case	_	Orig=ⲙ̅ⲙⲟ
 30	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	Entity=time)
@@ -1641,11 +1641,11 @@
 12	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	14	nsubj	_	Entity=person)
 13-14	ⲛⲁⲟⲩⲱⲛϩ	_	_	_	_	_	_	_	_
 13	ⲛⲁ	ⲛⲁ	AUX	FUT	_	14	aux	_	_
-14	ⲟⲩⲱⲛϩ	ⲟⲩⲱⲛϩ	VERB	V	VerbForm=Fin	2	ccomp	_	Orig=ⲟⲩⲱⲛϩ̅
+14	ⲟⲩⲱⲛϩ	ⲟⲩⲱⲛϩ	VERB	V	VerbForm=Fin	2	ccomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=14:Interrogative-Polar-Direct.Clause|Orig=ⲟⲩⲱⲛϩ̅
 15	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	14	advmod	_	_
 16-17	ⲛⲁϣ	_	_	_	_	_	_	_	_
 16	ⲛ	ⲛ	ADP	PREP	_	17	case	_	_
-17	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	14	obl	_	_
+17	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	14	obl	_	CxnElt=14:Interrogative-Polar-Direct.WHWord
 18-19	ⲛϩⲉ	_	_	_	_	_	_	_	_
 18	ⲛ	ⲛ	ADP	PREP	_	19	case	_	Orig=ⲛ̅
 19	ϩⲉ	ϩⲉ	NOUN	N	_	17	nmod	_	_
@@ -1809,7 +1809,7 @@
 2	ⲥⲧⲱⲧ	ⲥⲧⲱⲧ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲥⲧⲱⲧ̅
 3	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	2	advmod	_	OrigLang=grc
 4-5	ϩⲏⲧϥ	_	_	_	_	_	_	_	_
-4	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	2	obl:npmod	_	_
+4	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	2	obl:unmarked	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	4	nmod:poss	_	Orig=ϥ̅
 6-8	ⲙⲡⲣⲉϥⲥⲱⲛⲧ	_	_	_	_	_	_	_	_
 6	ⲙ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲙ̅
@@ -1853,7 +1853,7 @@
 3	ⲛ	ⲛ	ADP	PREP	_	4	case	_	Orig=ⲛ̅
 4	ϩⲟⲧⲉ	ϩⲟⲧⲉ	NOUN	N	_	2	obl	_	Entity=(abstract
 5-6	ϩⲏⲧϥ	_	_	_	_	_	_	_	_
-5	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	2	obl:npmod	_	_
+5	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	2	obl:unmarked	_	_
 6	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	5	nmod:poss	_	Orig=ϥ̅
 7-9	ⲙⲡⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
 7	ⲙ	ⲛ	ADP	PREP	_	9	case	_	Orig=ⲙ̅
@@ -1890,16 +1890,16 @@
 # text = ⲛⲁϣ ⲛϩⲉ ⲁⲙⲛⲧⲉⲛⲁⲥⲧⲱⲧ ϩⲏⲧϥ ⲁⲛ ·
 1-2	ⲛⲁϣ	_	_	_	_	_	_	_	_
 1	ⲛ	ⲛ	ADP	PREP	_	2	case	_	_
-2	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	7	obl	_	_
+2	ⲁϣ	ⲁϣ	PRON	PINT	PronType=Int	7	obl	_	CxnElt=7:Interrogative-Polar-Direct.WHWord
 3-4	ⲛϩⲉ	_	_	_	_	_	_	_	_
 3	ⲛ	ⲛ	ADP	PREP	_	4	case	_	Orig=ⲛ̅
 4	ϩⲉ	ϩⲉ	NOUN	N	_	2	nmod	_	_
 5-7	ⲁⲙⲛⲧⲉⲛⲁⲥⲧⲱⲧ	_	_	_	_	_	_	_	_
 5	ⲁⲙⲛⲧⲉ	ⲁⲙⲛⲧⲉ	PROPN	NPROP	_	7	nsubj	_	Entity=(place-Duat)|Orig=ⲙⲛ̅ⲧⲉ
 6	ⲛⲁ	ⲛⲁ	AUX	FUT	_	7	aux	_	_
-7	ⲥⲧⲱⲧ	ⲥⲧⲱⲧ	VERB	V	VerbForm=Fin	0	root	_	Orig=[ⲥ]ⲧⲱⲧ̅
+7	ⲥⲧⲱⲧ	ⲥⲧⲱⲧ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=7:Interrogative-Polar-Direct.Clause|Orig=[ⲥ]ⲧⲱⲧ̅
 8-9	ϩⲏⲧϥ	_	_	_	_	_	_	_	_
-8	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	7	obl:npmod	_	_
+8	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	7	obl:unmarked	_	_
 9	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	8	nmod:poss	_	Orig=ϥ̅
 10	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	7	advmod	_	_
 11	·	·	PUNCT	PUNCT	_	7	punct	_	_
@@ -1967,7 +1967,7 @@
 3	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	0	root	_	_
 4	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	3	obj	_	Orig=ⲛ̅
 5	ⲡⲗⲏⲥⲥⲉ	ⲡⲗⲏⲥⲥⲉ	VERB	V	VerbForm=Fin	3	xcomp	_	_
-6	ⲛⲧⲟϥ	ⲛⲧⲟϥ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl:npmod	_	Orig=ⲛ̅ⲧⲟϥ
+6	ⲛⲧⲟϥ	ⲛⲧⲟϥ	PRON	PPERI	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl:unmarked	_	Orig=ⲛ̅ⲧⲟϥ
 7-9	ⲉϫⲛⲧⲉϥⲑⲉⲱⲣⲓⲁ	_	_	_	_	_	_	_	_
 7	ⲉϫⲛ	ⲉϫⲛ	ADP	PREP	_	9	case	_	Orig=ⲉϫⲛ̅
 8	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	Entity=(event
@@ -2029,14 +2029,14 @@
 1	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	Entity=(abstract
 2	ⲥⲁ	ⲥⲁ	NOUN	N	_	9	nsubj	_	Entity=abstract)|Orig=ⲥⲁ̅
 3	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	9	advmod	_	OrigLang=grc
-4	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Ind	9	det	_	Entity=(abstract
+4	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Ind	9	det	_	CxnElt=9:Interrogative-Polar-Direct.WHWord|Entity=(abstract
 5	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	9	case	_	_
 6	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	9	cop	_	_
 7-9	ϩⲛϩⲉⲛⲁⲩⲁⲛ	_	_	_	_	_	_	_	_
 7	ϩⲛ	ϩⲛ	ADP	PREP	_	5	fixed	_	Orig=ϩⲛ̅
 8	ϩⲉⲛ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
-9	ⲁⲩⲁⲛ	ⲁⲩⲁⲛ	NOUN	N	_	0	root	_	Morphs=ⲁⲩⲉⲓⲛ|Orig=ⲁⲩⲉⲓ̈ⲛ
-10	ⲁⲩⲁⲛ	ⲁⲩⲁⲛ	NOUN	N	_	9	obl:npmod	_	Entity=abstract)|Morphs=ⲁⲩⲁⲛ
+9	ⲁⲩⲁⲛ	ⲁⲩⲁⲛ	NOUN	N	_	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=9:Interrogative-Polar-Direct.Clause|Morphs=ⲁⲩⲉⲓⲛ|Orig=ⲁⲩⲉⲓ̈ⲛ
+10	ⲁⲩⲁⲛ	ⲁⲩⲁⲛ	NOUN	N	_	9	nmod:unmarked	_	Entity=abstract)|Morphs=ⲁⲩⲁⲛ
 11	·	·	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = coptic_treebank-proclus_13_easter_s0071
@@ -2138,15 +2138,15 @@
 
 # sent_id = coptic_treebank-proclus_13_easter_s0076
 # text_en = Now the new Jew hath also attacked my words, and hath scoffed at the words of great import of the prophet, and hath contended against the Holy Spirit.
-# text = ⲁⲗⲗⲁ ⲁϥⲃⲱⲕ ⲟⲛ ⲉϫⲛ ⲛⲁϣⲁϫⲉ ⲛϭⲓⲡⲓⲟⲩⲇⲁⲓ ⲛⲃⲣⲣⲉ · ⲁⲩⲱ ϥⲥⲱⲃⲉ ⲛⲥⲁⲧⲙⲛⲧⲛⲟϭ ⲙⲡϣⲁϫⲉ ⲙⲡⲉⲡⲣⲟⲫⲏⲧⲏⲥ ⲉϥⲙⲓϣⲉ ⲙⲛⲡⲉⲡⲛⲉⲩⲙⲁ ⲉⲧⲟⲩⲁⲁⲃ ·
+# text = ⲁⲗⲗⲁ ⲁϥⲃⲱⲕ ⲟⲛ ⲉϫⲛⲛⲁϣⲁϫⲉ ⲛϭⲓⲡⲓⲟⲩⲇⲁⲓ ⲛⲃⲣⲣⲉ · ⲁⲩⲱ ϥⲥⲱⲃⲉ ⲛⲥⲁⲧⲙⲛⲧⲛⲟϭ ⲙⲡϣⲁϫⲉ ⲙⲡⲉⲡⲣⲟⲫⲏⲧⲏⲥ ⲉϥⲙⲓϣⲉ ⲙⲛⲡⲉⲡⲛⲉⲩⲙⲁ ⲉⲧⲟⲩⲁⲁⲃ ·
 1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	4	cc	_	OrigLang=grc
 2-4	ⲁϥⲃⲱⲕ	_	_	_	_	_	_	_	_
 2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	_
 3	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	0	root	_	_
 5	ⲟⲛ	ⲟⲛ	ADV	ADV	_	4	advmod	_	_
+6-8	ⲉϫⲛⲛⲁϣⲁϫⲉ	_	_	_	_	_	_	_	_
 6	ⲉϫⲛ	ⲉϫⲛ	ADP	PREP	_	8	case	_	Orig=ⲉϫⲛ̅
-7-8	ⲛⲁϣⲁϫⲉ	_	_	_	_	_	_	_	_
 7	ⲛⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	Entity=(abstract
 8	ϣⲁϫⲉ	ϣⲁϫⲉ	NOUN	N	_	4	obl	_	Entity=abstract)
 9-11	ⲛϭⲓⲡⲓⲟⲩⲇⲁⲓ	_	_	_	_	_	_	_	_
@@ -2190,7 +2190,7 @@
 # text_en = And what doth he say?
 # text = ⲁⲩⲱ ⲟⲩ ⲡⲉⲧϥϫⲱ ⲙⲙⲟϥ ·
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	2	cc	_	_
-2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	_
+2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=2:Interrogative-Polar-Direct.WHWord
 3-6	ⲡⲉⲧϥϫⲱ	_	_	_	_	_	_	_	_
 3	ⲡ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	2	cop	_	_
 4	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	6	mark	_	_
@@ -2247,7 +2247,7 @@
 2	ⲉϣϫⲉ	ⲉϣϫⲉ	SCONJ	CONJ	_	4	mark	_	_
 3-4	ⲕⲥⲱⲃⲉ	_	_	_	_	_	_	_	_
 3	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
-4	ⲥⲱⲃⲉ	ⲥⲱⲃⲉ	VERB	V	VerbForm=Fin	40	advcl	_	_
+4	ⲥⲱⲃⲉ	ⲥⲱⲃⲉ	VERB	V	VerbForm=Fin	40	advcl	_	CxnElt=4:Conditional-UnspecifiedEpistemic.Protasis
 5-7	ⲛⲥⲁⲡⲛⲟⲙⲟⲥ	_	_	_	_	_	_	_	_
 5	ⲛⲥⲁ	ⲛⲥⲁ	ADP	PREP	_	7	case	_	Orig=ⲛ̅ⲥⲁ
 6	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(abstract
@@ -2294,7 +2294,7 @@
 38-42	ⲙⲁⲣⲛϫⲛⲉⲛⲉⲥⲧⲟⲓⲭⲓⲟⲛ	_	_	_	_	_	_	_	_
 38	ⲙⲁⲣ	ⲙⲁⲣⲉ	AUX	AJUS	_	40	aux	_	_
 39	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	40	nsubj	_	Orig=ⲛ̅
-40	ϫⲛⲉ	ϫⲛⲟⲩ	VERB	V	VerbForm=Fin	0	root	_	_
+40	ϫⲛⲉ	ϫⲛⲟⲩ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=4:Conditional-UnspecifiedEpistemic.Apodosis
 41	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	42	det	_	Entity=(abstract
 42	ⲥⲧⲟⲓⲭⲓⲟⲛ	ⲥⲧⲟⲓⲭⲓⲟⲛ	NOUN	N	Foreign=Yes	40	obj	_	Entity=abstract)|OrigLang=grc
 43-45	ⲛⲧⲛⲉⲓⲙⲉ	_	_	_	_	_	_	_	_
@@ -2310,7 +2310,7 @@
 50	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	53	mark	_	_
 51	ⲉ	ⲉⲣⲉ	PART	CFOC	_	53	mark	_	_
 52	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	53	nsubj	_	_
-53	ϩⲟⲙⲟⲗⲟⲅⲉⲓ	ϩⲟⲙⲟⲗⲟⲅⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	45	ccomp	_	OrigLang=grc
+53	ϩⲟⲙⲟⲗⲟⲅⲉⲓ	ϩⲟⲙⲟⲗⲟⲅⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	45	ccomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=53:Interrogative-Polar-Direct.Clause|OrigLang=grc
 54-56	ⲙⲡϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 54	ⲙ	ⲛ	ADP	PREP	_	56	case	_	Orig=ⲙ̅
 55	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	Entity=(person
@@ -2327,7 +2327,7 @@
 64	·	·	PUNCT	PUNCT	_	66	punct	_	_
 65-66	ϫⲉⲛⲓⲙ	_	_	_	_	_	_	_	_
 65	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	66	mark	_	_
-66	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Int	53	ccomp	_	_
+66	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Int	53	ccomp	_	CxnElt=53:Interrogative-Polar-Direct.WHWord
 67	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	66	cop	_	_
 68	·	·	PUNCT	PUNCT	_	40	punct	_	_
 
@@ -2365,11 +2365,11 @@
 8-10	ϫⲉⲉⲧⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
 8	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	13	mark	_	_
 9	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	10	case	_	_
-10	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	13	obl	_	_
+10	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	13	obl	_	CxnElt=13:Interrogative-Polar-Direct.WHWord
 11-13	ⲁⲕⲥⲱⲕ	_	_	_	_	_	_	_	_
 11	ⲁ	ⲁ	AUX	APST	_	13	aux	_	_
 12	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
-13	ⲥⲱⲕ	ⲥⲱⲕ	VERB	V	VerbForm=Fin	1	ccomp	_	_
+13	ⲥⲱⲕ	ⲥⲱⲕ	VERB	V	VerbForm=Fin	1	ccomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=13:Interrogative-Polar-Direct.Clause
 14-15	ⲉⲣⲟⲕ	_	_	_	_	_	_	_	_
 14	ⲉⲣⲟ	ⲉ	ADP	PREP	_	15	case	_	_
 15	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	13	obl	_	_
@@ -2393,7 +2393,7 @@
 # text = ⲉⲧⲃⲉⲟⲩ ϫⲉⲟⲩⲣⲱⲙⲉ ⲡⲉ ⲉϥϣⲟⲩⲉⲓⲧ ⲡⲉ ⲡⲉⲛⲧⲁⲩⲥⲧⲁⲩⲣⲟⲩ ⲙⲙⲟϥ ·
 1-2	ⲉⲧⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	2	case	_	_
-2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	_
+2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=2:Interrogative-Polar-Direct.WHWord
 3-5	ϫⲉⲟⲩⲣⲱⲙⲉ	_	_	_	_	_	_	_	_
 3	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	5	mark	_	_
 4	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	5	det	_	Entity=(person
@@ -2471,11 +2471,11 @@
 9-11	ϫⲉⲉⲧⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
 9	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	14	mark	_	_
 10	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	11	case	_	_
-11	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	14	obl	_	_
+11	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	14	obl	_	CxnElt=14:Interrogative-Polar-Direct.WHWord
 12-14	ⲁⲣϯϩⲓⲱⲱⲧⲉ	_	_	_	_	_	_	_	_
 12	ⲁ	ⲁ	AUX	APST	_	14	aux	_	_
 13	ⲣ	ⲛⲧⲟ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
-14	ϯϩⲓⲱⲱⲧⲉ	ϯϩⲓⲱⲱⲧⲉ	VERB	V	VerbForm=Fin	1	ccomp	_	Morphs=ϯ-ϩⲓⲱⲱⲧⲉ
+14	ϯϩⲓⲱⲱⲧⲉ	ϯϩⲓⲱⲱⲧⲉ	VERB	V	VerbForm=Fin	1	ccomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=14:Interrogative-Polar-Direct.Clause|Morphs=ϯ-ϩⲓⲱⲱⲧⲉ
 15-17	ⲛⲟⲩⲕⲁⲕⲉ	_	_	_	_	_	_	_	_
 15	ⲛ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲛ̅
 16	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	17	det	_	Entity=(abstract
@@ -2491,9 +2491,9 @@
 
 # sent_id = coptic_treebank-proclus_13_easter_s0086
 # text_en = Was it because the Jews pierced the side of the Lord?
-# text = ⲉⲧⲃⲉ ϫⲉⲁⲛⲓⲟⲩⲇⲁⲓ ⲕⲱⲱⲛⲥ ⲙⲡⲉⲥⲡⲓⲣ ⲙⲡϫⲟⲉⲓⲥ ·
+# text = ⲉⲧⲃⲉϫⲉⲁⲛⲓⲟⲩⲇⲁⲓ ⲕⲱⲱⲛⲥ ⲙⲡⲉⲥⲡⲓⲣ ⲙⲡϫⲟⲉⲓⲥ ·
+1-5	ⲉⲧⲃⲉϫⲉⲁⲛⲓⲟⲩⲇⲁⲓ	_	_	_	_	_	_	_	_
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	PART	PREP	_	6	mark	_	_
-2-5	ϫⲉⲁⲛⲓⲟⲩⲇⲁⲓ	_	_	_	_	_	_	_	_
 2	ϫⲉ	ϫⲉ	CCONJ	CONJ	_	1	fixed	_	_
 3	ⲁ	ⲁ	AUX	APST	_	6	aux	_	_
 4	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	5	det	_	Entity=(person-Jews
@@ -2540,13 +2540,13 @@
 # text = ⲉⲧⲃⲉⲟⲩ ϭⲉ ⲟⲩⲛ ⲙⲡⲉⲣⲉⲉⲓⲙⲉ ⲉⲩϩⲓⲱⲛⲉ ⲉⲛⲁⲃⲟⲩⲑⲁⲓ ⲡⲓⲥⲣⲁⲏⲗⲓⲧⲏⲥ ·
 1-2	ⲉⲧⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	2	case	_	_
-2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	7	obl	_	_
+2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	7	obl	_	CxnElt=7:Interrogative-Polar-Direct.WHWord
 3	ϭⲉ	ϭⲉ	PART	PTC	_	7	advmod	_	_
 4	ⲟⲩⲛ	ⲟⲩⲛ	PART	PTC	Foreign=Yes	7	advmod	_	OrigLang=grc
 5-7	ⲙⲡⲉⲣⲉⲉⲓⲙⲉ	_	_	_	_	_	_	_	_
 5	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	7	aux	_	Orig=ⲙ̅ⲡⲉ
 6	ⲣⲉ	ⲛⲧⲟ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
-7	ⲉⲓⲙⲉ	ⲉⲓⲙⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲉⲓ̈ⲙⲉ
+7	ⲉⲓⲙⲉ	ⲉⲓⲙⲉ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=7:Interrogative-Polar-Direct.Clause|Orig=ⲉⲓ̈ⲙⲉ
 8-10	ⲉⲩϩⲓⲱⲛⲉ	_	_	_	_	_	_	_	_
 8	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	10	mark	_	_
 9	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
@@ -2575,11 +2575,11 @@
 8-10	ϫⲉⲉⲧⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
 8	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	13	mark	_	_
 9	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	10	case	_	_
-10	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	13	obl	_	_
+10	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	13	obl	_	CxnElt=13:Interrogative-Polar-Direct.WHWord
 11-13	ⲁⲕⲥⲧⲱⲧ	_	_	_	_	_	_	_	_
 11	ⲁ	ⲁ	AUX	APST	_	13	aux	_	_
 12	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
-13	ⲥⲧⲱⲧ	ⲥⲧⲱⲧ	VERB	V	VerbForm=Fin	1	ccomp	_	Orig=ⲥⲧⲱⲧ̅
+13	ⲥⲧⲱⲧ	ⲥⲧⲱⲧ	VERB	V	VerbForm=Fin	1	ccomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=13:Interrogative-Polar-Direct.Clause|Orig=ⲥⲧⲱⲧ̅
 14-16	ⲉⲣⲉⲛⲉⲓⲣⲉϥⲙⲓϣⲉ	_	_	_	_	_	_	_	_
 14	ⲉⲣⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	20	mark	_	_
 15	ⲛⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Number=Plur|PronType=Dem	16	det	_	Entity=(person|Orig=ⲛⲉⲓ̈
@@ -2625,11 +2625,11 @@
 # text = ⲉⲧⲃⲉⲟⲩ ⲙⲡⲕⲥⲧⲱⲧ ⲉⲕⲛⲁⲩ ⲉⲏⲥⲁⲓⲁⲥ ⲉⲩⲟⲩⲉⲓⲥⲉ ⲙⲙⲟϥ ϩⲓⲧⲛⲙⲁⲛⲁⲥⲥⲏ ·
 1-2	ⲉⲧⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	2	case	_	Orig=Ⲉⲧⲃⲉ
-2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	5	obl	_	_
+2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	5	obl	_	CxnElt=5:Interrogative-Polar-Direct.WHWord
 3-5	ⲙⲡⲕⲥⲧⲱⲧ	_	_	_	_	_	_	_	_
 3	ⲙⲡ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	5	aux	_	Orig=ⲙ̅ⲡ
 4	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	Orig=ⲕ̅
-5	ⲥⲧⲱⲧ	ⲥⲧⲱⲧ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲥⲧⲱⲧ̅
+5	ⲥⲧⲱⲧ	ⲥⲧⲱⲧ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=5:Interrogative-Polar-Direct.Clause|Orig=ⲥⲧⲱⲧ̅
 6-8	ⲉⲕⲛⲁⲩ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	8	mark	_	_
 7	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
@@ -2659,7 +2659,7 @@
 4	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(place
 5	ⲣⲡⲉ	ⲣⲡⲉ	NOUN	N	_	3	obj	_	Entity=place)|Orig=ⲣ̅ⲡⲉ̅
 6-7	ϩⲱⲱϥ	_	_	_	_	_	_	_	_
-6	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	2	obl:npmod	_	_
+6	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	2	obl:unmarked	_	_
 7	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
 8	ⲟⲛ	ⲟⲛ	ADV	ADV	_	2	advmod	_	_
 
@@ -2680,12 +2680,12 @@
 9-11	ϫⲉⲉⲧⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
 9	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	15	mark	_	_
 10	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	11	case	_	_
-11	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	15	obl	_	_
+11	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	15	obl	_	CxnElt=15:Interrogative-Polar-Direct.WHWord
 12-14	ⲁⲡⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ	_	_	_	_	_	_	_	_
 12	ⲁ	ⲁ	AUX	APST	_	15	aux	_	_
 13	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Entity=(object
 14	ⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ	ⲕⲁⲧⲁⲡⲉⲧⲁⲥⲙⲁ	NOUN	N	Foreign=Yes	15	nsubj	_	Entity=object)|OrigLang=grc
-15	ⲡⲱϩ	ⲡⲱϩ	VERB	V	VerbForm=Fin	2	ccomp	_	_
+15	ⲡⲱϩ	ⲡⲱϩ	VERB	V	VerbForm=Fin	2	ccomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=15:Interrogative-Polar-Direct.Clause
 16-19	ⲉⲩⲛⲁⲥⲧⲁⲩⲣⲟⲩ	_	_	_	_	_	_	_	_
 16	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	19	mark	_	_
 17	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
@@ -2724,11 +2724,11 @@
 # text = ⲉⲧⲃⲉⲟⲩ ⲙⲡⲕⲛⲁϩϥ ⲛⲧⲉⲣⲟⲩⲡⲱϩⲧ ⲉⲃⲟⲗ ϩⲛⲧⲉⲕⲙⲏⲧⲉ ⲙⲡⲉⲥⲛⲟϥ ⲛⲍⲁⲭⲁⲣⲓⲁⲥ ·
 1-2	ⲉⲧⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	2	case	_	_
-2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	5	obl	_	_
+2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	5	obl	_	CxnElt=5:Interrogative-Polar-Direct.WHWord
 3-6	ⲙⲡⲕⲛⲁϩϥ	_	_	_	_	_	_	_	_
 3	ⲙⲡ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	5	aux	_	Orig=ⲙ̅ⲡ
 4	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	Orig=ⲕ̅
-5	ⲛⲁϩ	ⲛⲟⲩϩⲉ	VERB	V	VerbForm=Fin	0	root	_	_
+5	ⲛⲁϩ	ⲛⲟⲩϩⲉ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=5:Interrogative-Polar-Direct.Clause
 6	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	Orig=ϥ̅
 7-9	ⲛⲧⲉⲣⲟⲩⲡⲱϩⲧ	_	_	_	_	_	_	_	_
 7	ⲛⲧⲉⲣ	ⲛⲧⲉⲣⲉ	AUX	APREC	_	9	aux	_	Orig=ⲛ̅ⲧⲉⲣ
@@ -2761,7 +2761,7 @@
 6	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Entity=(abstract
 7	ⲕⲧⲏⲥⲓⲥ	ⲕⲧⲏⲥⲓⲥ	NOUN	N	Foreign=Yes	1	vocative	_	OrigLang=grc
 8-9	ⲧⲏⲣⲥ	_	_	_	_	_	_	_	_
-8	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	7	obl:npmod	_	_
+8	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	7	nmod:unmarked	_	_
 9	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	8	nmod:poss	_	Orig=ⲥ̅
 10-13	ⲉⲧⲉⲙⲉⲥϣⲁϫⲉ	_	_	_	_	_	_	_	_
 10	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	13	mark	_	_
@@ -2949,7 +2949,7 @@
 4	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Orig=ⲓ̈
 5	ⲣϩⲟⲧⲉ	ⲣϩⲟⲧⲉ	VERB	V	VerbForm=Fin	1	acl:relcl	_	Morphs=ⲣ-ϩⲟⲧⲉ|Orig=ⲣ̅ϩⲟⲧⲉ
 6-7	ϩⲏⲧϥ	_	_	_	_	_	_	_	_
-6	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	5	obl:npmod	_	_
+6	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	5	obl:unmarked	_	_
 7	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	6	nmod:poss	_	Orig=ϥ̅
 8-10	ⲙⲡⲟⲩⲟⲉⲓⲛ	_	_	_	_	_	_	_	_
 8	ⲙ	ⲛ	ADP	PREP	_	10	case	_	Orig=ⲙ̅
@@ -2984,7 +2984,7 @@
 1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(place
 2	ⲕⲁϩ	ⲕⲁϩ	NOUN	N	_	6	dislocated	_	_
 3-4	ϩⲱⲱϥ	_	_	_	_	_	_	_	_
-3	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	2	obl:npmod	_	_
+3	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	2	nmod:unmarked	_	_
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	3	nmod:poss	_	Entity=place)
 5	ⲟⲛ	ⲟⲛ	ADV	ADV	_	6	advmod	_	_
 6	ⲱϣ	ⲱϣ	VERB	V	VerbForm=Fin	0	root	_	_
@@ -3026,7 +3026,7 @@
 4-6	ⲁⲓϫⲓ	_	_	_	_	_	_	_	_
 4	ⲁ	ⲁ	AUX	APST	_	6	aux	_	_
 5	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Orig=ⲓ̈
-6	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	23	advcl	_	_
+6	ϫⲓ	ϫⲓ	VERB	V	VerbForm=Fin	23	advcl	_	CxnElt=6:Conditional-UnspecifiedEpistemic.Protasis
 7-8	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 7	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	6	parataxis	_	_
 8	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -3048,7 +3048,7 @@
 20	ⲙⲡ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	23	aux	_	Orig=ⲙ̅ⲡ
 21	ⲉⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	Orig=ⲉⲓ̈
 22	ⲉϣ	ϣ	AUX	V	VerbForm=Fin	23	aux	_	_
-23	ⲱⲣⲃ	ⲱⲣⲃ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲱⲣⲃ̅
+23	ⲱⲣⲃ	ⲱⲣⲃ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=6:Conditional-UnspecifiedEpistemic.Apodosis|Orig=ⲱⲣⲃ̅
 24	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	23	advmod	_	_
 25-27	ⲙⲡⲁⲙⲁϩⲧⲉ	_	_	_	_	_	_	_	_
 25	ⲙ	ⲛ	ADP	PREP	_	27	case	_	Orig=ⲙ̅
@@ -3114,7 +3114,7 @@
 1	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	2	det	_	Entity=(object|Orig=ⲛ̅
 2	ⲟⲩⲉⲣⲏⲧⲉ	ⲟⲩⲉⲣⲏⲧⲉ	NOUN	N	_	10	dislocated	_	_
 3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	10	advmod	_	OrigLang=grc
-4	ⲛⲧⲟⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERI	Definite=Def|Number=Plur|Person=3|PronType=Prs	2	obl:npmod	_	Orig=ⲛ̅ⲧⲟⲟⲩ
+4	ⲛⲧⲟⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERI	Definite=Def|Number=Plur|Person=3|PronType=Prs	2	nmod:unmarked	_	Orig=ⲛ̅ⲧⲟⲟⲩ
 5-7	ⲙⲡⲁϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
 5	ⲙ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲙ̅
 6	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	Entity=(person
@@ -3241,14 +3241,14 @@
 # text = ϯⲥⲟⲟⲩⲛ ⲅⲁⲣ ⲡⲉϫⲁϥ ϫⲉⲟⲩ ⲡⲉ ⲡϩⲓⲥⲉ ⲉⲛⲧⲁⲓϣⲟⲡϥ ·
 1-2	ϯⲥⲟⲟⲩⲛ	_	_	_	_	_	_	_	_
 1	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
-2	ⲥⲟⲟⲩⲛ	ⲥⲟⲟⲩⲛ	VERB	V	VerbForm=Fin	0	root	_	_
+2	ⲥⲟⲟⲩⲛ	ⲥⲟⲟⲩⲛ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct,Interrogative-WHInfo-Indirect|CxnElt=2:Interrogative-Polar-Direct.Clause
 3	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	2	advmod	_	OrigLang=grc
 4-5	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
 4	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	2	parataxis	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 6-7	ϫⲉⲟⲩ	_	_	_	_	_	_	_	_
 6	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	7	mark	_	_
-7	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	2	ccomp	_	_
+7	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	2	ccomp	_	CxnElt=2:Interrogative-Polar-Direct.WHWord
 8	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	7	cop	_	_
 9-10	ⲡϩⲓⲥⲉ	_	_	_	_	_	_	_	_
 9	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(abstract
@@ -3286,8 +3286,8 @@
 16	ⲉ	ⲉ	ADP	PREP	_	17	case	_	_
 17	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	obl	_	Entity=(person
 18	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	19	mark	_	_
-19	ⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	17	acl:relcl	_	Orig=ⲩⲛ̅
-20	ϣϭⲟⲙ	ϣϭⲟⲙ	NOUN	N	_	19	nsubj	_	_
+19	ⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	17	acl:relcl	_	Cxn=Existential-ExistPred-Positive|Orig=ⲩⲛ̅
+20	ϣϭⲟⲙ	ϣϭⲟⲙ	NOUN	N	_	19	nsubj	_	CxnElt=19:Conditional-UnspecifiedEpistemic.Pivot
 21-22	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 21	ⲙⲙⲟ	ⲛ	ADP	PREP	_	22	case	_	Orig=ⲙ̅ⲙⲟ
 22	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
@@ -3305,7 +3305,7 @@
 2	ⲉϣϫⲉ	ⲉϣϫⲉ	SCONJ	CONJ	_	4	mark	_	_
 3-4	ⲕⲟ	_	_	_	_	_	_	_	_
 3	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
-4	ⲟ	ⲉⲓⲣⲉ	VERB	VSTAT	VerbForm=Fin	15	advcl	_	Orig=ⲟ̅
+4	ⲟ	ⲉⲓⲣⲉ	VERB	VSTAT	VerbForm=Fin	15	advcl	_	CxnElt=4:Conditional-UnspecifiedEpistemic.Protasis|Orig=ⲟ̅
 5-6	ⲛⲁⲡⲓⲥⲧⲟⲥ	_	_	_	_	_	_	_	_
 5	ⲛ	ⲛ	ADP	PREP	_	6	case	_	_
 6	ⲁⲡⲓⲥⲧⲟⲥ	ⲁⲡⲓⲥⲧⲟⲥ	NOUN	N	Foreign=Yes	4	obl	_	Entity=(person|OrigLang=grc
@@ -3319,7 +3319,7 @@
 13-17	ⲙⲁⲣⲛϫⲛⲉⲛϭⲟⲙ	_	_	_	_	_	_	_	_
 13	ⲙⲁⲣ	ⲙⲁⲣⲉ	AUX	AJUS	_	15	aux	_	_
 14	ⲛ	ⲁⲛⲟⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	Orig=ⲛ̅
-15	ϫⲛⲉ	ϫⲛⲟⲩ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϫⲛⲉ̅
+15	ϫⲛⲉ	ϫⲛⲟⲩ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=4:Conditional-UnspecifiedEpistemic.Apodosis|Orig=ϫⲛⲉ̅
 16	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	17	det	_	Entity=(abstract|Orig=ⲛ̅
 17	ϭⲟⲙ	ϭⲟⲙ	NOUN	N	_	15	obj	_	_
 18-20	ⲛⲙⲡⲏⲩⲉ	_	_	_	_	_	_	_	_
@@ -3332,7 +3332,7 @@
 # text_en = Tell us, O ye Angels, and Archangels, and all ye Hosts which are in the heavens, Who is He Who appeared upon the earth?
 # text = ⲁϫⲓⲥ ⲉⲣⲟⲛ ⲱ ⲛⲁⲅⲅⲉⲗⲟⲥ ⲙⲛⲛⲁⲣⲭⲁⲅⲅⲉⲗⲟⲥ · ⲙⲛⲛⲉⲥⲧⲣⲁⲧⲓⲁ ⲧⲏⲣⲟⲩ ⲛⲙⲡⲏⲩⲉ ϫⲉⲛⲓⲙ ⲡⲉⲛⲧⲁϥⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ϩⲓϫⲙⲡⲕⲁϩ ·
 1-2	ⲁϫⲓⲥ	_	_	_	_	_	_	_	_
-1	ⲁϫⲓ	ϫⲱ	VERB	VIMP	VerbForm=Fin	0	root	_	Orig=ⲁ̅ϫⲓ
+1	ⲁϫⲓ	ϫⲱ	VERB	VIMP	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct,Interrogative-WHInfo-Indirect|CxnElt=1:Interrogative-Polar-Direct.Clause|Orig=ⲁ̅ϫⲓ
 2	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
 3-4	ⲉⲣⲟⲛ	_	_	_	_	_	_	_	_
 3	ⲉⲣⲟ	ⲉ	ADP	PREP	_	4	case	_	_
@@ -3351,7 +3351,7 @@
 13	ⲛⲉ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	14	det	_	Entity=(organization
 14	ⲥⲧⲣⲁⲧⲓⲁ	ⲥⲧⲣⲁⲧⲓⲁ	NOUN	N	_	7	conj	_	_
 15-16	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-15	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	14	obl:npmod	_	_
+15	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	14	nmod:unmarked	_	_
 16	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
 17-19	ⲛⲙⲡⲏⲩⲉ	_	_	_	_	_	_	_	_
 17	ⲛ	ⲛ	ADP	PREP	_	19	case	_	_
@@ -3359,7 +3359,7 @@
 19	ⲡⲏⲩⲉ	ⲡⲉ	NOUN	N	_	14	nmod	_	Entity=place)organization)
 20-21	ϫⲉⲛⲓⲙ	_	_	_	_	_	_	_	_
 20	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	21	mark	_	_
-21	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Int	1	ccomp	_	_
+21	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Int	1	ccomp	_	CxnElt=1:Interrogative-Polar-Direct.WHWord
 22-26	ⲡⲉⲛⲧⲁϥⲟⲩⲱⲛϩ	_	_	_	_	_	_	_	_
 22	ⲡ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	21	cop	_	_
 23	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	26	mark	_	_
@@ -3401,7 +3401,7 @@
 3	ⲛⲁ	ⲛⲁ	AUX	FUT	_	4	aux	_	_
 4	ⲟⲩⲱϣⲃ	ⲟⲩⲱϣⲃ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲟⲩⲱϣⲃ̅
 5-6	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-5	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	4	obl:npmod	_	_
+5	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	4	obl:unmarked	_	_
 6	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
 7-9	ⲉⲩⲱϣ	_	_	_	_	_	_	_	_
 7	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	9	mark	_	_

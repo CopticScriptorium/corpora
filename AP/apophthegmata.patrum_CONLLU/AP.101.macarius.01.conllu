@@ -112,10 +112,10 @@
 1-3	ϫⲉϣⲁⲧⲛⲁⲩ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	5	mark	_	_
 2	ϣⲁ	ϣⲁ	AUX	PREP	_	5	aux	_	_
-3	ⲧⲛⲁⲩ	ⲧⲛⲁⲩ	PRON	PINT	PronType=Int	5	obl	_	Entity=(time)
+3	ⲧⲛⲁⲩ	ⲧⲛⲁⲩ	PRON	PINT	PronType=Int	5	obl	_	CxnElt=WHWord|Entity=(time)
 4-5	ⲧⲉⲧⲛϩⲓⲟⲩⲉ	_	_	_	_	_	_	_	_
 4	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	Orig=ⲧⲉⲧⲛ̇
-5	ϩⲓⲟⲩⲉ	ϩⲓⲟⲩⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϩⲓ̇ⲟⲩⲉ
+5	ϩⲓⲟⲩⲉ	ϩⲓⲟⲩⲉ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=Clause|Orig=ϩⲓ̇ⲟⲩⲉ
 6-8	ⲉⲡⲉⲓⲙⲟⲛⲁⲭⲟⲥ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉ	ADP	PREP	_	8	case	_	Orig=ⲉ̇
 7	ⲡⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	Entity=(person|Orig=ⲡⲉⲓ̇
@@ -199,10 +199,10 @@
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0013
 # text_en = Look at what he did.”
 # text = ⲁⲛⲁⲩ ϫⲉⲟⲩ ⲡⲉⲧⲉⲁϥⲁⲁϥ .
-1	ⲁⲛⲁⲩ	ⲛⲁⲩ	VERB	VIMP	VerbForm=Fin	0	root	_	_
+1	ⲁⲛⲁⲩ	ⲛⲁⲩ	VERB	VIMP	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct,Interrogative-WHInfo-Indirect|CxnElt=Clause
 2-3	ϫⲉⲟⲩ	_	_	_	_	_	_	_	_
 2	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	3	mark	_	_
-3	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	1	ccomp	_	_
+3	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	1	ccomp	_	CxnElt=WHWord
 4-9	ⲡⲉⲧⲉⲁϥⲁⲁϥ	_	_	_	_	_	_	_	_
 4	ⲡ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	3	cop	_	_
 5	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	8	mark	_	_
@@ -449,7 +449,7 @@
 # text = ϫⲉⲟⲩ ⲡⲉ ⲡⲁⲓ .
 1-2	ϫⲉⲟⲩ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	2	mark	_	_
-2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	_
+2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=WHWord
 3	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	2	cop	_	_
 4	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	Entity=(event)
 5	.	.	PUNCT	PUNCT	_	2	punct	_	Orig=·
@@ -521,7 +521,7 @@
 1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	3	cc	_	OrigLang=grc
 2-3	ⲙⲉϣⲉⲛⲓⲙ	_	_	_	_	_	_	_	_
 2	ⲙⲉϣⲉ	ⲙⲉϣⲉ	NOUN	N	_	3	nsubj	_	Entity=(person
-3	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Int	0	root	_	_
+3	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=WHWord
 4	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	3	cop	_	_
 5-7	ⲛϣⲏⲣⲉϣⲏⲙ	_	_	_	_	_	_	_	_
 5	ⲛ	ⲛ	ADP	PREP	_	6	det	_	_
@@ -581,8 +581,8 @@
 # text = ϫⲉⲙⲛⲡⲉⲧⲉⲡⲁⲛⲁⲭⲱⲣⲏⲧⲏⲥ ϩⲱⲃ ⲛⲙⲙⲁⲓ ,
 1-6	ϫⲉⲙⲛⲡⲉⲧⲉⲡⲁⲛⲁⲭⲱⲣⲏⲧⲏⲥ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	2	mark	_	_
-2	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	0	root	_	Orig=ⲙⲛ̇
-3	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	nsubj	_	Entity=(abstract
+2	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	0	root	_	Cxn=Existential-ExistPred-Negative|Orig=ⲙⲛ̇
+3	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	nsubj	_	CxnElt=Pivot|Entity=(abstract
 4	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	7	mark	_	_
 5	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(person
 6	ⲁⲛⲁⲭⲱⲣⲏⲧⲏⲥ	ⲁⲛⲁⲭⲱⲣⲏⲧⲏⲥ	NOUN	N	Foreign=Yes	7	nsubj	_	Entity=person)|Orig=ⲁⲛⲁⲭⲱⲣⲓⲧⲏⲥ|OrigLang=grc
@@ -615,7 +615,7 @@
 3	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Entity=(place
 4	ϯⲙⲉ	ϯⲙⲉ	NOUN	N	_	7	nsubj	_	_
 5-6	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-5	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	4	obl:npmod	_	Orig=ⲧ[ⲏⲣ]
+5	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	4	nmod:unmarked	_	Orig=ⲧ[ⲏⲣ]
 6	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	5	nmod:poss	_	Entity=place)
 7	ⲟⲩⲱϣ	ⲟⲩⲱϣ	VERB	V	VerbForm=Fin	0	root	_	_
 8-9	ⲉⲉⲓ	_	_	_	_	_	_	_	_
@@ -648,7 +648,7 @@
 # sent_id = apophthegmata_patrum-AP_101_macarius_01_s0044
 # text_en = so that the people would not bother me,
 # text = ϫⲉⲕⲁⲥ ⲛⲛⲉⲩⲑⲗⲓⲃⲉ ⲙⲙⲟⲓ ⲛϭⲓⲛⲣⲱⲙⲉ
-1	ϫⲉⲕⲁⲥ	ϫⲉⲕⲁⲥ	SCONJ	CONJ	_	4	mark	_	Orig=ϫⲉ[ⲕⲁⲥ]
+1	ϫⲉⲕⲁⲥ	ϫⲉⲕⲁⲁⲥ	SCONJ	CONJ	_	4	mark	_	Orig=ϫⲉ[ⲕⲁⲥ]
 2-4	ⲛⲛⲉⲩⲑⲗⲓⲃⲉ	_	_	_	_	_	_	_	_
 2	ⲛⲛⲉ	ⲛⲛⲉ	AUX	ANEGOPT	Polarity=Neg	4	aux	_	Orig=[ⲛ]ⲛⲉ
 3	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_

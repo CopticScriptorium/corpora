@@ -149,16 +149,15 @@
 
 # sent_id = shenoute_abraham-YA518-520_s0007
 # text_en = ...
-# text = ⲉⲃ[........]ⲟⲩⲇ[.......]ⲡⲉ · ⲉ[.....]ⲛⲥⲁ ⲡⲉϥ[.....]
+# text = ⲉⲃ[........]ⲟⲩⲇ[.......]ⲡⲉ · ⲉ[.....]ⲛⲥⲁⲡⲉϥ[.....]
 1-3	ⲉⲃ[........]ⲟⲩⲇ[.......]ⲡⲉ	_	_	_	_	_	_	_	_
 1	ⲉⲃ[........]	UNKNOWN	X	UNKNOWN	_	2	dep	_	_
 2	ⲟⲩⲇ[.......]	UNKNOWN	X	UNKNOWN	Foreign=Yes	0	root	_	OrigLang=grc
 3	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	2	cop	_	_
 4	·	·	PUNCT	PUNCT	_	8	punct	_	_
-5-6	ⲉ[.....]ⲛⲥⲁ	_	_	_	_	_	_	_	_
+5-8	ⲉ[.....]ⲛⲥⲁⲡⲉϥ[.....]	_	_	_	_	_	_	_	_
 5	ⲉ[.....]	UNKNOWN	X	UNKNOWN	_	8	dep	_	Orig=ⲉ̣[.....]
 6	ⲛⲥⲁ	ⲛⲥⲁ	ADP	PREP	_	8	case	_	Orig=ⲛ̄ⲥⲁ
-7-8	ⲡⲉϥ[.....]	_	_	_	_	_	_	_	_
 7	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	Entity=(abstract
 8	[.....]	[.....]	NOUN	N	_	2	parataxis	_	Entity=abstract)
 
@@ -502,7 +501,7 @@
 7	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	Entity=(abstract
 8	ⲁⲓⲧⲏⲙⲁ	ⲁⲓⲧⲏⲙⲁ	NOUN	N	Foreign=Yes	4	obj	_	OrigLang=grc
 9-10	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-9	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	8	obl:npmod	_	_
+9	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	8	nmod:unmarked	_	_
 10	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	9	nmod:poss	_	Entity=abstract)
 11	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -738,11 +737,11 @@
 29	ϩⲉⲛ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	30	det	_	Entity=(person
 30	ϣⲏⲣⲉ	ϣⲏⲣⲉ	NOUN	N	_	25	obj	_	Entity=person)|Orig=ϣⲏⲣⲉ`
 31	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	32	mark	_	_
-32	ⲙⲙⲟⲛ	ⲙⲙⲟⲛ	PART	PTC	Polarity=Neg	35	advcl	_	Orig=ⲙ̄ⲙⲟⲛ`
+32	ⲙⲙⲟⲛ	ⲙⲙⲟⲛ	PART	PTC	Polarity=Neg	35	advcl	_	CxnElt=Protasis|Orig=ⲙ̄ⲙⲟⲛ`
 33-35	ϯⲛⲁⲙⲟⲩ	_	_	_	_	_	_	_	_
 33	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	_
 34	ⲛⲁ	ⲛⲁ	AUX	FUT	_	35	aux	_	_
-35	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	25	parataxis	_	_
+35	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	25	parataxis	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=Apodosis
 36	·	·	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = shenoute_abraham-YA518-520_s0027
@@ -883,7 +882,7 @@
 7	ⲛⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	Entity=(person
 8	ϣⲏⲣⲉ	ϣⲏⲣⲉ	NOUN	N	_	5	obl	_	_
 9-10	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-9	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	8	obl:npmod	_	_
+9	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	8	nmod:unmarked	_	_
 10	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	9	nmod:poss	_	Entity=person)
 11	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	14	case	_	_
 12-14	ϩⲓⲧⲙⲡϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_

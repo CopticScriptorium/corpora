@@ -242,7 +242,7 @@
 12	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	13	nsubj	_	_
 13	ϭⲱϣⲧ	ϭⲱϣⲧ	VERB	V	VerbForm=Fin	6	advcl	_	_
 14-15	ϩⲏⲧϥ	_	_	_	_	_	_	_	_
-14	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	13	obl:npmod	_	_
+14	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	13	obl:unmarked	_	_
 15	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
 16-18	ⲙⲡϭⲱⲗⲡ	_	_	_	_	_	_	_	_
 16	ⲙ	ⲛ	ADP	PREP	_	18	case	_	_
@@ -370,7 +370,7 @@
 23	ⲛ	ⲛ	ADP	PREP	_	24	case	_	_
 24	ⲟⲩⲱⲧ	ⲟⲩⲱⲧ	NOUN	N	_	22	nmod	_	Entity=abstract)
 25-26	ⲧⲏⲣⲧⲛ	_	_	_	_	_	_	_	_
-25	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	19	obl:npmod	_	_
+25	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	19	obl:unmarked	_	_
 26	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
 27	.	.	PUNCT	PUNCT	_	19	punct	_	_
 28-30	ⲛⲧⲉⲧⲙⲡⲱⲣϫ	_	_	_	_	_	_	_	_
@@ -432,9 +432,9 @@
 15	ⲭⲗⲟⲏ	ⲭⲗⲟⲏ	PROPN	NPROP	Foreign=Yes	14	nmod	_	Entity=(person)person)|OrigLang=grc
 16-19	ϫⲉⲟⲩⲛϩⲉⲛϯⲧⲱⲛ	_	_	_	_	_	_	_	_
 16	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	17	mark	_	_
-17	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	Foreign=Yes	3	ccomp	_	OrigLang=grc
+17	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	Foreign=Yes	3	ccomp	_	Cxn=Existential-ExistPred-Positive|OrigLang=grc
 18	ϩⲉⲛ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	19	det	_	Entity=(event
-19	ϯⲧⲱⲛ	ϯⲧⲱⲛ	NOUN	N	_	17	nsubj	_	Entity=event)|Morphs=ϯ-ⲧⲱⲛ
+19	ϯⲧⲱⲛ	ϯⲧⲱⲛ	NOUN	N	_	17	nsubj	_	CxnElt=17:Conditional-UnspecifiedEpistemic.Pivot|Entity=event)|Morphs=ϯ-ⲧⲱⲛ
 20-21	ⲛϩⲏⲧⲧⲏⲩⲧⲛ	_	_	_	_	_	_	_	_
 20	ⲛϩⲏⲧ	ϩⲛ	ADP	PREP	_	21	case	_	_
 21	ⲧⲏⲩⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	17	obl	_	_
@@ -456,7 +456,7 @@
 8	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	13	nsubj	_	_
 9-10	ⲡⲟⲩⲁ	_	_	_	_	_	_	_	_
 9	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	8	obl:npmod	_	_
+10	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	8	nmod:unmarked	_	_
 11-12	ⲙⲙⲱⲧⲛ	_	_	_	_	_	_	_	_
 11	ⲙⲙⲱ	ⲛ	ADP	PREP	_	12	case	_	_
 12	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	8	nmod	_	Entity=person)
@@ -712,14 +712,14 @@
 # text_en = For it is written, 'I will destroy the wisdom of the wise, I will bring the discernment of the discerning to nothing.'
 # text = ϥⲥⲏϩ ⲅⲁⲣ ϫⲉϯⲛⲁⲧⲁⲕⲟ ⲛⲧⲥⲟⲫⲓⲁ ⲛⲛⲥⲟⲫⲟⲥ . ⲧⲁⲁⲑⲉⲧⲉⲓ ⲛⲧⲙⲛⲧⲥⲁⲃⲉ ⲛⲛⲥⲁⲃⲉⲉⲩ .
 1-2	ϥⲥⲏϩ	_	_	_	_	_	_	_	_
-1	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+1	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	ⲥⲏϩ	ⲥϩⲁⲓ	VERB	VSTAT	VerbForm=Fin	0	root	_	_
 3	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	2	advmod	_	OrigLang=grc
 4-7	ϫⲉϯⲛⲁⲧⲁⲕⲟ	_	_	_	_	_	_	_	_
 4	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	7	mark	_	_
 5	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 6	ⲛⲁ	ⲛⲁ	AUX	FUT	_	7	aux	_	_
-7	ⲧⲁⲕⲟ	ⲧⲁⲕⲟ	VERB	V	VerbForm=Fin	2	ccomp	_	_
+7	ⲧⲁⲕⲟ	ⲧⲁⲕⲟ	VERB	V	VerbForm=Fin	2	csubj	_	_
 8-10	ⲛⲧⲥⲟⲫⲓⲁ	_	_	_	_	_	_	_	_
 8	ⲛ	ⲛ	ADP	PREP	_	10	case	_	_
 9	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Entity=(abstract
@@ -748,17 +748,17 @@
 1-3	ⲉϥⲧⲱⲛ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	PART	CFOC	_	3	mark	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-3	ⲧⲱⲛ	ⲧⲱⲛ	ADV	PINT	PronType=Int	0	root	_	_
+3	ⲧⲱⲛ	ⲧⲱⲛ	ADV	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=3:Interrogative-Polar-Direct.Clause,3:Interrogative-Polar-Direct.WHWord
 4	ⲥⲟⲫⲟⲥ	ⲥⲟⲫⲟⲥ	NOUN	N	Foreign=Yes	3	dislocated	_	Entity=(person)|OrigLang=grc
 5-7	ⲉϥⲧⲱⲛ	_	_	_	_	_	_	_	_
 5	ⲉ	ⲉⲣⲉ	PART	CFOC	_	7	mark	_	_
 6	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-7	ⲧⲱⲛ	ⲧⲱⲛ	ADV	PINT	PronType=Int	3	parataxis	_	_
+7	ⲧⲱⲛ	ⲧⲱⲛ	ADV	PINT	PronType=Int	3	parataxis	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=3:Interrogative-Polar-Direct.WHWord,7:Interrogative-Polar-Direct.WHWord
 8	ⲅⲣⲁⲙⲙⲁⲧⲉⲩⲥ	ⲅⲣⲁⲙⲙⲁⲧⲉⲩⲥ	NOUN	N	Foreign=Yes	7	dislocated	_	Entity=(person)|OrigLang=grc
 9-11	ⲉϥⲧⲱⲛ	_	_	_	_	_	_	_	_
 9	ⲉ	ⲉⲣⲉ	PART	CFOC	_	11	mark	_	_
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-11	ⲧⲱⲛ	ⲧⲱⲛ	ADV	PINT	PronType=Int	7	parataxis	_	_
+11	ⲧⲱⲛ	ⲧⲱⲛ	ADV	PINT	PronType=Int	7	parataxis	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=11:Interrogative-Polar-Direct.WHWord
 12	ⲥⲩⲛⲍⲏⲧⲏⲧⲏⲥ	ⲥⲩⲛⲍⲏⲧⲏⲧⲏⲥ	NOUN	N	Foreign=Yes	11	dislocated	_	Entity=(person|OrigLang=grc
 13-15	ⲛⲧⲉⲡⲉⲓⲁⲓⲱⲛ	_	_	_	_	_	_	_	_
 13	ⲛⲧⲉ	ⲛⲧⲉ	ADP	PREP	_	15	case	_	_
@@ -1007,8 +1007,8 @@
 8	ⲥⲛⲏⲩ	ⲥⲟⲛ	NOUN	N	_	2	vocative	_	Entity=person)
 9-11	ϫⲉⲙⲛϩⲁϩ	_	_	_	_	_	_	_	_
 9	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	10	mark	_	_
-10	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	2	ccomp	_	_
-11	ϩⲁϩ	ϩⲁϩ	NOUN	N	_	10	nsubj	_	Entity=(person
+10	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	2	ccomp	_	Cxn=Existential-ExistPred-Negative
+11	ϩⲁϩ	ϩⲁϩ	NOUN	N	_	10	nsubj	_	CxnElt=10:Conditional-UnspecifiedEpistemic.Pivot|Entity=(person
 12-13	ⲛⲥⲟⲫⲟⲥ	_	_	_	_	_	_	_	_
 12	ⲛ	ⲛ	ADP	PREP	_	13	case	_	_
 13	ⲥⲟⲫⲟⲥ	ⲥⲟⲫⲟⲥ	NOUN	N	Foreign=Yes	11	nmod	_	Entity=person)|OrigLang=grc
@@ -1020,15 +1020,15 @@
 17	ⲥⲁⲣⲝ	ⲥⲁⲣⲝ	NOUN	N	Foreign=Yes	13	nmod	_	Entity=(object)|OrigLang=grc
 18	.	.	PUNCT	PUNCT	_	11	punct	_	_
 19-20	ⲙⲛϩⲁϩ	_	_	_	_	_	_	_	_
-19	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	11	parataxis	_	_
-20	ϩⲁϩ	ϩⲁϩ	NOUN	N	_	19	nsubj	_	Entity=(person
+19	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	11	parataxis	_	Cxn=Existential-ExistPred-Negative
+20	ϩⲁϩ	ϩⲁϩ	NOUN	N	_	19	nsubj	_	CxnElt=19:Conditional-UnspecifiedEpistemic.Pivot|Entity=(person
 21-22	ⲛⲇⲩⲛⲁⲧⲟⲥ	_	_	_	_	_	_	_	_
 21	ⲛ	ⲛ	ADP	PREP	_	22	case	_	_
 22	ⲇⲩⲛⲁⲧⲟⲥ	ⲇⲩⲛⲁⲧⲟⲥ	NOUN	N	Foreign=Yes	20	nmod	_	Entity=person)|OrigLang=grc
 23	.	.	PUNCT	PUNCT	_	19	punct	_	_
 24-25	ⲙⲛϩⲁϩ	_	_	_	_	_	_	_	_
-24	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	19	parataxis	_	_
-25	ϩⲁϩ	ϩⲁϩ	NOUN	N	_	24	nsubj	_	Entity=(person
+24	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	19	parataxis	_	Cxn=Existential-ExistPred-Negative
+25	ϩⲁϩ	ϩⲁϩ	NOUN	N	_	24	nsubj	_	CxnElt=24:Conditional-UnspecifiedEpistemic.Pivot|Entity=(person
 26-27	ⲛⲉⲩⲅⲉⲛⲏⲥ	_	_	_	_	_	_	_	_
 26	ⲛ	ⲛ	ADP	PREP	_	27	case	_	_
 27	ⲉⲩⲅⲉⲛⲏⲥ	ⲉⲩⲅⲉⲛⲏⲥ	NOUN	N	Foreign=Yes	25	nmod	_	Entity=person)|OrigLang=grc
@@ -1230,7 +1230,7 @@
 13-15	ⲙⲁⲣⲉϥϣⲟⲩϣⲟⲩ	_	_	_	_	_	_	_	_
 13	ⲙⲁⲣⲉ	ⲙⲁⲣⲉ	AUX	AJUS	_	15	aux	_	_
 14	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
-15	ϣⲟⲩϣⲟⲩ	ϣⲟⲩϣⲟⲩ	VERB	V	VerbForm=Fin	6	ccomp	_	_
+15	ϣⲟⲩϣⲟⲩ	ϣⲟⲩϣⲟⲩ	VERB	V	VerbForm=Fin	6	csubj	_	_
 16-17	ⲙⲙⲟϥ	_	_	_	_	_	_	_	_
 16	ⲙⲙⲟ	ⲛ	ADP	PREP	_	17	case	_	_
 17	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_

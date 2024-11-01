@@ -37,7 +37,7 @@
 
 # sent_id = coptic_treebank-1Cor_04_s0002
 # text_en = Here, moreover, it is required of stewards, that they be found faithful.
-# text = ⲉⲩϣⲓⲛⲉ ϭⲉ ⲙⲡⲉⲓⲙⲁ ϩⲛ ⲛⲟⲓⲕⲟⲛⲟⲙⲟⲥ ϫⲉ ⲉⲩⲉϩⲉ ⲉⲩⲡⲓⲥⲧⲟⲥ .
+# text = ⲉⲩϣⲓⲛⲉ ϭⲉ ⲙⲡⲉⲓⲙⲁ ϩⲛⲛⲟⲓⲕⲟⲛⲟⲙⲟⲥ ϫⲉ ⲉⲩⲉϩⲉ ⲉⲩⲡⲓⲥⲧⲟⲥ .
 1-3	ⲉⲩϣⲓⲛⲉ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	PART	CFOC	_	3	mark	_	_
 2	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
@@ -47,8 +47,8 @@
 5	ⲙ	ⲛ	ADP	PREP	_	7	case	_	_
 6	ⲡⲉⲓ	ⲡⲉⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	Entity=(place
 7	ⲙⲁ	ⲙⲁ	NOUN	N	_	3	obl	_	Entity=place)
+8-10	ϩⲛⲛⲟⲓⲕⲟⲛⲟⲙⲟⲥ	_	_	_	_	_	_	_	_
 8	ϩⲛ	ϩⲛ	ADP	PREP	_	10	case	_	_
-9-10	ⲛⲟⲓⲕⲟⲛⲟⲙⲟⲥ	_	_	_	_	_	_	_	_
 9	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	10	det	_	Entity=(person
 10	ⲟⲓⲕⲟⲛⲟⲙⲟⲥ	ⲟⲓⲕⲟⲛⲟⲙⲟⲥ	NOUN	N	Foreign=Yes	3	obl	_	Entity=person)|OrigLang=grc
 11	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	13	mark	_	_
@@ -214,7 +214,7 @@
 45	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	42	nmod	_	_
 46-47	ⲡⲟⲩⲁ	_	_	_	_	_	_	_	_
 46	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
-47	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	45	obl:npmod	_	Entity=person)abstract)
+47	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	45	nmod:unmarked	_	Entity=person)abstract)
 48-49	ⲛⲁϣⲱⲡⲉ	_	_	_	_	_	_	_	_
 48	ⲛⲁ	ⲛⲁ	AUX	FUT	_	49	aux	_	_
 49	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	17	parataxis	_	_
@@ -279,7 +279,7 @@
 37	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	obl	_	_
 38-39	ⲉϫⲛⲟⲩⲁ	_	_	_	_	_	_	_	_
 38	ⲉϫⲛ	ⲉϫⲛ	ADP	PREP	_	39	case	_	_
-39	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	35	obl	_	Entity=(person)
+39	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	35	obl	_	Cxn=NPN|CxnElt=39:NPN.N1,39:NPN.N2,39:NPN.P|Entity=(person)
 40-41	ϩⲁⲟⲩⲁ	_	_	_	_	_	_	_	_
 40	ϩⲁ	ϩⲁ	ADP	PREP	_	41	case	_	_
 41	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	39	nmod	_	Entity=(person)
@@ -288,7 +288,7 @@
 # sent_id = coptic_treebank-1Cor_04_s0007
 # text_en = For who makes you different? And what do you have that you didn't receive? But if you did receive it, why do you boast as if you had not received it?
 # text = ⲛⲓⲙ ⲅⲁⲣ ⲡⲉⲧⲇⲓⲁⲕⲣⲓⲛⲉ ⲙⲙⲟⲕ ⲟⲩⲇⲉ ⲡⲉⲧⲛⲧⲟⲟⲧⲕ ⲉⲙⲡⲕϫⲓⲧϥ ⲉϣϫⲉ ⲁⲕⲣⲡⲕⲉϫⲓ ⲁϩⲣⲟⲕ ⲕϣⲟⲩϣⲟⲩ ⲙⲙⲟⲕ ϩⲱⲥ ⲉⲙⲡⲕϫⲓ .
-1	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Int	0	root	_	_
+1	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=1:Interrogative-Polar-Direct.WHWord
 2	ⲅⲁⲣ	ⲅⲁⲣ	PART	PTC	Foreign=Yes	1	advmod	_	OrigLang=grc
 3-5	ⲡⲉⲧⲇⲓⲁⲕⲣⲓⲛⲉ	_	_	_	_	_	_	_	_
 3	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	nsubj	_	Entity=(person
@@ -313,12 +313,12 @@
 19-24	ⲁⲕⲣⲡⲕⲉϫⲓ	_	_	_	_	_	_	_	_
 19	ⲁ	ⲁ	AUX	APST	_	21	aux	_	_
 20	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	21	nsubj	_	_
-21	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	25	advcl	_	_
+21	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	25	advcl	_	CxnElt=21:Conditional-UnspecifiedEpistemic.Protasis
 22	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Entity=(event
 23	ⲕⲉ	ⲕⲉ	DET	ART	PronType=Art	24	det	_	_
 24	ϫⲓ	ϫⲓ	NOUN	N	_	21	obj	_	Entity=event)
 25-26	ⲁϩⲣⲟⲕ	_	_	_	_	_	_	_	_
-25	ⲁϩⲣⲟ	ⲁϩⲣⲟ	VERB	VBD	VerbForm=Fin	1	parataxis	_	_
+25	ⲁϩⲣⲟ	ⲁϩⲣⲟ	VERB	VBD	VerbForm=Fin	1	parataxis	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=21:Conditional-UnspecifiedEpistemic.Apodosis
 26	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	25	nsubj	_	_
 27-28	ⲕϣⲟⲩϣⲟⲩ	_	_	_	_	_	_	_	_
 27	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	28	nsubj	_	_
@@ -367,7 +367,7 @@
 21	ⲉⲛⲉ	ⲉⲛⲉ	PRON	AOPT_PPERS	_	22	nsubj	_	_
 22	ⲣⲣⲣⲟ	ⲣⲣⲣⲟ	VERB	V	VerbForm=Fin	26	advcl	_	Morphs=ⲣ-ⲣⲣⲟ
 23-24	ϩⲱⲱⲛ	_	_	_	_	_	_	_	_
-23	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	26	obl:npmod	_	_
+23	ϩⲱⲱ	ϩⲱⲱ	NOUN	IMOD	_	26	nmod:unmarked	_	_
 24	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
 25-26	ⲛⲙⲙⲏⲧⲛ	_	_	_	_	_	_	_	_
 25	ⲛⲙⲙⲏ	ⲙⲛ	ADP	PREP	_	26	case	_	_
@@ -386,7 +386,7 @@
 6	ⲛⲟⲩⲧⲉ	ⲛⲟⲩⲧⲉ	NOUN	N	_	7	nsubj	_	Entity=person)
 7-8	ⲕⲁⲁⲛ	_	_	_	_	_	_	_	_
 7	ⲕⲁⲁ	ⲕⲱ	VERB	V	VerbForm=Fin	0	root	_	_
-8	ⲛ	ⲛ	ADP	PREP	_	7	obj	_	_
+8	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=1|PronType=Prs	7	obj	_	_
 9-10	ⲛⲁⲡⲟⲥⲧⲟⲗⲟⲥ	_	_	_	_	_	_	_	_
 9	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	10	det	_	Entity=(person
 10	ⲁⲡⲟⲥⲧⲟⲗⲟⲥ	ⲁⲡⲟⲥⲧⲟⲗⲟⲥ	NOUN	N	Foreign=Yes	8	appos	_	Entity=person)|OrigLang=grc
@@ -508,7 +508,7 @@
 6	ϩⲛ	ϩⲛ	ADP	PREP	_	8	case	_	_
 7	ⲛⲉⲛ	ⲡⲉⲛ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	Entity=(object
 8	ϭⲓϫ	ϭⲓϫ	NOUN	N	_	5	obl	_	Entity=object)
-9	ⲙⲙⲓⲛⲙⲙⲟ	ⲙⲙⲓⲛⲙⲙⲟ	NOUN	IMOD	Definite=Def|PronType=Prs|Reflex=Yes	5	obl:npmod	_	_
+9	ⲙⲙⲓⲛⲙⲙⲟ	ⲙⲙⲓⲛⲙⲙⲟ	NOUN	IMOD	Definite=Def|PronType=Prs|Reflex=Yes	5	obl:unmarked	_	_
 10	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
 11-13	ⲉⲩⲥⲁϩⲟⲩ	_	_	_	_	_	_	_	_
 11	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	13	mark	_	_
@@ -753,7 +753,7 @@
 46	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	47	det	_	Entity=(organization
 47	ⲉⲕⲕⲗⲏⲥⲓⲁ	ⲉⲕⲕⲗⲏⲥⲓⲁ	NOUN	N	Foreign=Yes	42	obl	_	OrigLang=grc
 48-49	ⲧⲏⲣⲟⲩ	_	_	_	_	_	_	_	_
-48	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	47	obl:npmod	_	_
+48	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	47	nmod:unmarked	_	_
 49	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	48	nmod:poss	_	Entity=organization)
 50-51	ϩⲙⲙⲁ	_	_	_	_	_	_	_	_
 50	ϩⲙ	ϩⲛ	ADP	PREP	_	51	case	_	_
@@ -785,16 +785,16 @@
 
 # sent_id = coptic_treebank-1Cor_04_s0019
 # text_en = But I will come to you shortly, if the Lord is willing. And I will know, not the word of those who are puffed up, but the power.
-# text = ϯⲛⲏⲩ ⲇⲉ ϣⲁⲣⲱⲧⲛ ϩⲛ ⲟⲩϭⲉⲡⲏ ⲉⲣϣⲁⲛⲡϫⲟⲉⲓⲥ ⲣϩⲛⲁϥ . ⲛⲧⲁⲉⲓⲙⲉ ⲁⲛ ⲉⲡϣⲁϫⲉ ⲛⲛⲉⲧϫⲟⲥⲉ ⲛϩⲏⲧ . ⲁⲗⲗⲁ ⲧⲉⲩϭⲟⲙ .
+# text = ϯⲛⲏⲩ ⲇⲉ ϣⲁⲣⲱⲧⲛ ϩⲛⲟⲩϭⲉⲡⲏ ⲉⲣϣⲁⲛⲡϫⲟⲉⲓⲥ ⲣϩⲛⲁϥ . ⲛⲧⲁⲉⲓⲙⲉ ⲁⲛ ⲉⲡϣⲁϫⲉ ⲛⲛⲉⲧϫⲟⲥⲉ ⲛϩⲏⲧ . ⲁⲗⲗⲁ ⲧⲉⲩϭⲟⲙ .
 1-2	ϯⲛⲏⲩ	_	_	_	_	_	_	_	_
 1	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
-2	ⲛⲏⲩ	ⲉⲓ	VERB	VSTAT	VerbForm=Fin	0	root	_	_
+2	ⲛⲏⲩ	ⲉⲓ	VERB	VSTAT	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=12:Conditional-UnspecifiedEpistemic.Apodosis
 3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	2	advmod	_	OrigLang=grc
 4-5	ϣⲁⲣⲱⲧⲛ	_	_	_	_	_	_	_	_
 4	ϣⲁⲣⲱ	ϣⲁ	ADP	PREP	_	5	case	_	_
 5	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=2|PronType=Prs	2	obl	_	_
+6-8	ϩⲛⲟⲩϭⲉⲡⲏ	_	_	_	_	_	_	_	_
 6	ϩⲛ	ϩⲛ	ADP	PREP	_	8	case	_	_
-7-8	ⲟⲩϭⲉⲡⲏ	_	_	_	_	_	_	_	_
 7	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
 8	ϭⲉⲡⲏ	ϭⲉⲡⲏ	VERB	V	VerbForm=Fin	2	obl	_	_
 9-11	ⲉⲣϣⲁⲛⲡϫⲟⲉⲓⲥ	_	_	_	_	_	_	_	_
@@ -802,7 +802,7 @@
 10	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(person
 11	ϫⲟⲉⲓⲥ	ϫⲟⲉⲓⲥ	NOUN	N	_	12	nsubj	_	Entity=person)
 12-14	ⲣϩⲛⲁϥ	_	_	_	_	_	_	_	_
-12	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	2	advcl	_	_
+12	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	2	advcl	_	CxnElt=12:Conditional-UnspecifiedEpistemic.Protasis
 13	ϩⲛⲁ	ϩⲛⲉ	NOUN	N	_	12	obj	_	_
 14	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
 15	.	.	PUNCT	PUNCT	_	2	punct	_	_
@@ -859,7 +859,7 @@
 # sent_id = coptic_treebank-1Cor_04_s0021
 # text_en = What do you want? Shall I come to you with a rod, or in love and a spirit of gentleness?
 # text = ⲟⲩ ⲡⲉⲧⲉⲧⲛⲟⲩⲁϣϥ . ⲧⲁⲉⲓ ϣⲁⲣⲱⲧⲛ ϩⲛⲟⲩϭⲉⲣⲱⲃ ϫⲛϩⲛⲟⲩⲁⲅⲁⲡⲏ ⲙⲛⲟⲩⲡⲛⲉⲩⲙⲁ ⲙⲙⲛⲧⲣⲙⲣⲁϣ .
-1	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	_
+1	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=1:Interrogative-Polar-Direct.WHWord
 2-6	ⲡⲉⲧⲉⲧⲛⲟⲩⲁϣϥ	_	_	_	_	_	_	_	_
 2	ⲡ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	1	cop	_	Entity=(abstract
 3	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	5	mark	_	_

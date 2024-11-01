@@ -22,15 +22,15 @@
 # text = ϫⲉⲟⲩⲛⲟⲩⲁ ⲉϥⲉⲓⲛⲉ ⲙⲙⲟⲕ ϩⲛⲧⲡⲟⲗⲓⲥ ·
 1-3	ϫⲉⲟⲩⲛⲟⲩⲁ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	2	mark	_	_
-2	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	0	root	_	_
-3	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	2	nsubj	_	Entity=(person|Orig=ⲟⲩⲁ̇
+2	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	0	root	_	Cxn=Existential-ExistPred-Positive
+3	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	2	nsubj	_	CxnElt=Pivot|Entity=(person|Orig=ⲟⲩⲁ̇
 4-6	ⲉϥⲉⲓⲛⲉ	_	_	_	_	_	_	_	_
 4	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	6	mark	_	Orig=ⲉ̇
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	ⲉⲓⲛⲉ	ⲉⲓⲛⲉ	NOUN	N	_	3	acl:relcl	_	Orig=ⲉⲓⲛⲉ̇
 7-8	ⲙⲙⲟⲕ	_	_	_	_	_	_	_	_
-7	ⲙⲙⲟ	ⲛ	ADP	PREP	_	8	case	_	Entity=person)|Orig=ⲙ̇ⲙⲟ
-8	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+7	ⲙⲙⲟ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲙ̇ⲙⲟ
+8	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	obj	_	Entity=person)
 9-11	ϩⲛⲧⲡⲟⲗⲓⲥ	_	_	_	_	_	_	_	_
 9	ϩⲛ	ϩⲛ	ADP	PREP	_	11	case	_	Orig=ϩⲛ̇
 10	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	Entity=(place|Orig=ⲧ̇
@@ -81,7 +81,7 @@
 5	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(time
 6	ϩⲟⲟⲩ	ϩⲟⲟⲩ	NOUN	N	_	4	obj	_	_
 7-8	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
-7	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	6	obl:npmod	_	_
+7	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	6	nmod:unmarked	_	_
 8	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	7	nmod:poss	_	Entity=time)|Orig=ϥ̇
 9-11	ⲉϥϫⲱ	_	_	_	_	_	_	_	_
 9	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	11	mark	_	Orig=ⲉ̇

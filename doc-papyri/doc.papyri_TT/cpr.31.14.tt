@@ -1,4 +1,4 @@
-<meta annotation="Caroline T. Schroeder, Amir Zeldes" author="Pachomo son of Theodore" collection="Papyrussammlung" Coptic_edition="CPR 31 14" corpus="doc.papyri" country="Egypt" document_cts_urn="urn:cts:copticDoc:papyri_info.tm82149.cpr_31_14" entities="gold" identities="gold" idno="K 10356" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" objectType="papyrus" origDate="between 800 and 1099 C.E." origDate_notAfter="1099" origDate_notBefore="0800" origDate_precision="medium" pages_from="1" pages_to="2" parsing="automatic" people="none" placeName="Hermopolis" places="none" project="Coptic SCRIPTORIUM" redundant="no" repository="Österreichische Nationalbibliothek" segmentation="gold" source="http://papyri.info/ddbdp/cpr;31;14" tagging="checked" title="Letter about wheat" translation="Amir Zeldes" Trismegistos="140873" version_date="2020-08-31" version_n="4.0.0">
+<meta annotation="Caroline T. Schroeder, Amir Zeldes" author="Pachomo son of Theodore" collection="Papyrussammlung" Coptic_edition="CPR 31 14" corpus="doc.papyri" country="Egypt" document_cts_urn="urn:cts:copticDoc:papyri_info.tm82149.cpr_31_14" entities="gold" identities="gold" idno="K 10356" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" objectType="papyrus" origDate="between 800 and 1099 C.E." origDate_notAfter="1099" origDate_notBefore="0800" origDate_precision="medium" pages_from="1" pages_to="2" parsing="automatic" people="none" placeName="Hermopolis" places="none" project="Coptic SCRIPTORIUM" redundant="no" repository="Österreichische Nationalbibliothek" segmentation="gold" source="http://papyri.info/ddbdp/cpr;31;14" tagging="checked" title="Letter about wheat" translation="Amir Zeldes" Trismegistos="140873" version_date="2015-07-15" version_n="1.2.0">
 <cb cb="cb">
 <pb pb="pb">
 <p_n p_n="1">
@@ -7,7 +7,7 @@
 <orig_group orig_group="☧">
 <norm_group norm_group="☧">
 <orig orig="☧">
-<norm xml:id="u1" func="root" new_sent="true" pos="PUNCT" lemma="☧" norm="☧">
+<norm xml:id="u1" func="punct" new_sent="true" pos="PUNCT" lemma="☧" norm="☧">
 ☧
 </norm>
 </orig>
@@ -44,7 +44,7 @@
 <orig_group orig_group="ⲕⲁⲗⲱⲥ">
 <norm_group norm_group="ⲕⲁⲗⲱⲥ">
 <orig orig="ⲕⲁⲗⲱⲥ">
-<norm xml:id="u6" func="advmod" head="#u10" pos="ADV" lemma="ⲕⲁⲗⲱⲥ" norm="ⲕⲁⲗⲱⲥ">
+<norm xml:id="u6" func="advmod" head="#u3" pos="ADV" lemma="ⲕⲁⲗⲱⲥ" norm="ⲕⲁⲗⲱⲥ">
 <lang lang="Greek">
 ⲕⲁⲗⲱⲥ
 </lang>
@@ -55,7 +55,7 @@
 <orig_group orig_group="ⲉⲣⲉⲡⲟⲥ">
 <norm_group norm_group="ⲉⲣⲉⲡϫⲟⲉⲓⲥ">
 <orig orig="ⲉⲣⲉ">
-<norm xml:id="u7" func="mark" head="#u10" pos="AOPT" lemma="ⲉⲣⲉ" norm="ⲉⲣⲉ">
+<norm xml:id="u7" func="aux" head="#u10" pos="AOPT" lemma="ⲉⲣⲉ" norm="ⲉⲣⲉ">
 ⲉⲣⲉ
 </norm>
 </orig>
@@ -76,7 +76,7 @@
 <orig_group orig_group="ⲕⲁⲁⲕ">
 <norm_group norm_group="ⲕⲁⲁⲕ">
 <orig orig="ⲕⲁⲁ">
-<norm xml:id="u10" func="advcl" head="#u3" pos="V" lemma="ⲕⲱ" norm="ⲕⲁⲁ">
+<norm xml:id="u10" func="parataxis" head="#u3" pos="V" lemma="ⲕⲱ" norm="ⲕⲁⲁ">
 ⲕⲁⲁ
 </norm>
 </orig>
@@ -181,7 +181,7 @@
 </norm>
 </orig>
 <orig orig="ϩⲟⲟⲩ">
-<norm xml:id="u23" func="nmod" head="#u20" pos="N" lemma="ϩⲟⲟⲩ" norm="ϩⲟⲟⲩ">
+<norm xml:id="u23" func="obl" head="#u16" pos="N" lemma="ϩⲟⲟⲩ" norm="ϩⲟⲟⲩ">
 ϩⲟⲟⲩ
 </norm>
 </orig>
@@ -190,12 +190,12 @@
 <orig_group orig_group="ⲧⲏⲣⲟⲩ">
 <norm_group norm_group="ⲧⲏⲣⲟⲩ">
 <orig orig="ⲧⲏⲣ">
-<norm xml:id="u24" func="advmod" head="#u23" pos="IMOD" lemma="ⲧⲏⲣ" norm="ⲧⲏⲣ">
+<norm xml:id="u24" func="obl:npmod" head="#u23" pos="IMOD" lemma="ⲧⲏⲣ" norm="ⲧⲏⲣ">
 ⲧⲏⲣ
 </norm>
 </orig>
 <orig orig="ⲟⲩ">
-<norm xml:id="u25" func="det" head="#u24" pos="PPERO" lemma="ⲛⲧⲟⲟⲩ" norm="ⲟⲩ">
+<norm xml:id="u25" func="nmod:poss" head="#u24" pos="PPERO" lemma="ⲛⲧⲟⲟⲩ" norm="ⲟⲩ">
 <lang lang="Greek">
 ⲟⲩ
 </lang>
@@ -212,12 +212,12 @@
 </orig>
 <entity head_tok="#u28" text="ⲡⲉⲕ ⲱⲛϩ" entity="abstract">
 <orig orig="ⲡⲉⲕ">
-<norm xml:id="u27" func="det" head="#u28" pos="PPOS" lemma="ⲡⲉⲕ" norm="ⲡⲉⲕ">
+<norm xml:id="u27" func="nmod:poss" head="#u28" pos="PPOS" lemma="ⲡⲉⲕ" norm="ⲡⲉⲕ">
 ⲡⲉⲕ
 </norm>
 </orig>
 <orig orig="ⲱⲛⲁϩ">
-<norm xml:id="u28" func="obl" head="#u16" pos="N" lemma="ⲱⲛϩ" norm="ⲱⲛϩ">
+<norm xml:id="u28" func="nmod" head="#u23" pos="N" lemma="ⲱⲛϩ" norm="ⲱⲛϩ">
 ⲱⲛⲁϩ
 </norm>
 </orig>
@@ -248,7 +248,7 @@
 <norm_group norm_group="ⲡⲉⲕⲣⲁϣⲉ">
 <entity head_tok="#u33" text="ⲡⲉⲕ ⲣⲁϣⲉ" entity="abstract">
 <orig orig="ⲡⲉⲕ">
-<norm xml:id="u32" func="det" head="#u33" pos="PPOS" lemma="ⲡⲉⲕ" norm="ⲡⲉⲕ">
+<norm xml:id="u32" func="nmod:poss" head="#u33" pos="PPOS" lemma="ⲡⲉⲕ" norm="ⲡⲉⲕ">
 ⲡⲉⲕ
 </norm>
 </orig>
@@ -271,7 +271,7 @@
 </orig>
 <entity head_tok="#u36" text="ⲧⲁ ⲯⲩⲭⲏ" entity="abstract">
 <orig orig="ⲧⲁ">
-<norm xml:id="u35" func="det" head="#u36" pos="PPOS" lemma="ⲡⲁ" norm="ⲧⲁ">
+<norm xml:id="u35" func="nmod:poss" head="#u36" pos="PPOS" lemma="ⲡⲁ" norm="ⲧⲁ">
 ⲧⲁ
 </norm>
 </orig>
@@ -294,7 +294,7 @@
 </orig>
 <entity head_tok="#u39" text="ⲡⲁ ϩⲁⲉ ⲛ ⲛ ⲉⲓⲃ" entity="time">
 <orig orig="ⲡⲁ">
-<norm xml:id="u38" func="det" head="#u39" pos="PPOS" lemma="ⲡⲁ" norm="ⲡⲁ">
+<norm xml:id="u38" func="nmod:poss" head="#u39" pos="PPOS" lemma="ⲡⲁ" norm="ⲡⲁ">
 ⲡⲁ
 </norm>
 </orig>
@@ -397,12 +397,12 @@
 </norm>
 </orig>
 <orig orig="ⲡ">
-<norm xml:id="u52" func="det" head="#u47" pos="ART" lemma="ⲡ" norm="ⲡ">
+<norm xml:id="u52" func="conj" head="#u50" pos="ART" lemma="ⲡ" norm="ⲡ">
 ⲡ̣
 </norm>
 </orig>
 <orig orig="ⲏ">
-<norm xml:id="u53" func="conj" head="#u47" pos="UNKNOWN" lemma="ⲏ" norm="ⲏ">
+<norm xml:id="u53" func="cc" head="#u52" pos="UNKNOWN" lemma="ⲏ" norm="ⲏ">
 <gap_reason gap_reason="missing">
 <gap_extent gap_extent="unknown">
 ⲏ̣
@@ -421,7 +421,7 @@
 <orig_group orig_group="☧">
 <norm_group norm_group="☧">
 <orig orig="☧">
-<norm xml:id="u54" func="advmod" new_sent="true" pos="PUNCT" lemma="☧" norm="☧">
+<norm xml:id="u54" func="punct" new_sent="true" pos="PUNCT" lemma="☧" norm="☧">
 ☧
 </norm>
 </orig>
@@ -445,7 +445,7 @@
 <orig_group orig_group="υἱό">
 <norm_group norm_group="υἱό">
 <orig orig="υἱό">
-<norm xml:id="u57" func="nsubj" head="#u59" pos="FM" lemma="υἱός" norm="υἱό">
+<norm xml:id="u57" func="aux" head="#u59" pos="FM" lemma="υἱός" norm="υἱό">
 υἱό
 </norm>
 </orig>
@@ -455,7 +455,7 @@
 <norm_group norm_group="ⲑⲉⲟⲇⲱⲣ">
 <entity head_tok="#u58" text="ⲑⲉⲟⲇⲱⲣ" entity="person">
 <orig orig="ⲑⲉⲟⲇⲱⲣ">
-<norm xml:id="u58" func="appos" head="#u57" pos="NPROP" lemma="ⲑⲉⲟⲇⲱⲣ" norm="ⲑⲉⲟⲇⲱⲣ">
+<norm xml:id="u58" func="nsubj" head="#u59" pos="NPROP" lemma="ⲑⲉⲟⲇⲱⲣ" norm="ⲑⲉⲟⲇⲱⲣ">
 <lang lang="Greek">
 ⲑⲉⲟⲇⲱⲣ
 </lang>
