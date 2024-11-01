@@ -13,8 +13,8 @@
 # text = ⲉⲙⲕⲁϩ ⲛⲓⲙ ⲉϥϩⲣⲁⲓ ϩⲓϫⲱⲓ ·
 1-2	ⲉⲙⲕⲁϩ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉ	ADP	PREP	_	2	case	_	_
-2	ⲙⲕⲁϩ	ⲙⲕⲁϩ	NOUN	N	_	0	root	_	Entity=(abstract
-3	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	2	det	_	Orig=[ⲛⲓ]ⲙ
+2	ⲙⲕⲁϩ	ⲙⲕⲁϩ	NOUN	N	_	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=Clause|Entity=(abstract
+3	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	2	det	_	CxnElt=WHWord|Orig=[ⲛⲓ]ⲙ
 4-6	ⲉϥϩⲣⲁⲓ	_	_	_	_	_	_	_	_
 4	ⲉ	ⲉ	PART	PREP	_	6	mark	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -32,7 +32,7 @@
 2	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	3	det	_	Entity=(person|Orig=ⲛ̣̄
 3	ϣⲉⲉⲣⲉ	ϣⲉⲉⲣⲉ	NOUN	N	_	0	root	_	_
 4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	3	advmod	_	OrigLang=grc
-5	ϣⲏⲙ	ϣⲏⲙ	NOUN	N	_	3	obl:npmod	_	Orig=ϣⲏⲙ⳿
+5	ϣⲏⲙ	ϣⲏⲙ	NOUN	N	_	3	nmod:unmarked	_	Orig=ϣⲏⲙ⳿
 6-9	ⲛⲧⲁⲛⲥⲱⲧⲙ	_	_	_	_	_	_	_	_
 6	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	9	mark	_	Orig=ⲛ̄ⲧ
 7	ⲁ	ⲁ	AUX	APST	_	9	aux	_	_
@@ -97,8 +97,8 @@
 7	ⲉ	ⲉⲣⲉ	PART	CFOC	_	10	mark	_	_
 8	ⲧⲉⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	10	nsubj	_	Orig=ⲧⲉⲧ
 9	ⲛⲁ	ⲛⲁ	AUX	FUT	_	10	aux	_	_
-10	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	4	ccomp	_	_
-11	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	10	obj	_	Orig=ⲟ᷍ⲩ
+10	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	4	ccomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=Clause
+11	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	10	obj	_	CxnElt=WHWord|Orig=ⲟ᷍ⲩ
 12-13	ⲛⲁⲩ	_	_	_	_	_	_	_	_
 12	ⲛⲁ	ⲛⲁ	ADP	PREP	_	13	case	_	_
 13	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	10	obl	_	_
@@ -226,7 +226,7 @@
 1-3	ⲉⲓⲉⲁϫⲓⲥ	_	_	_	_	_	_	_	_
 1	ⲉⲓⲉ	ⲉⲓⲉ	CCONJ	CONJ	_	2	advmod	_	Orig=ⲉⲓ̈ⲉ
 2	ⲁϫⲓ	ϫⲱ	VERB	VIMP	VerbForm=Fin	0	root	_	_
-3	ⲥ	ⲥ	PRON	PPERO	_	2	obj	_	_
+3	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 4	ⲟⲛ	ⲟⲛ	ADV	ADV	_	2	advmod	_	_
 5-6	ⲉⲣⲟⲓ	_	_	_	_	_	_	_	_
 5	ⲉⲣⲟ	ⲉ	ADP	PREP	_	6	case	_	_
@@ -255,7 +255,7 @@
 1	ⲛⲧⲱⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERI	Definite=Def|Number=Plur|Person=2|PronType=Prs	6	dislocated	_	Orig=ⲛ̄ⲧⲱⲧ︤ⲛ︥
 2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	6	advmod	_	OrigLang=grc
 3-4	ⲧⲏⲣⲧⲛ	_	_	_	_	_	_	_	_
-3	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	1	obl:npmod	_	_
+3	ⲧⲏⲣ	ⲧⲏⲣ	NOUN	IMOD	PronType=Tot	1	nmod:unmarked	_	_
 4	ⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	3	nmod:poss	_	Orig=ⲧ︤ⲛ︥
 5-6	ⲉⲧⲉⲧⲛϣⲁⲛϩⲱⲡ	_	_	_	_	_	_	_	_
 5	ⲉⲧⲉⲧⲛϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲱⲧⲛ	PRON	ACOND_PPERS	Definite=Def|Number=Plur|Person=2|PronType=Prs	6	nsubj	_	Orig=ⲉⲧⲉⲧ︤ⲛ︥ϣⲁⲛ

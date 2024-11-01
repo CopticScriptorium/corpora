@@ -34,7 +34,7 @@
 7	ⲛⲁⲏⲧ	ⲛⲁⲏⲧ	NOUN	N	_	5	nmod	_	Orig=ⲛⲁⲏ̣ⲧ
 8-11	ⲉϥⲉⲣⲟⲩⲛⲁ	_	_	_	_	_	_	_	_
 8	ⲉϥⲉ	ⲉⲣⲉ_ⲛⲧⲟϥ	PRON	AOPT_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Orig=ⲉϥ̣ⲉ
-9	ⲣ	ⲣ	VERB	V	VerbForm=Fin	0	root	_	_
+9	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	0	root	_	_
 10	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	11	det	_	Entity=(abstract
 11	ⲛⲁ	ⲛⲁ	NOUN	N	_	9	obj	_	Entity=abstract)
 12	·	·	PUNCT	PUNCT	_	9	punct	_	_
@@ -43,9 +43,9 @@
 # text_en = ...
 # text = ⲙⲛⲟⲩⲟⲛ ⲛⲓⲙ ⲉⲛⲧⲁⲩⲃⲱⲕ ⲉⲣⲁⲧϥ ⲉⲧⲡⲓⲥⲧⲉⲩⲉ ⲉⲣⲟϥ ϫⲉⲁⲩⲧⲁⲩⲉ ⲡⲉϥⲣⲁⲛ ⲉⲛⲉϩ ·
 1-2	ⲙⲛⲟⲩⲟⲛ	_	_	_	_	_	_	_	_
-1	ⲙⲛ	ⲙⲛⲧⲁ	VERB	EXIST	_	2	case	_	Orig=ⲙ︤ⲛ︥
-2	ⲟⲩⲟⲛ	ⲟⲩⲟⲛ	NOUN	N	_	0	root	_	Entity=(person
-3	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	2	det	_	_
+1	ⲙⲛ	ⲙⲛⲧⲁ	VERB	EXIST	Polarity=Neg	2	case	_	Orig=ⲙ︤ⲛ︥
+2	ⲟⲩⲟⲛ	ⲟⲩⲟⲛ	NOUN	N	_	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=Clause|Entity=(person
+3	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	2	det	_	CxnElt=WHWord
 4-7	ⲉⲛⲧⲁⲩⲃⲱⲕ	_	_	_	_	_	_	_	_
 4	ⲉⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	7	mark	_	Orig=ⲉⲛ̣ⲧ̣
 5	ⲁ	ⲁ	AUX	APST	_	7	aux	_	Orig=ⲁ̣
@@ -371,8 +371,8 @@
 17	·	·	PUNCT	PUNCT	_	19	punct	_	_
 18	ⲟⲩⲧⲉ	ⲟⲩⲧⲉ	CCONJ	CONJ	Foreign=Yes	19	cc	_	OrigLang=grc
 19-20	ⲙⲛⲕⲛⲧⲉ	_	_	_	_	_	_	_	_
-19	ⲙⲛ	ⲙⲛ	AUX	EXIST	Polarity=Neg	11	aux	_	Orig=ⲙ︤ⲛ︥
-20	ⲕⲛⲧⲉ	ⲕⲛⲧⲉ	NOUN	N	_	19	nsubj	_	Entity=(plant)|Orig=ⲕ︤ⲛ︥ⲧⲉ
+19	ⲙⲛ	ⲙⲛ	AUX	EXIST	Polarity=Neg	11	aux	_	Cxn=Existential-ExistPred-Negative|Orig=ⲙ︤ⲛ︥
+20	ⲕⲛⲧⲉ	ⲕⲛⲧⲉ	NOUN	N	_	19	nsubj	_	CxnElt=Pivot|Entity=(plant)|Orig=ⲕ︤ⲛ︥ⲧⲉ
 21-23	ϩⲛⲛⲉⲩⲃⲱ	_	_	_	_	_	_	_	_
 21	ϩⲛ	ϩⲛ	ADP	PREP	_	23	case	_	Orig=ϩ︤ⲛ︥
 22	ⲛⲉⲩ	ⲡⲉⲩ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	Entity=(plant
@@ -442,7 +442,7 @@
 3	ⲧⲉⲧⲛ	ⲡⲉⲧⲛ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	Orig=ⲧⲉⲧ︤ⲛ︥
 4	ϩⲉ	ϩⲉ	NOUN	N	_	1	nsubj	_	_
 5-6	ϩⲱⲧⲧⲏⲩⲧⲛ	_	_	_	_	_	_	_	_
-5	ϩⲱⲧ	ϩⲱⲱ	NOUN	IMOD	_	1	obl:npmod	_	_
+5	ϩⲱⲧ	ϩⲱⲱ	NOUN	IMOD	_	1	obl:unmarked	_	_
 6	ⲧⲏⲩⲧⲛ	ⲛⲧⲱⲧⲛ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	5	nmod:poss	_	Orig=ⲧⲏⲩⲧ︤ⲛ︥
 7-11	ⲉⲧⲟⲩⲛⲁⲕⲁⲧⲏⲩⲧⲛ	_	_	_	_	_	_	_	_
 7	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	10	mark	_	_
@@ -479,8 +479,8 @@
 1-4	ⲉⲧⲃⲉϫⲉⲙⲛⲗⲟⲅⲓⲥⲙⲟⲥ	_	_	_	_	_	_	_	_
 1	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	PART	PREP	_	3	mark	_	_
 2	ϫⲉ	ϫⲉ	CCONJ	CONJ	_	1	fixed	_	_
-3	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	0	root	_	Orig=ⲙ︤ⲛ︥
-4	ⲗⲟⲅⲓⲥⲙⲟⲥ	ⲗⲟⲅⲓⲥⲙⲟⲥ	NOUN	N	_	3	nsubj	_	Entity=(abstract)
+3	ⲙⲛ	ⲙⲛ	VERB	EXIST	Polarity=Neg	0	root	_	Cxn=Existential-ExistPred-Negative|Orig=ⲙ︤ⲛ︥
+4	ⲗⲟⲅⲓⲥⲙⲟⲥ	ⲗⲟⲅⲓⲥⲙⲟⲥ	NOUN	N	_	3	nsubj	_	CxnElt=Pivot|Entity=(abstract)
 5	ⲟⲩⲇⲉ	ⲟⲩⲇⲉ	CCONJ	CONJ	Foreign=Yes|Polarity=Neg	6	cc	_	OrigLang=grc
 6	ϩⲟⲧⲉ	ϩⲟⲧⲉ	NOUN	N	_	4	conj	_	Entity=(abstract
 7-9	ⲛⲧⲉⲡⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
