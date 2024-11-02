@@ -35,10 +35,10 @@
 23	ⲉ	ⲉ	PART	PREP	_	24	mark	_	_
 24	ⲑⲣ	ⲑⲣⲉ	VERB	ACAUS	_	22	xcomp	_	_
 25	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	24	obj	_	_
-26	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	VerbForm=Fin	24	xcomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=Clause
+26	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	VerbForm=Fin	24	xcomp	_	Cxn=Interrogative-WHInfo-Indirect|CxnElt=26:Interrogative-Polar-Direct.Clause
 27-28	ϫⲉⲟⲩ	_	_	_	_	_	_	_	_
 27	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	28	mark	_	_
-28	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	26	ccomp	_	CxnElt=WHWord
+28	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	26	ccomp	_	CxnElt=26:Interrogative-Polar-Direct.WHWord
 29	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	28	cop	_	_
 30-33	ⲉⲧⲉϥⲛⲁⲥⲁϫⲓ	_	_	_	_	_	_	_	_
 30	ⲉⲧⲉ	ⲉⲧⲉ	SCONJ	CREL	_	33	mark	_	_
@@ -120,7 +120,7 @@
 # text = ⲉⲑⲃⲉⲟⲩ ϫⲉⲟⲩϩⲟⲣⲁⲥⲓⲥ ⲧⲉ ⲛⲧⲉⲟⲩⲥⲏⲟⲩ ⲟⲩⲟϩ ⲉⲥⲉⲉⲣⲟⲩⲱⲓⲛⲓ ⲉⲩϧⲁⲉ ⲟⲩⲟϩ ⲡⲉⲧϣⲟⲩⲓⲧ ⲁⲛ ⲉϣⲱⲡ ⲁϥϣⲁⲛϭⲓϩⲟ ϫⲟⲩϣⲧ ϧⲁϫⲱϥ ϫⲉϧⲉⲛⲟⲩⲓ ϥⲛⲁⲓ ⲟⲩⲟϩ ⲛⲛⲉϥⲱⲥⲕ .
 1-2	ⲉⲑⲃⲉⲟⲩ	_	_	_	_	_	_	_	_
 1	ⲉⲑⲃⲉ	ⲉⲑⲃⲉ	ADP	PREP	_	2	case	_	_
-2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=WHWord
+2	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=2:Interrogative-Polar-Direct.WHWord
 3-5	ϫⲉⲟⲩϩⲟⲣⲁⲥⲓⲥ	_	_	_	_	_	_	_	_
 3	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	5	mark	_	_
 4	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
@@ -147,8 +147,8 @@
 21	ⲉϣⲱⲡ	ⲉϣⲱⲡ	SCONJ	CONJ	_	23	mark	_	_
 22-23	ⲁϥϣⲁⲛϭⲓϩⲟ	_	_	_	_	_	_	_	_
 22	ⲁϥϣⲁⲛ	ⲁⲣⲉϣⲁⲛ_ⲛⲑⲟϥ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
-23	ϭⲓϩⲟ	ϭⲓϩⲟ	VERB	V	VerbForm=Fin	24	advcl	_	CxnElt=Protasis|Morphs=ϭⲓ-ϩⲟ
-24	ϫⲟⲩϣⲧ	ϫⲟⲩϣⲧ	VERB	V	VerbForm=Fin	5	parataxis	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=Apodosis
+23	ϭⲓϩⲟ	ϭⲓϩⲟ	VERB	V	VerbForm=Fin	24	advcl	_	CxnElt=23:Conditional-UnspecifiedEpistemic.Protasis|Morphs=ϭⲓ-ϩⲟ
+24	ϫⲟⲩϣⲧ	ϫⲟⲩϣⲧ	VERB	V	VerbForm=Fin	5	parataxis	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=23:Conditional-UnspecifiedEpistemic.Apodosis
 25-26	ϧⲁϫⲱϥ	_	_	_	_	_	_	_	_
 25	ϧⲁϫⲱ	ϧⲁϫⲉⲛ	ADP	PREP	_	26	case	_	_
 26	ϥ	ⲛⲑⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obl	_	_
@@ -174,7 +174,7 @@
 1	ⲉϣⲱⲡ	ⲉϣⲱⲡ	SCONJ	CONJ	_	3	mark	_	_
 2-4	ⲁϥϣⲁⲛϩⲉⲛϥ	_	_	_	_	_	_	_	_
 2	ⲁϥϣⲁⲛ	ⲁⲣⲉϣⲁⲛ_ⲛⲑⲟϥ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-3	ϩⲉⲛ	ϩⲓⲛⲓ	VERB	V	VerbForm=Fin	10	advcl	_	CxnElt=Protasis
+3	ϩⲉⲛ	ϩⲓⲛⲓ	VERB	V	VerbForm=Fin	10	advcl	_	CxnElt=3:Conditional-UnspecifiedEpistemic.Protasis
 4	ϥ	ⲛⲑⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 5-6	ⲛⲁϥ	_	_	_	_	_	_	_	_
 5	ⲛⲁ	ⲛⲁ	ADP	PREP	_	6	case	_	_
@@ -183,7 +183,7 @@
 7	ⲛⲛⲉ	ⲛⲛⲉ	AUX	ANEGOPT	Polarity=Neg	10	aux	_	Orig=ⲛ̀ⲛⲉ
 8	ⲧⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
 9	ⲯⲩⲭⲏ	ⲯⲩⲭⲏ	NOUN	N	Foreign=Yes	10	nsubj	_	OrigLang=grc
-10	ϯⲙⲁϯ	ϯⲙⲁϯ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=Apodosis|Morphs=ϯ-ⲙⲁϯ
+10	ϯⲙⲁϯ	ϯⲙⲁϯ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=3:Conditional-UnspecifiedEpistemic.Apodosis|Morphs=ϯ-ⲙⲁϯ
 11-12	ⲛϧⲏⲧϥ	_	_	_	_	_	_	_	_
 11	ⲛϧⲏⲧ	ϧⲉⲛ	ADP	PREP	_	12	case	_	Orig=ⲛ̀ϧⲏⲧ
 12	ϥ	ⲛⲑⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
@@ -300,7 +300,7 @@
 5	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	7	advmod	_	_
 6-8	ⲉⲩⲉϭⲓⲧⲟⲩ	_	_	_	_	_	_	_	_
 6	ⲉⲩⲉ	ⲉⲣⲉ_ⲛⲑⲱⲟⲩ	PRON	AOPT_PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	Orig=ⲉⲩⲉ̀
-7	ϭⲓⲧ	ϭⲓ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=Clause
+7	ϭⲓⲧ	ϭⲓ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=7:Interrogative-Polar-Direct.Clause
 8	ⲟⲩ	ⲛⲑⲱⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
 9-10	ϧⲁⲣⲟϥ	_	_	_	_	_	_	_	_
 9	ϧⲁⲣⲟ	ϧⲁ	ADP	PREP	_	10	case	_	_
@@ -349,7 +349,7 @@
 41	ϥ	ⲛⲑⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	obl	_	_
 42-43	ϣⲁⲑⲛⲁⲩ	_	_	_	_	_	_	_	_
 42	ϣⲁ	ϣⲁ	ADP	PREP	_	43	case	_	_
-43	ⲑⲛⲁⲩ	ⲑⲛⲁⲩ	PRON	PINT	PronType=Int	7	parataxis	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=WHWord|Orig=ⲑ̀ⲛⲁⲩ
+43	ⲑⲛⲁⲩ	ⲑⲛⲁⲩ	PRON	PINT	PronType=Int	7	parataxis	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=43:Interrogative-Polar-Direct.WHWord,7:Interrogative-Polar-Direct.WHWord|Orig=ⲑ̀ⲛⲁⲩ
 44	ϫⲉ	ϫⲉ	PART	PTC	_	43	advmod	_	_
 45	ⲟⲩⲟϩ	ⲟⲩⲟϩ	CCONJ	CONJ	_	48	cc	_	_
 46-48	ⲉϥⲑⲣⲟ	_	_	_	_	_	_	_	_
@@ -893,10 +893,10 @@
 # sent_id = bohairic_habakkuk-bohairic_Habakkuk_02_s0018
 # text_en = What profit it the graven image, that they have graven it? one has made it a molten work, a false image; for the maker has trusted in his work, to make dumb idols.
 # text = ⲟⲩ ⲡϩⲏⲟⲩ ⲡⲉ ⲉⲧⲉϥϯ ⲙⲙⲟϥ ⲛϫⲉⲡⲓⲫⲱⲧϩ ⲁⲩⲙⲟⲛⲕϥ ⲛⲟⲩⲫⲱⲧϩ ⲛϩⲟⲣⲧϥ ⲙⲙⲉⲑⲛⲟⲩϫ ϫⲉⲁϥⲭⲁϩⲑⲏϥ ⲉϫⲉⲛⲡⲉϥⲙⲟⲛⲕ ⲉⲑⲣⲉϥⲑⲁⲙⲓⲟ ⲛϩⲁⲛⲓⲇⲱⲗⲟⲛ ⲛⲕⲟⲩⲣ .
-1	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	3	nsubj	_	CxnElt=WHWord
+1	ⲟⲩ	ⲟⲩ	PRON	PINT	PronType=Int	3	nsubj	_	CxnElt=3:Interrogative-Polar-Direct.WHWord
 2-3	ⲡϩⲏⲟⲩ	_	_	_	_	_	_	_	_
 2	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Orig=ⲡ̀
-3	ϩⲏⲟⲩ	ϩⲏⲟⲩ	NOUN	N	_	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=Clause
+3	ϩⲏⲟⲩ	ϩⲏⲟⲩ	NOUN	N	_	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=3:Interrogative-Polar-Direct.Clause
 4	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	3	cop	_	_
 5-7	ⲉⲧⲉϥϯ	_	_	_	_	_	_	_	_
 5	ⲉⲧⲉ	ⲉⲧⲉ	SCONJ	CREL	_	7	mark	_	_
