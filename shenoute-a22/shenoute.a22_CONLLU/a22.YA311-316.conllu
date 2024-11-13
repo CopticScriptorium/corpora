@@ -144,9 +144,9 @@
 # sent_id = shenoute_a22-a22_YA311-316_s0003
 # text_en = ...
 # text = ⲟⲩⲟⲛ ⲇⲉ ⲛⲓⲙ ⲉⲧⲛⲁⲙⲟⲟϣⲉ ⲕⲁⲧⲁⲛⲕⲁⲛⲱⲛ ⲉⲧⲕⲏ ⲛⲁⲛ ⲉϩⲣⲁⲓ ⲛⲛⲉⲗⲁⲁⲩ ⲛⲣⲱⲙⲉ ⲉϣⲫⲑⲟⲛⲉⲓ ⲉⲣⲟϥ ⲉⲛⲟϫϥ ⲉⲃⲟⲗ ⲉⲓⲧⲉ ⲉϥϩⲓⲡϫⲁⲓⲉ ⲙⲡⲉⲛⲕⲱⲧⲉ ⲉⲓⲧⲉ ⲉϥϩⲛⲧⲥⲩⲛⲁⲅⲱⲅⲏ ⲛⲙⲙⲁⲛ ϩⲁϩⲧⲏⲛ ⲏ ϩⲁϩⲧⲛⲧⲏⲩⲧⲛ ⲛⲧⲱⲧⲛ
-1	ⲟⲩⲟⲛ	ⲟⲩⲟⲛ	NOUN	N	_	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=Clause|Entity=(person
+1	ⲟⲩⲟⲛ	ⲟⲩⲟⲛ	NOUN	N	_	0	root	_	Cxn=Interrogative-WHInfo-Direct|CxnElt=1:Interrogative-Polar-Direct.Clause|Entity=(person
 2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	1	advmod	_	OrigLang=grc
-3	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	1	det	_	CxnElt=WHWord
+3	ⲛⲓⲙ	ⲛⲓⲙ	PRON	PINT	PronType=Ind	1	det	_	CxnElt=1:Interrogative-Polar-Direct.WHWord
 4-6	ⲉⲧⲛⲁⲙⲟⲟϣⲉ	_	_	_	_	_	_	_	_
 4	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	6	mark	_	_
 5	ⲛⲁ	ⲛⲁ	AUX	FUT	_	6	aux	_	_
@@ -217,7 +217,7 @@
 2	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	11	advmod	_	OrigLang=grc
 3-4	ⲉϥϣⲁⲛⲉⲓ	_	_	_	_	_	_	_	_
 3	ⲉϥϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟϥ	PRON	ACOND_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-4	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	11	advcl	_	CxnElt=Protasis
+4	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	11	advcl	_	CxnElt=4:Conditional-UnspecifiedEpistemic.Protasis
 5-7	ⲛϭⲓⲟⲩⲕⲁⲓⲣⲟⲥ	_	_	_	_	_	_	_	_
 5	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	7	case	_	_
 6	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	7	det	_	Entity=(time
@@ -226,7 +226,7 @@
 8	ⲛⲧⲉ	ⲛⲧⲉ	AUX	ACONJ	_	10	case	_	_
 9	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(abstract
 10	ⲛⲟⲃⲉ	ⲛⲟⲃⲉ	NOUN	N	_	7	nmod	_	Entity=abstract)time)
-11	ϭⲙϭⲟⲙ	ϭⲙϭⲟⲙ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=Apodosis
+11	ϭⲙϭⲟⲙ	ϭⲙϭⲟⲙ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=4:Conditional-UnspecifiedEpistemic.Apodosis
 12	ⲉϩⲣⲁⲓ	ⲉϩⲣⲁⲓ	ADV	ADV	_	11	advmod	_	Orig=ⲉϩⲣⲁⲓ̈
 13-16	ⲉϫⲛⲛⲉⲧⲟⲩⲏϩ	_	_	_	_	_	_	_	_
 13	ⲉϫⲛ	ⲉϫⲛ	ADP	PREP	_	14	case	_	_
@@ -1385,7 +1385,7 @@
 66	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	63	acl:relcl	_	Entity=person)object)abstract)
 67-68	ⲉϥⲉϣⲱⲡⲉ	_	_	_	_	_	_	_	_
 67	ⲉϥⲉ	ⲉⲣⲉ_ⲛⲧⲟϥ	PRON	AOPT_PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	68	nsubj	_	_
-68	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=Apodosis
+68	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=74:Conditional-UnspecifiedEpistemic.Apodosis,78:Conditional-UnspecifiedEpistemic.Apodosis
 69-71	ⲉϥⲥϩⲟⲩⲟⲣⲧ	_	_	_	_	_	_	_	_
 69	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	71	mark	_	_
 70	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	71	nsubj	_	_
@@ -1393,12 +1393,12 @@
 72	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	74	mark	_	_
 73-74	ⲟⲩϩⲟⲟⲩⲧ	_	_	_	_	_	_	_	_
 73	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	74	det	_	Entity=(person
-74	ϩⲟⲟⲩⲧ	ϩⲟⲟⲩⲧ	NOUN	N	_	68	advcl	_	CxnElt=Protasis|Entity=person)
+74	ϩⲟⲟⲩⲧ	ϩⲟⲟⲩⲧ	NOUN	N	_	68	advcl	_	CxnElt=74:Conditional-UnspecifiedEpistemic.Protasis|Entity=person)
 75	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	74	cop	_	_
 76	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	78	mark	_	_
 77-78	ⲟⲩⲥϩⲓⲙⲉ	_	_	_	_	_	_	_	_
 77	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	78	det	_	Entity=(person
-78	ⲥϩⲓⲙⲉ	ⲥϩⲓⲙⲉ	NOUN	N	_	68	advcl	_	CxnElt=Protasis|Entity=person)|Orig=ⲥϩ[ⲓⲙⲉ]
+78	ⲥϩⲓⲙⲉ	ⲥϩⲓⲙⲉ	NOUN	N	_	68	advcl	_	CxnElt=78:Conditional-UnspecifiedEpistemic.Protasis|Entity=person)|Orig=ⲥϩ[ⲓⲙⲉ]
 79	ⲧⲉ	ⲡⲉ	PRON	COP	Gender=Fem|Number=Sing	78	cop	_	Orig=ⲧ̣[ⲉ]
 
 # sent_id = shenoute_a22-a22_YA311-316_s0023
@@ -1456,7 +1456,7 @@
 40	ⲉⲡⲓⲑⲩⲙⲓⲁ	ⲉⲡⲓⲑⲩⲙⲓⲁ	NOUN	N	Foreign=Yes	38	nmod	_	Entity=(abstract)abstract)|OrigLang=grc
 41-42	ⲉⲩⲉϣⲱⲡⲉ	_	_	_	_	_	_	_	_
 41	ⲉⲩⲉ	ⲉⲣⲉ_ⲛⲧⲟⲟⲩ	PRON	AOPT_PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	42	nsubj	_	_
-42	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=Apodosis
+42	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=48:Conditional-UnspecifiedEpistemic.Apodosis,52:Conditional-UnspecifiedEpistemic.Apodosis
 43-45	ⲉⲩⲥϩⲟⲟⲩⲟⲣⲧ	_	_	_	_	_	_	_	_
 43	ⲉ	ⲉ	PART	PREP	_	45	mark	_	_
 44	ⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	45	nsubj	_	Entity=(person
@@ -1464,12 +1464,12 @@
 46	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	48	mark	_	_
 47-48	ⲟⲩϩⲟⲟⲩⲧ	_	_	_	_	_	_	_	_
 47	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	48	det	_	Entity=(person
-48	ϩⲟⲟⲩⲧ	ϩⲟⲟⲩⲧ	NOUN	N	_	42	advcl	_	CxnElt=Protasis|Entity=person)
+48	ϩⲟⲟⲩⲧ	ϩⲟⲟⲩⲧ	NOUN	N	_	42	advcl	_	CxnElt=48:Conditional-UnspecifiedEpistemic.Protasis|Entity=person)
 49	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	48	cop	_	_
 50	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	52	mark	_	_
 51-52	ⲟⲩⲥϩⲓⲙⲉ	_	_	_	_	_	_	_	_
 51	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	52	det	_	Entity=(person
-52	ⲥϩⲓⲙⲉ	ⲥϩⲓⲙⲉ	NOUN	N	_	42	advcl	_	CxnElt=Protasis|Entity=person)
+52	ⲥϩⲓⲙⲉ	ⲥϩⲓⲙⲉ	NOUN	N	_	42	advcl	_	CxnElt=52:Conditional-UnspecifiedEpistemic.Protasis|Entity=person)
 53	ⲧⲉ	ⲡⲉ	PRON	COP	Gender=Fem|Number=Sing	52	cop	_	_
 54	·	·	PUNCT	PUNCT	_	42	punct	_	_
 
@@ -1503,7 +1503,7 @@
 20	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	21	mark	_	_
 21	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	4	advcl	_	Cxn=Existential-ExistPred-Positive|Orig=ⲟⲩⲛ̄
 22	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	23	det	_	Entity=(abstract
-23	ⲉⲡⲓⲑⲩⲙⲓⲁ	ⲉⲡⲓⲑⲩⲙⲓⲁ	NOUN	N	Foreign=Yes	21	nsubj	_	CxnElt=Pivot|OrigLang=grc
+23	ⲉⲡⲓⲑⲩⲙⲓⲁ	ⲉⲡⲓⲑⲩⲙⲓⲁ	NOUN	N	Foreign=Yes	21	nsubj	_	CxnElt=21:Existential-ExistPred-Positive.Pivot|OrigLang=grc
 24-25	ⲛⲥⲱⲱϥ	_	_	_	_	_	_	_	_
 24	ⲛ	ⲛ	ADP	PREP	_	25	case	_	_
 25	ⲥⲱⲱϥ	ⲥⲱⲱϥ	NOUN	N	_	23	nmod	_	Entity=(abstract)abstract)
@@ -1513,7 +1513,7 @@
 28	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	4	obl	_	Entity=abstract)person)
 29-30	ⲉⲩⲉϣⲱⲡⲉ	_	_	_	_	_	_	_	_
 29	ⲉⲩⲉ	ⲉⲣⲉ_ⲛⲧⲟⲟⲩ	PRON	AOPT_PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	30	nsubj	_	_
-30	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=Apodosis|Orig=ϣⲱⲡⲉ⳿
+30	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=36:Conditional-UnspecifiedEpistemic.Apodosis,40:Conditional-UnspecifiedEpistemic.Apodosis|Orig=ϣⲱⲡⲉ⳿
 31-33	ⲉⲩⲥϩⲟⲩⲟⲣⲧ	_	_	_	_	_	_	_	_
 31	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	33	mark	_	_
 32	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	33	nsubj	_	_
@@ -1521,12 +1521,12 @@
 34	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	36	mark	_	_
 35-36	ⲟⲩϩⲟⲟⲩⲧ	_	_	_	_	_	_	_	_
 35	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	36	det	_	Entity=(person
-36	ϩⲟⲟⲩⲧ	ϩⲟⲟⲩⲧ	NOUN	N	_	30	advcl	_	CxnElt=Protasis|Entity=person)
+36	ϩⲟⲟⲩⲧ	ϩⲟⲟⲩⲧ	NOUN	N	_	30	advcl	_	CxnElt=36:Conditional-UnspecifiedEpistemic.Protasis|Entity=person)
 37	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	36	cop	_	_
 38	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	40	mark	_	_
 39-40	ⲟⲩⲥϩⲓⲙⲉ	_	_	_	_	_	_	_	_
 39	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	40	det	_	Entity=(person
-40	ⲥϩⲓⲙⲉ	ⲥϩⲓⲙⲉ	NOUN	N	_	30	advcl	_	CxnElt=Protasis|Entity=person)
+40	ⲥϩⲓⲙⲉ	ⲥϩⲓⲙⲉ	NOUN	N	_	30	advcl	_	CxnElt=40:Conditional-UnspecifiedEpistemic.Protasis|Entity=person)
 41	ⲧⲉ	ⲡⲉ	PRON	COP	Gender=Fem|Number=Sing	40	cop	_	_
 
 # sent_id = shenoute_a22-a22_YA311-316_s0025
