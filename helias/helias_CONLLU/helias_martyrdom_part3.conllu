@@ -1461,33 +1461,32 @@
 
 # sent_id = helias-helias_martyrdom_part3_s0035
 # text_en = ...
-# text = ⲡ ⲡⲉϫⲉⲡϩⲁⲅⲓⲟⲥ ϩⲏⲗⲓⲁⲥ ⲛⲁϥ ϫⲉⲥⲥⲟⲧⲡ ⲛⲁⲓ ⲉⲧⲣⲁⲙⲟⲩ ϩⲛⲛⲉⲕϭⲓϫ ·
-1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	dislocated	_	Orig=Ⲡ
-2-4	ⲡⲉϫⲉⲡϩⲁⲅⲓⲟⲥ	_	_	_	_	_	_	_	_
-2	ⲡⲉϫⲉ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	Orig=Ⲡⲉϫⲉ
-3	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Entity=(person
-4	ϩⲁⲅⲓⲟⲥ	ϩⲁⲅⲓⲟⲥ	NOUN	N	Foreign=Yes	2	nsubj	_	OrigLang=grc
-5	ϩⲏⲗⲓⲁⲥ	ϩⲏⲗⲓⲁⲥ	PROPN	NPROP	Foreign=Yes	4	appos	_	Entity=person)|OrigLang=he
-6-7	ⲛⲁϥ	_	_	_	_	_	_	_	_
-6	ⲛⲁ	ⲛⲁ	ADP	PREP	_	7	case	_	_
-7	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
-8-10	ϫⲉⲥⲥⲟⲧⲡ	_	_	_	_	_	_	_	_
-8	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	10	mark	_	_
-9	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Orig=ⲥ̄
-10	ⲥⲟⲧⲡ	ⲥⲱⲧⲡ	VERB	VSTAT	VerbForm=Fin	2	ccomp	_	_
-11-12	ⲛⲁⲓ	_	_	_	_	_	_	_	_
-11	ⲛⲁ	ⲛⲁ	ADP	PREP	_	12	case	_	_
-12	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	10	obl	_	_
-13-16	ⲉⲧⲣⲁⲙⲟⲩ	_	_	_	_	_	_	_	_
-13	ⲉ	ⲉ	PART	PREP	_	14	mark	_	_
-14	ⲧⲣ	ⲧⲣⲉ	VERB	ACAUS	_	10	xcomp	_	_
-15	ⲁ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
-16	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	14	xcomp	_	_
-17-19	ϩⲛⲛⲉⲕϭⲓϫ	_	_	_	_	_	_	_	_
-17	ϩⲛ	ϩⲛ	ADP	PREP	_	19	case	_	Orig=ϩⲛ̄
-18	ⲛⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	19	nmod:poss	_	Entity=(object
-19	ϭⲓϫ	ϭⲓϫ	NOUN	N	_	16	obl	_	Entity=object)
-20	·	·	PUNCT	PUNCT	_	2	punct	_	_
+# text = ⲡⲉϫⲉⲡϩⲁⲅⲓⲟⲥ ϩⲏⲗⲓⲁⲥ ⲛⲁϥ ϫⲉⲥⲥⲟⲧⲡ ⲛⲁⲓ ⲉⲧⲣⲁⲙⲟⲩ ϩⲛⲛⲉⲕϭⲓϫ ·
+1-3	ⲡⲉϫⲉⲡϩⲁⲅⲓⲟⲥ	_	_	_	_	_	_	_	_
+1	ⲡⲉϫⲉ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	Orig=Ⲡⲉϫⲉ
+2	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(person
+3	ϩⲁⲅⲓⲟⲥ	ϩⲁⲅⲓⲟⲥ	NOUN	N	Foreign=Yes	1	nsubj	_	OrigLang=grc
+4	ϩⲏⲗⲓⲁⲥ	ϩⲏⲗⲓⲁⲥ	PROPN	NPROP	Foreign=Yes	3	appos	_	Entity=person)|OrigLang=he
+5-6	ⲛⲁϥ	_	_	_	_	_	_	_	_
+5	ⲛⲁ	ⲛⲁ	ADP	PREP	_	6	case	_	_
+6	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
+7-9	ϫⲉⲥⲥⲟⲧⲡ	_	_	_	_	_	_	_	_
+7	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	9	mark	_	_
+8	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Orig=ⲥ̄
+9	ⲥⲟⲧⲡ	ⲥⲱⲧⲡ	VERB	VSTAT	VerbForm=Fin	1	ccomp	_	_
+10-11	ⲛⲁⲓ	_	_	_	_	_	_	_	_
+10	ⲛⲁ	ⲛⲁ	ADP	PREP	_	11	case	_	_
+11	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	9	obl	_	_
+12-15	ⲉⲧⲣⲁⲙⲟⲩ	_	_	_	_	_	_	_	_
+12	ⲉ	ⲉ	PART	PREP	_	13	mark	_	_
+13	ⲧⲣ	ⲧⲣⲉ	VERB	ACAUS	_	9	xcomp	_	_
+14	ⲁ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+15	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	13	xcomp	_	_
+16-18	ϩⲛⲛⲉⲕϭⲓϫ	_	_	_	_	_	_	_	_
+16	ϩⲛ	ϩⲛ	ADP	PREP	_	18	case	_	Orig=ϩⲛ̄
+17	ⲛⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender[psor]=Masc|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	18	nmod:poss	_	Entity=(object
+18	ϭⲓϫ	ϭⲓϫ	NOUN	N	_	15	obl	_	Entity=object)
+19	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = helias-helias_martyrdom_part3_s0036
 # text_en = ...
@@ -3240,7 +3239,7 @@
 
 # sent_id = helias-helias_martyrdom_part3_s0073
 # text_en = ...
-# text = ⲁⲩⲱ ⲕⲉⲟⲩⲁ ϫⲉⲓⲁⲙⲃⲣⲏⲥ ⲁⲩϯ ⲉϩⲟⲩⲛ ⲉϩⲣⲁϥ ⲛⲟⲩⲣⲱⲙⲉ ϫⲉⲙⲱⲩⲥⲏⲥ ⲁⲩⲱ ⲙⲡⲟⲩⲉϣϭⲙϭⲟⲙ ⲉⲣⲟϥ ·
+# text = ⲁⲩⲱ ⲕⲉⲟⲩⲁ ϫⲉⲓⲁⲙⲃⲣⲏⲥ ⲁⲩϯ ⲉϩⲟⲩⲛ ⲉϩⲣⲁϥ ⲛⲟⲩⲣⲱⲙⲉ ϫⲉⲙⲱⲩⲥⲏⲥ
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	8	cc	_	_
 2-3	ⲕⲉⲟⲩⲁ	_	_	_	_	_	_	_	_
 2	ⲕⲉ	ⲕⲉ	DET	ART	PronType=Art	3	det	_	Entity=(person
@@ -3262,19 +3261,23 @@
 14	ⲣⲱⲙⲉ	ⲣⲱⲙⲉ	NOUN	N	_	8	obj	_	Entity=person)
 15-16	ϫⲉⲙⲱⲩⲥⲏⲥ	_	_	_	_	_	_	_	_
 15	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	16	mark	_	_
-16	ⲙⲱⲩⲥⲏⲥ	ⲙⲱⲩⲥⲏⲥ	PROPN	NPROP	Foreign=Yes	14	ccomp	_	Entity=(person)|Orig=ⲙⲱⲩⲥ̀ⲏⲥ|OrigLang=he
-17	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	21	cc	_	_
-18-21	ⲙⲡⲟⲩⲉϣϭⲙϭⲟⲙ	_	_	_	_	_	_	_	_
-18	ⲙⲡ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	21	aux	_	Orig=ⲙ̄ⲡ
-19	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
-20	ⲉϣ	ϣ	AUX	V	VerbForm=Fin	21	aux	_	_
-21	ϭⲙϭⲟⲙ	ϭⲙϭⲟⲙ	VERB	V	VerbForm=Fin	8	conj	_	_
-22-23	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
-22	ⲉⲣⲟ	ⲉ	ADP	PREP	_	23	case	_	_
-23	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
-24	·	·	PUNCT	PUNCT	_	8	punct	_	_
+16	ⲙⲱⲩⲥⲏⲥ	ⲙⲱⲩⲥⲏⲥ	PROPN	NPROP	Foreign=Yes	8	ccomp	_	Entity=(person)|Orig=ⲙⲱⲩⲥ̀ⲏⲥ|OrigLang=he
 
 # sent_id = helias-helias_martyrdom_part3_s0074
+# text_en = ...
+# text = ⲁⲩⲱ ⲙⲡⲟⲩⲉϣϭⲙϭⲟⲙ ⲉⲣⲟϥ ·
+1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	5	cc	_	_
+2-5	ⲙⲡⲟⲩⲉϣϭⲙϭⲟⲙ	_	_	_	_	_	_	_	_
+2	ⲙⲡ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	5	aux	_	Orig=ⲙ̄ⲡ
+3	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+4	ⲉϣ	ϣ	AUX	V	VerbForm=Fin	5	aux	_	_
+5	ϭⲙϭⲟⲙ	ϭⲙϭⲟⲙ	VERB	V	VerbForm=Fin	0	root	_	_
+6-7	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
+6	ⲉⲣⲟ	ⲉ	ADP	PREP	_	7	case	_	_
+7	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+8	·	·	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = helias-helias_martyrdom_part3_s0075
 # text_en = ...
 # text = ⲉⲧⲃⲉⲡⲉϥⲛⲟⲩⲧⲉ ϫⲉϥϯ ⲉⲃⲟⲗ ϩⲓϫⲱϥ .
 1-3	ⲉⲧⲃⲉⲡⲉϥⲛⲟⲩⲧⲉ	_	_	_	_	_	_	_	_
@@ -3291,7 +3294,7 @@
 9	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
 10	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=:ⲻ
 
-# sent_id = helias-helias_martyrdom_part3_s0075
+# sent_id = helias-helias_martyrdom_part3_s0076
 # text_en = ...
 # text = ⲧⲉⲛⲟⲩ ϭⲉ ⲁⲛⲟⲛ ϩⲱⲱⲛ ⲱ ⲡⲣⲣⲟ ⲉⲛⲥⲟⲣⲙ ϩⲛⲧⲉⲛⲙⲛⲧⲥⲟϭ ϫⲉⲟⲩⲟⲛ ⲛⲓⲙ ⲉⲣⲉⲡⲛⲟⲩⲧⲉ ϯ ⲉⲃⲟⲗ ϩⲓϫⲱϥ ⲛⲧϭⲟⲙ ⲛⲗⲁⲁⲩ ⲉⲣⲟϥ ⲁⲛ ⲧⲉ .
 1	ⲧⲉⲛⲟⲩ	ⲧⲉⲛⲟⲩ	ADV	ADV	_	11	advmod	_	Orig=Ⲧⲉⲛⲟⲩ
@@ -3339,7 +3342,7 @@
 33	ⲧⲉ	ⲡⲉ	PRON	COP	Gender=Fem|Number=Sing	29	cop	_	_
 34	.	.	PUNCT	PUNCT	_	11	punct	_	Orig=:ⲻ
 
-# sent_id = helias-helias_martyrdom_part3_s0076
+# sent_id = helias-helias_martyrdom_part3_s0077
 # text_en = ...
 # text = ⲡⲗⲏⲛ ⲛϯⲟⲩⲱϣ ⲁⲛ ⲉⲗⲩⲡⲉⲓ ⲙⲙⲟⲕ ⲱ ⲡⲣⲣⲟ ϯⲛⲁⲇⲱⲕⲓⲙⲁⲍⲉ ⲛϩⲏⲗⲓⲁⲥ ⲡⲉⲭⲣⲏⲥϯⲁⲛⲟⲥ ⲛϣⲟⲙⲛⲧ ⲛⲥⲟⲡ ⲉϣⲱⲡⲉ ⲙⲡⲓϭⲙϭⲟⲙ ⲉⲣⲟϥ ϩⲉⲛⲟⲩⲙⲉ ⲛⲧϭⲟⲙ ⲛⲧⲁⲁⲩ ⲉⲣⲟϥ ⲁⲛ ⲧⲉ .
 1	ⲡⲗⲏⲛ	ⲡⲗⲏⲛ	CCONJ	CONJ	Foreign=Yes	4	advmod	_	Orig=Ⲡⲗⲏⲛ|OrigLang=grc
@@ -3400,4 +3403,220 @@
 41	ⲁⲛ	ⲁⲛ	ADV	NEG	Polarity=Neg	37	advmod	_	_
 42	ⲧⲉ	ⲡⲉ	PRON	COP	Gender=Fem|Number=Sing	37	cop	_	_
 43	.	.	PUNCT	PUNCT	_	4	punct	_	Orig=:ⲻ
+
+# sent_id = helias-helias_martyrdom_part3_s0078
+# text_en = ...
+# text = ⲡⲣⲣⲟ ⲇⲉ ⲁϥⲃⲱⲕ ⲉϩⲟⲩⲛ ⲉⲡⲧⲁⲙⲉⲓⲟⲛ ⲡⲙⲁ ⲉⲧⲉⲣⲉⲡⲡⲉⲧⲟⲩⲁⲁⲃ ⲟⲧⲡ ⲉϩⲟⲩⲛ ⲉⲣⲟϥ ⲁϥϭⲉⲛⲧⲉⲥⲫⲣⲁⲅⲓⲥ ⲛⲧⲁϥⲧⲟⲟⲃⲉⲥ ⲉⲥⲟⲩⲟϫ ⲛⲧⲉⲥϩⲉ .
+1-2	ⲡⲣⲣⲟ	_	_	_	_	_	_	_	_
+1	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Entity=(person|Orig=Ⲡ
+2	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	6	dislocated	_	Entity=person)|Orig=ⲣ̄ⲣⲟ
+3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	6	advmod	_	OrigLang=grc
+4-6	ⲁϥⲃⲱⲕ	_	_	_	_	_	_	_	_
+4	ⲁ	ⲁ	AUX	APST	_	6	aux	_	_
+5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	0	root	_	_
+7	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	6	advmod	_	_
+8-10	ⲉⲡⲧⲁⲙⲉⲓⲟⲛ	_	_	_	_	_	_	_	_
+8	ⲉ	ⲉ	ADP	PREP	_	10	case	_	_
+9	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Entity=(place
+10	ⲧⲁⲙⲉⲓⲟⲛ	ⲧⲁⲙⲉⲓⲟⲛ	NOUN	N	Foreign=Yes	6	obl	_	Entity=place)|Orig=ⲧⲁⲙⲓⲟⲛ|OrigLang=grc
+11-12	ⲡⲙⲁ	_	_	_	_	_	_	_	_
+11	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	Entity=(place
+12	ⲙⲁ	ⲙⲁ	NOUN	N	_	22	dislocated	_	_
+13-15	ⲉⲧⲉⲣⲉⲡⲡⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
+13	ⲉⲧⲉⲣⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	16	mark	_	Orig=ⲉ̄ⲧⲉⲣⲉ
+14	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	Entity=(person
+15	ⲡⲉⲧⲟⲩⲁⲁⲃ	ⲡⲉⲧⲟⲩⲁⲁⲃ	NOUN	N	_	16	nsubj	_	Entity=person)|Morphs=ⲡ-ⲉⲧ-ⲟⲩⲁⲁⲃ
+16	ⲟⲧⲡ	ⲱⲧⲡ	VERB	VSTAT	VerbForm=Fin	12	acl:relcl	_	_
+17	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	16	advmod	_	_
+18-19	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
+18	ⲉⲣⲟ	ⲉ	ADP	PREP	_	19	case	_	_
+19	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	Entity=place)
+20-24	ⲁϥϭⲉⲛⲧⲉⲥⲫⲣⲁⲅⲓⲥ	_	_	_	_	_	_	_	_
+20	ⲁ	ⲁ	AUX	APST	_	22	aux	_	_
+21	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	ϭⲉⲛ	ϭⲓⲛⲉ	VERB	V	VerbForm=Fin	6	parataxis	_	_
+23	ⲧⲉ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	Entity=(abstract
+24	ⲥⲫⲣⲁⲅⲓⲥ	ⲥⲫⲣⲁⲅⲓⲥ	NOUN	N	Foreign=Yes	22	obj	_	Orig=ⲥⲫⲣⲁⲅⲓ︦ⲥ︦|OrigLang=grc
+25-29	ⲛⲧⲁϥⲧⲟⲟⲃⲉⲥ	_	_	_	_	_	_	_	_
+25	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	28	mark	_	_
+26	ⲁ	ⲁ	AUX	APST	_	28	aux	_	_
+27	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+28	ⲧⲟⲟⲃⲉ	ⲧⲱⲱⲃⲉ	VERB	VSTAT	VerbForm=Fin	24	acl:relcl	_	_
+29	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obj	_	Entity=abstract)|Orig=ⲥ︦
+30-32	ⲉⲥⲟⲩⲟϫ	_	_	_	_	_	_	_	_
+30	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	32	mark	_	Orig=ⲉ︦
+31	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	Orig=ⲥ︦
+32	ⲟⲩⲟϫ	ⲟⲩϫⲁⲓ	VERB	VSTAT	VerbForm=Fin	28	advcl	_	Orig=ⲟ︦ⲩⲟϫ
+33-35	ⲛⲧⲉⲥϩⲉ	_	_	_	_	_	_	_	_
+33	ⲛ	ⲛ	ADP	PREP	_	35	case	_	Orig=ⲛ̄
+34	ⲧⲉⲥ	ⲡⲉⲥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	Orig=ⲧⲉⲥ̂
+35	ϩⲉ	ϩⲉ	NOUN	N	_	32	obl	_	_
+36	.	.	PUNCT	PUNCT	_	6	punct	_	Orig=:ⲻ
+
+# sent_id = helias-helias_martyrdom_part3_s0079
+# text_en = ...
+# text = ⲛⲉⲣⲉⲡⲣⲣⲟ ϫⲱⲙⲙⲟⲥ ϫⲉⲧⲁⲭⲁ ϣⲁⲕϩⲉ ⲉⲣⲟϥ ⲉⲁϥⲟⲩⲱ ⲉϥⲙⲟⲩ ϩⲓⲧⲛⲧⲃⲁⲥⲁⲛⲟⲥ ⲛⲧⲁⲓⲕⲁⲁϥ ⲛϩⲏⲧⲥ .
+1-3	ⲛⲉⲣⲉⲡⲣⲣⲟ	_	_	_	_	_	_	_	_
+1	ⲛⲉⲣⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	4	aux	_	Orig=Ⲛⲉⲣⲉ̄
+2	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(person
+3	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	4	nsubj	_	Entity=person)|Orig=ⲣ̄ⲣⲟ
+4-6	ϫⲱⲙⲙⲟⲥ	_	_	_	_	_	_	_	_
+4	ϫⲱ	ϫⲱ	VERB	V	VerbForm=Fin	0	root	_	_
+5	ⲙⲙⲟ	ⲛ	ADP	PREP	_	6	case	_	_
+6	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+7-8	ϫⲉⲧⲁⲭⲁ	_	_	_	_	_	_	_	_
+7	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	11	mark	_	_
+8	ⲧⲁⲭⲁ	ⲧⲁⲭⲁ	ADV	ADV	Foreign=Yes	11	advmod	_	OrigLang=grc
+9-11	ϣⲁⲕϩⲉ	_	_	_	_	_	_	_	_
+9	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	11	aux	_	_
+10	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
+11	ϩⲉ	ϩⲉ	VERB	V	VerbForm=Fin	4	ccomp	_	_
+12-13	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
+12	ⲉⲣⲟ	ⲉ	ADP	PREP	_	13	case	_	_
+13	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14-17	ⲉⲁϥⲟⲩⲱ	_	_	_	_	_	_	_	_
+14	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	17	mark	_	_
+15	ⲁ	ⲁ	AUX	APST	_	17	aux	_	_
+16	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	ⲟⲩⲱ	ⲟⲩⲱ	VERB	V	VerbForm=Fin	11	advcl	_	_
+18-20	ⲉϥⲙⲟⲩ	_	_	_	_	_	_	_	_
+18	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	20	mark	_	_
+19	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	ⲙⲟⲩ	ⲙⲟⲩ	VERB	V	VerbForm=Fin	17	advcl	_	_
+21-23	ϩⲓⲧⲛⲧⲃⲁⲥⲁⲛⲟⲥ	_	_	_	_	_	_	_	_
+21	ϩⲓⲧⲛ	ϩⲓⲧⲛ	ADP	PREP	_	23	case	_	Orig=ϩⲓ̄ⲧⲛ̄
+22	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	Entity=(abstract
+23	ⲃⲁⲥⲁⲛⲟⲥ	ⲃⲁⲥⲁⲛⲟⲥ	NOUN	N	Foreign=Yes	20	obl	_	Orig=ⲃⲁⲥⲁⲛ̄ⲟⲥ|OrigLang=grc
+24-28	ⲛⲧⲁⲓⲕⲁⲁϥ	_	_	_	_	_	_	_	_
+24	ⲛⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	27	mark	_	Orig=ⲛ̂ⲧ
+25	ⲁ	ⲁ	AUX	APST	_	27	aux	_	_
+26	ⲓ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+27	ⲕⲁⲁ	ⲕⲱ	VERB	V	VerbForm=Fin	23	acl:relcl	_	Orig=ⲕⲁ̄ⲁ̄
+28	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+29-30	ⲛϩⲏⲧⲥ	_	_	_	_	_	_	_	_
+29	ⲛϩⲏⲧ	ϩⲛ	ADP	PREP	_	30	case	_	_
+30	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obl	_	Entity=abstract)|Orig=ⲥ̄
+31	.	.	PUNCT	PUNCT	_	4	punct	_	Orig=:ⲻ
+
+# sent_id = helias-helias_martyrdom_part3_s0080
+# text_en = ...
+# text = ⲛⲧⲉⲣⲉϥⲟⲩⲱⲛ ⲇⲉ ⲙⲡⲣⲟ ⲛϥⲃⲱⲕ ⲉϩⲟⲩⲛ ⲁϥϣⲱⲗⲙ ⲉⲩⲛⲟϭ ⲛⲥϯⲛⲟⲩϥⲉ ϩⲙⲡⲕⲟⲓⲧⲟⲛ ⲁϥϭⲱϣⲧ ⲁϥⲛⲁⲩ ⲉⲡϩⲁⲅⲓⲟⲥ ϩⲏⲗⲓⲁⲥ ⲉϥⲁϩⲉⲣⲁⲧϥ ⲉϥϣⲗⲏⲗ ⲉⲣⲉⲟⲩⲛⲟϭ ⲛⲉⲟⲟⲩ ⲕⲱⲧⲉ ⲉⲣⲟϥ
+1-3	ⲛⲧⲉⲣⲉϥⲟⲩⲱⲛ	_	_	_	_	_	_	_	_
+1	ⲛⲧⲉⲣⲉ	ⲛⲧⲉⲣⲉ	AUX	APREC	_	3	aux	_	Orig=Ⲛⲧⲉⲣⲉ
+2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	ⲟⲩⲱⲛ	ⲟⲩⲱⲛ	VERB	V	VerbForm=Fin	25	advcl	_	Orig=ⲟⲩⲱⲛ̄
+4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	25	advmod	_	OrigLang=grc
+5-7	ⲙⲡⲣⲟ	_	_	_	_	_	_	_	_
+5	ⲙ	ⲛ	ADP	PREP	_	7	case	_	_
+6	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(object
+7	ⲣⲟ	ⲣⲟ	NOUN	N	_	3	obj	_	Entity=object)
+8-10	ⲛϥⲃⲱⲕ	_	_	_	_	_	_	_	_
+8	ⲛ	ⲛⲧⲉ	AUX	ACONJ	_	10	aux	_	Orig=ⲛ̄
+9	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Orig=ϥ̄
+10	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	3	advcl	_	_
+11	ⲉϩⲟⲩⲛ	ⲉϩⲟⲩⲛ	ADV	ADV	_	10	advmod	_	_
+12-14	ⲁϥϣⲱⲗⲙ	_	_	_	_	_	_	_	_
+12	ⲁ	ⲁ	AUX	APST	_	14	aux	_	_
+13	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	ϣⲱⲗⲙ	ϣⲱⲗⲙ	VERB	V	VerbForm=Fin	0	root	_	_
+15-17	ⲉⲩⲛⲟϭ	_	_	_	_	_	_	_	_
+15	ⲉ	ⲉ	ADP	PREP	_	17	case	_	_
+16	ⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	17	det	_	Entity=(abstract
+17	ⲛⲟϭ	ⲛⲟϭ	NOUN	N	_	14	obl	_	_
+18-19	ⲛⲥϯⲛⲟⲩϥⲉ	_	_	_	_	_	_	_	_
+18	ⲛ	ⲛ	ADP	PREP	_	19	case	_	Orig=ⲛ̄
+19	ⲥϯⲛⲟⲩϥⲉ	ⲥϯⲛⲟⲩϥⲉ	NOUN	N	_	17	nmod	_	Entity=abstract)|Morphs=ⲥϯ-ⲛⲟⲩϥⲉ|Orig=ⲥ̄ϯⲛⲟⲩⲃⲉ
+20-22	ϩⲙⲡⲕⲟⲓⲧⲟⲛ	_	_	_	_	_	_	_	_
+20	ϩⲙ	ϩⲛ	ADP	PREP	_	22	case	_	Orig=ϩⲙ̄
+21	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	Entity=(abstract
+22	ⲕⲟⲓⲧⲟⲛ	ⲕⲟⲓⲧⲟⲛ	NOUN	N	_	14	obl	_	Entity=abstract)
+23-25	ⲁϥϭⲱϣⲧ	_	_	_	_	_	_	_	_
+23	ⲁ	ⲁ	AUX	APST	_	25	aux	_	_
+24	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	ϭⲱϣⲧ	ϭⲱϣⲧ	VERB	V	VerbForm=Fin	14	parataxis	_	Orig=ϭⲱϣⲧ̄
+26-28	ⲁϥⲛⲁⲩ	_	_	_	_	_	_	_	_
+26	ⲁ	ⲁ	AUX	APST	_	28	aux	_	_
+27	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+28	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	VerbForm=Fin	25	parataxis	_	_
+29-31	ⲉⲡϩⲁⲅⲓⲟⲥ	_	_	_	_	_	_	_	_
+29	ⲉ	ⲉ	ADP	PREP	_	31	case	_	_
+30	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	Entity=(person
+31	ϩⲁⲅⲓⲟⲥ	ϩⲁⲅⲓⲟⲥ	NOUN	N	Foreign=Yes	28	obl	_	Orig=ϩⲁⲅⲓⲟ̂ⲥ|OrigLang=grc
+32	ϩⲏⲗⲓⲁⲥ	ϩⲏⲗⲓⲁⲥ	PROPN	NPROP	Foreign=Yes	31	appos	_	Entity=person)|OrigLang=he
+33-37	ⲉϥⲁϩⲉⲣⲁⲧϥ	_	_	_	_	_	_	_	_
+33	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	35	mark	_	_
+34	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+35	ⲁϩⲉ	ⲱϩⲉ	VERB	V	VerbForm=Fin	28	advcl	_	_
+36	ⲣⲁⲧ	ⲣⲁⲧ	NOUN	N	_	35	obj	_	_
+37	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+38-40	ⲉϥϣⲗⲏⲗ	_	_	_	_	_	_	_	_
+38	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	40	mark	_	_
+39	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	_
+40	ϣⲗⲏⲗ	ϣⲗⲏⲗ	VERB	V	VerbForm=Fin	28	advcl	_	_
+41-43	ⲉⲣⲉⲟⲩⲛⲟϭ	_	_	_	_	_	_	_	_
+41	ⲉⲣⲉ	ⲉⲣⲉ	AUX	CCIRC	_	46	aux	_	Orig=ⲉ̄ⲣⲉ
+42	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	43	det	_	Entity=(abstract
+43	ⲛⲟϭ	ⲛⲟϭ	NOUN	N	_	46	nsubj	_	_
+44-45	ⲛⲉⲟⲟⲩ	_	_	_	_	_	_	_	_
+44	ⲛ	ⲛ	ADP	PREP	_	45	case	_	_
+45	ⲉⲟⲟⲩ	ⲉⲟⲟⲩ	NOUN	N	_	43	nmod	_	Entity=abstract)|Orig=ⲉ̄ⲟⲟⲩ
+46	ⲕⲱⲧⲉ	ⲕⲱⲧⲉ	VERB	V	VerbForm=Fin	40	advcl	_	_
+47-48	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
+47	ⲉⲣⲟ	ⲉ	ADP	PREP	_	48	case	_	_
+48	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	obl	_	_
+
+# sent_id = helias-helias_martyrdom_part3_s0081
+# text_en = ...
+# text = ⲛⲧⲉⲣⲉϥⲛⲁⲩ ⲇⲉ ⲛϭⲓⲡⲣⲣⲟ ⲁϥⲣϣⲡⲏⲣⲉ ϩⲁⲙⲁ ⲇⲉ ⲛⲉⲣⲉⲛⲇⲓⲁⲃⲟⲗⲟⲥ ⲥⲱⲣⲙ ⲙⲡⲉϥϩⲏⲧ
+1-3	ⲛⲧⲉⲣⲉϥⲛⲁⲩ	_	_	_	_	_	_	_	_
+1	ⲛⲧⲉⲣⲉ	ⲛⲧⲉⲣⲉ	AUX	APREC	_	3	aux	_	Orig=Ⲛⲧⲉⲣⲉ
+2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	VerbForm=Fin	10	advcl	_	_
+4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	10	advmod	_	OrigLang=grc
+5-7	ⲛϭⲓⲡⲣⲣⲟ	_	_	_	_	_	_	_	_
+5	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	7	case	_	_
+6	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Entity=(person
+7	ⲣⲣⲟ	ⲣⲣⲟ	NOUN	N	_	3	dislocated	_	Entity=person)|Orig=ⲣ̄ⲣⲟ
+8-10	ⲁϥⲣϣⲡⲏⲣⲉ	_	_	_	_	_	_	_	_
+8	ⲁ	ⲁ	AUX	APST	_	10	aux	_	_
+9	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	ⲣϣⲡⲏⲣⲉ	ⲣϣⲡⲏⲣⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲉⲣϣⲡⲏⲣⲉ
+11	ϩⲁⲙⲁ	ϩⲁⲙⲁ	CCONJ	CONJ	Foreign=Yes	17	dislocated	_	OrigLang=grc
+12	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	17	advmod	_	OrigLang=grc
+13-15	ⲛⲉⲣⲉⲛⲇⲓⲁⲃⲟⲗⲟⲥ	_	_	_	_	_	_	_	_
+13	ⲛⲉⲣⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	17	aux	_	_
+14	ⲛ	ⲛ	ADP	PREP	_	15	det	_	Entity=(person
+15	ⲇⲓⲁⲃⲟⲗⲟⲥ	ⲇⲓⲁⲃⲟⲗⲟⲥ	PROPN	NPROP	Foreign=Yes	17	nsubj	_	Entity=person)|OrigLang=grc
+16-17	ⲥⲱⲣⲙ	_	_	_	_	_	_	_	_
+16	ⲥ	ⲛⲧⲟⲥ	PRON	PPERS	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	ⲱⲣⲙ	ⲱⲣⲙ	VERB	V	VerbForm=Fin	10	parataxis	_	Orig=ⲱⲣⲙ̄
+18-20	ⲙⲡⲉϥϩⲏⲧ	_	_	_	_	_	_	_	_
+18	ⲙ	ⲛ	ADP	PREP	_	20	case	_	_
+19	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	Entity=(abstract
+20	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	17	obl	_	Entity=abstract)|Orig=ϩⲏⲧ̄
+
+# sent_id = helias-helias_martyrdom_part3_s0082
+# text_en = ...
+# text = ⲁⲩⲱ ⲁϥⲕⲉⲗⲉⲩⲉ ⲉⲧⲣⲉⲩⲉⲓⲛⲉ ⲙⲡⲡⲉⲧⲟⲩⲁⲁⲃ ϩⲏⲗⲓⲁⲥ ⲉⲃⲟⲗ ⲡⲉϫⲉⲡⲙⲁⲅⲟⲥ
+1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	_
+2-4	ⲁϥⲕⲉⲗⲉⲩⲉ	_	_	_	_	_	_	_	_
+2	ⲁ	ⲁ	AUX	APST	_	4	aux	_	Orig=Ⲁ
+3	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	ⲕⲉⲗⲉⲩⲉ	ⲕⲉⲗⲉⲩⲉ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	OrigLang=grc
+5-8	ⲉⲧⲣⲉⲩⲉⲓⲛⲉ	_	_	_	_	_	_	_	_
+5	ⲉ	ⲉ	PART	PREP	_	6	mark	_	_
+6	ⲧⲣⲉ	ⲧⲣⲉ	VERB	ACAUS	_	4	xcomp	_	_
+7	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+8	ⲉⲓⲛⲉ	ⲉⲓⲛⲉ	VERB	V	VerbForm=Fin	6	xcomp	_	_
+9-11	ⲙⲡⲡⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
+9	ⲙ	ⲛ	ADP	PREP	_	11	case	_	_
+10	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(person
+11	ⲡⲉⲧⲟⲩⲁⲁⲃ	ⲡⲉⲧⲟⲩⲁⲁⲃ	NOUN	N	_	8	obj	_	Morphs=ⲡ-ⲉⲧ-ⲟⲩⲁⲁⲃ
+12	ϩⲏⲗⲓⲁⲥ	ϩⲏⲗⲓⲁⲥ	PROPN	NPROP	Foreign=Yes	11	appos	_	Entity=person)|OrigLang=he
+13	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	14	advmod	_	_
+14-16	ⲡⲉϫⲉⲡⲙⲁⲅⲟⲥ	_	_	_	_	_	_	_	_
+14	ⲡⲉϫⲉ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	4	parataxis	_	Orig=Ⲡⲉϫⲉ
+15	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	Entity=(person
+16	ⲙⲁⲅⲟⲥ	ⲙⲁⲅⲟⲥ	NOUN	N	Foreign=Yes	14	nsubj	_	Entity=person)|OrigLang=grc
 
