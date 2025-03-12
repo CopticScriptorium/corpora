@@ -1,5 +1,7 @@
 # Coptic Scriptorium - Corpora
 
+![XML Validation](./tests/xml_validation_badge.svg)
+
 This is the public repository for Coptic SCRIPTORIUM corpora.  The documents are available in multiple formats: CoNLL-U, relANNIS, PAULA XML, TEI XML, and TreeTagger SGML (`*.tt`). The `*.tt` files generally contain the most complete representations of document annotations, though note that corpus level metadata is only included in the PAULA XML and relANNIS versions.
 
 Corpora can be searched, viewed, and queried with complex queries http://data.copticscriptorium.org.  Project homepage is http://copticscriptorium.org
