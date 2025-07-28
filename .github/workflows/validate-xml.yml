@@ -1,0 +1,28 @@
+name: Validate TEI XML
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install xmlint
+        run: sudo apt-get install -y libxml2-utils
+
+      - name: Run validation script
+        run: ./tests/test_valid_xml.sh
+
+      - name: Commit badge if changed
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add tests/xml_validation_badge.svg
+          git diff --cached --quiet || git commit -m "Update XML validation badge"
+          git push
