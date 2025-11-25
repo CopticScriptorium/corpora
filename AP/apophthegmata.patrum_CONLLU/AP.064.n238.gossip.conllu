@@ -2,7 +2,7 @@
 # sent_id = apophthegmata_patrum-AP_064_n238_gossip_s0001
 # text_en = ...to the sky.
 # text = ⲉϩⲣⲁⲓ ⲉⲧⲡⲉ · ⲻ
-1	ⲉϩⲣⲁⲓ	ⲉϩⲣⲁⲓ 	ADP	PREP	_	4	case	_	Orig=ⲏϩⲣⲁⲓ
+1	ⲉϩⲣⲁⲓ	ⲉϩⲣⲁⲓ 	ADP	PREP	ExtPos=ADP	4	case	_	Orig=ⲏϩⲣⲁⲓ
 2-4	ⲉⲧⲡⲉ	_	_	_	_	_	_	_	_
 2	ⲉ	ⲉ	ADP	PREP	_	1	fixed	_	_
 3	ⲧ	ⲡ	DET	ART	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	Entity=(place
@@ -20,7 +20,7 @@
 4	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 5-6	ⲉⲛϣⲁⲛⲥⲱⲟⲩϩ	_	_	_	_	_	_	_	_
 5	ⲉⲛϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲁⲛⲟⲛ	PRON	ACOND_PPERS	Definite=Def|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	Orig=ⲉ̇ⲛϣⲁⲛ
-6	ⲥⲱⲟⲩϩ	ⲥⲱⲟⲩϩ	VERB	V	VerbForm=Fin	13	advcl	_	CxnElt=Protasis
+6	ⲥⲱⲟⲩϩ	ⲥⲱⲟⲩϩ	VERB	V	Mood=Cnd|VerbForm=Fin	13	advcl	_	CxnElt=6:Conditional-UnspecifiedEpistemic.Protasis
 7-9	ⲉⲛⲉⲛⲉⲣⲏⲩ	_	_	_	_	_	_	_	_
 7	ⲉ	ⲉ	ADP	PREP	_	9	case	_	Orig=ⲉ̇
 8	ⲛⲉⲛ	ⲡⲉⲛ	DET	PPOS	Definite=Def|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
@@ -29,7 +29,7 @@
 11-13	ϣⲁⲛⲉⲓ	_	_	_	_	_	_	_	_
 11	ϣⲁ	ϣⲁⲛⲧⲉ	AUX	ALIM	_	13	aux	_	_
 12	ⲛ	ⲁⲛⲟⲛ	PRON	PPERO	Definite=Def|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
-13	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=Apodosis|Orig=ⲉⲓ̇
+13	ⲉⲓ	ⲉⲓ	VERB	V	Mood=Ind|VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=6:Conditional-UnspecifiedEpistemic.Apodosis|Orig=ⲉⲓ̇
 14	ⲉϩⲣⲁⲓ	ⲉϩⲣⲁⲓ	ADV	ADV	_	13	advmod	_	Orig=ⲉϩⲣⲁⲓ̇
 15-17	ⲉⲩⲕⲁⲧⲁⲗⲁⲗⲓⲁ	_	_	_	_	_	_	_	_
 15	ⲉ	ⲉ	ADP	PREP	_	17	case	_	_
@@ -48,19 +48,19 @@
 5	·	·	PUNCT	PUNCT	_	7	punct	_	_
 6-7	ⲡⲟⲩⲁ	_	_	_	_	_	_	_	_
 6	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	4	conj	_	Entity=person)
-8	ϭⲱ	ϭⲱ	VERB	V	VerbForm=Fin	0	root	_	_
+7	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	4	appos	_	Entity=person)
+8	ϭⲱ	ϭⲱ	VERB	V	Mood=Ind|VerbForm=Fin	0	root	_	_
 9-11	ⲉϥⲥⲱⲕ	_	_	_	_	_	_	_	_
 9	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	11	mark	_	_
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-11	ⲥⲱⲕ	ⲥⲱⲕ	VERB	V	VerbForm=Fin	8	advcl	_	_
+11	ⲥⲱⲕ	ⲥⲱⲕ	VERB	V	Mood=Ind|VerbForm=Fin	8	advcl	_	_
 12-16	ⲙⲡⲉⲧϩⲓⲧⲟⲩⲱϥ	_	_	_	_	_	_	_	_
 12	ⲙ	ⲛ	ADP	PREP	_	13	case	_	Orig=ⲙ̇
 13	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	obj	_	Entity=(person
 14	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	16	mark	_	_
 15	ϩⲓⲧⲟⲩⲱ	ϩⲓⲧⲟⲩⲛ	ADP	PREP	_	16	case	_	_
 16	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	acl:relcl	_	Entity=person)
-17	ⲉϩⲣⲁⲓ	ⲉϩⲣⲁⲓ	ADV	ADV	_	11	advmod	_	Orig=ⲉ̇ϩⲣⲁⲓ̇
+17	ⲉϩⲣⲁⲓ	ⲉϩⲣⲁⲓ	ADV	ADV	_	16	advmod	_	Orig=ⲉ̇ϩⲣⲁⲓ̇
 18-20	ⲉⲡⲛⲟⲩⲛ	_	_	_	_	_	_	_	_
 18	ⲉ	ⲉ	ADP	PREP	_	20	case	_	Orig=ⲉ̇
 19	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	Entity=(place

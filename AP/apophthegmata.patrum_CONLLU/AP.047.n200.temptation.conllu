@@ -7,14 +7,14 @@
 2	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	3	det	_	Entity=(person
 3	ϩⲗⲗⲟ	ϩⲗⲗⲟ	NOUN	N	_	4	nsubj	_	Entity=person)
 4-5	ϫⲟⲟⲥ	_	_	_	_	_	_	_	_
-4	ϫⲟⲟ	ϫⲱ	VERB	V	VerbForm=Fin	0	root	_	_
+4	ϫⲟⲟ	ϫⲱ	VERB	V	Mood=Ind|VerbForm=Fin	0	root	_	_
 5	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
 6-9	ϫⲉⲉⲣϣⲁⲛⲟⲩⲡⲉⲓⲣⲁⲥⲙⲟⲥ	_	_	_	_	_	_	_	_
 6	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	22	mark	_	_
 7	ⲉⲣϣⲁⲛ	ⲉⲣϣⲁⲛ	AUX	ACOND	_	10	aux	_	_
 8	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	9	det	_	Entity=(abstract
 9	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	10	nsubj	_	Entity=abstract)|Orig=ⲡⲓⲣⲁⲥⲙⲟⲥ|OrigLang=grc
-10	ⲧⲱⲟⲩⲛ	ⲧⲱⲟⲩⲛ	VERB	V	VerbForm=Fin	22	advcl	_	CxnElt=Protasis
+10	ⲧⲱⲟⲩⲛ	ⲧⲱⲟⲩⲛ	VERB	V	Mood=Cnd|VerbForm=Fin	22	advcl	_	CxnElt=10:Conditional-UnspecifiedEpistemic.Protasis
 11-12	ⲉϫⲱⲕ	_	_	_	_	_	_	_	_
 11	ⲉϫⲱ	ⲉϫⲛ	ADP	PREP	_	12	case	_	_
 12	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	10	obl	_	_
@@ -30,7 +30,7 @@
 20	·	·	PUNCT	PUNCT	_	10	punct	_	_
 21-22	ⲙⲡⲣⲕⲱ	_	_	_	_	_	_	_	_
 21	ⲙⲡⲣ	ⲙⲡⲣ	ADV	NEG	Polarity=Neg	22	advmod	_	Orig=ⲙ̄ⲡⲣ̄
-22	ⲕⲱ	ⲕⲱ	VERB	V	VerbForm=Fin	4	ccomp	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=Apodosis
+22	ⲕⲱ	ⲕⲱ	VERB	V	Mood=Ind|VerbForm=Fin	4	ccomp	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=10:Conditional-UnspecifiedEpistemic.Apodosis
 23-24	ⲛⲥⲱⲕ	_	_	_	_	_	_	_	_
 23	ⲛⲥⲱ	ⲛⲥⲁ	ADP	PREP	_	24	case	_	Orig=ⲛ̄ⲥⲱ
 24	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	22	obl	_	_
@@ -52,24 +52,24 @@
 # text_en = Since also the place where you will go, you will find there the thing on account of which you are fleeing.
 # text = ⲉϣⲱⲡⲉ ⲙⲙⲟⲛ ⲡⲙⲁ ⲟⲛ ⲉⲧⲉⲕⲛⲁⲃⲱⲕ ⲉⲣⲟϥ · ⲕⲛⲁϭⲓⲛⲉ ⲛϩⲏⲧϥ ⲙⲡⲉⲧⲉⲕⲡⲏⲧ ⲉⲧⲃⲏⲏⲧϥ ·
 1	ⲉϣⲱⲡⲉ	ⲉϣⲱⲡⲉ	SCONJ	CONJ	_	4	mark	_	_
-2	ⲙⲙⲟⲛ	ⲙⲙⲟⲛ	ADV	ADV	Polarity=Neg	4	advmod	_	Orig=ⲙ̄ⲙⲟⲛ
+2	ⲙⲙⲟⲛ	ⲙⲙⲟⲛ	ADV	ADV	Polarity=Neg	15	advmod	_	Orig=ⲙ̄ⲙⲟⲛ
 3-4	ⲡⲙⲁ	_	_	_	_	_	_	_	_
 3	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Entity=(place
 4	ⲙⲁ	ⲙⲁ	NOUN	N	_	15	dislocated	_	_
-5	ⲟⲛ	ⲟⲛ	ADV	ADV	_	15	advmod	_	_
+5	ⲟⲛ	ⲟⲛ	ADV	ADV	_	4	advmod	_	_
 6-9	ⲉⲧⲉⲕⲛⲁⲃⲱⲕ	_	_	_	_	_	_	_	_
 6	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	9	mark	_	_
 7	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
 8	ⲛⲁ	ⲛⲁ	AUX	FUT	_	9	aux	_	_
-9	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	VerbForm=Fin	4	acl:relcl	_	_
+9	ⲃⲱⲕ	ⲃⲱⲕ	VERB	V	Mood=Ind|VerbForm=Fin	4	acl:relcl	_	_
 10-11	ⲉⲣⲟϥ	_	_	_	_	_	_	_	_
 10	ⲉⲣⲟ	ⲉ	ADP	PREP	_	11	case	_	_
 11	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	Entity=place)
-12	·	·	PUNCT	PUNCT	_	9	punct	_	_
+12	·	·	PUNCT	PUNCT	_	4	punct	_	_
 13-15	ⲕⲛⲁϭⲓⲛⲉ	_	_	_	_	_	_	_	_
 13	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	_
 14	ⲛⲁ	ⲛⲁ	AUX	FUT	_	15	aux	_	_
-15	ϭⲓⲛⲉ	ϭⲓⲛⲉ	VERB	V	VerbForm=Fin	0	root	_	_
+15	ϭⲓⲛⲉ	ϭⲓⲛⲉ	VERB	V	Mood=Ind|VerbForm=Fin	0	root	_	_
 16-17	ⲛϩⲏⲧϥ	_	_	_	_	_	_	_	_
 16	ⲛϩⲏⲧ	ϩⲛ	ADP	PREP	_	17	case	_	Orig=ⲛ̄ϩⲏⲧ
 17	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	Orig=ϥ̄
@@ -78,7 +78,7 @@
 19	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	obj	_	Entity=(person
 20	ⲉⲧⲉ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	22	mark	_	_
 21	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	22	nsubj	_	_
-22	ⲡⲏⲧ	ⲡⲱⲧ	VERB	VSTAT	VerbForm=Fin	19	acl:relcl	_	_
+22	ⲡⲏⲧ	ⲡⲱⲧ	VERB	VSTAT	Mood=Ind|VerbForm=Fin	19	acl:relcl	_	_
 23-24	ⲉⲧⲃⲏⲏⲧϥ	_	_	_	_	_	_	_	_
 23	ⲉⲧⲃⲏⲏⲧ	ⲉⲧⲃⲉ	ADP	PREP	_	24	case	_	_
 24	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obl	_	Entity=person)|Orig=ϥ̄
@@ -87,13 +87,13 @@
 # sent_id = apophthegmata_patrum-AP_047_n200_temptation_s0003
 # text_en = But remain until the temptation passes over, so that your departure is not an obstacle, and (occurs) in a time of peace, so that your removal is not an affliction for those [...] in [that place]
 # text = ⲁⲗⲗⲁ ϩⲩⲡⲟⲙⲓⲛⲏ ϣⲁⲛⲧⲉⲡⲡⲉⲓⲣⲁⲥⲙⲟⲥ ⲥⲓⲛⲉ · ϫⲉⲕⲁⲥ ⲉⲣⲉⲧⲉⲕϭⲓⲛⲡⲱⲱⲛⲉ ⲉⲃⲟⲗ ϣⲱⲡⲉ ...ⲥⲕⲁⲛⲇⲁⲗⲟⲛ . ⲁⲩⲱ ϩⲛⲟⲩⲟⲉⲓϣ ⲛⲉⲓⲣⲏⲛⲏ ϫⲉⲕⲁⲥ ⲛⲉ ⲡⲉⲕⲡⲱⲱⲛⲉ ⲉⲃⲟⲗ ϣⲱⲡⲉ ⲑⲗⲓⲯⲥⲓⲥ ⲛⲛⲉⲧ.... ϩⲙⲡ.......
-1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	6	cc	_	OrigLang=grc
-2	ϩⲩⲡⲟⲙⲓⲛⲏ	ϩⲩⲡⲟⲙⲓⲛⲏ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	OrigLang=grc
+1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	2	cc	_	OrigLang=grc
+2	ϩⲩⲡⲟⲙⲓⲛⲏ	ϩⲩⲡⲟⲙⲓⲛⲏ	VERB	V	Foreign=Yes|Mood=Imp|VerbForm=Fin	0	root	_	OrigLang=grc
 3-5	ϣⲁⲛⲧⲉⲡⲡⲉⲓⲣⲁⲥⲙⲟⲥ	_	_	_	_	_	_	_	_
 3	ϣⲁⲛⲧⲉ	ϣⲁⲛⲧⲉ	AUX	ALIM	_	6	aux	_	_
 4	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Entity=(abstract
 5	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	ⲡⲉⲓⲣⲁⲥⲙⲟⲥ	NOUN	N	Foreign=Yes	6	nsubj	_	Entity=abstract)|Orig=ⲡⲓⲣⲁⲥⲙⲟⲥ|OrigLang=grc
-6	ⲥⲓⲛⲉ	ⲥⲓⲛⲉ	VERB	V	VerbForm=Fin	2	advcl	_	_
+6	ⲥⲓⲛⲉ	ⲥⲓⲛⲉ	VERB	V	Mood=Ind|VerbForm=Fin	2	advcl	_	_
 7	·	·	PUNCT	PUNCT	_	13	punct	_	_
 8	ϫⲉⲕⲁⲥ	ϫⲉⲕⲁⲁⲥ	SCONJ	CONJ	_	13	mark	_	_
 9-11	ⲉⲣⲉⲧⲉⲕϭⲓⲛⲡⲱⲱⲛⲉ	_	_	_	_	_	_	_	_
@@ -101,7 +101,7 @@
 10	ⲧⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	Entity=(object
 11	ϭⲓⲛⲡⲱⲱⲛⲉ	ϭⲓⲛⲡⲱⲱⲛⲉ	NOUN	N	_	13	nsubj	_	Entity=object)|Morphs=ϭⲓⲛ-ⲡⲱⲱⲛⲉ
 12	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	13	advmod	_	_
-13	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	6	advcl	_	_
+13	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	Mood=Ind|VerbForm=Fin	2	advcl	_	_
 14-15	...ⲥⲕⲁⲛⲇⲁⲗⲟⲛ	_	_	_	_	_	_	_	_
 14	...	...	X	UNKNOWN	_	15	case	_	Orig=[...]
 15	ⲥⲕⲁⲛⲇⲁⲗⲟⲛ	ⲥⲕⲁⲛⲇⲁⲗⲟⲛ	NOUN	N	Foreign=Yes	13	obl	_	Entity=(abstract)|Orig=[ⲥ]ⲕⲁⲛⲇⲁⲗⲟ̣ⲛ|OrigLang=grc
@@ -109,21 +109,21 @@
 17	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	19	cc	_	Orig=ⲁⲩⲱ̣
 18-19	ϩⲛⲟⲩⲟⲉⲓϣ	_	_	_	_	_	_	_	_
 18	ϩⲛ	ϩⲛ	ADP	PREP	_	19	case	_	Orig=ϩⲛ̄
-19	ⲟⲩⲟⲉⲓϣ	ⲟⲩⲟⲉⲓϣ	NOUN	N	_	13	conj	_	Entity=(time
+19	ⲟⲩⲟⲉⲓϣ	ⲟⲩⲟⲉⲓϣ	NOUN	N	_	13	obl	_	Entity=(time
 20-21	ⲛⲉⲓⲣⲏⲛⲏ	_	_	_	_	_	_	_	_
 20	ⲛ	ⲛ	ADP	PREP	_	21	case	_	_
 21	ⲉⲓⲣⲏⲛⲏ	ⲉⲓⲣⲏⲛⲏ	NOUN	N	Foreign=Yes	19	nmod	_	Entity=(abstract)time)|Orig=ⲓⲣⲏ[ⲛⲏ]|OrigLang=grc
 22	ϫⲉⲕⲁⲥ	ϫⲉⲕⲁⲁⲥ	SCONJ	CONJ	_	27	mark	_	_
-23	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	25	aux	_	Orig=ⲛ̄ⲉ
+23	ⲛⲉ	ⲛⲉⲣⲉ	AUX	CPRET	_	27	aux	_	Orig=ⲛ̄ⲉ
 24-25	ⲡⲉⲕⲡⲱⲱⲛⲉ	_	_	_	_	_	_	_	_
 24	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	25	nmod:poss	_	Entity=(abstract
 25	ⲡⲱⲱⲛⲉ	ⲡⲱⲱⲛⲉ	NOUN	N	_	27	nsubj	_	Orig=[ⲡⲱⲱ]ⲛⲉ
 26	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	25	advmod	_	Entity=abstract)|Orig=ⲉⲃⲟ̣ⲗ
-27	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	VerbForm=Fin	2	advcl	_	Orig=ϣⲱⲡ̣ⲉ̣
-28	ⲑⲗⲓⲯⲥⲓⲥ	ⲑⲗⲓⲯⲥⲓⲥ	NOUN	N	Foreign=Yes	27	obl:unmarked	_	Entity=(abstract|Orig=[ⲑ]ⲗⲓⲯⲓⲥ|OrigLang=grc
+27	ϣⲱⲡⲉ	ϣⲱⲡⲉ	VERB	V	Mood=Ind|VerbForm=Fin	2	advcl	_	Orig=ϣⲱⲡ̣ⲉ̣
+28	ⲑⲗⲓⲯⲥⲓⲥ	ⲑⲗⲓⲯⲥⲓⲥ	NOUN	N	Foreign=Yes	27	obj	_	Entity=(abstract|Orig=[ⲑ]ⲗⲓⲯⲓⲥ|OrigLang=grc
 29-32	ⲛⲛⲉⲧ....	_	_	_	_	_	_	_	_
 29	ⲛ	ⲛ	ADP	PREP	_	30	case	_	Orig=ⲛ̄
-30	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	27	obl	_	Entity=(abstract
+30	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	28	nmod	_	Entity=(abstract
 31	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	32	mark	_	_
 32	....	....	X	UNKNOWN	_	30	acl:relcl	_	Entity=abstract)abstract)|Orig=[....]
 33-35	ϩⲙⲡ.......	_	_	_	_	_	_	_	_
