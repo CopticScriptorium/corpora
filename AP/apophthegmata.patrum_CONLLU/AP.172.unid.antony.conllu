@@ -5,7 +5,7 @@
 1-3	ⲁⲩϭⲱⲗⲡ	_	_	_	_	_	_	_	_
 1	ⲁ	ⲁ	AUX	APST	_	3	aux	_	Orig=Ⲁ
 2	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
-3	ϭⲱⲗⲡ	ϭⲱⲗⲡ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϭⲱⲗⲡ̇
+3	ϭⲱⲗⲡ	ϭⲱⲗⲡ	VERB	V	Mood=Ind|VerbForm=Fin	0	root	_	Orig=ϭⲱⲗⲡ̇
 4	ⲉⲃⲟⲗ	ⲉⲃⲟⲗ	ADV	ADV	_	3	advmod	_	Orig=ⲉ̇ⲃⲟⲗ
 5-6	ⲛⲁⲡⲁ	_	_	_	_	_	_	_	_
 5	ⲛ	ⲛ	ADP	PREP	_	6	case	_	_
@@ -23,7 +23,7 @@
 1-3	ϫⲉⲟⲩⲛⲟⲩⲁ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	2	mark	_	_
 2	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	0	root	_	Cxn=Existential-ExistPred-Positive
-3	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	2	nsubj	_	CxnElt=Pivot|Entity=(person|Orig=ⲟⲩⲁ̇
+3	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	2	nsubj	_	CxnElt=2:Existential-ExistPred-Positive.Pivot|Entity=(person|Orig=ⲟⲩⲁ̇
 4-6	ⲉϥⲉⲓⲛⲉ	_	_	_	_	_	_	_	_
 4	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	6	mark	_	Orig=ⲉ̇
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -44,7 +44,7 @@
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	3	mark	_	Orig=ⲉ̇
 2	ⲟⲩ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	3	det	_	Entity=(person|Orig=ⲩ
 3	ⲥⲁⲉⲓⲛ	ⲥⲁⲉⲓⲛ	NOUN	N	_	0	root	_	Entity=person)|Orig=ⲥⲁⲉⲓ̈ⲛ
-4	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing	3	cop	_	_
+4	ⲡⲉ	ⲡⲉ	PRON	COP	Gender=Masc|Number=Sing|PronType=Dem	3	cop	_	_
 5-7	ϩⲛⲧⲉϥⲧⲉⲭⲛⲉ	_	_	_	_	_	_	_	_
 5	ϩⲛ	ϩⲛ	ADP	PREP	_	7	case	_	Orig=ϩⲛ̇
 6	ⲧⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	Entity=(abstract
@@ -57,7 +57,7 @@
 1-3	ⲉϥϯ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	3	mark	_	Orig=ⲉ̇
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-3	ϯ	ϯ	VERB	V	VerbForm=Fin	0	root	_	Orig=ϯ̇
+3	ϯ	ϯ	VERB	V	Mood=Ind|VerbForm=Fin	0	root	_	Orig=ϯ̇
 4-6	ⲙⲡⲉϥϩⲟⲩⲟ	_	_	_	_	_	_	_	_
 4	ⲙ	ⲛ	ADP	PREP	_	6	case	_	Orig=ⲙ̇
 5	ⲡⲉϥ	ⲡⲉϥ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
@@ -66,18 +66,17 @@
 7	ⲛ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲛ̇
 8	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	6	nmod	_	Entity=(person
 9	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	10	mark	_	_
-10	ϣⲁⲁⲧ	ϣⲓⲧⲉ	VERB	VSTAT	VerbForm=Fin	8	acl:relcl	_	Entity=person)|Orig=ϣⲁⲁ̇ⲧ
+10	ϣⲁⲁⲧ	ϣⲓⲧⲉ	VERB	VSTAT	Mood=Ind|VerbForm=Fin	8	acl:relcl	_	Entity=person)|Orig=ϣⲁⲁ̇ⲧ
 11	.	.	PUNCT	PUNCT	_	3	punct	_	Orig=·
 
 # sent_id = apophthegmata_patrum-AP_172_unid_antony_s0005
 # text_en = and always spends the whole day saying the Trishagion with the angels
-# text = ⲁⲩⲱ ϣⲁϥⲣ ⲡⲉϩⲟⲟⲩ ⲧⲏⲣϥ ⲉϥϫⲱ ⲙⲡϣⲟⲙⲛⲧ ⲛϩⲁⲅⲓⲟⲥ ⲙⲛⲛⲁⲅⲅⲉⲗⲟⲥ .ⲻ
+# text = ⲁⲩⲱ ϣⲁϥⲣⲡⲉϩⲟⲟⲩ ⲧⲏⲣϥ ⲉϥϫⲱ ⲙⲡϣⲟⲙⲛⲧ ⲛϩⲁⲅⲓⲟⲥ ⲙⲛⲛⲁⲅⲅⲉⲗⲟⲥ .ⲻ
 1	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	4	cc	_	Orig=ⲁⲩⲱ̇
-2-4	ϣⲁϥⲣ	_	_	_	_	_	_	_	_
+2-6	ϣⲁϥⲣⲡⲉϩⲟⲟⲩ	_	_	_	_	_	_	_	_
 2	ϣⲁ	ϣⲁⲣⲉ	AUX	AAOR	_	4	aux	_	_
 3	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-4	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲣ̄
-5-6	ⲡⲉϩⲟⲟⲩ	_	_	_	_	_	_	_	_
+4	ⲣ	ⲉⲓⲣⲉ	VERB	V	Mood=Ind|VerbForm=Fin	0	root	_	Orig=ⲣ̄
 5	ⲡⲉ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(time
 6	ϩⲟⲟⲩ	ϩⲟⲟⲩ	NOUN	N	_	4	obj	_	_
 7-8	ⲧⲏⲣϥ	_	_	_	_	_	_	_	_
@@ -86,7 +85,7 @@
 9-11	ⲉϥϫⲱ	_	_	_	_	_	_	_	_
 9	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	11	mark	_	Orig=ⲉ̇
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-11	ϫⲱ	ϫⲱ	VERB	V	VerbForm=Fin	4	advcl	_	_
+11	ϫⲱ	ϫⲱ	VERB	V	Mood=Ind|VerbForm=Fin	4	advcl	_	_
 12-14	ⲙⲡϣⲟⲙⲛⲧ	_	_	_	_	_	_	_	_
 12	ⲙ	ⲛ	ADP	PREP	_	16	case	_	Orig=ⲙ̇
 13	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	Entity=(abstract|Orig=ⲡ̇

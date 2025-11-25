@@ -5,7 +5,7 @@
 1-3	ϯⲛⲁⲙⲓϣⲉ	_	_	_	_	_	_	_	_
 1	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Orig=ϯ̇
 2	ⲛⲁ	ⲛⲁ	AUX	FUT	_	3	aux	_	_
-3	ⲙⲓϣⲉ	ⲙⲓϣⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲙⲓ̇ϣⲉ
+3	ⲙⲓϣⲉ	ⲙⲓϣⲉ	VERB	V	Mood=Ind|VerbForm=Fin	0	root	_	Orig=ⲙⲓ̇ϣⲉ
 4-6	ⲙⲛⲡⲁⲙⲉⲉⲩⲉ	_	_	_	_	_	_	_	_
 4	ⲙⲛ	ⲙⲛ	ADP	PREP	_	6	case	_	Orig=ⲙⲛ̇
 5	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	Entity=(abstract
@@ -13,7 +13,7 @@
 7-9	ⲉⲧⲙϫⲱϩ	_	_	_	_	_	_	_	_
 7	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	9	mark	_	Orig=ⲉ̇
 8	ⲧⲙ	ⲧⲙ	ADV	NEG	Polarity=Neg	9	advmod	_	Orig=ⲧⲙ̇
-9	ϫⲱϩ	ϫⲱϩ	VERB	V	VerbForm=Fin	3	xcomp	_	_
+9	ϫⲱϩ	ϫⲱϩ	VERB	V	Mood=Ind|VerbForm=Fin	3	xcomp	_	_
 10-11	ⲉⲣⲟⲥ	_	_	_	_	_	_	_	_
 10	ⲉⲣⲟ	ⲉ	ADP	PREP	_	11	case	_	_
 11	ⲥ	ⲛⲧⲟⲥ	PRON	PPERO	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	Entity=abstract)
@@ -23,9 +23,9 @@
 # text_en = Abba Abraham said to him, 'Behold, you have not killed the passion,
 # text = ⲡⲉϫⲉⲁⲡⲁ ⲁⲃⲣⲁϩⲁⲙ ⲛⲁϥ · ϫⲉⲟⲩⲕ ⲟⲩⲛ ⲉⲓⲥϩⲏⲏⲧⲉⲙⲡⲉⲕϩⲱⲧⲃ ⲙⲡⲡⲁⲑⲟⲥ .
 1-2	ⲡⲉϫⲉⲁⲡⲁ	_	_	_	_	_	_	_	_
-1	ⲡⲉϫⲉ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
-2	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	1	nsubj	_	Entity=(person|Orig=ⲁ̇ⲡⲁ|OrigLang=he
-3	ⲁⲃⲣⲁϩⲁⲙ	ⲁⲃⲣⲁϩⲁⲙ	PROPN	NPROP	Foreign=Yes	2	flat	_	Entity=person)|Orig=ⲁ̇ⲃⲣⲁϩⲁⲙ|OrigLang=he
+1	ⲡⲉϫⲉ	ⲡⲉϫⲉ	VERB	VBD	Mood=Ind|VerbForm=Fin	0	root	_	_
+2	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	1	nsubj	_	Entity=(person|Orig=ⲁ̇ⲡⲁ|OrigLang=heb
+3	ⲁⲃⲣⲁϩⲁⲙ	ⲁⲃⲣⲁϩⲁⲙ	PROPN	NPROP	Foreign=Yes	2	flat	_	Entity=person)|Orig=ⲁ̇ⲃⲣⲁϩⲁⲙ|OrigLang=heb
 4-5	ⲛⲁϥ	_	_	_	_	_	_	_	_
 4	ⲛⲁ	ⲛⲁ	ADP	PREP	_	5	case	_	_
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
@@ -35,11 +35,11 @@
 8	ⲟⲩⲕ	ⲟⲩⲕ	ADV	NEG	Foreign=Yes|Polarity=Neg	14	advmod	_	OrigLang=grc
 9	ⲟⲩⲛ	ⲟⲩⲛ	PART	PTC	_	14	advmod	_	_
 10-14	ⲉⲓⲥϩⲏⲏⲧⲉⲙⲡⲉⲕϩⲱⲧⲃ	_	_	_	_	_	_	_	_
-10	ⲉⲓⲥ	ⲉⲓⲥ	PART	PTC	_	14	advmod	_	Orig=ⲉⲓ̇ⲥ
+10	ⲉⲓⲥ	ⲉⲓⲥ	PART	PTC	ExtPos=ADV	14	advmod	_	Orig=ⲉⲓ̇ⲥ
 11	ϩⲏⲏⲧⲉ	ϩⲏⲏⲧⲉ	NOUN	N	_	10	fixed	_	Orig=ϩⲏⲏ̇ⲧⲉ
 12	ⲙⲡⲉ	ⲙⲡⲉ	AUX	ANEGPST	Polarity=Neg	14	aux	_	Orig=ⲙ̇ⲡⲉ
 13	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
-14	ϩⲱⲧⲃ	ϩⲱⲧⲃ	VERB	V	VerbForm=Fin	1	ccomp	_	Orig=ϩⲱⲧⲃ̇
+14	ϩⲱⲧⲃ	ϩⲱⲧⲃ	VERB	V	Mood=Ind|VerbForm=Fin	1	ccomp	_	Orig=ϩⲱⲧⲃ̇
 15-17	ⲙⲡⲡⲁⲑⲟⲥ	_	_	_	_	_	_	_	_
 15	ⲙ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲙ̇
 16	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Entity=(abstract|Orig=ⲡ̇
@@ -49,15 +49,15 @@
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0003
 # text_en = it is still alive but it is bound.
 # text = ⲁⲗⲗⲁ ⲉⲧⲓϥⲟⲛϩ · ϥⲙⲏⲣ ⲇⲉ ⲻ
-1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	7	cc	_	Orig=ⲁ̇ⲗⲗⲁ|OrigLang=grc
+1	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	4	cc	_	Orig=ⲁ̇ⲗⲗⲁ|OrigLang=grc
 2-4	ⲉⲧⲓϥⲟⲛϩ	_	_	_	_	_	_	_	_
-2	ⲉⲧⲓ	ⲉⲧⲓ	ADV	ADV	Foreign=Yes	4	mark	_	Orig=ⲉ̇ⲧⲓ̇|OrigLang=grc
+2	ⲉⲧⲓ	ⲉⲧⲓ	AUX	ADV	Foreign=Yes	4	aux	_	Orig=ⲉ̇ⲧⲓ̇|OrigLang=grc
 3	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-4	ⲟⲛϩ	ⲱⲛϩ	VERB	VSTAT	VerbForm=Fin	7	advcl	_	Orig=ⲟⲛⲁϩ
+4	ⲟⲛϩ	ⲱⲛϩ	VERB	VSTAT	Mood=Ind|VerbForm=Fin	7	advcl	_	Orig=ⲟⲛⲁϩ
 5	·	·	PUNCT	PUNCT	_	4	punct	_	_
 6-7	ϥⲙⲏⲣ	_	_	_	_	_	_	_	_
 6	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Orig=ϥ̇
-7	ⲙⲏⲣ	ⲙⲟⲩⲣ	VERB	VSTAT	VerbForm=Fin	0	root	_	_
+7	ⲙⲏⲣ	ⲙⲟⲩⲣ	VERB	VSTAT	Mood=Ind|VerbForm=Fin	0	root	_	_
 8	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	7	advmod	_	OrigLang=grc
 9	ⲻ	ⲻ	PUNCT	PUNCT	_	7	punct	_	_
 
@@ -69,7 +69,7 @@
 3-5	ⲉⲕⲙⲟⲟϣⲉ	_	_	_	_	_	_	_	_
 3	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	5	mark	_	Orig=ⲉ̇
 4	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
-5	ⲙⲟⲟϣⲉ	ⲙⲟⲟϣⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲙⲟⲟ̇ϣⲉ
+5	ⲙⲟⲟϣⲉ	ⲙⲟⲟϣⲉ	VERB	V	Mood=Ind|VerbForm=Fin	0	root	_	Orig=ⲙⲟⲟ̇ϣⲉ
 6	·	·	PUNCT	PUNCT	_	9	punct	_	_
 7-9	ϩⲛⲧⲉϩⲓⲏ	_	_	_	_	_	_	_	_
 7	ϩⲛ	ϩⲛ	ADP	PREP	_	9	case	_	Orig=ϩⲛ̇
@@ -80,7 +80,7 @@
 12-14	ⲉⲕⲛⲁⲩ	_	_	_	_	_	_	_	_
 12	ⲉ	ⲉⲣⲉ	PART	CFOC	_	14	mark	_	Orig=ⲉ̇
 13	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
-14	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	VerbForm=Fin	5	conj	_	_
+14	ⲛⲁⲩ	ⲛⲁⲩ	VERB	V	Mood=Ind|VerbForm=Fin	5	conj	_	_
 15-17	ⲉϩⲉⲛⲱⲛⲉ	_	_	_	_	_	_	_	_
 15	ⲉ	ⲉ	ADP	PREP	_	17	case	_	Orig=ⲉ̇
 16	ϩⲉⲛ	ⲟⲩ	DET	ART	Definite=Ind|Number=Sing|PronType=Art	17	det	_	Entity=(object|Orig=ϩⲛ̇
@@ -106,14 +106,14 @@
 # text = ⲟⲩⲛϭⲟⲙ ⲙⲡⲉⲕϩⲏⲧ ⲉⲉⲡⲡⲁⲓ ⲛⲧϩⲉ ⲛⲛⲁⲓ .
 1-2	ⲟⲩⲛϭⲟⲙ	_	_	_	_	_	_	_	_
 1	ⲟⲩⲛ	ⲟⲩⲛ	VERB	EXIST	_	0	root	_	Cxn=Existential-ExistPred-Positive|Orig=ⲟⲩⲛ̇
-2	ϭⲟⲙ	ϭⲟⲙ	NOUN	N	_	1	nsubj	_	CxnElt=Pivot
+2	ϭⲟⲙ	ϭⲟⲙ	NOUN	N	_	1	nsubj	_	CxnElt=1:Existential-ExistPred-Positive.Pivot
 3-5	ⲙⲡⲉⲕϩⲏⲧ	_	_	_	_	_	_	_	_
 3	ⲙ	ⲛ	ADP	PREP	_	5	case	_	Orig=ⲙ̇
 4	ⲡⲉⲕ	ⲡⲉⲕ	DET	PPOS	Definite=Def|Gender=Masc|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	Entity=(abstract
-5	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	2	nmod	_	Entity=abstract)
+5	ϩⲏⲧ	ϩⲏⲧ	NOUN	N	_	1	obl	_	Entity=abstract)
 6-8	ⲉⲉⲡⲡⲁⲓ	_	_	_	_	_	_	_	_
 6	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	7	mark	_	Orig=ⲉ̇
-7	ⲉⲡ	ⲱⲡ	VERB	V	VerbForm=Fin	1	xcomp	_	Orig=ⲉ̇ⲡ
+7	ⲉⲡ	ⲱⲡ	VERB	V	Mood=Ind|VerbForm=Fin	1	xcomp	_	Orig=ⲉ̇ⲡ
 8	ⲡⲁⲓ	ⲡⲁⲓ	DET	PDEM	Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	7	obj	_	Entity=(object)|Orig=ⲡⲁⲓ̇
 9-11	ⲛⲧϩⲉ	_	_	_	_	_	_	_	_
 9	ⲛ	ⲛ	ADP	PREP	_	11	case	_	Orig=ⲛ̇
@@ -128,7 +128,7 @@
 # text_en = He said, 'No.
 # text = ⲡⲉϫⲁϥ ϫⲉⲙⲙⲟⲛ .
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
-1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
+1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	Mood=Ind|VerbForm=Fin	0	root	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
 3-4	ϫⲉⲙⲙⲟⲛ	_	_	_	_	_	_	_	_
 3	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	4	mark	_	_
@@ -142,7 +142,7 @@
 2-4	ϯⲛⲁⲙⲓϣⲉ	_	_	_	_	_	_	_	_
 2	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Orig=ϯ̇
 3	ⲛⲁ	ⲛⲁ	AUX	FUT	_	4	aux	_	_
-4	ⲙⲓϣⲉ	ⲙⲓϣⲉ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲙⲓ̇ϣⲉ
+4	ⲙⲓϣⲉ	ⲙⲓϣⲉ	VERB	V	Mood=Ind|VerbForm=Fin	0	root	_	Orig=ⲙⲓ̇ϣⲉ
 5-7	ⲙⲛⲡⲁⲙⲉⲉⲩⲉ	_	_	_	_	_	_	_	_
 5	ⲙⲛ	ⲙⲛ	ADP	PREP	_	7	case	_	Orig=ⲙⲛ̇
 6	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	Entity=(abstract
@@ -150,7 +150,7 @@
 8-11	ⲉⲧⲙϥⲓⲧϥ	_	_	_	_	_	_	_	_
 8	ⲉ	ⲉⲣⲉ	SCONJ	CCIRC	_	10	mark	_	Orig=ⲉ̇
 9	ⲧⲙ	ⲧⲙ	ADV	NEG	Polarity=Neg	10	advmod	_	Orig=ⲧⲙ̇
-10	ϥⲓⲧ	ϥⲓ	VERB	V	VerbForm=Fin	4	xcomp	_	Orig=ϥⲓ̇ⲧ
+10	ϥⲓⲧ	ϥⲓ	VERB	V	Mood=Ind|VerbForm=Fin	4	xcomp	_	Orig=ϥⲓ̇ⲧ
 11	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	Entity=abstract)|Orig=ϥ̇
 12	ⲻ	ⲻ	PUNCT	PUNCT	_	4	punct	_	_
 
@@ -158,7 +158,7 @@
 # text_en = The old man said to him,
 # text = ⲡⲉϫⲉⲡϩⲗⲗⲟ ⲛⲁϥ
 1-3	ⲡⲉϫⲉⲡϩⲗⲗⲟ	_	_	_	_	_	_	_	_
-1	ⲡⲉϫⲉ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
+1	ⲡⲉϫⲉ	ⲡⲉϫⲉ	VERB	VBD	Mood=Ind|VerbForm=Fin	0	root	_	_
 2	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(person|Orig=ⲡ̇
 3	ϩⲗⲗⲟ	ϩⲗⲗⲟ	NOUN	N	_	1	nsubj	_	Entity=person)|Orig=ϩ̇ⲗⲗⲟ
 4-5	ⲛⲁϥ	_	_	_	_	_	_	_	_
@@ -170,31 +170,31 @@
 # text = ϫⲉⲉⲓⲥϩⲏⲏⲧⲉ ⲟⲛ ⲡⲡⲁⲑⲟⲥ ⲟⲛϩ . ⲁⲗⲗⲁ ϥⲙⲏⲣ .
 1-3	ϫⲉⲉⲓⲥϩⲏⲏⲧⲉ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	7	mark	_	_
-2	ⲉⲓⲥ	ⲉⲓⲥ	PART	PTC	_	7	advmod	_	Orig=ⲉⲓ̇ⲥ
+2	ⲉⲓⲥ	ⲉⲓⲥ	PART	PTC	ExtPos=ADV	7	advmod	_	Orig=ⲉⲓ̇ⲥ
 3	ϩⲏⲏⲧⲉ	ϩⲏⲏⲧⲉ	NOUN	N	_	2	fixed	_	Orig=ϩⲏⲏ̇ⲧⲉ
 4	ⲟⲛ	ⲟⲛ	ADV	ADV	_	7	advmod	_	Orig=ⲟ̇ⲛ
 5-6	ⲡⲡⲁⲑⲟⲥ	_	_	_	_	_	_	_	_
 5	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(abstract|Orig=ⲡ̇
 6	ⲡⲁⲑⲟⲥ	ⲡⲁⲑⲟⲥ	NOUN	N	Foreign=Yes	7	nsubj	_	Entity=abstract)|OrigLang=grc
-7	ⲟⲛϩ	ⲱⲛϩ	VERB	VSTAT	VerbForm=Fin	0	root	_	Orig=ⲟ̇ⲛⲁϩ
+7	ⲟⲛϩ	ⲱⲛϩ	VERB	VSTAT	Mood=Ind|VerbForm=Fin	0	root	_	Orig=ⲟ̇ⲛⲁϩ
 8	.	.	PUNCT	PUNCT	_	7	punct	_	_
 9	ⲁⲗⲗⲁ	ⲁⲗⲗⲁ	CCONJ	CONJ	Foreign=Yes	11	cc	_	Orig=ⲁ̇ⲗⲗⲁ|OrigLang=grc
 10-11	ϥⲙⲏⲣ	_	_	_	_	_	_	_	_
 10	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	Orig=ϥ̇
-11	ⲙⲏⲣ	ⲙⲟⲩⲣ	VERB	VSTAT	VerbForm=Fin	7	conj	_	_
+11	ⲙⲏⲣ	ⲙⲟⲩⲣ	VERB	VSTAT	Mood=Ind|VerbForm=Fin	7	conj	_	_
 12	.	.	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0010
 # text_en = Again, Abba Abraham said,
 # text = ⲡⲉϫⲁϥ ⲟⲛ ⲛϭⲓⲁⲡⲁ ⲁⲃⲣⲁϩⲁⲙ ·
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
-1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
+1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	Mood=Ind|VerbForm=Fin	0	root	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
 3	ⲟⲛ	ⲟⲛ	ADV	ADV	_	1	advmod	_	Orig=ⲟ̇ⲛ
 4-5	ⲛϭⲓⲁⲡⲁ	_	_	_	_	_	_	_	_
 4	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	5	case	_	Orig=ⲛ̇ϭⲓ̇
-5	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	1	dislocated	_	Entity=(person|Orig=ⲁ̇ⲡⲁ|OrigLang=he
-6	ⲁⲃⲣⲁϩⲁⲙ	ⲁⲃⲣⲁϩⲁⲙ	PROPN	NPROP	Foreign=Yes	5	flat	_	Entity=person)|Orig=ⲁ̇ⲃⲣⲁϩⲁⲙ|OrigLang=he
+5	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	1	dislocated	_	Entity=(person|Orig=ⲁ̇ⲡⲁ|OrigLang=heb
+6	ⲁⲃⲣⲁϩⲁⲙ	ⲁⲃⲣⲁϩⲁⲙ	PROPN	NPROP	Foreign=Yes	5	flat	_	Entity=person)|Orig=ⲁ̇ⲃⲣⲁϩⲁⲙ|OrigLang=heb
 7	·	·	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = apophthegmata_patrum-AP_052_abraham_01_s0011
@@ -202,12 +202,12 @@
 # text = ϫⲉⲉⲓⲥϩⲏⲏⲧⲉ ⲁⲕⲥⲱⲧⲙ ⲉⲧⲃⲉⲥⲟⲛ ⲥⲛⲁⲩ .
 1-3	ϫⲉⲉⲓⲥϩⲏⲏⲧⲉ	_	_	_	_	_	_	_	_
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	6	mark	_	_
-2	ⲉⲓⲥ	ⲉⲓⲥ	PART	PTC	_	6	advmod	_	Orig=ⲉⲓ̇ⲥ
+2	ⲉⲓⲥ	ⲉⲓⲥ	PART	PTC	ExtPos=ADV	6	advmod	_	Orig=ⲉⲓ̇ⲥ
 3	ϩⲏⲏⲧⲉ	ϩⲏⲏⲧⲉ	NOUN	N	_	2	fixed	_	Orig=ϩⲏⲏ̇ⲧⲉ
 4-6	ⲁⲕⲥⲱⲧⲙ	_	_	_	_	_	_	_	_
 4	ⲁ	ⲁ	AUX	APST	_	6	aux	_	Orig=ⲁ̇
 5	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
-6	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	VerbForm=Fin	0	root	_	Orig=ⲥⲱⲧⲙ̇
+6	ⲥⲱⲧⲙ	ⲥⲱⲧⲙ	VERB	V	Mood=Ind|VerbForm=Fin	0	root	_	Orig=ⲥⲱⲧⲙ̇
 7-8	ⲉⲧⲃⲉⲥⲟⲛ	_	_	_	_	_	_	_	_
 7	ⲉⲧⲃⲉ	ⲉⲧⲃⲉ	ADP	PREP	_	8	case	_	Orig=ⲉ̇ⲧⲃⲉ
 8	ⲥⲟⲛ	ⲥⲟⲛ	NOUN	N	_	6	obl	_	Entity=(person
@@ -221,7 +221,7 @@
 1	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	4	mark	_	_
 2	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Entity=(person
 3	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	4	nsubj	_	Entity=person)|Orig=ⲟⲩⲁ̇
-4	ⲙⲉ	ⲙⲉ	VERB	V	VerbForm=Fin	0	root	_	_
+4	ⲙⲉ	ⲙⲉ	VERB	V	Mood=Ind|VerbForm=Fin	0	root	_	_
 5-6	ⲙⲙⲟⲕ	_	_	_	_	_	_	_	_
 5	ⲙⲙⲟ	ⲛ	ADP	PREP	_	6	case	_	Orig=ⲙ̇ⲙⲟ
 6	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	obj	_	_
@@ -229,7 +229,7 @@
 8	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	10	cc	_	Orig=ⲁⲩⲱ̇
 9-10	ϥϯⲉⲟⲟⲩ	_	_	_	_	_	_	_	_
 9	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Orig=ϥ̇
-10	ϯⲉⲟⲟⲩ	ϯⲉⲟⲟⲩ	VERB	V	VerbForm=Fin	4	conj	_	Morphs=ϯ-ⲉⲟⲟⲩ|Orig=ϯ̇ⲉ̇ⲟⲟⲩ
+10	ϯⲉⲟⲟⲩ	ϯⲉⲟⲟⲩ	VERB	V	Mood=Ind|VerbForm=Fin	4	conj	_	Morphs=ϯ-ⲉⲟⲟⲩ|Orig=ϯ̇ⲉ̇ⲟⲟⲩ
 11-12	ⲛⲁⲕ	_	_	_	_	_	_	_	_
 11	ⲛⲁ	ⲛⲁ	ADP	PREP	_	12	case	_	_
 12	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	10	obl	_	_
@@ -243,14 +243,14 @@
 2	ⲕⲉ	ⲕⲉ	DET	ART	PronType=Art	3	det	_	_
 3	ⲟⲩⲁ	ⲟⲩⲁ	NUM	NUM	NumType=Card	5	nsubj	_	Entity=person)|Orig=ⲟⲩⲁ̇
 4	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	5	advmod	_	OrigLang=grc
-5	ⲙⲟⲥⲧⲉ	ⲙⲟⲥⲧⲉ	VERB	V	VerbForm=Fin	0	root	_	_
+5	ⲙⲟⲥⲧⲉ	ⲙⲟⲥⲧⲉ	VERB	V	Mood=Ind|VerbForm=Fin	0	root	_	_
 6-7	ⲙⲙⲟⲕ	_	_	_	_	_	_	_	_
 6	ⲙⲙⲟ	ⲛ	ADP	PREP	_	7	case	_	Orig=ⲙ̇ⲙⲟ
 7	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
 8	ⲁⲩⲱ	ⲁⲩⲱ	CCONJ	CONJ	_	10	cc	_	Orig=ⲁⲩⲱ̇
 9-10	ϥⲕⲁⲧⲁⲗⲁⲗⲉⲓ	_	_	_	_	_	_	_	_
 9	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Orig=ϥ̇
-10	ⲕⲁⲧⲁⲗⲁⲗⲉⲓ	ⲕⲁⲧⲁⲗⲁⲗⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	5	conj	_	Orig=ⲕⲁⲧⲁⲗⲁⲗⲓ̈|OrigLang=grc
+10	ⲕⲁⲧⲁⲗⲁⲗⲉⲓ	ⲕⲁⲧⲁⲗⲁⲗⲉⲓ	VERB	V	Foreign=Yes|Mood=Ind|VerbForm=Fin	5	conj	_	Orig=ⲕⲁⲧⲁⲗⲁⲗⲓ̈|OrigLang=grc
 11-12	ⲙⲙⲟⲕ	_	_	_	_	_	_	_	_
 11	ⲙⲙⲟ	ⲛ	ADP	PREP	_	12	case	_	Orig=ⲙ̇ⲙⲟ
 12	ⲕ	ⲛⲧⲟⲕ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	10	obj	_	_
@@ -261,7 +261,7 @@
 # text = ⲉⲩϣⲁⲛⲉⲓ ⲇⲉ ϣⲁⲣⲟⲕ ⲕⲛⲁϣⲟⲡⲟⲩ ⲉⲣⲟⲕ ϩⲙⲡⲉⲓⲙⲉⲉⲩⲉ ⲛⲟⲩⲱⲧ ⲙⲡⲉⲥⲛⲁⲩ .
 1-2	ⲉⲩϣⲁⲛⲉⲓ	_	_	_	_	_	_	_	_
 1	ⲉⲩϣⲁⲛ	ⲉⲣϣⲁⲛ_ⲛⲧⲟⲟⲩ	PRON	ACOND_PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Orig=ⲉ̇ⲩϣⲁⲛ
-2	ⲉⲓ	ⲉⲓ	VERB	V	VerbForm=Fin	8	advcl	_	CxnElt=Protasis|Orig=ⲉⲓ̇
+2	ⲉⲓ	ⲉⲓ	VERB	V	Mood=Cnd|VerbForm=Fin	8	advcl	_	CxnElt=2:Conditional-UnspecifiedEpistemic.Protasis|Orig=ⲉⲓ̇
 3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	8	advmod	_	OrigLang=grc
 4-5	ϣⲁⲣⲟⲕ	_	_	_	_	_	_	_	_
 4	ϣⲁⲣⲟ	ϣⲁ	ADP	PREP	_	5	case	_	Orig=ϣ̣ⲁⲣⲟ
@@ -269,7 +269,7 @@
 6-9	ⲕⲛⲁϣⲟⲡⲟⲩ	_	_	_	_	_	_	_	_
 6	ⲕ	ⲛⲧⲟⲕ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	Orig=ⲕ̇
 7	ⲛⲁ	ⲛⲁ	AUX	FUT	_	8	aux	_	_
-8	ϣⲟⲡ	ϣⲱⲡ	VERB	V	VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=Apodosis
+8	ϣⲟⲡ	ϣⲱⲡ	VERB	V	Mood=Ind|VerbForm=Fin	0	root	_	Cxn=Conditional-UnspecifiedEpistemic|CxnElt=2:Conditional-UnspecifiedEpistemic.Apodosis
 9	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
 10-11	ⲉⲣⲟⲕ	_	_	_	_	_	_	_	_
 10	ⲉⲣⲟ	ⲉ	ADP	PREP	_	11	case	_	Orig=ⲉ̇ⲣⲟ
@@ -291,7 +291,7 @@
 # text_en = He said, 'No.
 # text = ⲡⲉϫⲁϥ ϫⲉⲙⲙⲟⲛ ·
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
-1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
+1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	Mood=Ind|VerbForm=Fin	0	root	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
 3-4	ϫⲉⲙⲙⲟⲛ	_	_	_	_	_	_	_	_
 3	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	4	mark	_	_
@@ -305,7 +305,7 @@
 2-4	ϯⲛⲁⲡⲟⲗⲩⲙⲉⲓ	_	_	_	_	_	_	_	_
 2	ϯ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Orig=ϯ̇
 3	ⲛⲁ	ⲛⲁ	AUX	FUT	_	4	aux	_	_
-4	ⲡⲟⲗⲩⲙⲉⲓ	ⲡⲟⲗⲩⲙⲉⲓ	VERB	V	Foreign=Yes|VerbForm=Fin	0	root	_	Orig=ⲡⲟⲗⲩⲙⲓ̇|OrigLang=grc
+4	ⲡⲟⲗⲩⲙⲉⲓ	ⲡⲟⲗⲩⲙⲉⲓ	VERB	V	Foreign=Yes|Mood=Ind|VerbForm=Fin	0	root	_	Orig=ⲡⲟⲗⲩⲙⲓ̇|OrigLang=grc
 5-7	ⲙⲛⲡⲁϩⲏⲧ	_	_	_	_	_	_	_	_
 5	ⲙⲛ	ⲙⲛ	ADP	PREP	_	7	case	_	Orig=ⲙⲛ̇
 6	ⲡⲁ	ⲡⲁ	DET	PPOS	Definite=Def|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	Entity=(abstract
@@ -316,16 +316,16 @@
 # text = ⲉⲧⲣⲁⲣⲡⲡⲉⲧⲛⲁⲛⲟⲩϥ ⲙⲛⲡⲉⲧⲙⲟⲥⲧⲉ ⲙⲙⲟⲓ ⲛⲧϩⲉ ⲙⲡⲉⲧⲙⲉ ⲙⲙⲟⲓ ⲻ
 1-6	ⲉⲧⲣⲁⲣⲡⲡⲉⲧⲛⲁⲛⲟⲩϥ	_	_	_	_	_	_	_	_
 1	ⲉ	ⲉ	PART	PREP	_	2	mark	_	Orig=ⲉ̇
-2	ⲧⲣ	ⲧⲣⲉ	VERB	ACAUS	_	0	root	_	_
+2	ⲧⲣ	ⲧⲣⲉ	VERB	ACAUS	Mood=Ind	0	root	_	_
 3	ⲁ	ⲁⲛⲟⲕ	PRON	PPERS	Definite=Def|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
-4	ⲣ	ⲉⲓⲣⲉ	VERB	V	VerbForm=Fin	2	xcomp	_	Orig=ⲣ̇
+4	ⲣ	ⲉⲓⲣⲉ	VERB	V	Mood=Ind|VerbForm=Fin	2	xcomp	_	Orig=ⲣ̇
 5	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Entity=(abstract
 6	ⲡⲉⲧⲛⲁⲛⲟⲩϥ	ⲡⲉⲧⲛⲁⲛⲟⲩϥ	NOUN	N	_	4	obj	_	Entity=abstract)|Morphs=ⲡ-ⲉⲧ-ⲛⲁⲛⲟⲩ-ϥ|Orig=ⲡ̇ⲉⲧⲛⲁⲛⲟⲩϥ
 7-10	ⲙⲛⲡⲉⲧⲙⲟⲥⲧⲉ	_	_	_	_	_	_	_	_
 7	ⲙⲛ	ⲙⲛ	ADP	PREP	_	8	case	_	Orig=ⲙⲛ̇
-8	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	obl	_	Entity=(person
+8	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	nmod	_	Entity=(person
 9	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	10	mark	_	_
-10	ⲙⲟⲥⲧⲉ	ⲙⲟⲥⲧⲉ	VERB	V	VerbForm=Fin	8	acl:relcl	_	_
+10	ⲙⲟⲥⲧⲉ	ⲙⲟⲥⲧⲉ	VERB	V	Mood=Ind|VerbForm=Fin	8	acl:relcl	_	_
 11-12	ⲙⲙⲟⲓ	_	_	_	_	_	_	_	_
 11	ⲙⲙⲟ	ⲛ	ADP	PREP	_	12	case	_	Orig=ⲙ̇ⲙⲟ
 12	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	10	obj	_	Entity=person)|Orig=ⲓ̇
@@ -337,7 +337,7 @@
 16	ⲙ	ⲛ	ADP	PREP	_	17	case	_	Orig=ⲙ̇
 17	ⲡ	ⲡ	DET	ART	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	nmod	_	Entity=(person
 18	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	19	mark	_	_
-19	ⲙⲉ	ⲙⲉ	VERB	V	VerbForm=Fin	17	acl:relcl	_	_
+19	ⲙⲉ	ⲙⲉ	VERB	V	Mood=Ind|VerbForm=Fin	17	acl:relcl	_	_
 20-21	ⲙⲙⲟⲓ	_	_	_	_	_	_	_	_
 20	ⲙⲙⲟ	ⲛ	ADP	PREP	_	21	case	_	Orig=ⲙ̇ⲙⲟ
 21	ⲓ	ⲁⲛⲟⲕ	PRON	PPERO	Definite=Def|Number=Sing|Person=1|PronType=Prs	19	obj	_	Entity=person)|Orig=ⲓ̇
@@ -347,7 +347,7 @@
 # text_en = Abba Abraham said to him, 'Thus, therefore, the passions are alive,
 # text = ⲡⲉϫⲁϥ ⲇⲉ ⲛⲁϥ ⲛϭⲓⲁⲡⲁ ⲁⲃⲣⲁϩⲁⲙ · ϫⲉϩⲱⲥⲧⲉ ϭⲉ ⲥⲉⲟⲛⲁϩ ⲛϭⲓⲙⲡⲁⲑⲟⲥ .
 1-2	ⲡⲉϫⲁϥ	_	_	_	_	_	_	_	_
-1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	VerbForm=Fin	0	root	_	_
+1	ⲡⲉϫⲁ	ⲡⲉϫⲉ	VERB	VBD	Mood=Ind|VerbForm=Fin	0	root	_	_
 2	ϥ	ⲛⲧⲟϥ	PRON	PPERS	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
 3	ⲇⲉ	ⲇⲉ	PART	PTC	Foreign=Yes	1	advmod	_	OrigLang=grc
 4-5	ⲛⲁϥ	_	_	_	_	_	_	_	_
@@ -355,8 +355,8 @@
 5	ϥ	ⲛⲧⲟϥ	PRON	PPERO	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
 6-7	ⲛϭⲓⲁⲡⲁ	_	_	_	_	_	_	_	_
 6	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	7	case	_	Orig=ⲛ̇ϭⲓ
-7	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	1	dislocated	_	Entity=(person|Orig=ⲁ̇ⲡⲁ|OrigLang=he
-8	ⲁⲃⲣⲁϩⲁⲙ	ⲁⲃⲣⲁϩⲁⲙ	PROPN	NPROP	Foreign=Yes	7	flat	_	Entity=person)|Orig=ⲁ̇ⲃⲣⲁϩⲁⲙ|OrigLang=he
+7	ⲁⲡⲁ	ⲁⲡⲁ	NOUN	N	Foreign=Yes	1	dislocated	_	Entity=(person|Orig=ⲁ̇ⲡⲁ|OrigLang=heb
+8	ⲁⲃⲣⲁϩⲁⲙ	ⲁⲃⲣⲁϩⲁⲙ	PROPN	NPROP	Foreign=Yes	7	flat	_	Entity=person)|Orig=ⲁ̇ⲃⲣⲁϩⲁⲙ|OrigLang=heb
 9	·	·	PUNCT	PUNCT	_	14	punct	_	_
 10-11	ϫⲉϩⲱⲥⲧⲉ	_	_	_	_	_	_	_	_
 10	ϫⲉ	ϫⲉ	SCONJ	CONJ	_	14	mark	_	_
@@ -364,7 +364,7 @@
 12	ϭⲉ	ϭⲉ	PART	PTC	_	14	advmod	_	_
 13-14	ⲥⲉⲟⲛⲁϩ	_	_	_	_	_	_	_	_
 13	ⲥⲉ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
-14	ⲟⲛⲁϩ	ⲱⲛϩ	VERB	VSTAT	VerbForm=Fin	1	advcl	_	Orig=ⲟ̇ⲛⲁϩ
+14	ⲟⲛⲁϩ	ⲱⲛϩ	VERB	VSTAT	Mood=Ind|VerbForm=Fin	1	advcl	_	Orig=ⲟ̇ⲛⲁϩ
 15-17	ⲛϭⲓⲙⲡⲁⲑⲟⲥ	_	_	_	_	_	_	_	_
 15	ⲛϭⲓ	ⲛϭⲓ	PART	PTC	_	17	case	_	Orig=ⲛ̇ϭⲓ̇
 16	ⲙ	ⲛ	ADP	PREP	_	17	det	_	Orig=ⲙ̇
@@ -378,14 +378,14 @@
 2-4	ⲉⲩⲙⲏⲣ	_	_	_	_	_	_	_	_
 2	ⲉ	ⲉⲣⲉ	PART	CFOC	_	4	mark	_	Orig=ⲉ̇
 3	ⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERS	Definite=Def|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
-4	ⲙⲏⲣ	ⲙⲟⲩⲣ	VERB	VSTAT	VerbForm=Fin	0	root	_	_
+4	ⲙⲏⲣ	ⲙⲟⲩⲣ	VERB	VSTAT	Mood=Ind|VerbForm=Fin	0	root	_	_
 5-6	ⲛⲧⲟⲟⲧⲟⲩ	_	_	_	_	_	_	_	_
 5	ⲛⲧⲟⲟⲧ	ⲛⲧⲛ	ADP	PREP	_	6	case	_	Orig=ⲛ̇ⲧⲟⲟ̇ⲧ
 6	ⲟⲩ	ⲛⲧⲟⲟⲩ	PRON	PPERO	Definite=Def|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
 7-10	ⲛⲛⲉⲧⲟⲩⲁⲁⲃ	_	_	_	_	_	_	_	_
 7	ⲛ	ⲛ	ADP	PREP	_	8	case	_	Orig=ⲛ̇
-8	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	4	dislocated	_	Entity=(person
+8	ⲛ	ⲡ	DET	ART	Definite=Def|Number=Plur|PronType=Art	4	obl	_	Entity=(person
 9	ⲉⲧ	ⲉⲧⲉⲣⲉ	SCONJ	CREL	_	10	mark	_	_
-10	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	VerbForm=Fin	8	acl:relcl	_	Entity=person)|Orig=ⲟⲩⲁ̇ⲁⲃ
+10	ⲟⲩⲁⲁⲃ	ⲟⲩⲟⲡ	VERB	VSTAT	Mood=Ind|VerbForm=Fin	8	acl:relcl	_	Entity=person)|Orig=ⲟⲩⲁ̇ⲁⲃ
 11	ⲻ	ⲻ	PUNCT	PUNCT	_	4	punct	_	_
 
