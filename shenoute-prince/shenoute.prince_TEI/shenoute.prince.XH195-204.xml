@@ -10,7 +10,7 @@
 </respStmt>
 <respStmt>
 <resp>annotation</resp>
-<name>Tamara Siuda, Lance Martin, Caroline T. Schroeder</name>
+<name>Tamara Siuda, Lance Martin, Philippe Zaher, Caroline T. Schroeder</name>
 </respStmt>
 <respStmt>
 <resp>translation</resp>
@@ -68,7 +68,7 @@
 	</langUsage>
 </profileDesc>
 <revisionDesc>
-	<change n="4.2.0" when="2021-09-23"></change>
+	<change n="6.2.0" when="2025-11-25"></change>
 </revisionDesc>
 
 </teiHeader>
@@ -1423,14 +1423,11 @@
 <w type="PPOS" lemma="ⲡⲉⲕ">
 ⲛⲉⲕ
 </w>
-<w type="N" lemma="ⲃⲟⲧ">
-ⲃⲟⲧ
+<w type="N" lemma="ⲃⲟⲧⲉ">
+ⲃⲟⲧⲉ
 </w>
 </phr>
 <phr>
-<w type="PREP" lemma="ⲉ">
-ⲉ
-</w>
 <w type="V" lemma="ⲡⲱⲱⲛⲉ">
 ⲡⲱ
 <lb n="18"/>
@@ -2854,16 +2851,13 @@
 </w>
 </phr>
 <phr>
-<w type="PREP" lemma="ⲛ">
-ⲛ
-</w>
-<w type="PINT" lemma="ⲟⲩ">
-ⲟⲩ
+<w type="PPOS" lemma="ⲡⲟⲩⲕ">
+ⲛⲟⲩⲕ
 </w>
 </phr>
 <phr>
-<w type="CONJ" lemma="ⲕⲁⲛ">
-ⲕⲁⲛ
+<w type="NEG" lemma="ⲁⲛ">
+ⲁⲛ
 </w>
 </phr>
 <lb n="10"/>
@@ -3501,11 +3495,17 @@
 <w type="PREP" lemma="ⲉ">
 ⲉ
 </w>
-<w type="PPOS" lemma="ϥⲓⲛⲧⲉϥ">
-ϥⲓⲛ̄ⲧⲉϥ
+<w type="PPOS" lemma="ϥⲓ">
+ϥⲓ
 </w>
 </phr>
 <phr>
+<w type="PREP" lemma="ⲛ">
+ⲛ̄
+</w>
+<w type="PPOS" lemma="ⲡⲉϥ">
+ⲧⲉϥ
+</w>
 <w type="N" lemma="ⲯⲩⲭⲏ" xml:lang="Greek">
 ⲯⲩ
 <lb n="14"/>
@@ -5819,9 +5819,7 @@
 <w type="PPOS" lemma="ⲡⲉⲕ">
 ⲛⲉⲕ
 </w>
-</phr>
 <lb n="24"/>
-<phr>
 <w type="ART" lemma="ⲕⲉ">
 ⲕⲉ
 </w>
@@ -5961,8 +5959,13 @@
 <w type="ART" lemma="ⲟⲩ">
 ⲟⲩ
 </w>
-<w type="N" lemma="ϩⲩⲗⲏⲧⲉ" xml:lang="Greek">
-ϩⲩⲗⲏⲧⲉ⳿
+<w type="N" lemma="ϩⲩⲗⲏ" xml:lang="Greek">
+ϩⲩⲗⲏ
+</w>
+</phr>
+<phr>
+<w type="COP" lemma="ⲡⲉ">
+ⲧⲉ⳿
 </w>
 </phr>
 <phr>
@@ -6921,7 +6924,7 @@
 ⲛ̄
 </w>
 <lb n="3"/>
-<w type="N" lemma="ⲣⲉϥⲣϩⲱⲃⲉ">
+<w type="N" lemma="ⲛⲣⲉϥⲣϩⲱⲃ">
 <m>
 ⲣⲉϥ
 </m>
@@ -6929,11 +6932,14 @@
 ⲣ̂
 </m>
 <m>
-ϩⲱⲃⲉ
+ϩⲱⲃ
 </m>
 </w>
 </phr>
 <phr>
+<w type="PREP" lemma="ⲉ">
+ⲉ
+</w>
 <w type="ART" lemma="ⲡ">
 ⲡ
 </w>
@@ -7178,14 +7184,14 @@
 <s style="...">
 <lb n="17"/>
 <phr>
-<w type="PPERS" lemma="ⲁⲛⲟⲕ">
+<w type="VIMP" lemma="ⲛⲁⲩ">
 <hi rend="ekthetic large">
 ⲁ
 </hi>
-</w>
-<w type="V" lemma="ⲛⲁⲩ">
 ⲛⲁⲩ
 </w>
+</phr>
+<phr>
 <w type="CONJ" lemma="ϫⲉ">
 ϫⲉ
 </w>
@@ -8165,11 +8171,21 @@
 <w type="N" lemma="ⲥⲟⲡ">
 ⲥⲟⲡ
 </w>
+</phr>
 <lb n="14"/>
-<w type="EXIST" lemma="ⲙⲉⲛⲉⲕ">
-ⲙⲉⲛ̂ⲉⲕ
+<phr>
+<w type="PTC" lemma="ⲙⲉⲛ">
+ⲙⲉⲛ̂
 </w>
-<w type="N" lemma="ⲡⲓⲑⲉ">
+</phr>
+<phr>
+<w type="CFOC" lemma="ⲉⲣⲉ">
+ⲉ
+</w>
+<w type="PPERS" lemma="ⲛⲧⲟⲕ">
+ⲕ
+</w>
+<w type="V" lemma="ⲡⲉⲓⲑⲉ">
 ⲡⲓⲑⲉ⳿
 </w>
 </phr>
@@ -8344,16 +8360,11 @@
 </w>
 </phr>
 <phr>
-<w type="PREP" lemma="ⲛⲁ">
+<w type="FUT" lemma="ⲛⲁ">
 ⲛⲁ
 </w>
-<w type="PPERO" lemma="ⲛⲧⲟⲕ">
-ⲕ
-</w>
-</phr>
-<phr>
-<w type="PTC" lemma="ⲱ" xml:lang="Greek">
-ⲱ̂
+<w type="V" lemma="ⲕⲱ">
+ⲕⲱ̂
 </w>
 </phr>
 <lb n="26"/>
@@ -9984,15 +9995,18 @@
 <w type="PPERS" lemma="ⲛⲧⲟⲟⲩ">
 ⲩ
 </w>
-<w type="PPOS" lemma="ⲡⲉⲕ">
+<w type="V" lemma="ⲧⲱⲕ">
 ⲧⲉⲕ︤
 </w>
-<w type="N" lemma="ϥⲉ">
-ϥ︥ⲉ
+<w type="PPERO" lemma="ⲛⲧⲟϥ">
+'ϥ︥
 </w>
 </phr>
-<lb n="28"/>
 <phr>
+<w type="PREP" lemma="ϥⲉ">
+ⲉ
+</w>
+<lb n="28"/>
 <w type="ART" lemma="ⲡ">
 ⲡ
 </w>
