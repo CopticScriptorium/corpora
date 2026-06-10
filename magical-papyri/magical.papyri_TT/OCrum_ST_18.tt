@@ -1,4 +1,4 @@
-<meta annotation="Markéta Preininger, Edward O. D. Love, Lance Martin, Caroline T. Schroeder, Amir Zeldes" author="unknown" collection="Ancient Egyptian Collection" Coptic_edition="KYP T344, O. Crum ST 18" copyist="Frange" corpus="magical.papyri" country="Egypt" document_cts_urn="urn:cts:copticMag:kyprianos.ocrum_st_18.kypt344" entities="checked" identities="checked" idno="A.1956.318" kyprianos_manuscripts="KYP M135" kyprianos_texts="KYP T344" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msItem_title="Amulet by Frange for the protection of the monastery's monks and animals" msName="National Museum of Scotland A.1956.318" note="Complete" objectType="Ostracon (limestone)" order="02" origDate="between 701 and 750 C.E." origDate_notAfter="0750" origDate_notBefore="0701" origDate_precision="high" origPlace="Sheikh Abd el-Qurna West Bank of Luxor" pages_from="01" pages_to="02" parsing="automatic" people="Abraham; Isaac; Jacob; Jesus" placeName="West Bank of Luxor" places="none" project="Coptic SCRIPTORIUM, Coptic Magical Papyri" redundant="no" repository="National Museum of Scotland" segmentation="checked" source="&lt;a href='https://www.coptic-magic.phil.uni-wuerzburg.de/index.php/text/kyp-t-344/'&gt;T344&lt;/a&gt;" source_info="&lt;a href='https://www.coptic-magic.phil.uni-wuerzburg.de/'&gt;Kyprianos Database of Ancient Ritual Texts&lt;/a&gt;" tagging="checked" title="Amulet by Frange for the protection of the monastery's monks and animals" translation="Korshi Dosoo, Edward O. D. Love, Markéta Preininger" Trismegistos="111157" version_date="2021-03-31" version_n="4.1.0" witness="unique">
+<meta annotation="Markéta Preininger, Edward O. D. Love, Lance Martin, Caroline T. Schroeder, Amir Zeldes" author="unknown" collection="Ancient Egyptian Collection" Coptic_edition="KYP T344, O. Crum ST 18" copyist="Frange" corpus="magical.papyri" country="Egypt" document_cts_urn="urn:cts:copticMag:kyprianos.ocrum_st_18.kypt344" entities="checked" identities="checked" idno="A.1956.318" kyprianos_manuscripts="KYP M135" kyprianos_texts="KYP T344" language="Sahidic Coptic" license="&lt;a href='https://creativecommons.org/licenses/by/4.0/'&gt;CC-BY 4.0&lt;/a&gt;" msItem_title="Amulet by Frange for the protection of the monastery's monks and animals" msName="National Museum of Scotland A.1956.318" note="Complete" objectType="Ostracon (limestone)" origDate="between 701 and 750 C.E." origDate_notAfter="0750" origDate_notBefore="0701" origDate_precision="high" origPlace="Sheikh Abd el-Qurna West Bank of Luxor" pages_from="01" pages_to="02" parsing="automatic" people="Abraham; Isaac; Jacob; Jesus" placeName="West Bank of Luxor" places="none" project="Coptic SCRIPTORIUM, Coptic Magical Papyri" redundant="no" repository="National Museum of Scotland" segmentation="checked" source="&lt;a href='https://www.coptic-magic.phil.uni-wuerzburg.de/index.php/text/kyp-t-344/'&gt;T344&lt;/a&gt;" source_info="&lt;a href='https://www.coptic-magic.phil.uni-wuerzburg.de/'&gt;Kyprianos Database of Ancient Ritual Texts&lt;/a&gt;" tagging="checked" title="Amulet by Frange for the protection of the monastery's monks and animals" translation="Korshi Dosoo, Edward O. D. Love, Markéta Preininger" Trismegistos="111157" version_date="2026-06-08" version_n="6.3.0" witness="unique">
 <chapter_n chapter_n="1">
 <pb_xml_id pb_xml_id="r">
 <cb_n cb_n="1">
@@ -79,7 +79,7 @@
 </norm>
 </orig>
 <orig orig="ⲟⲛ̅ϩ">
-<norm xml:id="u10" func="acl" head="#u8" pos="VSTAT" lemma="ⲱⲛϩ" norm="ⲟⲛϩ">
+<norm xml:id="u10" func="acl:relcl" head="#u8" pos="VSTAT" lemma="ⲱⲛϩ" norm="ⲟⲛϩ">
 ⲟⲛ̅ϩ
 </norm>
 </orig>
@@ -180,8 +180,8 @@
 </norm_group>
 </orig_group>
 </lb_n>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="2">
 <translation translation="and may you bless them with the blessing of Abraham and Isaac and Jacob!">
 <lb_n lb_n="7">
@@ -299,8 +299,8 @@
 </norm_group>
 </orig_group>
 </entity>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="3">
 <translation translation="Frange writes with his hand.">
 <orig_group orig_group="ϥⲣⲁⲛⲅⲉ">
@@ -346,7 +346,7 @@
 </orig>
 <entity head_tok="#u43" text="ⲧⲉϥ ϭⲓϫ" entity="object">
 <orig orig="ⲧⲉϥ">
-<norm xml:id="u42" func="det" head="#u43" pos="PPOS" lemma="ⲡⲉϥ" norm="ⲧⲉϥ">
+<norm xml:id="u42" func="nmod:poss" head="#u43" pos="PPOS" lemma="ⲡⲉϥ" norm="ⲧⲉϥ">
 ⲧⲉϥ
 </norm>
 </orig>
@@ -361,8 +361,8 @@
 </entity>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 </cb_n>
 </pb_xml_id>
 <pb_xml_id pb_xml_id="v">
@@ -373,7 +373,7 @@
 <orig_group orig_group="+̣">
 <norm_group norm_group="+">
 <orig orig="+̣">
-<norm xml:id="u44" func="dislocated" new_sent="true" pos="PUNCT" lemma="+" norm="+">
+<norm xml:id="u44" func="punct" new_sent="true" pos="PUNCT" lemma="+" norm="+">
 +̣
 </norm>
 </orig>
@@ -383,7 +383,7 @@
 <orig_group orig_group="ⲓ̅ⲥ̅">
 <norm_group norm_group="ⲓⲏⲥⲟⲩⲥ">
 <orig orig="ⲓ̅ⲥ̅">
-<norm xml:id="u45" func="appos" head="#u44" pos="NPROP" lemma="ⲓⲏⲥⲟⲩⲥ" norm="ⲓⲏⲥⲟⲩⲥ">
+<norm xml:id="u45" func="dislocated" head="#u59" pos="NPROP" lemma="ⲓⲏⲥⲟⲩⲥ" norm="ⲓⲏⲥⲟⲩⲥ">
 <lang lang="Hebrew">
 ⲓ̅ⲥ̅
 </lang>
@@ -399,7 +399,7 @@
 </norm>
 </orig>
 <orig orig="ⲭ̅ⲥ̅">
-<norm xml:id="u47" func="appos" head="#u44" pos="N" lemma="ⲭⲣⲓⲥⲧⲟⲥ" norm="ⲭⲣⲓⲥⲧⲟⲥ">
+<norm xml:id="u47" func="appos" head="#u45" pos="N" lemma="ⲭⲣⲓⲥⲧⲟⲥ" norm="ⲭⲣⲓⲥⲧⲟⲥ">
 <lang lang="Greek">
 ⲭ̅ⲥ̅
 </lang>
@@ -417,7 +417,7 @@
 </norm>
 </orig>
 <orig orig="ϣⲏⲣⲉ">
-<norm xml:id="u49" func="appos" head="#u47" pos="N" lemma="ϣⲏⲣⲉ" norm="ϣⲏⲣⲉ">
+<norm xml:id="u49" func="appos" head="#u45" pos="N" lemma="ϣⲏⲣⲉ" norm="ϣⲏⲣⲉ">
 ϣⲏⲣⲉ
 </norm>
 </orig>
@@ -448,7 +448,7 @@
 <orig_group orig_group="‧">
 <norm_group norm_group="‧">
 <orig orig="‧">
-<norm xml:id="u53" func="appos" pos="PUNCT" lemma="‧" norm="‧">
+<norm xml:id="u53" func="punct" pos="PUNCT" lemma="‧" norm="‧">
 ‧
 </norm>
 </orig>
@@ -462,7 +462,7 @@
 </norm>
 </orig>
 <orig orig="ⲟⲛ̅ϩ̅">
-<norm xml:id="u55" func="acl" head="#u53" pos="VSTAT" lemma="ⲱⲛϩ" norm="ⲟⲛϩ">
+<norm xml:id="u55" func="acl:relcl" head="#u49" pos="VSTAT" lemma="ⲱⲛϩ" norm="ⲟⲛϩ">
 ⲟⲛ̅ϩ̅
 </norm>
 </orig>
@@ -560,7 +560,7 @@
 </lb_n>
 <lb_n lb_n="7">
 <orig orig="ⲥⲏϩ">
-<norm xml:id="u68" func="acl" head="#u64" pos="VSTAT" lemma="ⲥϩⲁⲓ" norm="ⲥⲏϩ">
+<norm xml:id="u68" func="acl:relcl" head="#u64" pos="VSTAT" lemma="ⲥϩⲁⲓ" norm="ⲥⲏϩ">
 ⲥⲏϩ
 </norm>
 </orig>
@@ -569,7 +569,7 @@
 <orig_group orig_group="‧">
 <norm_group norm_group="‧">
 <orig orig="‧">
-<norm xml:id="u69" func="advmod" pos="PUNCT" lemma="‧" norm="‧">
+<norm xml:id="u69" func="punct" pos="PUNCT" lemma="‧" norm="‧">
 ‧
 </norm>
 </orig>
@@ -611,8 +611,8 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
 <verse_n verse_n="5">
 <translation translation="Have mercy on us in love, O Lord, Jesus Christ!">
 <orig_group orig_group="ⲛⲁ̇">
@@ -632,7 +632,7 @@
 </norm>
 </orig>
 <orig orig="ⲛ">
-<norm xml:id="u76" func="obj" head="#u78" pos="PPERO" lemma="ⲛ" norm="ⲛ">
+<norm xml:id="u76" func="obl" head="#u74" pos="PPERO" lemma="ⲛ" norm="ⲛ">
 ⲛ
 </norm>
 </orig>
@@ -649,7 +649,7 @@
 </orig>
 <entity head_tok="#u78" text="ⲁⲅⲁⲡⲏ" entity="abstract">
 <orig orig="ⲅⲁⲡⲏ">
-<norm xml:id="u78" func="obl" head="#u74" pos="N" lemma="ⲁⲅⲁⲡⲏ" norm="ⲁⲅⲁⲡⲏ">
+<norm xml:id="u78" func="vocative" head="#u74" pos="N" lemma="ⲁⲅⲁⲡⲏ" norm="ⲁⲅⲁⲡⲏ">
 <lang lang="Greek">
 ⲅⲁⲡⲏ
 </lang>
@@ -661,7 +661,7 @@
 <orig_group orig_group="‧">
 <norm_group norm_group="‧">
 <orig orig="‧">
-<norm xml:id="u79" func="case" pos="PUNCT" lemma="‧" norm="‧">
+<norm xml:id="u79" func="punct" pos="PUNCT" lemma="‧" norm="‧">
 ‧
 </norm>
 </orig>
@@ -678,7 +678,7 @@
 </norm>
 </orig>
 <orig orig="ϫⲟⲉⲓⲥ">
-<norm xml:id="u81" func="nmod" head="#u78" pos="N" lemma="ϫⲟⲉⲓⲥ" norm="ϫⲟⲉⲓⲥ">
+<norm xml:id="u81" func="appos" head="#u78" pos="N" lemma="ϫⲟⲉⲓⲥ" norm="ϫⲟⲉⲓⲥ">
 ϫⲟⲉⲓⲥ
 </norm>
 </orig>
@@ -698,7 +698,7 @@
 <orig_group orig_group="ⲓ̅ⲥ̅">
 <norm_group norm_group="ⲓⲏⲥⲟⲩⲥ">
 <orig orig="ⲓ̅ⲥ̅">
-<norm xml:id="u83" func="vocative" head="#u74" pos="NPROP" lemma="ⲓⲏⲥⲟⲩⲥ" norm="ⲓⲏⲥⲟⲩⲥ">
+<norm xml:id="u83" func="appos" head="#u78" pos="NPROP" lemma="ⲓⲏⲥⲟⲩⲥ" norm="ⲓⲏⲥⲟⲩⲥ">
 <lang lang="Hebrew">
 ⲓ̅ⲥ̅
 </lang>
@@ -733,8 +733,8 @@
 </norm_group>
 </orig_group>
 </lb_n>
-</verse_n>
 </translation>
+</verse_n>
 <lb_n lb_n="11">
 <verse_n verse_n="6">
 <translation translation="Mary bore Christ! (or: God is help!)">
@@ -760,23 +760,23 @@
 </orig>
 </norm_group>
 </orig_group>
-</verse_n>
 </translation>
+</verse_n>
+<verse_n verse_n="7">
+<translation translation="Amen!">
 <orig_group orig_group="ϥⲑ">
 <norm_group norm_group="ϥⲑ">
 <orig orig="ϥⲑ">
 <norm xml:id="u89" func="root" new_sent="true" pos="PTC" lemma="ⲁⲙⲏⲛ" norm="ϥⲑ">
 <lang lang="Hebrew">
-<verse_n verse_n="7">
-<translation translation="Amen!">
 ϥⲑ
-</verse_n>
-</translation>
 </lang>
 </norm>
 </orig>
 </norm_group>
 </orig_group>
+</translation>
+</verse_n>
 </lb_n>
 </cb_n>
 </pb_xml_id>

@@ -1,0 +1,65 @@
+div.htmlvis {
+font-family: Antinoou, sans-serif; width: 500px; white-space: normal !important;
+}
+
+.entity_list{background-color:#ffffb4; font-style: italic; width: 100%; margin-bottom: 3px}
+.entity_list:before{content: "Named entities: "; font-weight: bold; font-style: normal}
+.norm{ white-space: inherit; }
+.norm:after{content: " ";}
+.named {display:inline-block}
+.entity{display:inline-block;border: 1px solid; margin-right: 2px; margin-left: 2px;padding-right:3px; margin-bottom: 2px; margin-top: 2px;}
+.named > .entity{border-style: solid !important; background-color: rgba(255, 240, 6, 0.5);} /*outline: 1px solid; outline-offset:-3px; */
+.entity[entity_type="person"]{border-color: blue !important;outline-color: black !important}
+.entity[entity_type="place"]{border-color: red !important;outline-color: black !important}
+.entity[entity_type="abstract"]{border-color: cyan !important;outline-color: black !important}
+.entity[entity_type="object"]{border-color: green !important;outline-color: black !important}
+.entity[entity_type="time"]{border-color: pink !important;outline-color: black !important}
+.entity[entity_type="event"]{border-color: gold !important;outline-color: black !important}
+.entity[entity_type="substance"]{border-color: purple !important;outline-color: black !important}
+.entity[entity_type="organization"]{border-color: brown !important;outline-color: black !important}
+.entity[entity_type="animal"]{border-color: orange !important;outline-color: black !important}
+.entity[entity_type="plant"]{border-color: magenta !important;outline-color:  black !important}
+.entity[entity_type="person"]:before{font-family: FontAwesome; color: gray; content: "\f183"; vertical-align: middle; position: relative; top: -12px; font-size: 70%; margin-right: 2px; margin-left: 2px; padding-left:1px}
+.entity[entity_type="place"]:before{font-family: FontAwesome; color: gray; content: "\f041"; vertical-align: middle; position: relative; top: -12px; font-size: 70%; margin-right: 2px; margin-left: 2px; padding-left:1px}
+.entity[entity_type="abstract"]:before{font-family: FontAwesome; color: gray; content: "\f0c2"; vertical-align: middle; position: relative; top: -12px; font-size: 70%; margin-right: 2px; margin-left: 2px; padding-left:1px}
+.entity[entity_type="object"]:before{font-family: FontAwesome; color: gray; content: "\f1b2"; vertical-align: middle; position: relative; top: -12px; font-size: 70%; margin-right: 2px; margin-left: 2px; padding-left:1px}
+.entity[entity_type="time"]:before{font-family: FontAwesome; color: gray; content: "\f017"; vertical-align: middle; position: relative; top: -12px; font-size: 70%; margin-right: 2px; margin-left: 2px; padding-left:1px}
+.entity[entity_type="event"]:before{font-family: FontAwesome; color: gray; content: "\f0f3"; vertical-align: middle; position: relative; top: -12px; font-size: 70%; margin-right: 2px; margin-left: 2px; padding-left:1px}
+.entity[entity_type="substance"]:before{font-family: FontAwesome; color: gray; content: "\f0c3"; vertical-align: middle; position: relative; top: -12px; font-size: 70%; margin-right: 2px; margin-left: 2px; padding-left:1px}
+.entity[entity_type="organization"]:before{font-family: FontAwesome; color: gray; content: "\f19c"; vertical-align: middle; position: relative; top: -12px; font-size: 70%; margin-right: 2px; margin-left: 2px; padding-left:1px}
+.entity[entity_type="animal"]:before{font-family: FontAwesome; color: gray; content: "\f1b0"; vertical-align: middle; position: relative; top: -12px; font-size: 70%; margin-right: 2px; margin-left: 2px; padding-left:1px}
+.entity[entity_type="plant"]:before{font-family: FontAwesome; color: gray; content: "\f18c"; vertical-align: middle; position: relative; top: -12px; font-size: 70%; margin-right: 2px; margin-left: 2px; padding-left:1px}
+.identity {display: inline; padding-top: 3px;}
+.identity .wikify:before{font-family: FontAwesome; color: gray; content: "\f266"; vertical-align: middle; position: relative; top: -12px; font-size: 70%; margin-right: 2px; text-decoration: none} /*; top: -6px; position: relative;}*/
+.wikify {text-decoration: none}
+.wikify:hover{color:blue !important; text-decoration:underline}
+.wikify:hover:before{color:blue !important}
+
+
+
+
+div.htmlvis {
+font-family: Antinoou, sans-serif; font-size: 12pt; width: 600px; white-space: normal !important;
+}
+div.translation:after{content:"\A"attr(trans)"\A\A"; display: block;  padding-bottom: 20px; font-style: italic; color: blue; white-space: normal}
+.copt_word:after{content: " "; font-style: normal}
+.copt_word{font-style: normal}
+i.copt_word > ruby.norm:only-of-type:after{content: "" !important;}
+div > ruby.norm:after{content: "" !important;}
+div.entity > ruby.norm:after{content: "" !important;}
+div.entity > ruby.norm:last-of-type:after{content: "" !important;}
+i.copt_word > ruby.norm:last-of-type:after{content: "" !important;}
+.pos:after{color: grey; content:attr(pos);}
+.p:before{content:attr(n)". "; font-weight: bold}
+ruby {ruby-overhang: none; ruby-align: distribute-space; padding-left: 3px; padding-right:3px}
+ruby:hover rt:after{color:red;}
+ruby.norm:after{content: "";}
+
+
+.page:before{color: blue; font-style: italic; content: " [p. " attr(page) "] ";}
+.norm a{text-decoration: none !important; color:inherit}
+.norm a:hover{text-decoration: underline !important; color: blue}
+div.verse{display: inline; padding-top: 6px; padding-bottom: 6px;}
+div.verse:before{content: "(" attr(verse) ") "; font-weight:bold}
+div.chapter{display: block; padding-top: 6px; padding-bottom: 6px; }/*text-indent: -15px; padding-left: 15px;}*/
+div.chapter:before{display: inline-block; content: "[C." attr(chapter) "] "; font-weight:bold}
