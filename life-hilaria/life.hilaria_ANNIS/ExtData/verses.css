@@ -1,0 +1,18 @@
+div.htmlvis {
+font-family: Antinoou, sans-serif; width: 500px; white-space: normal !important;
+}
+/*#.line{display: block; white-space:nowrap; }
+#.line:before{content:attr(line)": ";}*/
+.translation:hover{color: red}
+/*#.rend{font-size: x-large;}
+#.person{color:red;}
+.place{color:blue;}*/
+.word{ white-space: inherit; }
+.word:after{content: " ";}
+.page:before{color: blue; font-style: italic; content: " [" attr(page) "] ";}
+.norm a{text-decoration: none !important; color:inherit}
+.norm a:hover{text-decoration: underline !important; color: blue}
+div.verse{display: inline; padding-top: 6px; padding-bottom: 6px;}
+div.verse:before{content: "(" attr(verse) ") "; font-weight:bold}
+div.chapter{display: block; padding-top: 6px; padding-bottom: 6px; text-indent: -15px; padding-left: 15px;}
+div.chapter:before{content: "Chapter " attr(chapter) ": "; font-weight:bold}

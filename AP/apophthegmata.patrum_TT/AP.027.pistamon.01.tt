@@ -460,7 +460,7 @@
 <orig_group orig_group="·">
 <norm_group norm_group=".">
 <orig orig="·">
-<norm xml:id="u58" func="punct" head="#u52" pos="PUNCT" lemma="." norm=".">
+<norm xml:id="u58" func="punct" head="#u33" pos="PUNCT" lemma="." norm=".">
 ·
 </norm>
 </orig>
@@ -478,7 +478,7 @@
 <norm_group norm_group="ⲡⲁⲓ">
 <entity head_tok="#u59" text="ⲡⲁⲓ" entity="abstract">
 <orig orig="ⲡⲁⲓ̇">
-<norm xml:id="u59" func="nsubj" head="#u62" pos="PDEM" lemma="ⲡⲁⲓ" norm="ⲡⲁⲓ">
+<norm xml:id="u59" func="nsubj" head="#u62" new_sent="true" pos="PDEM" lemma="ⲡⲁⲓ" norm="ⲡⲁⲓ">
 ⲡⲁⲓ̇
 </norm>
 </orig>
@@ -501,7 +501,7 @@
 </norm>
 </orig>
 <orig orig="ⲟ̇ⲥⲉ">
-<norm xml:id="u62" func="parataxis" head="#u52" pos="N" lemma="ⲟⲥⲉ" norm="ⲟⲥⲉ">
+<norm xml:id="u62" func="root" pos="N" lemma="ⲟⲥⲉ" norm="ⲟⲥⲉ">
 ⲟ̇ⲥⲉ
 </norm>
 </orig>
@@ -529,7 +529,7 @@
 <orig_group orig_group="ⲻ">
 <norm_group norm_group=".">
 <orig orig="ⲻ">
-<norm xml:id="u65" func="punct" head="#u33" pos="PUNCT" lemma="." norm=".">
+<norm xml:id="u65" func="punct" head="#u62" pos="PUNCT" lemma="." norm=".">
 <hi_rend hi_rend="red">
 ·ⲻ
 </hi_rend>
@@ -685,7 +685,7 @@
 <orig_group orig_group="Ⲉⲕϣⲁⲛⲟⲩⲱ̇ϣ">
 <norm_group norm_group="ⲉⲕϣⲁⲛⲟⲩⲱϣ">
 <orig orig="Ⲉⲕϣⲁⲛ">
-<norm xml:id="u82" func="nsubj" head="#u83" pos="ACOND_PPERS" lemma="ⲉⲣϣⲁⲛ_ⲛⲧⲟⲕ" norm="ⲉⲕϣⲁⲛ">
+<norm xml:id="u82" func="nsubj" head="#u83" new_sent="true" pos="ACOND_PPERS" lemma="ⲉⲣϣⲁⲛ_ⲛⲧⲟⲕ" norm="ⲉⲕϣⲁⲛ">
 <hi_rend hi_rend="large red ekthetic">
 Ⲉ
 </hi_rend>
@@ -790,7 +790,7 @@
 <orig_group orig_group="ⲛ̇ⲧⲟⲕ">
 <norm_group norm_group="ⲛⲧⲟⲕ">
 <orig orig="ⲛ̇ⲧⲟⲕ">
-<norm xml:id="u94" func="parataxis" head="#u71" pos="PPERI" lemma="ⲛⲧⲟⲕ" norm="ⲛⲧⲟⲕ">
+<norm xml:id="u94" func="root" pos="PPERI" lemma="ⲛⲧⲟⲕ" norm="ⲛⲧⲟⲕ">
 ⲛ̇ⲧⲟⲕ
 </norm>
 </orig>
@@ -891,7 +891,7 @@
 <orig_group orig_group="·ⲻ">
 <norm_group norm_group=".">
 <orig orig="·ⲻ">
-<norm xml:id="u106" func="punct" head="#u71" pos="PUNCT" lemma="." norm=".">
+<norm xml:id="u106" func="punct" head="#u94" pos="PUNCT" lemma="." norm=".">
 <hi_rend hi_rend="red">
 ·ⲻ
 </hi_rend>
@@ -1122,9 +1122,9 @@
 </translation>
 </verse_n>
 <verse_n verse_n="7">
-<translation translation="The old man answered, 'Even if you have everything, do not give up on your handiwork.">
+<translation translation="The old man answered, 'Even if you have everything, do not give up on your handiwork; Whatever you are able to do, do it—just don't worry about it.'">
 <vid_n vid_n="urn:cts:copticLit:ap.27.monbeg:1.7">
-<arabic arabic=".أَجَابَ اَلشَّيْخُ: 'حَتَّى لَوْ كُنْتَ تَمْلِك كُلَّ شَئٍِ فَلاَ تَتْرُك الْعَمَلَ اَلْيَدَوِيّ">
+<arabic arabic="'أَجَابَ اَلشَّيْخُ: 'حَتَّى لَوْ كُنْتَ تَمْلِك كُلَّ شَئٍِ فَلاَ تَتْرُك الْعَمَلَ اَلْيَدَوِيّ; اَلَّذِي يُمْكِنُكَ أَنْ تَفْعَلَهَ, اِفْعَلْه, فَقَطْ لا قَلَق.">
 <lb_n lb_n="38">
 <orig_group orig_group="Ⲁϥⲟⲩⲱ̇ϣⲃ̇">
 <norm_group norm_group="ⲁϥⲟⲩⲱϣⲃ">
@@ -1299,14 +1299,6 @@
 </norm_group>
 </orig_group>
 </lb_n>
-</vid_n>
-</arabic>
-</translation>
-</verse_n>
-<verse_n verse_n="8">
-<translation translation="Whatever you are able to do, do it—just don't worry about it.'">
-<vid_n vid_n="urn:cts:copticLit:ap.27.monbeg:1.8">
-<arabic arabic=".اَلَّذِي يُمْكِنُكَ أَنْ تَفْعَلَهَ, اِفْعَلْه, فَقَطْ لا قَلَق">
 <entity head_tok="#u151" text="ⲡ ⲉⲧⲉ ⲟⲩⲛ ϭⲟⲙ ⲙⲙⲟ ⲕ ⲉ ⲁⲁ ϥ" entity="abstract">
 <lb_n lb_n="2">
 <orig_group orig_group="ⲡⲉⲧⲉⲟⲩⲛ̇ϭⲟⲙ">
@@ -1449,11 +1441,11 @@
 </norm_group>
 </orig_group>
 </lb_n>
+</cb_n>
+</pb_xml_id>
 </vid_n>
 </arabic>
 </translation>
 </verse_n>
-</cb_n>
-</pb_xml_id>
 </chapter_n>
 </meta>

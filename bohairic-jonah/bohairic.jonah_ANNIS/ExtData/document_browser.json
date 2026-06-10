@@ -1,0 +1,27 @@
+{
+    "visualizers": [
+        {
+          "type"  : "htmldoc", 
+          "displayName" :  "chapter view (document)", 
+          "mappings" : "config:sahidica"
+        },
+        {
+          "type"  : "htmldoc", 
+          "displayName" :  "linguistic analysis (document)", 
+          "mappings" : "config:analytic"
+        }
+    ],
+     "metaDataColumns" : [
+        {
+            "name" : "title"
+        },
+        {
+            "name" : "chapter"
+        }
+    ],
+    "orderBy" : [
+        {
+            "name" :"chapter",
+            "ascending" : "true"}
+    ]
+}
